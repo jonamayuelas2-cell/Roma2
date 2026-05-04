@@ -1,11 +1,13 @@
 /* ============================================================
-   app.js — Roma Eterna PWA
+   app.js — Multi-City Travel Guide PWA
    ============================================================ */
 
 'use strict';
 
 // ── Estado global ──────────────────────────────────────────
 const state = {
+  cities: [],
+  currentCity: null,
   places: [],
   filtered: [],
   activeTab: 'lugares',
@@ -17,10 +19,6 @@ const state = {
   selectedPlace: null,
   weather: null
 };
-
-// Coordenadas de Roma para el tiempo
-const ROMA_LAT = 41.9028;
-const ROMA_LNG = 12.4964;
 
 // ── Helpers ────────────────────────────────────────────────
 const $ = (sel, ctx = document) => ctx.querySelector(sel);
@@ -42,11 +40,102 @@ function getTypeLabel(tipo) {
   return labels[tipo] || tipo;
 }
 
-// ── Cargar datos ───────────────────────────────────────────
-async function loadPlaces() {
-  const res = await fetch('./lista.json');
-  state.places = await res.json();
-  state.filtered = [...state.places];
+// ── Carga de Ciudades ──────────────────────────────────────
+async function loadCities() {
+  try {
+    const res = await fetch('./cities.json');
+    state.cities = await res.json();
+    renderCityCarousel();
+  } catch (e) {
+    console.error("Error loading cities:", e);
+    $('#city-carousel').innerHTML = '<p class="error">Error al cargar destinos. Intenta de nuevo.</p>';
+  }
+}
+
+function renderCityCarousel() {
+  const container = $('#city-carousel');
+  if (!container) return;
+
+  container.innerHTML = state.cities.map(city => `
+    <div class="city-card-item" onclick="selectCity('${city.id}')">
+      <img src="${city.imagen}" alt="${city.nombre}" class="city-card-img" loading="lazy">
+      <div class="city-card-overlay">
+        <div class="city-card-name">${city.emoji} ${city.nombre}</div>
+        <div class="city-card-pais">${city.pais}</div>
+      </div>
+    </div>
+  `).join('');
+}
+
+// ── Selección de Ciudad ────────────────────────────────────
+async function selectCity(cityId) {
+  const city = state.cities.find(c => c.id === cityId);
+  if (!city) return;
+
+  state.currentCity = city;
+  
+  // Actualizar UI
+  $('#city-selection').style.display = 'none';
+  $('#main-app').style.display = 'block';
+  
+  // Actualizar Hero y Títulos
+  $('#app-title').innerHTML = `${city.nombre} <span class="logo-sub" id="app-subtitle">${city.pais} · Guía de Viaje</span>`;
+  $('#hero-title').textContent = `${city.emoji} Descubre ${city.nombre}`;
+  $('#hero-subtitle').textContent = `Lugares imprescindibles para vivir la experiencia en ${city.nombre}`;
+  
+  // Resetear filtros
+  state.search = '';
+  $('#search-input').value = '';
+  state.activeType = 'todos';
+  $$('.filter-chip').forEach(c => c.classList.toggle('active', c.dataset.type === 'todos'));
+
+  // Cargar lugares de la ciudad
+  await loadPlaces(cityId);
+  
+  // Resetear mapa si existe
+  if (state.map) {
+    state.map.remove();
+    state.map = null;
+  }
+  
+  // Ir a la pestaña de lugares por defecto
+  showTab('lugares');
+}
+
+function backToCitySelection() {
+  $('#main-app').style.display = 'none';
+  $('#city-selection').style.display = 'flex';
+  state.currentCity = null;
+  state.places = [];
+  state.filtered = [];
+  if (state.map) {
+    state.map.remove();
+    state.map = null;
+  }
+}
+
+// ── Cargar datos de lugares ────────────────────────────────
+async function loadPlaces(cityId) {
+  const container = $('#places-container');
+  container.innerHTML = '<div class="loading"><div class="spinner"></div> Cargando lugares...</div>';
+  
+  try {
+    const res = await fetch(`./data/${cityId}.json`);
+    if (!res.ok) throw new Error("No data for this city");
+    state.places = await res.json();
+    state.filtered = [...state.places];
+    updateResultsCount();
+    renderCurrentView();
+  } catch (e) {
+    console.error("Error loading places:", e);
+    container.innerHTML = `
+      <div class="empty-state">
+        <div class="empty-icon">📂</div>
+        <h3>Próximamente</h3>
+        <p>Estamos preparando la guía de ${state.currentCity.nombre}.<br>¡Vuelve pronto!</p>
+        <button class="btn-primary" onclick="backToCitySelection()" style="margin-top:1rem">Elegir otra ciudad</button>
+      </div>`;
+  }
 }
 
 // ── Filtrado ───────────────────────────────────────────────
@@ -78,7 +167,7 @@ function renderCards() {
   if (!state.filtered.length) { renderEmpty(container); return; }
   container.innerHTML = state.filtered.map((p, i) => `
     <div class="place-card" data-id="${p.id}" style="animation-delay:${i * 0.04}s" onclick="openModal(${p.id})">
-      <img class="card-img" src="${p.imagenCard}" alt="${p.nombre}" loading="lazy" onerror="this.src='https://picsum.photos/400/300?random=${p.id}'">
+      <img class="card-img" src="${p.imagenCard}" alt="${p.nombre}" loading="lazy" onerror="this.src='https://picsum.photos/400/300?seed=${p.id}_${state.currentCity.id}'">
       <div class="card-body">
         <span class="card-type type-${p.tipo}">${getTypeLabel(p.tipo)}</span>
         <div class="card-title">${p.nombre}</div>
@@ -99,7 +188,7 @@ function renderList() {
   if (!state.filtered.length) { renderEmpty(container); return; }
   container.innerHTML = state.filtered.map((p, i) => `
     <div class="list-item" style="animation-delay:${i * 0.04}s" onclick="openModal(${p.id})">
-      <img class="list-img" src="${p.imagenCard}" alt="${p.nombre}" loading="lazy" onerror="this.src='https://picsum.photos/400/300?random=${p.id}'">
+      <img class="list-img" src="${p.imagenCard}" alt="${p.nombre}" loading="lazy" onerror="this.src='https://picsum.photos/400/300?seed=${p.id}_${state.currentCity.id}'">
       <div class="list-body">
         <div class="list-title">${p.nombre}</div>
         <div class="list-meta">
@@ -120,20 +209,23 @@ function renderMap() {
   container.className = '';
   container.innerHTML = '<div id="map-container"></div>';
 
-  // Init map once
+  if (!state.currentCity) return;
+
+  // Init map
   if (!state.map) {
-    state.map = L.map('map-container').setView([ROMA_LAT, ROMA_LNG], 13);
+    state.map = L.map('map-container').setView([state.currentCity.lat, state.currentCity.lng], 13);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
       maxZoom: 19
     }).addTo(state.map);
+  } else {
+    state.map.setView([state.currentCity.lat, state.currentCity.lng], 13);
   }
 
   // Limpia markers
   state.markers.forEach(m => m.remove());
   state.markers = [];
 
-  // Iconos personalizados por tipo
   const typeColors = {
     cultura: '#e88', museos: '#88aaff', restaurantes: '#8ddb8d',
     barrios: '#c4a1f5', parques: '#88cc88', mercados: '#c9963c', cafes: '#cc9966'
@@ -193,7 +285,7 @@ function openModal(id) {
   overlay.id = 'modal-overlay';
   overlay.innerHTML = `
     <div class="modal" id="main-modal">
-      <img class="modal-img" src="${p.imagen}" alt="${p.nombre}" onerror="this.src='https://picsum.photos/800/600?random=${p.id}'">
+      <img class="modal-img" src="${p.imagen}" alt="${p.nombre}" onerror="this.src='https://picsum.photos/800/600?seed=${p.id}_${state.currentCity.id}'">
       <div class="modal-body">
         <div class="modal-header">
           <h2 class="modal-title">${p.nombre}</h2>
@@ -235,10 +327,10 @@ function sharePlace(id) {
   const p = state.places.find(x => x.id === id);
   if (!p) return;
 
-  const shareText = `🏛️ ¡Descubre ${p.nombre} en Roma!\n\n${p.descripcionCorta}\n\n📍 ${p.direccion}\n⭐ ${p.rating}/5 · 💶 ${p.precio}\n\n¡No te lo pierdas en tu visita a Roma! 🇮🇹`;
+  const cityName = state.currentCity ? state.currentCity.nombre : 'la ciudad';
+  const shareText = `🏛️ ¡Descubre ${p.nombre} en ${cityName}!\n\n${p.descripcionCorta}\n\n📍 ${p.direccion}\n⭐ ${p.rating}/5 · 💶 ${p.precio}`;
   const shareUrl = `https://maps.openstreetmap.org/?mlat=${p.lat}&mlon=${p.lng}&zoom=16`;
 
-  // Intentar Web Share API nativa
   if (navigator.share) {
     navigator.share({ title: p.nombre, text: shareText, url: shareUrl })
       .then(() => showToast('✅ ¡Compartido!'))
@@ -254,29 +346,24 @@ function showShareModal(p, shareText, shareUrl) {
   box.id = 'share-modal';
 
   const waText = encodeURIComponent(shareText + '\n' + shareUrl);
-  const mailSubj = encodeURIComponent(`🏛️ ${p.nombre} — Roma Eterna`);
+  const mailSubj = encodeURIComponent(`🏛️ ${p.nombre} — Guía de Viaje`);
   const mailBody = encodeURIComponent(shareText + '\n\n' + shareUrl);
-  const tgText = encodeURIComponent(shareText);
 
   box.innerHTML = `
     <div class="share-box">
       <h3>📤 Enviar a un amigo</h3>
-      <p>Comparte <strong style="color:var(--gold-light)">${p.nombre}</strong> con tus amigos</p>
+      <p>Comparte <strong style="color:var(--gold-light)">${p.nombre}</strong></p>
       <div class="share-options">
         <button class="share-option" onclick="window.open('https://wa.me/?text=${waText}','_blank')">
           <span class="share-option-icon">💬</span>WhatsApp
         </button>
-        <button class="share-option" onclick="window.open('https://t.me/share/url?url=${encodeURIComponent(shareUrl)}&text=${tgText}','_blank')">
+        <button class="share-option" onclick="window.open('https://t.me/share/url?url=${encodeURIComponent(shareUrl)}&text=${encodeURIComponent(shareText)}','_blank')">
           <span class="share-option-icon">✈️</span>Telegram
         </button>
         <button class="share-option" onclick="window.open('mailto:?subject=${mailSubj}&body=${mailBody}','_blank')">
           <span class="share-option-icon">📧</span>Email
         </button>
-        <button class="share-option" onclick="window.open('https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText + ' ' + shareUrl)}','_blank')">
-          <span class="share-option-icon">🐦</span>Twitter/X
-        </button>
       </div>
-      <p style="font-size:0.75rem;color:var(--text-muted);margin-bottom:0.5rem">O copia el enlace:</p>
       <div class="share-link-row">
         <input id="share-link-input" type="text" value="${shareUrl}" readonly>
         <button class="btn-primary" onclick="copyShareLink()">📋 Copiar</button>
@@ -285,15 +372,12 @@ function showShareModal(p, shareText, shareUrl) {
     </div>`;
 
   document.body.appendChild(box);
-  box.addEventListener('click', e => { if (e.target === box) closeShareModal(); });
 }
 
 function copyShareLink() {
   const input = $('#share-link-input');
   if (!input) return;
-  navigator.clipboard.writeText(input.value).then(() => showToast('📋 ¡Enlace copiado!')).catch(() => {
-    input.select(); document.execCommand('copy'); showToast('📋 ¡Enlace copiado!');
-  });
+  navigator.clipboard.writeText(input.value).then(() => showToast('📋 ¡Enlace copiado!'));
 }
 
 function closeShareModal() {
@@ -310,26 +394,27 @@ const WMO_CODES = {
   81:'🌧️ Chubascos moderados', 82:'⛈️ Chubascos fuertes', 95:'⛈️ Tormenta', 99:'⛈️ Tormenta con granizo'
 };
 
-function getWMO(code) { return WMO_CODES[code] || '🌡️ Variable'; }
 function getWMOIcon(code) { return (WMO_CODES[code] || '🌡️').split(' ')[0]; }
+function getWMO(code) { return WMO_CODES[code] || '🌡️ Variable'; }
 
 async function loadWeather() {
+  if (!state.currentCity) return;
   const container = $('#weather-container');
-  if (!container) return;
-  container.innerHTML = '<div class="loading"><div class="spinner"></div> Cargando datos meteorológicos...</div>';
+  container.innerHTML = '<div class="loading"><div class="spinner"></div> Cargando meteorología...</div>';
 
   try {
-    const url = `https://api.open-meteo.com/v1/forecast?latitude=${ROMA_LAT}&longitude=${ROMA_LNG}` +
+    const { lat, lng } = state.currentCity;
+    const url = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lng}` +
       `&current=temperature_2m,relative_humidity_2m,apparent_temperature,precipitation,weather_code,wind_speed_10m,uv_index` +
       `&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_sum,precipitation_probability_max,uv_index_max,wind_speed_10m_max` +
-      `&timezone=Europe%2FRome&forecast_days=8`;
+      `&timezone=auto&forecast_days=8`;
 
     const res = await fetch(url);
     const data = await res.json();
     state.weather = data;
     renderWeather(data);
   } catch (e) {
-    container.innerHTML = `<div class="empty-state"><div class="empty-icon">⚠️</div><h3>Error de conexión</h3><p>No se pudo obtener el pronóstico. Comprueba tu conexión a Internet.</p></div>`;
+    container.innerHTML = `<div class="empty-state"><h3>⚠️ Error</h3><p>No se pudo obtener el clima.</p></div>`;
   }
 }
 
@@ -337,13 +422,10 @@ function renderWeather(data) {
   const c = data.current;
   const d = data.daily;
   const container = $('#weather-container');
-  if (!container) return;
-
-  const today = new Date();
+  
   const days = d.time.map((t, i) => {
     const date = new Date(t + 'T12:00:00');
-    const isToday = i === 0;
-    const name = isToday ? 'Hoy' : date.toLocaleDateString('es-ES', { weekday: 'short', day: 'numeric', month: 'short' });
+    const name = i === 0 ? 'Hoy' : date.toLocaleDateString('es-ES', { weekday: 'short', day: 'numeric' });
     return `
       <div class="weather-day">
         <div class="weather-day-name">${name}</div>
@@ -352,125 +434,84 @@ function renderWeather(data) {
           <span class="temp-max">${Math.round(d.temperature_2m_max[i])}°</span>
           <span class="temp-min">${Math.round(d.temperature_2m_min[i])}°</span>
         </div>
-        <div class="weather-day-rain">💧 ${d.precipitation_probability_max[i]}%</div>
       </div>`;
-  });
+  }).join('');
 
   container.innerHTML = `
     <div class="weather-section">
-      <div class="weather-header">
-        <div>
-          <div class="weather-city">🏛️ Roma, Italia</div>
-          <div style="font-size:0.8rem;color:var(--text-muted)">Actualizado: ${new Date().toLocaleTimeString('es-ES', {hour:'2-digit',minute:'2-digit'})}</div>
-        </div>
-      </div>
-
       <div class="weather-today">
-        <div style="text-align:center">
-          <div class="weather-icon-main">${getWMOIcon(c.weather_code)}</div>
-          <div class="weather-temp-main">${Math.round(c.temperature_2m)}°C</div>
-          <div class="weather-desc">${getWMO(c.weather_code).replace(/^.+?\s/,'')}</div>
-        </div>
+        <div class="weather-city">${state.currentCity.emoji} ${state.currentCity.nombre}</div>
+        <div class="weather-temp-main">${Math.round(c.temperature_2m)}°C</div>
+        <div class="weather-desc">${getWMO(c.weather_code)}</div>
         <div class="weather-details">
-          <div class="weather-detail">
-            <div class="weather-detail-label">🌡️ Sensación</div>
-            <div class="weather-detail-value">${Math.round(c.apparent_temperature)}°C</div>
-          </div>
-          <div class="weather-detail">
-            <div class="weather-detail-label">💧 Humedad</div>
-            <div class="weather-detail-value">${c.relative_humidity_2m}%</div>
-          </div>
-          <div class="weather-detail">
-            <div class="weather-detail-label">💨 Viento</div>
-            <div class="weather-detail-value">${Math.round(c.wind_speed_10m)} km/h</div>
-          </div>
-          <div class="weather-detail">
-            <div class="weather-detail-label">☀️ UV</div>
-            <div class="weather-detail-value">${c.uv_index}</div>
-          </div>
-          <div class="weather-detail">
-            <div class="weather-detail-label">🌧️ Precip.</div>
-            <div class="weather-detail-value">${c.precipitation} mm</div>
-          </div>
-          <div class="weather-detail">
-            <div class="weather-detail-label">📅 Pronóstico</div>
-            <div class="weather-detail-value">8 días</div>
-          </div>
+          <span>💧 ${c.relative_humidity_2m}%</span>
+          <span>💨 ${Math.round(c.wind_speed_10m)} km/h</span>
+          <span>☀️ UV ${c.uv_index}</span>
         </div>
       </div>
-
-      <h3 style="font-family:Cinzel,serif;color:var(--gold-light);margin-bottom:1rem">📅 Próximos 8 días</h3>
-      <div class="weather-days">${days.join('')}</div>
-
-      <div style="margin-top:1.5rem;padding:1rem;background:rgba(201,150,60,0.07);border:1px solid rgba(201,150,60,0.15);border-radius:12px">
-        <p style="font-size:0.8rem;color:var(--text-muted)">⚡ Datos proporcionados por <a href="https://open-meteo.com" target="_blank" style="color:var(--gold);text-decoration:none">Open-Meteo API</a> — Completamente gratuita y sin clave API requerida.</p>
-      </div>
+      <div class="weather-days">${days}</div>
     </div>`;
+}
+
+// ── Navegación de Pestañas ─────────────────────────────────
+function showTab(tabId) {
+  state.activeTab = tabId;
+  $$('.tab-btn').forEach(btn => btn.classList.toggle('active', btn.dataset.tab === tabId));
+  
+  const lugaresSection = $('#lugares-section');
+  const weatherSection = $('#weather-section');
+  const filtersBar = $('#filters-bar');
+
+  if (tabId === 'lugares') {
+    lugaresSection.style.display = 'block';
+    filtersBar.style.display = 'block';
+    weatherSection.style.display = 'none';
+    renderCurrentView();
+  } else {
+    lugaresSection.style.display = 'none';
+    filtersBar.style.display = 'none';
+    weatherSection.style.display = 'block';
+    loadWeather();
+  }
 }
 
 // ── Inicialización ─────────────────────────────────────────
 async function init() {
-  // Service Worker
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('./sw.js').catch(() => {});
   }
 
-  await loadPlaces();
+  await loadCities();
 
-  // Tab navigation
+  // Listeners
+  $('#back-to-cities').onclick = backToCitySelection;
+
   $$('.tab-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-      $$('.tab-btn').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      state.activeTab = btn.dataset.tab;
-
-      const lugaresSection = $('#lugares-section');
-      const weatherSection = $('#weather-section');
-
-      if (state.activeTab === 'lugares') {
-        lugaresSection.style.display = '';
-        weatherSection.style.display = 'none';
-        renderCurrentView();
-      } else {
-        lugaresSection.style.display = 'none';
-        weatherSection.style.display = '';
-        loadWeather();
-      }
-    });
+    btn.onclick = () => showTab(btn.dataset.tab);
   });
 
-  // Búsqueda
-  const searchInput = $('#search-input');
-  if (searchInput) {
-    searchInput.addEventListener('input', e => {
-      state.search = e.target.value.trim();
-      applyFilters();
-    });
-  }
+  $('#search-input').oninput = (e) => {
+    state.search = e.target.value.trim();
+    applyFilters();
+  };
 
-  // Filtros por tipo
   $$('.filter-chip').forEach(chip => {
-    chip.addEventListener('click', () => {
+    chip.onclick = () => {
       $$('.filter-chip').forEach(c => c.classList.remove('active'));
       chip.classList.add('active');
       state.activeType = chip.dataset.type;
       applyFilters();
-    });
+    };
   });
 
-  // View toggles
   $$('.view-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
+    btn.onclick = () => {
       $$('.view-btn').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       state.activeView = btn.dataset.view;
       renderCurrentView();
-    });
+    };
   });
-
-  // Render inicial
-  renderCurrentView();
-  updateResultsCount();
 }
 
 document.addEventListener('DOMContentLoaded', init);

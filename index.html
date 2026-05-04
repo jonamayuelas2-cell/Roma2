@@ -25,76 +25,95 @@
 </head>
 <body>
 
-  <!-- ══ HEADER ══════════════════════════════════════════ -->
-  <header>
-    <div class="header-inner">
-      <a class="logo" href="#">
-        <span class="logo-icon">🏛️</span>
-        <span class="logo-text">Roma Eterna<span class="logo-sub">La Ciudad Eterna · Guía de Viaje</span></span>
-      </a>
-      <nav class="main-tabs">
-        <button class="tab-btn active" data-tab="lugares" id="tab-lugares">
-          <span class="tab-icon">🗺️</span> <span>Lugares</span>
-        </button>
-        <button class="tab-btn" data-tab="meteo" id="tab-meteo">
-          <span class="tab-icon">🌤️</span> <span>Tiempo</span>
-        </button>
-      </nav>
-    </div>
-  </header>
-
-  <!-- ══ HERO ════════════════════════════════════════════ -->
-  <section class="hero">
-    <h1>🇮🇹 Descubre Roma</h1>
-    <p>20 lugares imprescindibles para vivir la Ciudad Eterna</p>
-  </section>
-
-  <!-- ══ FILTROS ══════════════════════════════════════════ -->
-  <section class="filters-bar" id="filters-bar">
-    <div class="filters-inner">
-      <!-- Búsqueda -->
-      <div class="search-box">
-        <span class="search-icon">🔍</span>
-        <input type="search" id="search-input" placeholder="Buscar lugares, tipos, tags..." autocomplete="off">
-      </div>
-
-      <!-- Filtros por tipo -->
-      <div class="type-filters">
-        <button class="filter-chip active" data-type="todos">✨ Todos</button>
-        <button class="filter-chip" data-type="cultura">🏛️ Cultura</button>
-        <button class="filter-chip" data-type="museos">🖼️ Museos</button>
-        <button class="filter-chip" data-type="restaurantes">🍝 Restaurantes</button>
-        <button class="filter-chip" data-type="barrios">🏘️ Barrios</button>
-        <button class="filter-chip" data-type="parques">🌿 Parques</button>
-        <button class="filter-chip" data-type="mercados">🛍️ Mercados</button>
-        <button class="filter-chip" data-type="cafes">☕ Cafés</button>
-      </div>
-
-      <!-- Toggles de vista -->
-      <div class="view-toggles">
-        <button class="view-btn active" data-view="cards" title="Vista tarjetas" id="view-cards">⊞</button>
-        <button class="view-btn" data-view="list" title="Vista lista" id="view-list">≡</button>
-        <button class="view-btn" data-view="map" title="Vista mapa" id="view-map">🗺</button>
+  <!-- ══ CITY SELECTION (CARRUSEL) ═══════════════════════════ -->
+  <section id="city-selection" class="city-selection">
+    <div class="city-selection-inner">
+      <h1 class="selection-title">🌍 Explora el Mundo</h1>
+      <p class="selection-subtitle">Selecciona una ciudad para descubrir sus secretos</p>
+      
+      <div class="carousel-container">
+        <div id="city-carousel" class="city-carousel">
+          <!-- Ciudades inyectadas dinámicamente -->
+          <div class="loading"><div class="spinner"></div> Preparando destinos...</div>
+        </div>
       </div>
     </div>
-    <div class="results-info" id="results-count"></div>
   </section>
 
-  <!-- ══ SECCIÓN LUGARES ═══════════════════════════════════ -->
-  <section id="lugares-section">
-    <main>
-      <div id="places-container"></div>
-    </main>
-  </section>
-
-  <!-- ══ SECCIÓN TIEMPO ════════════════════════════════════ -->
-  <section id="weather-section" style="display:none">
-    <main>
-      <div id="weather-container">
-        <div class="loading"><div class="spinner"></div> Cargando meteorología...</div>
+  <!-- ══ MAIN APP CONTENT (Hidden by default) ═══════════════ -->
+  <div id="main-app" style="display: none;">
+    <!-- ══ HEADER ══════════════════════════════════════════ -->
+    <header>
+      <div class="header-inner">
+        <button id="back-to-cities" class="back-btn" title="Volver a ciudades">⬅️</button>
+        <a class="logo" href="#">
+          <span class="logo-icon">🏛️</span>
+          <span class="logo-text" id="app-title">Roma Eterna<span class="logo-sub" id="app-subtitle">La Ciudad Eterna · Guía de Viaje</span></span>
+        </a>
+        <nav class="main-tabs">
+          <button class="tab-btn active" data-tab="lugares" id="tab-lugares">
+            <span class="tab-icon">🗺️</span> <span>Lugares</span>
+          </button>
+          <button class="tab-btn" data-tab="meteo" id="tab-meteo">
+            <span class="tab-icon">🌤️</span> <span>Tiempo</span>
+          </button>
+        </nav>
       </div>
-    </main>
-  </section>
+    </header>
+
+    <!-- ══ HERO ════════════════════════════════════════════ -->
+    <section class="hero" id="city-hero">
+      <h1 id="hero-title">🇮🇹 Descubre Roma</h1>
+      <p id="hero-subtitle">20 lugares imprescindibles para vivir la Ciudad Eterna</p>
+    </section>
+
+    <!-- ══ FILTROS ══════════════════════════════════════════ -->
+    <section class="filters-bar" id="filters-bar">
+      <div class="filters-inner">
+        <!-- Búsqueda -->
+        <div class="search-box">
+          <span class="search-icon">🔍</span>
+          <input type="search" id="search-input" placeholder="Buscar lugares, tipos, tags..." autocomplete="off">
+        </div>
+
+        <!-- Filtros por tipo -->
+        <div class="type-filters">
+          <button class="filter-chip active" data-type="todos">✨ Todos</button>
+          <button class="filter-chip" data-type="cultura">🏛️ Cultura</button>
+          <button class="filter-chip" data-type="museos">🖼️ Museos</button>
+          <button class="filter-chip" data-type="restaurantes">🍝 Restaurantes</button>
+          <button class="filter-chip" data-type="barrios">🏘️ Barrios</button>
+          <button class="filter-chip" data-type="parques">🌿 Parques</button>
+          <button class="filter-chip" data-type="mercados">🛍️ Mercados</button>
+          <button class="filter-chip" data-type="cafes">☕ Cafés</button>
+        </div>
+
+        <!-- Toggles de vista -->
+        <div class="view-toggles">
+          <button class="view-btn active" data-view="cards" title="Vista tarjetas" id="view-cards">⊞</button>
+          <button class="view-btn" data-view="list" title="Vista lista" id="view-list">≡</button>
+          <button class="view-btn" data-view="map" title="Vista mapa" id="view-map">🗺</button>
+        </div>
+      </div>
+      <div class="results-info" id="results-count"></div>
+    </section>
+
+    <!-- ══ SECCIÓN LUGARES ═══════════════════════════════════ -->
+    <section id="lugares-section">
+      <main>
+        <div id="places-container"></div>
+      </main>
+    </section>
+
+    <!-- ══ SECCIÓN TIEMPO ════════════════════════════════════ -->
+    <section id="weather-section" style="display:none">
+      <main>
+        <div id="weather-container">
+          <div class="loading"><div class="spinner"></div> Cargando meteorología...</div>
+        </div>
+      </main>
+    </section>
+  </div>
 
   <!-- ══ SCRIPT PRINCIPAL ══════════════════════════════════ -->
   <script src="app.js"></script>

@@ -1,0 +1,22 @@
+[
+  { "id": "roma", "nombre": "Roma", "pais": "Italia", "emoji": "🇮🇹", "lat": 41.9028, "lng": 12.4964, "imagen": "https://picsum.photos/seed/roma_city/800/600" },
+  { "id": "paris", "nombre": "París", "pais": "Francia", "emoji": "🇫🇷", "lat": 48.8566, "lng": 2.3522, "imagen": "https://picsum.photos/seed/paris_city/800/600" },
+  { "id": "londres", "nombre": "Londres", "pais": "Reino Unido", "emoji": "🇬🇧", "lat": 51.5074, "lng": -0.1278, "imagen": "https://picsum.photos/seed/london_city/800/600" },
+  { "id": "nueva-york", "nombre": "Nueva York", "pais": "EE.UU.", "emoji": "🇺🇸", "lat": 40.7128, "lng": -74.0060, "imagen": "https://picsum.photos/seed/nyc_city/800/600" },
+  { "id": "tokio", "nombre": "Tokio", "pais": "Japón", "emoji": "🇯🇵", "lat": 35.6895, "lng": 139.6917, "imagen": "https://picsum.photos/seed/tokyo_city/800/600" },
+  { "id": "barcelona", "nombre": "Barcelona", "pais": "España", "emoji": "🇪🇸", "lat": 41.3851, "lng": 2.1734, "imagen": "https://picsum.photos/seed/barcelona_city/800/600" },
+  { "id": "madrid", "nombre": "Madrid", "pais": "España", "emoji": "🇪🇸", "lat": 40.4168, "lng": -3.7038, "imagen": "https://picsum.photos/seed/madrid_city/800/600" },
+  { "id": "berlin", "nombre": "Berlín", "pais": "Alemania", "emoji": "🇩🇪", "lat": 52.5200, "lng": 13.4050, "imagen": "https://picsum.photos/seed/berlin_city/800/600" },
+  { "id": "amsterdam", "nombre": "Ámsterdam", "pais": "Países Bajos", "emoji": "🇳🇱", "lat": 52.3676, "lng": 4.9041, "imagen": "https://picsum.photos/seed/amsterdam_city/800/600" },
+  { "id": "praga", "nombre": "Praga", "pais": "República Checa", "emoji": "🇨🇿", "lat": 50.0755, "lng": 14.4378, "imagen": "https://picsum.photos/seed/prague_city/800/600" },
+  { "id": "estambul", "nombre": "Estambul", "pais": "Turquía", "emoji": "🇹🇷", "lat": 41.0082, "lng": 28.9784, "imagen": "https://picsum.photos/seed/istanbul_city/800/600" },
+  { "id": "dubai", "nombre": "Dubái", "pais": "EAU", "emoji": "🇦🇪", "lat": 25.2048, "lng": 55.2708, "imagen": "https://picsum.photos/seed/dubai_city/800/600" },
+  { "id": "sidney", "nombre": "Sídney", "pais": "Australia", "emoji": "🇦🇺", "lat": -33.8688, "lng": 151.2093, "imagen": "https://picsum.photos/seed/sydney_city/800/600" },
+  { "id": "rio", "nombre": "Río de Janeiro", "pais": "Brasil", "emoji": "🇧🇷", "lat": -22.9068, "lng": -43.1729, "imagen": "https://picsum.photos/seed/rio_city/800/600" },
+  { "id": "buenos-aires", "nombre": "Buenos Aires", "pais": "Argentina", "emoji": "🇦🇷", "lat": -34.6037, "lng": -58.3816, "imagen": "https://picsum.photos/seed/buenos_aires_city/800/600" },
+  { "id": "mexico", "nombre": "Ciudad de México", "pais": "México", "emoji": "🇲🇽", "lat": 19.4326, "lng": -99.1332, "imagen": "https://picsum.photos/seed/mexico_city/800/600" },
+  { "id": "lisboa", "nombre": "Lisboa", "pais": "Portugal", "emoji": "🇵🇹", "lat": 38.7223, "lng": -9.1393, "imagen": "https://picsum.photos/seed/lisbon_city/800/600" },
+  { "id": "viena", "nombre": "Viena", "pais": "Austria", "emoji": "🇦🇹", "lat": 48.2082, "lng": 16.3738, "imagen": "https://picsum.photos/seed/vienna_city/800/600" },
+  { "id": "venecia", "nombre": "Venecia", "pais": "Italia", "emoji": "🇮🇹", "lat": 45.4408, "lng": 12.3155, "imagen": "https://picsum.photos/seed/venice_city/800/600" },
+  { "id": "kioto", "nombre": "Kioto", "pais": "Japón", "emoji": "🇯🇵", "lat": 35.0116, "lng": 135.7681, "imagen": "https://picsum.photos/seed/kyoto_city/800/600" }
+]
