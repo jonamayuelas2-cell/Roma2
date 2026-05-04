@@ -1,0 +1,48 @@
+[
+  {
+    "id": 1,
+    "nombre": "Museo del Prado",
+    "tipo": "cultura",
+    "descripcion": "Uno de los museos más importantes del mundo, con obras de Velázquez, Goya y El Greco.",
+    "descripcionCorta": "La pinacoteca más importante de España.",
+    "direccion": "Calle de Ruiz de Alarcón, 23, 28014 Madrid",
+    "lat": 40.4137, "lng": -3.6921,
+    "horario": "10:00 - 20:00",
+    "precio": "15€",
+    "rating": 4.9,
+    "imagen": "https://picsum.photos/seed/prado/800/600",
+    "imagenCard": "https://picsum.photos/seed/prado/400/300",
+    "tags": ["arte", "museo", "historia"],
+    "web": "https://museodelprado.es"
+  },
+  {
+    "id": 2,
+    "nombre": "Parque del Retiro",
+    "tipo": "parques",
+    "descripcion": "El pulmón verde de Madrid, perfecto para pasear en barca o visitar el Palacio de Cristal.",
+    "descripcionCorta": "El parque más emblemático de Madrid.",
+    "direccion": "Plaza de la Independencia, 7, 28001 Madrid",
+    "lat": 40.4153, "lng": -3.6839,
+    "horario": "6:00 - 0:00",
+    "precio": "Gratis",
+    "rating": 4.8,
+    "imagen": "https://picsum.photos/seed/retiro/800/600",
+    "imagenCard": "https://picsum.photos/seed/retiro/400/300",
+    "tags": ["naturaleza", "relax", "barcas"]
+  },
+  {
+    "id": 3,
+    "nombre": "Palacio Real",
+    "tipo": "cultura",
+    "descripcion": "Residencia oficial de la monarquía española, aunque solo se usa para actos oficiales.",
+    "descripcionCorta": "El palacio más grande de Europa Occidental.",
+    "direccion": "Calle de Bailén, s/n, 28071 Madrid",
+    "lat": 40.4173, "lng": -3.7143,
+    "horario": "10:00 - 19:00",
+    "precio": "12€",
+    "rating": 4.7,
+    "imagen": "https://picsum.photos/seed/palacio_madrid/800/600",
+    "imagenCard": "https://picsum.photos/seed/palacio_madrid/400/300",
+    "tags": ["realeza", "arquitectura", "historia"]
+  }
+]

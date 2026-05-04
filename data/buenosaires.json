@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "nombre": "Teatro Colón",
+    "tipo": "cultura",
+    "descripcion": "Uno de los teatros de ópera más importantes del mundo por su acústica.",
+    "descripcionCorta": "El orgullo cultural de Argentina.",
+    "lat": -34.6012, "lng": -58.3831,
+    "horario": "9:00 - 17:00",
+    "precio": "2500 ARS",
+    "rating": 4.9,
+    "imagen": "https://picsum.photos/seed/colon/800/600",
+    "imagenCard": "https://picsum.photos/seed/colon/400/300",
+    "tags": ["ópera", "arquitectura", "arte"]
+  },
+  {
+    "id": 2,
+    "nombre": "Barrio de La Boca (Caminito)",
+    "tipo": "barrios",
+    "descripcion": "Paseo peatonal y museo a cielo abierto de gran valor cultural y turístico.",
+    "descripcionCorta": "Color y tango en las calles.",
+    "lat": -34.6391, "lng": -58.3629,
+    "horario": "24h",
+    "precio": "Gratis",
+    "rating": 4.7,
+    "imagen": "https://picsum.photos/seed/laboca/800/600",
+    "imagenCard": "https://picsum.photos/seed/laboca/400/300",
+    "tags": ["tango", "colores", "tradición"]
+  }
+]

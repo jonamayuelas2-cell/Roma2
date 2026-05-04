@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "nombre": "Casa de Ana Frank",
+    "tipo": "museos",
+    "descripcion": "Casa donde Ana Frank y su familia se ocultaron durante la ocupación nazi.",
+    "descripcionCorta": "Una historia conmovedora.",
+    "lat": 52.3752, "lng": 4.8840,
+    "horario": "9:00 - 22:00",
+    "precio": "14€",
+    "rating": 4.8,
+    "imagen": "https://picsum.photos/seed/annefrank/800/600",
+    "imagenCard": "https://picsum.photos/seed/annefrank/400/300",
+    "tags": ["historia", "museo", "emoción"]
+  },
+  {
+    "id": 2,
+    "nombre": "Rijksmuseum",
+    "tipo": "museos",
+    "descripcion": "Museo Nacional de Ámsterdam dedicado a las artes y la historia.",
+    "descripcionCorta": "El hogar de 'La ronda de noche' de Rembrandt.",
+    "lat": 52.3600, "lng": 4.8852,
+    "horario": "9:00 - 17:00",
+    "precio": "20€",
+    "rating": 4.9,
+    "imagen": "https://picsum.photos/seed/rijks/800/600",
+    "imagenCard": "https://picsum.photos/seed/rijks/400/300",
+    "tags": ["arte", "historia", "rembrandt"]
+  }
+]

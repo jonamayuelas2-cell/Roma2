@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "nombre": "Estatua de la Libertad",
+    "tipo": "cultura",
+    "descripcion": "El símbolo de la libertad y de los Estados Unidos, situada en la isla de la Libertad.",
+    "descripcionCorta": "El icono más famoso de Nueva York.",
+    "lat": 40.6892, "lng": -74.0445,
+    "horario": "9:00 - 17:00",
+    "precio": "25$",
+    "rating": 4.8,
+    "imagen": "https://picsum.photos/seed/liberty/800/600",
+    "imagenCard": "https://picsum.photos/seed/liberty/400/300",
+    "tags": ["monumento", "historia", "vistas"]
+  },
+  {
+    "id": 2,
+    "nombre": "Central Park",
+    "tipo": "parques",
+    "descripcion": "Un oasis verde en el corazón de Manhattan, con lagos, teatros y museos.",
+    "descripcionCorta": "El parque urbano más visitado del mundo.",
+    "lat": 40.7829, "lng": -73.9654,
+    "horario": "6:00 - 1:00",
+    "precio": "Gratis",
+    "rating": 4.9,
+    "imagen": "https://picsum.photos/seed/centralpark/800/600",
+    "imagenCard": "https://picsum.photos/seed/centralpark/400/300",
+    "tags": ["naturaleza", "relax", "deporte"]
+  },
+  {
+    "id": 3,
+    "nombre": "Empire State Building",
+    "tipo": "cultura",
+    "descripcion": "Rascacielos legendario con uno de los observatorios más famosos del mundo.",
+    "descripcionCorta": "El rascacielos más icónico del skyline neoyorquino.",
+    "lat": 40.7484, "lng": -73.9857,
+    "horario": "8:00 - 2:00",
+    "precio": "44$",
+    "rating": 4.7,
+    "imagen": "https://picsum.photos/seed/empirestate/800/600",
+    "imagenCard": "https://picsum.photos/seed/empirestate/400/300",
+    "tags": ["vistas", "rascacielos", "arquitectura"]
+  }
+]

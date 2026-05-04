@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "nombre": "Puente Carlos",
+    "tipo": "cultura",
+    "descripcion": "Puente medieval famoso que une la Ciudad Vieja con el Barrio Pequeño.",
+    "descripcionCorta": "El puente más romántico de Europa.",
+    "lat": 50.0865, "lng": 14.4114,
+    "horario": "24h",
+    "precio": "Gratis",
+    "rating": 4.9,
+    "imagen": "https://picsum.photos/seed/charlesbridge/800/600",
+    "imagenCard": "https://picsum.photos/seed/charlesbridge/400/300",
+    "tags": ["historia", "vistas", "romántico"]
+  },
+  {
+    "id": 2,
+    "nombre": "Castillo de Praga",
+    "tipo": "cultura",
+    "descripcion": "Complejo fortificado que domina la ciudad, sede de los reyes de Bohemia.",
+    "descripcionCorta": "El castillo más grande del mundo.",
+    "lat": 50.0911, "lng": 14.4016,
+    "horario": "9:00 - 17:00",
+    "precio": "10€",
+    "rating": 4.8,
+    "imagen": "https://picsum.photos/seed/praguecastle/800/600",
+    "imagenCard": "https://picsum.photos/seed/praguecastle/400/300",
+    "tags": ["monarquía", "vistas", "historia"]
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "nombre": "Torre de Belém",
+    "tipo": "cultura",
+    "descripcion": "Fortaleza del siglo XVI que servía de punto de partida para los exploradores portugueses.",
+    "descripcionCorta": "La joya del Tajo.",
+    "lat": 38.6916, "lng": -9.2160,
+    "horario": "10:00 - 17:30",
+    "precio": "6€",
+    "rating": 4.8,
+    "imagen": "https://picsum.photos/seed/belem/800/600",
+    "imagenCard": "https://picsum.photos/seed/belem/400/300",
+    "tags": ["historia", "arquitectura", "exploración"]
+  },
+  {
+    "id": 2,
+    "nombre": "Barrio de Alfama",
+    "tipo": "barrios",
+    "descripcion": "El barrio más antiguo y pintoresco de Lisboa, famoso por el Fado.",
+    "descripcionCorta": "El alma de Lisboa.",
+    "lat": 38.7121, "lng": -9.1305,
+    "horario": "24h",
+    "precio": "Gratis",
+    "rating": 4.9,
+    "imagen": "https://picsum.photos/seed/alfama/800/600",
+    "imagenCard": "https://picsum.photos/seed/alfama/400/300",
+    "tags": ["fado", "callejuelas", "tradición"]
+  }
+]

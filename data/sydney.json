@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "nombre": "Ópera de Sídney",
+    "tipo": "cultura",
+    "descripcion": "Edificio expresionista icónico del siglo XX y patrimonio de la humanidad.",
+    "descripcionCorta": "El icono de Australia.",
+    "lat": -33.8568, "lng": 151.2153,
+    "horario": "9:00 - 17:00",
+    "precio": "40 AUD",
+    "rating": 4.9,
+    "imagen": "https://picsum.photos/seed/sydneyopera/800/600",
+    "imagenCard": "https://picsum.photos/seed/sydneyopera/400/300",
+    "tags": ["arquitectura", "arte", "vistas"]
+  },
+  {
+    "id": 2,
+    "nombre": "Puente de la Bahía de Sídney",
+    "tipo": "cultura",
+    "descripcion": "Puente de arco de acero sobre la bahía de Sídney, que conecta el centro con la costa norte.",
+    "descripcionCorta": "Escalando el horizonte de Sídney.",
+    "lat": -33.8523, "lng": 151.2108,
+    "horario": "24h",
+    "precio": "Gratis",
+    "rating": 4.8,
+    "imagen": "https://picsum.photos/seed/harbourbridge/800/600",
+    "imagenCard": "https://picsum.photos/seed/harbourbridge/400/300",
+    "tags": ["vistas", "aventura", "puente"]
+  }
+]

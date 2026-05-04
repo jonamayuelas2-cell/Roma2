@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "nombre": "Santa Sofía",
+    "tipo": "cultura",
+    "descripcion": "Antigua basílica patriarcal ortodoxa, luego mezquita y ahora museo en Estambul.",
+    "descripcionCorta": "Una maravilla arquitectónica de dos mundos.",
+    "lat": 41.0086, "lng": 28.9792,
+    "horario": "9:00 - 17:00",
+    "precio": "Gratis",
+    "rating": 4.9,
+    "imagen": "https://picsum.photos/seed/hagiasophia/800/600",
+    "imagenCard": "https://picsum.photos/seed/hagiasophia/400/300",
+    "tags": ["historia", "arquitectura", "religión"]
+  },
+  {
+    "id": 2,
+    "nombre": "Gran Bazar",
+    "tipo": "mercados",
+    "descripcion": "Uno de los mercados cubiertos más grandes y antiguos del mundo.",
+    "descripcionCorta": "El corazón comercial de Estambul.",
+    "lat": 41.0106, "lng": 28.9681,
+    "horario": "9:00 - 19:00",
+    "precio": "Gratis",
+    "rating": 4.7,
+    "imagen": "https://picsum.photos/seed/grandbazaar/800/600",
+    "imagenCard": "https://picsum.photos/seed/grandbazaar/400/300",
+    "tags": ["compras", "tradición", "especias"]
+  }
+]

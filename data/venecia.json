@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "nombre": "Plaza de San Marcos",
+    "tipo": "cultura",
+    "descripcion": "El corazón de Venecia, rodeada de la Basílica de San Marcos y el Palacio Ducal.",
+    "descripcionCorta": "El salón de Europa.",
+    "lat": 45.4342, "lng": 12.3385,
+    "horario": "24h",
+    "precio": "Gratis",
+    "rating": 4.9,
+    "imagen": "https://picsum.photos/seed/sanmarco/800/600",
+    "imagenCard": "https://picsum.photos/seed/sanmarco/400/300",
+    "tags": ["plaza", "historia", "palomas"]
+  },
+  {
+    "id": 2,
+    "nombre": "Puente de Rialto",
+    "tipo": "cultura",
+    "descripcion": "El puente más antiguo de los cuatro que cruzan el Gran Canal de Venecia.",
+    "descripcionCorta": "El puente más icónico del Gran Canal.",
+    "lat": 45.4380, "lng": 12.3359,
+    "horario": "24h",
+    "precio": "Gratis",
+    "rating": 4.8,
+    "imagen": "https://picsum.photos/seed/rialto/800/600",
+    "imagenCard": "https://picsum.photos/seed/rialto/400/300",
+    "tags": ["puente", "vistas", "compras"]
+  }
+]

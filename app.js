@@ -1,517 +1,316 @@
-/* ============================================================
-   app.js — Multi-City Travel Guide PWA
-   ============================================================ */
+/**
+ * TRAVELWORLD PWA - Global Travel Guide
+ * Dinámicamente carga datos de ciudades del mundo con un selector 3D (Globe.gl).
+ */
 
-'use strict';
-
-// ── Estado global ──────────────────────────────────────────
 const state = {
-  cities: [],
-  currentCity: null,
-  places: [],
-  filtered: [],
-  activeTab: 'lugares',
-  activeView: 'cards',
-  activeType: 'todos',
-  search: '',
-  map: null,
-  markers: [],
-  selectedPlace: null,
-  weather: null
+    cities: [],
+    currentCity: null,
+    places: [],
+    filteredPlaces: [],
+    viewMode: 'cards', // 'cards', 'list', 'map'
+    activeTab: 'lugares', // 'lugares', 'meteo'
+    map: null,
+    globe: null,
+    markers: []
 };
 
-// ── Helpers ────────────────────────────────────────────────
-const $ = (sel, ctx = document) => ctx.querySelector(sel);
-const $$ = (sel, ctx = document) => [...ctx.querySelectorAll(sel)];
+// ══ INICIALIZACIÓN ══════════════════════════════════════════
 
-function showToast(msg) {
-  let t = $('#toast');
-  if (!t) { t = document.createElement('div'); t.id = 'toast'; t.className = 'toast'; document.body.appendChild(t); }
-  t.textContent = msg;
-  t.classList.add('show');
-  setTimeout(() => t.classList.remove('show'), 2800);
-}
+document.addEventListener('DOMContentLoaded', async () => {
+    await loadCities();
+    initGlobe();
+    setupEventListeners();
+});
 
-function getTypeLabel(tipo) {
-  const labels = {
-    cultura: '🏛️ Cultura', museos: '🖼️ Museo', restaurantes: '🍝 Restaurante',
-    barrios: '🏘️ Barrio', parques: '🌿 Parque', mercados: '🛍️ Mercado', cafes: '☕ Café'
-  };
-  return labels[tipo] || tipo;
-}
+// ══ CARGA DE DATOS ══════════════════════════════════════════
 
-// ── Carga de Ciudades ──────────────────────────────────────
 async function loadCities() {
-  try {
-    const res = await fetch('./cities.json');
-    state.cities = await res.json();
-    renderCityCarousel();
-  } catch (e) {
-    console.error("Error loading cities:", e);
-    $('#city-carousel').innerHTML = '<p class="error">Error al cargar destinos. Intenta de nuevo.</p>';
-  }
+    try {
+        const response = await fetch('cities.json');
+        state.cities = await response.json();
+    } catch (error) {
+        console.error('Error cargando ciudades:', error);
+    }
 }
 
-function renderCityCarousel() {
-  const container = $('#city-carousel');
-  if (!container) return;
+// ══ SELECTOR 3D (GLOBE) ══════════════════════════════════════
 
-  container.innerHTML = state.cities.map(city => `
-    <div class="city-card-item" onclick="selectCity('${city.id}')">
-      <img src="${city.imagen}" alt="${city.nombre}" class="city-card-img" loading="lazy">
-      <div class="city-card-overlay">
-        <div class="city-card-name">${city.emoji} ${city.nombre}</div>
-        <div class="city-card-pais">${city.pais}</div>
-      </div>
-    </div>
-  `).join('');
+function initGlobe() {
+    const globeContainer = document.getElementById('globeViz');
+    
+    state.globe = Globe()
+        (globeContainer)
+        .globeImageUrl('//unpkg.com/three-globe/example/img/earth-dark.jpg')
+        .bumpImageUrl('//unpkg.com/three-globe/example/img/earth-topology.png')
+        .backgroundImageUrl('//unpkg.com/three-globe/example/img/night-sky.png')
+        // Etiquetas de texto
+        .labelsData(state.cities)
+        .labelLat(d => d.lat)
+        .labelLng(d => d.lng)
+        .labelText(d => d.nombre)
+        .labelSize(1.0)
+        .labelDotRadius(0.2)
+        .labelColor(() => 'rgba(255, 255, 255, 0.8)')
+        .onLabelClick(city => selectCity(city))
+        
+        // Fotos directamente en el mapa (HTML Elements)
+        .htmlElementsData(state.cities)
+        .htmlLat(d => d.lat)
+        .htmlLng(d => d.lng)
+        .htmlElement(d => {
+            const el = document.createElement('div');
+            el.className = 'globe-city-marker';
+            el.innerHTML = `
+                <div class="globe-thumb-container">
+                    <img src="${d.imagen}" class="globe-thumb">
+                    <span class="globe-emoji">${d.emoji}</span>
+                    
+                    <div class="globe-preview-panel">
+                        <img src="${d.imagen}" class="preview-img">
+                        <span class="preview-name">${d.nombre}</span>
+                        <span class="preview-country">${d.pais}</span>
+                    </div>
+                </div>
+            `;
+            el.style.cursor = 'pointer';
+            el.onclick = () => selectCity(d);
+            return el;
+        });
+
+    // Desactivar rotación automática según petición del usuario
+    state.globe.controls().autoRotate = false;
+    
+    // Posicionar la cámara para ver Europa/África inicialmente (donde están la mayoría de nuestras ciudades actuales)
+    state.globe.pointOfView({ lat: 40, lng: 10, altitude: 2.5 });
 }
 
-// ── Selección de Ciudad ────────────────────────────────────
-async function selectCity(cityId) {
-  const city = state.cities.find(c => c.id === cityId);
-  if (!city) return;
+// ══ NAVEGACIÓN Y ESTADO ══════════════════════════════════════
 
-  state.currentCity = city;
-  
-  // Actualizar UI
-  $('#city-selection').style.display = 'none';
-  $('#main-app').style.display = 'block';
-  
-  // Actualizar Hero y Títulos
-  $('#app-title').innerHTML = `${city.nombre} <span class="logo-sub" id="app-subtitle">${city.pais} · Guía de Viaje</span>`;
-  $('#hero-title').textContent = `${city.emoji} Descubre ${city.nombre}`;
-  $('#hero-subtitle').textContent = `Lugares imprescindibles para vivir la experiencia en ${city.nombre}`;
-  
-  // Resetear filtros
-  state.search = '';
-  $('#search-input').value = '';
-  state.activeType = 'todos';
-  $$('.filter-chip').forEach(c => c.classList.toggle('active', c.dataset.type === 'todos'));
+async function selectCity(city) {
+    if (!city.lugares || city.lugares.length === 0) {
+        alert(`Lo sentimos, la información para ${city.nombre} aún no está disponible.`);
+        return;
+    }
 
-  // Cargar lugares de la ciudad
-  await loadPlaces(cityId);
-  
-  // Resetear mapa si existe
-  if (state.map) {
-    state.map.remove();
-    state.map = null;
-  }
-  
-  // Ir a la pestaña de lugares por defecto
-  showTab('lugares');
+    state.currentCity = city;
+    state.places = city.lugares;
+    state.filteredPlaces = [...state.places];
+    
+    applyTheme(city);
+    updateUIForCity(city);
+    
+    // Transición suave
+    document.getElementById('city-selection').style.display = 'none';
+    document.getElementById('main-app').style.display = 'block';
+    
+    renderPlaces();
 }
 
-function backToCitySelection() {
-  $('#main-app').style.display = 'none';
-  $('#city-selection').style.display = 'flex';
-  state.currentCity = null;
-  state.places = [];
-  state.filtered = [];
-  if (state.map) {
-    state.map.remove();
-    state.map = null;
-  }
+function applyTheme(city) {
+    const root = document.documentElement;
+    const theme = city.theme;
+    
+    root.style.setProperty('--primary-color', theme.primary);
+    root.style.setProperty('--secondary-color', theme.secondary);
+    document.body.style.fontFamily = theme.font;
+    
+    document.querySelectorAll('.logo-text, .hero h1, .tab-btn').forEach(el => {
+        el.style.fontFamily = theme.font;
+    });
 }
 
-// ── Cargar datos de lugares ────────────────────────────────
-async function loadPlaces(cityId) {
-  const container = $('#places-container');
-  container.innerHTML = '<div class="loading"><div class="spinner"></div> Cargando lugares...</div>';
-  
-  try {
-    const res = await fetch(`./data/${cityId}.json`);
-    if (!res.ok) throw new Error("No data for this city");
-    state.places = await res.json();
-    state.filtered = [...state.places];
-    updateResultsCount();
-    renderCurrentView();
-  } catch (e) {
-    console.error("Error loading places:", e);
-    container.innerHTML = `
-      <div class="empty-state">
-        <div class="empty-icon">📂</div>
-        <h3>Próximamente</h3>
-        <p>Estamos preparando la guía de ${state.currentCity.nombre}.<br>¡Vuelve pronto!</p>
-        <button class="btn-primary" onclick="backToCitySelection()" style="margin-top:1rem">Elegir otra ciudad</button>
-      </div>`;
-  }
+function updateUIForCity(city) {
+    document.getElementById('app-title').innerHTML = `${city.nombre} <span class="logo-sub">Guía de Viaje · ${city.pais}</span>`;
+    document.getElementById('app-logo-icon').textContent = city.emoji;
+    
+    const heroTitle = document.getElementById('hero-title');
+    const heroSubtitle = document.getElementById('hero-subtitle');
+    const heroSection = document.getElementById('city-hero');
+    
+    heroTitle.textContent = `Descubre ${city.nombre}`;
+    heroSubtitle.textContent = `Explora los secretos de la ciudad de ${city.nombre}`;
+    heroSection.style.backgroundImage = `url('${city.imagen}')`;
 }
 
-// ── Filtrado ───────────────────────────────────────────────
-function applyFilters() {
-  let result = [...state.places];
-  if (state.activeType !== 'todos') result = result.filter(p => p.tipo === state.activeType);
-  if (state.search) {
-    const q = state.search.toLowerCase();
-    result = result.filter(p =>
-      p.nombre.toLowerCase().includes(q) ||
-      p.descripcion.toLowerCase().includes(q) ||
-      p.tags.some(t => t.toLowerCase().includes(q))
-    );
-  }
-  state.filtered = result;
-  updateResultsCount();
-  renderCurrentView();
+function backToSelection() {
+    document.getElementById('main-app').style.display = 'none';
+    document.getElementById('city-selection').style.display = 'flex';
+    state.currentCity = null;
+    cleanupMap();
 }
 
-function updateResultsCount() {
-  const el = $('#results-count');
-  if (el) el.textContent = `${state.filtered.length} lugar${state.filtered.length !== 1 ? 'es' : ''} encontrado${state.filtered.length !== 1 ? 's' : ''}`;
-}
+// ══ RENDERIZADO DE LUGARES ═══════════════════════════════════
 
-// ── Render: Cards ──────────────────────────────────────────
-function renderCards() {
-  const container = $('#places-container');
-  container.className = 'cards-grid';
-  if (!state.filtered.length) { renderEmpty(container); return; }
-  container.innerHTML = state.filtered.map((p, i) => `
-    <div class="place-card" data-id="${p.id}" style="animation-delay:${i * 0.04}s" onclick="openModal(${p.id})">
-      <img class="card-img" src="${p.imagenCard}" alt="${p.nombre}" loading="lazy" onerror="this.src='https://picsum.photos/400/300?seed=${p.id}_${state.currentCity.id}'">
-      <div class="card-body">
-        <span class="card-type type-${p.tipo}">${getTypeLabel(p.tipo)}</span>
-        <div class="card-title">${p.nombre}</div>
-        <div class="card-desc">${p.descripcionCorta}</div>
-        <div class="card-footer">
-          <span class="card-rating">⭐ ${p.rating}</span>
-          <span class="card-price">${p.precio}</span>
-        </div>
-      </div>
-    </div>
-  `).join('');
-}
+function renderPlaces() {
+    const container = document.getElementById('places-container');
+    container.innerHTML = '';
 
-// ── Render: Lista ──────────────────────────────────────────
-function renderList() {
-  const container = $('#places-container');
-  container.className = 'list-view';
-  if (!state.filtered.length) { renderEmpty(container); return; }
-  container.innerHTML = state.filtered.map((p, i) => `
-    <div class="list-item" style="animation-delay:${i * 0.04}s" onclick="openModal(${p.id})">
-      <img class="list-img" src="${p.imagenCard}" alt="${p.nombre}" loading="lazy" onerror="this.src='https://picsum.photos/400/300?seed=${p.id}_${state.currentCity.id}'">
-      <div class="list-body">
-        <div class="list-title">${p.nombre}</div>
-        <div class="list-meta">
-          <span class="card-type type-${p.tipo}">${getTypeLabel(p.tipo)}</span>
-          <span>⭐ ${p.rating}</span>
-          <span>💶 ${p.precio}</span>
-        </div>
-        <div class="list-desc">${p.descripcionCorta}</div>
-        <div class="list-meta" style="margin-top:0.25rem"><span>🕐 ${p.horario}</span></div>
-      </div>
-    </div>
-  `).join('');
-}
+    if (state.viewMode === 'map') {
+        container.innerHTML = '<div id="map"></div>';
+        initMap();
+        return;
+    }
 
-// ── Render: Mapa ───────────────────────────────────────────
-function renderMap() {
-  const container = $('#places-container');
-  container.className = '';
-  container.innerHTML = '<div id="map-container"></div>';
+    if (state.filteredPlaces.length === 0) {
+        container.innerHTML = '<div class="no-results">🔍 No hay resultados.</div>';
+        return;
+    }
 
-  if (!state.currentCity) return;
-
-  // Init map
-  if (!state.map) {
-    state.map = L.map('map-container').setView([state.currentCity.lat, state.currentCity.lng], 13);
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-      maxZoom: 19
-    }).addTo(state.map);
-  } else {
-    state.map.setView([state.currentCity.lat, state.currentCity.lng], 13);
-  }
-
-  // Limpia markers
-  state.markers.forEach(m => m.remove());
-  state.markers = [];
-
-  const typeColors = {
-    cultura: '#e88', museos: '#88aaff', restaurantes: '#8ddb8d',
-    barrios: '#c4a1f5', parques: '#88cc88', mercados: '#c9963c', cafes: '#cc9966'
-  };
-
-  state.filtered.forEach(p => {
-    const color = typeColors[p.tipo] || '#c9963c';
-    const icon = L.divIcon({
-      className: '',
-      html: `<div style="background:${color};width:32px;height:32px;border-radius:50% 50% 50% 0;transform:rotate(-45deg);border:2px solid white;box-shadow:0 2px 8px rgba(0,0,0,0.4)"></div>`,
-      iconSize: [32, 32],
-      iconAnchor: [16, 32]
+    state.filteredPlaces.forEach(place => {
+        const card = createPlaceCard(place);
+        container.appendChild(card);
     });
 
-    const marker = L.marker([p.lat, p.lng], { icon })
-      .addTo(state.map)
-      .bindPopup(`
-        <div class="popup-content" style="min-width:200px">
-          <img class="popup-img" src="${p.imagenCard}" alt="${p.nombre}" onerror="this.style.display='none'">
-          <div class="popup-title">${p.nombre}</div>
-          <div class="popup-desc">${p.descripcionCorta}</div>
-          <button class="popup-btn" onclick="openModal(${p.id});this.closest('.leaflet-popup').querySelector('.leaflet-popup-close-button').click()">Ver más →</button>
+    document.getElementById('results-count').textContent = `${state.filteredPlaces.length} lugares`;
+}
+
+function createPlaceCard(place) {
+    const div = document.createElement('div');
+    div.className = `place-card ${state.viewMode === 'list' ? 'list-view' : ''}`;
+    div.innerHTML = `
+        <img src="${place.imagenCard}" alt="${place.nombre}" class="card-img" loading="lazy">
+        <div class="card-content">
+            <span class="card-tag">${getTypeLabel(place.tipo)}</span>
+            <h3 class="card-title">${place.nombre}</h3>
+            <p class="card-desc">${place.descripcionCorta}</p>
         </div>
-      `, { maxWidth: 240 });
-
-    state.markers.push(marker);
-  });
-
-  setTimeout(() => state.map.invalidateSize(), 100);
+    `;
+    div.onclick = () => showPlaceDetails(place);
+    return div;
 }
 
-// ── Empty state ────────────────────────────────────────────
-function renderEmpty(container) {
-  container.innerHTML = `
-    <div class="empty-state">
-      <div class="empty-icon">🔍</div>
-      <h3>Sin resultados</h3>
-      <p>No hay lugares que coincidan con tu búsqueda.<br>Intenta con otros filtros.</p>
-    </div>`;
+// ══ MAPA ════════════════════════════════════════════════════
+
+function initMap() {
+    cleanupMap();
+    const { lat, lng } = state.currentCity;
+    state.map = L.map('map').setView([lat, lng], 13);
+    
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+        attribution: '&copy; CARTO'
+    }).addTo(state.map);
+
+    state.filteredPlaces.forEach(place => {
+        L.marker([place.lat, place.lng]).addTo(state.map)
+            .bindPopup(`<strong>${place.nombre}</strong><br>${place.descripcionCorta}`);
+    });
 }
 
-// ── Render actual view ─────────────────────────────────────
-function renderCurrentView() {
-  if (state.activeView === 'cards') renderCards();
-  else if (state.activeView === 'list') renderList();
-  else if (state.activeView === 'map') renderMap();
+function cleanupMap() {
+    if (state.map) {
+        state.map.remove();
+        state.map = null;
+    }
 }
 
-// ── Modal ──────────────────────────────────────────────────
-function openModal(id) {
-  const p = state.places.find(x => x.id === id);
-  if (!p) return;
-  state.selectedPlace = p;
-
-  const overlay = document.createElement('div');
-  overlay.className = 'modal-overlay';
-  overlay.id = 'modal-overlay';
-  overlay.innerHTML = `
-    <div class="modal" id="main-modal">
-      <img class="modal-img" src="${p.imagen}" alt="${p.nombre}" onerror="this.src='https://picsum.photos/800/600?seed=${p.id}_${state.currentCity.id}'">
-      <div class="modal-body">
-        <div class="modal-header">
-          <h2 class="modal-title">${p.nombre}</h2>
-          <button class="modal-close" onclick="closeModal()">✕</button>
-        </div>
-        <div class="modal-type"><span class="card-type type-${p.tipo}">${getTypeLabel(p.tipo)}</span> &nbsp;⭐ ${p.rating}/5</div>
-        <p class="modal-desc">${p.descripcion}</p>
-        <div class="modal-info-grid">
-          <div class="modal-info-item"><div class="modal-info-label">🕐 Horario</div><div class="modal-info-value">${p.horario}</div></div>
-          <div class="modal-info-item"><div class="modal-info-label">💶 Precio</div><div class="modal-info-value">${p.precio}</div></div>
-          <div class="modal-info-item"><div class="modal-info-label">📍 Dirección</div><div class="modal-info-value">${p.direccion}</div></div>
-          ${p.telefono ? `<div class="modal-info-item"><div class="modal-info-label">📞 Teléfono</div><div class="modal-info-value">${p.telefono}</div></div>` : ''}
-        </div>
-        <div class="modal-tags">${p.tags.map(t => `<span class="modal-tag">#${t}</span>`).join('')}</div>
-        <div class="modal-actions">
-          <button class="btn-primary" onclick="sharePlace(${p.id})">📤 Enviar a un amigo</button>
-          ${p.web ? `<button class="btn-secondary" onclick="window.open('${p.web}','_blank')">🌐 Web oficial</button>` : ''}
-          <button class="btn-secondary" onclick="openInMaps(${p.lat},${p.lng})">🗺️ Ver en mapa</button>
-        </div>
-      </div>
-    </div>`;
-
-  document.body.appendChild(overlay);
-  document.body.style.overflow = 'hidden';
-  overlay.addEventListener('click', e => { if (e.target === overlay) closeModal(); });
-}
-
-function closeModal() {
-  const overlay = $('#modal-overlay');
-  if (overlay) { overlay.remove(); document.body.style.overflow = ''; }
-}
-
-function openInMaps(lat, lng) {
-  window.open(`https://www.openstreetmap.org/?mlat=${lat}&mlon=${lng}&zoom=16`, '_blank');
-}
-
-// ── Share ──────────────────────────────────────────────────
-function sharePlace(id) {
-  const p = state.places.find(x => x.id === id);
-  if (!p) return;
-
-  const cityName = state.currentCity ? state.currentCity.nombre : 'la ciudad';
-  const shareText = `🏛️ ¡Descubre ${p.nombre} en ${cityName}!\n\n${p.descripcionCorta}\n\n📍 ${p.direccion}\n⭐ ${p.rating}/5 · 💶 ${p.precio}`;
-  const shareUrl = `https://maps.openstreetmap.org/?mlat=${p.lat}&mlon=${p.lng}&zoom=16`;
-
-  if (navigator.share) {
-    navigator.share({ title: p.nombre, text: shareText, url: shareUrl })
-      .then(() => showToast('✅ ¡Compartido!'))
-      .catch(() => showShareModal(p, shareText, shareUrl));
-    return;
-  }
-  showShareModal(p, shareText, shareUrl);
-}
-
-function showShareModal(p, shareText, shareUrl) {
-  const box = document.createElement('div');
-  box.className = 'share-modal';
-  box.id = 'share-modal';
-
-  const waText = encodeURIComponent(shareText + '\n' + shareUrl);
-  const mailSubj = encodeURIComponent(`🏛️ ${p.nombre} — Guía de Viaje`);
-  const mailBody = encodeURIComponent(shareText + '\n\n' + shareUrl);
-
-  box.innerHTML = `
-    <div class="share-box">
-      <h3>📤 Enviar a un amigo</h3>
-      <p>Comparte <strong style="color:var(--gold-light)">${p.nombre}</strong></p>
-      <div class="share-options">
-        <button class="share-option" onclick="window.open('https://wa.me/?text=${waText}','_blank')">
-          <span class="share-option-icon">💬</span>WhatsApp
-        </button>
-        <button class="share-option" onclick="window.open('https://t.me/share/url?url=${encodeURIComponent(shareUrl)}&text=${encodeURIComponent(shareText)}','_blank')">
-          <span class="share-option-icon">✈️</span>Telegram
-        </button>
-        <button class="share-option" onclick="window.open('mailto:?subject=${mailSubj}&body=${mailBody}','_blank')">
-          <span class="share-option-icon">📧</span>Email
-        </button>
-      </div>
-      <div class="share-link-row">
-        <input id="share-link-input" type="text" value="${shareUrl}" readonly>
-        <button class="btn-primary" onclick="copyShareLink()">📋 Copiar</button>
-      </div>
-      <button class="btn-secondary" style="width:100%" onclick="closeShareModal()">✕ Cerrar</button>
-    </div>`;
-
-  document.body.appendChild(box);
-}
-
-function copyShareLink() {
-  const input = $('#share-link-input');
-  if (!input) return;
-  navigator.clipboard.writeText(input.value).then(() => showToast('📋 ¡Enlace copiado!'));
-}
-
-function closeShareModal() {
-  const m = $('#share-modal');
-  if (m) m.remove();
-}
-
-// ── Meteorología ───────────────────────────────────────────
-const WMO_CODES = {
-  0:'☀️ Despejado', 1:'🌤️ Mayormente despejado', 2:'⛅ Parcialmente nublado', 3:'☁️ Cubierto',
-  45:'🌫️ Niebla', 48:'🌫️ Niebla con escarcha', 51:'🌦️ Llovizna ligera', 53:'🌦️ Llovizna moderada',
-  55:'🌧️ Llovizna intensa', 61:'🌧️ Lluvia ligera', 63:'🌧️ Lluvia moderada', 65:'🌧️ Lluvia intensa',
-  71:'🌨️ Nieve ligera', 73:'🌨️ Nieve moderada', 75:'🌨️ Nieve intensa', 80:'🌦️ Chubascos',
-  81:'🌧️ Chubascos moderados', 82:'⛈️ Chubascos fuertes', 95:'⛈️ Tormenta', 99:'⛈️ Tormenta con granizo'
-};
-
-function getWMOIcon(code) { return (WMO_CODES[code] || '🌡️').split(' ')[0]; }
-function getWMO(code) { return WMO_CODES[code] || '🌡️ Variable'; }
+// ══ METEOROLOGÍA ════════════════════════════════════════════
 
 async function loadWeather() {
-  if (!state.currentCity) return;
-  const container = $('#weather-container');
-  container.innerHTML = '<div class="loading"><div class="spinner"></div> Cargando meteorología...</div>';
+    const container = document.getElementById('weather-container');
+    const { lat, lng, nombre } = state.currentCity;
+    
+    try {
+        const url = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lng}&current_weather=true&daily=temperature_2m_max,temperature_2m_min,weathercode&timezone=auto`;
+        const response = await fetch(url);
+        const data = await response.json();
+        
+        const weather = data.current_weather;
+        const daily = data.daily;
 
-  try {
-    const { lat, lng } = state.currentCity;
-    const url = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lng}` +
-      `&current=temperature_2m,relative_humidity_2m,apparent_temperature,precipitation,weather_code,wind_speed_10m,uv_index` +
-      `&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_sum,precipitation_probability_max,uv_index_max,wind_speed_10m_max` +
-      `&timezone=auto&forecast_days=8`;
-
-    const res = await fetch(url);
-    const data = await res.json();
-    state.weather = data;
-    renderWeather(data);
-  } catch (e) {
-    container.innerHTML = `<div class="empty-state"><h3>⚠️ Error</h3><p>No se pudo obtener el clima.</p></div>`;
-  }
+        container.innerHTML = `
+            <div class="weather-card main-weather">
+                <h2>El tiempo en ${nombre}</h2>
+                <div class="weather-now">
+                    <span class="temp-now">${Math.round(weather.temperature)}°C</span>
+                    <span class="weather-icon-big">${getWeatherIcon(weather.weathercode)}</span>
+                </div>
+            </div>
+            <div class="forecast-grid">
+                ${daily.time.slice(0, 5).map((time, i) => `
+                    <div class="forecast-item">
+                        <span class="forecast-day">${new Date(time).toLocaleDateString('es-ES', {weekday: 'short'})}</span>
+                        <span class="forecast-icon">${getWeatherIcon(daily.weathercode[i])}</span>
+                        <span class="forecast-temp">${Math.round(daily.temperature_2m_max[i])}° / ${Math.round(daily.temperature_2m_min[i])}°</span>
+                    </div>
+                `).join('')}
+            </div>
+        `;
+    } catch (error) {
+        container.innerHTML = '<div class="error">❌ Error de meteorología.</div>';
+    }
 }
 
-function renderWeather(data) {
-  const c = data.current;
-  const d = data.daily;
-  const container = $('#weather-container');
-  
-  const days = d.time.map((t, i) => {
-    const date = new Date(t + 'T12:00:00');
-    const name = i === 0 ? 'Hoy' : date.toLocaleDateString('es-ES', { weekday: 'short', day: 'numeric' });
-    return `
-      <div class="weather-day">
-        <div class="weather-day-name">${name}</div>
-        <div class="weather-day-icon">${getWMOIcon(d.weather_code[i])}</div>
-        <div class="weather-day-temps">
-          <span class="temp-max">${Math.round(d.temperature_2m_max[i])}°</span>
-          <span class="temp-min">${Math.round(d.temperature_2m_min[i])}°</span>
-        </div>
-      </div>`;
-  }).join('');
+// ══ EVENT LISTENERS Y UTILIDADES ═════════════════════════════
 
-  container.innerHTML = `
-    <div class="weather-section">
-      <div class="weather-today">
-        <div class="weather-city">${state.currentCity.emoji} ${state.currentCity.nombre}</div>
-        <div class="weather-temp-main">${Math.round(c.temperature_2m)}°C</div>
-        <div class="weather-desc">${getWMO(c.weather_code)}</div>
-        <div class="weather-details">
-          <span>💧 ${c.relative_humidity_2m}%</span>
-          <span>💨 ${Math.round(c.wind_speed_10m)} km/h</span>
-          <span>☀️ UV ${c.uv_index}</span>
-        </div>
-      </div>
-      <div class="weather-days">${days}</div>
-    </div>`;
-}
+function setupEventListeners() {
+    document.getElementById('back-to-cities').onclick = backToSelection;
 
-// ── Navegación de Pestañas ─────────────────────────────────
-function showTab(tabId) {
-  state.activeTab = tabId;
-  $$('.tab-btn').forEach(btn => btn.classList.toggle('active', btn.dataset.tab === tabId));
-  
-  const lugaresSection = $('#lugares-section');
-  const weatherSection = $('#weather-section');
-  const filtersBar = $('#filters-bar');
+    document.querySelectorAll('.tab-btn').forEach(btn => {
+        btn.onclick = () => {
+            document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            state.activeTab = btn.dataset.tab;
+            document.getElementById('lugares-section').style.display = state.activeTab === 'lugares' ? 'block' : 'none';
+            document.getElementById('weather-section').style.display = state.activeTab === 'meteo' ? 'block' : 'none';
+            document.getElementById('filters-bar').style.display = state.activeTab === 'lugares' ? 'block' : 'none';
+            if (state.activeTab === 'meteo') loadWeather();
+            else renderPlaces();
+        };
+    });
 
-  if (tabId === 'lugares') {
-    lugaresSection.style.display = 'block';
-    filtersBar.style.display = 'block';
-    weatherSection.style.display = 'none';
-    renderCurrentView();
-  } else {
-    lugaresSection.style.display = 'none';
-    filtersBar.style.display = 'none';
-    weatherSection.style.display = 'block';
-    loadWeather();
-  }
-}
+    document.querySelectorAll('.filter-chip').forEach(chip => {
+        chip.onclick = () => {
+            document.querySelectorAll('.filter-chip').forEach(c => c.classList.remove('active'));
+            chip.classList.add('active');
+            filterPlaces(chip.dataset.type, document.getElementById('search-input').value);
+        };
+    });
 
-// ── Inicialización ─────────────────────────────────────────
-async function init() {
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('./sw.js').catch(() => {});
-  }
-
-  await loadCities();
-
-  // Listeners
-  $('#back-to-cities').onclick = backToCitySelection;
-
-  $$('.tab-btn').forEach(btn => {
-    btn.onclick = () => showTab(btn.dataset.tab);
-  });
-
-  $('#search-input').oninput = (e) => {
-    state.search = e.target.value.trim();
-    applyFilters();
-  };
-
-  $$('.filter-chip').forEach(chip => {
-    chip.onclick = () => {
-      $$('.filter-chip').forEach(c => c.classList.remove('active'));
-      chip.classList.add('active');
-      state.activeType = chip.dataset.type;
-      applyFilters();
+    document.getElementById('search-input').oninput = (e) => {
+        const activeType = document.querySelector('.filter-chip.active').dataset.type;
+        filterPlaces(activeType, e.target.value);
     };
-  });
 
-  $$('.view-btn').forEach(btn => {
-    btn.onclick = () => {
-      $$('.view-btn').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      state.activeView = btn.dataset.view;
-      renderCurrentView();
-    };
-  });
+    document.querySelectorAll('.view-btn').forEach(btn => {
+        btn.onclick = () => {
+            document.querySelectorAll('.view-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            state.viewMode = btn.dataset.view;
+            renderPlaces();
+        };
+    });
 }
 
-document.addEventListener('DOMContentLoaded', init);
+function filterPlaces(type, query) {
+    state.filteredPlaces = state.places.filter(p => {
+        const matchesType = type === 'todos' || p.tipo === type;
+        const matchesQuery = !query || p.nombre.toLowerCase().includes(query.toLowerCase()) || p.descripcion.toLowerCase().includes(query.toLowerCase());
+        return matchesType && matchesQuery;
+    });
+    renderPlaces();
+}
+
+function getTypeLabel(type) {
+    const labels = { cultura: '🏛️ Cultura', museos: '🖼️ Museos', restaurantes: '🍝 Restaurantes', barrios: '🏘️ Barrios', parques: '🌿 Parques', mercados: '🛍️ Mercados', cafes: '☕ Cafés' };
+    return labels[type] || type;
+}
+
+function getWeatherIcon(code) {
+    if (code === 0) return '☀️';
+    if (code <= 3) return '🌤️';
+    if (code <= 48) return '🌫️';
+    if (code <= 67) return '🌦️';
+    if (code <= 82) return '🌧️';
+    if (code <= 99) return '⛈️';
+    return '🌡️';
+}
+
+function showPlaceDetails(place) {
+    alert(`${place.nombre}\n\n${place.descripcion}\n\nPrecio: ${place.precio}\nHorario: ${place.horario}`);
+}
+
+window.showPlaceDetailsById = (id) => {
+    const place = state.places.find(p => p.id === id);
+    if (place) showPlaceDetails(place);
+};

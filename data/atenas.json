@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "nombre": "Acrópolis de Atenas",
+    "tipo": "cultura",
+    "descripcion": "Antigua ciudadela que contiene los restos de varios edificios históricos, incluyendo el Partenón.",
+    "descripcionCorta": "La cuna de la civilización occidental.",
+    "lat": 37.9715, "lng": 23.7257,
+    "horario": "8:00 - 20:00",
+    "precio": "20€",
+    "rating": 4.9,
+    "imagen": "https://picsum.photos/seed/acropolis/800/600",
+    "imagenCard": "https://picsum.photos/seed/acropolis/400/300",
+    "tags": ["historia", "antigüedad", "vistas"]
+  },
+  {
+    "id": 2,
+    "nombre": "Barrio de Plaka",
+    "tipo": "barrios",
+    "descripcion": "El barrio más antiguo de Atenas, situado a los pies de la Acrópolis.",
+    "descripcionCorta": "El barrio de los dioses.",
+    "lat": 37.9725, "lng": 23.7300,
+    "horario": "24h",
+    "precio": "Gratis",
+    "rating": 4.8,
+    "imagen": "https://picsum.photos/seed/plaka/800/600",
+    "imagenCard": "https://picsum.photos/seed/plaka/400/300",
+    "tags": ["calles", "gastronomía", "tradición"]
+  }
+]

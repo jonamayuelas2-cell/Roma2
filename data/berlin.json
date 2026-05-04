@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "nombre": "Puerta de Brandeburgo",
+    "tipo": "cultura",
+    "descripcion": "Antigua puerta de entrada a Berlín y símbolo de la reunificación alemana.",
+    "descripcionCorta": "El símbolo más icónico de Alemania.",
+    "lat": 52.5163, "lng": 13.3777,
+    "horario": "24h",
+    "precio": "Gratis",
+    "rating": 4.8,
+    "imagen": "https://picsum.photos/seed/brandenburg/800/600",
+    "imagenCard": "https://picsum.photos/seed/brandenburg/400/300",
+    "tags": ["monumento", "historia", "reunificación"]
+  },
+  {
+    "id": 2,
+    "nombre": "Muro de Berlín (East Side Gallery)",
+    "tipo": "cultura",
+    "descripcion": "Galería de arte al aire libre sobre la sección más larga del muro de Berlín.",
+    "descripcionCorta": "Arte e historia en libertad.",
+    "lat": 52.5050, "lng": 13.4397,
+    "horario": "24h",
+    "precio": "Gratis",
+    "rating": 4.7,
+    "imagen": "https://picsum.photos/seed/berlinwall/800/600",
+    "imagenCard": "https://picsum.photos/seed/berlinwall/400/300",
+    "tags": ["arte", "historia", "muro"]
+  }
+]

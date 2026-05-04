@@ -3,40 +3,45 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Roma Eterna — Tu Guía de Viaje a la Ciudad Eterna</title>
-  <meta name="description" content="Descubre los mejores lugares de Roma: monumentos, museos, restaurantes, barrios y parques. Con mapa interactivo y pronóstico del tiempo en tiempo real.">
-  <meta name="theme-color" content="#d4af37">
+  <title>Ciudades del Mundo — Tu Guía de Viaje Global</title>
+  <meta name="description" content="Descubre los mejores lugares del mundo: monumentos, museos, restaurantes, barrios y parques. Con mapa interactivo y pronóstico del tiempo en tiempo real.">
+  <meta name="theme-color" content="#1a2a6c">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <meta name="apple-mobile-web-app-title" content="Roma Eterna">
+  <meta name="apple-mobile-web-app-title" content="TravelWorld">
   <link rel="manifest" href="manifest.json">
 
   <!-- Open Graph -->
-  <meta property="og:title" content="Roma Eterna — Guía de Viaje">
-  <meta property="og:description" content="Tu guía definitiva para descubrir los tesoros de la Ciudad Eterna">
+  <meta property="og:title" content="Ciudades del Mundo — Guía de Viaje">
+  <meta property="og:description" content="Tu guía definitiva para descubrir los tesoros de las ciudades más increíbles del mundo">
   <meta property="og:type" content="website">
+
+  <!-- Google Fonts para Temas Dinámicos -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Montserrat:wght@300;400;700&family=Outfit:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
 
   <!-- Leaflet (mapa) -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <!-- Globe.gl (Selector 3D) -->
+  <script src="//unpkg.com/globe.gl"></script>
 
   <!-- Estilos propios -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- ══ CITY SELECTION (CARRUSEL) ═══════════════════════════ -->
+  <!-- ══ CITY SELECTION (GLOBE 3D) ═══════════════════════════ -->
   <section id="city-selection" class="city-selection">
-    <div class="city-selection-inner">
-      <h1 class="selection-title">🌍 Explora el Mundo</h1>
-      <p class="selection-subtitle">Selecciona una ciudad para descubrir sus secretos</p>
-      
-      <div class="carousel-container">
-        <div id="city-carousel" class="city-carousel">
-          <!-- Ciudades inyectadas dinámicamente -->
-          <div class="loading"><div class="spinner"></div> Preparando destinos...</div>
-        </div>
-      </div>
+    <div class="globe-overlay">
+      <h1 class="selection-title">🌍 Ciudades del Mundo</h1>
+      <p class="selection-subtitle">Gira la bola del mundo y elige tu próximo destino</p>
+    </div>
+    <div id="globeViz"></div>
+    <div id="city-info-card" class="city-info-card" style="display: none;">
+      <!-- Se llena al pasar el ratón o hacer click -->
     </div>
   </section>
 
@@ -47,8 +52,8 @@
       <div class="header-inner">
         <button id="back-to-cities" class="back-btn" title="Volver a ciudades">⬅️</button>
         <a class="logo" href="#">
-          <span class="logo-icon">🏛️</span>
-          <span class="logo-text" id="app-title">Roma Eterna<span class="logo-sub" id="app-subtitle">La Ciudad Eterna · Guía de Viaje</span></span>
+          <span class="logo-icon" id="app-logo-icon">🏛️</span>
+          <span class="logo-text" id="app-title">Ciudades del Mundo<span class="logo-sub" id="app-subtitle">Guía de Viaje Personalizada</span></span>
         </a>
         <nav class="main-tabs">
           <button class="tab-btn active" data-tab="lugares" id="tab-lugares">
@@ -63,8 +68,8 @@
 
     <!-- ══ HERO ════════════════════════════════════════════ -->
     <section class="hero" id="city-hero">
-      <h1 id="hero-title">🇮🇹 Descubre Roma</h1>
-      <p id="hero-subtitle">20 lugares imprescindibles para vivir la Ciudad Eterna</p>
+      <h1 id="hero-title">Descubre el Mundo</h1>
+      <p id="hero-subtitle">Explora los lugares imprescindibles de tu próximo destino</p>
     </section>
 
     <!-- ══ FILTROS ══════════════════════════════════════════ -->
