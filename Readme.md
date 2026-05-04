@@ -1,141 +1,72 @@
-# 🏛️ Roma Eterna — PWA Turismo de Viaje
+# Casa Nopal - Restaurante Mexicano
 
-> Tu guía definitiva para descubrir los tesoros de la Ciudad Eterna 🇮🇹
+Web/PWA estatica para un restaurante mexicano contemporaneo en Madrid. Incluye carta filtrable, vistas en tarjetas/lista/mapa, detalle de cada plato, compartir, reserva por telefono y clima para la terraza.
 
----
+## Funcionalidades
 
-## 📋 Descripción del Proyecto
-
-**Roma Eterna** es una Progressive Web App (PWA) de turismo orientada a visitantes de Roma. Ofrece una guía completa de puntos de interés con filtros, múltiples vistas y datos meteorológicos en tiempo real.
-
----
-
-## ✨ Funcionalidades
-
-| Feature | Descripción |
+| Feature | Descripcion |
 |---|---|
-| 🗺️ **Mapa Interactivo** | OpenStreetMap con marcadores por tipo de lugar |
-| ⊞ **Vista Tarjetas** | Grid responsivo con imágenes de picsum.photos |
-| ≡ **Vista Lista** | Lista compacta con miniatura e información clave |
-| 🔍 **Filtro de texto** | Búsqueda por nombre, descripción o tags |
-| 🏷️ **Filtros por tipo** | Cultura, Museos, Restaurantes, Barrios, Parques, Mercados, Cafés |
-| 📤 **Compartir lugar** | WhatsApp, Telegram, Email, Twitter/X o copiar enlace |
-| 🌤️ **Tiempo en tiempo real** | Hoy + 8 días vía API Open-Meteo (sin clave) |
-| 📱 **PWA** | Instalable, Service Worker, caché offline |
+| Carta filtrable | Busqueda por nombre, descripcion y tags |
+| Categorias | Tacos, antojitos, principales, bebidas, postres y experiencias |
+| Vista tarjetas | Grid responsivo con fotografias gastronomicas |
+| Vista lista | Lectura compacta de precios, horarios y platos |
+| Mapa | Ubicacion de Casa Nopal en Madrid con marcadores de platos destacados |
+| Detalle | Modal con descripcion, precio, horario, direccion y acciones |
+| Compartir | Web Share API con fallback a WhatsApp, email y copiar enlace |
+| Terraza | Clima actual y prevision de 8 dias con Open-Meteo |
+| PWA | Manifest y Service Worker para instalacion/cache basica |
 
----
+## Estructura
 
-## 📁 Estructura de Archivos
-
-```
+```text
 Roma/
-├── index.html          # HTML principal de la PWA
-├── style.css           # Estilos completos (diseño oscuro dorado)
-├── app.js              # Lógica JS: filtros, vistas, mapa, tiempo, compartir
-├── sw.js               # Service Worker (caché offline)
-├── manifest.json       # Manifiesto PWA
-├── lista.json          # 20 puntos de interés en Roma
-└── Readme.md           # Este fichero
+├── index.html       # HTML principal
+├── style.css        # Estilos de Casa Nopal
+├── app.js           # Filtros, vistas, mapa, clima y compartir
+├── lista.json       # Carta del restaurante
+├── manifest.json    # Manifiesto PWA
+├── sw.js            # Service Worker
+└── Readme.md
 ```
 
----
+## Ejecutar
 
-## 📍 Puntos de Interés (`lista.json`)
-
-20 lugares cubriendo todos los tipos:
-
-| # | Lugar | Tipo |
-|---|---|---|
-| 1 | Coliseo Romano | 🏛️ Cultura |
-| 2 | Vaticano - Basílica de San Pedro | 🏛️ Cultura |
-| 3 | Museos Vaticanos | 🖼️ Museo |
-| 4 | Fontana di Trevi | 🏛️ Cultura |
-| 5 | Panteón de Agripa | 🏛️ Cultura |
-| 6 | Plaza Navona | 🏛️ Cultura |
-| 7 | Foro Romano | 🏛️ Cultura |
-| 8 | Galería Borghese | 🖼️ Museo |
-| 9 | Castel Sant'Angelo | 🖼️ Museo |
-| 10 | Altar de la Patria | 🏛️ Cultura |
-| 11 | La Pergola (3* Michelin) | 🍝 Restaurante |
-| 12 | Tonnarello Trastevere | 🍝 Restaurante |
-| 13 | Pizzarium Bonci | 🍝 Restaurante |
-| 14 | Trastevere | 🏘️ Barrio |
-| 15 | Campo de' Fiori | 🏘️ Barrio |
-| 16 | Colina del Aventino | 🌿 Parque |
-| 17 | Villa Borghese | 🌿 Parque |
-| 18 | Mercado de Testaccio | 🛍️ Mercado |
-| 19 | Catacumbas de San Calixto | 🖼️ Museo |
-| 20 | Bar San Calisto - Gelato | ☕ Café |
-
----
-
-## 🌤️ API Meteorológica
-
-Utiliza **Open-Meteo** ([open-meteo.com](https://open-meteo.com)):
-- ✅ Completamente gratuita
-- ✅ Sin registro ni clave API
-- ✅ Datos actuales + pronóstico 8 días
-- ✅ Temperatura, humedad, viento, UV, precipitación
-
----
-
-## 🚀 Cómo Ejecutar
-
-Para un correcto funcionamiento como PWA (Service Worker) se recomienda un servidor local:
+La app usa `fetch` para cargar `lista.json`, asi que conviene servirla por HTTP:
 
 ```bash
-# Opción 1: con Python
 python -m http.server 8080
-
-# Opción 2: con Node.js
-npx serve .
-
-# Opción 3: con VS Code
-# Usar extensión "Live Server" y abrir index.html
 ```
 
-Luego abrir: `http://localhost:8080`
+Abrir:
 
----
+```text
+http://localhost:8080
+```
 
-## 🎨 Diseño
+## Diseno
 
-- **Paleta**: Dorado (#c9963c) sobre oscuro (#0d0500)  
-- **Tipografías**: Cinzel (títulos romanos) + Inter (cuerpo)  
-- **Estética**: Glassmorphism oscuro, gradientes cálidos, animaciones suaves
-- **Responsive**: Mobile-first, adaptado a todas las pantallas
+- Identidad: Casa Nopal, taqueria y cocina mexicana.
+- Paleta: verde nopal, rojo chile, amarillo maiz, azul cielo y base clara.
+- Tipografias: Fraunces para titulares e Inter para interfaz.
+- Primer viewport: experiencia real de restaurante con marca, reserva y acceso directo a carta.
 
----
+## Datos
 
-## 📜 Historial de Cambios
+`lista.json` contiene 16 opciones de carta y experiencias, todas con:
 
-### v1.1.1 — 2026-04-22 📤
-- 📂 **Prompts**: Creada carpeta `prompts/` con el historial de interacciones.
-- 🧹 **Git**: Añadido `.gitignore` y configurada la sincronización.
-- 🌐 **GitHub**: Proyecto subido a `https://github.com/jonamayuelas2-cell/Roma2.git`.
+- nombre
+- categoria
+- descripcion larga y corta
+- precio
+- horario
+- rating
+- imagen
+- tags
+- ubicacion del restaurante
 
-### v1.0.1 — 2026-04-22 🛠️
-- 🔍 Consulta sobre la disponibilidad del modo **Planning** en la interfaz de Antigravity.
-- 💡 Explicación de las diferencias entre *Planning Mode* y *Fast Mode*.
-- 🚀 **Arranque del sistema**: Servidor estático lanzado en el puerto **8080** para servir el Front/Back de la PWA.
-- 🌐 **Verificación**: Comprobado el acceso a `http://localhost:8080` con éxito.
+## Verificacion
 
-### v1.0.0 — 2026-04-22 🎉
-- 🆕 Creación inicial del proyecto PWA
-- 🆕 `lista.json` con 20 puntos de interés en Roma
-- 🆕 Vista tarjetas, lista y mapa (OpenStreetMap/Leaflet)
-- 🆕 Filtros por texto y por tipo de lugar
-- 🆕 Modal de detalle con opción de compartir (WhatsApp, Telegram, Email, Twitter)
-- 🆕 Tab meteorología con Open-Meteo API (hoy + 8 días)
-- 🆕 Service Worker + manifest.json (PWA instalable)
-- 🆕 Diseño oscuro dorado con tipografía Cinzel
-
-### v1.0.1 — 2026-04-22 🛠️
-- 🔍 Consulta sobre la disponibilidad del modo **Planning** en la interfaz de Antigravity.
-- 💡 Explicación de las diferencias entre *Planning Mode* y *Fast Mode*.
-- 🚀 **Arranque del sistema**: Servidor estático lanzado en el puerto **8080** para servir el Front/Back de la PWA.
-- 🌐 **Verificación**: Comprobado el acceso a `http://localhost:8080` con éxito.
-
----
-
-*Creado con ❤️ y IA para explorar la Ciudad Eterna* 🏛️
+- `node --check app.js`
+- Parseo de `lista.json` y `manifest.json`
+- Servidor local en `http://127.0.0.1:8080/`
+- Prueba en navegador integrado: carga de tarjetas, mapa y clima

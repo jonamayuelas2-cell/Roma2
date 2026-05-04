@@ -1,14 +1,14 @@
 {
-  "name": "Roma Eterna - Guía de Viaje",
-  "short_name": "Roma Eterna",
-  "description": "Tu guía definitiva para descubrir los tesoros de la Ciudad Eterna",
+  "name": "Casa Nopal - Restaurante Mexicano",
+  "short_name": "Casa Nopal",
+  "description": "Carta, reservas, mapa y terraza de un restaurante mexicano contemporaneo.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#0a0b10",
-  "theme_color": "#d4af37",
+  "background_color": "#fff8ed",
+  "theme_color": "#0f5f3b",
   "orientation": "portrait-primary",
   "lang": "es",
-  "categories": ["travel", "lifestyle", "navigation"],
+  "categories": ["food", "lifestyle"],
   "icons": [
     {
       "src": "icons/icon-192.png",
@@ -26,14 +26,14 @@
   "screenshots": [],
   "shortcuts": [
     {
-      "name": "Ver Mapa",
-      "url": "/?view=mapa",
-      "description": "Ver mapa de puntos de interés"
+      "name": "Ver carta",
+      "url": "/",
+      "description": "Abrir la carta de Casa Nopal"
     },
     {
-      "name": "Meteorología",
+      "name": "Clima de terraza",
       "url": "/?tab=meteo",
-      "description": "Ver el tiempo en Roma"
+      "description": "Ver el clima actual en Madrid"
     }
   ]
 }
