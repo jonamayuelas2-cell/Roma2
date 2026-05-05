@@ -1,170 +1,2258 @@
 [
-  { 
-    "id": "roma", "nombre": "Roma", "pais": "Italia", "emoji": "🇮🇹", "lat": 41.9028, "lng": 12.4964, 
-    "imagen": "https://picsum.photos/seed/roma_city/800/600",
-    "theme": { "primary": "#d4af37", "secondary": "#aa8a2e", "font": "'Cinzel', serif" },
+  {
+    "id": "roma",
+    "nombre": "Roma",
+    "pais": "Italia",
+    "continente": "Europa",
+    "emoji": "🇮🇹",
+    "lat": 41.9028,
+    "lng": 12.4964,
+    "imagen": "https://picsum.photos/seed/roma_city/1200/800",
+    "theme": {
+      "primary": "#d4af37",
+      "secondary": "#8b1e1e",
+      "font": "'Cinzel', serif"
+    },
     "lugares": [
-      { "id": 1, "nombre": "Coliseo Romano", "tipo": "cultura", "descripcion": "El anfiteatro más grande del mundo.", "descripcionCorta": "Icono de la Roma Imperial.", "lat": 41.8902, "lng": 12.4922, "imagenCard": "https://picsum.photos/seed/colosseo/400/300", "tags": ["imperio", "historia"] },
-      { "id": 2, "nombre": "Fontana di Trevi", "tipo": "cultura", "descripcion": "La fuente más famosa de Roma.", "descripcionCorta": "No olvides tirar tu moneda.", "lat": 41.9009, "lng": 12.4833, "imagenCard": "https://picsum.photos/seed/trevi/400/300", "tags": ["barroco", "deseos"] }
+      {
+        "id": 1,
+        "nombre": "Coliseo Romano",
+        "tipo": "cultura",
+        "descripcion": "Coliseo Romano es una visita destacada de Roma, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Coliseo Romano es una visita destacada de Roma, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad.",
+        "lat": 41.8902,
+        "lng": 12.4922,
+        "horario": "9:00 - 18:00",
+        "precio": "Desde 8 EUR",
+        "rating": 4.5,
+        "imagen": "https://picsum.photos/seed/roma_1/900/650",
+        "imagenCard": "https://picsum.photos/seed/roma_1/500/360",
+        "tags": [
+          "cultura",
+          "europa",
+          "roma"
+        ]
+      },
+      {
+        "id": 2,
+        "nombre": "Foro Romano",
+        "tipo": "cultura",
+        "descripcion": "Foro Romano es una visita destacada de Roma, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Foro Romano es una visita destacada de Roma, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad.",
+        "lat": 41.8925,
+        "lng": 12.4853,
+        "horario": "9:00 - 18:00",
+        "precio": "Desde 8 EUR",
+        "rating": 4.6,
+        "imagen": "https://picsum.photos/seed/roma_2/900/650",
+        "imagenCard": "https://picsum.photos/seed/roma_2/500/360",
+        "tags": [
+          "cultura",
+          "europa",
+          "roma"
+        ]
+      },
+      {
+        "id": 3,
+        "nombre": "Fontana di Trevi",
+        "tipo": "cultura",
+        "descripcion": "Fontana di Trevi es una visita destacada de Roma, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Fontana di Trevi es una visita destacada de Roma, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad.",
+        "lat": 41.9009,
+        "lng": 12.4833,
+        "horario": "9:00 - 18:00",
+        "precio": "Desde 8 EUR",
+        "rating": 4.7,
+        "imagen": "https://picsum.photos/seed/roma_3/900/650",
+        "imagenCard": "https://picsum.photos/seed/roma_3/500/360",
+        "tags": [
+          "cultura",
+          "europa",
+          "roma"
+        ]
+      },
+      {
+        "id": 4,
+        "nombre": "Panteón",
+        "tipo": "cultura",
+        "descripcion": "Panteón es una visita destacada de Roma, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Panteón es una visita destacada de Roma, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad.",
+        "lat": 41.8986,
+        "lng": 12.4769,
+        "horario": "9:00 - 18:00",
+        "precio": "Desde 8 EUR",
+        "rating": 4.7,
+        "imagen": "https://picsum.photos/seed/roma_4/900/650",
+        "imagenCard": "https://picsum.photos/seed/roma_4/500/360",
+        "tags": [
+          "cultura",
+          "europa",
+          "roma"
+        ]
+      },
+      {
+        "id": 5,
+        "nombre": "Museos Vaticanos",
+        "tipo": "museos",
+        "descripcion": "Museos Vaticanos es una visita destacada de Roma, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Museos Vaticanos es una visita destacada de Roma, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares.",
+        "lat": 41.9065,
+        "lng": 12.4536,
+        "horario": "10:00 - 18:00",
+        "precio": "Desde 12 EUR",
+        "rating": 4.8,
+        "imagen": "https://picsum.photos/seed/roma_5/900/650",
+        "imagenCard": "https://picsum.photos/seed/roma_5/500/360",
+        "tags": [
+          "museos",
+          "europa",
+          "roma"
+        ]
+      },
+      {
+        "id": 6,
+        "nombre": "Trastevere",
+        "tipo": "barrios",
+        "descripcion": "Trastevere es una visita destacada de Roma, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Trastevere es una visita destacada de Roma, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad.",
+        "lat": 41.8894,
+        "lng": 12.4697,
+        "horario": "24h",
+        "precio": "Gratis",
+        "rating": 4.5,
+        "imagen": "https://picsum.photos/seed/roma_6/900/650",
+        "imagenCard": "https://picsum.photos/seed/roma_6/500/360",
+        "tags": [
+          "barrios",
+          "europa",
+          "roma"
+        ]
+      },
+      {
+        "id": 7,
+        "nombre": "Villa Borghese",
+        "tipo": "parques",
+        "descripcion": "Villa Borghese es una visita destacada de Roma, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Villa Borghese es una visita destacada de Roma, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje.",
+        "lat": 41.9142,
+        "lng": 12.4922,
+        "horario": "7:00 - 20:00",
+        "precio": "Gratis",
+        "rating": 4.6,
+        "imagen": "https://picsum.photos/seed/roma_7/900/650",
+        "imagenCard": "https://picsum.photos/seed/roma_7/500/360",
+        "tags": [
+          "parques",
+          "europa",
+          "roma"
+        ]
+      },
+      {
+        "id": 8,
+        "nombre": "Campo de Fiori",
+        "tipo": "mercados",
+        "descripcion": "Campo de Fiori es una visita destacada de Roma, una referencia: mercado lleno de puestos, productos locales y escenas cotidianas. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Campo de Fiori es una visita destacada de Roma, una referencia: mercado lleno de puestos, productos locales y escenas cotidianas.",
+        "lat": 41.8956,
+        "lng": 12.4722,
+        "horario": "9:00 - 15:00",
+        "precio": "Gratis",
+        "rating": 4.7,
+        "imagen": "https://picsum.photos/seed/roma_8/900/650",
+        "imagenCard": "https://picsum.photos/seed/roma_8/500/360",
+        "tags": [
+          "mercados",
+          "europa",
+          "roma"
+        ]
+      },
+      {
+        "id": 9,
+        "nombre": "Roscioli",
+        "tipo": "restaurantes",
+        "descripcion": "Roscioli es una visita destacada de Roma, una referencia: parada gastronómica recomendada para probar sabores representativos. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Roscioli es una visita destacada de Roma, una referencia: parada gastronómica recomendada para probar sabores representativos.",
+        "lat": 41.895,
+        "lng": 12.474,
+        "horario": "12:30 - 23:00",
+        "precio": "Menu variable",
+        "rating": 4.7,
+        "imagen": "https://picsum.photos/seed/roma_9/900/650",
+        "imagenCard": "https://picsum.photos/seed/roma_9/500/360",
+        "tags": [
+          "restaurantes",
+          "europa",
+          "roma"
+        ]
+      }
     ]
   },
-  { 
-    "id": "paris", "nombre": "París", "pais": "Francia", "emoji": "🇫🇷", "lat": 48.8566, "lng": 2.3522, 
-    "imagen": "https://picsum.photos/seed/paris_city/800/600",
-    "theme": { "primary": "#3457D5", "secondary": "#1a2a6c", "font": "'Playfair Display', serif" },
+  {
+    "id": "paris",
+    "nombre": "París",
+    "pais": "Francia",
+    "continente": "Europa",
+    "emoji": "🇫🇷",
+    "lat": 48.8566,
+    "lng": 2.3522,
+    "imagen": "https://picsum.photos/seed/paris_city/1200/800",
+    "theme": {
+      "primary": "#3457D5",
+      "secondary": "#c9a227",
+      "font": "'Playfair Display', serif"
+    },
     "lugares": [
-      { "id": 1, "nombre": "Torre Eiffel", "tipo": "cultura", "descripcion": "El símbolo de París.", "descripcionCorta": "La dama de hierro.", "lat": 48.8584, "lng": 2.2945, "imagenCard": "https://picsum.photos/seed/eiffel/400/300", "tags": ["icono", "vistas"] },
-      { "id": 2, "nombre": "Museo del Louvre", "tipo": "museos", "descripcion": "El museo más visitado del mundo.", "descripcionCorta": "Hogar de la Mona Lisa.", "lat": 48.8606, "lng": 2.3376, "imagenCard": "https://picsum.photos/seed/louvre/400/300", "tags": ["arte", "historia"] }
+      {
+        "id": 1,
+        "nombre": "Torre Eiffel",
+        "tipo": "cultura",
+        "descripcion": "Torre Eiffel es una visita destacada de París, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Torre Eiffel es una visita destacada de París, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad.",
+        "lat": 48.8584,
+        "lng": 2.2945,
+        "horario": "9:00 - 18:00",
+        "precio": "Desde 8 EUR",
+        "rating": 4.5,
+        "imagen": "https://picsum.photos/seed/paris_1/900/650",
+        "imagenCard": "https://picsum.photos/seed/paris_1/500/360",
+        "tags": [
+          "cultura",
+          "europa",
+          "paris"
+        ]
+      },
+      {
+        "id": 2,
+        "nombre": "Museo del Louvre",
+        "tipo": "museos",
+        "descripcion": "Museo del Louvre es una visita destacada de París, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Museo del Louvre es una visita destacada de París, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares.",
+        "lat": 48.8606,
+        "lng": 2.3376,
+        "horario": "10:00 - 18:00",
+        "precio": "Desde 12 EUR",
+        "rating": 4.6,
+        "imagen": "https://picsum.photos/seed/paris_2/900/650",
+        "imagenCard": "https://picsum.photos/seed/paris_2/500/360",
+        "tags": [
+          "museos",
+          "europa",
+          "paris"
+        ]
+      },
+      {
+        "id": 3,
+        "nombre": "Notre-Dame",
+        "tipo": "cultura",
+        "descripcion": "Notre-Dame es una visita destacada de París, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Notre-Dame es una visita destacada de París, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad.",
+        "lat": 48.853,
+        "lng": 2.3499,
+        "horario": "9:00 - 18:00",
+        "precio": "Desde 8 EUR",
+        "rating": 4.7,
+        "imagen": "https://picsum.photos/seed/paris_3/900/650",
+        "imagenCard": "https://picsum.photos/seed/paris_3/500/360",
+        "tags": [
+          "cultura",
+          "europa",
+          "paris"
+        ]
+      },
+      {
+        "id": 4,
+        "nombre": "Montmartre",
+        "tipo": "barrios",
+        "descripcion": "Montmartre es una visita destacada de París, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Montmartre es una visita destacada de París, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad.",
+        "lat": 48.8867,
+        "lng": 2.3431,
+        "horario": "24h",
+        "precio": "Gratis",
+        "rating": 4.7,
+        "imagen": "https://picsum.photos/seed/paris_4/900/650",
+        "imagenCard": "https://picsum.photos/seed/paris_4/500/360",
+        "tags": [
+          "barrios",
+          "europa",
+          "paris"
+        ]
+      },
+      {
+        "id": 5,
+        "nombre": "Museo de Orsay",
+        "tipo": "museos",
+        "descripcion": "Museo de Orsay es una visita destacada de París, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Museo de Orsay es una visita destacada de París, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares.",
+        "lat": 48.86,
+        "lng": 2.3266,
+        "horario": "10:00 - 18:00",
+        "precio": "Desde 12 EUR",
+        "rating": 4.8,
+        "imagen": "https://picsum.photos/seed/paris_5/900/650",
+        "imagenCard": "https://picsum.photos/seed/paris_5/500/360",
+        "tags": [
+          "museos",
+          "europa",
+          "paris"
+        ]
+      },
+      {
+        "id": 6,
+        "nombre": "Jardines de Luxemburgo",
+        "tipo": "parques",
+        "descripcion": "Jardines de Luxemburgo es una visita destacada de París, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Jardines de Luxemburgo es una visita destacada de París, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje.",
+        "lat": 48.8462,
+        "lng": 2.3372,
+        "horario": "7:00 - 20:00",
+        "precio": "Gratis",
+        "rating": 4.5,
+        "imagen": "https://picsum.photos/seed/paris_6/900/650",
+        "imagenCard": "https://picsum.photos/seed/paris_6/500/360",
+        "tags": [
+          "parques",
+          "europa",
+          "paris"
+        ]
+      },
+      {
+        "id": 7,
+        "nombre": "Le Marais",
+        "tipo": "barrios",
+        "descripcion": "Le Marais es una visita destacada de París, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Le Marais es una visita destacada de París, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad.",
+        "lat": 48.8589,
+        "lng": 2.3622,
+        "horario": "24h",
+        "precio": "Gratis",
+        "rating": 4.6,
+        "imagen": "https://picsum.photos/seed/paris_7/900/650",
+        "imagenCard": "https://picsum.photos/seed/paris_7/500/360",
+        "tags": [
+          "barrios",
+          "europa",
+          "paris"
+        ]
+      },
+      {
+        "id": 8,
+        "nombre": "Marche des Enfants Rouges",
+        "tipo": "mercados",
+        "descripcion": "Marche des Enfants Rouges es una visita destacada de París, una referencia: mercado lleno de puestos, productos locales y escenas cotidianas. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Marche des Enfants Rouges es una visita destacada de París, una referencia: mercado lleno de puestos, productos locales y escenas cotidianas.",
+        "lat": 48.8629,
+        "lng": 2.3615,
+        "horario": "9:00 - 15:00",
+        "precio": "Gratis",
+        "rating": 4.7,
+        "imagen": "https://picsum.photos/seed/paris_8/900/650",
+        "imagenCard": "https://picsum.photos/seed/paris_8/500/360",
+        "tags": [
+          "mercados",
+          "europa",
+          "paris"
+        ]
+      },
+      {
+        "id": 9,
+        "nombre": "Bistrot Paul Bert",
+        "tipo": "restaurantes",
+        "descripcion": "Bistrot Paul Bert es una visita destacada de París, una referencia: parada gastronómica recomendada para probar sabores representativos. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Bistrot Paul Bert es una visita destacada de París, una referencia: parada gastronómica recomendada para probar sabores representativos.",
+        "lat": 48.8517,
+        "lng": 2.3836,
+        "horario": "12:30 - 23:00",
+        "precio": "Menu variable",
+        "rating": 4.7,
+        "imagen": "https://picsum.photos/seed/paris_9/900/650",
+        "imagenCard": "https://picsum.photos/seed/paris_9/500/360",
+        "tags": [
+          "restaurantes",
+          "europa",
+          "paris"
+        ]
+      }
     ]
   },
-  { 
-    "id": "londres", "nombre": "Londres", "pais": "Reino Unido", "emoji": "🇬🇧", "lat": 51.5074, "lng": -0.1278, 
-    "imagen": "https://picsum.photos/seed/london_city/800/600",
-    "theme": { "primary": "#C8102E", "secondary": "#012169", "font": "'Montserrat', sans-serif" },
+  {
+    "id": "elcairo",
+    "nombre": "El Cairo",
+    "pais": "Egipto",
+    "continente": "Africa",
+    "emoji": "🇪🇬",
+    "lat": 30.0444,
+    "lng": 31.2357,
+    "imagen": "https://picsum.photos/seed/cairo_city/1200/800",
+    "theme": {
+      "primary": "#c09304",
+      "secondary": "#101010",
+      "font": "'Cinzel', serif"
+    },
     "lugares": [
-      { "id": 1, "nombre": "Big Ben", "tipo": "cultura", "descripcion": "El reloj más famoso del mundo.", "descripcionCorta": "Icono de Londres.", "lat": 51.5007, "lng": -0.1246, "imagenCard": "https://picsum.photos/seed/bigben/400/300", "tags": ["reloj", "historia"] },
-      { "id": 2, "nombre": "London Eye", "tipo": "cultura", "descripcion": "Gran noria a orillas del Támesis.", "descripcionCorta": "Vistas panorámicas de la ciudad.", "lat": 51.5033, "lng": -0.1195, "imagenCard": "https://picsum.photos/seed/londoneye/400/300", "tags": ["vistas", "moderno"] }
+      {
+        "id": 1,
+        "nombre": "Pirámides de Giza",
+        "tipo": "cultura",
+        "descripcion": "Pirámides de Giza es una visita destacada de El Cairo, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Pirámides de Giza es una visita destacada de El Cairo, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad.",
+        "lat": 29.9792,
+        "lng": 31.1342,
+        "horario": "9:00 - 18:00",
+        "precio": "Desde 8 EUR",
+        "rating": 4.5,
+        "imagen": "https://picsum.photos/seed/elcairo_1/900/650",
+        "imagenCard": "https://picsum.photos/seed/elcairo_1/500/360",
+        "tags": [
+          "cultura",
+          "africa",
+          "el cairo"
+        ]
+      },
+      {
+        "id": 2,
+        "nombre": "Gran Museo Egipcio",
+        "tipo": "museos",
+        "descripcion": "Gran Museo Egipcio es una visita destacada de El Cairo, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Gran Museo Egipcio es una visita destacada de El Cairo, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares.",
+        "lat": 29.9936,
+        "lng": 31.1195,
+        "horario": "10:00 - 18:00",
+        "precio": "Desde 12 EUR",
+        "rating": 4.6,
+        "imagen": "https://picsum.photos/seed/elcairo_2/900/650",
+        "imagenCard": "https://picsum.photos/seed/elcairo_2/500/360",
+        "tags": [
+          "museos",
+          "africa",
+          "el cairo"
+        ]
+      },
+      {
+        "id": 3,
+        "nombre": "Museo Egipcio de Tahrir",
+        "tipo": "museos",
+        "descripcion": "Museo Egipcio de Tahrir es una visita destacada de El Cairo, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Museo Egipcio de Tahrir es una visita destacada de El Cairo, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares.",
+        "lat": 30.0478,
+        "lng": 31.2336,
+        "horario": "10:00 - 18:00",
+        "precio": "Desde 12 EUR",
+        "rating": 4.7,
+        "imagen": "https://picsum.photos/seed/elcairo_3/900/650",
+        "imagenCard": "https://picsum.photos/seed/elcairo_3/500/360",
+        "tags": [
+          "museos",
+          "africa",
+          "el cairo"
+        ]
+      },
+      {
+        "id": 4,
+        "nombre": "Ciudadela de Saladino",
+        "tipo": "cultura",
+        "descripcion": "Ciudadela de Saladino es una visita destacada de El Cairo, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Ciudadela de Saladino es una visita destacada de El Cairo, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad.",
+        "lat": 30.0299,
+        "lng": 31.2613,
+        "horario": "9:00 - 18:00",
+        "precio": "Desde 8 EUR",
+        "rating": 4.7,
+        "imagen": "https://picsum.photos/seed/elcairo_4/900/650",
+        "imagenCard": "https://picsum.photos/seed/elcairo_4/500/360",
+        "tags": [
+          "cultura",
+          "africa",
+          "el cairo"
+        ]
+      },
+      {
+        "id": 5,
+        "nombre": "Khan el-Khalili",
+        "tipo": "mercados",
+        "descripcion": "Khan el-Khalili es una visita destacada de El Cairo, una referencia: mercado lleno de puestos, productos locales y escenas cotidianas. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Khan el-Khalili es una visita destacada de El Cairo, una referencia: mercado lleno de puestos, productos locales y escenas cotidianas.",
+        "lat": 30.0477,
+        "lng": 31.2623,
+        "horario": "9:00 - 15:00",
+        "precio": "Gratis",
+        "rating": 4.8,
+        "imagen": "https://picsum.photos/seed/elcairo_5/900/650",
+        "imagenCard": "https://picsum.photos/seed/elcairo_5/500/360",
+        "tags": [
+          "mercados",
+          "africa",
+          "el cairo"
+        ]
+      },
+      {
+        "id": 6,
+        "nombre": "Barrio Copto",
+        "tipo": "barrios",
+        "descripcion": "Barrio Copto es una visita destacada de El Cairo, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Barrio Copto es una visita destacada de El Cairo, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad.",
+        "lat": 30.0056,
+        "lng": 31.2303,
+        "horario": "24h",
+        "precio": "Gratis",
+        "rating": 4.5,
+        "imagen": "https://picsum.photos/seed/elcairo_6/900/650",
+        "imagenCard": "https://picsum.photos/seed/elcairo_6/500/360",
+        "tags": [
+          "barrios",
+          "africa",
+          "el cairo"
+        ]
+      },
+      {
+        "id": 7,
+        "nombre": "Parque Al-Azhar",
+        "tipo": "parques",
+        "descripcion": "Parque Al-Azhar es una visita destacada de El Cairo, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Parque Al-Azhar es una visita destacada de El Cairo, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje.",
+        "lat": 30.0406,
+        "lng": 31.2657,
+        "horario": "7:00 - 20:00",
+        "precio": "Gratis",
+        "rating": 4.6,
+        "imagen": "https://picsum.photos/seed/elcairo_7/900/650",
+        "imagenCard": "https://picsum.photos/seed/elcairo_7/500/360",
+        "tags": [
+          "parques",
+          "africa",
+          "el cairo"
+        ]
+      },
+      {
+        "id": 8,
+        "nombre": "Mezquita de Ibn Tulun",
+        "tipo": "cultura",
+        "descripcion": "Mezquita de Ibn Tulun es una visita destacada de El Cairo, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Mezquita de Ibn Tulun es una visita destacada de El Cairo, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad.",
+        "lat": 30.0287,
+        "lng": 31.2497,
+        "horario": "9:00 - 18:00",
+        "precio": "Desde 8 EUR",
+        "rating": 4.7,
+        "imagen": "https://picsum.photos/seed/elcairo_8/900/650",
+        "imagenCard": "https://picsum.photos/seed/elcairo_8/500/360",
+        "tags": [
+          "cultura",
+          "africa",
+          "el cairo"
+        ]
+      },
+      {
+        "id": 9,
+        "nombre": "Naguib Mahfouz Cafe",
+        "tipo": "cafes",
+        "descripcion": "Naguib Mahfouz Cafe es una visita destacada de El Cairo, una referencia: café con ambiente propio para hacer una pausa entre visitas. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Naguib Mahfouz Cafe es una visita destacada de El Cairo, una referencia: café con ambiente propio para hacer una pausa entre visitas.",
+        "lat": 30.047,
+        "lng": 31.262,
+        "horario": "8:00 - 20:00",
+        "precio": "Desde 5 EUR",
+        "rating": 4.7,
+        "imagen": "https://picsum.photos/seed/elcairo_9/900/650",
+        "imagenCard": "https://picsum.photos/seed/elcairo_9/500/360",
+        "tags": [
+          "cafes",
+          "africa",
+          "el cairo"
+        ]
+      }
     ]
   },
-  { 
-    "id": "barcelona", "nombre": "Barcelona", "pais": "España", "emoji": "🇪🇸", "lat": 41.3851, "lng": 2.1734, 
-    "imagen": "https://picsum.photos/seed/barcelona_city/800/600",
-    "theme": { "primary": "#FFD700", "secondary": "#8B0000", "font": "'Outfit', sans-serif" },
+  {
+    "id": "ciudaddelcabo",
+    "nombre": "Ciudad del Cabo",
+    "pais": "Sudafrica",
+    "continente": "Africa",
+    "emoji": "🇿🇦",
+    "lat": -33.9249,
+    "lng": 18.4241,
+    "imagen": "https://picsum.photos/seed/cape_town_city/1200/800",
+    "theme": {
+      "primary": "#00a884",
+      "secondary": "#005f73",
+      "font": "'Outfit', sans-serif"
+    },
     "lugares": [
-      { "id": 1, "nombre": "Sagrada Familia", "tipo": "cultura", "descripcion": "Obra maestra de Gaudí.", "descripcionCorta": "Modernismo catalán.", "lat": 41.4036, "lng": 2.1744, "imagenCard": "https://picsum.photos/seed/sagrada/400/300", "tags": ["gaudí", "modernismo"] },
-      { "id": 2, "nombre": "Parque Güell", "tipo": "parques", "descripcion": "Parque con elementos arquitectónicos.", "descripcionCorta": "Color y creatividad.", "lat": 41.4145, "lng": 2.1527, "imagenCard": "https://picsum.photos/seed/guell/400/300", "tags": ["gaudí", "naturaleza"] }
+      {
+        "id": 1,
+        "nombre": "Table Mountain",
+        "tipo": "parques",
+        "descripcion": "Table Mountain es una visita destacada de Ciudad del Cabo, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Table Mountain es una visita destacada de Ciudad del Cabo, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje.",
+        "lat": -33.9628,
+        "lng": 18.4098,
+        "horario": "7:00 - 20:00",
+        "precio": "Gratis",
+        "rating": 4.5,
+        "imagen": "https://picsum.photos/seed/ciudaddelcabo_1/900/650",
+        "imagenCard": "https://picsum.photos/seed/ciudaddelcabo_1/500/360",
+        "tags": [
+          "parques",
+          "africa",
+          "ciudad del cabo"
+        ]
+      },
+      {
+        "id": 2,
+        "nombre": "V&A Waterfront",
+        "tipo": "barrios",
+        "descripcion": "V&A Waterfront es una visita destacada de Ciudad del Cabo, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "V&A Waterfront es una visita destacada de Ciudad del Cabo, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad.",
+        "lat": -33.903,
+        "lng": 18.4219,
+        "horario": "24h",
+        "precio": "Gratis",
+        "rating": 4.6,
+        "imagen": "https://picsum.photos/seed/ciudaddelcabo_2/900/650",
+        "imagenCard": "https://picsum.photos/seed/ciudaddelcabo_2/500/360",
+        "tags": [
+          "barrios",
+          "africa",
+          "ciudad del cabo"
+        ]
+      },
+      {
+        "id": 3,
+        "nombre": "Robben Island",
+        "tipo": "museos",
+        "descripcion": "Robben Island es una visita destacada de Ciudad del Cabo, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Robben Island es una visita destacada de Ciudad del Cabo, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares.",
+        "lat": -33.8067,
+        "lng": 18.3662,
+        "horario": "10:00 - 18:00",
+        "precio": "Desde 12 EUR",
+        "rating": 4.7,
+        "imagen": "https://picsum.photos/seed/ciudaddelcabo_3/900/650",
+        "imagenCard": "https://picsum.photos/seed/ciudaddelcabo_3/500/360",
+        "tags": [
+          "museos",
+          "africa",
+          "ciudad del cabo"
+        ]
+      },
+      {
+        "id": 4,
+        "nombre": "Bo-Kaap",
+        "tipo": "barrios",
+        "descripcion": "Bo-Kaap es una visita destacada de Ciudad del Cabo, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Bo-Kaap es una visita destacada de Ciudad del Cabo, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad.",
+        "lat": -33.9219,
+        "lng": 18.4142,
+        "horario": "24h",
+        "precio": "Gratis",
+        "rating": 4.7,
+        "imagen": "https://picsum.photos/seed/ciudaddelcabo_4/900/650",
+        "imagenCard": "https://picsum.photos/seed/ciudaddelcabo_4/500/360",
+        "tags": [
+          "barrios",
+          "africa",
+          "ciudad del cabo"
+        ]
+      },
+      {
+        "id": 5,
+        "nombre": "Kirstenbosch",
+        "tipo": "parques",
+        "descripcion": "Kirstenbosch es una visita destacada de Ciudad del Cabo, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Kirstenbosch es una visita destacada de Ciudad del Cabo, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje.",
+        "lat": -33.9875,
+        "lng": 18.4327,
+        "horario": "7:00 - 20:00",
+        "precio": "Gratis",
+        "rating": 4.8,
+        "imagen": "https://picsum.photos/seed/ciudaddelcabo_5/900/650",
+        "imagenCard": "https://picsum.photos/seed/ciudaddelcabo_5/500/360",
+        "tags": [
+          "parques",
+          "africa",
+          "ciudad del cabo"
+        ]
+      },
+      {
+        "id": 6,
+        "nombre": "Camps Bay",
+        "tipo": "parques",
+        "descripcion": "Camps Bay es una visita destacada de Ciudad del Cabo, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Camps Bay es una visita destacada de Ciudad del Cabo, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje.",
+        "lat": -33.9509,
+        "lng": 18.3776,
+        "horario": "7:00 - 20:00",
+        "precio": "Gratis",
+        "rating": 4.5,
+        "imagen": "https://picsum.photos/seed/ciudaddelcabo_6/900/650",
+        "imagenCard": "https://picsum.photos/seed/ciudaddelcabo_6/500/360",
+        "tags": [
+          "parques",
+          "africa",
+          "ciudad del cabo"
+        ]
+      },
+      {
+        "id": 7,
+        "nombre": "District Six Museum",
+        "tipo": "museos",
+        "descripcion": "District Six Museum es una visita destacada de Ciudad del Cabo, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "District Six Museum es una visita destacada de Ciudad del Cabo, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares.",
+        "lat": -33.9274,
+        "lng": 18.4234,
+        "horario": "10:00 - 18:00",
+        "precio": "Desde 12 EUR",
+        "rating": 4.6,
+        "imagen": "https://picsum.photos/seed/ciudaddelcabo_7/900/650",
+        "imagenCard": "https://picsum.photos/seed/ciudaddelcabo_7/500/360",
+        "tags": [
+          "museos",
+          "africa",
+          "ciudad del cabo"
+        ]
+      },
+      {
+        "id": 8,
+        "nombre": "Old Biscuit Mill",
+        "tipo": "mercados",
+        "descripcion": "Old Biscuit Mill es una visita destacada de Ciudad del Cabo, una referencia: mercado lleno de puestos, productos locales y escenas cotidianas. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Old Biscuit Mill es una visita destacada de Ciudad del Cabo, una referencia: mercado lleno de puestos, productos locales y escenas cotidianas.",
+        "lat": -33.9271,
+        "lng": 18.457,
+        "horario": "9:00 - 15:00",
+        "precio": "Gratis",
+        "rating": 4.7,
+        "imagen": "https://picsum.photos/seed/ciudaddelcabo_8/900/650",
+        "imagenCard": "https://picsum.photos/seed/ciudaddelcabo_8/500/360",
+        "tags": [
+          "mercados",
+          "africa",
+          "ciudad del cabo"
+        ]
+      },
+      {
+        "id": 9,
+        "nombre": "Boulders Beach",
+        "tipo": "parques",
+        "descripcion": "Boulders Beach es una visita destacada de Ciudad del Cabo, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Boulders Beach es una visita destacada de Ciudad del Cabo, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje.",
+        "lat": -34.1979,
+        "lng": 18.451,
+        "horario": "7:00 - 20:00",
+        "precio": "Gratis",
+        "rating": 4.7,
+        "imagen": "https://picsum.photos/seed/ciudaddelcabo_9/900/650",
+        "imagenCard": "https://picsum.photos/seed/ciudaddelcabo_9/500/360",
+        "tags": [
+          "parques",
+          "africa",
+          "ciudad del cabo"
+        ]
+      }
     ]
   },
-  { 
-    "id": "madrid", "nombre": "Madrid", "pais": "España", "emoji": "🇪🇸", "lat": 40.4168, "lng": -3.7038, 
-    "imagen": "https://picsum.photos/seed/madrid_city/800/600",
-    "theme": { "primary": "#aa151b", "secondary": "#f1bf00", "font": "'Outfit', sans-serif" },
+  {
+    "id": "tokyo",
+    "nombre": "Tokio",
+    "pais": "Japón",
+    "continente": "Asia",
+    "emoji": "🇯🇵",
+    "lat": 35.6762,
+    "lng": 139.6503,
+    "imagen": "https://picsum.photos/seed/tokyo_city/1200/800",
+    "theme": {
+      "primary": "#bc002d",
+      "secondary": "#2b2d42",
+      "font": "'Inter', sans-serif"
+    },
     "lugares": [
-      { "id": 1, "nombre": "Museo del Prado", "tipo": "cultura", "lat": 40.4137, "lng": -3.6921, "descripcionCorta": "La pinacoteca más importante de España.", "imagenCard": "https://picsum.photos/seed/prado/400/300", "tags": ["arte"] },
-      { "id": 2, "nombre": "Parque del Retiro", "tipo": "parques", "lat": 40.4153, "lng": -3.6839, "descripcionCorta": "El pulmón verde de Madrid.", "imagenCard": "https://picsum.photos/seed/retiro/400/300", "tags": ["relax"] }
+      {
+        "id": 1,
+        "nombre": "Cruce de Shibuya",
+        "tipo": "barrios",
+        "descripcion": "Cruce de Shibuya es una visita destacada de Tokio, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Cruce de Shibuya es una visita destacada de Tokio, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad.",
+        "lat": 35.6595,
+        "lng": 139.7005,
+        "horario": "24h",
+        "precio": "Gratis",
+        "rating": 4.5,
+        "imagen": "https://picsum.photos/seed/tokyo_1/900/650",
+        "imagenCard": "https://picsum.photos/seed/tokyo_1/500/360",
+        "tags": [
+          "barrios",
+          "asia",
+          "tokio"
+        ]
+      },
+      {
+        "id": 2,
+        "nombre": "Templo Senso-ji",
+        "tipo": "cultura",
+        "descripcion": "Templo Senso-ji es una visita destacada de Tokio, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Templo Senso-ji es una visita destacada de Tokio, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad.",
+        "lat": 35.7148,
+        "lng": 139.7967,
+        "horario": "9:00 - 18:00",
+        "precio": "Desde 8 EUR",
+        "rating": 4.6,
+        "imagen": "https://picsum.photos/seed/tokyo_2/900/650",
+        "imagenCard": "https://picsum.photos/seed/tokyo_2/500/360",
+        "tags": [
+          "cultura",
+          "asia",
+          "tokio"
+        ]
+      },
+      {
+        "id": 3,
+        "nombre": "Santuario Meiji",
+        "tipo": "cultura",
+        "descripcion": "Santuario Meiji es una visita destacada de Tokio, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Santuario Meiji es una visita destacada de Tokio, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad.",
+        "lat": 35.6764,
+        "lng": 139.6993,
+        "horario": "9:00 - 18:00",
+        "precio": "Desde 8 EUR",
+        "rating": 4.7,
+        "imagen": "https://picsum.photos/seed/tokyo_3/900/650",
+        "imagenCard": "https://picsum.photos/seed/tokyo_3/500/360",
+        "tags": [
+          "cultura",
+          "asia",
+          "tokio"
+        ]
+      },
+      {
+        "id": 4,
+        "nombre": "TeamLab Planets",
+        "tipo": "museos",
+        "descripcion": "TeamLab Planets es una visita destacada de Tokio, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "TeamLab Planets es una visita destacada de Tokio, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares.",
+        "lat": 35.6491,
+        "lng": 139.7899,
+        "horario": "10:00 - 18:00",
+        "precio": "Desde 12 EUR",
+        "rating": 4.7,
+        "imagen": "https://picsum.photos/seed/tokyo_4/900/650",
+        "imagenCard": "https://picsum.photos/seed/tokyo_4/500/360",
+        "tags": [
+          "museos",
+          "asia",
+          "tokio"
+        ]
+      },
+      {
+        "id": 5,
+        "nombre": "Mercado exterior de Tsukiji",
+        "tipo": "mercados",
+        "descripcion": "Mercado exterior de Tsukiji es una visita destacada de Tokio, una referencia: mercado lleno de puestos, productos locales y escenas cotidianas. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Mercado exterior de Tsukiji es una visita destacada de Tokio, una referencia: mercado lleno de puestos, productos locales y escenas cotidianas.",
+        "lat": 35.6655,
+        "lng": 139.7707,
+        "horario": "9:00 - 15:00",
+        "precio": "Gratis",
+        "rating": 4.8,
+        "imagen": "https://picsum.photos/seed/tokyo_5/900/650",
+        "imagenCard": "https://picsum.photos/seed/tokyo_5/500/360",
+        "tags": [
+          "mercados",
+          "asia",
+          "tokio"
+        ]
+      },
+      {
+        "id": 6,
+        "nombre": "Akihabara",
+        "tipo": "barrios",
+        "descripcion": "Akihabara es una visita destacada de Tokio, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Akihabara es una visita destacada de Tokio, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad.",
+        "lat": 35.6984,
+        "lng": 139.773,
+        "horario": "24h",
+        "precio": "Gratis",
+        "rating": 4.5,
+        "imagen": "https://picsum.photos/seed/tokyo_6/900/650",
+        "imagenCard": "https://picsum.photos/seed/tokyo_6/500/360",
+        "tags": [
+          "barrios",
+          "asia",
+          "tokio"
+        ]
+      },
+      {
+        "id": 7,
+        "nombre": "Parque Ueno",
+        "tipo": "parques",
+        "descripcion": "Parque Ueno es una visita destacada de Tokio, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Parque Ueno es una visita destacada de Tokio, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje.",
+        "lat": 35.7156,
+        "lng": 139.7745,
+        "horario": "7:00 - 20:00",
+        "precio": "Gratis",
+        "rating": 4.6,
+        "imagen": "https://picsum.photos/seed/tokyo_7/900/650",
+        "imagenCard": "https://picsum.photos/seed/tokyo_7/500/360",
+        "tags": [
+          "parques",
+          "asia",
+          "tokio"
+        ]
+      },
+      {
+        "id": 8,
+        "nombre": "Tokyo Skytree",
+        "tipo": "cultura",
+        "descripcion": "Tokyo Skytree es una visita destacada de Tokio, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Tokyo Skytree es una visita destacada de Tokio, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad.",
+        "lat": 35.7101,
+        "lng": 139.8107,
+        "horario": "9:00 - 18:00",
+        "precio": "Desde 8 EUR",
+        "rating": 4.7,
+        "imagen": "https://picsum.photos/seed/tokyo_8/900/650",
+        "imagenCard": "https://picsum.photos/seed/tokyo_8/500/360",
+        "tags": [
+          "cultura",
+          "asia",
+          "tokio"
+        ]
+      },
+      {
+        "id": 9,
+        "nombre": "Golden Gai",
+        "tipo": "barrios",
+        "descripcion": "Golden Gai es una visita destacada de Tokio, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Golden Gai es una visita destacada de Tokio, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad.",
+        "lat": 35.6938,
+        "lng": 139.7046,
+        "horario": "24h",
+        "precio": "Gratis",
+        "rating": 4.7,
+        "imagen": "https://picsum.photos/seed/tokyo_9/900/650",
+        "imagenCard": "https://picsum.photos/seed/tokyo_9/500/360",
+        "tags": [
+          "barrios",
+          "asia",
+          "tokio"
+        ]
+      }
     ]
   },
-  { 
-    "id": "nyc", "nombre": "New York", "pais": "USA", "emoji": "🇺🇸", "lat": 40.7128, "lng": -74.0060, 
-    "imagen": "https://picsum.photos/seed/nyc_city/800/600",
-    "theme": { "primary": "#00356B", "secondary": "#C4D8E2", "font": "'Montserrat', sans-serif" },
+  {
+    "id": "bangkok",
+    "nombre": "Bangkok",
+    "pais": "Tailandia",
+    "continente": "Asia",
+    "emoji": "🇹🇭",
+    "lat": 13.7563,
+    "lng": 100.5018,
+    "imagen": "https://picsum.photos/seed/bangkok_city/1200/800",
+    "theme": {
+      "primary": "#2d2a4a",
+      "secondary": "#ed1c24",
+      "font": "'Inter', sans-serif"
+    },
     "lugares": [
-      { "id": 1, "nombre": "Estatua de la Libertad", "tipo": "cultura", "lat": 40.6892, "lng": -74.0445, "descripcionCorta": "Icono de libertad.", "imagenCard": "https://picsum.photos/seed/liberty/400/300", "tags": ["monumento"] },
-      { "id": 2, "nombre": "Central Park", "tipo": "parques", "lat": 40.7829, "lng": -73.9654, "descripcionCorta": "Oasis en Manhattan.", "imagenCard": "https://picsum.photos/seed/centralpark/400/300", "tags": ["naturaleza"] }
+      {
+        "id": 1,
+        "nombre": "Gran Palacio",
+        "tipo": "cultura",
+        "descripcion": "Gran Palacio es una visita destacada de Bangkok, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Gran Palacio es una visita destacada de Bangkok, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad.",
+        "lat": 13.75,
+        "lng": 100.4913,
+        "horario": "9:00 - 18:00",
+        "precio": "Desde 8 EUR",
+        "rating": 4.5,
+        "imagen": "https://picsum.photos/seed/bangkok_1/900/650",
+        "imagenCard": "https://picsum.photos/seed/bangkok_1/500/360",
+        "tags": [
+          "cultura",
+          "asia",
+          "bangkok"
+        ]
+      },
+      {
+        "id": 2,
+        "nombre": "Wat Pho",
+        "tipo": "cultura",
+        "descripcion": "Wat Pho es una visita destacada de Bangkok, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Wat Pho es una visita destacada de Bangkok, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad.",
+        "lat": 13.7465,
+        "lng": 100.493,
+        "horario": "9:00 - 18:00",
+        "precio": "Desde 8 EUR",
+        "rating": 4.6,
+        "imagen": "https://picsum.photos/seed/bangkok_2/900/650",
+        "imagenCard": "https://picsum.photos/seed/bangkok_2/500/360",
+        "tags": [
+          "cultura",
+          "asia",
+          "bangkok"
+        ]
+      },
+      {
+        "id": 3,
+        "nombre": "Wat Arun",
+        "tipo": "cultura",
+        "descripcion": "Wat Arun es una visita destacada de Bangkok, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Wat Arun es una visita destacada de Bangkok, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad.",
+        "lat": 13.7437,
+        "lng": 100.4889,
+        "horario": "9:00 - 18:00",
+        "precio": "Desde 8 EUR",
+        "rating": 4.7,
+        "imagen": "https://picsum.photos/seed/bangkok_3/900/650",
+        "imagenCard": "https://picsum.photos/seed/bangkok_3/500/360",
+        "tags": [
+          "cultura",
+          "asia",
+          "bangkok"
+        ]
+      },
+      {
+        "id": 4,
+        "nombre": "Chatuchak Market",
+        "tipo": "mercados",
+        "descripcion": "Chatuchak Market es una visita destacada de Bangkok, una referencia: mercado lleno de puestos, productos locales y escenas cotidianas. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Chatuchak Market es una visita destacada de Bangkok, una referencia: mercado lleno de puestos, productos locales y escenas cotidianas.",
+        "lat": 13.7999,
+        "lng": 100.5501,
+        "horario": "9:00 - 15:00",
+        "precio": "Gratis",
+        "rating": 4.7,
+        "imagen": "https://picsum.photos/seed/bangkok_4/900/650",
+        "imagenCard": "https://picsum.photos/seed/bangkok_4/500/360",
+        "tags": [
+          "mercados",
+          "asia",
+          "bangkok"
+        ]
+      },
+      {
+        "id": 5,
+        "nombre": "Jim Thompson House",
+        "tipo": "museos",
+        "descripcion": "Jim Thompson House es una visita destacada de Bangkok, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Jim Thompson House es una visita destacada de Bangkok, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares.",
+        "lat": 13.7493,
+        "lng": 100.5283,
+        "horario": "10:00 - 18:00",
+        "precio": "Desde 12 EUR",
+        "rating": 4.8,
+        "imagen": "https://picsum.photos/seed/bangkok_5/900/650",
+        "imagenCard": "https://picsum.photos/seed/bangkok_5/500/360",
+        "tags": [
+          "museos",
+          "asia",
+          "bangkok"
+        ]
+      },
+      {
+        "id": 6,
+        "nombre": "Chinatown Yaowarat",
+        "tipo": "barrios",
+        "descripcion": "Chinatown Yaowarat es una visita destacada de Bangkok, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Chinatown Yaowarat es una visita destacada de Bangkok, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad.",
+        "lat": 13.74,
+        "lng": 100.5088,
+        "horario": "24h",
+        "precio": "Gratis",
+        "rating": 4.5,
+        "imagen": "https://picsum.photos/seed/bangkok_6/900/650",
+        "imagenCard": "https://picsum.photos/seed/bangkok_6/500/360",
+        "tags": [
+          "barrios",
+          "asia",
+          "bangkok"
+        ]
+      },
+      {
+        "id": 7,
+        "nombre": "Lumphini Park",
+        "tipo": "parques",
+        "descripcion": "Lumphini Park es una visita destacada de Bangkok, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Lumphini Park es una visita destacada de Bangkok, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje.",
+        "lat": 13.7307,
+        "lng": 100.5418,
+        "horario": "7:00 - 20:00",
+        "precio": "Gratis",
+        "rating": 4.6,
+        "imagen": "https://picsum.photos/seed/bangkok_7/900/650",
+        "imagenCard": "https://picsum.photos/seed/bangkok_7/500/360",
+        "tags": [
+          "parques",
+          "asia",
+          "bangkok"
+        ]
+      },
+      {
+        "id": 8,
+        "nombre": "Khlong Lat Mayom",
+        "tipo": "mercados",
+        "descripcion": "Khlong Lat Mayom es una visita destacada de Bangkok, una referencia: mercado lleno de puestos, productos locales y escenas cotidianas. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Khlong Lat Mayom es una visita destacada de Bangkok, una referencia: mercado lleno de puestos, productos locales y escenas cotidianas.",
+        "lat": 13.7618,
+        "lng": 100.4159,
+        "horario": "9:00 - 15:00",
+        "precio": "Gratis",
+        "rating": 4.7,
+        "imagen": "https://picsum.photos/seed/bangkok_8/900/650",
+        "imagenCard": "https://picsum.photos/seed/bangkok_8/500/360",
+        "tags": [
+          "mercados",
+          "asia",
+          "bangkok"
+        ]
+      },
+      {
+        "id": 9,
+        "nombre": "Jay Fai",
+        "tipo": "restaurantes",
+        "descripcion": "Jay Fai es una visita destacada de Bangkok, una referencia: parada gastronómica recomendada para probar sabores representativos. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Jay Fai es una visita destacada de Bangkok, una referencia: parada gastronómica recomendada para probar sabores representativos.",
+        "lat": 13.7527,
+        "lng": 100.5048,
+        "horario": "12:30 - 23:00",
+        "precio": "Menu variable",
+        "rating": 4.7,
+        "imagen": "https://picsum.photos/seed/bangkok_9/900/650",
+        "imagenCard": "https://picsum.photos/seed/bangkok_9/500/360",
+        "tags": [
+          "restaurantes",
+          "asia",
+          "bangkok"
+        ]
+      }
     ]
   },
-  { 
-    "id": "tokyo", "nombre": "Tokio", "pais": "Japón", "emoji": "🇯🇵", "lat": 35.6762, "lng": 139.6503, 
-    "imagen": "https://picsum.photos/seed/tokyo_city/800/600",
-    "theme": { "primary": "#bc002d", "secondary": "#ffffff", "font": "'Inter', sans-serif" },
+  {
+    "id": "nyc",
+    "nombre": "Nueva York",
+    "pais": "Estados Unidos",
+    "continente": "Norteamérica",
+    "emoji": "🇺🇸",
+    "lat": 40.7128,
+    "lng": -74.006,
+    "imagen": "https://picsum.photos/seed/nyc_city/1200/800",
+    "theme": {
+      "primary": "#00356B",
+      "secondary": "#C4D8E2",
+      "font": "'Montserrat', sans-serif"
+    },
     "lugares": [
-      { "id": 1, "nombre": "Cruce de Shibuya", "tipo": "barrios", "lat": 35.6595, "lng": 139.7005, "descripcionCorta": "El corazón de Tokio.", "imagenCard": "https://picsum.photos/seed/shibuya/400/300", "tags": ["luces"] },
-      { "id": 2, "nombre": "Templo Senso-ji", "tipo": "cultura", "lat": 35.7148, "lng": 139.7967, "descripcionCorta": "Tradición en Asakusa.", "imagenCard": "https://picsum.photos/seed/sensoji/400/300", "tags": ["templo"] }
+      {
+        "id": 1,
+        "nombre": "Estatua de la Libertad",
+        "tipo": "cultura",
+        "descripcion": "Estatua de la Libertad es una visita destacada de Nueva York, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Estatua de la Libertad es una visita destacada de Nueva York, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad.",
+        "lat": 40.6892,
+        "lng": -74.0445,
+        "horario": "9:00 - 18:00",
+        "precio": "Desde 8 EUR",
+        "rating": 4.5,
+        "imagen": "https://picsum.photos/seed/nyc_1/900/650",
+        "imagenCard": "https://picsum.photos/seed/nyc_1/500/360",
+        "tags": [
+          "cultura",
+          "norteamerica",
+          "nueva york"
+        ]
+      },
+      {
+        "id": 2,
+        "nombre": "Central Park",
+        "tipo": "parques",
+        "descripcion": "Central Park es una visita destacada de Nueva York, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Central Park es una visita destacada de Nueva York, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje.",
+        "lat": 40.7829,
+        "lng": -73.9654,
+        "horario": "7:00 - 20:00",
+        "precio": "Gratis",
+        "rating": 4.6,
+        "imagen": "https://picsum.photos/seed/nyc_2/900/650",
+        "imagenCard": "https://picsum.photos/seed/nyc_2/500/360",
+        "tags": [
+          "parques",
+          "norteamerica",
+          "nueva york"
+        ]
+      },
+      {
+        "id": 3,
+        "nombre": "Metropolitan Museum of Art",
+        "tipo": "museos",
+        "descripcion": "Metropolitan Museum of Art es una visita destacada de Nueva York, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Metropolitan Museum of Art es una visita destacada de Nueva York, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares.",
+        "lat": 40.7794,
+        "lng": -73.9632,
+        "horario": "10:00 - 18:00",
+        "precio": "Desde 12 EUR",
+        "rating": 4.7,
+        "imagen": "https://picsum.photos/seed/nyc_3/900/650",
+        "imagenCard": "https://picsum.photos/seed/nyc_3/500/360",
+        "tags": [
+          "museos",
+          "norteamerica",
+          "nueva york"
+        ]
+      },
+      {
+        "id": 4,
+        "nombre": "Times Square",
+        "tipo": "barrios",
+        "descripcion": "Times Square es una visita destacada de Nueva York, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Times Square es una visita destacada de Nueva York, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad.",
+        "lat": 40.758,
+        "lng": -73.9855,
+        "horario": "24h",
+        "precio": "Gratis",
+        "rating": 4.7,
+        "imagen": "https://picsum.photos/seed/nyc_4/900/650",
+        "imagenCard": "https://picsum.photos/seed/nyc_4/500/360",
+        "tags": [
+          "barrios",
+          "norteamerica",
+          "nueva york"
+        ]
+      },
+      {
+        "id": 5,
+        "nombre": "High Line",
+        "tipo": "parques",
+        "descripcion": "High Line es una visita destacada de Nueva York, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "High Line es una visita destacada de Nueva York, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje.",
+        "lat": 40.748,
+        "lng": -74.0048,
+        "horario": "7:00 - 20:00",
+        "precio": "Gratis",
+        "rating": 4.8,
+        "imagen": "https://picsum.photos/seed/nyc_5/900/650",
+        "imagenCard": "https://picsum.photos/seed/nyc_5/500/360",
+        "tags": [
+          "parques",
+          "norteamerica",
+          "nueva york"
+        ]
+      },
+      {
+        "id": 6,
+        "nombre": "Brooklyn Bridge",
+        "tipo": "cultura",
+        "descripcion": "Brooklyn Bridge es una visita destacada de Nueva York, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Brooklyn Bridge es una visita destacada de Nueva York, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad.",
+        "lat": 40.7061,
+        "lng": -73.9969,
+        "horario": "9:00 - 18:00",
+        "precio": "Desde 8 EUR",
+        "rating": 4.5,
+        "imagen": "https://picsum.photos/seed/nyc_6/900/650",
+        "imagenCard": "https://picsum.photos/seed/nyc_6/500/360",
+        "tags": [
+          "cultura",
+          "norteamerica",
+          "nueva york"
+        ]
+      },
+      {
+        "id": 7,
+        "nombre": "Chelsea Market",
+        "tipo": "mercados",
+        "descripcion": "Chelsea Market es una visita destacada de Nueva York, una referencia: mercado lleno de puestos, productos locales y escenas cotidianas. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Chelsea Market es una visita destacada de Nueva York, una referencia: mercado lleno de puestos, productos locales y escenas cotidianas.",
+        "lat": 40.7423,
+        "lng": -74.006,
+        "horario": "9:00 - 15:00",
+        "precio": "Gratis",
+        "rating": 4.6,
+        "imagen": "https://picsum.photos/seed/nyc_7/900/650",
+        "imagenCard": "https://picsum.photos/seed/nyc_7/500/360",
+        "tags": [
+          "mercados",
+          "norteamerica",
+          "nueva york"
+        ]
+      },
+      {
+        "id": 8,
+        "nombre": "SoHo",
+        "tipo": "barrios",
+        "descripcion": "SoHo es una visita destacada de Nueva York, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "SoHo es una visita destacada de Nueva York, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad.",
+        "lat": 40.7233,
+        "lng": -74.003,
+        "horario": "24h",
+        "precio": "Gratis",
+        "rating": 4.7,
+        "imagen": "https://picsum.photos/seed/nyc_8/900/650",
+        "imagenCard": "https://picsum.photos/seed/nyc_8/500/360",
+        "tags": [
+          "barrios",
+          "norteamerica",
+          "nueva york"
+        ]
+      },
+      {
+        "id": 9,
+        "nombre": "Katz Delicatessen",
+        "tipo": "restaurantes",
+        "descripcion": "Katz Delicatessen es una visita destacada de Nueva York, una referencia: parada gastronómica recomendada para probar sabores representativos. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Katz Delicatessen es una visita destacada de Nueva York, una referencia: parada gastronómica recomendada para probar sabores representativos.",
+        "lat": 40.7223,
+        "lng": -73.9874,
+        "horario": "12:30 - 23:00",
+        "precio": "Menu variable",
+        "rating": 4.7,
+        "imagen": "https://picsum.photos/seed/nyc_9/900/650",
+        "imagenCard": "https://picsum.photos/seed/nyc_9/500/360",
+        "tags": [
+          "restaurantes",
+          "norteamerica",
+          "nueva york"
+        ]
+      }
     ]
   },
-  { 
-    "id": "berlin", "nombre": "Berlín", "pais": "Alemania", "emoji": "🇩🇪", "lat": 52.5200, "lng": 13.4050, 
-    "imagen": "https://picsum.photos/seed/berlin_city/800/600",
-    "theme": { "primary": "#000000", "secondary": "#dd0000", "font": "'Inter', sans-serif" },
+  {
+    "id": "ciudaddemexico",
+    "nombre": "Ciudad de México",
+    "pais": "México",
+    "continente": "Norteamérica",
+    "emoji": "🇲🇽",
+    "lat": 19.4326,
+    "lng": -99.1332,
+    "imagen": "https://picsum.photos/seed/mexico_city/1200/800",
+    "theme": {
+      "primary": "#006847",
+      "secondary": "#ce1126",
+      "font": "'Outfit', sans-serif"
+    },
     "lugares": [
-      { "id": 1, "nombre": "Puerta de Brandeburgo", "tipo": "cultura", "lat": 52.5163, "lng": 13.3777, "descripcionCorta": "Símbolo de Alemania.", "imagenCard": "https://picsum.photos/seed/brandenburg/400/300", "tags": ["historia"] },
-      { "id": 2, "nombre": "East Side Gallery", "tipo": "cultura", "lat": 52.5050, "lng": 13.4397, "descripcionCorta": "Arte en el Muro.", "imagenCard": "https://picsum.photos/seed/berlinwall/400/300", "tags": ["arte"] }
+      {
+        "id": 1,
+        "nombre": "Zócalo",
+        "tipo": "cultura",
+        "descripcion": "Zócalo es una visita destacada de Ciudad de México, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Zócalo es una visita destacada de Ciudad de México, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad.",
+        "lat": 19.4326,
+        "lng": -99.1332,
+        "horario": "9:00 - 18:00",
+        "precio": "Desde 8 EUR",
+        "rating": 4.5,
+        "imagen": "https://picsum.photos/seed/ciudaddemexico_1/900/650",
+        "imagenCard": "https://picsum.photos/seed/ciudaddemexico_1/500/360",
+        "tags": [
+          "cultura",
+          "norteamerica",
+          "ciudad de mexico"
+        ]
+      },
+      {
+        "id": 2,
+        "nombre": "Museo Nacional de Antropología",
+        "tipo": "museos",
+        "descripcion": "Museo Nacional de Antropología es una visita destacada de Ciudad de México, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Museo Nacional de Antropología es una visita destacada de Ciudad de México, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares.",
+        "lat": 19.426,
+        "lng": -99.1863,
+        "horario": "10:00 - 18:00",
+        "precio": "Desde 12 EUR",
+        "rating": 4.6,
+        "imagen": "https://picsum.photos/seed/ciudaddemexico_2/900/650",
+        "imagenCard": "https://picsum.photos/seed/ciudaddemexico_2/500/360",
+        "tags": [
+          "museos",
+          "norteamerica",
+          "ciudad de mexico"
+        ]
+      },
+      {
+        "id": 3,
+        "nombre": "Chapultepec",
+        "tipo": "parques",
+        "descripcion": "Chapultepec es una visita destacada de Ciudad de México, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Chapultepec es una visita destacada de Ciudad de México, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje.",
+        "lat": 19.4204,
+        "lng": -99.1819,
+        "horario": "7:00 - 20:00",
+        "precio": "Gratis",
+        "rating": 4.7,
+        "imagen": "https://picsum.photos/seed/ciudaddemexico_3/900/650",
+        "imagenCard": "https://picsum.photos/seed/ciudaddemexico_3/500/360",
+        "tags": [
+          "parques",
+          "norteamerica",
+          "ciudad de mexico"
+        ]
+      },
+      {
+        "id": 4,
+        "nombre": "Casa Azul",
+        "tipo": "museos",
+        "descripcion": "Casa Azul es una visita destacada de Ciudad de México, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Casa Azul es una visita destacada de Ciudad de México, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares.",
+        "lat": 19.3552,
+        "lng": -99.1626,
+        "horario": "10:00 - 18:00",
+        "precio": "Desde 12 EUR",
+        "rating": 4.7,
+        "imagen": "https://picsum.photos/seed/ciudaddemexico_4/900/650",
+        "imagenCard": "https://picsum.photos/seed/ciudaddemexico_4/500/360",
+        "tags": [
+          "museos",
+          "norteamerica",
+          "ciudad de mexico"
+        ]
+      },
+      {
+        "id": 5,
+        "nombre": "Xochimilco",
+        "tipo": "barrios",
+        "descripcion": "Xochimilco es una visita destacada de Ciudad de México, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Xochimilco es una visita destacada de Ciudad de México, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad.",
+        "lat": 19.2572,
+        "lng": -99.1031,
+        "horario": "24h",
+        "precio": "Gratis",
+        "rating": 4.8,
+        "imagen": "https://picsum.photos/seed/ciudaddemexico_5/900/650",
+        "imagenCard": "https://picsum.photos/seed/ciudaddemexico_5/500/360",
+        "tags": [
+          "barrios",
+          "norteamerica",
+          "ciudad de mexico"
+        ]
+      },
+      {
+        "id": 6,
+        "nombre": "Templo Mayor",
+        "tipo": "museos",
+        "descripcion": "Templo Mayor es una visita destacada de Ciudad de México, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Templo Mayor es una visita destacada de Ciudad de México, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares.",
+        "lat": 19.4345,
+        "lng": -99.1314,
+        "horario": "10:00 - 18:00",
+        "precio": "Desde 12 EUR",
+        "rating": 4.5,
+        "imagen": "https://picsum.photos/seed/ciudaddemexico_6/900/650",
+        "imagenCard": "https://picsum.photos/seed/ciudaddemexico_6/500/360",
+        "tags": [
+          "museos",
+          "norteamerica",
+          "ciudad de mexico"
+        ]
+      },
+      {
+        "id": 7,
+        "nombre": "Roma-Condesa",
+        "tipo": "barrios",
+        "descripcion": "Roma-Condesa es una visita destacada de Ciudad de México, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Roma-Condesa es una visita destacada de Ciudad de México, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad.",
+        "lat": 19.414,
+        "lng": -99.1677,
+        "horario": "24h",
+        "precio": "Gratis",
+        "rating": 4.6,
+        "imagen": "https://picsum.photos/seed/ciudaddemexico_7/900/650",
+        "imagenCard": "https://picsum.photos/seed/ciudaddemexico_7/500/360",
+        "tags": [
+          "barrios",
+          "norteamerica",
+          "ciudad de mexico"
+        ]
+      },
+      {
+        "id": 8,
+        "nombre": "Mercado de Coyoacán",
+        "tipo": "mercados",
+        "descripcion": "Mercado de Coyoacán es una visita destacada de Ciudad de México, una referencia: mercado lleno de puestos, productos locales y escenas cotidianas. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Mercado de Coyoacán es una visita destacada de Ciudad de México, una referencia: mercado lleno de puestos, productos locales y escenas cotidianas.",
+        "lat": 19.3499,
+        "lng": -99.1621,
+        "horario": "9:00 - 15:00",
+        "precio": "Gratis",
+        "rating": 4.7,
+        "imagen": "https://picsum.photos/seed/ciudaddemexico_8/900/650",
+        "imagenCard": "https://picsum.photos/seed/ciudaddemexico_8/500/360",
+        "tags": [
+          "mercados",
+          "norteamerica",
+          "ciudad de mexico"
+        ]
+      },
+      {
+        "id": 9,
+        "nombre": "Pujol",
+        "tipo": "restaurantes",
+        "descripcion": "Pujol es una visita destacada de Ciudad de México, una referencia: parada gastronómica recomendada para probar sabores representativos. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Pujol es una visita destacada de Ciudad de México, una referencia: parada gastronómica recomendada para probar sabores representativos.",
+        "lat": 19.4336,
+        "lng": -99.1948,
+        "horario": "12:30 - 23:00",
+        "precio": "Menu variable",
+        "rating": 4.7,
+        "imagen": "https://picsum.photos/seed/ciudaddemexico_9/900/650",
+        "imagenCard": "https://picsum.photos/seed/ciudaddemexico_9/500/360",
+        "tags": [
+          "restaurantes",
+          "norteamerica",
+          "ciudad de mexico"
+        ]
+      }
     ]
   },
-  { 
-    "id": "lisboa", "nombre": "Lisboa", "pais": "Portugal", "emoji": "🇵🇹", "lat": 38.7223, "lng": -9.1393, 
-    "imagen": "https://picsum.photos/seed/lisbon_city/800/600",
-    "theme": { "primary": "#006600", "secondary": "#ff0000", "font": "'Playfair Display', serif" },
+  {
+    "id": "rio",
+    "nombre": "Río de Janeiro",
+    "pais": "Brasil",
+    "continente": "Sudamérica",
+    "emoji": "🇧🇷",
+    "lat": -22.9068,
+    "lng": -43.1729,
+    "imagen": "https://picsum.photos/seed/rio_city/1200/800",
+    "theme": {
+      "primary": "#009b3a",
+      "secondary": "#fedf00",
+      "font": "'Outfit', sans-serif"
+    },
     "lugares": [
-      { "id": 1, "nombre": "Torre de Belém", "tipo": "cultura", "lat": 38.6916, "lng": -9.2160, "descripcionCorta": "La joya del Tajo.", "imagenCard": "https://picsum.photos/seed/belem/400/300", "tags": ["historia"] }
+      {
+        "id": 1,
+        "nombre": "Cristo Redentor",
+        "tipo": "cultura",
+        "descripcion": "Cristo Redentor es una visita destacada de Río de Janeiro, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Cristo Redentor es una visita destacada de Río de Janeiro, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad.",
+        "lat": -22.9519,
+        "lng": -43.2105,
+        "horario": "9:00 - 18:00",
+        "precio": "Desde 8 EUR",
+        "rating": 4.5,
+        "imagen": "https://picsum.photos/seed/rio_1/900/650",
+        "imagenCard": "https://picsum.photos/seed/rio_1/500/360",
+        "tags": [
+          "cultura",
+          "sudamerica",
+          "rio de janeiro"
+        ]
+      },
+      {
+        "id": 2,
+        "nombre": "Pan de Azúcar",
+        "tipo": "parques",
+        "descripcion": "Pan de Azúcar es una visita destacada de Río de Janeiro, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Pan de Azúcar es una visita destacada de Río de Janeiro, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje.",
+        "lat": -22.9486,
+        "lng": -43.1565,
+        "horario": "7:00 - 20:00",
+        "precio": "Gratis",
+        "rating": 4.6,
+        "imagen": "https://picsum.photos/seed/rio_2/900/650",
+        "imagenCard": "https://picsum.photos/seed/rio_2/500/360",
+        "tags": [
+          "parques",
+          "sudamerica",
+          "rio de janeiro"
+        ]
+      },
+      {
+        "id": 3,
+        "nombre": "Copacabana",
+        "tipo": "barrios",
+        "descripcion": "Copacabana es una visita destacada de Río de Janeiro, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Copacabana es una visita destacada de Río de Janeiro, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad.",
+        "lat": -22.9711,
+        "lng": -43.1822,
+        "horario": "24h",
+        "precio": "Gratis",
+        "rating": 4.7,
+        "imagen": "https://picsum.photos/seed/rio_3/900/650",
+        "imagenCard": "https://picsum.photos/seed/rio_3/500/360",
+        "tags": [
+          "barrios",
+          "sudamerica",
+          "rio de janeiro"
+        ]
+      },
+      {
+        "id": 4,
+        "nombre": "Ipanema",
+        "tipo": "barrios",
+        "descripcion": "Ipanema es una visita destacada de Río de Janeiro, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Ipanema es una visita destacada de Río de Janeiro, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad.",
+        "lat": -22.9847,
+        "lng": -43.1986,
+        "horario": "24h",
+        "precio": "Gratis",
+        "rating": 4.7,
+        "imagen": "https://picsum.photos/seed/rio_4/900/650",
+        "imagenCard": "https://picsum.photos/seed/rio_4/500/360",
+        "tags": [
+          "barrios",
+          "sudamerica",
+          "rio de janeiro"
+        ]
+      },
+      {
+        "id": 5,
+        "nombre": "Escalera Selaron",
+        "tipo": "cultura",
+        "descripcion": "Escalera Selaron es una visita destacada de Río de Janeiro, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Escalera Selaron es una visita destacada de Río de Janeiro, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad.",
+        "lat": -22.9153,
+        "lng": -43.1796,
+        "horario": "9:00 - 18:00",
+        "precio": "Desde 8 EUR",
+        "rating": 4.8,
+        "imagen": "https://picsum.photos/seed/rio_5/900/650",
+        "imagenCard": "https://picsum.photos/seed/rio_5/500/360",
+        "tags": [
+          "cultura",
+          "sudamerica",
+          "rio de janeiro"
+        ]
+      },
+      {
+        "id": 6,
+        "nombre": "Jardín Botánico",
+        "tipo": "parques",
+        "descripcion": "Jardín Botánico es una visita destacada de Río de Janeiro, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Jardín Botánico es una visita destacada de Río de Janeiro, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje.",
+        "lat": -22.9674,
+        "lng": -43.223,
+        "horario": "7:00 - 20:00",
+        "precio": "Gratis",
+        "rating": 4.5,
+        "imagen": "https://picsum.photos/seed/rio_6/900/650",
+        "imagenCard": "https://picsum.photos/seed/rio_6/500/360",
+        "tags": [
+          "parques",
+          "sudamerica",
+          "rio de janeiro"
+        ]
+      },
+      {
+        "id": 7,
+        "nombre": "Museu do Amanhã",
+        "tipo": "museos",
+        "descripcion": "Museu do Amanhã es una visita destacada de Río de Janeiro, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Museu do Amanhã es una visita destacada de Río de Janeiro, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares.",
+        "lat": -22.8942,
+        "lng": -43.1792,
+        "horario": "10:00 - 18:00",
+        "precio": "Desde 12 EUR",
+        "rating": 4.6,
+        "imagen": "https://picsum.photos/seed/rio_7/900/650",
+        "imagenCard": "https://picsum.photos/seed/rio_7/500/360",
+        "tags": [
+          "museos",
+          "sudamerica",
+          "rio de janeiro"
+        ]
+      },
+      {
+        "id": 8,
+        "nombre": "Feira de Sao Cristovao",
+        "tipo": "mercados",
+        "descripcion": "Feira de Sao Cristovao es una visita destacada de Río de Janeiro, una referencia: mercado lleno de puestos, productos locales y escenas cotidianas. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Feira de Sao Cristovao es una visita destacada de Río de Janeiro, una referencia: mercado lleno de puestos, productos locales y escenas cotidianas.",
+        "lat": -22.8979,
+        "lng": -43.2227,
+        "horario": "9:00 - 15:00",
+        "precio": "Gratis",
+        "rating": 4.7,
+        "imagen": "https://picsum.photos/seed/rio_8/900/650",
+        "imagenCard": "https://picsum.photos/seed/rio_8/500/360",
+        "tags": [
+          "mercados",
+          "sudamerica",
+          "rio de janeiro"
+        ]
+      },
+      {
+        "id": 9,
+        "nombre": "Confeitaria Colombo",
+        "tipo": "cafes",
+        "descripcion": "Confeitaria Colombo es una visita destacada de Río de Janeiro, una referencia: café con ambiente propio para hacer una pausa entre visitas. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Confeitaria Colombo es una visita destacada de Río de Janeiro, una referencia: café con ambiente propio para hacer una pausa entre visitas.",
+        "lat": -22.9067,
+        "lng": -43.1784,
+        "horario": "8:00 - 20:00",
+        "precio": "Desde 5 EUR",
+        "rating": 4.7,
+        "imagen": "https://picsum.photos/seed/rio_9/900/650",
+        "imagenCard": "https://picsum.photos/seed/rio_9/500/360",
+        "tags": [
+          "cafes",
+          "sudamerica",
+          "rio de janeiro"
+        ]
+      }
     ]
   },
-  { 
-    "id": "amsterdam", "nombre": "Ámsterdam", "pais": "Países Bajos", "emoji": "🇳🇱", "lat": 52.3676, "lng": 4.9041, 
-    "imagen": "https://picsum.photos/seed/amsterdam_city/800/600",
-    "theme": { "primary": "#ff4f00", "secondary": "#003da5", "font": "'Montserrat', sans-serif" },
+  {
+    "id": "lima",
+    "nombre": "Lima",
+    "pais": "Perú",
+    "continente": "Sudamérica",
+    "emoji": "🇵🇪",
+    "lat": -12.0464,
+    "lng": -77.0428,
+    "imagen": "https://picsum.photos/seed/lima_city/1200/800",
+    "theme": {
+      "primary": "#d91023",
+      "secondary": "#f2c94c",
+      "font": "'Montserrat', sans-serif"
+    },
     "lugares": [
-      { "id": 1, "nombre": "Casa de Ana Frank", "tipo": "museos", "lat": 52.3752, "lng": 4.8840, "descripcionCorta": "Historia conmovedora.", "imagenCard": "https://picsum.photos/seed/annefrank/400/300", "tags": ["emoción"] }
+      {
+        "id": 1,
+        "nombre": "Plaza Mayor",
+        "tipo": "cultura",
+        "descripcion": "Plaza Mayor es una visita destacada de Lima, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Plaza Mayor es una visita destacada de Lima, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad.",
+        "lat": -12.0464,
+        "lng": -77.0305,
+        "horario": "9:00 - 18:00",
+        "precio": "Desde 8 EUR",
+        "rating": 4.5,
+        "imagen": "https://picsum.photos/seed/lima_1/900/650",
+        "imagenCard": "https://picsum.photos/seed/lima_1/500/360",
+        "tags": [
+          "cultura",
+          "sudamerica",
+          "lima"
+        ]
+      },
+      {
+        "id": 2,
+        "nombre": "Huaca Pucllana",
+        "tipo": "cultura",
+        "descripcion": "Huaca Pucllana es una visita destacada de Lima, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Huaca Pucllana es una visita destacada de Lima, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad.",
+        "lat": -12.1119,
+        "lng": -77.0336,
+        "horario": "9:00 - 18:00",
+        "precio": "Desde 8 EUR",
+        "rating": 4.6,
+        "imagen": "https://picsum.photos/seed/lima_2/900/650",
+        "imagenCard": "https://picsum.photos/seed/lima_2/500/360",
+        "tags": [
+          "cultura",
+          "sudamerica",
+          "lima"
+        ]
+      },
+      {
+        "id": 3,
+        "nombre": "Museo Larco",
+        "tipo": "museos",
+        "descripcion": "Museo Larco es una visita destacada de Lima, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Museo Larco es una visita destacada de Lima, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares.",
+        "lat": -12.0722,
+        "lng": -77.0706,
+        "horario": "10:00 - 18:00",
+        "precio": "Desde 12 EUR",
+        "rating": 4.7,
+        "imagen": "https://picsum.photos/seed/lima_3/900/650",
+        "imagenCard": "https://picsum.photos/seed/lima_3/500/360",
+        "tags": [
+          "museos",
+          "sudamerica",
+          "lima"
+        ]
+      },
+      {
+        "id": 4,
+        "nombre": "Malecón de Miraflores",
+        "tipo": "parques",
+        "descripcion": "Malecón de Miraflores es una visita destacada de Lima, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Malecón de Miraflores es una visita destacada de Lima, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje.",
+        "lat": -12.1275,
+        "lng": -77.03,
+        "horario": "7:00 - 20:00",
+        "precio": "Gratis",
+        "rating": 4.7,
+        "imagen": "https://picsum.photos/seed/lima_4/900/650",
+        "imagenCard": "https://picsum.photos/seed/lima_4/500/360",
+        "tags": [
+          "parques",
+          "sudamerica",
+          "lima"
+        ]
+      },
+      {
+        "id": 5,
+        "nombre": "Barranco",
+        "tipo": "barrios",
+        "descripcion": "Barranco es una visita destacada de Lima, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Barranco es una visita destacada de Lima, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad.",
+        "lat": -12.1496,
+        "lng": -77.0219,
+        "horario": "24h",
+        "precio": "Gratis",
+        "rating": 4.8,
+        "imagen": "https://picsum.photos/seed/lima_5/900/650",
+        "imagenCard": "https://picsum.photos/seed/lima_5/500/360",
+        "tags": [
+          "barrios",
+          "sudamerica",
+          "lima"
+        ]
+      },
+      {
+        "id": 6,
+        "nombre": "Mercado Surquillo",
+        "tipo": "mercados",
+        "descripcion": "Mercado Surquillo es una visita destacada de Lima, una referencia: mercado lleno de puestos, productos locales y escenas cotidianas. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Mercado Surquillo es una visita destacada de Lima, una referencia: mercado lleno de puestos, productos locales y escenas cotidianas.",
+        "lat": -12.1164,
+        "lng": -77.0255,
+        "horario": "9:00 - 15:00",
+        "precio": "Gratis",
+        "rating": 4.5,
+        "imagen": "https://picsum.photos/seed/lima_6/900/650",
+        "imagenCard": "https://picsum.photos/seed/lima_6/500/360",
+        "tags": [
+          "mercados",
+          "sudamerica",
+          "lima"
+        ]
+      },
+      {
+        "id": 7,
+        "nombre": "Circuito Mágico del Agua",
+        "tipo": "parques",
+        "descripcion": "Circuito Mágico del Agua es una visita destacada de Lima, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Circuito Mágico del Agua es una visita destacada de Lima, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje.",
+        "lat": -12.0701,
+        "lng": -77.0336,
+        "horario": "7:00 - 20:00",
+        "precio": "Gratis",
+        "rating": 4.6,
+        "imagen": "https://picsum.photos/seed/lima_7/900/650",
+        "imagenCard": "https://picsum.photos/seed/lima_7/500/360",
+        "tags": [
+          "parques",
+          "sudamerica",
+          "lima"
+        ]
+      },
+      {
+        "id": 8,
+        "nombre": "MALI",
+        "tipo": "museos",
+        "descripcion": "MALI es una visita destacada de Lima, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "MALI es una visita destacada de Lima, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares.",
+        "lat": -12.0601,
+        "lng": -77.0376,
+        "horario": "10:00 - 18:00",
+        "precio": "Desde 12 EUR",
+        "rating": 4.7,
+        "imagen": "https://picsum.photos/seed/lima_8/900/650",
+        "imagenCard": "https://picsum.photos/seed/lima_8/500/360",
+        "tags": [
+          "museos",
+          "sudamerica",
+          "lima"
+        ]
+      },
+      {
+        "id": 9,
+        "nombre": "Central",
+        "tipo": "restaurantes",
+        "descripcion": "Central es una visita destacada de Lima, una referencia: parada gastronómica recomendada para probar sabores representativos. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Central es una visita destacada de Lima, una referencia: parada gastronómica recomendada para probar sabores representativos.",
+        "lat": -12.1528,
+        "lng": -77.0222,
+        "horario": "12:30 - 23:00",
+        "precio": "Menu variable",
+        "rating": 4.7,
+        "imagen": "https://picsum.photos/seed/lima_9/900/650",
+        "imagenCard": "https://picsum.photos/seed/lima_9/500/360",
+        "tags": [
+          "restaurantes",
+          "sudamerica",
+          "lima"
+        ]
+      }
     ]
   },
-  { 
-    "id": "praga", "nombre": "Praga", "pais": "Rep. Checa", "emoji": "🇨🇿", "lat": 50.0755, "lng": 14.4378, 
-    "imagen": "https://picsum.photos/seed/prague_city/800/600",
-    "theme": { "primary": "#d7141a", "secondary": "#11457e", "font": "'Cinzel', serif" },
+  {
+    "id": "sydney",
+    "nombre": "Sídney",
+    "pais": "Australia",
+    "continente": "Oceanía",
+    "emoji": "🇦🇺",
+    "lat": -33.8688,
+    "lng": 151.2093,
+    "imagen": "https://picsum.photos/seed/sydney_city/1200/800",
+    "theme": {
+      "primary": "#0057b8",
+      "secondary": "#e4002b",
+      "font": "'Outfit', sans-serif"
+    },
     "lugares": [
-      { "id": 1, "nombre": "Puente Carlos", "tipo": "cultura", "lat": 50.0865, "lng": 14.4114, "descripcionCorta": "El más romántico.", "imagenCard": "https://picsum.photos/seed/charlesbridge/400/300", "tags": ["romántico"] }
+      {
+        "id": 1,
+        "nombre": "Opera House",
+        "tipo": "cultura",
+        "descripcion": "Opera House es una visita destacada de Sídney, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Opera House es una visita destacada de Sídney, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad.",
+        "lat": -33.8568,
+        "lng": 151.2153,
+        "horario": "9:00 - 18:00",
+        "precio": "Desde 8 EUR",
+        "rating": 4.5,
+        "imagen": "https://picsum.photos/seed/sydney_1/900/650",
+        "imagenCard": "https://picsum.photos/seed/sydney_1/500/360",
+        "tags": [
+          "cultura",
+          "oceania",
+          "sidney"
+        ]
+      },
+      {
+        "id": 2,
+        "nombre": "Harbour Bridge",
+        "tipo": "cultura",
+        "descripcion": "Harbour Bridge es una visita destacada de Sídney, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Harbour Bridge es una visita destacada de Sídney, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad.",
+        "lat": -33.8523,
+        "lng": 151.2108,
+        "horario": "9:00 - 18:00",
+        "precio": "Desde 8 EUR",
+        "rating": 4.6,
+        "imagen": "https://picsum.photos/seed/sydney_2/900/650",
+        "imagenCard": "https://picsum.photos/seed/sydney_2/500/360",
+        "tags": [
+          "cultura",
+          "oceania",
+          "sidney"
+        ]
+      },
+      {
+        "id": 3,
+        "nombre": "Bondi Beach",
+        "tipo": "parques",
+        "descripcion": "Bondi Beach es una visita destacada de Sídney, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Bondi Beach es una visita destacada de Sídney, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje.",
+        "lat": -33.8908,
+        "lng": 151.2743,
+        "horario": "7:00 - 20:00",
+        "precio": "Gratis",
+        "rating": 4.7,
+        "imagen": "https://picsum.photos/seed/sydney_3/900/650",
+        "imagenCard": "https://picsum.photos/seed/sydney_3/500/360",
+        "tags": [
+          "parques",
+          "oceania",
+          "sidney"
+        ]
+      },
+      {
+        "id": 4,
+        "nombre": "The Rocks",
+        "tipo": "barrios",
+        "descripcion": "The Rocks es una visita destacada de Sídney, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "The Rocks es una visita destacada de Sídney, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad.",
+        "lat": -33.8599,
+        "lng": 151.209,
+        "horario": "24h",
+        "precio": "Gratis",
+        "rating": 4.7,
+        "imagen": "https://picsum.photos/seed/sydney_4/900/650",
+        "imagenCard": "https://picsum.photos/seed/sydney_4/500/360",
+        "tags": [
+          "barrios",
+          "oceania",
+          "sidney"
+        ]
+      },
+      {
+        "id": 5,
+        "nombre": "Royal Botanic Garden",
+        "tipo": "parques",
+        "descripcion": "Royal Botanic Garden es una visita destacada de Sídney, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Royal Botanic Garden es una visita destacada de Sídney, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje.",
+        "lat": -33.8642,
+        "lng": 151.2166,
+        "horario": "7:00 - 20:00",
+        "precio": "Gratis",
+        "rating": 4.8,
+        "imagen": "https://picsum.photos/seed/sydney_5/900/650",
+        "imagenCard": "https://picsum.photos/seed/sydney_5/500/360",
+        "tags": [
+          "parques",
+          "oceania",
+          "sidney"
+        ]
+      },
+      {
+        "id": 6,
+        "nombre": "Art Gallery of NSW",
+        "tipo": "museos",
+        "descripcion": "Art Gallery of NSW es una visita destacada de Sídney, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Art Gallery of NSW es una visita destacada de Sídney, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares.",
+        "lat": -33.8688,
+        "lng": 151.2174,
+        "horario": "10:00 - 18:00",
+        "precio": "Desde 12 EUR",
+        "rating": 4.5,
+        "imagen": "https://picsum.photos/seed/sydney_6/900/650",
+        "imagenCard": "https://picsum.photos/seed/sydney_6/500/360",
+        "tags": [
+          "museos",
+          "oceania",
+          "sidney"
+        ]
+      },
+      {
+        "id": 7,
+        "nombre": "Darling Harbour",
+        "tipo": "barrios",
+        "descripcion": "Darling Harbour es una visita destacada de Sídney, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Darling Harbour es una visita destacada de Sídney, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad.",
+        "lat": -33.8749,
+        "lng": 151.2009,
+        "horario": "24h",
+        "precio": "Gratis",
+        "rating": 4.6,
+        "imagen": "https://picsum.photos/seed/sydney_7/900/650",
+        "imagenCard": "https://picsum.photos/seed/sydney_7/500/360",
+        "tags": [
+          "barrios",
+          "oceania",
+          "sidney"
+        ]
+      },
+      {
+        "id": 8,
+        "nombre": "Sydney Fish Market",
+        "tipo": "mercados",
+        "descripcion": "Sydney Fish Market es una visita destacada de Sídney, una referencia: mercado lleno de puestos, productos locales y escenas cotidianas. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Sydney Fish Market es una visita destacada de Sídney, una referencia: mercado lleno de puestos, productos locales y escenas cotidianas.",
+        "lat": -33.8716,
+        "lng": 151.1918,
+        "horario": "9:00 - 15:00",
+        "precio": "Gratis",
+        "rating": 4.7,
+        "imagen": "https://picsum.photos/seed/sydney_8/900/650",
+        "imagenCard": "https://picsum.photos/seed/sydney_8/500/360",
+        "tags": [
+          "mercados",
+          "oceania",
+          "sidney"
+        ]
+      },
+      {
+        "id": 9,
+        "nombre": "Manly Ferry",
+        "tipo": "cultura",
+        "descripcion": "Manly Ferry es una visita destacada de Sídney, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Manly Ferry es una visita destacada de Sídney, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad.",
+        "lat": -33.8008,
+        "lng": 151.2846,
+        "horario": "9:00 - 18:00",
+        "precio": "Desde 8 EUR",
+        "rating": 4.7,
+        "imagen": "https://picsum.photos/seed/sydney_9/900/650",
+        "imagenCard": "https://picsum.photos/seed/sydney_9/500/360",
+        "tags": [
+          "cultura",
+          "oceania",
+          "sidney"
+        ]
+      }
     ]
   },
-  { 
-    "id": "viena", "nombre": "Viena", "pais": "Austria", "emoji": "🇦🇹", "lat": 48.2082, "lng": 16.3738, 
-    "imagen": "https://picsum.photos/seed/vienna_city/800/600",
-    "theme": { "primary": "#ed2939", "secondary": "#ffffff", "font": "'Playfair Display', serif" },
+  {
+    "id": "auckland",
+    "nombre": "Auckland",
+    "pais": "Nueva Zelanda",
+    "continente": "Oceanía",
+    "emoji": "🇳🇿",
+    "lat": -36.8485,
+    "lng": 174.7633,
+    "imagen": "https://picsum.photos/seed/auckland_city/1200/800",
+    "theme": {
+      "primary": "#111827",
+      "secondary": "#00a3ad",
+      "font": "'Inter', sans-serif"
+    },
     "lugares": [
-      { "id": 1, "nombre": "Schönbrunn", "tipo": "cultura", "lat": 48.1848, "lng": 16.3122, "descripcionCorta": "Residencia imperial.", "imagenCard": "https://picsum.photos/seed/schonbrunn/400/300", "tags": ["realeza"] }
-    ]
-  },
-  { 
-    "id": "atenas", "nombre": "Atenas", "pais": "Grecia", "emoji": "🇬🇷", "lat": 37.9838, "lng": 23.7275, 
-    "imagen": "https://picsum.photos/seed/athens_city/800/600",
-    "theme": { "primary": "#0d5eaf", "secondary": "#ffffff", "font": "'Cinzel', serif" },
-    "lugares": [
-      { "id": 1, "nombre": "Acrópolis", "tipo": "cultura", "lat": 37.9715, "lng": 23.7257, "descripcionCorta": "Cuna de civilización.", "imagenCard": "https://picsum.photos/seed/acropolis/400/300", "tags": ["antigüedad"] }
-    ]
-  },
-  { 
-    "id": "estambul", "nombre": "Estambul", "pais": "Turquía", "emoji": "🇹🇷", "lat": 41.0082, "lng": 28.9784, 
-    "imagen": "https://picsum.photos/seed/istanbul_city/800/600",
-    "theme": { "primary": "#e30a17", "secondary": "#ffffff", "font": "'Playfair Display', serif" },
-    "lugares": [
-      { "id": 1, "nombre": "Santa Sofía", "tipo": "cultura", "lat": 41.0086, "lng": 28.9792, "descripcionCorta": "Maravilla histórica.", "imagenCard": "https://picsum.photos/seed/hagiasophia/400/300", "tags": ["arquitectura"] }
-    ]
-  },
-  { 
-    "id": "elcairo", "nombre": "El Cairo", "pais": "Egipto", "emoji": "🇪🇬", "lat": 30.0444, "lng": 31.2357, 
-    "imagen": "https://picsum.photos/seed/cairo_city/800/600",
-    "theme": { "primary": "#c09304", "secondary": "#000000", "font": "'Cinzel', serif" },
-    "lugares": [
-      { "id": 1, "nombre": "Pirámides Giza", "tipo": "cultura", "lat": 29.9792, "lng": 31.1342, "descripcionCorta": "Maravilla antigua.", "imagenCard": "https://picsum.photos/seed/pyramids/400/300", "tags": ["misterio"] }
-    ]
-  },
-  { 
-    "id": "rio", "nombre": "Río de Janeiro", "pais": "Brasil", "emoji": "🇧🇷", "lat": -22.9068, "lng": -43.1729, 
-    "imagen": "https://picsum.photos/seed/rio_city/800/600",
-    "theme": { "primary": "#009b3a", "secondary": "#fedf00", "font": "'Outfit', sans-serif" },
-    "lugares": [
-      { "id": 1, "nombre": "Cristo Redentor", "tipo": "cultura", "lat": -22.9519, "lng": -43.2105, "descripcionCorta": "Guardián de Río.", "imagenCard": "https://picsum.photos/seed/christ/400/300", "tags": ["monumento"] }
-    ]
-  },
-  { 
-    "id": "buenosaires", "nombre": "Buenos Aires", "pais": "Argentina", "emoji": "🇦🇷", "lat": -34.6037, "lng": -58.3816, 
-    "imagen": "https://picsum.photos/seed/ba_city/800/600",
-    "theme": { "primary": "#75aadb", "secondary": "#ffffff", "font": "'Montserrat', sans-serif" },
-    "lugares": [
-      { "id": 1, "nombre": "Teatro Colón", "tipo": "cultura", "lat": -34.6012, "lng": -58.3831, "descripcionCorta": "Acústica perfecta.", "imagenCard": "https://picsum.photos/seed/colon/400/300", "tags": ["arte"] }
-    ]
-  },
-  { 
-    "id": "sydney", "nombre": "Sídney", "pais": "Australia", "emoji": "🇦🇺", "lat": -33.8688, "lng": 151.2093, 
-    "imagen": "https://picsum.photos/seed/sydney_city/800/600",
-    "theme": { "primary": "#00008b", "secondary": "#ff0000", "font": "'Outfit', sans-serif" },
-    "lugares": [
-      { "id": 1, "nombre": "Opera House", "tipo": "cultura", "lat": -33.8568, "lng": 151.2153, "descripcionCorta": "Icono australiano.", "imagenCard": "https://picsum.photos/seed/sydneyopera/400/300", "tags": ["icono"] }
-    ]
-  },
-  { 
-    "id": "bangkok", "nombre": "Bangkok", "pais": "Tailandia", "emoji": "🇹🇭", "lat": 13.7563, "lng": 100.5018, 
-    "imagen": "https://picsum.photos/seed/bangkok_city/800/600",
-    "theme": { "primary": "#2d2a4a", "secondary": "#ed1c24", "font": "'Inter', sans-serif" },
-    "lugares": [
-      { "id": 1, "nombre": "Gran Palacio", "tipo": "cultura", "lat": 13.7500, "lng": 100.4913, "descripcionCorta": "Esplendor real.", "imagenCard": "https://picsum.photos/seed/grandpalace/400/300", "tags": ["templo"] }
-    ]
-  },
-  { 
-    "id": "venecia", "nombre": "Venecia", "pais": "Italia", "emoji": "🇮🇹", "lat": 45.4408, "lng": 12.3155, 
-    "imagen": "https://picsum.photos/seed/venice_city/800/600",
-    "theme": { "primary": "#8b0000", "secondary": "#d4af37", "font": "'Cinzel', serif" },
-    "lugares": [
-      { "id": 1, "nombre": "Plaza San Marcos", "tipo": "cultura", "lat": 45.4342, "lng": 12.3385, "descripcionCorta": "Salón de Europa.", "imagenCard": "https://picsum.photos/seed/sanmarco/400/300", "tags": ["plaza"] }
+      {
+        "id": 1,
+        "nombre": "Sky Tower",
+        "tipo": "cultura",
+        "descripcion": "Sky Tower es una visita destacada de Auckland, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Sky Tower es una visita destacada de Auckland, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad.",
+        "lat": -36.8484,
+        "lng": 174.7622,
+        "horario": "9:00 - 18:00",
+        "precio": "Desde 8 EUR",
+        "rating": 4.5,
+        "imagen": "https://picsum.photos/seed/auckland_1/900/650",
+        "imagenCard": "https://picsum.photos/seed/auckland_1/500/360",
+        "tags": [
+          "cultura",
+          "oceania",
+          "auckland"
+        ]
+      },
+      {
+        "id": 2,
+        "nombre": "Auckland War Memorial Museum",
+        "tipo": "museos",
+        "descripcion": "Auckland War Memorial Museum es una visita destacada de Auckland, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Auckland War Memorial Museum es una visita destacada de Auckland, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares.",
+        "lat": -36.8607,
+        "lng": 174.777,
+        "horario": "10:00 - 18:00",
+        "precio": "Desde 12 EUR",
+        "rating": 4.6,
+        "imagen": "https://picsum.photos/seed/auckland_2/900/650",
+        "imagenCard": "https://picsum.photos/seed/auckland_2/500/360",
+        "tags": [
+          "museos",
+          "oceania",
+          "auckland"
+        ]
+      },
+      {
+        "id": 3,
+        "nombre": "Waiheke Island",
+        "tipo": "parques",
+        "descripcion": "Waiheke Island es una visita destacada de Auckland, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Waiheke Island es una visita destacada de Auckland, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje.",
+        "lat": -36.8019,
+        "lng": 175.091,
+        "horario": "7:00 - 20:00",
+        "precio": "Gratis",
+        "rating": 4.7,
+        "imagen": "https://picsum.photos/seed/auckland_3/900/650",
+        "imagenCard": "https://picsum.photos/seed/auckland_3/500/360",
+        "tags": [
+          "parques",
+          "oceania",
+          "auckland"
+        ]
+      },
+      {
+        "id": 4,
+        "nombre": "Mount Eden",
+        "tipo": "parques",
+        "descripcion": "Mount Eden es una visita destacada de Auckland, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Mount Eden es una visita destacada de Auckland, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje.",
+        "lat": -36.877,
+        "lng": 174.7646,
+        "horario": "7:00 - 20:00",
+        "precio": "Gratis",
+        "rating": 4.7,
+        "imagen": "https://picsum.photos/seed/auckland_4/900/650",
+        "imagenCard": "https://picsum.photos/seed/auckland_4/500/360",
+        "tags": [
+          "parques",
+          "oceania",
+          "auckland"
+        ]
+      },
+      {
+        "id": 5,
+        "nombre": "Viaduct Harbour",
+        "tipo": "barrios",
+        "descripcion": "Viaduct Harbour es una visita destacada de Auckland, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Viaduct Harbour es una visita destacada de Auckland, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad.",
+        "lat": -36.8425,
+        "lng": 174.7587,
+        "horario": "24h",
+        "precio": "Gratis",
+        "rating": 4.8,
+        "imagen": "https://picsum.photos/seed/auckland_5/900/650",
+        "imagenCard": "https://picsum.photos/seed/auckland_5/500/360",
+        "tags": [
+          "barrios",
+          "oceania",
+          "auckland"
+        ]
+      },
+      {
+        "id": 6,
+        "nombre": "Auckland Art Gallery",
+        "tipo": "museos",
+        "descripcion": "Auckland Art Gallery es una visita destacada de Auckland, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Auckland Art Gallery es una visita destacada de Auckland, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares.",
+        "lat": -36.8509,
+        "lng": 174.767,
+        "horario": "10:00 - 18:00",
+        "precio": "Desde 12 EUR",
+        "rating": 4.5,
+        "imagen": "https://picsum.photos/seed/auckland_6/900/650",
+        "imagenCard": "https://picsum.photos/seed/auckland_6/500/360",
+        "tags": [
+          "museos",
+          "oceania",
+          "auckland"
+        ]
+      },
+      {
+        "id": 7,
+        "nombre": "Ponsonby",
+        "tipo": "barrios",
+        "descripcion": "Ponsonby es una visita destacada de Auckland, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Ponsonby es una visita destacada de Auckland, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad.",
+        "lat": -36.8474,
+        "lng": 174.7383,
+        "horario": "24h",
+        "precio": "Gratis",
+        "rating": 4.6,
+        "imagen": "https://picsum.photos/seed/auckland_7/900/650",
+        "imagenCard": "https://picsum.photos/seed/auckland_7/500/360",
+        "tags": [
+          "barrios",
+          "oceania",
+          "auckland"
+        ]
+      },
+      {
+        "id": 8,
+        "nombre": "Britomart",
+        "tipo": "mercados",
+        "descripcion": "Britomart es una visita destacada de Auckland, una referencia: mercado lleno de puestos, productos locales y escenas cotidianas. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "Britomart es una visita destacada de Auckland, una referencia: mercado lleno de puestos, productos locales y escenas cotidianas.",
+        "lat": -36.844,
+        "lng": 174.77,
+        "horario": "9:00 - 15:00",
+        "precio": "Gratis",
+        "rating": 4.7,
+        "imagen": "https://picsum.photos/seed/auckland_8/900/650",
+        "imagenCard": "https://picsum.photos/seed/auckland_8/500/360",
+        "tags": [
+          "mercados",
+          "oceania",
+          "auckland"
+        ]
+      },
+      {
+        "id": 9,
+        "nombre": "One Tree Hill",
+        "tipo": "parques",
+        "descripcion": "One Tree Hill es una visita destacada de Auckland, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+        "descripcionCorta": "One Tree Hill es una visita destacada de Auckland, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje.",
+        "lat": -36.9009,
+        "lng": 174.7831,
+        "horario": "7:00 - 20:00",
+        "precio": "Gratis",
+        "rating": 4.7,
+        "imagen": "https://picsum.photos/seed/auckland_9/900/650",
+        "imagenCard": "https://picsum.photos/seed/auckland_9/500/360",
+        "tags": [
+          "parques",
+          "oceania",
+          "auckland"
+        ]
+      }
     ]
   }
 ]

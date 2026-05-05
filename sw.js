@@ -1,16 +1,20 @@
-const CACHE_NAME = 'roma-eterna-v1.0.0';
+const CACHE_NAME = 'ciudades-del-mundo-v1.1.0';
 const STATIC_ASSETS = [
   '/',
   '/index.html',
-  '/lista.json',
-  '/manifest.json'
+  '/app.js',
+  '/style.css',
+  '/cities.json',
+  '/manifest.json',
+  '/icons/icon-192.png',
+  '/icons/icon-512.png'
 ];
 
 // Install event
 self.addEventListener('install', (event) => {
   event.waitUntil(
     caches.open(CACHE_NAME).then((cache) => {
-      console.log('📦 Roma Eterna: Cacheando assets estáticos...');
+      console.log('📦 Ciudades del Mundo: Cacheando assets estáticos...');
       return cache.addAll(STATIC_ASSETS);
     }).then(() => self.skipWaiting())
   );

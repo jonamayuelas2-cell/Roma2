@@ -8,7 +8,7 @@
   <meta name="theme-color" content="#1a2a6c">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <meta name="apple-mobile-web-app-title" content="TravelWorld">
+  <meta name="apple-mobile-web-app-title" content="Ciudades del Mundo">
   <link rel="manifest" href="manifest.json">
 
   <!-- Open Graph -->
@@ -36,8 +36,14 @@
   <!-- ══ CITY SELECTION (GLOBE 3D) ═══════════════════════════ -->
   <section id="city-selection" class="city-selection">
     <div class="globe-overlay">
-      <h1 class="selection-title">🌍 Ciudades del Mundo</h1>
-      <p class="selection-subtitle">Gira la bola del mundo y elige tu próximo destino</p>
+      <p class="selection-kicker">Guia interactiva global</p>
+      <h1 class="selection-title">Ciudades del Mundo</h1>
+      <p class="selection-subtitle">Explora destinos de todos los continentes desde una bola del mundo viva</p>
+      <div class="selection-stats" aria-label="Resumen de destinos">
+        <span>6 continentes</span>
+        <span>12 ciudades</span>
+        <span>108 lugares</span>
+      </div>
     </div>
     <div id="globeViz"></div>
     <div id="city-info-card" class="city-info-card" style="display: none;">
@@ -118,6 +124,25 @@
         </div>
       </main>
     </section>
+  </div>
+
+  <div id="place-modal" class="place-modal" hidden>
+    <div class="place-modal-backdrop" data-close-modal></div>
+    <article class="place-modal-panel" role="dialog" aria-modal="true" aria-labelledby="modal-place-title">
+      <button class="modal-close" type="button" data-close-modal title="Cerrar">x</button>
+      <img id="modal-place-img" class="modal-place-img" alt="">
+      <div class="modal-place-content">
+        <span id="modal-place-tag" class="card-tag"></span>
+        <h2 id="modal-place-title"></h2>
+        <p id="modal-place-desc"></p>
+        <div class="modal-facts">
+          <span id="modal-place-price"></span>
+          <span id="modal-place-hours"></span>
+          <span id="modal-place-rating"></span>
+        </div>
+        <div id="modal-place-tags" class="modal-tags"></div>
+      </div>
+    </article>
   </div>
 
   <!-- ══ SCRIPT PRINCIPAL ══════════════════════════════════ -->

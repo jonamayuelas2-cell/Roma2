@@ -1,4 +1,8 @@
-# 🌍 TravelWorld PWA — Tu Guía Global de Viaje
+<p align="center">
+  <img src="icons/icon-512.png" alt="Ciudades del Mundo" width="160">
+</p>
+
+# 🌍 Ciudades del Mundo PWA — Tu Guía Global de Viaje
 
 > Explora las ciudades más fascinantes del mundo desde una sola aplicación 🏛️🗼🗽
 
@@ -6,7 +10,7 @@
 
 ## 📋 Descripción del Proyecto
 
-**TravelWorld** es una plataforma global multi-ciudad que permite a los usuarios navegar por el mundo mediante un **globo terráqueo 3D interactivo**. La aplicación adapta su identidad visual (colores y tipografía) a cada destino seleccionado, ofreciendo una experiencia inmersiva y personalizada.
+**Ciudades del Mundo** es una plataforma global multi-ciudad que permite a los usuarios navegar por el mundo mediante un **globo terráqueo 3D interactivo**. La aplicación adapta su identidad visual (colores y tipografía) a cada destino seleccionado, ofreciendo una experiencia inmersiva y personalizada.
 
 ---
 
@@ -26,7 +30,7 @@
 ## 📁 Estructura de Archivos
 
 ```
-Roma/
+Ciudades-del-Mundo/
 ├── data/               # 📂 Datos específicos por ciudad (Lugares, coordenadas, etc.)
 │   ├── roma.json       # Datos de Roma
 │   ├── paris.json      # Datos de París
@@ -70,7 +74,7 @@ Luego abrir: `http://localhost:8080`.
 - 🌎 **Globe Selector**: Implementada bola del mundo 3D usando `Globe.gl` para la selección de ciudades.
 - 🎨 **Dynamic Styling**: Cada ciudad ahora aplica su propio color primario y tipografía al entrar.
 - 🔍 **Filtered Data**: El selector solo muestra ciudades con contenido JSON validado.
-- 🏛️ **Global Branding**: Renombrado el proyecto de "Roma Eterna" a "TravelWorld".
+- 🏛️ **Global Branding**: Identidad visual del proyecto actualizada a "Ciudades del Mundo".
 
 ### v1.2.0 — 2026-05-04 🌍
 - 🚀 **Multi-Ciudad**: Implementado carrusel inicial (ahora deprecado por el globo).

@@ -1,11 +1,11 @@
 {
-  "name": "Roma Eterna - Guía de Viaje",
-  "short_name": "Roma Eterna",
-  "description": "Tu guía definitiva para descubrir los tesoros de la Ciudad Eterna",
+  "name": "Ciudades del Mundo - Guía de Viaje",
+  "short_name": "Ciudades Mundo",
+  "description": "Tu guía global para descubrir ciudades, monumentos, museos, barrios, parques y restaurantes alrededor del mundo.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0a0b10",
-  "theme_color": "#d4af37",
+  "theme_color": "#1a2a6c",
   "orientation": "portrait-primary",
   "lang": "es",
   "categories": ["travel", "lifestyle", "navigation"],
@@ -33,7 +33,7 @@
     {
       "name": "Meteorología",
       "url": "/?tab=meteo",
-      "description": "Ver el tiempo en Roma"
+      "description": "Ver el tiempo de la ciudad seleccionada"
     }
   ]
 }

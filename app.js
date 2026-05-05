@@ -1,5 +1,5 @@
 /**
- * TRAVELWORLD PWA - Global Travel Guide
+ * CIUDADES DEL MUNDO PWA - Global Travel Guide
  * Dinámicamente carga datos de ciudades del mundo con un selector 3D (Globe.gl).
  */
 
@@ -44,6 +44,33 @@ function initGlobe() {
         .globeImageUrl('//unpkg.com/three-globe/example/img/earth-dark.jpg')
         .bumpImageUrl('//unpkg.com/three-globe/example/img/earth-topology.png')
         .backgroundImageUrl('//unpkg.com/three-globe/example/img/night-sky.png')
+        .showAtmosphere(true)
+        .atmosphereColor('#7de4ff')
+        .atmosphereAltitude(0.22)
+        .pointsData(state.cities)
+        .pointLat(d => d.lat)
+        .pointLng(d => d.lng)
+        .pointAltitude(0.04)
+        .pointRadius(0.34)
+        .pointColor(() => '#fdbb2d')
+        .ringsData(state.cities)
+        .ringLat(d => d.lat)
+        .ringLng(d => d.lng)
+        .ringColor(() => t => `rgba(125, 228, 255, ${0.55 * (1 - t)})`)
+        .ringMaxRadius(4.2)
+        .ringPropagationSpeed(1.2)
+        .ringRepeatPeriod(1900)
+        .arcsData(buildGlobeArcs())
+        .arcStartLat(d => d.startLat)
+        .arcStartLng(d => d.startLng)
+        .arcEndLat(d => d.endLat)
+        .arcEndLng(d => d.endLng)
+        .arcColor(() => ['rgba(125,228,255,0.25)', 'rgba(253,187,45,0.78)'])
+        .arcAltitude(0.24)
+        .arcStroke(0.55)
+        .arcDashLength(0.42)
+        .arcDashGap(1.6)
+        .arcDashAnimateTime(3600)
         // Etiquetas de texto
         .labelsData(state.cities)
         .labelLat(d => d.lat)
@@ -78,11 +105,22 @@ function initGlobe() {
             return el;
         });
 
-    // Desactivar rotación automática según petición del usuario
-    state.globe.controls().autoRotate = false;
+    state.globe.controls().autoRotate = true;
+    state.globe.controls().autoRotateSpeed = 0.45;
     
-    // Posicionar la cámara para ver Europa/África inicialmente (donde están la mayoría de nuestras ciudades actuales)
-    state.globe.pointOfView({ lat: 40, lng: 10, altitude: 2.5 });
+    state.globe.pointOfView({ lat: 15, lng: -20, altitude: 2.25 });
+}
+
+function buildGlobeArcs() {
+    return state.cities.map((city, index) => {
+        const nextCity = state.cities[(index + 1) % state.cities.length];
+        return {
+            startLat: city.lat,
+            startLng: city.lng,
+            endLat: nextCity.lat,
+            endLng: nextCity.lng
+        };
+    });
 }
 
 // ══ NAVEGACIÓN Y ESTADO ══════════════════════════════════════
@@ -245,6 +283,12 @@ async function loadWeather() {
 
 function setupEventListeners() {
     document.getElementById('back-to-cities').onclick = backToSelection;
+    document.querySelectorAll('[data-close-modal]').forEach(el => {
+        el.onclick = closePlaceDetails;
+    });
+    document.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape') closePlaceDetails();
+    });
 
     document.querySelectorAll('.tab-btn').forEach(btn => {
         btn.onclick = () => {
@@ -307,7 +351,27 @@ function getWeatherIcon(code) {
 }
 
 function showPlaceDetails(place) {
-    alert(`${place.nombre}\n\n${place.descripcion}\n\nPrecio: ${place.precio}\nHorario: ${place.horario}`);
+    const modal = document.getElementById('place-modal');
+    document.getElementById('modal-place-img').src = place.imagen || place.imagenCard;
+    document.getElementById('modal-place-img').alt = place.nombre;
+    document.getElementById('modal-place-tag').textContent = getTypeLabel(place.tipo);
+    document.getElementById('modal-place-title').textContent = place.nombre;
+    document.getElementById('modal-place-desc').textContent = place.descripcion || place.descripcionCorta;
+    document.getElementById('modal-place-price').textContent = `Precio: ${place.precio || 'Consultar'}`;
+    document.getElementById('modal-place-hours').textContent = `Horario: ${place.horario || 'Consultar'}`;
+    document.getElementById('modal-place-rating').textContent = `Valoracion: ${place.rating || '4.7'} / 5`;
+    document.getElementById('modal-place-tags').innerHTML = (place.tags || [])
+        .map(tag => `<span>${tag}</span>`)
+        .join('');
+    modal.hidden = false;
+    document.body.style.overflow = 'hidden';
+}
+
+function closePlaceDetails() {
+    const modal = document.getElementById('place-modal');
+    if (!modal) return;
+    modal.hidden = true;
+    document.body.style.overflow = '';
 }
 
 window.showPlaceDetailsById = (id) => {
