@@ -7,6 +7,32 @@
 
 ---
 
+## [2026-05-05] - Reanudacion cartera de imagenes: Tokyo
+**Modo**: image_gen integrado.
+**Assets generados**:
+- `img/tokyo_shibuya.png`: Cruce de Shibuya, fotografia editorial de viaje en blue hour, neon urbano, sin logos legibles ni texto.
+- `img/tokyo_sensoji.png`: Templo Senso-ji, fotografia editorial en luz calida de tarde, arquitectura roja, ambiente sereno.
+- `img/tokyo_meiji.png`: Santuario Meiji, fotografia editorial en bosque de Yoyogi, torii y madera natural con luz suave.
+
+**Rutas actualizadas**:
+- `cities.json`: primeros tres lugares de Tokyo.
+- `data/tokyo.json`: Cruce de Shibuya y Templo Senso-ji sincronizados.
+
+---
+
+## [2026-05-05] - Tokyo completado
+**Assets generados**:
+- `img/tokyo_teamlab.png`: TeamLab Planets, interior inmersivo de arte digital con reflejos y luz futurista.
+- `img/tokyo_tsukiji.png`: Mercado exterior de Tsukiji, escena culinaria matinal con puestos y ambiente local.
+- `img/tokyo_akihabara.png`: Akihabara, calle nocturna de neon y tecnologia.
+- `img/tokyo_ueno.png`: Parque Ueno, paseo verde urbano con luz natural tranquila.
+- `img/tokyo_skytree.png`: Tokyo Skytree en blue hour con contexto urbano.
+- `img/tokyo_goldengai.png`: Golden Gai, callejon nocturno intimo con luces calidas.
+
+**Resultado**: Tokyo queda sin placeholders `picsum.photos` en `cities.json`.
+
+---
+
 ## [2026-05-05] - Consolidación de Datasets 🔄
 **Acción**: Ejecución de script de fusión para unir 20 ciudades en el archivo central `cities.json`.
 **Resultado**: 20 ciudades globales integradas con éxito. Base de datos final lista para la fase de inyección visual.
