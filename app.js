@@ -244,39 +244,115 @@ function cleanupMap() {
 
 // ══ METEOROLOGÍA ════════════════════════════════════════════
 
+// ══ METEOROLOGÍA ════════════════════════════════════════════
+
 async function loadWeather() {
     const container = document.getElementById('weather-container');
     const { lat, lng, nombre } = state.currentCity;
     
+    container.innerHTML = '<div class="loading"><div class="spinner"></div> Consultando satélites...</div>';
+    
     try {
-        const url = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lng}&current_weather=true&daily=temperature_2m_max,temperature_2m_min,weathercode&timezone=auto`;
+        const url = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lng}&current_weather=true&hourly=relativehumidity_2m,apparent_temperature&daily=temperature_2m_max,temperature_2m_min,weathercode,uv_index_max,precipitation_probability_max&timezone=auto`;
         const response = await fetch(url);
         const data = await response.json();
         
         const weather = data.current_weather;
         const daily = data.daily;
+        const hourly = data.hourly;
+        
+        // Obtener humedad actual (aproximada de la hora actual)
+        const currentHourIndex = new Date().getHours();
+        const humidity = hourly.relativehumidity_2m[currentHourIndex];
+        const feelsLike = hourly.apparent_temperature[currentHourIndex];
 
         container.innerHTML = `
             <div class="weather-card main-weather">
-                <h2>El tiempo en ${nombre}</h2>
-                <div class="weather-now">
-                    <span class="temp-now">${Math.round(weather.temperature)}°C</span>
-                    <span class="weather-icon-big">${getWeatherIcon(weather.weathercode)}</span>
+                <div class="weather-header">
+                    <span class="weather-date">${new Date().toLocaleDateString('es-ES', { weekday: 'long', day: 'numeric', month: 'long' })}</span>
+                    <h2>${nombre}</h2>
+                </div>
+                
+                <div class="weather-main-info">
+                    <span class="temp-now">${Math.round(weather.temperature)}°</span>
+                    <div class="weather-condition">
+                        <span class="weather-icon-big">${getWeatherIcon(weather.weathercode)}</span>
+                        <span class="condition-text">${getWeatherDescription(weather.weathercode)}</span>
+                    </div>
+                </div>
+
+                <div class="weather-stats-grid">
+                    <div class="stat-item">
+                        <span class="stat-label">Sensación</span>
+                        <span class="stat-value">${Math.round(feelsLike)}°C</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Humedad</span>
+                        <span class="stat-value">${humidity}%</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Viento</span>
+                        <span class="stat-value">${Math.round(weather.windspeed)} km/h</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Índice UV</span>
+                        <span class="stat-value">${daily.uv_index_max[0]}</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Lluvia</span>
+                        <span class="stat-value">${daily.precipitation_probability_max[0]}%</span>
+                    </div>
                 </div>
             </div>
-            <div class="forecast-grid">
-                ${daily.time.slice(0, 5).map((time, i) => `
-                    <div class="forecast-item">
-                        <span class="forecast-day">${new Date(time).toLocaleDateString('es-ES', {weekday: 'short'})}</span>
-                        <span class="forecast-icon">${getWeatherIcon(daily.weathercode[i])}</span>
-                        <span class="forecast-temp">${Math.round(daily.temperature_2m_max[i])}° / ${Math.round(daily.temperature_2m_min[i])}°</span>
-                    </div>
-                `).join('')}
+
+            <div class="forecast-section">
+                <h3>Próximos días</h3>
+                <div class="forecast-grid">
+                    ${daily.time.slice(1, 6).map((time, i) => `
+                        <div class="forecast-item">
+                            <span class="forecast-day">${new Date(time).toLocaleDateString('es-ES', {weekday: 'long'})}</span>
+                            <span class="forecast-icon">${getWeatherIcon(daily.weathercode[i+1])}</span>
+                            <div class="forecast-temp">
+                                <span class="temp-max">${Math.round(daily.temperature_2m_max[i+1])}°</span>
+                                <span class="temp-min">${Math.round(daily.temperature_2m_min[i+1])}°</span>
+                            </div>
+                        </div>
+                    `).join('')}
+                </div>
             </div>
         `;
     } catch (error) {
-        container.innerHTML = '<div class="error">❌ Error de meteorología.</div>';
+        console.error(error);
+        container.innerHTML = '<div class="error">❌ No pudimos conectar con la estación meteorológica.</div>';
     }
+}
+
+function getWeatherDescription(code) {
+    const descriptions = {
+        0: 'Cielo despejado',
+        1: 'Principalmente despejado',
+        2: 'Parcialmente nublado',
+        3: 'Nublado',
+        45: 'Niebla',
+        48: 'Niebla con escarcha',
+        51: 'Llovizna ligera',
+        53: 'Llovizna moderada',
+        55: 'Llovizna densa',
+        61: 'Lluvia débil',
+        63: 'Lluvia moderada',
+        65: 'Lluvia fuerte',
+        71: 'Nieve débil',
+        73: 'Nieve moderada',
+        75: 'Nieve fuerte',
+        77: 'Granizo',
+        80: 'Chubascos leves',
+        81: 'Chubascos moderados',
+        82: 'Chubascos violentos',
+        95: 'Tormenta eléctrica',
+        96: 'Tormenta con granizo leve',
+        99: 'Tormenta con granizo fuerte'
+    };
+    return descriptions[code] || 'Condiciones variables';
 }
 
 // ══ EVENT LISTENERS Y UTILIDADES ═════════════════════════════
@@ -341,12 +417,15 @@ function getTypeLabel(type) {
 }
 
 function getWeatherIcon(code) {
-    if (code === 0) return '☀️';
-    if (code <= 3) return '🌤️';
-    if (code <= 48) return '🌫️';
-    if (code <= 67) return '🌦️';
-    if (code <= 82) return '🌧️';
-    if (code <= 99) return '⛈️';
+    if (code === 0) return '☀️'; // Despejado
+    if (code === 1 || code === 2) return '🌤️'; // Parcialmente
+    if (code === 3) return '☁️'; // Nublado
+    if (code === 45 || code === 48) return '🌫️'; // Niebla
+    if (code >= 51 && code <= 55) return '🌦️'; // Llovizna
+    if (code >= 61 && code <= 65) return '🌧️'; // Lluvia
+    if (code >= 71 && code <= 77) return '❄️'; // Nieve
+    if (code >= 80 && code <= 82) return '🌧️'; // Chubascos
+    if (code >= 95) return '⛈️'; // Tormenta
     return '🌡️';
 }
 

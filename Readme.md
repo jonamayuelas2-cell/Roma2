@@ -1,21 +1,30 @@
-# Registro de Cambios - TravelWorld PWA 🌍
+# Registro de Cambios - TravelWorld PWA 🌍✨
 
-## [2026-05-05] - Actualización de Activos Reales (Parte 2) 📸
-- **Nueva Ciudad Añadida**: Londres integrada en `cities.json` con sus lugares icónicos.
-- **Integración de NYC**: Actualizadas las imágenes de la Estatua de la Libertad y Central Park con assets generados por IA.
-- **Sincronización Total**: Actualizados los archivos de datos individuales (`paris.json`, `londres.json`, `nyc.json`) para coincidir con el índice global.
-- **Estado de Activos**:
+## [2026-05-05] - Nueva Interfaz Meteorológica Premium 🌦️💎
+- **Rediseño Completo**: Implementada una nueva interfaz basada en tarjetas de alta fidelidad con degradados dinámicos y efectos de cristal (glassmorphism).
+- **Datos Extendidos**: Ahora la aplicación muestra Sensación Térmica, Humedad, Velocidad del Viento, Índice UV y Probabilidad de Lluvia en tiempo real.
+- **Descripciones Inteligentes**: Se han añadido descripciones textuales para los códigos meteorológicos (ej: "Tormenta eléctrica", "Cielo despejado").
+- **Pronóstico Mejorado**: Nueva sección de próximos días con diseño más limpio y fácil de leer.
+
+## [2026-05-05] - Tematización Dinámica y Tipografía 🎨🖋️
+- **Personalización de Temas**: Se han definido colores primarios/secundarios y fuentes únicas para las 20 ciudades en `cities.json`.
+- **Nuevas Fuentes**: Integradas 8 familias de Google Fonts adicionales en `index.html` para dar carácter a cada destino.
+- **Implementación**: La función `applyTheme` en `app.js` ya aplica estos estilos al seleccionar una ciudad desde el globo.
+- **Estado de Activos Reales**:
   - Roma: 100% Real 🇮🇹
   - París: Hero + Top 3 Reales 🇫🇷
   - Londres: Hero + Top 3 Reales 🇬🇧
-  - Nueva York: Top 2 Reales 🇺🇸
-  - El Cairo: Hero Real 🇪🇬
-  - Tokio: Hero Real 🇯🇵
+  - Nueva York: Hero + Top 2 Reales 🇺🇸 (Resto en progreso)
+  - El Cairo: Hero Real 🇪🇬 (Resto en progreso)
+  - Tokio: Hero Real 🇯🇵 (Resto en progreso)
 
-> [!IMPORTANT]
-> Se ha alcanzado el límite de cuota de generación de imágenes. El proceso se reanudará en 4-5 horas para completar NYC, Tokio y El Cairo.
+> [!TIP]
+> Cada ciudad ahora tiene un "vibe" visual distinto: Tokio es moderno/cyberpunk, El Cairo es terroso/clásico, y Río de Janeiro es vibrante/tropical. 🌟
 
-### Proceso:
-1. Se analizaron las ciudades y sus lugares correspondientes.
-2. Se procedió a la generación de imágenes de alta calidad para los puntos turísticos más emblemáticos.
-3. Se reemplazaron los placeholders de `picsum.photos` por imágenes reales que "woween" al usuario. 🌟
+### Próximos Pasos:
+1.  **Generación de Imágenes**: Completar los activos visuales para el resto de ciudades (Ciudad de México, Río, Lima, Sídney, etc.) una vez se restablezca la cuota de IA. 🖼️
+2.  **Sincronización de JSONs**: Asegurar que los archivos individuales en `data/` reflejan las mismas rutas de imágenes que el `cities.json` maestro. 🔄
+3.  **Refinamiento UI**: Ajustar contrastes en las paletas de colores más atrevidas para asegurar legibilidad. 👁️
+
+---
+*Manteniendo la estética "Premium Travel Magazine" en cada rincón del mundo.* 📔✈️

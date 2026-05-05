@@ -20,6 +20,20 @@
 
 ## [2026-05-05] - Imágenes de Lugares 📸
 
+## [2026-05-05] - Tematización Visual 🎨
+**Objetivo**: Dotar a cada ciudad de una identidad única basada en su cultura y atmósfera.
+
+**Prompt de Diseño**:
+"Crea una paleta de colores y selecciona una tipografía de Google Fonts que capture la esencia de [CIUDAD]. 
+- Considera su historia (clásica vs moderna).
+- Considera su clima (colores cálidos vs fríos).
+- La tipografía debe sentirse como una revista de viajes premium (serif para lo clásico, sans-serif moderno para lo tecnológico)."
+
+**Resultados Aplicados**:
+- **Tokio**: #ff0033 (Rojo Neón), #000000 (Negro), 'Space Grotesk'. 🗼
+- **El Cairo**: #eab676 (Arena), #1a1a1b (Ebonizado), 'Cardo'. 🏺
+- **Río**: #009b3a (Verde Selva), #fdb913 (Sol), 'Fredoka'. 🇧🇷
+
 **Prompt 1 (Coliseo):**
 "Ultra-realistic, cinematic professional photograph of the Roman Colosseum at golden hour. Warm sunlight hitting the ancient stone, clear sky, high detail, 8k resolution, travel magazine style."
 
@@ -46,3 +60,17 @@
 
 **Prompt 9 (Cairo Hero):**
 "Majestic view of the Great Pyramids of Giza at sunrise. Golden sand, clear blue sky, camels in the foreground, epic scale, professional travel photography, 8k."
+
+## [2026-05-05] - Mejora Interfaz Meteorológica 🌦️
+**Objetivo**: Crear una experiencia de usuario "wow" al consultar el tiempo, similar a las apps de clima premium (Apple Weather, Yahoo Weather).
+
+**Prompt de Diseño**:
+"Diseña una interfaz de clima moderna usando CSS Vanilla. 
+- Usa un degradado dinámico como fondo de la tarjeta principal.
+- Implementa un panel de estadísticas con efecto de cristal (glassmorphism).
+- Asegura que los datos sean legibles y estén bien jerarquizados (Temperatura > Condición > Detalles).
+- Añade una lista de pronóstico limpia con iconos claros."
+
+**Lógica de Datos**:
+- API: Open-Meteo (Hourly + Daily).
+- Nuevos parámetros: `apparent_temperature`, `relativehumidity_2m`, `uv_index_max`, `precipitation_probability_max`.

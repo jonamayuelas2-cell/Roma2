@@ -198,7 +198,7 @@
     "imagen": "img/paris_hero.png",
     "theme": {
       "primary": "#3457D5",
-      "secondary": "#c9a227",
+      "secondary": "#f5f5dc",
       "font": "'Playfair Display', serif"
     },
     "lugares": [
@@ -385,8 +385,8 @@
     "lng": -0.1278,
     "imagen": "img/london_bigben.png",
     "theme": {
-      "primary": "#00247d",
-      "secondary": "#cf142b",
+      "primary": "#cf142b",
+      "secondary": "#00247d",
       "font": "'Montserrat', sans-serif"
     },
     "lugares": [
@@ -447,9 +447,9 @@
     "lng": 31.2357,
     "imagen": "img/cairo_hero.png",
     "theme": {
-      "primary": "#c09304",
-      "secondary": "#101010",
-      "font": "'Cinzel', serif"
+      "primary": "#eab676",
+      "secondary": "#1a1a1b",
+      "font": "'Cardo', serif"
     },
     "lugares": [
       {
@@ -635,8 +635,8 @@
     "lng": 18.4241,
     "imagen": "https://picsum.photos/seed/cape_town_city/1200/800",
     "theme": {
-      "primary": "#00a884",
-      "secondary": "#005f73",
+      "primary": "#20b2aa",
+      "secondary": "#ffa500",
       "font": "'Outfit', sans-serif"
     },
     "lugares": [
@@ -823,9 +823,9 @@
     "lng": 139.6503,
     "imagen": "img/tokyo_hero.png",
     "theme": {
-      "primary": "#bc002d",
-      "secondary": "#2b2d42",
-      "font": "'Inter', sans-serif"
+      "primary": "#ff0033",
+      "secondary": "#000000",
+      "font": "'Space Grotesk', sans-serif"
     },
     "lugares": [
       {
@@ -1011,8 +1011,8 @@
     "lng": 100.5018,
     "imagen": "https://picsum.photos/seed/bangkok_city/1200/800",
     "theme": {
-      "primary": "#2d2a4a",
-      "secondary": "#ed1c24",
+      "primary": "#ffcc00",
+      "secondary": "#7c0a02",
       "font": "'Inter', sans-serif"
     },
     "lugares": [
@@ -1199,9 +1199,9 @@
     "lng": -74.006,
     "imagen": "https://picsum.photos/seed/nyc_city/1200/800",
     "theme": {
-      "primary": "#00356B",
-      "secondary": "#C4D8E2",
-      "font": "'Montserrat', sans-serif"
+      "primary": "#f5c400",
+      "secondary": "#222222",
+      "font": "'Bebas Neue', sans-serif"
     },
     "lugares": [
       {
@@ -1387,9 +1387,9 @@
     "lng": -99.1332,
     "imagen": "https://picsum.photos/seed/mexico_city/1200/800",
     "theme": {
-      "primary": "#006847",
-      "secondary": "#ce1126",
-      "font": "'Outfit', sans-serif"
+      "primary": "#c8102e",
+      "secondary": "#006341",
+      "font": "'Zilla Slab', serif"
     },
     "lugares": [
       {
@@ -1576,8 +1576,8 @@
     "imagen": "https://picsum.photos/seed/rio_city/1200/800",
     "theme": {
       "primary": "#009b3a",
-      "secondary": "#fedf00",
-      "font": "'Outfit', sans-serif"
+      "secondary": "#fdb913",
+      "font": "'Fredoka', sans-serif"
     },
     "lugares": [
       {
@@ -1763,9 +1763,9 @@
     "lng": -77.0428,
     "imagen": "https://picsum.photos/seed/lima_city/1200/800",
     "theme": {
-      "primary": "#d91023",
-      "secondary": "#f2c94c",
-      "font": "'Montserrat', sans-serif"
+      "primary": "#9b2226",
+      "secondary": "#ee9b00",
+      "font": "'Quicksand', sans-serif"
     },
     "lugares": [
       {
@@ -1951,9 +1951,9 @@
     "lng": 151.2093,
     "imagen": "https://picsum.photos/seed/sydney_city/1200/800",
     "theme": {
-      "primary": "#0057b8",
-      "secondary": "#e4002b",
-      "font": "'Outfit', sans-serif"
+      "primary": "#003087",
+      "secondary": "#f9f9f9",
+      "font": "'Plus Jakarta Sans', sans-serif"
     },
     "lugares": [
       {
@@ -2139,9 +2139,9 @@
     "lng": 174.7633,
     "imagen": "https://picsum.photos/seed/auckland_city/1200/800",
     "theme": {
-      "primary": "#111827",
-      "secondary": "#00a3ad",
-      "font": "'Inter', sans-serif"
+      "primary": "#000000",
+      "secondary": "#ffffff",
+      "font": "'Work Sans', sans-serif"
     },
     "lugares": [
       {
