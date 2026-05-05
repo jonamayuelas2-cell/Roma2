@@ -11,8 +11,8 @@
     "horario": "9:30 - 23:45",
     "precio": "28€ (Cima con ascensor)",
     "rating": 4.8,
-    "imagen": "https://picsum.photos/seed/eiffel/800/600",
-    "imagenCard": "https://picsum.photos/seed/eiffel/400/300",
+    "imagen": "img/paris_eiffel.png",
+    "imagenCard": "img/paris_eiffel.png",
     "tags": ["monumento", "vistas", "historia"],
     "web": "https://www.toureiffel.paris",
     "telefono": ""
@@ -29,8 +29,8 @@
     "horario": "9:00 - 18:00 (Cerrado Martes)",
     "precio": "17€",
     "rating": 4.7,
-    "imagen": "https://picsum.photos/seed/louvre/800/600",
-    "imagenCard": "https://picsum.photos/seed/louvre/400/300",
+    "imagen": "img/paris_louvre.png",
+    "imagenCard": "img/paris_louvre.png",
     "tags": ["arte", "historia", "museo"],
     "web": "https://www.louvre.fr",
     "telefono": ""
@@ -47,8 +47,8 @@
     "horario": "En reconstrucción (plaza abierta)",
     "precio": "Gratuito",
     "rating": 4.8,
-    "imagen": "https://picsum.photos/seed/notredame/800/600",
-    "imagenCard": "https://picsum.photos/seed/notredame/400/300",
+    "imagen": "img/paris_notredame.png",
+    "imagenCard": "img/paris_notredame.png",
     "tags": ["religión", "gótico", "historia"],
     "web": "https://www.notredamedeparis.fr",
     "telefono": ""

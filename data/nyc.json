@@ -9,8 +9,8 @@
     "horario": "9:00 - 17:00",
     "precio": "25$",
     "rating": 4.8,
-    "imagen": "https://picsum.photos/seed/liberty/800/600",
-    "imagenCard": "https://picsum.photos/seed/liberty/400/300",
+    "imagen": "img/nyc_liberty.png",
+    "imagenCard": "img/nyc_liberty.png",
     "tags": ["monumento", "historia", "vistas"]
   },
   {
@@ -23,8 +23,8 @@
     "horario": "6:00 - 1:00",
     "precio": "Gratis",
     "rating": 4.9,
-    "imagen": "https://picsum.photos/seed/centralpark/800/600",
-    "imagenCard": "https://picsum.photos/seed/centralpark/400/300",
+    "imagen": "img/nyc_centralpark.png",
+    "imagenCard": "img/nyc_centralpark.png",
     "tags": ["naturaleza", "relax", "deporte"]
   },
   {

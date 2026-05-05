@@ -11,8 +11,8 @@
     "horario": "Vistas exteriores 24h",
     "precio": "Gratuito",
     "rating": 4.8,
-    "imagen": "https://picsum.photos/seed/bigben/800/600",
-    "imagenCard": "https://picsum.photos/seed/bigben/400/300",
+    "imagen": "img/london_bigben.png",
+    "imagenCard": "img/london_bigben.png",
     "tags": ["reloj", "parlamento", "historia"],
     "web": "",
     "telefono": ""
@@ -29,8 +29,8 @@
     "horario": "10:00 - 17:00",
     "precio": "Gratuito",
     "rating": 4.8,
-    "imagen": "https://picsum.photos/seed/british/800/600",
-    "imagenCard": "https://picsum.photos/seed/british/400/300",
+    "imagen": "img/london_british.png",
+    "imagenCard": "img/london_british.png",
     "tags": ["museo", "historia", "antigüedad"],
     "web": "https://www.britishmuseum.org",
     "telefono": ""
@@ -47,8 +47,8 @@
     "horario": "11:00 - 18:00",
     "precio": "35£",
     "rating": 4.5,
-    "imagen": "https://picsum.photos/seed/londoneye/800/600",
-    "imagenCard": "https://picsum.photos/seed/londoneye/400/300",
+    "imagen": "img/london_eye.png",
+    "imagenCard": "img/london_eye.png",
     "tags": ["vistas", "noria", "turismo"],
     "web": "https://www.londoneye.com",
     "telefono": ""

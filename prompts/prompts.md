@@ -1,41 +1,48 @@
-# Registro de Prompts 📝
+# Registro de Prompts - TravelWorld 🎨
 
-## Prompt 01 🚀
-**Usuario:** adaptame la web pwa de roma y adaptamela para que inicialmente aparezca un carrusel con unas 20 ciudades del mundo con sus imagen asociada caracteristica de la ciudad y cuando se seleccione la ciudad, aparezca la misma funcionalidadd que actualmente tiene la web de roma, pero para cada una de las ciudades presentadas en carrusel inicial
+## Estilo Visual General
+- **Concepto**: Fotografía profesional de viajes, estilo National Geographic / Revista Condé Nast.
+- **Iluminación**: Golden hour (atardecer), iluminación cinematográfica.
+- **Calidad**: 8k, ultra-res, realista, enfoque nítido.
 
-**Acción:** Analizando la estructura actual y planificando la arquitectura multi-ciudad. Creación de carrusel y sistema de carga dinámica de datos por ciudad. 🌍✨
+---
 
-## Prompt 02 🛠️
-**Usuario:** (Continuación de la implementación multi-ciudad)
+## Londres 🇬🇧
+- **Big Ben**: "Professional travel photography of the Big Ben and the Palace of Westminster in London at sunset, golden hour, cinematic lighting, ultra high resolution, 8k, realistic."
+- **British Museum**: "Professional travel photography of the British Museum entrance, classic architecture, soft daylight, ultra high resolution, 8k, realistic."
+- **London Eye**: "Professional travel photography of the London Eye on the South Bank of the River Thames at night, city lights reflection on water, ultra high resolution, 8k, realistic."
 
-**Acción:** Refactorización completa de `app.js` para manejar el estado multi-ciudad, implementación de navegación bidireccional, carga dinámica de clima y lugares, y generación de datos iniciales para París, Londres y Barcelona. Actualización de documentación y Readme. 🌍🛠️✨
+---
 
-## Prompt 03 🚀
-**Usuario:** da este error: La página localhost ha rechazado la conexión.
+## Nueva York 🇺🇸
+- **Estatua de la Libertad**: "Professional travel photography of the Statue of Liberty in New York Harbor, dramatic sky, cinematic lighting, ultra high resolution, 8k, realistic."
+- **Central Park**: "Professional travel photography of Central Park New York, aerial view showing the lake and surrounding skyscrapers, autumn colors, ultra high resolution, 8k, realistic."
 
-**Acción:** Identificación de desajuste de puertos entre el servidor y `launch.json`. Arranque del servidor local en el puerto **8080** y actualización de la documentación para asegurar la sincronización con el entorno de VS Code. 🔌✅
+## [2026-05-05] - Imágenes de Lugares 📸
 
-## Prompt 04 🌎💫
-**Usuario:** selecciona solo ciudades donde tengas informacion de lugares a visitar. Donde antes hacia referencia a Roma ahora debe hacer referencia a Ciudades del mundo. El carrusel de ciudades podría ser una bola del mundo que girase 360 grados y aparecieran las ciudades que has elegido en su ubicacion concreta del mapa mundi. Para cada ciudad, al entrar en su página elige un tipo de letra y colores diferentes. las ciudades elegidas, geolocalizacion y foto de presentacion almacenalas en un json para poder editar las fotos de una manera facil
+**Prompt 1 (Coliseo):**
+"Ultra-realistic, cinematic professional photograph of the Roman Colosseum at golden hour. Warm sunlight hitting the ancient stone, clear sky, high detail, 8k resolution, travel magazine style."
 
-**Acción:** Transformación total a **TravelWorld**. Implementación de un globo terráqueo 3D interactivo con `Globe.gl`. Filtrado de ciudades en `cities.json` para mostrar solo destinos con datos (Roma, París, Londres, Barcelona). Sistema de tematización dinámica que cambia fuentes y colores por ciudad. Actualización de toda la identidad visual y documentación a v1.3.0. 🌍🎨✨
+**Prompt 2 (Trevi):**
+"Stunning professional night photograph of the Trevi Fountain in Rome. Artistic artificial lighting, crystal clear water, baroque sculptures in high detail, cinematic atmosphere, 8k resolution."
 
-## Prompt 05 🖼️📍
-**Usuario:** pinta las fotos directamente en el mapamundo y que este no gire solo.
+**Prompt 3 (Panteón):**
+"Cinematic interior view of the Pantheon in Rome, capturing the beam of light coming through the oculus. High contrast, ancient textures, spiritual and grand atmosphere, professional photography, 8k."
 
-**Acción:** Desactivación de la auto-rotación del globo terráqueo. Implementación de marcadores de imagen (miniaturas circulares con emoji) directamente sobre las coordenadas de las ciudades en el mapa 3D, permitiendo la navegación directa al hacer clic en las fotos. 🌍📸✅
+**Prompt 4 (Vaticano):**
+"Majestic wide angle view of St. Peter's Square and Basilica in Vatican City. Blue hour, city lights beginning to glow, grand architecture, high quality travel photography, 8k."
 
-## Prompt 06 🏙️🖼️
-**Usuario:** cuando me posiciono en una de las imagenes visualiza la imagen en grande. Además, necesito que aparezcan 20 ciudades
+**Prompt 5 (Foro Romano):**
+"Ancient ruins of the Roman Forum under a soft morning light. Pillars, broken arches, and green grass, capturing the historical depth of Rome. Professional landscape photography, 8k."
 
-**Acción:** Expansión de la base de datos a 20 ciudades globales (Nueva York, Tokio, Estambul, etc.) en `cities.json`. Implementación de un panel de previsualización dinámico que muestra la foto en grande y detalles de la ciudad al pasar el ratón (hover) sobre los marcadores del globo. 🌍🔍✨
+**Prompt 6 (Roma Hero):**
+"Panoramic view of Rome's skyline at sunset, showing the dome of St. Peter's in the distance and the Tiber river. Warm golden tones, cinematic lighting, premium travel destination hero image, 8k."
 
-## Prompt 07 📂🏛️
-**Usuario:** ahora necesit que presentes lugares de interes para cada una de las ciudades
+**Prompt 7 (Paris Hero):**
+"Breathtaking aerial view of Paris at dusk. The Eiffel Tower illuminated against a purple and orange sky, the Seine river winding through the city. Cinematic, professional photography, 8k resolution."
 
-**Acción:** Creación masiva de 16 archivos JSON adicionales en `/data/`. Ahora las 20 ciudades del mundo cuentan con sus propios lugares de interés, coordenadas, descripciones y metadatos específicos, completando la base de datos global de la aplicación. 🗺️✅✨
+**Prompt 8 (Tokyo Hero):**
+"Vibrant night view of Tokyo's Shinjuku district. Neon lights, futuristic atmosphere, busy streets, high detail, cinematic cyberpunk style but realistic photography, 8k resolution."
 
-## Prompt 08 📦🚀
-**Usuario:** seria mas facil tener un único json de ciudades y en el meter la estrucutura de cada una de las ciudades
-
-**Acción:** Consolidación de todos los archivos de datos individuales en un único `cities.json`. Refactorización de `app.js` para eliminar peticiones HTTP secundarias y manejar todo el contenido desde el estado inicial. Simplificación radical de la arquitectura de datos. 📦✅✨
+**Prompt 9 (Cairo Hero):**
+"Majestic view of the Great Pyramids of Giza at sunrise. Golden sand, clear blue sky, camels in the foreground, epic scale, professional travel photography, 8k."
