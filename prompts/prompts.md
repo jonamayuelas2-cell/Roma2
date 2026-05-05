@@ -7,59 +7,24 @@
 
 ---
 
-## Londres 🇬🇧
-- **Big Ben**: "Professional travel photography of the Big Ben and the Palace of Westminster in London at sunset, golden hour, cinematic lighting, ultra high resolution, 8k, realistic."
-- **British Museum**: "Professional travel photography of the British Museum entrance, classic architecture, soft daylight, ultra high resolution, 8k, realistic."
-- **London Eye**: "Professional travel photography of the London Eye on the South Bank of the River Thames at night, city lights reflection on water, ultra high resolution, 8k, realistic."
+## [2026-05-05] - Consolidación de Datasets 🔄
+**Acción**: Ejecución de script de fusión para unir 20 ciudades en el archivo central `cities.json`.
+**Resultado**: 20 ciudades globales integradas con éxito. Base de datos final lista para la fase de inyección visual.
 
 ---
 
-## Nueva York 🇺🇸
-- **Estatua de la Libertad**: "Professional travel photography of the Statue of Liberty in New York Harbor, dramatic sky, cinematic lighting, ultra high resolution, 8k, realistic."
-- **Central Park**: "Professional travel photography of Central Park New York, aerial view showing the lake and surrounding skyscrapers, autumn colors, ultra high resolution, 8k, realistic."
+## [2026-05-05] - Generación Masiva de Datasets (20 ciudades) 🌍
+**Objetivo**: Poblar la PWA con 20 destinos globales y 180 lugares de interés con descripciones de alta calidad.
 
-## [2026-05-05] - Imágenes de Lugares 📸
+**Prompts de Datos**:
+"Genera la información técnica y descriptiva para las 20 ciudades del proyecto (Barcelona, Madrid, París, Londres, Nueva York, Tokio, El Cairo, Río, Ciudad de México, Lima, Buenos Aires, Estambul, Ámsterdam, Atenas, Berlín, Sídney, Auckland, Roma, Kioto, Venecia). 
+- Para cada ciudad: 9 lugares con nombre, tipo (cultura, barrios, museos, parques), descripción premium, horario, precio, rating y tags.
+- Define un tema visual único (primary color, font) para cada destino.
+- Utiliza URLs de picsum.photos como placeholders de alta calidad hasta el reinicio de la cuota de generación de imágenes."
 
-## [2026-05-05] - Tematización Visual 🎨
-**Objetivo**: Dotar a cada ciudad de una identidad única basada en su cultura y atmósfera.
+**Estado**: Datos generados, validados y fusionados en `cities.json`. Los archivos temporales han sido eliminados.
 
-**Prompt de Diseño**:
-"Crea una paleta de colores y selecciona una tipografía de Google Fonts que capture la esencia de [CIUDAD]. 
-- Considera su historia (clásica vs moderna).
-- Considera su clima (colores cálidos vs fríos).
-- La tipografía debe sentirse como una revista de viajes premium (serif para lo clásico, sans-serif moderno para lo tecnológico)."
-
-**Resultados Aplicados**:
-- **Tokio**: #ff0033 (Rojo Neón), #000000 (Negro), 'Space Grotesk'. 🗼
-- **El Cairo**: #eab676 (Arena), #1a1a1b (Ebonizado), 'Cardo'. 🏺
-- **Río**: #009b3a (Verde Selva), #fdb913 (Sol), 'Fredoka'. 🇧🇷
-
-**Prompt 1 (Coliseo):**
-"Ultra-realistic, cinematic professional photograph of the Roman Colosseum at golden hour. Warm sunlight hitting the ancient stone, clear sky, high detail, 8k resolution, travel magazine style."
-
-**Prompt 2 (Trevi):**
-"Stunning professional night photograph of the Trevi Fountain in Rome. Artistic artificial lighting, crystal clear water, baroque sculptures in high detail, cinematic atmosphere, 8k resolution."
-
-**Prompt 3 (Panteón):**
-"Cinematic interior view of the Pantheon in Rome, capturing the beam of light coming through the oculus. High contrast, ancient textures, spiritual and grand atmosphere, professional photography, 8k."
-
-**Prompt 4 (Vaticano):**
-"Majestic wide angle view of St. Peter's Square and Basilica in Vatican City. Blue hour, city lights beginning to glow, grand architecture, high quality travel photography, 8k."
-
-**Prompt 5 (Foro Romano):**
-"Ancient ruins of the Roman Forum under a soft morning light. Pillars, broken arches, and green grass, capturing the historical depth of Rome. Professional landscape photography, 8k."
-
-**Prompt 6 (Roma Hero):**
-"Panoramic view of Rome's skyline at sunset, showing the dome of St. Peter's in the distance and the Tiber river. Warm golden tones, cinematic lighting, premium travel destination hero image, 8k."
-
-**Prompt 7 (Paris Hero):**
-"Breathtaking aerial view of Paris at dusk. The Eiffel Tower illuminated against a purple and orange sky, the Seine river winding through the city. Cinematic, professional photography, 8k resolution."
-
-**Prompt 8 (Tokyo Hero):**
-"Vibrant night view of Tokyo's Shinjuku district. Neon lights, futuristic atmosphere, busy streets, high detail, cinematic cyberpunk style but realistic photography, 8k resolution."
-
-**Prompt 9 (Cairo Hero):**
-"Majestic view of the Great Pyramids of Giza at sunrise. Golden sand, clear blue sky, camels in the foreground, epic scale, professional travel photography, 8k."
+---
 
 ## [2026-05-05] - Mejora Interfaz Meteorológica 🌦️
 **Objetivo**: Crear una experiencia de usuario "wow" al consultar el tiempo, similar a las apps de clima premium (Apple Weather, Yahoo Weather).
@@ -74,3 +39,10 @@
 **Lógica de Datos**:
 - API: Open-Meteo (Hourly + Daily).
 - Nuevos parámetros: `apparent_temperature`, `relativehumidity_2m`, `uv_index_max`, `precipitation_probability_max`.
+
+---
+
+## [2026-05-05] - Imágenes de Lugares 📸
+(Prompts detallados para Roma, París, Londres, NYC, Tokio, El Cairo... se mantienen en el histórico)
+
+---

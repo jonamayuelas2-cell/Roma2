@@ -8,9 +8,29 @@
   --bg-dark: #0f0f0f;
   --glass-bg: rgba(255, 255, 255, 0.1);
   --glass-border: rgba(255, 255, 255, 0.2);
-  --card-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  --card-shadow: 0 12px 40px rgba(0,0,0,0.12);
   --font-main: 'Inter', sans-serif;
   --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-smooth: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+/* ══ ANIMACIONES GLOBALES ═══════════════════════════════════ */
+.fade-in {
+    animation: fadeIn 0.5s ease forwards;
+}
+
+.fade-out {
+    animation: fadeOut 0.5s ease forwards;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeOut {
+    from { opacity: 1; transform: translateY(0); }
+    to { opacity: 0; transform: translateY(-10px); }
 }
 
 * {
@@ -409,9 +429,30 @@ header {
   font-size: 1.2rem;
   color: var(--text-secondary);
   max-width: 600px;
+    --card-shadow: 0 12px 40px rgba(0,0,0,0.12);
+    --transition-smooth: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
-/* ══ FILTERS BAR ═════════════════════════════════════════ */
+/* ══ ANIMACIONES GLOBALES ═══════════════════════════════════ */
+.fade-in {
+    animation: fadeIn 0.5s ease forwards;
+}
+
+.fade-out {
+    animation: fadeOut 0.5s ease forwards;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeOut {
+    from { opacity: 1; transform: translateY(0); }
+    to { opacity: 0; transform: translateY(-10px); }
+}
+
+/* ══ RESET & BASE ═══════════════════════════════════════════ */
 .filters-bar {
   background: var(--bg-dark);
   padding: 20px;
@@ -528,21 +569,37 @@ header {
   background: var(--glass-bg);
   border: 1px solid var(--glass-border);
   border-radius: 20px;
-  overflow: hidden;
-  transition: var(--transition);
-  cursor: pointer;
+    box-shadow: var(--card-shadow);
+    transition: var(--transition-smooth);
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    border: 1px solid rgba(255,255,255,0.1);
 }
 
 .place-card:hover {
-  transform: translateY(-10px);
-  border-color: var(--primary-color);
-  box-shadow: var(--card-shadow);
+    transform: translateY(-12px) scale(1.02);
+    box-shadow: 0 25px 60px rgba(0,0,0,0.25);
+    border-color: var(--primary-color);
 }
 
-.card-img {
-  height: 200px;
-  width: 100%;
-  object-fit: cover;
+.place-card:hover .place-img {
+    transform: scale(1.15);
+    filter: brightness(1.1);
+}
+
+.place-img-wrapper {
+    width: 100%;
+    height: 240px;
+    overflow: hidden;
+    position: relative;
+}
+
+.place-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: var(--transition-smooth);
 }
 
 .card-content {

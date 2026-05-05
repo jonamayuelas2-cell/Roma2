@@ -12,7 +12,8 @@ const state = {
     activeTab: 'lugares', // 'lugares', 'meteo'
     map: null,
     globe: null,
-    markers: []
+    markers: [],
+    isTransitioning: false
 };
 
 // ══ INICIALIZACIÓN ══════════════════════════════════════════
@@ -139,10 +140,28 @@ async function selectCity(city) {
     updateUIForCity(city);
     
     // Transición suave
-    document.getElementById('city-selection').style.display = 'none';
-    document.getElementById('main-app').style.display = 'block';
+    if (state.isTransitioning) return;
+    state.isTransitioning = true;
+
+    const selection = document.getElementById('city-selection');
+    const app = document.getElementById('main-app');
+
+    selection.classList.add('fade-out');
     
-    renderPlaces();
+    setTimeout(() => {
+        selection.style.display = 'none';
+        selection.classList.remove('fade-out');
+        
+        app.style.display = 'block';
+        app.classList.add('fade-in');
+        
+        renderPlaces();
+        
+        setTimeout(() => {
+            app.classList.remove('fade-in');
+            state.isTransitioning = false;
+        }, 500);
+    }, 500);
 }
 
 function applyTheme(city) {
@@ -172,10 +191,29 @@ function updateUIForCity(city) {
 }
 
 function backToSelection() {
-    document.getElementById('main-app').style.display = 'none';
-    document.getElementById('city-selection').style.display = 'flex';
-    state.currentCity = null;
-    cleanupMap();
+    if (state.isTransitioning) return;
+    state.isTransitioning = true;
+
+    const selection = document.getElementById('city-selection');
+    const app = document.getElementById('main-app');
+
+    app.classList.add('fade-out');
+    
+    setTimeout(() => {
+        app.style.display = 'none';
+        app.classList.remove('fade-out');
+        
+        selection.style.display = 'flex';
+        selection.classList.add('fade-in');
+        
+        state.currentCity = null;
+        cleanupMap();
+        
+        setTimeout(() => {
+            selection.classList.remove('fade-in');
+            state.isTransitioning = false;
+        }, 500);
+    }, 500);
 }
 
 // ══ RENDERIZADO DE LUGARES ═══════════════════════════════════

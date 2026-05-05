@@ -403,7 +403,11 @@
         "rating": 4.8,
         "imagen": "img/london_bigben.png",
         "imagenCard": "img/london_bigben.png",
-        "tags": ["reloj", "parlamento", "historia"]
+        "tags": [
+          "reloj",
+          "parlamento",
+          "historia"
+        ]
       },
       {
         "id": 2,
@@ -412,13 +416,17 @@
         "descripcion": "Uno de los museos más antiguos y grandes del mundo, con tesoros como la Piedra Rosetta.",
         "descripcionCorta": "Tesoros de la historia mundial.",
         "lat": 51.5194,
-        "lng": -0.1270,
+        "lng": -0.127,
         "horario": "10:00 - 17:00",
         "precio": "Gratuito",
         "rating": 4.8,
         "imagen": "img/london_british.png",
         "imagenCard": "img/london_british.png",
-        "tags": ["museo", "historia", "antigüedad"]
+        "tags": [
+          "museo",
+          "historia",
+          "antigüedad"
+        ]
       },
       {
         "id": 3,
@@ -433,7 +441,11 @@
         "rating": 4.5,
         "imagen": "img/london_eye.png",
         "imagenCard": "img/london_eye.png",
-        "tags": ["vistas", "noria", "turismo"]
+        "tags": [
+          "vistas",
+          "noria",
+          "turismo"
+        ]
       }
     ]
   },
@@ -2313,6 +2325,1322 @@
           "parques",
           "oceania",
           "auckland"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "madrid",
+    "nombre": "Madrid",
+    "pais": "España",
+    "continente": "Europa",
+    "emoji": "🇪🇸",
+    "lat": 40.4168,
+    "lng": -3.7038,
+    "imagen": "https://picsum.photos/seed/madrid_hero/1200/800",
+    "theme": {
+      "primary": "#C8102E",
+      "secondary": "#FFD700",
+      "font": "'Plus Jakarta Sans', sans-serif"
+    },
+    "lugares": [
+      {
+        "id": 1,
+        "nombre": "Museo del Prado",
+        "tipo": "museos",
+        "descripcion": "La joya de la corona cultural de España. Alberga la colección más completa de pintura española, destacando 'Las Meninas' de Velázquez y 'Los fusilamientos' de Goya. Un viaje por la historia del arte europeo en un entorno neoclásico majestuoso.",
+        "descripcionCorta": "La pinacoteca más importante de España y una de las mejores del mundo.",
+        "lat": 40.4137,
+        "lng": -3.6921,
+        "horario": "10:00 - 20:00",
+        "precio": "15€",
+        "rating": 4.9,
+        "imagen": "https://picsum.photos/seed/madrid_prado/900/650",
+        "imagenCard": "https://picsum.photos/seed/madrid_prado/500/360",
+        "tags": [
+          "arte",
+          "historia",
+          "museo"
+        ]
+      },
+      {
+        "id": 2,
+        "nombre": "Parque del Retiro",
+        "tipo": "parques",
+        "descripcion": "Antiguo jardín real, hoy es el pulmón verde de Madrid. Destaca el Palacio de Cristal, el estanque para pasear en barca y sus paseos flanqueados por estatuas. Un refugio de paz y belleza en el corazón de la capital.",
+        "descripcionCorta": "El parque más emblemático y querido de la ciudad.",
+        "lat": 40.4153,
+        "lng": -3.6839,
+        "horario": "6:00 - 0:00",
+        "precio": "Gratis",
+        "rating": 4.8,
+        "imagen": "https://picsum.photos/seed/madrid_retiro/900/650",
+        "imagenCard": "https://picsum.photos/seed/madrid_retiro/500/360",
+        "tags": [
+          "naturaleza",
+          "relax",
+          "barcas"
+        ]
+      },
+      {
+        "id": 3,
+        "nombre": "Palacio Real",
+        "tipo": "cultura",
+        "descripcion": "El palacio más grande de Europa Occidental por extensión. Sus salones oficiales, la Real Armería y la Farmacia Real son testimonios del esplendor de la monarquía española. Sus jardines del Campo del Moro ofrecen una vista espectacular.",
+        "descripcionCorta": "Imponente residencia oficial de la monarquía española.",
+        "lat": 40.4173,
+        "lng": -3.7143,
+        "horario": "10:00 - 19:00",
+        "precio": "12€",
+        "rating": 4.7,
+        "imagen": "https://picsum.photos/seed/madrid_palacio/900/650",
+        "imagenCard": "https://picsum.photos/seed/madrid_palacio/500/360",
+        "tags": [
+          "realeza",
+          "arquitectura",
+          "historia"
+        ]
+      },
+      {
+        "id": 4,
+        "nombre": "Plaza Mayor",
+        "tipo": "cultura",
+        "descripcion": "El corazón del Madrid de los Austrias. Esta plaza porticada ha sido escenario de mercados, corridas de toros y ejecuciones. Hoy es el lugar perfecto para disfrutar de un bocadillo de calamares y observar el pulso de la ciudad.",
+        "descripcionCorta": "Histórica plaza porticada en el centro de Madrid.",
+        "lat": 40.4154,
+        "lng": -3.7074,
+        "horario": "24h",
+        "precio": "Gratis",
+        "rating": 4.6,
+        "imagen": "https://picsum.photos/seed/madrid_plazamayor/900/650",
+        "imagenCard": "https://picsum.photos/seed/madrid_plazamayor/500/360",
+        "tags": [
+          "historia",
+          "gastronomía",
+          "centro"
+        ]
+      },
+      {
+        "id": 5,
+        "nombre": "Gran Vía",
+        "tipo": "barrios",
+        "descripcion": "El Broadway madrileño. Una avenida vibrante llena de teatros, cines y tiendas de moda. Sus edificios de principios del siglo XX, como el Edificio Metrópolis o el Capitol, definen el skyline más cosmopolita de Madrid.",
+        "descripcionCorta": "La avenida más famosa y concurrida de la ciudad.",
+        "lat": 40.4197,
+        "lng": -3.7034,
+        "horario": "24h",
+        "precio": "Variable",
+        "rating": 4.5,
+        "imagen": "https://picsum.photos/seed/madrid_granvia/900/650",
+        "imagenCard": "https://picsum.photos/seed/madrid_granvia/500/360",
+        "tags": [
+          "compras",
+          "teatro",
+          "ocio"
+        ]
+      },
+      {
+        "id": 6,
+        "nombre": "Mercado de San Miguel",
+        "tipo": "mercados",
+        "descripcion": "Un templo gastronómico en una estructura de hierro de principios del siglo XX. Aquí se pueden degustar desde ostras francesas hasta los mejores jamones ibéricos. Un festival para los sentidos en un entorno histórico.",
+        "descripcionCorta": "Elegante mercado de abastos reconvertido en espacio gourmet.",
+        "lat": 40.4155,
+        "lng": -3.709,
+        "horario": "10:00 - 0:00",
+        "precio": "Variable",
+        "rating": 4.7,
+        "imagen": "https://picsum.photos/seed/madrid_sanmiguel/900/650",
+        "imagenCard": "https://picsum.photos/seed/madrid_sanmiguel/500/360",
+        "tags": [
+          "gastronomía",
+          "tapas",
+          "gourmet"
+        ]
+      },
+      {
+        "id": 7,
+        "nombre": "Templo de Debod",
+        "tipo": "cultura",
+        "descripcion": "Un regalo de Egipto a España. Este templo auténtico del siglo II a.C. fue traído piedra a piedra para salvarlo de la presa de Asuán. Es el mejor lugar de Madrid para contemplar el atardecer con vistas a la Casa de Campo.",
+        "descripcionCorta": "Templo egipcio real en pleno centro de Madrid.",
+        "lat": 40.424,
+        "lng": -3.7177,
+        "horario": "10:00 - 20:00",
+        "precio": "Gratis",
+        "rating": 4.8,
+        "imagen": "https://picsum.photos/seed/madrid_debod/900/650",
+        "imagenCard": "https://picsum.photos/seed/madrid_debod/500/360",
+        "tags": [
+          "egipto",
+          "atardecer",
+          "vistas"
+        ]
+      },
+      {
+        "id": 8,
+        "nombre": "Puerta del Sol",
+        "tipo": "cultura",
+        "descripcion": "El kilómetro cero de las carreteras españolas. Hogar de la estatua del Oso y el Madroño y el famoso reloj que marca las campanadas de fin de año. Un punto de encuentro neurálgico y lleno de vida.",
+        "descripcionCorta": "El centro geográfico y social de Madrid.",
+        "lat": 40.4169,
+        "lng": -3.7035,
+        "horario": "24h",
+        "precio": "Gratis",
+        "rating": 4.6,
+        "imagen": "https://picsum.photos/seed/madrid_sol/900/650",
+        "imagenCard": "https://picsum.photos/seed/madrid_sol/500/360",
+        "tags": [
+          "centro",
+          "historia",
+          "reloj"
+        ]
+      },
+      {
+        "id": 9,
+        "nombre": "San Ginés",
+        "tipo": "cafes",
+        "descripcion": "La chocolatería más famosa de Madrid, abierta desde 1894. Sus chocolates con churros son legendarios y se sirven a cualquier hora del día o de la noche. Un rincón con solera que ha visto pasar generaciones.",
+        "descripcionCorta": "Icono gastronómico madrileño: chocolate con churros.",
+        "lat": 40.4167,
+        "lng": -3.707,
+        "horario": "24h",
+        "precio": "Desde 5€",
+        "rating": 4.5,
+        "imagen": "https://picsum.photos/seed/madrid_sangines/900/650",
+        "imagenCard": "https://picsum.photos/seed/madrid_sangines/500/360",
+        "tags": [
+          "dulces",
+          "historia",
+          "churros"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "barcelona",
+    "nombre": "Barcelona",
+    "pais": "España",
+    "continente": "Europa",
+    "emoji": "🇪🇸",
+    "lat": 41.3851,
+    "lng": 2.1734,
+    "imagen": "https://picsum.photos/seed/barcelona_hero/1200/800",
+    "theme": {
+      "primary": "#A70042",
+      "secondary": "#004D98",
+      "font": "'Montserrat', sans-serif"
+    },
+    "lugares": [
+      {
+        "id": 1,
+        "nombre": "Sagrada Família",
+        "tipo": "cultura",
+        "descripcion": "La obra maestra inacabada de Antoni Gaudí. Un templo donde la arquitectura imita a la naturaleza, con columnas que parecen árboles y vidrieras que crean un bosque de luz. Un símbolo universal del modernismo catalán.",
+        "descripcionCorta": "Obra cumbre de Gaudí y símbolo de la ciudad.",
+        "lat": 41.4036,
+        "lng": 2.1744,
+        "horario": "9:00 - 18:00",
+        "precio": "Desde 26€",
+        "rating": 4.8,
+        "imagen": "https://picsum.photos/seed/barcelona_sagrada/900/650",
+        "imagenCard": "https://picsum.photos/seed/barcelona_sagrada/500/360",
+        "tags": [
+          "gaudi",
+          "arquitectura",
+          "modernismo"
+        ]
+      },
+      {
+        "id": 2,
+        "nombre": "Park Güell",
+        "tipo": "parques",
+        "descripcion": "Un parque público con jardines y elementos arquitectónicos únicos situados en la parte alta de la ciudad. Sus mosaicos de trencadís y sus vistas panorámicas del Mediterráneo lo convierten en un lugar mágico.",
+        "descripcionCorta": "Un cuento de hadas arquitectónico al aire libre.",
+        "lat": 41.4145,
+        "lng": 2.1527,
+        "horario": "9:30 - 19:30",
+        "precio": "10€",
+        "rating": 4.7,
+        "imagen": "https://picsum.photos/seed/barcelona_parkguell/900/650",
+        "imagenCard": "https://picsum.photos/seed/barcelona_parkguell/500/360",
+        "tags": [
+          "gaudi",
+          "vistas",
+          "mosaicos"
+        ]
+      },
+      {
+        "id": 3,
+        "nombre": "Barrio Gótico",
+        "tipo": "barrios",
+        "descripcion": "El corazón antiguo de Barcelona. Un laberinto de calles estrechas y plazas medievales que esconden la Catedral, restos de la muralla romana y el ambiente bohemio de la ciudad vieja. Historia viva en cada rincón.",
+        "descripcionCorta": "El núcleo histórico más antiguo y encantador.",
+        "lat": 41.3833,
+        "lng": 2.1769,
+        "horario": "24h",
+        "precio": "Gratis",
+        "rating": 4.7,
+        "imagen": "https://picsum.photos/seed/barcelona_gotico/900/650",
+        "imagenCard": "https://picsum.photos/seed/barcelona_gotico/500/360",
+        "tags": [
+          "historia",
+          "medieval",
+          "paseo"
+        ]
+      },
+      {
+        "id": 4,
+        "nombre": "Casa Batlló",
+        "tipo": "cultura",
+        "descripcion": "Una explosión de color y formas orgánicas en el Paseo de Gracia. Gaudí transformó un edificio corriente en una obra de arte que parece respirar, inspirada en la leyenda de San Jorge y el dragón.",
+        "descripcionCorta": "Fantasía modernista en el corazón de la ciudad.",
+        "lat": 41.3916,
+        "lng": 2.1647,
+        "horario": "9:00 - 20:00",
+        "precio": "Desde 35€",
+        "rating": 4.6,
+        "imagen": "https://picsum.photos/seed/barcelona_batllo/900/650",
+        "imagenCard": "https://picsum.photos/seed/barcelona_batllo/500/360",
+        "tags": [
+          "gaudi",
+          "arte",
+          "modernismo"
+        ]
+      },
+      {
+        "id": 5,
+        "nombre": "La Rambla",
+        "tipo": "barrios",
+        "descripcion": "El paseo más famoso de España. Un río humano que conecta la Plaza Cataluña con el puerto, lleno de quioscos de flores, artistas callejeros y edificios históricos como el Gran Teatro del Liceo.",
+        "descripcionCorta": "La arteria más vital y turística de Barcelona.",
+        "lat": 41.3806,
+        "lng": 2.1732,
+        "horario": "24h",
+        "precio": "Gratis",
+        "rating": 4.4,
+        "imagen": "https://picsum.photos/seed/barcelona_rambla/900/650",
+        "imagenCard": "https://picsum.photos/seed/barcelona_rambla/500/360",
+        "tags": [
+          "paseo",
+          "flores",
+          "ocio"
+        ]
+      },
+      {
+        "id": 6,
+        "nombre": "Mercado de la Boquería",
+        "tipo": "mercados",
+        "descripcion": "Un paraíso gastronómico donde se encuentran los mejores productos de la tierra y el mar. Sus puestos rebosan de colores, olores y sabores, ofreciendo desde zumos frescos hasta tapas elaboradas.",
+        "descripcionCorta": "El mercado de productos frescos más famoso de Europa.",
+        "lat": 41.3817,
+        "lng": 2.1715,
+        "horario": "8:00 - 20:30",
+        "precio": "Variable",
+        "rating": 4.6,
+        "imagen": "https://picsum.photos/seed/barcelona_boqueria/900/650",
+        "imagenCard": "https://picsum.photos/seed/barcelona_boqueria/500/360",
+        "tags": [
+          "comida",
+          "mercado",
+          "tradición"
+        ]
+      },
+      {
+        "id": 7,
+        "nombre": "Montjuïc",
+        "tipo": "parques",
+        "descripcion": "Una montaña llena de cultura y naturaleza. Alberga el Museo Nacional de Arte de Cataluña, el Anillo Olímpico y la Fuente Mágica. Sus miradores ofrecen las mejores puestas de sol sobre la ciudad y el mar.",
+        "descripcionCorta": "Parque urbano con museos, jardines y vistas épicas.",
+        "lat": 41.3636,
+        "lng": 2.155,
+        "horario": "10:00 - 20:00",
+        "precio": "Variable",
+        "rating": 4.7,
+        "imagen": "https://picsum.photos/seed/barcelona_montjuic/900/650",
+        "imagenCard": "https://picsum.photos/seed/barcelona_montjuic/500/360",
+        "tags": [
+          "naturaleza",
+          "vistas",
+          "museos"
+        ]
+      },
+      {
+        "id": 8,
+        "nombre": "Playa de la Barceloneta",
+        "tipo": "barrios",
+        "descripcion": "La playa más antigua y carismática de la ciudad. Un barrio marinero donde disfrutar del Mediterráneo, degustar una paella frente al mar o pasear por su animado paseo marítimo.",
+        "descripcionCorta": "El alma mediterránea y playera de la ciudad.",
+        "lat": 41.3785,
+        "lng": 2.1925,
+        "horario": "24h",
+        "precio": "Gratis",
+        "rating": 4.5,
+        "imagen": "https://picsum.photos/seed/barcelona_barceloneta/900/650",
+        "imagenCard": "https://picsum.photos/seed/barcelona_barceloneta/500/360",
+        "tags": [
+          "playa",
+          "mar",
+          "gastronomía"
+        ]
+      },
+      {
+        "id": 9,
+        "nombre": "Palau de la Música Catalana",
+        "tipo": "cultura",
+        "descripcion": "Una joya del modernismo proyectada por Domènech i Montaner. Su sala de conciertos, con su claraboya central de cristal multicolor, es una de las más bellas del mundo. Arquitectura en clave de sol.",
+        "descripcionCorta": "Auditorio único, Patrimonio de la Humanidad.",
+        "lat": 41.3875,
+        "lng": 2.1753,
+        "horario": "10:00 - 15:30",
+        "precio": "Desde 15€",
+        "rating": 4.8,
+        "imagen": "https://picsum.photos/seed/barcelona_palau/900/650",
+        "imagenCard": "https://picsum.photos/seed/barcelona_palau/500/360",
+        "tags": [
+          "música",
+          "modernismo",
+          "arte"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "buenosaires",
+    "nombre": "Buenos Aires",
+    "pais": "Argentina",
+    "continente": "Sudamérica",
+    "emoji": "🇦🇷",
+    "lat": -34.6037,
+    "lng": -58.3816,
+    "imagen": "https://picsum.photos/seed/bsas_hero/1200/800",
+    "theme": {
+      "primary": "#74ACDF",
+      "secondary": "#ffffff",
+      "font": "'Montserrat', sans-serif"
+    },
+    "lugares": [
+      {
+        "id": 1,
+        "nombre": "Teatro Colón",
+        "tipo": "cultura",
+        "descripcion": "Considerado uno de los mejores teatros de ópera del mundo por su acústica impecable y arquitectura ecléctica. Un símbolo del esplendor cultural de Buenos Aires que rivaliza con las grandes salas europeas.",
+        "descripcionCorta": "Uno de los teatros líricos más importantes del mundo.",
+        "lat": -34.6011,
+        "lng": -58.3831,
+        "horario": "9:00 - 17:00",
+        "precio": "Desde 15 USD",
+        "rating": 4.9,
+        "imagen": "https://picsum.photos/seed/bsas_colon/900/650",
+        "imagenCard": "https://picsum.photos/seed/bsas_colon/500/360",
+        "tags": [
+          "ópera",
+          "arquitectura",
+          "cultura"
+        ]
+      },
+      {
+        "id": 2,
+        "nombre": "Caminito",
+        "tipo": "barrios",
+        "descripcion": "Un museo a cielo abierto en el barrio de La Boca. Sus casas de conventillo pintadas de colores vibrantes y el sonido del tango en cada esquina capturan la esencia inmigrante de la ciudad.",
+        "descripcionCorta": "Calle icónica llena de color y tradición tanguera.",
+        "lat": -34.6394,
+        "lng": -58.3628,
+        "horario": "10:00 - 18:00",
+        "precio": "Gratis",
+        "rating": 4.5,
+        "imagen": "https://picsum.photos/seed/bsas_caminito/900/650",
+        "imagenCard": "https://picsum.photos/seed/bsas_caminito/500/360",
+        "tags": [
+          "tango",
+          "color",
+          "historia"
+        ]
+      },
+      {
+        "id": 3,
+        "nombre": "Recoleta",
+        "tipo": "barrios",
+        "descripcion": "El barrio más elegante de Buenos Aires, conocido como la 'París del Sur'. Su cementerio es una obra de arte al aire libre donde descansan figuras como Eva Perón en imponentes mausoleos.",
+        "descripcionCorta": "Arquitectura aristocrática y el cementerio más famoso.",
+        "lat": -34.5875,
+        "lng": -58.3914,
+        "horario": "24h",
+        "precio": "Gratis",
+        "rating": 4.7,
+        "imagen": "https://picsum.photos/seed/bsas_recoleta/900/650",
+        "imagenCard": "https://picsum.photos/seed/bsas_recoleta/500/360",
+        "tags": [
+          "elegancia",
+          "historia",
+          "parís"
+        ]
+      },
+      {
+        "id": 4,
+        "nombre": "Avenida 9 de Julio",
+        "tipo": "cultura",
+        "descripcion": "Famosa por ser la avenida más ancha del mundo. En su centro se erige el Obelisco, monumento icónico y epicentro de las celebraciones porteñas. Una muestra de la escala monumental de la ciudad.",
+        "descripcionCorta": "La gran arteria porteña con el icónico Obelisco.",
+        "lat": -34.6037,
+        "lng": -58.3816,
+        "horario": "24h",
+        "precio": "Gratis",
+        "rating": 4.6,
+        "imagen": "https://picsum.photos/seed/bsas_obelisco/900/650",
+        "imagenCard": "https://picsum.photos/seed/bsas_obelisco/500/360",
+        "tags": [
+          "ciudad",
+          "vistas",
+          "ícono"
+        ]
+      },
+      {
+        "id": 5,
+        "nombre": "Puerto Madero",
+        "tipo": "barrios",
+        "descripcion": "La cara moderna de Buenos Aires. Antiguo puerto reciclado en un barrio de lujo con rascacielos, restaurantes exclusivos y el Puente de la Mujer, diseñado por Santiago Calatrava.",
+        "descripcionCorta": "El distrito más moderno y sofisticado frente al río.",
+        "lat": -34.6111,
+        "lng": -58.3622,
+        "horario": "24h",
+        "precio": "Gratis",
+        "rating": 4.8,
+        "imagen": "https://picsum.photos/seed/bsas_puerto/900/650",
+        "imagenCard": "https://picsum.photos/seed/bsas_puerto/500/360",
+        "tags": [
+          "modernidad",
+          "río",
+          "lujo"
+        ]
+      },
+      {
+        "id": 6,
+        "nombre": "Librería El Ateneo Grand Splendid",
+        "tipo": "cultura",
+        "descripcion": "Elegida frecuentemente como la librería más bella del mundo. Ubicada en un antiguo teatro, mantiene su cúpula pintada, los palcos y el telón original, creando una experiencia literaria única.",
+        "descripcionCorta": "Una joya literaria en un antiguo teatro majestuoso.",
+        "lat": -34.596,
+        "lng": -58.3941,
+        "horario": "9:00 - 22:00",
+        "precio": "Entrada libre",
+        "rating": 4.9,
+        "imagen": "https://picsum.photos/seed/bsas_ateneo/900/650",
+        "imagenCard": "https://picsum.photos/seed/bsas_ateneo/500/360",
+        "tags": [
+          "libros",
+          "teatro",
+          "belleza"
+        ]
+      },
+      {
+        "id": 7,
+        "nombre": "San Telmo",
+        "tipo": "barrios",
+        "descripcion": "El barrio con más historia y bohemia. Sus calles empedradas, sus anticuarios y su mercado dominical lo convierten en el lugar ideal para descubrir el alma antigua de Buenos Aires.",
+        "descripcionCorta": "Encanto bohemio, calles empedradas y antigüedades.",
+        "lat": -34.6206,
+        "lng": -58.3731,
+        "horario": "24h",
+        "precio": "Gratis",
+        "rating": 4.7,
+        "imagen": "https://picsum.photos/seed/bsas_santelmo/900/650",
+        "imagenCard": "https://picsum.photos/seed/bsas_santelmo/500/360",
+        "tags": [
+          "historia",
+          "antigüedades",
+          "bohemio"
+        ]
+      },
+      {
+        "id": 8,
+        "nombre": "Palermo",
+        "tipo": "barrios",
+        "descripcion": "El barrio más grande y cool, dividido en 'Soho' y 'Hollywood'. Un paraíso de tiendas de diseño, cafés de especialidad y una vibrante vida nocturna, rodeado de los hermosos Bosques de Palermo.",
+        "descripcionCorta": "Epicentro del diseño, la moda y la vida nocturna.",
+        "lat": -34.5889,
+        "lng": -58.4306,
+        "horario": "24h",
+        "precio": "Variable",
+        "rating": 4.8,
+        "imagen": "https://picsum.photos/seed/bsas_palermo/900/650",
+        "imagenCard": "https://picsum.photos/seed/bsas_palermo/500/360",
+        "tags": [
+          "diseño",
+          "moda",
+          "parques"
+        ]
+      },
+      {
+        "id": 9,
+        "nombre": "Floralis Genérica",
+        "tipo": "parques",
+        "descripcion": "Una escultura gigante de acero y aluminio en la Plaza de las Naciones Unidas. Sus pétalos se abren y cierran con la luz del sol, simbolizando la esperanza y el renacer constante de la ciudad.",
+        "descripcionCorta": "Flor metálica gigante que se mueve con el sol.",
+        "lat": -34.5829,
+        "lng": -58.3931,
+        "horario": "8:00 - 20:00",
+        "precio": "Gratis",
+        "rating": 4.6,
+        "imagen": "https://picsum.photos/seed/bsas_floralis/900/650",
+        "imagenCard": "https://picsum.photos/seed/bsas_floralis/500/360",
+        "tags": [
+          "arte",
+          "parque",
+          "modernismo"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "estambul",
+    "nombre": "Estambul",
+    "pais": "Turquía",
+    "continente": "Europa",
+    "emoji": "🇹🇷",
+    "lat": 41.0082,
+    "lng": 28.9784,
+    "imagen": "https://picsum.photos/seed/estambul_hero/1200/800",
+    "theme": {
+      "primary": "#C1272D",
+      "secondary": "#F1C40F",
+      "font": "'Zilla Slab', serif"
+    },
+    "lugares": [
+      {
+        "id": 1,
+        "nombre": "Santa Sofía",
+        "tipo": "cultura",
+        "descripcion": "Un puente entre culturas y religiones. Primero catedral bizantina, luego mezquita imperial y hoy un monumento eterno que asombra por su cúpula flotante y sus mosaicos dorados. El corazón espiritual de Estambul.",
+        "descripcionCorta": "Maravilla arquitectónica que une dos mundos.",
+        "lat": 41.0085,
+        "lng": 28.9802,
+        "horario": "9:00 - 19:00",
+        "precio": "Variable",
+        "rating": 4.9,
+        "imagen": "https://picsum.photos/seed/estambul_sofia/900/650",
+        "imagenCard": "https://picsum.photos/seed/estambul_sofia/500/360",
+        "tags": [
+          "bizancio",
+          "otomanos",
+          "historia"
+        ]
+      },
+      {
+        "id": 2,
+        "nombre": "Mezquita Azul",
+        "tipo": "cultura",
+        "descripcion": "Famosa por sus seis minaretes y los miles de azulejos de Iznik que decoran su interior con tonos turquesas. Una joya de la arquitectura otomana situada frente a Santa Sofía, creando una de las plazas más bellas del mundo.",
+        "descripcionCorta": "Elegancia otomana en tonos azul y turquesa.",
+        "lat": 41.0054,
+        "lng": 28.9768,
+        "horario": "9:00 - 18:00",
+        "precio": "Gratis",
+        "rating": 4.8,
+        "imagen": "https://picsum.photos/seed/estambul_azul/900/650",
+        "imagenCard": "https://picsum.photos/seed/estambul_azul/500/360",
+        "tags": [
+          "religión",
+          "azulejos",
+          "ícono"
+        ]
+      },
+      {
+        "id": 3,
+        "nombre": "Palacio Topkapi",
+        "tipo": "museos",
+        "descripcion": "El centro del poder del Imperio Otomano durante siglos. Sus patios, el Harem y el Tesoro Real guardan historias de sultanes, intrigas y riquezas incalculables con vistas privilegiadas al Bósforo.",
+        "descripcionCorta": "Antigua residencia de sultanes y tesoro otomano.",
+        "lat": 41.0115,
+        "lng": 28.9833,
+        "horario": "9:00 - 18:00",
+        "precio": "Desde 15€",
+        "rating": 4.7,
+        "imagen": "https://picsum.photos/seed/estambul_topkapi/900/650",
+        "imagenCard": "https://picsum.photos/seed/estambul_topkapi/500/360",
+        "tags": [
+          "sultán",
+          "palacio",
+          "historia"
+        ]
+      },
+      {
+        "id": 4,
+        "nombre": "Gran Bazar",
+        "tipo": "mercados",
+        "descripcion": "Uno de los mercados cubiertos más grandes y antiguos del mundo. Un laberinto de miles de tiendas donde perderse entre alfombras, especias, joyas y el arte del regateo. Una experiencia sensorial única.",
+        "descripcionCorta": "El mercado más vibrante y laberíntico de Oriente.",
+        "lat": 41.0107,
+        "lng": 28.9681,
+        "horario": "9:00 - 19:00",
+        "precio": "Gratis",
+        "rating": 4.6,
+        "imagen": "https://picsum.photos/seed/estambul_bazar/900/650",
+        "imagenCard": "https://picsum.photos/seed/estambul_bazar/500/360",
+        "tags": [
+          "compras",
+          "tradición",
+          "caos"
+        ]
+      },
+      {
+        "id": 5,
+        "nombre": "Bazar de las Especias",
+        "tipo": "mercados",
+        "descripcion": "También conocido como el Bazar Egipcio. Un festín de olores y colores donde se mezclan el azafrán, el té, los dulces turcos y los frutos secos bajo bóvedas históricas. El alma culinaria de la ciudad.",
+        "descripcionCorta": "Aromas y sabores tradicionales de la Ruta de la Seda.",
+        "lat": 41.0165,
+        "lng": 28.9705,
+        "horario": "8:00 - 19:00",
+        "precio": "Gratis",
+        "rating": 4.7,
+        "imagen": "https://picsum.photos/seed/estambul_especias/900/650",
+        "imagenCard": "https://picsum.photos/seed/estambul_especias/500/360",
+        "tags": [
+          "gastronomía",
+          "especias",
+          "color"
+        ]
+      },
+      {
+        "id": 6,
+        "nombre": "Torre de Gálata",
+        "tipo": "cultura",
+        "descripcion": "Una torre medieval de piedra que ofrece la mejor vista de 360 grados de Estambul. Domina el Cuerno de Oro y es el lugar perfecto para observar cómo se encienden las luces de la ciudad al atardecer.",
+        "descripcionCorta": "Vigía medieval con vistas panorámicas épicas.",
+        "lat": 41.0256,
+        "lng": 28.9741,
+        "horario": "9:00 - 20:00",
+        "precio": "10€",
+        "rating": 4.8,
+        "imagen": "https://picsum.photos/seed/estambul_galata/900/650",
+        "imagenCard": "https://picsum.photos/seed/estambul_galata/500/360",
+        "tags": [
+          "vistas",
+          "historia",
+          "génova"
+        ]
+      },
+      {
+        "id": 7,
+        "nombre": "Crucero por el Bósforo",
+        "tipo": "barrios",
+        "descripcion": "Navegar por el estrecho que separa Europa de Asia es una experiencia mágica. Palacios, fortalezas y villas de madera (yalis) se suceden mientras se disfruta de la brisa marina y el skyline de minaretes.",
+        "descripcionCorta": "Travesía entre dos continentes en el corazón de la ciudad.",
+        "lat": 41.0367,
+        "lng": 29.0225,
+        "horario": "Variable",
+        "precio": "Desde 5€",
+        "rating": 4.9,
+        "imagen": "https://picsum.photos/seed/estambul_bosforo/900/650",
+        "imagenCard": "https://picsum.photos/seed/estambul_bosforo/500/360",
+        "tags": [
+          "mar",
+          "asia",
+          "europa"
+        ]
+      },
+      {
+        "id": 8,
+        "nombre": "Cisterna Basílica",
+        "tipo": "cultura",
+        "descripcion": "Un palacio sumergido construido en el siglo VI para almacenar agua. Sus cientos de columnas de mármol iluminadas y las enigmáticas cabezas de Medusa crean una atmósfera misteriosa y fascinante.",
+        "descripcionCorta": "Tesoro bizantino oculto bajo las calles de Estambul.",
+        "lat": 41.0084,
+        "lng": 28.9778,
+        "horario": "9:00 - 19:00",
+        "precio": "10€",
+        "rating": 4.7,
+        "imagen": "https://picsum.photos/seed/estambul_cisterna/900/650",
+        "imagenCard": "https://picsum.photos/seed/estambul_cisterna/500/360",
+        "tags": [
+          "bizancio",
+          "misterio",
+          "historia"
+        ]
+      },
+      {
+        "id": 9,
+        "nombre": "Palacio Dolmabahçe",
+        "tipo": "museos",
+        "descripcion": "El último palacio de los sultanes, de estilo barroco y neoclásico europeo. Su opulencia extrema, con toneladas de oro y cristal de Baccarat, marca el fin de una era y la apertura hacia Occidente.",
+        "descripcionCorta": "Lujo extremo y arquitectura europea frente al mar.",
+        "lat": 41.0383,
+        "lng": 29.0017,
+        "horario": "9:00 - 16:00",
+        "precio": "Desde 12€",
+        "rating": 4.6,
+        "imagen": "https://picsum.photos/seed/estambul_dolmabahce/900/650",
+        "imagenCard": "https://picsum.photos/seed/estambul_dolmabahce/500/360",
+        "tags": [
+          "lujo",
+          "palacio",
+          "europa"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "amsterdam",
+    "nombre": "Ámsterdam",
+    "pais": "Países Bajos",
+    "continente": "Europa",
+    "emoji": "🇳🇱",
+    "lat": 52.3676,
+    "lng": 4.9041,
+    "imagen": "https://picsum.photos/seed/amsterdam_hero/1200/800",
+    "theme": {
+      "primary": "#FF5F15",
+      "secondary": "#003082",
+      "font": "'Fredoka', sans-serif"
+    },
+    "lugares": [
+      {
+        "id": 1,
+        "nombre": "Casa de Ana Frank",
+        "tipo": "museos",
+        "descripcion": "Un testimonio conmovedor de la historia. La casa donde Ana Frank y su familia se escondieron de la ocupación nazi durante la Segunda Guerra Mundial. Una visita esencial para reflexionar sobre la memoria y la libertad.",
+        "descripcionCorta": "Refugio histórico y símbolo mundial de la lucha por la libertad.",
+        "lat": 52.3752,
+        "lng": 4.884,
+        "horario": "9:00 - 22:00",
+        "precio": "14€",
+        "rating": 4.9,
+        "imagen": "https://picsum.photos/seed/amsterdam_frank/900/650",
+        "imagenCard": "https://picsum.photos/seed/amsterdam_frank/500/360",
+        "tags": [
+          "historia",
+          "museo",
+          "emoción"
+        ]
+      },
+      {
+        "id": 2,
+        "nombre": "Rijksmuseum",
+        "tipo": "museos",
+        "descripcion": "El Museo Nacional de los Países Bajos. Un edificio imponente que alberga las obras maestras del Siglo de Oro holandés, incluyendo 'La ronda de noche' de Rembrandt y obras delicadas de Vermeer.",
+        "descripcionCorta": "Cuna del arte holandés y hogar de los grandes maestros.",
+        "lat": 52.36,
+        "lng": 4.8852,
+        "horario": "9:00 - 17:00",
+        "precio": "20€",
+        "rating": 4.8,
+        "imagen": "https://picsum.photos/seed/amsterdam_rijks/900/650",
+        "imagenCard": "https://picsum.photos/seed/amsterdam_rijks/500/360",
+        "tags": [
+          "arte",
+          "historia",
+          "rembrandt"
+        ]
+      },
+      {
+        "id": 3,
+        "nombre": "Museo Van Gogh",
+        "tipo": "museos",
+        "descripcion": "Dedicado íntegramente a la vida y obra de Vincent van Gogh. Contiene la colección más grande del mundo de sus cuadros, cartas y dibujos, permitiendo un viaje íntimo por la mente del genio atormentado.",
+        "descripcionCorta": "La colección definitiva de las obras de Vincent van Gogh.",
+        "lat": 52.3584,
+        "lng": 4.881,
+        "horario": "9:00 - 18:00",
+        "precio": "19€",
+        "rating": 4.9,
+        "imagen": "https://picsum.photos/seed/amsterdam_vangogh/900/650",
+        "imagenCard": "https://picsum.photos/seed/amsterdam_vangogh/500/360",
+        "tags": [
+          "arte",
+          "genio",
+          "pintura"
+        ]
+      },
+      {
+        "id": 4,
+        "nombre": "Vondelpark",
+        "tipo": "parques",
+        "descripcion": "El parque público más famoso y extenso de Ámsterdam. Un oasis verde lleno de senderos, estanques y estatuas donde locales y visitantes disfrutan de un picnic, música en vivo o simplemente un paseo en bici.",
+        "descripcionCorta": "El pulmón verde y punto de encuentro social de la ciudad.",
+        "lat": 52.3579,
+        "lng": 4.8686,
+        "horario": "24h",
+        "precio": "Gratis",
+        "rating": 4.7,
+        "imagen": "https://picsum.photos/seed/amsterdam_vondel/900/650",
+        "imagenCard": "https://picsum.photos/seed/amsterdam_vondel/500/360",
+        "tags": [
+          "naturaleza",
+          "ocio",
+          "relax"
+        ]
+      },
+      {
+        "id": 5,
+        "nombre": "Canales de Ámsterdam",
+        "tipo": "barrios",
+        "descripcion": "Declarados Patrimonio de la Humanidad por la UNESCO. Un paseo en barco por estos canales históricos es la mejor forma de apreciar la arquitectura inclinada de las casas de mercaderes y los puentes iluminados.",
+        "descripcionCorta": "La Venecia del Norte: un laberinto de canales históricos.",
+        "lat": 52.37,
+        "lng": 4.89,
+        "horario": "Variable",
+        "precio": "Desde 15€",
+        "rating": 4.8,
+        "imagen": "https://picsum.photos/seed/amsterdam_canales/900/650",
+        "imagenCard": "https://picsum.photos/seed/amsterdam_canales/500/360",
+        "tags": [
+          "barco",
+          "agua",
+          "vistas"
+        ]
+      },
+      {
+        "id": 6,
+        "nombre": "Barrio de Jordaan",
+        "tipo": "barrios",
+        "descripcion": "Originalmente un barrio obrero, hoy es la zona más codiciada y bohemia de la ciudad. Lleno de calles pintorescas, patios escondidos ('hofjes') y galerías de arte independientes. El alma auténtica de Ámsterdam.",
+        "descripcionCorta": "Calles llenas de encanto, arte y cafés históricos.",
+        "lat": 52.374,
+        "lng": 4.881,
+        "horario": "24h",
+        "precio": "Gratis",
+        "rating": 4.7,
+        "imagen": "https://picsum.photos/seed/amsterdam_jordaan/900/650",
+        "imagenCard": "https://picsum.photos/seed/amsterdam_jordaan/500/360",
+        "tags": [
+          "bohemio",
+          "paseo",
+          "galerías"
+        ]
+      },
+      {
+        "id": 7,
+        "nombre": "Mercado de Albert Cuyp",
+        "tipo": "mercados",
+        "descripcion": "El mercado callejero más grande de Europa. Un lugar vibrante para probar el famoso Stroopwafel recién hecho, comprar arenque crudo o encontrar ropa vintage. Una inmersión total en la vida cotidiana holandesa.",
+        "descripcionCorta": "Sabor local y bullicio en el mercado más famoso.",
+        "lat": 52.355,
+        "lng": 4.895,
+        "horario": "9:00 - 17:00",
+        "precio": "Gratis",
+        "rating": 4.6,
+        "imagen": "https://picsum.photos/seed/amsterdam_market/900/650",
+        "imagenCard": "https://picsum.photos/seed/amsterdam_market/500/360",
+        "tags": [
+          "comida",
+          "compras",
+          "bullicio"
+        ]
+      },
+      {
+        "id": 8,
+        "nombre": "Bloemenmarkt",
+        "tipo": "mercados",
+        "descripcion": "El único mercado de flores flotante del mundo. Situado sobre barcazas en el canal Singel, es el lugar ideal para comprar bulbos de tulipán y disfrutar de una explosión de color en cualquier época del año.",
+        "descripcionCorta": "Mercado de flores único que flota sobre el canal.",
+        "lat": 52.366,
+        "lng": 4.891,
+        "horario": "9:00 - 17:30",
+        "precio": "Gratis",
+        "rating": 4.5,
+        "imagen": "https://picsum.photos/seed/amsterdam_flores/900/650",
+        "imagenCard": "https://picsum.photos/seed/amsterdam_flores/500/360",
+        "tags": [
+          "flores",
+          "tulipanes",
+          "color"
+        ]
+      },
+      {
+        "id": 9,
+        "nombre": "NDSM Werf",
+        "tipo": "barrios",
+        "descripcion": "Un antiguo astillero industrial al norte de la ciudad reconvertido en un espacio creativo masivo. Lleno de arte callejero, contenedores habitables y festivales de vanguardia. La cara más rebelde y moderna de Ámsterdam.",
+        "descripcionCorta": "Distrito cultural industrial y vanguardista al otro lado del río.",
+        "lat": 52.4,
+        "lng": 4.89,
+        "horario": "24h",
+        "precio": "Gratis",
+        "rating": 4.6,
+        "imagen": "https://picsum.photos/seed/amsterdam_ndsm/900/650",
+        "imagenCard": "https://picsum.photos/seed/amsterdam_ndsm/500/360",
+        "tags": [
+          "industrial",
+          "arte",
+          "moderno"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "atenas",
+    "nombre": "Atenas",
+    "pais": "Grecia",
+    "continente": "Europa",
+    "emoji": "🇬🇷",
+    "lat": 37.9838,
+    "lng": 23.7275,
+    "imagen": "https://picsum.photos/seed/atenas_hero/1200/800",
+    "theme": {
+      "primary": "#005BB7",
+      "secondary": "#FFFFFF",
+      "font": "'Cardo', serif"
+    },
+    "lugares": [
+      {
+        "id": 1,
+        "nombre": "Acrópolis de Atenas",
+        "tipo": "cultura",
+        "descripcion": "La roca sagrada que domina la ciudad. Alberga el Partenón, el Erecteón y otros templos que son la cumbre de la arquitectura clásica griega. Un símbolo eterno de la democracia y la civilización occidental.",
+        "descripcionCorta": "La joya de la corona de la Grecia clásica.",
+        "lat": 37.9715,
+        "lng": 23.7257,
+        "horario": "8:00 - 20:00",
+        "precio": "20€",
+        "rating": 4.9,
+        "imagen": "https://picsum.photos/seed/atenas_acropolis/900/650",
+        "imagenCard": "https://picsum.photos/seed/atenas_acropolis/500/360",
+        "tags": [
+          "antigüedad",
+          "historia",
+          "gaudi"
+        ]
+      },
+      {
+        "id": 2,
+        "nombre": "Partenón",
+        "tipo": "cultura",
+        "descripcion": "Dedicado a la diosa Atenea Partenos. Sus líneas perfectas y su armonía matemática lo convierten en el edificio más perfecto de la antigüedad. Un testimonio de piedra del ingenio humano.",
+        "descripcionCorta": "El templo más icónico de la civilización clásica.",
+        "lat": 37.9715,
+        "lng": 23.7266,
+        "horario": "8:00 - 20:00",
+        "precio": "Incluido en Acrópolis",
+        "rating": 4.9,
+        "imagen": "https://picsum.photos/seed/atenas_partenon/900/650",
+        "imagenCard": "https://picsum.photos/seed/atenas_partenon/500/360",
+        "tags": [
+          "arquitectura",
+          "Grecia",
+          "mármol"
+        ]
+      },
+      {
+        "id": 3,
+        "nombre": "Plaka",
+        "tipo": "barrios",
+        "descripcion": "El barrio de los dioses. Un entramado de calles estrechas y escaleras que serpentean bajo la Acrópolis. Lleno de tabernas tradicionales, flores en los balcones y un encanto mediterráneo irresistible.",
+        "descripcionCorta": "El barrio más antiguo y pintoresco de Atenas.",
+        "lat": 37.973,
+        "lng": 23.729,
+        "horario": "24h",
+        "precio": "Gratis",
+        "rating": 4.8,
+        "imagen": "https://picsum.photos/seed/atenas_plaka/900/650",
+        "imagenCard": "https://picsum.photos/seed/atenas_plaka/500/360",
+        "tags": [
+          "paseo",
+          "tradición",
+          "comida"
+        ]
+      },
+      {
+        "id": 4,
+        "nombre": "Museo de la Acrópolis",
+        "tipo": "museos",
+        "descripcion": "Un edificio ultramoderno que alberga los tesoros originales hallados en la roca sagrada. Sus suelos de cristal permiten ver excavaciones reales y su última planta replica exactamente la orientación del Partenón.",
+        "descripcionCorta": "Moderno cofre de cristal para los tesoros clásicos.",
+        "lat": 37.9683,
+        "lng": 23.7285,
+        "horario": "9:00 - 20:00",
+        "precio": "10€",
+        "rating": 4.8,
+        "imagen": "https://picsum.photos/seed/atenas_museo/900/650",
+        "imagenCard": "https://picsum.photos/seed/atenas_museo/500/360",
+        "tags": [
+          "arte",
+          "arqueología",
+          "vistas"
+        ]
+      },
+      {
+        "id": 5,
+        "nombre": "Ágora Antigua",
+        "tipo": "cultura",
+        "descripcion": "El centro político y social de la antigua Atenas. Aquí Sócrates filosofaba y los ciudadanos debatían. Alberga el Templo de Hefesto, el mejor conservado de toda Grecia.",
+        "descripcionCorta": "El corazón de la vida pública y filosófica antigua.",
+        "lat": 37.975,
+        "lng": 23.722,
+        "horario": "8:00 - 20:00",
+        "precio": "10€",
+        "rating": 4.7,
+        "imagen": "https://picsum.photos/seed/atenas_agora/900/650",
+        "imagenCard": "https://picsum.photos/seed/atenas_agora/500/360",
+        "tags": [
+          "filosofía",
+          "historia",
+          "ruinas"
+        ]
+      },
+      {
+        "id": 6,
+        "nombre": "Monte Licabeto",
+        "tipo": "parques",
+        "descripcion": "El punto más alto de Atenas. Se puede subir en funicular o caminando para disfrutar de la puesta de sol más espectacular de la ciudad, con vistas que alcanzan hasta el puerto del Pireo y el mar.",
+        "descripcionCorta": "Balcón panorámico sobre el mar de casas blancas de Atenas.",
+        "lat": 37.9819,
+        "lng": 23.7431,
+        "horario": "24h",
+        "precio": "Funicular pagado",
+        "rating": 4.8,
+        "imagen": "https://picsum.photos/seed/atenas_lycabettus/900/650",
+        "imagenCard": "https://picsum.photos/seed/atenas_lycabettus/500/360",
+        "tags": [
+          "vistas",
+          "romance",
+          "atardecer"
+        ]
+      },
+      {
+        "id": 7,
+        "nombre": "Monastiraki",
+        "tipo": "mercados",
+        "descripcion": "Un crisol de culturas. Una plaza vibrante donde se mezclan iglesias bizantinas, mezquitas otomanas y un mercadillo de antigüedades lleno de tesoros inesperados. El pulso comercial de la ciudad.",
+        "descripcionCorta": "Plaza histórica y mercadillo vibrante en el centro.",
+        "lat": 37.976,
+        "lng": 23.725,
+        "horario": "24h",
+        "precio": "Gratis",
+        "rating": 4.6,
+        "imagen": "https://picsum.photos/seed/atenas_monastiraki/900/650",
+        "imagenCard": "https://picsum.photos/seed/atenas_monastiraki/500/360",
+        "tags": [
+          "compras",
+          "bullicio",
+          "centro"
+        ]
+      },
+      {
+        "id": 8,
+        "nombre": "Estadio Panatenaico",
+        "tipo": "cultura",
+        "descripcion": "Construido enteramente en mármol blanco. Fue el lugar de los primeros Juegos Olímpicos modernos en 1896 y mantiene la elegancia de los antiguos estadios de la antigüedad clásica.",
+        "descripcionCorta": "Majestuoso estadio de mármol, cuna del olimpismo.",
+        "lat": 37.968,
+        "lng": 23.741,
+        "horario": "8:00 - 19:00",
+        "precio": "5€",
+        "rating": 4.7,
+        "imagen": "https://picsum.photos/seed/atenas_estadio/900/650",
+        "imagenCard": "https://picsum.photos/seed/atenas_estadio/500/360",
+        "tags": [
+          "deporte",
+          "mármol",
+          "olimpismo"
+        ]
+      },
+      {
+        "id": 9,
+        "nombre": "Anafiotika",
+        "tipo": "barrios",
+        "descripcion": "Un pedazo de isla griega en el corazón de la ciudad. Construido por obreros de la isla de Anafi, sus casitas blancas de formas redondeadas te transportan a las Cícladas sin salir del centro de Atenas.",
+        "descripcionCorta": "Oasis cicládico de casas blancas bajo la Acrópolis.",
+        "lat": 37.972,
+        "lng": 23.728,
+        "horario": "24h",
+        "precio": "Gratis",
+        "rating": 4.8,
+        "imagen": "https://picsum.photos/seed/atenas_anafiotika/900/650",
+        "imagenCard": "https://picsum.photos/seed/atenas_anafiotika/500/360",
+        "tags": [
+          "isla",
+          "encanto",
+          "arquitectura"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "berlin",
+    "nombre": "Berlín",
+    "pais": "Alemania",
+    "continente": "Europa",
+    "emoji": "🇩🇪",
+    "lat": 52.52,
+    "lng": 13.405,
+    "imagen": "https://picsum.photos/seed/berlin_hero/1200/800",
+    "theme": {
+      "primary": "#FFCE00",
+      "secondary": "#000000",
+      "font": "'Inter', sans-serif"
+    },
+    "lugares": [
+      {
+        "id": 1,
+        "nombre": "Puerta de Brandeburgo",
+        "tipo": "cultura",
+        "descripcion": "El símbolo de la unidad alemana. Este monumento neoclásico ha pasado de ser un símbolo del poder real a representar la división y posterior reunificación de Europa. El centro neurálgico de la historia berlinesa.",
+        "descripcionCorta": "Ícono histórico y símbolo de la paz y unidad.",
+        "lat": 52.5163,
+        "lng": 13.3777,
+        "horario": "24h",
+        "precio": "Gratis",
+        "rating": 4.9,
+        "imagen": "https://picsum.photos/seed/berlin_brandenburg/900/650",
+        "imagenCard": "https://picsum.photos/seed/berlin_brandenburg/500/360",
+        "tags": [
+          "historia",
+          "ícono",
+          "unidad"
+        ]
+      },
+      {
+        "id": 2,
+        "nombre": "East Side Gallery",
+        "tipo": "cultura",
+        "descripcion": "La galería de arte al aire libre más larga del mundo, pintada sobre un tramo original del Muro de Berlín. Sus murales, como el famoso beso entre Honecker y Brezhnev, son un grito de libertad y creatividad.",
+        "descripcionCorta": "Arte sobre el muro: memoria histórica y grafiti.",
+        "lat": 52.505,
+        "lng": 13.4397,
+        "horario": "24h",
+        "precio": "Gratis",
+        "rating": 4.8,
+        "imagen": "https://picsum.photos/seed/berlin_muro/900/650",
+        "imagenCard": "https://picsum.photos/seed/berlin_muro/500/360",
+        "tags": [
+          "arte",
+          "muro",
+          "libertad"
+        ]
+      },
+      {
+        "id": 3,
+        "nombre": "Isla de los Museos",
+        "tipo": "museos",
+        "descripcion": "Un conjunto único de cinco museos de renombre mundial situados en una isla del río Spree. Alberga tesoros como el Altar de Pérgamo y el busto de Nefertiti. Patrimonio de la Humanidad por la UNESCO.",
+        "descripcionCorta": "Un santuario del arte y la arqueología mundial.",
+        "lat": 52.5169,
+        "lng": 13.3986,
+        "horario": "10:00 - 18:00",
+        "precio": "Desde 18€",
+        "rating": 4.9,
+        "imagen": "https://picsum.photos/seed/berlin_island/900/650",
+        "imagenCard": "https://picsum.photos/seed/berlin_island/500/360",
+        "tags": [
+          "arte",
+          "museo",
+          "isla"
+        ]
+      },
+      {
+        "id": 4,
+        "nombre": "Reichstag",
+        "tipo": "cultura",
+        "descripcion": "La sede del Parlamento Alemán. Su cúpula de cristal, diseñada por Norman Foster, ofrece vistas espectaculares de la ciudad y simboliza la transparencia del sistema democrático actual sobre un edificio cargado de historia.",
+        "descripcionCorta": "Arquitectura futurista sobre el corazón político histórico.",
+        "lat": 52.5186,
+        "lng": 13.3761,
+        "horario": "8:00 - 0:00",
+        "precio": "Gratis (reserva previa)",
+        "rating": 4.8,
+        "imagen": "https://picsum.photos/seed/berlin_reichstag/900/650",
+        "imagenCard": "https://picsum.photos/seed/berlin_reichstag/500/360",
+        "tags": [
+          "política",
+          "vistas",
+          "cristal"
+        ]
+      },
+      {
+        "id": 5,
+        "nombre": "Checkpoint Charlie",
+        "tipo": "cultura",
+        "descripcion": "El paso fronterizo más famoso entre el Berlín Este y el Oeste durante la Guerra Fría. Un lugar que evoca la tensión de espías, huidas y el drama de una ciudad dividida por ideologías opuestas.",
+        "descripcionCorta": "Frontera mítica de la Guerra Fría y el mundo dividido.",
+        "lat": 52.5075,
+        "lng": 13.3903,
+        "horario": "24h",
+        "precio": "Gratis",
+        "rating": 4.4,
+        "imagen": "https://picsum.photos/seed/berlin_charlie/900/650",
+        "imagenCard": "https://picsum.photos/seed/berlin_charlie/500/360",
+        "tags": [
+          "guerra fría",
+          "historia",
+          "frontera"
+        ]
+      },
+      {
+        "id": 6,
+        "nombre": "Tiergarten",
+        "tipo": "parques",
+        "descripcion": "El parque urbano central de Berlín, equivalente al Central Park. Con la Columna de la Victoria en su centro, ofrece kilómetros de senderos arbolados, lagos y jardines donde la ciudad respira aire puro.",
+        "descripcionCorta": "Inmenso refugio verde en el centro de la metrópolis.",
+        "lat": 52.5144,
+        "lng": 13.3501,
+        "horario": "24h",
+        "precio": "Gratis",
+        "rating": 4.7,
+        "imagen": "https://picsum.photos/seed/berlin_tiergarten/900/650",
+        "imagenCard": "https://picsum.photos/seed/berlin_tiergarten/500/360",
+        "tags": [
+          "naturaleza",
+          "relax",
+          "vistas"
+        ]
+      },
+      {
+        "id": 7,
+        "nombre": "Alexanderplatz",
+        "tipo": "barrios",
+        "descripcion": "El corazón del Berlín Oriental. Dominada por la Torre de Televisión (Fernsehturm), es una plaza monumental llena de centros comerciales, el Reloj Mundial y un ambiente urbano frenético y multicultural.",
+        "descripcionCorta": "Epicentro social y comercial de la zona este.",
+        "lat": 52.5219,
+        "lng": 13.4132,
+        "horario": "24h",
+        "precio": "Gratis",
+        "rating": 4.5,
+        "imagen": "https://picsum.photos/seed/berlin_alexander/900/650",
+        "imagenCard": "https://picsum.photos/seed/berlin_alexander/500/360",
+        "tags": [
+          "centro",
+          "compras",
+          "torre"
+        ]
+      },
+      {
+        "id": 8,
+        "nombre": "Memorial del Holocausto",
+        "tipo": "cultura",
+        "descripcion": "Un campo de 2711 estelas de hormigón que crean una sensación de desorientación y opresión. Un monumento arquitectónico impactante dedicado a los judíos asesinados en Europa, diseñado por Peter Eisenman.",
+        "descripcionCorta": "Conmovedor bosque de estelas de hormigón para el recuerdo.",
+        "lat": 52.5127,
+        "lng": 13.3789,
+        "horario": "24h",
+        "precio": "Gratis",
+        "rating": 4.8,
+        "imagen": "https://picsum.photos/seed/berlin_memorial/900/650",
+        "imagenCard": "https://picsum.photos/seed/berlin_memorial/500/360",
+        "tags": [
+          "memoria",
+          "historia",
+          "respeto"
+        ]
+      },
+      {
+        "id": 10,
+        "nombre": "Kreuzberg",
+        "tipo": "barrios",
+        "descripcion": "El barrio más alternativo y vibrante. Famoso por su arte callejero, su mezcla de culturas (especialmente turca), sus mercados de comida y su legendaria vida nocturna. El Berlín real, joven y rebelde.",
+        "descripcionCorta": "Alma alternativa, graffiti y vanguardia multicultural.",
+        "lat": 52.4986,
+        "lng": 13.3918,
+        "horario": "24h",
+        "precio": "Variable",
+        "rating": 4.7,
+        "imagen": "https://picsum.photos/seed/berlin_kreuzberg/900/650",
+        "imagenCard": "https://picsum.photos/seed/berlin_kreuzberg/500/360",
+        "tags": [
+          "alternativo",
+          "noche",
+          "graffiti"
         ]
       }
     ]
