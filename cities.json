@@ -120,8 +120,8 @@
         "horario": "24h",
         "precio": "Gratis",
         "rating": 4.5,
-        "imagen": "https://picsum.photos/seed/roma_6/900/650",
-        "imagenCard": "https://picsum.photos/seed/roma_6/500/360",
+        "imagen": "img/roma_trastevere.png",
+        "imagenCard": "img/roma_trastevere.png",
         "tags": [
           "barrios",
           "europa",
@@ -139,8 +139,8 @@
         "horario": "7:00 - 20:00",
         "precio": "Gratis",
         "rating": 4.6,
-        "imagen": "https://picsum.photos/seed/roma_7/900/650",
-        "imagenCard": "https://picsum.photos/seed/roma_7/500/360",
+        "imagen": "img/roma_borghese.png",
+        "imagenCard": "img/roma_borghese.png",
         "tags": [
           "parques",
           "europa",
@@ -158,8 +158,8 @@
         "horario": "9:00 - 15:00",
         "precio": "Gratis",
         "rating": 4.7,
-        "imagen": "https://picsum.photos/seed/roma_8/900/650",
-        "imagenCard": "https://picsum.photos/seed/roma_8/500/360",
+        "imagen": "img/roma_campofiori.png",
+        "imagenCard": "img/roma_campofiori.png",
         "tags": [
           "mercados",
           "europa",
@@ -177,8 +177,8 @@
         "horario": "12:30 - 23:00",
         "precio": "Menu variable",
         "rating": 4.7,
-        "imagen": "https://picsum.photos/seed/roma_9/900/650",
-        "imagenCard": "https://picsum.photos/seed/roma_9/500/360",
+        "imagen": "img/roma_roscioli.png",
+        "imagenCard": "img/roma_roscioli.png",
         "tags": [
           "restaurantes",
           "europa",

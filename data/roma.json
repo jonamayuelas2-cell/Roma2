@@ -245,8 +245,8 @@
     "horario": "Siempre",
     "precio": "Gratuito",
     "rating": 4.8,
-    "imagen": "https://picsum.photos/seed/trastevere/800/600",
-    "imagenCard": "https://picsum.photos/seed/trastevere/400/300",
+    "imagen": "img/roma_trastevere.png",
+    "imagenCard": "img/roma_trastevere.png",
     "tags": ["barrio", "paseo", "noche", "pintoresco"],
     "web": "",
     "telefono": ""
@@ -263,8 +263,8 @@
     "horario": "Mercado: 7:00 - 14:00",
     "precio": "Gratuito",
     "rating": 4.5,
-    "imagen": "https://picsum.photos/seed/campofiori/800/600",
-    "imagenCard": "https://picsum.photos/seed/campofiori/400/300",
+    "imagen": "img/roma_campofiori.png",
+    "imagenCard": "img/roma_campofiori.png",
     "tags": ["mercado", "plaza", "noche", "flores"],
     "web": "",
     "telefono": ""
@@ -299,8 +299,8 @@
     "horario": "7:00 - 20:00",
     "precio": "Gratuito",
     "rating": 4.7,
-    "imagen": "https://picsum.photos/seed/villaborghese/800/600",
-    "imagenCard": "https://picsum.photos/seed/villaborghese/400/300",
+    "imagen": "img/roma_borghese.png",
+    "imagenCard": "img/roma_borghese.png",
     "tags": ["parque", "naturaleza", "bicicleta", "lago"],
     "web": "",
     "telefono": ""

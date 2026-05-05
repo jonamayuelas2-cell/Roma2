@@ -9,7 +9,7 @@
 
 ## [2026-05-05] - Reanudacion cartera de imagenes: Tokyo
 **Modo**: image_gen integrado.
-**Assets generados**:
+3**Assets generados**:
 - `img/tokyo_shibuya.png`: Cruce de Shibuya, fotografia editorial de viaje en blue hour, neon urbano, sin logos legibles ni texto.
 - `img/tokyo_sensoji.png`: Templo Senso-ji, fotografia editorial en luz calida de tarde, arquitectura roja, ambiente sereno.
 - `img/tokyo_meiji.png`: Santuario Meiji, fotografia editorial en bosque de Yoyogi, torii y madera natural con luz suave.
@@ -30,6 +30,17 @@
 - `img/tokyo_goldengai.png`: Golden Gai, callejon nocturno intimo con luces calidas.
 
 **Resultado**: Tokyo queda sin placeholders `picsum.photos` en `cities.json`.
+
+---
+
+## [2026-05-05] - Roma completada
+**Assets generados**:
+- `img/roma_trastevere.png`: barrio de Trastevere en golden hour, calle empedrada, fachadas ocres y ambiente de trattoria.
+- `img/roma_borghese.png`: Villa Borghese, jardines mediterraneos con luz suave y contexto urbano refinado.
+- `img/roma_campofiori.png`: Campo de Fiori, mercado matinal con flores, producto fresco y plaza romana.
+- `img/roma_roscioli.png`: interior gastronomico romano inspirado en Roscioli, deli-restaurante con vino, quesos y luz calida.
+
+**Resultado**: Roma queda sin placeholders `picsum.photos` en `cities.json`; `data/roma.json` queda sincronizado para Trastevere, Campo de Fiori y Villa Borghese.
 
 ---
 
