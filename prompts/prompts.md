@@ -98,6 +98,23 @@
 
 ---
 
+## [2026-05-06] - Ciudad del Cabo completada
+**Assets generados**:
+- `img/capetown_hero.png`: panoramica de Ciudad del Cabo con Table Mountain, costa y ciudad en golden hour.
+- `img/capetown_tablemountain.png`: Table Mountain con sendero, fynbos y vista sobre la bahia.
+- `img/capetown_waterfront.png`: V&A Waterfront con puerto, barcos y Table Mountain al fondo.
+- `img/capetown_robbenisland.png`: Robben Island, costa y atmosfera patrimonial sobria.
+- `img/capetown_bokaap.png`: Bo-Kaap, calle empedrada con fachadas coloridas y luz suave.
+- `img/capetown_kirstenbosch.png`: Kirstenbosch, jardin botanico con vegetacion local y ladera de Table Mountain.
+- `img/capetown_campsbay.png`: Camps Bay, playa, Atlantico y Twelve Apostles en golden hour.
+- `img/capetown_districtsix.png`: District Six Museum, interior cultural respetuoso con luz natural.
+- `img/capetown_oldbiscuitmill.png`: Old Biscuit Mill, mercado creativo y gastronomico de aire industrial.
+- `img/capetown_boulders.png`: Boulders Beach con rocas graniticas, agua clara y pinguinos africanos.
+
+**Resultado**: Ciudad del Cabo queda sin placeholders `picsum.photos` en `cities.json`.
+
+---
+
 ## [2026-05-05] - Consolidación de Datasets 🔄
 **Acción**: Ejecución de script de fusión para unir 20 ciudades en el archivo central `cities.json`.
 **Resultado**: 20 ciudades globales integradas con éxito. Base de datos final lista para la fase de inyección visual.
