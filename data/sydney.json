@@ -1,30 +1,173 @@
 [
   {
     "id": 1,
-    "nombre": "Ópera de Sídney",
+    "nombre": "Opera House",
     "tipo": "cultura",
-    "descripcion": "Edificio expresionista icónico del siglo XX y patrimonio de la humanidad.",
-    "descripcionCorta": "El icono de Australia.",
-    "lat": -33.8568, "lng": 151.2153,
-    "horario": "9:00 - 17:00",
-    "precio": "40 AUD",
-    "rating": 4.9,
-    "imagen": "https://picsum.photos/seed/sydneyopera/800/600",
-    "imagenCard": "https://picsum.photos/seed/sydneyopera/400/300",
-    "tags": ["arquitectura", "arte", "vistas"]
+    "descripcion": "Opera House es una visita destacada de Sídney, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+    "descripcionCorta": "Opera House es una visita destacada de Sídney, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad.",
+    "lat": -33.8568,
+    "lng": 151.2153,
+    "horario": "9:00 - 18:00",
+    "precio": "Desde 8 EUR",
+    "rating": 4.5,
+    "imagen": "img/sydney_operahouse.png",
+    "imagenCard": "img/sydney_operahouse.png",
+    "tags": [
+      "cultura",
+      "oceania",
+      "sidney"
+    ]
   },
   {
     "id": 2,
-    "nombre": "Puente de la Bahía de Sídney",
+    "nombre": "Harbour Bridge",
     "tipo": "cultura",
-    "descripcion": "Puente de arco de acero sobre la bahía de Sídney, que conecta el centro con la costa norte.",
-    "descripcionCorta": "Escalando el horizonte de Sídney.",
-    "lat": -33.8523, "lng": 151.2108,
+    "descripcion": "Harbour Bridge es una visita destacada de Sídney, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+    "descripcionCorta": "Harbour Bridge es una visita destacada de Sídney, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad.",
+    "lat": -33.8523,
+    "lng": 151.2108,
+    "horario": "9:00 - 18:00",
+    "precio": "Desde 8 EUR",
+    "rating": 4.6,
+    "imagen": "img/sydney_harbourbridge.png",
+    "imagenCard": "img/sydney_harbourbridge.png",
+    "tags": [
+      "cultura",
+      "oceania",
+      "sidney"
+    ]
+  },
+  {
+    "id": 3,
+    "nombre": "Bondi Beach",
+    "tipo": "parques",
+    "descripcion": "Bondi Beach es una visita destacada de Sídney, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+    "descripcionCorta": "Bondi Beach es una visita destacada de Sídney, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje.",
+    "lat": -33.8908,
+    "lng": 151.2743,
+    "horario": "7:00 - 20:00",
+    "precio": "Gratis",
+    "rating": 4.7,
+    "imagen": "img/sydney_bondi.png",
+    "imagenCard": "img/sydney_bondi.png",
+    "tags": [
+      "parques",
+      "oceania",
+      "sidney"
+    ]
+  },
+  {
+    "id": 4,
+    "nombre": "The Rocks",
+    "tipo": "barrios",
+    "descripcion": "The Rocks es una visita destacada de Sídney, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+    "descripcionCorta": "The Rocks es una visita destacada de Sídney, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad.",
+    "lat": -33.8599,
+    "lng": 151.209,
     "horario": "24h",
     "precio": "Gratis",
+    "rating": 4.7,
+    "imagen": "img/sydney_therocks.png",
+    "imagenCard": "img/sydney_therocks.png",
+    "tags": [
+      "barrios",
+      "oceania",
+      "sidney"
+    ]
+  },
+  {
+    "id": 5,
+    "nombre": "Royal Botanic Garden",
+    "tipo": "parques",
+    "descripcion": "Royal Botanic Garden es una visita destacada de Sídney, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+    "descripcionCorta": "Royal Botanic Garden es una visita destacada de Sídney, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje.",
+    "lat": -33.8642,
+    "lng": 151.2166,
+    "horario": "7:00 - 20:00",
+    "precio": "Gratis",
     "rating": 4.8,
-    "imagen": "https://picsum.photos/seed/harbourbridge/800/600",
-    "imagenCard": "https://picsum.photos/seed/harbourbridge/400/300",
-    "tags": ["vistas", "aventura", "puente"]
+    "imagen": "img/sydney_botanicgarden.png",
+    "imagenCard": "img/sydney_botanicgarden.png",
+    "tags": [
+      "parques",
+      "oceania",
+      "sidney"
+    ]
+  },
+  {
+    "id": 6,
+    "nombre": "Art Gallery of NSW",
+    "tipo": "museos",
+    "descripcion": "Art Gallery of NSW es una visita destacada de Sídney, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+    "descripcionCorta": "Art Gallery of NSW es una visita destacada de Sídney, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares.",
+    "lat": -33.8688,
+    "lng": 151.2174,
+    "horario": "10:00 - 18:00",
+    "precio": "Desde 12 EUR",
+    "rating": 4.5,
+    "imagen": "img/sydney_artgallery.png",
+    "imagenCard": "img/sydney_artgallery.png",
+    "tags": [
+      "museos",
+      "oceania",
+      "sidney"
+    ]
+  },
+  {
+    "id": 7,
+    "nombre": "Darling Harbour",
+    "tipo": "barrios",
+    "descripcion": "Darling Harbour es una visita destacada de Sídney, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+    "descripcionCorta": "Darling Harbour es una visita destacada de Sídney, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad.",
+    "lat": -33.8749,
+    "lng": 151.2009,
+    "horario": "24h",
+    "precio": "Gratis",
+    "rating": 4.6,
+    "imagen": "img/sydney_darlingharbour.png",
+    "imagenCard": "img/sydney_darlingharbour.png",
+    "tags": [
+      "barrios",
+      "oceania",
+      "sidney"
+    ]
+  },
+  {
+    "id": 8,
+    "nombre": "Sydney Fish Market",
+    "tipo": "mercados",
+    "descripcion": "Sydney Fish Market es una visita destacada de Sídney, una referencia: mercado lleno de puestos, productos locales y escenas cotidianas. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+    "descripcionCorta": "Sydney Fish Market es una visita destacada de Sídney, una referencia: mercado lleno de puestos, productos locales y escenas cotidianas.",
+    "lat": -33.8716,
+    "lng": 151.1918,
+    "horario": "9:00 - 15:00",
+    "precio": "Gratis",
+    "rating": 4.7,
+    "imagen": "img/sydney_fishmarket.png",
+    "imagenCard": "img/sydney_fishmarket.png",
+    "tags": [
+      "mercados",
+      "oceania",
+      "sidney"
+    ]
+  },
+  {
+    "id": 9,
+    "nombre": "Manly Ferry",
+    "tipo": "cultura",
+    "descripcion": "Manly Ferry es una visita destacada de Sídney, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+    "descripcionCorta": "Manly Ferry es una visita destacada de Sídney, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad.",
+    "lat": -33.8008,
+    "lng": 151.2846,
+    "horario": "9:00 - 18:00",
+    "precio": "Desde 8 EUR",
+    "rating": 4.7,
+    "imagen": "img/sydney_manlyferry.png",
+    "imagenCard": "img/sydney_manlyferry.png",
+    "tags": [
+      "cultura",
+      "oceania",
+      "sidney"
+    ]
   }
 ]

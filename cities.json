@@ -446,6 +446,63 @@
           "noria",
           "turismo"
         ]
+      },
+      {
+        "id": 4,
+        "nombre": "Camden Market",
+        "tipo": "mercados",
+        "descripcion": "El mercado más alternativo y famoso de Londres, conocido por su ambiente bohemio, tiendas de ropa vintage y puestos de comida internacional.",
+        "descripcionCorta": "El corazón alternativo y vibrante del norte de Londres.",
+        "lat": 51.5417,
+        "lng": -0.1464,
+        "horario": "10:00 - 18:00",
+        "precio": "Gratuito",
+        "rating": 4.6,
+        "imagen": "img/london_camden.png",
+        "imagenCard": "img/london_camden.png",
+        "tags": [
+          "mercado",
+          "alternativo",
+          "comida"
+        ]
+      },
+      {
+        "id": 5,
+        "nombre": "Hyde Park",
+        "tipo": "parques",
+        "descripcion": "Uno de los parques reales más grandes de la ciudad, ofreciendo un refugio verde con el lago Serpentine y el famoso Speakers' Corner.",
+        "descripcionCorta": "El pulmón verde más emblemático del centro de Londres.",
+        "lat": 51.5073,
+        "lng": -0.1657,
+        "horario": "5:00 - 0:00",
+        "precio": "Gratuito",
+        "rating": 4.7,
+        "imagen": "img/london_hydepark.png",
+        "imagenCard": "img/london_hydepark.png",
+        "tags": [
+          "parque",
+          "naturaleza",
+          "relax"
+        ]
+      },
+      {
+        "id": 6,
+        "nombre": "Tower Bridge",
+        "tipo": "cultura",
+        "descripcion": "El puente basculante más famoso del mundo, una joya de la ingeniería victoriana que ofrece vistas espectaculares del Támesis.",
+        "descripcionCorta": "El puente más icónico y majestuoso de la capital británica.",
+        "lat": 51.5055,
+        "lng": -0.0754,
+        "horario": "9:30 - 18:00",
+        "precio": "Vistas exteriores gratis / Interior 12£",
+        "rating": 4.8,
+        "imagen": "img/london_towerbridge.png",
+        "imagenCard": "img/london_towerbridge.png",
+        "tags": [
+          "puente",
+          "historia",
+          "vistas"
+        ]
       }
     ]
   },
@@ -1961,7 +2018,7 @@
     "emoji": "🇦🇺",
     "lat": -33.8688,
     "lng": 151.2093,
-    "imagen": "https://picsum.photos/seed/sydney_city/1200/800",
+    "imagen": "img/sydney_hero.png",
     "theme": {
       "primary": "#003087",
       "secondary": "#f9f9f9",
@@ -1979,8 +2036,8 @@
         "horario": "9:00 - 18:00",
         "precio": "Desde 8 EUR",
         "rating": 4.5,
-        "imagen": "https://picsum.photos/seed/sydney_1/900/650",
-        "imagenCard": "https://picsum.photos/seed/sydney_1/500/360",
+        "imagen": "img/sydney_operahouse.png",
+        "imagenCard": "img/sydney_operahouse.png",
         "tags": [
           "cultura",
           "oceania",
@@ -1998,8 +2055,8 @@
         "horario": "9:00 - 18:00",
         "precio": "Desde 8 EUR",
         "rating": 4.6,
-        "imagen": "https://picsum.photos/seed/sydney_2/900/650",
-        "imagenCard": "https://picsum.photos/seed/sydney_2/500/360",
+        "imagen": "img/sydney_harbourbridge.png",
+        "imagenCard": "img/sydney_harbourbridge.png",
         "tags": [
           "cultura",
           "oceania",
@@ -2017,8 +2074,8 @@
         "horario": "7:00 - 20:00",
         "precio": "Gratis",
         "rating": 4.7,
-        "imagen": "https://picsum.photos/seed/sydney_3/900/650",
-        "imagenCard": "https://picsum.photos/seed/sydney_3/500/360",
+        "imagen": "img/sydney_bondi.png",
+        "imagenCard": "img/sydney_bondi.png",
         "tags": [
           "parques",
           "oceania",
@@ -2036,8 +2093,8 @@
         "horario": "24h",
         "precio": "Gratis",
         "rating": 4.7,
-        "imagen": "https://picsum.photos/seed/sydney_4/900/650",
-        "imagenCard": "https://picsum.photos/seed/sydney_4/500/360",
+        "imagen": "img/sydney_therocks.png",
+        "imagenCard": "img/sydney_therocks.png",
         "tags": [
           "barrios",
           "oceania",
@@ -2055,8 +2112,8 @@
         "horario": "7:00 - 20:00",
         "precio": "Gratis",
         "rating": 4.8,
-        "imagen": "https://picsum.photos/seed/sydney_5/900/650",
-        "imagenCard": "https://picsum.photos/seed/sydney_5/500/360",
+        "imagen": "img/sydney_botanicgarden.png",
+        "imagenCard": "img/sydney_botanicgarden.png",
         "tags": [
           "parques",
           "oceania",
@@ -2074,8 +2131,8 @@
         "horario": "10:00 - 18:00",
         "precio": "Desde 12 EUR",
         "rating": 4.5,
-        "imagen": "https://picsum.photos/seed/sydney_6/900/650",
-        "imagenCard": "https://picsum.photos/seed/sydney_6/500/360",
+        "imagen": "img/sydney_artgallery.png",
+        "imagenCard": "img/sydney_artgallery.png",
         "tags": [
           "museos",
           "oceania",
@@ -2093,8 +2150,8 @@
         "horario": "24h",
         "precio": "Gratis",
         "rating": 4.6,
-        "imagen": "https://picsum.photos/seed/sydney_7/900/650",
-        "imagenCard": "https://picsum.photos/seed/sydney_7/500/360",
+        "imagen": "img/sydney_darlingharbour.png",
+        "imagenCard": "img/sydney_darlingharbour.png",
         "tags": [
           "barrios",
           "oceania",
@@ -2112,8 +2169,8 @@
         "horario": "9:00 - 15:00",
         "precio": "Gratis",
         "rating": 4.7,
-        "imagen": "https://picsum.photos/seed/sydney_8/900/650",
-        "imagenCard": "https://picsum.photos/seed/sydney_8/500/360",
+        "imagen": "img/sydney_fishmarket.png",
+        "imagenCard": "img/sydney_fishmarket.png",
         "tags": [
           "mercados",
           "oceania",
@@ -2131,8 +2188,8 @@
         "horario": "9:00 - 18:00",
         "precio": "Desde 8 EUR",
         "rating": 4.7,
-        "imagen": "https://picsum.photos/seed/sydney_9/900/650",
-        "imagenCard": "https://picsum.photos/seed/sydney_9/500/360",
+        "imagen": "img/sydney_manlyferry.png",
+        "imagenCard": "img/sydney_manlyferry.png",
         "tags": [
           "cultura",
           "oceania",

@@ -1,5 +1,16 @@
 # Registro de Cambios - TravelWorld PWA 🌍✨
 
+## [2026-05-06] - Auditoría de Imágenes y Sincronización de Londres 🇬🇧📸
+- **Auditoría de Activos**: Verificación completa de las 116 imágenes locales generadas. 11 ciudades (Roma, París, El Cairo, Ciudad del Cabo, Tokio, Bangkok, NYC, Ciudad de México, Río, Lima, Sídney) están totalmente integradas con sus 10 imágenes correspondientes.
+- **Corrección en Londres**: Se han añadido 3 puntos de interés adicionales (Camden Market, Hyde Park y Tower Bridge) a `cities.json` y `data/londres.json` para aprovechar las imágenes locales disponibles, pasando de 3 a 6 lugares operativos.
+- **Mapeo de Picsum**: Identificadas 7 ciudades que aún dependen de placeholders (Auckland, Madrid, Buenos Aires, Estambul, Ámsterdam, Atenas, Berlín) pendientes de generación de imágenes locales.
+- **Validación de Rutas**: Confirmado que todas las rutas `img/*.png` en los JSONs coinciden con los archivos físicos en el servidor.
+
+## [2026-05-06] - Corrección de Errores de Sintaxis en Lima 🇵🇪🛠️
+- **Bug Fix**: Corregido un error de sintaxis en `data/lima.json` donde caracteres extraños (`},? y s`) en la línea 96 bloqueaban el procesamiento de los datos de la ciudad.
+- **Validación**: El archivo ahora cumple con el estándar JSON y es legible por la aplicación.
+- **Mantenimiento**: Verificación de la estructura de etiquetas y cierres de objetos para asegurar la consistencia.
+
 ## [2026-05-05] - Consolidación Global de Datos (20 Ciudades) 🌍✅
 - **Fusión Completada**: Se han integrado con éxito los datasets de las 20 ciudades globales en el archivo maestro `cities.json`.
 - **Limpieza de Repositorio**: Eliminados los archivos temporales de `scratch/` tras la validación de la integridad de los datos.

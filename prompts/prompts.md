@@ -1,5 +1,22 @@
 # Registro de Prompts - TravelWorld 🎨
 
+## [2026-05-06] - Auditoría de Imágenes y Sincronización de Londres
+**Objetivo**: Verificar la asociación de las 116 imágenes locales generadas y completar los datos de Londres para aprovechar los activos disponibles.
+**Prompt**: "revisame que todas las imagenes nuevas generadas sustituyendo a las de picsum están asociadas en la app a su elemento asociado correspondiente en los elementos a visitar de cada pais"
+**Acción**: 
+- Auditoría de 19 ciudades: 11 ciudades con 10/10 imágenes locales, 1 ciudad (Londres) ampliada de 3 a 6 imágenes.
+- Sincronización de `cities.json` y `data/londres.json` con 3 nuevos lugares: Camden Market, Hyde Park y Tower Bridge.
+- Identificación de 7 ciudades restantes con placeholders de Picsum.
+
+---
+
+## [2026-05-06] - Corrección de errores en lima.json
+**Objetivo**: Resolver errores de sintaxis reportados por el IDE en el archivo de datos de Lima.
+**Prompt**: "@[lima.json:current_problems]"
+**Acción**: Identificación de caracteres extraños en la línea 96 y corrección de la estructura JSON.
+
+---
+
 ## Estilo Visual General
 - **Concepto**: Fotografía profesional de viajes, estilo National Geographic / Revista Condé Nast.
 - **Iluminación**: Golden hour (atardecer), iluminación cinematográfica.
@@ -180,6 +197,23 @@
 - `img/lima_central.png`: alta cocina peruana inspirada en Central, plato contemporaneo y comedor refinado.
 
 **Resultado**: Lima queda sin placeholders `picsum.photos` en `cities.json`; `data/lima.json` queda creado y sincronizado.
+
+---
+
+## [2026-05-06] - Sidney completada
+**Assets generados**:
+- `img/sydney_hero.png`: panoramica de Sidney con harbour, Opera House, Harbour Bridge y skyline costero.
+- `img/sydney_operahouse.png`: Opera House, arquitectura iconica frente al agua.
+- `img/sydney_harbourbridge.png`: Harbour Bridge, arco de acero sobre la bahia.
+- `img/sydney_bondi.png`: Bondi Beach, playa oceánica con curva costera y luz dorada.
+- `img/sydney_therocks.png`: The Rocks, calle historica de piedra arenisca y ambiente patrimonial.
+- `img/sydney_botanicgarden.png`: Royal Botanic Garden, jardines junto al harbour con vista urbana.
+- `img/sydney_artgallery.png`: Art Gallery of NSW, museo y acceso monumental.
+- `img/sydney_darlingharbour.png`: Darling Harbour, waterfront moderno y nocturno.
+- `img/sydney_fishmarket.png`: Sydney Fish Market, mercado de marisco fresco y ambiente gastronómico.
+- `img/sydney_manlyferry.png`: Manly Ferry cruzando la bahía de Sidney.
+
+**Resultado**: Sidney queda sin placeholders `picsum.photos` en `cities.json`; `data/sydney.json` queda sincronizado.
 
 ---
 
