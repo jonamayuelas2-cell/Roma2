@@ -13,7 +13,11 @@
     "rating": 4.8,
     "imagen": "img/london_bigben.png",
     "imagenCard": "img/london_bigben.png",
-    "tags": ["reloj", "parlamento", "historia"],
+    "tags": [
+      "reloj",
+      "parlamento",
+      "historia"
+    ],
     "web": "",
     "telefono": ""
   },
@@ -25,13 +29,17 @@
     "descripcionCorta": "Tesoros de la historia mundial.",
     "direccion": "Great Russell St, London WC1B 3DG",
     "lat": 51.5194,
-    "lng": -0.1270,
+    "lng": -0.127,
     "horario": "10:00 - 17:00",
     "precio": "Gratuito",
     "rating": 4.8,
     "imagen": "img/london_british.png",
     "imagenCard": "img/london_british.png",
-    "tags": ["museo", "historia", "antigüedad"],
+    "tags": [
+      "museo",
+      "historia",
+      "antigüedad"
+    ],
     "web": "https://www.britishmuseum.org",
     "telefono": ""
   },
@@ -49,7 +57,11 @@
     "rating": 4.5,
     "imagen": "img/london_eye.png",
     "imagenCard": "img/london_eye.png",
-    "tags": ["vistas", "noria", "turismo"],
+    "tags": [
+      "vistas",
+      "noria",
+      "turismo"
+    ],
     "web": "https://www.londoneye.com",
     "telefono": ""
   },
@@ -67,7 +79,11 @@
     "rating": 4.6,
     "imagen": "https://picsum.photos/seed/camden/800/600",
     "imagenCard": "https://picsum.photos/seed/camden/400/300",
-    "tags": ["mercado", "punk", "comida"],
+    "tags": [
+      "mercado",
+      "punk",
+      "comida"
+    ],
     "web": "",
     "telefono": ""
   },
@@ -83,9 +99,13 @@
     "horario": "5:00 - 00:00",
     "precio": "Gratuito",
     "rating": 4.7,
-    "imagen": "https://picsum.photos/seed/hydepark/800/600",
-    "imagenCard": "https://picsum.photos/seed/hydepark/400/300",
-    "tags": ["parque", "lago", "naturaleza"],
+    "imagen": "img/london_hydepark.png",
+    "imagenCard": "img/london_hydepark.png",
+    "tags": [
+      "parque",
+      "lago",
+      "naturaleza"
+    ],
     "web": "",
     "telefono": ""
   }

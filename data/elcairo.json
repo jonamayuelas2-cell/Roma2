@@ -5,13 +5,18 @@
     "tipo": "cultura",
     "descripcion": "La única de las siete maravillas del mundo antiguo que aún perdura.",
     "descripcionCorta": "El misterio de los faraones.",
-    "lat": 29.9792, "lng": 31.1342,
+    "lat": 29.9792,
+    "lng": 31.1342,
     "horario": "8:00 - 16:00",
     "precio": "200 EGP",
     "rating": 4.9,
-    "imagen": "https://picsum.photos/seed/pyramids/800/600",
-    "imagenCard": "https://picsum.photos/seed/pyramids/400/300",
-    "tags": ["antigüedad", "misterio", "historia"]
+    "imagen": "img/cairo_giza.png",
+    "imagenCard": "img/cairo_giza.png",
+    "tags": [
+      "antigüedad",
+      "misterio",
+      "historia"
+    ]
   },
   {
     "id": 2,
@@ -19,12 +24,17 @@
     "tipo": "museos",
     "descripcion": "Custodia la mayor colección de objetos de la época del Antiguo Egipto.",
     "descripcionCorta": "El tesoro de Tutankamón.",
-    "lat": 30.0478, "lng": 31.2336,
+    "lat": 30.0478,
+    "lng": 31.2336,
     "horario": "9:00 - 17:00",
     "precio": "160 EGP",
     "rating": 4.8,
     "imagen": "https://picsum.photos/seed/cairomuseum/800/600",
     "imagenCard": "https://picsum.photos/seed/cairomuseum/400/300",
-    "tags": ["arte", "historia", "faraones"]
+    "tags": [
+      "arte",
+      "historia",
+      "faraones"
+    ]
   }
 ]

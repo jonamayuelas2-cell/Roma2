@@ -57,6 +57,47 @@
 
 ---
 
+## [2026-05-05] - Nueva York completada
+**Assets generados**:
+- `img/nyc_hero.png`: skyline de Manhattan en blue hour.
+- `img/nyc_met.png`: Metropolitan Museum of Art, fachada con escalinata y ambiente cultural.
+- `img/nyc_timessquare.png`: Times Square nocturna con luces, taxis y energia urbana.
+- `img/nyc_highline.png`: High Line, parque elevado con vegetacion y arquitectura de Chelsea.
+- `img/nyc_brooklynbridge.png`: Brooklyn Bridge con pasarela, cables y skyline.
+- `img/nyc_chelseamarket.png`: Chelsea Market, interior gastronomico industrial.
+- `img/nyc_soho.png`: SoHo, arquitectura cast-iron, adoquines y boutiques.
+- `img/nyc_katz.png`: deli neoyorquino clasico inspirado en Katz Delicatessen.
+
+**Resultado**: Nueva York queda sin placeholders `picsum.photos` en `cities.json`.
+
+---
+
+## [2026-05-06] - El Cairo completado
+**Assets generados**:
+- `img/cairo_giza.png`: Piramides de Giza en golden hour, fotografia editorial de viaje con textura de desierto.
+- `img/cairo_gem.png`: Gran Museo Egipcio, arquitectura contemporanea con tonos de piedra y luz desertica.
+- `img/cairo_tahrir.png`: Museo Egipcio de Tahrir, fachada historica y atmosfera urbana cultural.
+- `img/cairo_citadel.png`: Ciudadela de Saladino, fortaleza medieval con panoramica de Cairo.
+- `img/cairo_khan.png`: Khan el-Khalili, bazar historico con faroles, metalisteria y luz calida.
+- `img/cairo_coptic.png`: Barrio Copto, calles de piedra y patios historicos con luz suave.
+- `img/cairo_alazhar.png`: Parque Al-Azhar, jardines urbanos con skyline islamico al fondo.
+- `img/cairo_ibntulun.png`: Mezquita de Ibn Tulun, patio monumental con arcadas y sombras geometricas.
+- `img/cairo_mahfouz.png`: cafe egipcio clasico inspirado en Naguib Mahfouz, interior calido con lamparas y madera.
+
+**Resultado**: El Cairo queda sin placeholders `picsum.photos` en `cities.json`; `data/elcairo.json` queda sincronizado para los lugares que contiene.
+
+---
+
+## [2026-05-06] - Londres ampliado
+**Assets generados**:
+- `img/london_camden.png`: Camden Market, fotografia editorial de mercado urbano con puestos y energia local.
+- `img/london_hydepark.png`: Hyde Park, parque verde urbano con luz suave y composicion tranquila.
+- `img/london_towerbridge.png`: Tower Bridge en blue hour desde el paseo del Tamesis.
+
+**Resultado**: Assets guardados para completar referencias secundarias de Londres.
+
+---
+
 ## [2026-05-05] - Consolidación de Datasets 🔄
 **Acción**: Ejecución de script de fusión para unir 20 ciudades en el archivo central `cities.json`.
 **Resultado**: 20 ciudades globales integradas con éxito. Base de datos final lista para la fase de inyección visual.
