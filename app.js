@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 async function loadCities() {
     try {
-        const response = await fetch('cities.json');
+        const response = await fetch(`cities.json?v=${Date.now()}`, { cache: 'no-store' });
         state.cities = await response.json();
     } catch (error) {
         console.error('Error cargando ciudades:', error);

@@ -32,9 +32,18 @@ http.createServer((req, res) => {
       return;
     }
 
-    res.writeHead(200, {
-      'Content-Type': types[path.extname(filePath)] || 'application/octet-stream'
-    });
+    const ext = path.extname(filePath);
+    const headers = {
+      'Content-Type': types[ext] || 'application/octet-stream'
+    };
+
+    if (ext === '.html' || ext === '.js' || ext === '.json') {
+      headers['Cache-Control'] = 'no-store, no-cache, must-revalidate';
+      headers.Pragma = 'no-cache';
+      headers.Expires = '0';
+    }
+
+    res.writeHead(200, headers);
     res.end(data);
   });
 }).listen(port, host, () => {
