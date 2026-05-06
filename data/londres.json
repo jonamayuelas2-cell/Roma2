@@ -5,7 +5,6 @@
     "tipo": "cultura",
     "descripcion": "El famoso reloj y el Parlamento británico, símbolos indiscutibles de Londres.",
     "descripcionCorta": "El icono de Londres junto al Támesis.",
-    "direccion": "London SW1A 0AA",
     "lat": 51.5007,
     "lng": -0.1246,
     "horario": "Vistas exteriores 24h",
@@ -17,9 +16,7 @@
       "reloj",
       "parlamento",
       "historia"
-    ],
-    "web": "",
-    "telefono": ""
+    ]
   },
   {
     "id": 2,
@@ -27,7 +24,6 @@
     "tipo": "museos",
     "descripcion": "Uno de los museos más antiguos y grandes del mundo, con tesoros como la Piedra Rosetta.",
     "descripcionCorta": "Tesoros de la historia mundial.",
-    "direccion": "Great Russell St, London WC1B 3DG",
     "lat": 51.5194,
     "lng": -0.127,
     "horario": "10:00 - 17:00",
@@ -39,9 +35,7 @@
       "museo",
       "historia",
       "antigüedad"
-    ],
-    "web": "https://www.britishmuseum.org",
-    "telefono": ""
+    ]
   },
   {
     "id": 3,
@@ -49,7 +43,6 @@
     "tipo": "cultura",
     "descripcion": "La noria gigante que ofrece las mejores vistas panorámicas de la ciudad.",
     "descripcionCorta": "Vistas panorámicas desde el cielo de Londres.",
-    "direccion": "Riverside Building, County Hall, London SE1 7PB",
     "lat": 51.5033,
     "lng": -0.1195,
     "horario": "11:00 - 18:00",
@@ -61,52 +54,6 @@
       "vistas",
       "noria",
       "turismo"
-    ],
-    "web": "https://www.londoneye.com",
-    "telefono": ""
-  },
-  {
-    "id": 4,
-    "nombre": "Camden Town",
-    "tipo": "barrios",
-    "descripcion": "Famoso por su mercado alternativo, comida callejera y ambiente punk.",
-    "descripcionCorta": "El barrio más alternativo y vibrante.",
-    "direccion": "Camden High St, London NW1 8NH",
-    "lat": 51.5417,
-    "lng": -0.1422,
-    "horario": "Mercado 10:00 - 18:00",
-    "precio": "Gratuito",
-    "rating": 4.6,
-    "imagen": "img/london_camden.png",
-    "imagenCard": "img/london_camden.png",
-    "tags": [
-      "mercado",
-      "punk",
-      "comida"
-    ],
-    "web": "",
-    "telefono": ""
-  },
-  {
-    "id": 5,
-    "nombre": "Hyde Park",
-    "tipo": "parques",
-    "descripcion": "El parque real más grande de Londres, ideal para navegar en el Serpentine.",
-    "descripcionCorta": "El pulmón verde del centro de Londres.",
-    "direccion": "London W2 2UH",
-    "lat": 51.5073,
-    "lng": -0.1657,
-    "horario": "5:00 - 00:00",
-    "precio": "Gratuito",
-    "rating": 4.7,
-    "imagen": "img/london_hydepark.png",
-    "imagenCard": "img/london_hydepark.png",
-    "tags": [
-      "parque",
-      "lago",
-      "naturaleza"
-    ],
-    "web": "",
-    "telefono": ""
+    ]
   }
 ]

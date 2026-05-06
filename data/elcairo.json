@@ -3,38 +3,171 @@
     "id": 1,
     "nombre": "Pirámides de Giza",
     "tipo": "cultura",
-    "descripcion": "La única de las siete maravillas del mundo antiguo que aún perdura.",
-    "descripcionCorta": "El misterio de los faraones.",
+    "descripcion": "Pirámides de Giza es una visita destacada de El Cairo, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+    "descripcionCorta": "Pirámides de Giza es una visita destacada de El Cairo, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad.",
     "lat": 29.9792,
     "lng": 31.1342,
-    "horario": "8:00 - 16:00",
-    "precio": "200 EGP",
-    "rating": 4.9,
+    "horario": "9:00 - 18:00",
+    "precio": "Desde 8 EUR",
+    "rating": 4.5,
     "imagen": "img/cairo_giza.png",
     "imagenCard": "img/cairo_giza.png",
     "tags": [
-      "antigüedad",
-      "misterio",
-      "historia"
+      "cultura",
+      "africa",
+      "el cairo"
     ]
   },
   {
     "id": 2,
-    "nombre": "Museo Egipcio de El Cairo",
+    "nombre": "Gran Museo Egipcio",
     "tipo": "museos",
-    "descripcion": "Custodia la mayor colección de objetos de la época del Antiguo Egipto.",
-    "descripcionCorta": "El tesoro de Tutankamón.",
+    "descripcion": "Gran Museo Egipcio es una visita destacada de El Cairo, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+    "descripcionCorta": "Gran Museo Egipcio es una visita destacada de El Cairo, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares.",
+    "lat": 29.9936,
+    "lng": 31.1195,
+    "horario": "10:00 - 18:00",
+    "precio": "Desde 12 EUR",
+    "rating": 4.6,
+    "imagen": "img/cairo_gem.png",
+    "imagenCard": "img/cairo_gem.png",
+    "tags": [
+      "museos",
+      "africa",
+      "el cairo"
+    ]
+  },
+  {
+    "id": 3,
+    "nombre": "Museo Egipcio de Tahrir",
+    "tipo": "museos",
+    "descripcion": "Museo Egipcio de Tahrir es una visita destacada de El Cairo, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+    "descripcionCorta": "Museo Egipcio de Tahrir es una visita destacada de El Cairo, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares.",
     "lat": 30.0478,
     "lng": 31.2336,
-    "horario": "9:00 - 17:00",
-    "precio": "160 EGP",
-    "rating": 4.8,
-    "imagen": "https://picsum.photos/seed/cairomuseum/800/600",
-    "imagenCard": "https://picsum.photos/seed/cairomuseum/400/300",
+    "horario": "10:00 - 18:00",
+    "precio": "Desde 12 EUR",
+    "rating": 4.7,
+    "imagen": "img/cairo_tahrir.png",
+    "imagenCard": "img/cairo_tahrir.png",
     "tags": [
-      "arte",
-      "historia",
-      "faraones"
+      "museos",
+      "africa",
+      "el cairo"
+    ]
+  },
+  {
+    "id": 4,
+    "nombre": "Ciudadela de Saladino",
+    "tipo": "cultura",
+    "descripcion": "Ciudadela de Saladino es una visita destacada de El Cairo, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+    "descripcionCorta": "Ciudadela de Saladino es una visita destacada de El Cairo, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad.",
+    "lat": 30.0299,
+    "lng": 31.2613,
+    "horario": "9:00 - 18:00",
+    "precio": "Desde 8 EUR",
+    "rating": 4.7,
+    "imagen": "img/cairo_citadel.png",
+    "imagenCard": "img/cairo_citadel.png",
+    "tags": [
+      "cultura",
+      "africa",
+      "el cairo"
+    ]
+  },
+  {
+    "id": 5,
+    "nombre": "Khan el-Khalili",
+    "tipo": "mercados",
+    "descripcion": "Khan el-Khalili es una visita destacada de El Cairo, una referencia: mercado lleno de puestos, productos locales y escenas cotidianas. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+    "descripcionCorta": "Khan el-Khalili es una visita destacada de El Cairo, una referencia: mercado lleno de puestos, productos locales y escenas cotidianas.",
+    "lat": 30.0477,
+    "lng": 31.2623,
+    "horario": "9:00 - 15:00",
+    "precio": "Gratis",
+    "rating": 4.8,
+    "imagen": "img/cairo_khan.png",
+    "imagenCard": "img/cairo_khan.png",
+    "tags": [
+      "mercados",
+      "africa",
+      "el cairo"
+    ]
+  },
+  {
+    "id": 6,
+    "nombre": "Barrio Copto",
+    "tipo": "barrios",
+    "descripcion": "Barrio Copto es una visita destacada de El Cairo, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+    "descripcionCorta": "Barrio Copto es una visita destacada de El Cairo, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad.",
+    "lat": 30.0056,
+    "lng": 31.2303,
+    "horario": "24h",
+    "precio": "Gratis",
+    "rating": 4.5,
+    "imagen": "img/cairo_coptic.png",
+    "imagenCard": "img/cairo_coptic.png",
+    "tags": [
+      "barrios",
+      "africa",
+      "el cairo"
+    ]
+  },
+  {
+    "id": 7,
+    "nombre": "Parque Al-Azhar",
+    "tipo": "parques",
+    "descripcion": "Parque Al-Azhar es una visita destacada de El Cairo, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+    "descripcionCorta": "Parque Al-Azhar es una visita destacada de El Cairo, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje.",
+    "lat": 30.0406,
+    "lng": 31.2657,
+    "horario": "7:00 - 20:00",
+    "precio": "Gratis",
+    "rating": 4.6,
+    "imagen": "img/cairo_alazhar.png",
+    "imagenCard": "img/cairo_alazhar.png",
+    "tags": [
+      "parques",
+      "africa",
+      "el cairo"
+    ]
+  },
+  {
+    "id": 8,
+    "nombre": "Mezquita de Ibn Tulun",
+    "tipo": "cultura",
+    "descripcion": "Mezquita de Ibn Tulun es una visita destacada de El Cairo, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+    "descripcionCorta": "Mezquita de Ibn Tulun es una visita destacada de El Cairo, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad.",
+    "lat": 30.0287,
+    "lng": 31.2497,
+    "horario": "9:00 - 18:00",
+    "precio": "Desde 8 EUR",
+    "rating": 4.7,
+    "imagen": "img/cairo_ibntulun.png",
+    "imagenCard": "img/cairo_ibntulun.png",
+    "tags": [
+      "cultura",
+      "africa",
+      "el cairo"
+    ]
+  },
+  {
+    "id": 9,
+    "nombre": "Naguib Mahfouz Cafe",
+    "tipo": "cafes",
+    "descripcion": "Naguib Mahfouz Cafe es una visita destacada de El Cairo, una referencia: café con ambiente propio para hacer una pausa entre visitas. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+    "descripcionCorta": "Naguib Mahfouz Cafe es una visita destacada de El Cairo, una referencia: café con ambiente propio para hacer una pausa entre visitas.",
+    "lat": 30.047,
+    "lng": 31.262,
+    "horario": "8:00 - 20:00",
+    "precio": "Desde 5 EUR",
+    "rating": 4.7,
+    "imagen": "img/cairo_mahfouz.png",
+    "imagenCard": "img/cairo_mahfouz.png",
+    "tags": [
+      "cafes",
+      "africa",
+      "el cairo"
     ]
   }
 ]

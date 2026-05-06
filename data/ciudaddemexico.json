@@ -1,0 +1,173 @@
+[
+  {
+    "id": 1,
+    "nombre": "Zócalo",
+    "tipo": "cultura",
+    "descripcion": "Zócalo es una visita destacada de Ciudad de México, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+    "descripcionCorta": "Zócalo es una visita destacada de Ciudad de México, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad.",
+    "lat": 19.4326,
+    "lng": -99.1332,
+    "horario": "9:00 - 18:00",
+    "precio": "Desde 8 EUR",
+    "rating": 4.5,
+    "imagen": "img/mexicocity_zocalo.png",
+    "imagenCard": "img/mexicocity_zocalo.png",
+    "tags": [
+      "cultura",
+      "norteamerica",
+      "ciudad de mexico"
+    ]
+  },
+  {
+    "id": 2,
+    "nombre": "Museo Nacional de Antropología",
+    "tipo": "museos",
+    "descripcion": "Museo Nacional de Antropología es una visita destacada de Ciudad de México, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+    "descripcionCorta": "Museo Nacional de Antropología es una visita destacada de Ciudad de México, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares.",
+    "lat": 19.426,
+    "lng": -99.1863,
+    "horario": "10:00 - 18:00",
+    "precio": "Desde 12 EUR",
+    "rating": 4.6,
+    "imagen": "img/mexicocity_antropologia.png",
+    "imagenCard": "img/mexicocity_antropologia.png",
+    "tags": [
+      "museos",
+      "norteamerica",
+      "ciudad de mexico"
+    ]
+  },
+  {
+    "id": 3,
+    "nombre": "Chapultepec",
+    "tipo": "parques",
+    "descripcion": "Chapultepec es una visita destacada de Ciudad de México, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+    "descripcionCorta": "Chapultepec es una visita destacada de Ciudad de México, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje.",
+    "lat": 19.4204,
+    "lng": -99.1819,
+    "horario": "7:00 - 20:00",
+    "precio": "Gratis",
+    "rating": 4.7,
+    "imagen": "img/mexicocity_chapultepec.png",
+    "imagenCard": "img/mexicocity_chapultepec.png",
+    "tags": [
+      "parques",
+      "norteamerica",
+      "ciudad de mexico"
+    ]
+  },
+  {
+    "id": 4,
+    "nombre": "Casa Azul",
+    "tipo": "museos",
+    "descripcion": "Casa Azul es una visita destacada de Ciudad de México, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+    "descripcionCorta": "Casa Azul es una visita destacada de Ciudad de México, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares.",
+    "lat": 19.3552,
+    "lng": -99.1626,
+    "horario": "10:00 - 18:00",
+    "precio": "Desde 12 EUR",
+    "rating": 4.7,
+    "imagen": "img/mexicocity_casaazul.png",
+    "imagenCard": "img/mexicocity_casaazul.png",
+    "tags": [
+      "museos",
+      "norteamerica",
+      "ciudad de mexico"
+    ]
+  },
+  {
+    "id": 5,
+    "nombre": "Xochimilco",
+    "tipo": "barrios",
+    "descripcion": "Xochimilco es una visita destacada de Ciudad de México, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+    "descripcionCorta": "Xochimilco es una visita destacada de Ciudad de México, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad.",
+    "lat": 19.2572,
+    "lng": -99.1031,
+    "horario": "24h",
+    "precio": "Gratis",
+    "rating": 4.8,
+    "imagen": "img/mexicocity_xochimilco.png",
+    "imagenCard": "img/mexicocity_xochimilco.png",
+    "tags": [
+      "barrios",
+      "norteamerica",
+      "ciudad de mexico"
+    ]
+  },
+  {
+    "id": 6,
+    "nombre": "Templo Mayor",
+    "tipo": "museos",
+    "descripcion": "Templo Mayor es una visita destacada de Ciudad de México, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+    "descripcionCorta": "Templo Mayor es una visita destacada de Ciudad de México, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares.",
+    "lat": 19.4345,
+    "lng": -99.1314,
+    "horario": "10:00 - 18:00",
+    "precio": "Desde 12 EUR",
+    "rating": 4.5,
+    "imagen": "img/mexicocity_templomayor.png",
+    "imagenCard": "img/mexicocity_templomayor.png",
+    "tags": [
+      "museos",
+      "norteamerica",
+      "ciudad de mexico"
+    ]
+  },
+  {
+    "id": 7,
+    "nombre": "Roma-Condesa",
+    "tipo": "barrios",
+    "descripcion": "Roma-Condesa es una visita destacada de Ciudad de México, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+    "descripcionCorta": "Roma-Condesa es una visita destacada de Ciudad de México, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad.",
+    "lat": 19.414,
+    "lng": -99.1677,
+    "horario": "24h",
+    "precio": "Gratis",
+    "rating": 4.6,
+    "imagen": "img/mexicocity_romacondesa.png",
+    "imagenCard": "img/mexicocity_romacondesa.png",
+    "tags": [
+      "barrios",
+      "norteamerica",
+      "ciudad de mexico"
+    ]
+  },
+  {
+    "id": 8,
+    "nombre": "Mercado de Coyoacán",
+    "tipo": "mercados",
+    "descripcion": "Mercado de Coyoacán es una visita destacada de Ciudad de México, una referencia: mercado lleno de puestos, productos locales y escenas cotidianas. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+    "descripcionCorta": "Mercado de Coyoacán es una visita destacada de Ciudad de México, una referencia: mercado lleno de puestos, productos locales y escenas cotidianas.",
+    "lat": 19.3499,
+    "lng": -99.1621,
+    "horario": "9:00 - 15:00",
+    "precio": "Gratis",
+    "rating": 4.7,
+    "imagen": "img/mexicocity_mercadocoyoacan.png",
+    "imagenCard": "img/mexicocity_mercadocoyoacan.png",
+    "tags": [
+      "mercados",
+      "norteamerica",
+      "ciudad de mexico"
+    ]
+  },
+  {
+    "id": 9,
+    "nombre": "Pujol",
+    "tipo": "restaurantes",
+    "descripcion": "Pujol es una visita destacada de Ciudad de México, una referencia: parada gastronómica recomendada para probar sabores representativos. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+    "descripcionCorta": "Pujol es una visita destacada de Ciudad de México, una referencia: parada gastronómica recomendada para probar sabores representativos.",
+    "lat": 19.4336,
+    "lng": -99.1948,
+    "horario": "12:30 - 23:00",
+    "precio": "Menu variable",
+    "rating": 4.7,
+    "imagen": "img/mexicocity_pujol.png",
+    "imagenCard": "img/mexicocity_pujol.png",
+    "tags": [
+      "restaurantes",
+      "norteamerica",
+      "ciudad de mexico"
+    ]
+  }
+]

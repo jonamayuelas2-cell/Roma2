@@ -3,38 +3,171 @@
     "id": 1,
     "nombre": "Cristo Redentor",
     "tipo": "cultura",
-    "descripcion": "Estatua monumental de Jesús de Nazaret, símbolo de la fe y de Río.",
-    "descripcionCorta": "El guardián de Río.",
+    "descripcion": "Cristo Redentor es una visita destacada de Río de Janeiro, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+    "descripcionCorta": "Cristo Redentor es una visita destacada de Río de Janeiro, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad.",
     "lat": -22.9519,
     "lng": -43.2105,
-    "horario": "8:00 - 19:00",
-    "precio": "70 BRL",
-    "rating": 4.9,
+    "horario": "9:00 - 18:00",
+    "precio": "Desde 8 EUR",
+    "rating": 4.5,
     "imagen": "img/rio_cristoredentor.png",
     "imagenCard": "img/rio_cristoredentor.png",
     "tags": [
-      "monumento",
-      "vistas",
-      "fe"
+      "cultura",
+      "sudamerica",
+      "rio de janeiro"
     ]
   },
   {
     "id": 2,
     "nombre": "Pan de Azúcar",
     "tipo": "parques",
-    "descripcion": "Pico situado en la boca de la bahía de Guanabara, accesible por teleférico.",
-    "descripcionCorta": "Las mejores vistas de la bahía.",
-    "lat": -22.9487,
-    "lng": -43.1558,
-    "horario": "8:00 - 20:00",
-    "precio": "120 BRL",
-    "rating": 4.8,
+    "descripcion": "Pan de Azúcar es una visita destacada de Río de Janeiro, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+    "descripcionCorta": "Pan de Azúcar es una visita destacada de Río de Janeiro, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje.",
+    "lat": -22.9486,
+    "lng": -43.1565,
+    "horario": "7:00 - 20:00",
+    "precio": "Gratis",
+    "rating": 4.6,
     "imagen": "img/rio_pandeazucar.png",
     "imagenCard": "img/rio_pandeazucar.png",
     "tags": [
-      "vistas",
-      "naturaleza",
-      "teleférico"
+      "parques",
+      "sudamerica",
+      "rio de janeiro"
+    ]
+  },
+  {
+    "id": 3,
+    "nombre": "Copacabana",
+    "tipo": "barrios",
+    "descripcion": "Copacabana es una visita destacada de Río de Janeiro, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+    "descripcionCorta": "Copacabana es una visita destacada de Río de Janeiro, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad.",
+    "lat": -22.9711,
+    "lng": -43.1822,
+    "horario": "24h",
+    "precio": "Gratis",
+    "rating": 4.7,
+    "imagen": "img/rio_copacabana.png",
+    "imagenCard": "img/rio_copacabana.png",
+    "tags": [
+      "barrios",
+      "sudamerica",
+      "rio de janeiro"
+    ]
+  },
+  {
+    "id": 4,
+    "nombre": "Ipanema",
+    "tipo": "barrios",
+    "descripcion": "Ipanema es una visita destacada de Río de Janeiro, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+    "descripcionCorta": "Ipanema es una visita destacada de Río de Janeiro, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad.",
+    "lat": -22.9847,
+    "lng": -43.1986,
+    "horario": "24h",
+    "precio": "Gratis",
+    "rating": 4.7,
+    "imagen": "img/rio_ipanema.png",
+    "imagenCard": "img/rio_ipanema.png",
+    "tags": [
+      "barrios",
+      "sudamerica",
+      "rio de janeiro"
+    ]
+  },
+  {
+    "id": 5,
+    "nombre": "Escalera Selaron",
+    "tipo": "cultura",
+    "descripcion": "Escalera Selaron es una visita destacada de Río de Janeiro, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+    "descripcionCorta": "Escalera Selaron es una visita destacada de Río de Janeiro, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad.",
+    "lat": -22.9153,
+    "lng": -43.1796,
+    "horario": "9:00 - 18:00",
+    "precio": "Desde 8 EUR",
+    "rating": 4.8,
+    "imagen": "img/rio_selaron.png",
+    "imagenCard": "img/rio_selaron.png",
+    "tags": [
+      "cultura",
+      "sudamerica",
+      "rio de janeiro"
+    ]
+  },
+  {
+    "id": 6,
+    "nombre": "Jardín Botánico",
+    "tipo": "parques",
+    "descripcion": "Jardín Botánico es una visita destacada de Río de Janeiro, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+    "descripcionCorta": "Jardín Botánico es una visita destacada de Río de Janeiro, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje.",
+    "lat": -22.9674,
+    "lng": -43.223,
+    "horario": "7:00 - 20:00",
+    "precio": "Gratis",
+    "rating": 4.5,
+    "imagen": "img/rio_jardinbotanico.png",
+    "imagenCard": "img/rio_jardinbotanico.png",
+    "tags": [
+      "parques",
+      "sudamerica",
+      "rio de janeiro"
+    ]
+  },
+  {
+    "id": 7,
+    "nombre": "Museu do Amanhã",
+    "tipo": "museos",
+    "descripcion": "Museu do Amanhã es una visita destacada de Río de Janeiro, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+    "descripcionCorta": "Museu do Amanhã es una visita destacada de Río de Janeiro, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares.",
+    "lat": -22.8942,
+    "lng": -43.1792,
+    "horario": "10:00 - 18:00",
+    "precio": "Desde 12 EUR",
+    "rating": 4.6,
+    "imagen": "img/rio_museudoamanha.png",
+    "imagenCard": "img/rio_museudoamanha.png",
+    "tags": [
+      "museos",
+      "sudamerica",
+      "rio de janeiro"
+    ]
+  },
+  {
+    "id": 8,
+    "nombre": "Feira de Sao Cristovao",
+    "tipo": "mercados",
+    "descripcion": "Feira de Sao Cristovao es una visita destacada de Río de Janeiro, una referencia: mercado lleno de puestos, productos locales y escenas cotidianas. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+    "descripcionCorta": "Feira de Sao Cristovao es una visita destacada de Río de Janeiro, una referencia: mercado lleno de puestos, productos locales y escenas cotidianas.",
+    "lat": -22.8979,
+    "lng": -43.2227,
+    "horario": "9:00 - 15:00",
+    "precio": "Gratis",
+    "rating": 4.7,
+    "imagen": "img/rio_feirasaocristovao.png",
+    "imagenCard": "img/rio_feirasaocristovao.png",
+    "tags": [
+      "mercados",
+      "sudamerica",
+      "rio de janeiro"
+    ]
+  },
+  {
+    "id": 9,
+    "nombre": "Confeitaria Colombo",
+    "tipo": "cafes",
+    "descripcion": "Confeitaria Colombo es una visita destacada de Río de Janeiro, una referencia: café con ambiente propio para hacer una pausa entre visitas. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+    "descripcionCorta": "Confeitaria Colombo es una visita destacada de Río de Janeiro, una referencia: café con ambiente propio para hacer una pausa entre visitas.",
+    "lat": -22.9067,
+    "lng": -43.1784,
+    "horario": "8:00 - 20:00",
+    "precio": "Desde 5 EUR",
+    "rating": 4.7,
+    "imagen": "img/rio_confeitariacolombo.png",
+    "imagenCard": "img/rio_confeitariacolombo.png",
+    "tags": [
+      "cafes",
+      "sudamerica",
+      "rio de janeiro"
     ]
   }
 ]

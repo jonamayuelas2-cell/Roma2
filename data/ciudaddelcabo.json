@@ -1,0 +1,173 @@
+[
+  {
+    "id": 1,
+    "nombre": "Table Mountain",
+    "tipo": "parques",
+    "descripcion": "Table Mountain es una visita destacada de Ciudad del Cabo, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+    "descripcionCorta": "Table Mountain es una visita destacada de Ciudad del Cabo, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje.",
+    "lat": -33.9628,
+    "lng": 18.4098,
+    "horario": "7:00 - 20:00",
+    "precio": "Gratis",
+    "rating": 4.5,
+    "imagen": "img/capetown_tablemountain.png",
+    "imagenCard": "img/capetown_tablemountain.png",
+    "tags": [
+      "parques",
+      "africa",
+      "ciudad del cabo"
+    ]
+  },
+  {
+    "id": 2,
+    "nombre": "V&A Waterfront",
+    "tipo": "barrios",
+    "descripcion": "V&A Waterfront es una visita destacada de Ciudad del Cabo, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+    "descripcionCorta": "V&A Waterfront es una visita destacada de Ciudad del Cabo, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad.",
+    "lat": -33.903,
+    "lng": 18.4219,
+    "horario": "24h",
+    "precio": "Gratis",
+    "rating": 4.6,
+    "imagen": "img/capetown_waterfront.png",
+    "imagenCard": "img/capetown_waterfront.png",
+    "tags": [
+      "barrios",
+      "africa",
+      "ciudad del cabo"
+    ]
+  },
+  {
+    "id": 3,
+    "nombre": "Robben Island",
+    "tipo": "museos",
+    "descripcion": "Robben Island es una visita destacada de Ciudad del Cabo, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+    "descripcionCorta": "Robben Island es una visita destacada de Ciudad del Cabo, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares.",
+    "lat": -33.8067,
+    "lng": 18.3662,
+    "horario": "10:00 - 18:00",
+    "precio": "Desde 12 EUR",
+    "rating": 4.7,
+    "imagen": "img/capetown_robbenisland.png",
+    "imagenCard": "img/capetown_robbenisland.png",
+    "tags": [
+      "museos",
+      "africa",
+      "ciudad del cabo"
+    ]
+  },
+  {
+    "id": 4,
+    "nombre": "Bo-Kaap",
+    "tipo": "barrios",
+    "descripcion": "Bo-Kaap es una visita destacada de Ciudad del Cabo, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+    "descripcionCorta": "Bo-Kaap es una visita destacada de Ciudad del Cabo, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad.",
+    "lat": -33.9219,
+    "lng": 18.4142,
+    "horario": "24h",
+    "precio": "Gratis",
+    "rating": 4.7,
+    "imagen": "img/capetown_bokaap.png",
+    "imagenCard": "img/capetown_bokaap.png",
+    "tags": [
+      "barrios",
+      "africa",
+      "ciudad del cabo"
+    ]
+  },
+  {
+    "id": 5,
+    "nombre": "Kirstenbosch",
+    "tipo": "parques",
+    "descripcion": "Kirstenbosch es una visita destacada de Ciudad del Cabo, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+    "descripcionCorta": "Kirstenbosch es una visita destacada de Ciudad del Cabo, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje.",
+    "lat": -33.9875,
+    "lng": 18.4327,
+    "horario": "7:00 - 20:00",
+    "precio": "Gratis",
+    "rating": 4.8,
+    "imagen": "img/capetown_kirstenbosch.png",
+    "imagenCard": "img/capetown_kirstenbosch.png",
+    "tags": [
+      "parques",
+      "africa",
+      "ciudad del cabo"
+    ]
+  },
+  {
+    "id": 6,
+    "nombre": "Camps Bay",
+    "tipo": "parques",
+    "descripcion": "Camps Bay es una visita destacada de Ciudad del Cabo, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+    "descripcionCorta": "Camps Bay es una visita destacada de Ciudad del Cabo, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje.",
+    "lat": -33.9509,
+    "lng": 18.3776,
+    "horario": "7:00 - 20:00",
+    "precio": "Gratis",
+    "rating": 4.5,
+    "imagen": "img/capetown_campsbay.png",
+    "imagenCard": "img/capetown_campsbay.png",
+    "tags": [
+      "parques",
+      "africa",
+      "ciudad del cabo"
+    ]
+  },
+  {
+    "id": 7,
+    "nombre": "District Six Museum",
+    "tipo": "museos",
+    "descripcion": "District Six Museum es una visita destacada de Ciudad del Cabo, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+    "descripcionCorta": "District Six Museum es una visita destacada de Ciudad del Cabo, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares.",
+    "lat": -33.9274,
+    "lng": 18.4234,
+    "horario": "10:00 - 18:00",
+    "precio": "Desde 12 EUR",
+    "rating": 4.6,
+    "imagen": "img/capetown_districtsix.png",
+    "imagenCard": "img/capetown_districtsix.png",
+    "tags": [
+      "museos",
+      "africa",
+      "ciudad del cabo"
+    ]
+  },
+  {
+    "id": 8,
+    "nombre": "Old Biscuit Mill",
+    "tipo": "mercados",
+    "descripcion": "Old Biscuit Mill es una visita destacada de Ciudad del Cabo, una referencia: mercado lleno de puestos, productos locales y escenas cotidianas. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+    "descripcionCorta": "Old Biscuit Mill es una visita destacada de Ciudad del Cabo, una referencia: mercado lleno de puestos, productos locales y escenas cotidianas.",
+    "lat": -33.9271,
+    "lng": 18.457,
+    "horario": "9:00 - 15:00",
+    "precio": "Gratis",
+    "rating": 4.7,
+    "imagen": "img/capetown_oldbiscuitmill.png",
+    "imagenCard": "img/capetown_oldbiscuitmill.png",
+    "tags": [
+      "mercados",
+      "africa",
+      "ciudad del cabo"
+    ]
+  },
+  {
+    "id": 9,
+    "nombre": "Boulders Beach",
+    "tipo": "parques",
+    "descripcion": "Boulders Beach es una visita destacada de Ciudad del Cabo, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+    "descripcionCorta": "Boulders Beach es una visita destacada de Ciudad del Cabo, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje.",
+    "lat": -34.1979,
+    "lng": 18.451,
+    "horario": "7:00 - 20:00",
+    "precio": "Gratis",
+    "rating": 4.7,
+    "imagen": "img/capetown_boulders.png",
+    "imagenCard": "img/capetown_boulders.png",
+    "tags": [
+      "parques",
+      "africa",
+      "ciudad del cabo"
+    ]
+  }
+]
