@@ -1,0 +1,173 @@
+[
+  {
+    "id": 1,
+    "nombre": "Plaza Mayor",
+    "tipo": "cultura",
+    "descripcion": "Plaza Mayor es una visita destacada de Lima, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+    "descripcionCorta": "Plaza Mayor es una visita destacada de Lima, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad.",
+    "lat": -12.0464,
+    "lng": -77.0305,
+    "horario": "9:00 - 18:00",
+    "precio": "Desde 8 EUR",
+    "rating": 4.5,
+    "imagen": "img/lima_plazamayor.png",
+    "imagenCard": "img/lima_plazamayor.png",
+    "tags": [
+      "cultura",
+      "sudamerica",
+      "lima"
+    ]
+  },
+  {
+    "id": 2,
+    "nombre": "Huaca Pucllana",
+    "tipo": "cultura",
+    "descripcion": "Huaca Pucllana es una visita destacada de Lima, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+    "descripcionCorta": "Huaca Pucllana es una visita destacada de Lima, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad.",
+    "lat": -12.1119,
+    "lng": -77.0336,
+    "horario": "9:00 - 18:00",
+    "precio": "Desde 8 EUR",
+    "rating": 4.6,
+    "imagen": "img/lima_huacapucllana.png",
+    "imagenCard": "img/lima_huacapucllana.png",
+    "tags": [
+      "cultura",
+      "sudamerica",
+      "lima"
+    ]
+  },
+  {
+    "id": 3,
+    "nombre": "Museo Larco",
+    "tipo": "museos",
+    "descripcion": "Museo Larco es una visita destacada de Lima, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+    "descripcionCorta": "Museo Larco es una visita destacada de Lima, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares.",
+    "lat": -12.0722,
+    "lng": -77.0706,
+    "horario": "10:00 - 18:00",
+    "precio": "Desde 12 EUR",
+    "rating": 4.7,
+    "imagen": "img/lima_museolarco.png",
+    "imagenCard": "img/lima_museolarco.png",
+    "tags": [
+      "museos",
+      "sudamerica",
+      "lima"
+    ]
+  },
+  {
+    "id": 4,
+    "nombre": "Malecón de Miraflores",
+    "tipo": "parques",
+    "descripcion": "Malecón de Miraflores es una visita destacada de Lima, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+    "descripcionCorta": "Malecón de Miraflores es una visita destacada de Lima, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje.",
+    "lat": -12.1275,
+    "lng": -77.03,
+    "horario": "7:00 - 20:00",
+    "precio": "Gratis",
+    "rating": 4.7,
+    "imagen": "img/lima_maleconmiraflores.png",
+    "imagenCard": "img/lima_maleconmiraflores.png",
+    "tags": [
+      "parques",
+      "sudamerica",
+      "lima"
+    ]
+  },
+  {
+    "id": 5,
+    "nombre": "Barranco",
+    "tipo": "barrios",
+    "descripcion": "Barranco es una visita destacada de Lima, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+    "descripcionCorta": "Barranco es una visita destacada de Lima, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad.",
+    "lat": -12.1496,
+    "lng": -77.0219,
+    "horario": "24h",
+    "precio": "Gratis",
+    "rating": 4.8,
+    "imagen": "img/lima_barranco.png",
+    "imagenCard": "img/lima_barranco.png",
+    "tags": [
+      "barrios",
+      "sudamerica",
+      "lima"
+    ]
+  },
+  {
+    "id": 6,
+    "nombre": "Mercado Surquillo",
+    "tipo": "mercados",
+    "descripcion": "Mercado Surquillo es una visita destacada de Lima, una referencia: mercado lleno de puestos, productos locales y escenas cotidianas. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+    "descripcionCorta": "Mercado Surquillo es una visita destacada de Lima, una referencia: mercado lleno de puestos, productos locales y escenas cotidianas.",
+    "lat": -12.1164,
+    "lng": -77.0255,
+    "horario": "9:00 - 15:00",
+    "precio": "Gratis",
+    "rating": 4.5,
+    "imagen": "img/lima_surquillo.png",
+    "imagenCard": "img/lima_surquillo.png",
+    "tags": [
+      "mercados",
+      "sudamerica",
+      "lima"
+    ]
+  },
+  {
+    "id": 7,
+    "nombre": "Circuito Mágico del Agua",
+    "tipo": "parques",
+    "descripcion": "Circuito Mágico del Agua es una visita destacada de Lima, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+    "descripcionCorta": "Circuito Mágico del Agua es una visita destacada de Lima, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje.",
+    "lat": -12.0701,
+    "lng": -77.0336,
+    "horario": "7:00 - 20:00",
+    "precio": "Gratis",
+    "rating": 4.6,
+    "imagen": "img/lima_circuitomagico.png",
+    "imagenCard": "img/lima_circuitomagico.png",
+    "tags": [
+      "parques",
+      "sudamerica",
+      "lima"
+    ]
+  },
+  {
+    "id": 8,
+    "nombre": "MALI",
+    "tipo": "museos",
+    "descripcion": "MALI es una visita destacada de Lima, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+    "descripcionCorta": "MALI es una visita destacada de Lima, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares.",
+    "lat": -12.0601,
+    "lng": -77.0376,
+    "horario": "10:00 - 18:00",
+    "precio": "Desde 12 EUR",
+    "rating": 4.7,
+    "imagen": "img/lima_mali.png",
+    "imagenCard": "img/lima_mali.png",
+    "tags": [
+      "museos",
+      "sudamerica",
+      "lima"
+    ]
+  },
+  {
+    "id": 9,
+    "nombre": "Central",
+    "tipo": "restaurantes",
+    "descripcion": "Central es una visita destacada de Lima, una referencia: parada gastronómica recomendada para probar sabores representativos. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
+    "descripcionCorta": "Central es una visita destacada de Lima, una referencia: parada gastronómica recomendada para probar sabores representativos.",
+    "lat": -12.1528,
+    "lng": -77.0222,
+    "horario": "12:30 - 23:00",
+    "precio": "Menu variable",
+    "rating": 4.7,
+    "imagen": "img/lima_central.png",
+    "imagenCard": "img/lima_central.png",
+    "tags": [
+      "restaurantes",
+      "sudamerica",
+      "lima"
+    ]
+  }
+]

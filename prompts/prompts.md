@@ -166,6 +166,23 @@
 
 ---
 
+## [2026-05-06] - Lima completada
+**Assets generados**:
+- `img/lima_hero.png`: panoramica de Lima con acantilados del Pacifico, costa de Miraflores y skyline urbano.
+- `img/lima_plazamayor.png`: Plaza Mayor, plaza colonial con catedral y arquitectura historica.
+- `img/lima_huacapucllana.png`: Huaca Pucllana, piramide de adobe precolombina en contexto urbano.
+- `img/lima_museolarco.png`: Museo Larco, mansion colonial blanca y jardines con buganvilla.
+- `img/lima_maleconmiraflores.png`: Malecon de Miraflores, parque costero sobre acantilados y vistas al oceano.
+- `img/lima_barranco.png`: Barranco, calle bohemia con color y arquitectura barrial.
+- `img/lima_surquillo.png`: Mercado Surquillo, mercado de producto fresco y ambiente culinario local.
+- `img/lima_circuitomagico.png`: Circuito Magico del Agua, fuentes iluminadas de noche.
+- `img/lima_mali.png`: MALI, palacio historico y atmosfera museistica.
+- `img/lima_central.png`: alta cocina peruana inspirada en Central, plato contemporaneo y comedor refinado.
+
+**Resultado**: Lima queda sin placeholders `picsum.photos` en `cities.json`; `data/lima.json` queda creado y sincronizado.
+
+---
+
 ## [2026-05-05] - Consolidación de Datasets 🔄
 **Acción**: Ejecución de script de fusión para unir 20 ciudades en el archivo central `cities.json`.
 **Resultado**: 20 ciudades globales integradas con éxito. Base de datos final lista para la fase de inyección visual.
