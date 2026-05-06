@@ -5,13 +5,18 @@
     "tipo": "cultura",
     "descripcion": "Complejo de edificios en el corazón de Bangkok, residencia oficial del Rey de Tailandia.",
     "descripcionCorta": "El esplendor real de Tailandia.",
-    "lat": 13.7500, "lng": 100.4913,
+    "lat": 13.75,
+    "lng": 100.4913,
     "horario": "8:30 - 15:30",
     "precio": "500 THB",
     "rating": 4.9,
     "imagen": "https://picsum.photos/seed/grandpalace/800/600",
     "imagenCard": "https://picsum.photos/seed/grandpalace/400/300",
-    "tags": ["realeza", "templo", "historia"]
+    "tags": [
+      "realeza",
+      "templo",
+      "historia"
+    ]
   },
   {
     "id": 2,
@@ -19,12 +24,17 @@
     "tipo": "cultura",
     "descripcion": "Templo budista en la ribera occidental del río Chao Phraya.",
     "descripcionCorta": "El amanecer más bello sobre el río.",
-    "lat": 13.7437, "lng": 100.4889,
+    "lat": 13.7437,
+    "lng": 100.4889,
     "horario": "8:00 - 18:00",
     "precio": "100 THB",
     "rating": 4.8,
     "imagen": "https://picsum.photos/seed/watarun/800/600",
     "imagenCard": "https://picsum.photos/seed/watarun/400/300",
-    "tags": ["templo", "vistas", "espiritualidad"]
+    "tags": [
+      "templo",
+      "vistas",
+      "espiritualidad"
+    ]
   }
 ]

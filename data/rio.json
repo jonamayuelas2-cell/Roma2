@@ -5,13 +5,18 @@
     "tipo": "cultura",
     "descripcion": "Estatua monumental de Jesús de Nazaret, símbolo de la fe y de Río.",
     "descripcionCorta": "El guardián de Río.",
-    "lat": -22.9519, "lng": -43.2105,
+    "lat": -22.9519,
+    "lng": -43.2105,
     "horario": "8:00 - 19:00",
     "precio": "70 BRL",
     "rating": 4.9,
-    "imagen": "https://picsum.photos/seed/christ/800/600",
-    "imagenCard": "https://picsum.photos/seed/christ/400/300",
-    "tags": ["monumento", "vistas", "fe"]
+    "imagen": "img/rio_cristoredentor.png",
+    "imagenCard": "img/rio_cristoredentor.png",
+    "tags": [
+      "monumento",
+      "vistas",
+      "fe"
+    ]
   },
   {
     "id": 2,
@@ -19,12 +24,17 @@
     "tipo": "parques",
     "descripcion": "Pico situado en la boca de la bahía de Guanabara, accesible por teleférico.",
     "descripcionCorta": "Las mejores vistas de la bahía.",
-    "lat": -22.9487, "lng": -43.1558,
+    "lat": -22.9487,
+    "lng": -43.1558,
     "horario": "8:00 - 20:00",
     "precio": "120 BRL",
     "rating": 4.8,
-    "imagen": "https://picsum.photos/seed/sugarloaf/800/600",
-    "imagenCard": "https://picsum.photos/seed/sugarloaf/400/300",
-    "tags": ["vistas", "naturaleza", "teleférico"]
+    "imagen": "img/rio_pandeazucar.png",
+    "imagenCard": "img/rio_pandeazucar.png",
+    "tags": [
+      "vistas",
+      "naturaleza",
+      "teleférico"
+    ]
   }
 ]

@@ -115,6 +115,57 @@
 
 ---
 
+## [2026-05-06] - Bangkok completada
+**Assets generados**:
+- `img/bangkok_hero.png`: panorama de Bangkok con rio Chao Phraya, templos y skyline en golden hour.
+- `img/bangkok_grandpalace.png`: Gran Palacio, arquitectura real tailandesa con dorados y patios ornamentales.
+- `img/bangkok_watpho.png`: Wat Pho, complejo de templos con chedis, patios y atmosfera sagrada.
+- `img/bangkok_watarun.png`: Wat Arun junto al Chao Phraya en blue hour.
+- `img/bangkok_chatuchak.png`: Chatuchak Market, pasillos de mercado con textiles, plantas y comida.
+- `img/bangkok_jimthompson.png`: Jim Thompson House, casa tradicional de teca entre jardin tropical.
+- `img/bangkok_yaowarat.png`: Chinatown Yaowarat nocturno, puestos de comida, vapor y luz urbana.
+- `img/bangkok_lumphini.png`: Lumphini Park, lago, palmeras y skyline de Bangkok.
+- `img/bangkok_khlonglatmayom.png`: Khlong Lat Mayom, mercado flotante con barcas y puestos riberenos.
+- `img/bangkok_jayfai.png`: cocina callejera de Bangkok inspirada en Jay Fai, wok y ambiente nocturno.
+
+**Resultado**: Bangkok queda sin placeholders `picsum.photos` en `cities.json`; `data/bangkok.json` queda sincronizado para los lugares que contiene.
+
+---
+
+## [2026-05-06] - Ciudad de Mexico completada
+**Assets generados**:
+- `img/mexicocity_hero.png`: panoramica de Ciudad de Mexico con centro historico, skyline y luz de altura.
+- `img/mexicocity_zocalo.png`: Zocalo, plaza historica con catedral y arquitectura colonial.
+- `img/mexicocity_antropologia.png`: Museo Nacional de Antropologia, patio moderno y atmosfera cultural.
+- `img/mexicocity_chapultepec.png`: Chapultepec, parque urbano con lago, arbolado y castillo sugerido.
+- `img/mexicocity_casaazul.png`: Casa Azul en Coyoacan, fachada azul y jardin con caracter artistico.
+- `img/mexicocity_xochimilco.png`: Xochimilco, canales con trajineras coloridas y vegetacion.
+- `img/mexicocity_templomayor.png`: Templo Mayor, ruinas arqueologicas con contexto del centro historico.
+- `img/mexicocity_romacondesa.png`: Roma-Condesa, calles arboladas, arquitectura Art Deco y cafes.
+- `img/mexicocity_mercadocoyoacan.png`: Mercado de Coyoacan, mercado cubierto con fruta, flores y comida local.
+- `img/mexicocity_pujol.png`: alta cocina mexicana inspirada en Pujol, plato contemporaneo y comedor refinado.
+
+**Resultado**: Ciudad de Mexico queda sin placeholders `picsum.photos` en `cities.json`.
+
+---
+
+## [2026-05-06] - Rio de Janeiro completada
+**Assets generados**:
+- `img/rio_hero.png`: panoramica de Rio de Janeiro con bahia de Guanabara, montanas, costa y skyline.
+- `img/rio_cristoredentor.png`: Cristo Redentor en Corcovado con vista de la ciudad y la bahia.
+- `img/rio_pandeazucar.png`: Pan de Azucar con teleferico, bahia y costa urbana.
+- `img/rio_copacabana.png`: Copacabana, playa curvada, paseo maritimo y colinas al fondo.
+- `img/rio_ipanema.png`: Ipanema al atardecer con playa y Dois Irmaos.
+- `img/rio_selaron.png`: Escalera Selaron, mosaicos coloridos y textura urbana de Lapa.
+- `img/rio_jardinbotanico.png`: Jardin Botanico, avenida de palmeras imperiales y vegetacion tropical.
+- `img/rio_museudoamanha.png`: Museu do Amanha, arquitectura futurista junto al waterfront.
+- `img/rio_feirasaocristovao.png`: Feira de Sao Cristovao, mercado cultural y gastronomico nordestino.
+- `img/rio_confeitariacolombo.png`: Confeitaria Colombo, cafe historico Belle Epoque con pasteleria y espejos.
+
+**Resultado**: Rio de Janeiro queda sin placeholders `picsum.photos` en `cities.json`; `data/rio.json` queda sincronizado para los lugares que contiene.
+
+---
+
 ## [2026-05-05] - Consolidación de Datasets 🔄
 **Acción**: Ejecución de script de fusión para unir 20 ciudades en el archivo central `cities.json`.
 **Resultado**: 20 ciudades globales integradas con éxito. Base de datos final lista para la fase de inyección visual.
