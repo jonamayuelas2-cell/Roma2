@@ -44,6 +44,19 @@
 
 ---
 
+## [2026-05-05] - Paris completada
+**Assets generados**:
+- `img/paris_montmartre.png`: Montmartre en golden hour, calle empedrada con Sacre-Coeur al fondo.
+- `img/paris_orsay.png`: Museo de Orsay, gran sala interior con reloj y esculturas.
+- `img/paris_luxemburgo.png`: Jardines de Luxemburgo, sillas verdes, parterres y palacio con luz suave.
+- `img/paris_lemarais.png`: Le Marais, calle historica estrecha con cafes, boutiques y fachadas de piedra.
+- `img/paris_enfantsrouges.png`: Marche des Enfants Rouges, mercado cubierto gastronomico con puestos y luz calida.
+- `img/paris_paulbert.png`: bistro parisino clasico inspirado en Bistrot Paul Bert.
+
+**Resultado**: Paris queda sin placeholders `picsum.photos` en `cities.json`; `data/paris.json` queda sincronizado para Montmartre.
+
+---
+
 ## [2026-05-05] - Consolidación de Datasets 🔄
 **Acción**: Ejecución de script de fusión para unir 20 ciudades en el archivo central `cities.json`.
 **Resultado**: 20 ciudades globales integradas con éxito. Base de datos final lista para la fase de inyección visual.

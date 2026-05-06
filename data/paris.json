@@ -65,8 +65,8 @@
     "horario": "Siempre",
     "precio": "Gratuito",
     "rating": 4.7,
-    "imagen": "https://picsum.photos/seed/montmartre/800/600",
-    "imagenCard": "https://picsum.photos/seed/montmartre/400/300",
+    "imagen": "img/paris_montmartre.png",
+    "imagenCard": "img/paris_montmartre.png",
     "tags": ["barrio", "bohemio", "vistas"],
     "web": "",
     "telefono": ""
