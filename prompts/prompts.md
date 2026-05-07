@@ -22,3 +22,19 @@
 *Nota: Debido a límites de cuota, el resto de actividades usan las imágenes principales como placeholder temporal siguiendo el mismo estándar premium de nomenclatura.*
 
 ---
+
+## 🕒 2026-05-07 17:55
+**User Request:** Finalización de integración de activos y corrección de burbujas en el globo.
+
+**Prompts de Imágenes Generales (Hero y Lugares):**
+1. **Estambul Hero (Bósforo):** "Professional cinematic 8k travel photograph of the Bosphorus at sunset in Istanbul. Skyline with mosques, the bridge in the distance, seagulls flying, golden hour, ultra-realistic."
+2. **Santa Sofía (Nueva):** "Professional cinematic 8k travel photograph of Hagia Sophia (Ayasofya) at sunset. Golden hour light, intricate architectural details, majestic dome, wide angle."
+3. **Mezquita Azul (Nueva):** "Professional cinematic 8k travel photograph of the Blue Mosque from Sultanahmet Square. Early morning light, six minarets, vibrant colors."
+
+**Estado de la Cuota de Imágenes:**
+*   ⚠️ **Agotada:** La cuota de generación de imágenes se ha agotado (Reset en ~4h).
+*   ✅ **Acción:** Se han recuperado las 5 imágenes de actividades generadas anteriormente desde los artefactos y se han asignado a sus carpetas correspondientes.
+*   🔄 **Pendiente:** Generación de las 49 imágenes de actividades restantes una vez se restablezca la cuota.
+
+**Cambios en el JSON:**
+*   Actualizada la imagen `hero` de Estambul por `img/istanbul_bosphorus.png` para un look más premium en el globo.
