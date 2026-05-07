@@ -16,6 +16,13 @@ const state = {
     isTransitioning: false
 };
 
+const ASSET_VERSION = '2026-05-07-ba-refresh';
+
+function assetUrl(src) {
+    if (!src || src.startsWith('http') || src.startsWith('data:')) return src;
+    return `${src}${src.includes('?') ? '&' : '?'}v=${ASSET_VERSION}`;
+}
+
 // ══ INICIALIZACIÓN ══════════════════════════════════════════
 
 document.addEventListener('DOMContentLoaded', async () => {
@@ -109,11 +116,11 @@ function initGlobe() {
             el.className = 'globe-city-marker';
             el.innerHTML = `
                 <div class="globe-thumb-container">
-                    <img src="${d.imagen}" class="globe-thumb">
+                    <img src="${assetUrl(d.imagen)}" class="globe-thumb">
                     <span class="globe-emoji">${d.emoji}</span>
                     
                     <div class="globe-preview-panel">
-                        <img src="${d.imagen}" class="preview-img">
+                        <img src="${assetUrl(d.imagen)}" class="preview-img">
                         <span class="preview-name">${d.nombre}</span>
                         <span class="preview-country">${d.pais}</span>
                     </div>
@@ -213,7 +220,7 @@ function updateUIForCity(city) {
     
     heroTitle.textContent = `Descubre ${city.nombre}`;
     heroSubtitle.textContent = `Explora los secretos de la ciudad de ${city.nombre}`;
-    heroSection.style.backgroundImage = `url('${city.imagen}')`;
+    heroSection.style.backgroundImage = `url('${assetUrl(city.imagen)}')`;
 }
 
 function backToSelection() {
@@ -272,7 +279,7 @@ function createPlaceCard(place) {
     div.className = `place-card ${state.viewMode === 'list' ? 'list-view' : ''}`;
     div.innerHTML = `
         <div class="place-img-wrapper">
-            <img src="${place.imagenCard}" alt="${place.nombre}" class="place-img" loading="lazy">
+            <img src="${assetUrl(place.imagenCard)}" alt="${place.nombre}" class="place-img" loading="lazy">
         </div>
         <div class="card-content">
             <span class="card-tag">${getTypeLabel(place.tipo)}</span>
@@ -507,7 +514,7 @@ function getPlaceExtraInfo(place) {
 
 function showPlaceDetails(place) {
     const modal = document.getElementById('place-modal');
-    document.getElementById('modal-place-img').src = place.imagen || place.imagenCard;
+    document.getElementById('modal-place-img').src = assetUrl(place.imagen || place.imagenCard);
     document.getElementById('modal-place-img').alt = place.nombre;
     document.getElementById('modal-place-tag').textContent = getTypeLabel(place.tipo);
     document.getElementById('modal-place-title').textContent = place.nombre;
