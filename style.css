@@ -387,23 +387,67 @@ header {
 }
 
 .back-btn {
-  background: var(--glass-bg);
-  border: 1px solid var(--glass-border);
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  background:
+    linear-gradient(135deg, rgba(125, 228, 255, 0.24), rgba(253, 187, 45, 0.28)),
+    rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.28);
   color: white;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
+  min-width: 158px;
+  height: 46px;
+  border-radius: 999px;
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 9px;
   cursor: pointer;
-  font-size: 1.2rem;
+  font-size: 0.9rem;
+  font-weight: 900;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  box-shadow:
+    0 12px 32px rgba(0, 0, 0, 0.32),
+    0 0 26px rgba(125, 228, 255, 0.22);
   transition: var(--transition);
 }
 
+.back-btn::before {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  z-index: -1;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.5), transparent);
+  transform: translateX(-120%);
+  transition: transform 0.7s ease;
+}
+
 .back-btn:hover {
-  background: rgba(255, 255, 255, 0.2);
-  transform: translateX(-3px);
+  border-color: rgba(253, 187, 45, 0.76);
+  transform: translateY(-2px) scale(1.03);
+  box-shadow:
+    0 16px 42px rgba(0, 0, 0, 0.42),
+    0 0 34px rgba(253, 187, 45, 0.32);
+}
+
+.back-btn:hover::before {
+  transform: translateX(120%);
+}
+
+.back-btn-icon {
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.18);
+  box-shadow: inset 0 0 12px rgba(255, 255, 255, 0.16);
+  font-size: 1.15rem;
+}
+
+.back-btn-text {
+  line-height: 1;
 }
 
 .logo {
@@ -799,6 +843,12 @@ header {
 @media (max-width: 768px) {
   .header-inner { padding: 10px 15px; }
   .logo-text { font-size: 1.1rem; }
+  .back-btn {
+    min-width: 48px;
+    width: 48px;
+    padding: 0;
+  }
+  .back-btn-text { display: none; }
   .hero { min-height: 300px; }
   .hero h1 { font-size: 2.5rem; }
   .filters-bar { top: 60px; }
