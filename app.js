@@ -650,11 +650,22 @@ function getPlaceActivities(place) {
     return getRomeActivityIdeas(place).slice(0, 6).map(([title, description], index) => ({
         title,
         description,
-        image: place.imagen || place.imagenCard,
+        image: getRomeActivityImage(place, index),
         provider: providers[index].name,
         contact: providers[index].contact,
         schedule: providers[index].schedule
     }));
+}
+
+function getRomeActivityImage(place, index) {
+    const slug = place.nombre
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, '')
+        .replace(/^$/, 'actividad');
+
+    return `img/roma_activities/${slug}_${index + 1}.png`;
 }
 
 function renderPlaceActivities(place) {
