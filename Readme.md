@@ -1,6 +1,13 @@
 # Registro de Cambios - TravelWorld PWA 🌍✨
 
+## [2026-05-07] - Revisión de Activos de El Cairo: Giza 🇪🇬🏛️
+- **Refinamiento de Imagen**: Generada una nueva imagen ultra-premium (8K, estilo National Geographic) para las **Pirámides de Giza**.
+- **Documentación**: Creado artefacto de revisión en `artefactos/cairo_review.md` con la previsualización de la nueva imagen.
+- **Registro de Prompts**: Actualizado `prompts/prompts.md` con las instrucciones exactas usadas para la generación.
+- **Nota Técnica**: Pendiente de copia manual a la carpeta `img/` debido a restricciones de permisos del entorno actual.
+
 ## [2026-05-06] - Auditoría de Imágenes y Sincronización de Londres 🇬🇧📸
+
 - **Auditoría de Activos**: Verificación completa de las 116 imágenes locales generadas. 11 ciudades (Roma, París, El Cairo, Ciudad del Cabo, Tokio, Bangkok, NYC, Ciudad de México, Río, Lima, Sídney) están totalmente integradas con sus 10 imágenes correspondientes.
 - **Corrección en Londres**: Se han añadido 3 puntos de interés adicionales (Camden Market, Hyde Park y Tower Bridge) a `cities.json` y `data/londres.json` para aprovechar las imágenes locales disponibles, pasando de 3 a 6 lugares operativos.
 ## 🚀 Estado de la Transformación Premium
