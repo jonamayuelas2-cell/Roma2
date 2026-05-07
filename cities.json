@@ -1710,46 +1710,134 @@
         "id": 1,
         "nombre": "Cristo Redentor",
         "tipo": "cultura",
-        "descripcion": "Cristo Redentor es una visita destacada de Río de Janeiro, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-        "descripcionCorta": "Cristo Redentor es una visita destacada de Río de Janeiro, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad.",
+        "descripcion": "El monumento más icónico de Brasil, situado en la cima del cerro del Corcovado. Esta estatua Art Déco de 38 metros ofrece una de las vistas más impresionantes del mundo, abrazando a la 'Cidade Maravilhosa'.",
+        "descripcionCorta": "El guardián de piedra que abraza a Río.",
         "lat": -22.9519,
         "lng": -43.2105,
-        "horario": "9:00 - 18:00",
-        "precio": "Desde 8 EUR",
-        "rating": 4.5,
+        "horario": "8:00 - 19:00",
+        "precio": "Desde 15 EUR (incluye transporte)",
+        "rating": 4.9,
         "imagen": "img/rio_cristoredentor.png",
         "imagenCard": "img/rio_cristoredentor.png",
         "tags": [
           "cultura",
-          "sudamerica",
-          "rio de janeiro"
+          "panorama",
+          "icono"
+        ],
+        "actividades": [
+          {
+            "titulo": "Tour al amanecer",
+            "descripcion": "Evita las multitudes y disfruta de la primera luz sobre la bahía.",
+            "proveedor": "Rio Exclusive Tours",
+            "contacto": "rioexclusive.com",
+            "horario": "6:00 - 9:00"
+          },
+          {
+            "titulo": "Tren del Corcovado",
+            "descripcion": "Ascenso histórico a través de la selva tropical de Tijuca.",
+            "proveedor": "Trem do Corcovado",
+            "contacto": "tremdocorcovado.rio",
+            "horario": "Cada 20 min"
+          },
+          {
+            "titulo": "Vuelo en helicóptero",
+            "descripcion": "Vista aérea inigualable de la estatua y las playas.",
+            "proveedor": "Helisight",
+            "contacto": "helisight.com.br",
+            "horario": "Diario"
+          },
+          {
+            "titulo": "Senderismo por Tijuca",
+            "descripcion": "Caminata guiada por la selva hasta la base del monumento.",
+            "proveedor": "Jungle Me",
+            "contacto": "jungleme.com.br",
+            "horario": "Mañanas"
+          },
+          {
+            "titulo": "Sesión fotográfica",
+            "descripcion": "Fotógrafo profesional para capturar tu visita sin turistas de fondo.",
+            "proveedor": "Rio Photo Tour",
+            "contacto": "riophoto.com",
+            "horario": "Bajo reserva"
+          },
+          {
+            "titulo": "Cena en Santa Teresa",
+            "descripcion": "Tour combinado que termina con cena en el barrio bohemio.",
+            "proveedor": "Eat Rio",
+            "contacto": "eatrio.net",
+            "horario": "Tardes"
+          }
         ]
       },
       {
         "id": 2,
         "nombre": "Pan de Azúcar",
         "tipo": "parques",
-        "descripcion": "Pan de Azúcar es una visita destacada de Río de Janeiro, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-        "descripcionCorta": "Pan de Azúcar es una visita destacada de Río de Janeiro, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje.",
+        "descripcion": "Un imponente monolito de granito que se eleva sobre la Bahía de Guanabara. Su famoso teleférico conecta el Morro da Urca con la cima del Pan de Azúcar, brindando perspectivas únicas de la costa carioca.",
+        "descripcionCorta": "La joya de granito sobre la bahía.",
         "lat": -22.9486,
         "lng": -43.1565,
-        "horario": "7:00 - 20:00",
-        "precio": "Gratis",
-        "rating": 4.6,
+        "horario": "8:00 - 20:00",
+        "precio": "Desde 20 EUR",
+        "rating": 4.8,
         "imagen": "img/rio_pandeazucar.png",
         "imagenCard": "img/rio_pandeazucar.png",
         "tags": [
-          "parques",
-          "sudamerica",
-          "rio de janeiro"
+          "naturaleza",
+          "vistas",
+          "teleferico"
+        ],
+        "actividades": [
+          {
+            "titulo": "Bondinho al atardecer",
+            "descripcion": "La mejor hora para ver cómo se encienden las luces de la ciudad.",
+            "proveedor": "Bondinho Pão de Açúcar",
+            "contacto": "bondinho.com.br",
+            "horario": "17:00 - 19:30"
+          },
+          {
+            "titulo": "Escalada en roca",
+            "descripcion": "Asciende el Pan de Azúcar por rutas de escalada famosas mundialmente.",
+            "proveedor": "Climb in Rio",
+            "contacto": "climbinrio.com",
+            "horario": "Bajo reserva"
+          },
+          {
+            "titulo": "Picnic en Morro da Urca",
+            "descripcion": "Disfruta de productos locales en la primera parada del teleférico.",
+            "proveedor": "Urca Gourmet",
+            "contacto": "urcagourmet.com",
+            "horario": "12:00 - 16:00"
+          },
+          {
+            "titulo": "Tour de Geología",
+            "descripcion": "Aprende sobre la formación de estos domos de granito únicos.",
+            "proveedor": "GeoRio Tours",
+            "contacto": "georio.gov.br",
+            "horario": "Sábados"
+          },
+          {
+            "titulo": "Avistamiento de fauna",
+            "descripcion": "Busca monos tití y aves tropicales en los senderos del morro.",
+            "proveedor": "Wild Rio",
+            "contacto": "wildrio.com.br",
+            "horario": "Mañanas"
+          },
+          {
+            "titulo": "Noche de música",
+            "descripcion": "Eventos de música en vivo en el anfiteatro de la cima.",
+            "proveedor": "Morro da Urca Events",
+            "contacto": "morrodaurca.com",
+            "horario": "Fines de semana"
+          }
         ]
       },
       {
         "id": 3,
         "nombre": "Copacabana",
         "tipo": "barrios",
-        "descripcion": "Copacabana es una visita destacada de Río de Janeiro, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-        "descripcionCorta": "Copacabana es una visita destacada de Río de Janeiro, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad.",
+        "descripcion": "Probablemente la playa más famosa del mundo, con su característico paseo de mosaicos ondulados. Un lugar donde la cultura de playa, el deporte y el glamour vintage se encuentran frente al Atlántico.",
+        "descripcionCorta": "El alma vibrante de la costa carioca.",
         "lat": -22.9711,
         "lng": -43.1822,
         "horario": "24h",
@@ -1758,123 +1846,431 @@
         "imagen": "img/rio_copacabana.png",
         "imagenCard": "img/rio_copacabana.png",
         "tags": [
-          "barrios",
-          "sudamerica",
-          "rio de janeiro"
+          "playa",
+          "deporte",
+          "vida nocturna"
+        ],
+        "actividades": [
+          {
+            "titulo": "Vóley playa con locales",
+            "descripcion": "Únete a un partido en las redes públicas de la arena.",
+            "proveedor": "Copacabana Beach Club",
+            "contacto": "copabeach.com.br",
+            "horario": "Mañanas"
+          },
+          {
+            "titulo": "Clase de Samba nocturna",
+            "descripcion": "Aprende los pasos básicos antes de ir a un club local.",
+            "proveedor": "Rio Samba School",
+            "contacto": "riosamba.com",
+            "horario": "20:00 - 22:00"
+          },
+          {
+            "titulo": "Caminata por el Calçadão",
+            "descripcion": "Recorrido por los 4km de mosaicos diseñados por Burle Marx.",
+            "proveedor": "Cultural Rio",
+            "contacto": "culturalrio.com",
+            "horario": "Cualquier hora"
+          },
+          {
+            "titulo": "Desayuno en el Forte",
+            "descripcion": "Empieza el día con vistas a toda la playa desde el fuerte militar.",
+            "proveedor": "Confeitaria Colombo Forte",
+            "contacto": "confeitariacolombo.com.br",
+            "horario": "10:00 - 12:00"
+          },
+          {
+            "titulo": "Tour de Arquitectura Art Déco",
+            "descripcion": "Descubre los edificios históricos detrás de la avenida atlántica.",
+            "proveedor": "Rio Art Deco",
+            "contacto": "rioartdeco.com.br",
+            "horario": "Bajo reserva"
+          },
+          {
+            "titulo": "Paddle Surf al amanecer",
+            "descripcion": "Rema en aguas tranquilas cerca del Puesto 6.",
+            "proveedor": "Surf Rio",
+            "contacto": "surfrio.com",
+            "horario": "6:00 - 8:00"
+          }
         ]
       },
       {
         "id": 4,
         "nombre": "Ipanema",
         "tipo": "barrios",
-        "descripcion": "Ipanema es una visita destacada de Río de Janeiro, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-        "descripcionCorta": "Ipanema es una visita destacada de Río de Janeiro, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad.",
+        "descripcion": "Sofisticada y moderna, Ipanema es el epicentro de la moda y las tendencias en Río. Su playa es famosa por las puestas de sol en Arpoador y su ambiente inclusivo y cosmopolita.",
+        "descripcionCorta": "Elegancia, moda y atardeceres mágicos.",
         "lat": -22.9847,
         "lng": -43.1986,
         "horario": "24h",
         "precio": "Gratis",
-        "rating": 4.7,
+        "rating": 4.8,
         "imagen": "img/rio_ipanema.png",
         "imagenCard": "img/rio_ipanema.png",
         "tags": [
-          "barrios",
-          "sudamerica",
-          "rio de janeiro"
+          "moda",
+          "sunset",
+          "lifestyle"
+        ],
+        "actividades": [
+          {
+            "titulo": "Aplauso al sol en Arpoador",
+            "descripcion": "Únete a la tradición local de aplaudir cuando el sol se pone.",
+            "proveedor": "Arpoador Community",
+            "contacto": "arpoador.rio",
+            "horario": "Al atardecer"
+          },
+          {
+            "titulo": "Feria Hippie de Ipanema",
+            "descripcion": "Mercado dominical de artesanía, arte y comida típica.",
+            "proveedor": "Feira Hippie Ipanema",
+            "contacto": "feirahippieipanema.com",
+            "horario": "Domingos 8:00-18:00"
+          },
+          {
+            "titulo": "Ruta de la Bossa Nova",
+            "descripcion": "Visita los bares donde nació el género, como Garota de Ipanema.",
+            "proveedor": "Bossa Rio Tours",
+            "contacto": "bossario.net",
+            "horario": "Tardes"
+          },
+          {
+            "titulo": "Compras en Rua Garcia d'Avila",
+            "descripcion": "Tour por las boutiques de lujo y marcas brasileñas.",
+            "proveedor": "Rio Fashion Guide",
+            "contacto": "riofashion.com.br",
+            "horario": "10:00 - 19:00"
+          },
+          {
+            "titulo": "Clase de Capoeira",
+            "descripcion": "Entrenamiento básico en la arena de la playa.",
+            "proveedor": "Capoeira Brasil",
+            "contacto": "capoeirabrasil.com",
+            "horario": "Bajo reserva"
+          },
+          {
+            "titulo": "Tour de Gastronomía",
+            "descripcion": "Degustación de zumos tropicales y snacks saludables.",
+            "proveedor": "Polis Sucos",
+            "contacto": "polissucos.com.br",
+            "horario": "Mañanas"
+          }
         ]
       },
       {
         "id": 5,
         "nombre": "Escalera Selaron",
         "tipo": "cultura",
-        "descripcion": "Escalera Selaron es una visita destacada de Río de Janeiro, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-        "descripcionCorta": "Escalera Selaron es una visita destacada de Río de Janeiro, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad.",
+        "descripcion": "Una explosión de color creada por el artista Jorge Selarón como tributo al pueblo brasileño. Estos 215 escalones revestidos con más de 2000 azulejos de todo el mundo unen los barrios de Lapa y Santa Teresa.",
+        "descripcionCorta": "El mosaico de colores más famoso del mundo.",
         "lat": -22.9153,
         "lng": -43.1796,
-        "horario": "9:00 - 18:00",
-        "precio": "Desde 8 EUR",
+        "horario": "24h",
+        "precio": "Gratis",
         "rating": 4.8,
         "imagen": "img/rio_selaron.png",
         "imagenCard": "img/rio_selaron.png",
         "tags": [
-          "cultura",
-          "sudamerica",
-          "rio de janeiro"
+          "arte",
+          "calle",
+          "color"
+        ],
+        "actividades": [
+          {
+            "titulo": "Tour de arte urbano",
+            "descripcion": "Explora los graffitis de Lapa y la historia de Selarón.",
+            "proveedor": "Rio Street Art",
+            "contacto": "riostreetart.com",
+            "horario": "Mañanas"
+          },
+          {
+            "titulo": "Búsqueda del azulejo",
+            "descripcion": "Encuentra azulejos de tu propio país entre los miles de la escalera.",
+            "proveedor": "Self-guided",
+            "contacto": "n/a",
+            "horario": "24h"
+          },
+          {
+            "titulo": "Paseo por Santa Teresa",
+            "descripcion": "Sube los escalones para explorar el barrio de los artistas.",
+            "proveedor": "Santa Teresa Guide",
+            "contacto": "santateresa.rio",
+            "horario": "Diario"
+          },
+          {
+            "titulo": "Taller de Mosaico",
+            "descripcion": "Crea tu propio azulejo inspirado en el estilo de Selarón.",
+            "proveedor": "Lapa Arts",
+            "contacto": "lapaarts.br",
+            "horario": "Bajo reserva"
+          },
+          {
+            "titulo": "Noche de Samba en Lapa",
+            "descripcion": "Disfruta de la música en vivo cerca de los Arcos de Lapa.",
+            "proveedor": "Circo Voador",
+            "contacto": "circovoador.com.br",
+            "horario": "Noches"
+          },
+          {
+            "titulo": "Fotografía creativa",
+            "descripcion": "Aprende a jugar con las perspectivas y los colores vibrantes.",
+            "proveedor": "InstaRio",
+            "contacto": "instario.photo",
+            "horario": "Mañanas"
+          }
         ]
       },
       {
         "id": 6,
         "nombre": "Jardín Botánico",
         "tipo": "parques",
-        "descripcion": "Jardín Botánico es una visita destacada de Río de Janeiro, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-        "descripcionCorta": "Jardín Botánico es una visita destacada de Río de Janeiro, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje.",
+        "descripcion": "Un oasis de tranquilidad y biodiversidad fundado en 1808. Sus imponentes avenidas de palmeras imperiales y su colección de orquídeas y plantas exóticas lo convierten en un santuario botánico de primer orden.",
+        "descripcionCorta": "Paz y biodiversidad en el corazón urbano.",
         "lat": -22.9674,
         "lng": -43.223,
-        "horario": "7:00 - 20:00",
-        "precio": "Gratis",
-        "rating": 4.5,
+        "horario": "8:00 - 17:00",
+        "precio": "Desde 10 EUR",
+        "rating": 4.7,
         "imagen": "img/rio_jardinbotanico.png",
         "imagenCard": "img/rio_jardinbotanico.png",
         "tags": [
-          "parques",
-          "sudamerica",
-          "rio de janeiro"
+          "naturaleza",
+          "relax",
+          "botanica"
+        ],
+        "actividades": [
+          {
+            "titulo": "Avenida de las Palmeras",
+            "descripcion": "Caminata fotográfica por la icónica entrada de palmeras imperiales.",
+            "proveedor": "JBRJ",
+            "contacto": "jbrj.gov.br",
+            "horario": "Diario"
+          },
+          {
+            "titulo": "Visita al Orquidario",
+            "descripcion": "Explora una de las mayores colecciones de orquídeas de Brasil.",
+            "proveedor": "Amigos do Jardim",
+            "contacto": "amigosdojardim.org.br",
+            "horario": "Mañanas"
+          },
+          {
+            "titulo": "Observación de aves",
+            "descripcion": "Tour especializado para ver tucanes y otras especies tropicales.",
+            "proveedor": "Birding Rio",
+            "contacto": "birdingrio.info",
+            "horario": "6:00 - 9:00"
+          },
+          {
+            "titulo": "Taller de acuarela",
+            "descripcion": "Pinta la naturaleza en vivo en los rincones más bellos del jardín.",
+            "proveedor": "Art Rio",
+            "contacto": "artrio.com.br",
+            "horario": "Sábados"
+          },
+          {
+            "titulo": "Museo del Medio Ambiente",
+            "descripcion": "Visita las exposiciones sobre la conservación de la Mata Atlántica.",
+            "proveedor": "Museu do Meio Ambiente",
+            "contacto": "jbrj.gov.br/museu",
+            "horario": "10:00 - 16:00"
+          },
+          {
+            "titulo": "Té en La Bicyclette",
+            "descripcion": "Disfruta de repostería artesanal dentro del recinto del jardín.",
+            "proveedor": "La Bicyclette",
+            "contacto": "labicyclette.com.br",
+            "horario": "Diario"
+          }
         ]
       },
       {
         "id": 7,
         "nombre": "Museu do Amanhã",
         "tipo": "museos",
-        "descripcion": "Museu do Amanhã es una visita destacada de Río de Janeiro, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-        "descripcionCorta": "Museu do Amanhã es una visita destacada de Río de Janeiro, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares.",
+        "descripcion": "Una maravilla arquitectónica de Santiago Calatrava dedicada a la ciencia y la sostenibilidad. Un museo interactivo que nos invita a reflexionar sobre el futuro de la humanidad y del planeta.",
+        "descripcionCorta": "Un viaje interactivo hacia el futuro.",
         "lat": -22.8942,
         "lng": -43.1792,
         "horario": "10:00 - 18:00",
-        "precio": "Desde 12 EUR",
-        "rating": 4.6,
+        "precio": "Desde 6 EUR",
+        "rating": 4.8,
         "imagen": "img/rio_museudoamanha.png",
         "imagenCard": "img/rio_museudoamanha.png",
         "tags": [
-          "museos",
-          "sudamerica",
-          "rio de janeiro"
+          "ciencia",
+          "futuro",
+          "arquitectura"
+        ],
+        "actividades": [
+          {
+            "titulo": "Recorrido por la Cosmos",
+            "descripcion": "Experiencia inmersiva 360 grados sobre el origen del universo.",
+            "proveedor": "Museu do Amanhã",
+            "contacto": "museudoamanha.org.br",
+            "horario": "Cada 30 min"
+          },
+          {
+            "titulo": "Tour de Arquitectura",
+            "descripcion": "Descubre los secretos del diseño sostenible de Calatrava.",
+            "proveedor": "Porto Maravilha Tours",
+            "contacto": "portomaravilha.rio",
+            "horario": "Martes y Jueves"
+          },
+          {
+            "titulo": "Talleres de Sostenibilidad",
+            "descripcion": "Actividades prácticas sobre reciclaje y energías limpias.",
+            "proveedor": "Educativo Amanhã",
+            "contacto": "museudoamanha.org.br/educativo",
+            "horario": "Fines de semana"
+          },
+          {
+            "titulo": "Paseo por el Boulevard Olímpico",
+            "descripcion": "Caminata por la zona portuaria renovada y sus murales.",
+            "proveedor": "Rio Free Walk",
+            "contacto": "riofreewalk.com",
+            "horario": "10:00 - 13:00"
+          },
+          {
+            "titulo": "Realidad Aumentada",
+            "descripcion": "Usa la app del museo para ver el futuro de los océanos.",
+            "proveedor": "Museu Digital",
+            "contacto": "museudoamanha.org.br/app",
+            "horario": "Cualquier momento"
+          },
+          {
+            "titulo": "Atardecer en la Bahía",
+            "descripcion": "Disfruta de las vistas desde el muelle exterior del museo.",
+            "proveedor": "Self-guided",
+            "contacto": "n/a",
+            "horario": "17:30 - 18:30"
+          }
         ]
       },
       {
         "id": 8,
         "nombre": "Feira de Sao Cristovao",
         "tipo": "mercados",
-        "descripcion": "Feira de Sao Cristovao es una visita destacada de Río de Janeiro, una referencia: mercado lleno de puestos, productos locales y escenas cotidianas. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-        "descripcionCorta": "Feira de Sao Cristovao es una visita destacada de Río de Janeiro, una referencia: mercado lleno de puestos, productos locales y escenas cotidianas.",
+        "descripcion": "El Centro de Tradiciones Nordestinas es un pedazo del noreste de Brasil en Río. Un mercado gigante donde la música forró, la comida típica y la artesanía crean una atmósfera festiva única.",
+        "descripcionCorta": "El corazón del noreste en Río.",
         "lat": -22.8979,
         "lng": -43.2227,
-        "horario": "9:00 - 15:00",
-        "precio": "Gratis",
-        "rating": 4.7,
+        "horario": "10:00 - 18:00 (Fines de semana hasta tarde)",
+        "precio": "Desde 2 EUR",
+        "rating": 4.6,
         "imagen": "img/rio_feirasaocristovao.png",
         "imagenCard": "img/rio_feirasaocristovao.png",
         "tags": [
-          "mercados",
-          "sudamerica",
-          "rio de janeiro"
+          "cultura",
+          "comida",
+          "musica"
+        ],
+        "actividades": [
+          {
+            "titulo": "Danza Forró",
+            "descripcion": "Aprende a bailar el ritmo más popular del noreste.",
+            "proveedor": "Palco Nordeste",
+            "contacto": "feiradesaocristovao.org.br",
+            "horario": "Noches de fin de semana"
+          },
+          {
+            "titulo": "Degustación de Carne de Sol",
+            "descripcion": "Prueba el plato estrella en los mejores restaurantes de la feria.",
+            "proveedor": "Restaurante Maria e Cangaço",
+            "contacto": "mariaecangaco.com.br",
+            "horario": "12:00 - 22:00"
+          },
+          {
+            "titulo": "Taller de Literatura de Cordel",
+            "descripcion": "Crea tus propios versos ilustrados con xilografía.",
+            "proveedor": "Cordelistas do Rio",
+            "contacto": "cordel.org.br",
+            "horario": "Bajo reserva"
+          },
+          {
+            "titulo": "Compras de Artesanía",
+            "descripcion": "Encuentra sombreros de cuero, hamacas y cerámica típica.",
+            "proveedor": "Artesãos da Feira",
+            "contacto": "feiradesaocristovao.org.br",
+            "horario": "Diario"
+          },
+          {
+            "titulo": "Karaoke de Repente",
+            "descripcion": "Participa en los duelos de rimas improvisadas.",
+            "proveedor": "Repentistas Associados",
+            "contacto": "repente.rio",
+            "horario": "Tardes"
+          },
+          {
+            "titulo": "Cata de Cachaça",
+            "descripcion": "Prueba variedades artesanales de todo el país.",
+            "proveedor": "Cachaçaria da Feira",
+            "contacto": "cachaca.br",
+            "horario": "14:00 - 20:00"
+          }
         ]
       },
       {
         "id": 9,
         "nombre": "Confeitaria Colombo",
         "tipo": "cafes",
-        "descripcion": "Confeitaria Colombo es una visita destacada de Río de Janeiro, una referencia: café con ambiente propio para hacer una pausa entre visitas. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-        "descripcionCorta": "Confeitaria Colombo es una visita destacada de Río de Janeiro, una referencia: café con ambiente propio para hacer una pausa entre visitas.",
+        "descripcion": "Un templo de la Belle Époque carioca fundado en 1894. Sus espejos belgas, maderas talladas y vitrales te transportan a una época de elegancia y sofisticación mientras disfrutas de su repostería clásica.",
+        "descripcionCorta": "La elegancia de la Belle Époque carioca.",
         "lat": -22.9067,
         "lng": -43.1784,
-        "horario": "8:00 - 20:00",
+        "horario": "9:00 - 19:00",
         "precio": "Desde 5 EUR",
-        "rating": 4.7,
+        "rating": 4.8,
         "imagen": "img/rio_confeitariacolombo.png",
         "imagenCard": "img/rio_confeitariacolombo.png",
         "tags": [
-          "cafes",
-          "sudamerica",
-          "rio de janeiro"
+          "historia",
+          "gastronomia",
+          "belle-epoque"
+        ],
+        "actividades": [
+          {
+            "titulo": "Té de la Tarde",
+            "descripcion": "El servicio clásico completo en el salón principal.",
+            "proveedor": "Confeitaria Colombo",
+            "contacto": "confeitariacolombo.com.br",
+            "horario": "15:00 - 18:00"
+          },
+          {
+            "titulo": "Tour Histórico guiado",
+            "descripcion": "Conoce las personalidades que frecuentaban el café.",
+            "proveedor": "Historiadores Rio",
+            "contacto": "historiorio.com",
+            "horario": "Bajo reserva"
+          },
+          {
+            "titulo": "Cata de Dulces Portugueses",
+            "descripcion": "Prueba los pasteles de nata y quindins tradicionales.",
+            "proveedor": "Colombo Doces",
+            "contacto": "confeitariacolombo.com.br",
+            "horario": "Diario"
+          },
+          {
+            "titulo": "Sesión de Fotos Vintage",
+            "descripcion": "Ideal para retratos con la luz de las claraboyas históricas.",
+            "proveedor": "Vintage Rio Photo",
+            "contacto": "vintagephoto.rio",
+            "horario": "Mañanas"
+          },
+          {
+            "titulo": "Almuerzo en el Cristóvão",
+            "descripcion": "Menú ejecutivo en la planta superior con vistas al salón.",
+            "proveedor": "Restaurante Cristóvão",
+            "contacto": "confeitariacolombo.com.br",
+            "horario": "12:00 - 15:00"
+          },
+          {
+            "titulo": "Compra de regalos",
+            "descripcion": "Lata de galletas decorativa con el diseño original de 1894.",
+            "proveedor": "Loja Colombo",
+            "contacto": "confeitariacolombo.com.br",
+            "horario": "Diario"
+          }
         ]
       }
     ]

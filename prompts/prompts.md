@@ -51,4 +51,14 @@
 *   🔄 **Pendiente:** Generación de las 49 imágenes de actividades restantes una vez se restablezca la cuota.
 
 **Cambios en el JSON:**
-*   Actualizada la imagen `hero` de Estambul por `img/istanbul_bosphorus.png` para un look más premium en el globo.
+## 🕒 2026-05-07 19:05
+**User Request:** "generame las actividades para cada lugar de Rio de Janeiro"
+
+**Plan Rio Premium:**
+1. Definir 54 actividades (6 por cada uno de los 9 lugares) con datos reales/premium para Rio de Janeiro. ✅
+2. Sincronizar `cities.json` y `data/rio.json` con la nueva estructura. ✅
+3. Documentar en `Readme.md` y guardar artefacto. ✅
+
+**Generación de Datos:**
+*   Se utilizó un script de Python (`scratch/generate_rio.py`) para estructurar los 9 lugares con sus respectivas 6 actividades cada uno, asegurando coherencia con el modelo de Estambul y Roma.
+*   Las actividades incluyen proveedores ficticios pero realistas, horarios, y descripciones detalladas.
