@@ -38,9 +38,29 @@ async function loadCities() {
     try {
         const response = await fetch(`cities.json?v=${Date.now()}`, { cache: 'no-store' });
         state.cities = await response.json();
+        updateSelectionStats();
     } catch (error) {
         console.error('Error cargando ciudades:', error);
     }
+}
+
+function getTotalActivitiesCount() {
+    return state.cities.reduce((total, city) => {
+        if (city.id !== 'roma') return total;
+        return total + (city.lugares?.length || 0) * 6;
+    }, 0);
+}
+
+function updateSelectionStats() {
+    const stats = document.querySelectorAll('.selection-stats span');
+    const totalPlaces = state.cities.reduce((total, city) => total + (city.lugares?.length || 0), 0);
+    const totalActivities = getTotalActivitiesCount();
+
+    if (stats[1]) stats[1].textContent = `${state.cities.length} ciudades`;
+    if (stats[2]) stats[2].textContent = `${totalPlaces} lugares`;
+
+    const activitiesEl = document.getElementById('selection-activities-count');
+    if (activitiesEl) activitiesEl.textContent = `${totalActivities} actividades`;
 }
 
 function ensureGlobeLibrary() {
@@ -512,6 +532,159 @@ function getPlaceExtraInfo(place) {
     return `Este lugar encaja dentro de ${typeLabel || 'los imprescindibles'} de ${cityName}. ${tagSentence} ${rating}`.replace(/\s+/g, ' ').trim();
 }
 
+function getRomeActivityProviders(place) {
+    const common = [
+        { name: 'GetYourGuide Roma', contact: 'getyourguide.com/rome', schedule: 'Salidas diarias segun disponibilidad' },
+        { name: 'Civitatis Roma', contact: 'civitatis.com/roma', schedule: 'Manana y tarde, reserva online' },
+        { name: 'Tiqets Roma', contact: 'tiqets.com/rome', schedule: 'Horarios variables por actividad' },
+        { name: 'Walks of Italy', contact: 'walksofitaly.com/rome', schedule: 'Tours de manana, tarde y atardecer' },
+        { name: 'Withlocals Roma', contact: 'withlocals.com/rome', schedule: 'Experiencias privadas bajo reserva' },
+        { name: 'Roma Experience', contact: 'romaexperience.com', schedule: 'Tours privados y grupos reducidos' }
+    ];
+
+    const official = {
+        'Coliseo Romano': { name: 'Parco archeologico del Colosseo', contact: 'colosseo.it', schedule: place.horario },
+        'Foro Romano': { name: 'Parco archeologico del Colosseo', contact: 'colosseo.it', schedule: place.horario },
+        'Fontana di Trevi': { name: 'Turismo Roma', contact: 'turismoroma.it', schedule: 'Espacio abierto 24h' },
+        'Panteón de Agripa': { name: 'Pantheon Roma', contact: 'pantheonroma.com', schedule: place.horario },
+        'Museos Vaticanos': { name: 'Musei Vaticani', contact: 'museivaticani.va', schedule: place.horario },
+        'Trastevere': { name: 'Eating Europe', contact: 'eatingeurope.com/rome', schedule: 'Tarde y noche, reserva online' },
+        'Villa Borghese': { name: 'Galleria Borghese', contact: 'galleriaborghese.beniculturali.it', schedule: place.horario },
+        "Campo de' Fiori": { name: 'Mercato Campo de Fiori', contact: 'turismoroma.it', schedule: place.horario },
+        'Salumeria Roscioli': { name: 'Roscioli', contact: 'roscioli.com', schedule: place.horario }
+    };
+
+    return [official[place.nombre] || common[0], ...common].slice(0, 6);
+}
+
+function getRomeActivityIdeas(place) {
+    const byPlace = {
+        'Coliseo Romano': [
+            ['Visita guiada a la arena', 'Acceso interpretado a la zona de arena para entender el anfiteatro desde dentro.'],
+            ['Subterraneos y tercer anillo', 'Recorrido por pasajes tecnicos, hipogeos y miradores superiores cuando hay cupo.'],
+            ['Tour Coliseo + Foro + Palatino', 'Ruta clasica combinada para hilar la Roma imperial en una sola manana.'],
+            ['Experiencia nocturna exterior', 'Paseo fotografico al caer el sol alrededor del anfiteatro iluminado.'],
+            ['Ruta familiar de gladiadores', 'Actividad narrativa pensada para ninos y familias con contexto historico ligero.'],
+            ['Sesion fotografica historica', 'Reportaje privado en exteriores con el Coliseo como escenario principal.']
+        ],
+        'Foro Romano': [
+            ['Ruta arqueologica guiada', 'Lectura de templos, basilicas y vias antiguas con guia especializado.'],
+            ['Palatino y origen de Roma', 'Paseo por la colina palatina para conectar mito, poder y paisaje.'],
+            ['Tour de emperadores', 'Itinerario centrado en Julio Cesar, Augusto y la transformacion imperial.'],
+            ['Paseo fotografico al atardecer', 'Composiciones entre ruinas, cipreses y luz dorada sobre el Foro.'],
+            ['Visita combinada con Coliseo', 'Entrada y explicacion conjunta para aprovechar el billete arqueologico.'],
+            ['Ruta de arquitectura romana', 'Actividad centrada en arcos, columnas, templos y tecnicas constructivas.']
+        ],
+        'Fontana di Trevi': [
+            ['Paseo barroco nocturno', 'Ruta a pie por Trevi, plazas y fuentes iluminadas del centro historico.'],
+            ['Sesion fotografica temprano', 'Fotos sin aglomeraciones en las primeras horas del dia.'],
+            ['Tour de fuentes de Roma', 'Recorrido tematico por el agua, los acueductos y las fuentes monumentales.'],
+            ['Ruta cine en Roma', 'Paseo por escenarios iconicos vinculados al imaginario cinematografico romano.'],
+            ['Helado y plazas cercanas', 'Experiencia ligera por heladerias artesanas y rincones proximos.'],
+            ['Audioguia express', 'Visita breve con contexto artistico para entender la composicion barroca.']
+        ],
+        'Panteón de Agripa': [
+            ['Visita guiada del oculo', 'Explicacion arquitectonica de la cupula, el oculo y la luz interior.'],
+            ['Tour de templos antiguos', 'Ruta por el Panteon y restos romanos del Campo Marzio.'],
+            ['Concierto o experiencia musical', 'Actividad cultural cuando hay programacion especial en el entorno.'],
+            ['Paseo plazas del centro', 'Itinerario por Piazza della Rotonda, Navona y calles historicas cercanas.'],
+            ['Visita privada de arquitectura', 'Lectura tecnica de materiales, proporciones y transformaciones historicas.'],
+            ['Ruta fotografica interior-exterior', 'Sesion para captar fachada, columnas y luz cenital.']
+        ],
+        'Museos Vaticanos': [
+            ['Entrada guiada Museos Vaticanos', 'Recorrido por galerias esenciales, Estancias de Rafael y Capilla Sixtina.'],
+            ['Primer acceso de manana', 'Visita temprana para reducir esperas y optimizar el recorrido.'],
+            ['Tour arte renacentista', 'Actividad centrada en Miguel Angel, Rafael y los grandes programas papales.'],
+            ['Museos + Basilica de San Pedro', 'Ruta combinada por colecciones vaticanas y entorno basilical.'],
+            ['Visita familiar con guia', 'Recorrido didactico para ninos con paradas seleccionadas.'],
+            ['Tour privado de arte sacro', 'Experiencia a medida para profundizar en iconografia y colecciones.']
+        ],
+        'Trastevere': [
+            ['Tour gastronomico de noche', 'Ruta por trattorias, vinos, suppli y sabores romanos de barrio.'],
+            ['Paseo de iglesias y callejones', 'Recorrido por Santa Maria in Trastevere y rincones medievales.'],
+            ['Clase de pasta en Trastevere', 'Taller practico para aprender pasta fresca y salsas clasicas.'],
+            ['Ruta de aperitivo romano', 'Experiencia de tarde entre bares locales y plazas animadas.'],
+            ['Sesion fotografica urbana', 'Fotos entre hiedra, adoquines y fachadas ocres.'],
+            ['Tour privado de vida local', 'Paseo contextual por historia, artesanos y vida cotidiana.']
+        ],
+        'Villa Borghese': [
+            ['Galeria Borghese con guia', 'Visita a Bernini, Caravaggio y Canova con explicacion experta.'],
+            ['Paseo en bicicleta o carrito', 'Recorrido relajado por jardines, lagos y miradores del parque.'],
+            ['Picnic panoramico', 'Experiencia tranquila con parada en el Pincio sobre Piazza del Popolo.'],
+            ['Ruta arte y naturaleza', 'Itinerario por esculturas, fuentes y paisajismo historico.'],
+            ['Visita familiar al parque', 'Actividad suave para ninos con lago, jardines y espacios abiertos.'],
+            ['Fotografia al atardecer', 'Sesion en miradores y avenidas arboladas con luz dorada.']
+        ],
+        "Campo de' Fiori": [
+            ['Tour de mercado por la manana', 'Visita a puestos de frutas, flores, quesos y productos romanos.'],
+            ['Clase de cocina con compra previa', 'Compra en mercado y taller de pasta o cocina romana.'],
+            ['Ruta aperitivo Campo-Navona', 'Paseo de tarde por bares, plazas y calles cercanas.'],
+            ['Degustacion gourmet', 'Actividad de quesos, embutidos, vinos y especialidades locales.'],
+            ['Paseo historico del centro', 'Contexto de la plaza, Giordano Bruno y el tejido urbano cercano.'],
+            ['Tour fotografico de mercado', 'Sesion matinal con colores, flores y vida diaria.']
+        ],
+        'Salumeria Roscioli': [
+            ['Cata de vinos y salumi', 'Degustacion guiada de vinos italianos, quesos y embutidos seleccionados.'],
+            ['Cena romana en Roscioli', 'Reserva para probar clasicos como carbonara, amatriciana y producto gourmet.'],
+            ['Clase de cocina Roscioli', 'Taller culinario vinculado a pasta, producto y tecnicas romanas.'],
+            ['Ruta gourmet del centro', 'Paseo por forno, salumeria y tiendas gastronomicas historicas.'],
+            ['Maridaje privado', 'Experiencia a medida para vino, quesos y conservas italianas.'],
+            ['Compra asesorada delicatessen', 'Seleccion de producto para llevar: pasta, vino, aceite y embutidos.']
+        ]
+    };
+
+    return byPlace[place.nombre] || [
+        ['Visita guiada esencial', `Recorrido interpretado por ${place.nombre} y su contexto historico.`],
+        ['Paseo fotografico', 'Actividad pensada para encontrar buenos encuadres y luz adecuada.'],
+        ['Tour privado a medida', 'Experiencia flexible con guia local segun intereses del viajero.'],
+        ['Ruta familiar', 'Version didactica y ligera para visitar sin saturar a los mas pequenos.'],
+        ['Experiencia al atardecer', 'Visita en la franja mas fotogenica del dia.'],
+        ['Audioguia express', 'Formato breve para entender lo esencial con autonomia.']
+    ];
+}
+
+function getPlaceActivities(place) {
+    if (state.currentCity?.id !== 'roma') return [];
+
+    const providers = getRomeActivityProviders(place);
+    return getRomeActivityIdeas(place).slice(0, 6).map(([title, description], index) => ({
+        title,
+        description,
+        image: place.imagen || place.imagenCard,
+        provider: providers[index].name,
+        contact: providers[index].contact,
+        schedule: providers[index].schedule
+    }));
+}
+
+function renderPlaceActivities(place) {
+    const section = document.getElementById('modal-activities-section');
+    const container = document.getElementById('modal-place-activities');
+    const activities = getPlaceActivities(place);
+
+    if (!activities.length) {
+        section.hidden = true;
+        container.innerHTML = '';
+        return;
+    }
+
+    section.hidden = false;
+    container.innerHTML = activities.map(activity => `
+        <article class="activity-card">
+            <img src="${assetUrl(activity.image)}" alt="${activity.title}">
+            <div class="activity-card-body">
+                <h4>${activity.title}</h4>
+                <p>${activity.description}</p>
+                <dl>
+                    <div><dt>Empresa</dt><dd>${activity.provider}</dd></div>
+                    <div><dt>Contacto</dt><dd>${activity.contact}</dd></div>
+                    <div><dt>Horario</dt><dd>${activity.schedule}</dd></div>
+                </dl>
+            </div>
+        </article>
+    `).join('');
+}
+
 function showPlaceDetails(place) {
     const modal = document.getElementById('place-modal');
     document.getElementById('modal-place-img').src = assetUrl(place.imagen || place.imagenCard);
@@ -523,6 +696,7 @@ function showPlaceDetails(place) {
     document.getElementById('modal-place-price').textContent = `Precio: ${place.precio || 'Consultar'}`;
     document.getElementById('modal-place-hours').textContent = `Horario: ${place.horario || 'Consultar'}`;
     document.getElementById('modal-place-rating').textContent = `Valoracion: ${place.rating || '4.7'} / 5`;
+    renderPlaceActivities(place);
     document.getElementById('modal-place-tags').innerHTML = (place.tags || [])
         .map(tag => `<span>${tag}</span>`)
         .join('');
