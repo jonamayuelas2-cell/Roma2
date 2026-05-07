@@ -1,3 +1,4 @@
+/*
  * CIUDADES DEL MUNDO PWA - Global Travel Guide
     * Dinámicamente carga datos de ciudades del mundo con un selector 3D(Globe.gl).
  */
