@@ -9,8 +9,8 @@
     "horario": "24h",
     "precio": "Gratis",
     "rating": 4.9,
-    "imagen": "https://picsum.photos/seed/charlesbridge/800/600",
-    "imagenCard": "https://picsum.photos/seed/charlesbridge/400/300",
+    "imagen": "img/prague_charlesbridge.png",
+    "imagenCard": "img/prague_charlesbridge.png",
     "tags": ["historia", "vistas", "romántico"]
   },
   {
@@ -23,8 +23,8 @@
     "horario": "9:00 - 17:00",
     "precio": "10€",
     "rating": 4.8,
-    "imagen": "https://picsum.photos/seed/praguecastle/800/600",
-    "imagenCard": "https://picsum.photos/seed/praguecastle/400/300",
+    "imagen": "img/prague_castle.png",
+    "imagenCard": "img/prague_castle.png",
     "tags": ["monarquía", "vistas", "historia"]
   }
 ]

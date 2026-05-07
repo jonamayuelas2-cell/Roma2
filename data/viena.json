@@ -9,8 +9,8 @@
     "horario": "8:30 - 17:30",
     "precio": "22€",
     "rating": 4.9,
-    "imagen": "https://picsum.photos/seed/schonbrunn/800/600",
-    "imagenCard": "https://picsum.photos/seed/schonbrunn/400/300",
+    "imagen": "img/vienna_schonbrunn.png",
+    "imagenCard": "img/vienna_schonbrunn.png",
     "tags": ["realeza", "historia", "jardines"]
   },
   {
@@ -23,8 +23,8 @@
     "horario": "6:00 - 22:00",
     "precio": "Gratis",
     "rating": 4.8,
-    "imagen": "https://picsum.photos/seed/stephans/800/600",
-    "imagenCard": "https://picsum.photos/seed/stephans/400/300",
+    "imagen": "img/vienna_stephansdom.png",
+    "imagenCard": "img/vienna_stephansdom.png",
     "tags": ["catedral", "vistas", "arquitectura"]
   }
 ]

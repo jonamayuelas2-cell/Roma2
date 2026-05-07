@@ -9,8 +9,8 @@
     "horario": "10:00 - 17:30",
     "precio": "6€",
     "rating": 4.8,
-    "imagen": "https://picsum.photos/seed/belem/800/600",
-    "imagenCard": "https://picsum.photos/seed/belem/400/300",
+    "imagen": "img/lisbon_belem.png",
+    "imagenCard": "img/lisbon_belem.png",
     "tags": ["historia", "arquitectura", "exploración"]
   },
   {
@@ -23,8 +23,8 @@
     "horario": "24h",
     "precio": "Gratis",
     "rating": 4.9,
-    "imagen": "https://picsum.photos/seed/alfama/800/600",
-    "imagenCard": "https://picsum.photos/seed/alfama/400/300",
+    "imagen": "img/lisbon_alfama.png",
+    "imagenCard": "img/lisbon_alfama.png",
     "tags": ["fado", "callejuelas", "tradición"]
   }
 ]
