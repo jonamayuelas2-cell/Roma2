@@ -1,173 +1,188 @@
-[
-  {
-    "id": 1,
-    "nombre": "Estatua de la Libertad",
-    "tipo": "cultura",
-    "descripcion": "Estatua de la Libertad es una visita destacada de Nueva York, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-    "descripcionCorta": "Estatua de la Libertad es una visita destacada de Nueva York, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad.",
-    "lat": 40.6892,
-    "lng": -74.0445,
-    "horario": "9:00 - 18:00",
-    "precio": "Desde 8 EUR",
-    "rating": 4.5,
-    "imagen": "img/nyc_liberty.png",
-    "imagenCard": "img/nyc_liberty.png",
-    "tags": [
-      "cultura",
-      "norteamerica",
-      "nueva york"
-    ]
+{
+  "id": "nyc",
+  "nombre": "Nueva York",
+  "pais": "Estados Unidos",
+  "continente": "America",
+  "emoji": "🇺🇸",
+  "lat": 40.7128,
+  "lng": -74.006,
+  "imagen": "img/nyc_hero.png",
+  "theme": {
+    "primary": "#333333",
+    "secondary": "#ffcc00",
+    "font": "'Outfit', sans-serif"
   },
-  {
-    "id": 2,
-    "nombre": "Central Park",
-    "tipo": "parques",
-    "descripcion": "Central Park es una visita destacada de Nueva York, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-    "descripcionCorta": "Central Park es una visita destacada de Nueva York, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje.",
-    "lat": 40.7829,
-    "lng": -73.9654,
-    "horario": "7:00 - 20:00",
-    "precio": "Gratis",
-    "rating": 4.6,
-    "imagen": "img/nyc_centralpark.png",
-    "imagenCard": "img/nyc_centralpark.png",
-    "tags": [
-      "parques",
-      "norteamerica",
-      "nueva york"
-    ]
-  },
-  {
-    "id": 3,
-    "nombre": "Metropolitan Museum of Art",
-    "tipo": "museos",
-    "descripcion": "Metropolitan Museum of Art es una visita destacada de Nueva York, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-    "descripcionCorta": "Metropolitan Museum of Art es una visita destacada de Nueva York, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares.",
-    "lat": 40.7794,
-    "lng": -73.9632,
-    "horario": "10:00 - 18:00",
-    "precio": "Desde 12 EUR",
-    "rating": 4.7,
-    "imagen": "img/nyc_met.png",
-    "imagenCard": "img/nyc_met.png",
-    "tags": [
-      "museos",
-      "norteamerica",
-      "nueva york"
-    ]
-  },
-  {
-    "id": 4,
-    "nombre": "Times Square",
-    "tipo": "barrios",
-    "descripcion": "Times Square es una visita destacada de Nueva York, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-    "descripcionCorta": "Times Square es una visita destacada de Nueva York, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad.",
-    "lat": 40.758,
-    "lng": -73.9855,
-    "horario": "24h",
-    "precio": "Gratis",
-    "rating": 4.7,
-    "imagen": "img/nyc_timessquare.png",
-    "imagenCard": "img/nyc_timessquare.png",
-    "tags": [
-      "barrios",
-      "norteamerica",
-      "nueva york"
-    ]
-  },
-  {
-    "id": 5,
-    "nombre": "High Line",
-    "tipo": "parques",
-    "descripcion": "High Line es una visita destacada de Nueva York, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-    "descripcionCorta": "High Line es una visita destacada de Nueva York, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje.",
-    "lat": 40.748,
-    "lng": -74.0048,
-    "horario": "7:00 - 20:00",
-    "precio": "Gratis",
-    "rating": 4.8,
-    "imagen": "img/nyc_highline.png",
-    "imagenCard": "img/nyc_highline.png",
-    "tags": [
-      "parques",
-      "norteamerica",
-      "nueva york"
-    ]
-  },
-  {
-    "id": 6,
-    "nombre": "Brooklyn Bridge",
-    "tipo": "cultura",
-    "descripcion": "Brooklyn Bridge es una visita destacada de Nueva York, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-    "descripcionCorta": "Brooklyn Bridge es una visita destacada de Nueva York, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad.",
-    "lat": 40.7061,
-    "lng": -73.9969,
-    "horario": "9:00 - 18:00",
-    "precio": "Desde 8 EUR",
-    "rating": 4.5,
-    "imagen": "img/nyc_brooklynbridge.png",
-    "imagenCard": "img/nyc_brooklynbridge.png",
-    "tags": [
-      "cultura",
-      "norteamerica",
-      "nueva york"
-    ]
-  },
-  {
-    "id": 7,
-    "nombre": "Chelsea Market",
-    "tipo": "mercados",
-    "descripcion": "Chelsea Market es una visita destacada de Nueva York, una referencia: mercado lleno de puestos, productos locales y escenas cotidianas. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-    "descripcionCorta": "Chelsea Market es una visita destacada de Nueva York, una referencia: mercado lleno de puestos, productos locales y escenas cotidianas.",
-    "lat": 40.7423,
-    "lng": -74.006,
-    "horario": "9:00 - 15:00",
-    "precio": "Gratis",
-    "rating": 4.6,
-    "imagen": "img/nyc_chelseamarket.png",
-    "imagenCard": "img/nyc_chelseamarket.png",
-    "tags": [
-      "mercados",
-      "norteamerica",
-      "nueva york"
-    ]
-  },
-  {
-    "id": 8,
-    "nombre": "SoHo",
-    "tipo": "barrios",
-    "descripcion": "SoHo es una visita destacada de Nueva York, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-    "descripcionCorta": "SoHo es una visita destacada de Nueva York, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad.",
-    "lat": 40.7233,
-    "lng": -74.003,
-    "horario": "24h",
-    "precio": "Gratis",
-    "rating": 4.7,
-    "imagen": "img/nyc_soho.png",
-    "imagenCard": "img/nyc_soho.png",
-    "tags": [
-      "barrios",
-      "norteamerica",
-      "nueva york"
-    ]
-  },
-  {
-    "id": 9,
-    "nombre": "Katz Delicatessen",
-    "tipo": "restaurantes",
-    "descripcion": "Katz Delicatessen es una visita destacada de Nueva York, una referencia: parada gastronómica recomendada para probar sabores representativos. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-    "descripcionCorta": "Katz Delicatessen es una visita destacada de Nueva York, una referencia: parada gastronómica recomendada para probar sabores representativos.",
-    "lat": 40.7223,
-    "lng": -73.9874,
-    "horario": "12:30 - 23:00",
-    "precio": "Menu variable",
-    "rating": 4.7,
-    "imagen": "img/nyc_katz.png",
-    "imagenCard": "img/nyc_katz.png",
-    "tags": [
-      "restaurantes",
-      "norteamerica",
-      "nueva york"
-    ]
-  }
-]
+  "lugares": [
+    {
+      "id": 1,
+      "nombre": "Estatua de la Libertad",
+      "tipo": "cultura",
+      "descripcion": "Erguida sobre Liberty Island, esta colosal escultura de cobre no es solo un monumento, sino una promesa de esperanza. Subir a su corona ofrece una panorámica única del skyline de Manhattan y la historia de la inmigración.",
+      "descripcionCorta": "El símbolo universal de la libertad que guarda la entrada al puerto de Nueva York.",
+      "lat": 40.6892,
+      "lng": -74.0445,
+      "horario": "9:00 - 18:00",
+      "precio": "Desde 15 EUR",
+      "rating": 4.7,
+      "imagen": "img/nyc_statue.png",
+      "imagenCard": "img/nyc_statue.png",
+      "tags": [
+        "cultura",
+        "america",
+        "nueva york"
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "Central Park",
+      "tipo": "parques",
+      "descripcion": "Central Park es el patio trasero de Nueva York. Desde las praderas de Sheep Meadow hasta el romántico Bow Bridge, este diseño paisajístico maestro ofrece un respiro de naturaleza y cultura en el corazón de la metrópoli.",
+      "descripcionCorta": "Un vasto oasis verde de serenidad en medio del asfalto y los rascacielos de Manhattan.",
+      "lat": 40.7829,
+      "lng": -73.9654,
+      "horario": "7:00 - 20:00",
+      "precio": "Gratis",
+      "rating": 4.8,
+      "imagen": "img/nyc_centralpark.png",
+      "imagenCard": "img/nyc_centralpark.png",
+      "tags": [
+        "parques",
+        "america",
+        "nueva york"
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Metropolitan Museum of Art",
+      "tipo": "museos",
+      "descripcion": "El MET es una ciudad dentro de un edificio. Caminar por el Templo de Dendur o admirar los maestros europeos es viajar en el tiempo y el espacio, rodeado de una arquitectura majestuosa frente a la Quinta Avenida.",
+      "descripcionCorta": "Uno de los museos más importantes del mundo, albergando 5,000 años de arte global.",
+      "lat": 40.7794,
+      "lng": -73.9632,
+      "horario": "10:00 - 18:00",
+      "precio": "Desde 20 EUR",
+      "rating": 4.9,
+      "imagen": "img/nyc_met.png",
+      "imagenCard": "img/nyc_met.png",
+      "tags": [
+        "museos",
+        "america",
+        "nueva york"
+      ]
+    },
+    {
+      "id": 4,
+      "nombre": "Times Square",
+      "tipo": "barrios",
+      "descripcion": "Times Square es el pulso eléctrico de la ciudad que nunca duerme. Sus pantallas gigantes de neón y su atmósfera vibrante personifican la energía inagotable de Nueva York, siendo el epicentro del teatro y el espectáculo.",
+      "descripcionCorta": "El cruce de caminos del mundo, una explosión de luces, energía y Broadway.",
+      "lat": 40.758,
+      "lng": -73.9855,
+      "horario": "24h",
+      "precio": "Gratis",
+      "rating": 4.6,
+      "imagen": "img/nyc_timessquare.png",
+      "imagenCard": "img/nyc_timessquare.png",
+      "tags": [
+        "barrios",
+        "america",
+        "nueva york"
+      ]
+    },
+    {
+      "id": 5,
+      "nombre": "High Line",
+      "tipo": "parques",
+      "descripcion": "La High Line es un ejemplo magistral de renovación urbana. Este jardín lineal suspendido permite caminar entre edificios históricos y arquitectura moderna, ofreciendo perspectivas inéditas de Chelsea y el río Hudson.",
+      "descripcionCorta": "Un parque elevado sobre una antigua línea ferroviaria, uniendo diseño urbano y vegetación.",
+      "lat": 40.748,
+      "lng": -74.0048,
+      "horario": "7:00 - 20:00",
+      "precio": "Gratis",
+      "rating": 4.7,
+      "imagen": "img/nyc_highline.png",
+      "imagenCard": "img/nyc_highline.png",
+      "tags": [
+        "parques",
+        "america",
+        "nueva york"
+      ]
+    },
+    {
+      "id": 6,
+      "nombre": "Brooklyn Bridge",
+      "tipo": "parques",
+      "descripcion": "Cruzarel Puente de Brooklyn al atardecer es una de las experiencias más mágicas de la ciudad. Sus arcos góticos y cables de acero enmarcan el horizonte de Manhattan en una caminata histórica sobre el East River.",
+      "descripcionCorta": "Una maravilla de la ingeniería del siglo XIX que une dos distritos con elegancia de acero.",
+      "lat": 40.7061,
+      "lng": -73.9969,
+      "horario": "7:00 - 20:00",
+      "precio": "Gratis",
+      "rating": 4.8,
+      "imagen": "img/nyc_bridge.png",
+      "imagenCard": "img/nyc_bridge.png",
+      "tags": [
+        "parques",
+        "america",
+        "nueva york"
+      ]
+    },
+    {
+      "id": 7,
+      "nombre": "Chelsea Market",
+      "tipo": "mercados",
+      "descripcion": "Este mercado industrial es el destino predilecto de los foodies. Sus pasillos de ladrillo visto albergan desde los mejores tacos de la ciudad hasta marisco fresco, todo rodeado de una estética industrial chic.",
+      "descripcionCorta": "Un paraíso gastronómico y creativo ubicado en una antigua fábrica de galletas Nabisco.",
+      "lat": 40.7423,
+      "lng": -74.006,
+      "horario": "9:00 - 15:00",
+      "precio": "Gratis",
+      "rating": 4.6,
+      "imagen": "img/nyc_chelsea.png",
+      "imagenCard": "img/nyc_chelsea.png",
+      "tags": [
+        "mercados",
+        "america",
+        "nueva york"
+      ]
+    },
+    {
+      "id": 10,
+      "nombre": "SoHo",
+      "tipo": "barrios",
+      "descripcion": "El SoHo combina la herencia industrial con el glamour contemporáneo. Sus fachadas de 'Cast Iron' son el escenario perfecto para un día de compras exclusivas o para descubrir las últimas tendencias en arte y diseño.",
+      "descripcionCorta": "El distrito de hierro fundido, famoso por sus galerías de arte, moda de lujo y calles adoquinadas.",
+      "lat": 40.7233,
+      "lng": -74.003,
+      "horario": "24h",
+      "precio": "Gratis",
+      "rating": 4.7,
+      "imagen": "img/nyc_soho.png",
+      "imagenCard": "img/nyc_soho.png",
+      "tags": [
+        "barrios",
+        "america",
+        "nueva york"
+      ]
+    },
+    {
+      "id": 11,
+      "nombre": "Katz Delicatessen",
+      "tipo": "restaurantes",
+      "descripcion": "Katz's es una institución desde 1888. Entrar en este deli del Lower East Side es retroceder en el tiempo; sus sándwiches legendarios y su atmósfera sin pretensiones capturan la esencia auténtica de la ciudad.",
+      "descripcionCorta": "Un pedazo vivo de la historia de Nueva York, famoso por el mejor sándwich de pastrami del mundo.",
+      "lat": 40.7223,
+      "lng": -73.9874,
+      "horario": "12:30 - 23:00",
+      "precio": "Desde 15 EUR",
+      "rating": 4.8,
+      "imagen": "img/nyc_katz.png",
+      "imagenCard": "img/nyc_katz.png",
+      "tags": [
+        "restaurantes",
+        "america",
+        "nueva york"
+      ]
+    }
+  ]
+}

@@ -1,30 +1,188 @@
-[
-  {
-    "id": 1,
-    "nombre": "Puerta de Brandeburgo",
-    "tipo": "cultura",
-    "descripcion": "Antigua puerta de entrada a Berlín y símbolo de la reunificación alemana.",
-    "descripcionCorta": "El símbolo más icónico de Alemania.",
-    "lat": 52.5163, "lng": 13.3777,
-    "horario": "24h",
-    "precio": "Gratis",
-    "rating": 4.8,
-    "imagen": "https://picsum.photos/seed/brandenburg/800/600",
-    "imagenCard": "https://picsum.photos/seed/brandenburg/400/300",
-    "tags": ["monumento", "historia", "reunificación"]
+{
+  "id": "berlin",
+  "nombre": "Berlin",
+  "pais": "Alemania",
+  "continente": "Europa",
+  "emoji": "🇩🇪",
+  "lat": 52.52,
+  "lng": 13.405,
+  "imagen": "img/berlin_hero.png",
+  "theme": {
+    "primary": "#111827",
+    "secondary": "#facc15",
+    "font": "'Inter', sans-serif"
   },
-  {
-    "id": 2,
-    "nombre": "Muro de Berlín (East Side Gallery)",
-    "tipo": "cultura",
-    "descripcion": "Galería de arte al aire libre sobre la sección más larga del muro de Berlín.",
-    "descripcionCorta": "Arte e historia en libertad.",
-    "lat": 52.5050, "lng": 13.4397,
-    "horario": "24h",
-    "precio": "Gratis",
-    "rating": 4.7,
-    "imagen": "https://picsum.photos/seed/berlinwall/800/600",
-    "imagenCard": "https://picsum.photos/seed/berlinwall/400/300",
-    "tags": ["arte", "historia", "muro"]
-  }
-]
+  "lugares": [
+    {
+      "id": 1,
+      "nombre": "Puerta de Brandeburgo",
+      "tipo": "cultura",
+      "descripcion": "La antigua puerta neoclasica se ha convertido en el simbolo de la reunificacion alemana. De noche o al amanecer, su cuadriga concentra siglos de historia politica europea.",
+      "descripcionCorta": "El icono de la unidad alemana.",
+      "lat": 52.5163,
+      "lng": 13.3777,
+      "horario": "24h",
+      "precio": "Gratis",
+      "rating": 4.8,
+      "imagen": "img/berlin_brandenburg.png",
+      "imagenCard": "img/berlin_brandenburg.png",
+      "tags": [
+        "monumento",
+        "historia",
+        "reunificacion"
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "East Side Gallery",
+      "tipo": "cultura",
+      "descripcion": "El tramo conservado mas largo del Muro de Berlin funciona como galeria al aire libre y memoria politica. Sus murales recuerdan la division, la esperanza y la libertad recuperada.",
+      "descripcionCorta": "Arte y memoria sobre el antiguo muro.",
+      "lat": 52.505,
+      "lng": 13.4397,
+      "horario": "24h",
+      "precio": "Gratis",
+      "rating": 4.7,
+      "imagen": "img/berlin_eastsidegallery.png",
+      "imagenCard": "img/berlin_eastsidegallery.png",
+      "tags": [
+        "muro",
+        "arte urbano",
+        "historia"
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Isla de los Museos",
+      "tipo": "museos",
+      "descripcion": "Un conjunto monumental de museos sobre el Spree que reune arqueologia, arte y arquitectura historica. Es uno de los grandes complejos culturales de Europa.",
+      "descripcionCorta": "El gran conjunto cultural del Spree.",
+      "lat": 52.5169,
+      "lng": 13.401,
+      "horario": "10:00 - 18:00",
+      "precio": "Desde 14 EUR",
+      "rating": 4.8,
+      "imagen": "img/berlin_museumisland.png",
+      "imagenCard": "img/berlin_museumisland.png",
+      "tags": [
+        "museos",
+        "arte",
+        "patrimonio"
+      ]
+    },
+    {
+      "id": 4,
+      "nombre": "Reichstag",
+      "tipo": "cultura",
+      "descripcion": "El parlamento aleman combina historia, transparencia democratica y una cupula de Norman Foster con vistas de 360 grados. La visita reserva uno de los mejores miradores civicos de la ciudad.",
+      "descripcionCorta": "Democracia y vistas bajo una cupula de cristal.",
+      "lat": 52.5186,
+      "lng": 13.3762,
+      "horario": "8:00 - 22:00",
+      "precio": "Gratis con reserva",
+      "rating": 4.7,
+      "imagen": "img/berlin_reichstag.png",
+      "imagenCard": "img/berlin_reichstag.png",
+      "tags": [
+        "parlamento",
+        "cupula",
+        "historia"
+      ]
+    },
+    {
+      "id": 5,
+      "nombre": "Checkpoint Charlie",
+      "tipo": "cultura",
+      "descripcion": "El antiguo paso fronterizo entre sectores resume la tension de la Guerra Fria en pleno centro urbano. Hoy funciona como punto de memoria, fotografia y contexto historico.",
+      "descripcionCorta": "La frontera simbolica de la Guerra Fria.",
+      "lat": 52.5075,
+      "lng": 13.3904,
+      "horario": "24h",
+      "precio": "Gratis",
+      "rating": 4.2,
+      "imagen": "img/berlin_checkpointcharlie.png",
+      "imagenCard": "img/berlin_checkpointcharlie.png",
+      "tags": [
+        "guerra fria",
+        "historia",
+        "muro"
+      ]
+    },
+    {
+      "id": 6,
+      "nombre": "Tiergarten",
+      "tipo": "parques",
+      "descripcion": "El gran parque central de Berlin ofrece avenidas arboladas, lagos, memoriales y una escala verde sorprendente entre instituciones y barrios. Es el respiro clasico de la capital.",
+      "descripcionCorta": "El pulmon verde del centro berlines.",
+      "lat": 52.5145,
+      "lng": 13.35,
+      "horario": "24h",
+      "precio": "Gratis",
+      "rating": 4.7,
+      "imagen": "img/berlin_tiergarten.png",
+      "imagenCard": "img/berlin_tiergarten.png",
+      "tags": [
+        "parque",
+        "naturaleza",
+        "paseo"
+      ]
+    },
+    {
+      "id": 7,
+      "nombre": "Alexanderplatz",
+      "tipo": "barrios",
+      "descripcion": "Una plaza amplia y energetica marcada por la Torre de Television, relojes, comercios y arquitectura de la antigua RDA. Es un nodo perfecto para leer la Berlin moderna.",
+      "descripcionCorta": "El cruce urbano bajo la torre.",
+      "lat": 52.5219,
+      "lng": 13.4132,
+      "horario": "24h",
+      "precio": "Gratis",
+      "rating": 4.4,
+      "imagen": "img/berlin_alexanderplatz.png",
+      "imagenCard": "img/berlin_alexanderplatz.png",
+      "tags": [
+        "plaza",
+        "torre",
+        "vida urbana"
+      ]
+    },
+    {
+      "id": 8,
+      "nombre": "Memorial del Holocausto",
+      "tipo": "cultura",
+      "descripcion": "Un campo de estelas de hormigon crea una experiencia fisica de memoria, silencio y desorientacion. Su fuerza esta en la sobriedad y en el recorrido personal.",
+      "descripcionCorta": "Memoria austera en el corazon de Berlin.",
+      "lat": 52.5139,
+      "lng": 13.3787,
+      "horario": "24h",
+      "precio": "Gratis",
+      "rating": 4.6,
+      "imagen": "img/berlin_holocaustmemorial.png",
+      "imagenCard": "img/berlin_holocaustmemorial.png",
+      "tags": [
+        "memoria",
+        "historia",
+        "sobriedad"
+      ]
+    },
+    {
+      "id": 9,
+      "nombre": "Kreuzberg",
+      "tipo": "barrios",
+      "descripcion": "Un barrio diverso y creativo con canales, mercados, arte urbano, musica y cocina internacional. Su identidad mezcla vida alternativa, migracion y energia nocturna.",
+      "descripcionCorta": "El Berlin mas diverso y creativo.",
+      "lat": 52.4997,
+      "lng": 13.4033,
+      "horario": "24h",
+      "precio": "Gratis",
+      "rating": 4.7,
+      "imagen": "img/berlin_kreuzberg.png",
+      "imagenCard": "img/berlin_kreuzberg.png",
+      "tags": [
+        "barrio",
+        "arte urbano",
+        "gastronomia"
+      ]
+    }
+  ]
+}

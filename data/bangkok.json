@@ -1,173 +1,188 @@
-[
-  {
-    "id": 1,
-    "nombre": "Gran Palacio",
-    "tipo": "cultura",
-    "descripcion": "Gran Palacio es una visita destacada de Bangkok, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-    "descripcionCorta": "Gran Palacio es una visita destacada de Bangkok, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad.",
-    "lat": 13.75,
-    "lng": 100.4913,
-    "horario": "9:00 - 18:00",
-    "precio": "Desde 8 EUR",
-    "rating": 4.5,
-    "imagen": "img/bangkok_grandpalace.png",
-    "imagenCard": "img/bangkok_grandpalace.png",
-    "tags": [
-      "cultura",
-      "asia",
-      "bangkok"
-    ]
+{
+  "id": "bangkok",
+  "nombre": "Bangkok",
+  "pais": "Tailandia",
+  "continente": "Asia",
+  "emoji": "🇹🇭",
+  "lat": 13.7563,
+  "lng": 100.5018,
+  "imagen": "img/bangkok_hero.png",
+  "theme": {
+    "primary": "#ff8c00",
+    "secondary": "#ffd700",
+    "font": "'Outfit', sans-serif"
   },
-  {
-    "id": 2,
-    "nombre": "Wat Pho",
-    "tipo": "cultura",
-    "descripcion": "Wat Pho es una visita destacada de Bangkok, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-    "descripcionCorta": "Wat Pho es una visita destacada de Bangkok, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad.",
-    "lat": 13.7465,
-    "lng": 100.493,
-    "horario": "9:00 - 18:00",
-    "precio": "Desde 8 EUR",
-    "rating": 4.6,
-    "imagen": "img/bangkok_watpho.png",
-    "imagenCard": "img/bangkok_watpho.png",
-    "tags": [
-      "cultura",
-      "asia",
-      "bangkok"
-    ]
-  },
-  {
-    "id": 3,
-    "nombre": "Wat Arun",
-    "tipo": "cultura",
-    "descripcion": "Wat Arun es una visita destacada de Bangkok, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-    "descripcionCorta": "Wat Arun es una visita destacada de Bangkok, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad.",
-    "lat": 13.7437,
-    "lng": 100.4889,
-    "horario": "9:00 - 18:00",
-    "precio": "Desde 8 EUR",
-    "rating": 4.7,
-    "imagen": "img/bangkok_watarun.png",
-    "imagenCard": "img/bangkok_watarun.png",
-    "tags": [
-      "cultura",
-      "asia",
-      "bangkok"
-    ]
-  },
-  {
-    "id": 4,
-    "nombre": "Chatuchak Market",
-    "tipo": "mercados",
-    "descripcion": "Chatuchak Market es una visita destacada de Bangkok, una referencia: mercado lleno de puestos, productos locales y escenas cotidianas. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-    "descripcionCorta": "Chatuchak Market es una visita destacada de Bangkok, una referencia: mercado lleno de puestos, productos locales y escenas cotidianas.",
-    "lat": 13.7999,
-    "lng": 100.5501,
-    "horario": "9:00 - 15:00",
-    "precio": "Gratis",
-    "rating": 4.7,
-    "imagen": "img/bangkok_chatuchak.png",
-    "imagenCard": "img/bangkok_chatuchak.png",
-    "tags": [
-      "mercados",
-      "asia",
-      "bangkok"
-    ]
-  },
-  {
-    "id": 5,
-    "nombre": "Jim Thompson House",
-    "tipo": "museos",
-    "descripcion": "Jim Thompson House es una visita destacada de Bangkok, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-    "descripcionCorta": "Jim Thompson House es una visita destacada de Bangkok, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares.",
-    "lat": 13.7493,
-    "lng": 100.5283,
-    "horario": "10:00 - 18:00",
-    "precio": "Desde 12 EUR",
-    "rating": 4.8,
-    "imagen": "img/bangkok_jimthompson.png",
-    "imagenCard": "img/bangkok_jimthompson.png",
-    "tags": [
-      "museos",
-      "asia",
-      "bangkok"
-    ]
-  },
-  {
-    "id": 6,
-    "nombre": "Chinatown Yaowarat",
-    "tipo": "barrios",
-    "descripcion": "Chinatown Yaowarat es una visita destacada de Bangkok, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-    "descripcionCorta": "Chinatown Yaowarat es una visita destacada de Bangkok, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad.",
-    "lat": 13.74,
-    "lng": 100.5088,
-    "horario": "24h",
-    "precio": "Gratis",
-    "rating": 4.5,
-    "imagen": "img/bangkok_yaowarat.png",
-    "imagenCard": "img/bangkok_yaowarat.png",
-    "tags": [
-      "barrios",
-      "asia",
-      "bangkok"
-    ]
-  },
-  {
-    "id": 7,
-    "nombre": "Lumphini Park",
-    "tipo": "parques",
-    "descripcion": "Lumphini Park es una visita destacada de Bangkok, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-    "descripcionCorta": "Lumphini Park es una visita destacada de Bangkok, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje.",
-    "lat": 13.7307,
-    "lng": 100.5418,
-    "horario": "7:00 - 20:00",
-    "precio": "Gratis",
-    "rating": 4.6,
-    "imagen": "img/bangkok_lumphini.png",
-    "imagenCard": "img/bangkok_lumphini.png",
-    "tags": [
-      "parques",
-      "asia",
-      "bangkok"
-    ]
-  },
-  {
-    "id": 8,
-    "nombre": "Khlong Lat Mayom",
-    "tipo": "mercados",
-    "descripcion": "Khlong Lat Mayom es una visita destacada de Bangkok, una referencia: mercado lleno de puestos, productos locales y escenas cotidianas. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-    "descripcionCorta": "Khlong Lat Mayom es una visita destacada de Bangkok, una referencia: mercado lleno de puestos, productos locales y escenas cotidianas.",
-    "lat": 13.7618,
-    "lng": 100.4159,
-    "horario": "9:00 - 15:00",
-    "precio": "Gratis",
-    "rating": 4.7,
-    "imagen": "img/bangkok_khlonglatmayom.png",
-    "imagenCard": "img/bangkok_khlonglatmayom.png",
-    "tags": [
-      "mercados",
-      "asia",
-      "bangkok"
-    ]
-  },
-  {
-    "id": 9,
-    "nombre": "Jay Fai",
-    "tipo": "restaurantes",
-    "descripcion": "Jay Fai es una visita destacada de Bangkok, una referencia: parada gastronómica recomendada para probar sabores representativos. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-    "descripcionCorta": "Jay Fai es una visita destacada de Bangkok, una referencia: parada gastronómica recomendada para probar sabores representativos.",
-    "lat": 13.7527,
-    "lng": 100.5048,
-    "horario": "12:30 - 23:00",
-    "precio": "Menu variable",
-    "rating": 4.7,
-    "imagen": "img/bangkok_jayfai.png",
-    "imagenCard": "img/bangkok_jayfai.png",
-    "tags": [
-      "restaurantes",
-      "asia",
-      "bangkok"
-    ]
-  }
-]
+  "lugares": [
+    {
+      "id": 1,
+      "nombre": "Gran Palacio",
+      "tipo": "museos",
+      "descripcion": "Antaño residencia oficial del Rey, este complejo de templos y palacios es una obra maestra de la artesanía siamesa. Alberga el Buda de Esmeralda y es el símbolo máximo del esplendor nacional.",
+      "descripcionCorta": "El corazón sagrado y real de Bangkok, una explosión de oro y arquitectura tailandesa.",
+      "lat": 13.75,
+      "lng": 100.4912,
+      "horario": "10:00 - 18:00",
+      "precio": "Desde 12 EUR",
+      "rating": 4.8,
+      "imagen": "img/bangkok_grandpalace.png",
+      "imagenCard": "img/bangkok_grandpalace.png",
+      "tags": [
+        "museos",
+        "asia",
+        "bangkok"
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "Wat Pho",
+      "tipo": "museos",
+      "descripcion": "Wat Pho no es solo un templo, es una enciclopedia de piedra. Su gigantesca figura dorada de 46 metros de largo sobrecoge a los visitantes, mientras el aroma a hierbas medicinales impregna sus antiguas escuelas.",
+      "descripcionCorta": "El hogar del Buda Reclinado más grande de la ciudad y cuna del masaje tailandés tradicional.",
+      "lat": 13.7465,
+      "lng": 100.4933,
+      "horario": "10:00 - 18:00",
+      "precio": "Desde 12 EUR",
+      "rating": 4.7,
+      "imagen": "img/bangkok_watpho.png",
+      "imagenCard": "img/bangkok_watpho.png",
+      "tags": [
+        "museos",
+        "asia",
+        "bangkok"
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Wat Arun",
+      "tipo": "cultura",
+      "descripcion": "Conocido como el Templo del Amanecer, sus torres decoradas con porcelana china brillan de forma única bajo los primeros rayos del sol. Es una estampa inconfundible a orillas del río Chao Phraya.",
+      "descripcionCorta": "El icónico Templo del Amanecer, famoso por su silueta y decoración de porcelana.",
+      "lat": 13.7437,
+      "lng": 100.4889,
+      "horario": "9:00 - 18:00",
+      "precio": "Desde 8 EUR",
+      "rating": 4.8,
+      "imagen": "img/bangkok_watarun.png",
+      "imagenCard": "img/bangkok_watarun.png",
+      "tags": [
+        "cultura",
+        "asia",
+        "bangkok"
+      ]
+    },
+    {
+      "id": 4,
+      "nombre": "Chatuchak Market",
+      "tipo": "mercados",
+      "descripcion": "Con más de 15,000 puestos, Chatuchak es un universo en sí mismo. Desde antigüedades y moda local hasta plantas exóticas, este mercado es el lugar donde el caos se convierte en una experiencia de compra fascinante.",
+      "descripcionCorta": "Uno de los mercados de fin de semana más grandes del mundo, un laberinto de tesoros infinitos.",
+      "lat": 13.7999,
+      "lng": 100.5501,
+      "horario": "9:00 - 15:00",
+      "precio": "Gratis",
+      "rating": 4.6,
+      "imagen": "img/bangkok_chatuchak.png",
+      "imagenCard": "img/bangkok_chatuchak.png",
+      "tags": [
+        "mercados",
+        "asia",
+        "bangkok"
+      ]
+    },
+    {
+      "id": 5,
+      "nombre": "Jim Thompson House",
+      "tipo": "museos",
+      "descripcion": "Esta casa tradicional tailandesa de teca, rodeada de jardines exuberantes, narra la historia del hombre que revitalizó la industria de la seda en Tailandia. Es un oasis de arte y arquitectura clásica.",
+      "descripcionCorta": "Una joya arquitectónica de madera rodeada de jardines tropicales.",
+      "lat": 13.7493,
+      "lng": 100.5283,
+      "horario": "10:00 - 18:00",
+      "precio": "Desde 12 EUR",
+      "rating": 4.6,
+      "imagen": "img/bangkok_jimthompson.png",
+      "imagenCard": "img/bangkok_jimthompson.png",
+      "tags": [
+        "museos",
+        "asia",
+        "bangkok"
+      ]
+    },
+    {
+      "id": 6,
+      "nombre": "Chinatown Yaowarat",
+      "tipo": "barrios",
+      "descripcion": "Yaowarat es el epicentro de la comunidad china. Al caer la noche, sus calles se transforman en un mercado gastronómico sin fin, donde los aromas a sopa de fideos y marisco fresco atraen a miles de comensales.",
+      "descripcionCorta": "Un festín sensorial de luces de neón, templos ocultos y la mejor comida callejera del mundo.",
+      "lat": 13.7412,
+      "lng": 100.5088,
+      "horario": "24h",
+      "precio": "Gratis",
+      "rating": 4.7,
+      "imagen": "img/bangkok_chinatown.png",
+      "imagenCard": "img/bangkok_chinatown.png",
+      "tags": [
+        "barrios",
+        "asia",
+        "bangkok"
+      ]
+    },
+    {
+      "id": 7,
+      "nombre": "Lumphini Park",
+      "tipo": "parques",
+      "descripcion": "Lumphini es el refugio perfecto para escapar del bullicio urbano. Aquí, los locales practican Tai Chi al amanecer, mientras los lagartos monitores pasean tranquilamente por las orillas de su lago central.",
+      "descripcionCorta": "El pulmón verde de Bangkok, donde la calma se encuentra con los rascacielos del centro.",
+      "lat": 13.7313,
+      "lng": 100.5418,
+      "horario": "7:00 - 20:00",
+      "precio": "Gratis",
+      "rating": 4.5,
+      "imagen": "img/bangkok_lumphini.png",
+      "imagenCard": "img/bangkok_lumphini.png",
+      "tags": [
+        "parques",
+        "asia",
+        "bangkok"
+      ]
+    },
+    {
+      "id": 8,
+      "nombre": "Khlong Lat Mayom",
+      "tipo": "mercados",
+      "descripcion": "Lat Mayom conserva el encanto de los antiguos canales de Bangkok. Es el lugar ideal para degustar platos tradicionales tailandeses en barcas de madera, rodeado de una atmósfera local y acogedora.",
+      "descripcionCorta": "Una experiencia auténtica de mercado flotante, lejos de las rutas turísticas habituales.",
+      "lat": 13.7618,
+      "lng": 100.4159,
+      "horario": "9:00 - 15:00",
+      "precio": "Gratis",
+      "rating": 4.7,
+      "imagen": "img/bangkok_floatingmarket.png",
+      "imagenCard": "img/bangkok_floatingmarket.png",
+      "tags": [
+        "mercados",
+        "asia",
+        "bangkok"
+      ]
+    },
+    {
+      "id": 9,
+      "nombre": "Jay Fai",
+      "tipo": "restaurantes",
+      "descripcion": "Comer en Jay Fai es una experiencia teatral. Ver a la propia dueña cocinar con sus gafas de aviador sobre fuegos de carbón es tan memorable como el sabor único de sus platos, que han dado la vuelta al mundo.",
+      "descripcionCorta": "La leyenda de la cocina callejera, galardonada con una estrella Michelin y famosa por su tortilla de cangrejo.",
+      "lat": 13.7527,
+      "lng": 100.5024,
+      "horario": "14:00 - 21:00",
+      "precio": "Desde 25 EUR",
+      "rating": 4.9,
+      "imagen": "img/bangkok_jayfai.png",
+      "imagenCard": "img/bangkok_jayfai.png",
+      "tags": [
+        "restaurantes",
+        "asia",
+        "bangkok"
+      ]
+    }
+  ]
+}

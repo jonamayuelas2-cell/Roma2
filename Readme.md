@@ -1,6 +1,18 @@
 # Registro de Cambios - TravelWorld PWA 🌍✨
 
+## [2026-05-07] - Estandarización Premium: Madrid y Auckland 🇪🇸🇳🇿✨
+- **Madrid Premium Completado**: Sustitución de todos los placeholders por imágenes 8K locales y mejora de descripciones literarias.
+- **Auckland Premium Parcial**: 
+  - Generación de 5 activos 8K (Hero, Sky Tower, Museum, Waiheke, Mt Eden).
+  - Sincronización de `cities.json` y creación de `data/auckland.json`.
+  - Nota: Pendiente completar resto de imágenes de Auckland por límite de cuota de IA (reinicio en ~3.5h).
+- **Estandarización de Contenido**: Todas las ciudades (20 destinos) ahora cuentan con exactamente **9 lugares de interés** cada una, asegurando una experiencia de usuario uniforme en toda la PWA.
+- **Londres Actualizado**: Añadidos Buckingham Palace, The Shard y Covent Garden para completar el set de 9.
+- **Corrección de UI**: Ajuste de altura de tarjetas (`place-card`) para mantener uniformidad visual con los nuevos activos.
+- **Documentación**: Actualizado `prompts/prompts.md` con las nuevas instrucciones de generación.
+
 ## [2026-05-07] - Revisión de Activos de El Cairo: Giza 🇪🇬🏛️
+- **Corrección de UI**: Ajuste de la altura de los frames de lugares (`place-card`) para mantener la consistencia visual tras la actualización de activos premium.
 - **Revisión Premium El Cairo**: Generación de activo 8K para las Pirámides de Giza y auditoría de sincronización JSON. Documentado en `artefactos/cairo_review.md`.
 - **Refinamiento de Imagen**: Generada una nueva imagen ultra-premium (8K, estilo National Geographic) para las **Pirámides de Giza**.
 - **Documentación**: Creado artefacto de revisión en `artefactos/cairo_review.md` con la previsualización de la nueva imagen.
@@ -16,7 +28,10 @@
 - [x] **Italia (Roma)**: ✅ Fotos 8K + Descripciones Premium
 - [x] **Francia (París)**: ✅ Fotos 8K + Descripciones Premium
 - [x] **Japón (Tokio)**: ✅ Fotos 8K + Descripciones Premium
-- [ ] **Resto de ciudades**: ⏳ En proceso de refinamiento
+- [x] **Reino Unido (Londres)**: ✅ 9 Lugares (Mezcla 8K + Placeholder)
+- [x] **España (Madrid)**: ✅ Fotos 8K + Descripciones Premium
+- [/] **N. Zelanda (Auckland)**: 🔄 50% Completado (Cuota agotada)
+- [ ] **Resto de ciudades**: ⏳ Pendientes (Buenos Aires, Estambul, Ámsterdam, Atenas, Berlín)
 - **Mapeo de Picsum**: Identificadas 7 ciudades que aún dependen de placeholders (Auckland, Madrid, Buenos Aires, Estambul, Ámsterdam, Atenas, Berlín) pendientes de generación de imágenes locales.
 - **Validación de Rutas**: Confirmado que todas las rutas `img/*.png` en los JSONs coinciden con los archivos físicos en el servidor.
 
@@ -46,9 +61,12 @@
 - **Implementación**: La función `applyTheme` en `app.js` ya aplica estos estilos al seleccionar una ciudad desde el globo.
 
 ### 📸 Estado de Generación de Imágenes
-*   **Cuota Agotada**: Esperando reinicio de ventana.
-*   **Hora de Reinicio**: **17:06 CEST (05/05/2026)**.
-*   **Acción**: Se han usado URLs temporales de `picsum.photos` en los datasets para permitir el desarrollo continuo.
+*   **Cuota Agotada**: ⚠️ La cuota de generación de imágenes 8K se ha agotado temporalmente.
+*   **Hora de Reinicio**: **~13:30 CEST (07/05/2026)**.
+*   **Plan de Acción**: Se ha creado un inventario detallado de las **68 imágenes pendientes** (6 Heroes + 62 Lugares) en `artefactos/premium_assets_plan.md`. La migración se reanudará en cuanto la cuota esté disponible.
+
+> [!TIP]
+> Mientras esperamos el reinicio de la cuota, hemos estandarizado todas las ciudades a 9 lugares cada una, dejando los placeholders listos para ser reemplazados. 🌟
 
 ### 📂 Estructura de Prompts
 *   Se mantiene el archivo `prompts/prompts.md` actualizado con cada instrucción generada para el sistema.

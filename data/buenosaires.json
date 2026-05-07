@@ -1,30 +1,188 @@
-[
-  {
-    "id": 1,
-    "nombre": "Teatro Colón",
-    "tipo": "cultura",
-    "descripcion": "Uno de los teatros de ópera más importantes del mundo por su acústica.",
-    "descripcionCorta": "El orgullo cultural de Argentina.",
-    "lat": -34.6012, "lng": -58.3831,
-    "horario": "9:00 - 17:00",
-    "precio": "2500 ARS",
-    "rating": 4.9,
-    "imagen": "https://picsum.photos/seed/colon/800/600",
-    "imagenCard": "https://picsum.photos/seed/colon/400/300",
-    "tags": ["ópera", "arquitectura", "arte"]
+{
+  "id": "buenosaires",
+  "nombre": "Buenos Aires",
+  "pais": "Argentina",
+  "continente": "America",
+  "emoji": "🇦🇷",
+  "lat": -34.6037,
+  "lng": -58.3816,
+  "imagen": "img/buenosaires_hero.png",
+  "theme": {
+    "primary": "#38bdf8",
+    "secondary": "#facc15",
+    "font": "'Raleway', sans-serif"
   },
-  {
-    "id": 2,
-    "nombre": "Barrio de La Boca (Caminito)",
-    "tipo": "barrios",
-    "descripcion": "Paseo peatonal y museo a cielo abierto de gran valor cultural y turístico.",
-    "descripcionCorta": "Color y tango en las calles.",
-    "lat": -34.6391, "lng": -58.3629,
-    "horario": "24h",
-    "precio": "Gratis",
-    "rating": 4.7,
-    "imagen": "https://picsum.photos/seed/laboca/800/600",
-    "imagenCard": "https://picsum.photos/seed/laboca/400/300",
-    "tags": ["tango", "colores", "tradición"]
-  }
-]
+  "lugares": [
+    {
+      "id": 1,
+      "nombre": "Teatro Colon",
+      "tipo": "cultura",
+      "descripcion": "Una de las grandes casas de opera del mundo, celebrada por su acustica y por una arquitectura que mezcla solemnidad europea y orgullo porteno. Sus visitas revelan salones, marmoles y una historia cultural deslumbrante.",
+      "descripcionCorta": "La joya lirica de Buenos Aires.",
+      "lat": -34.6012,
+      "lng": -58.3831,
+      "horario": "9:00 - 17:00",
+      "precio": "Desde 8000 ARS",
+      "rating": 4.9,
+      "imagen": "img/buenosaires_teatrocolon.png",
+      "imagenCard": "img/buenosaires_teatrocolon.png",
+      "tags": [
+        "opera",
+        "arquitectura",
+        "cultura"
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "Caminito",
+      "tipo": "barrios",
+      "descripcion": "El pasaje mas colorido de La Boca concentra conventillos pintados, fileteado, tango y memoria inmigrante. Aunque turistico, conserva una energia teatral muy propia del sur porteno.",
+      "descripcionCorta": "Color, tango y memoria popular.",
+      "lat": -34.6391,
+      "lng": -58.3629,
+      "horario": "10:00 - 18:00",
+      "precio": "Gratis",
+      "rating": 4.6,
+      "imagen": "img/buenosaires_caminito.png",
+      "imagenCard": "img/buenosaires_caminito.png",
+      "tags": [
+        "tango",
+        "color",
+        "la boca"
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Recoleta",
+      "tipo": "barrios",
+      "descripcion": "Un barrio elegante de avenidas arboladas, cafes, palacios y uno de los cementerios mas fascinantes de America Latina. Combina historia aristocratica, museos y vida urbana tranquila.",
+      "descripcionCorta": "Elegancia historica y cafes clasicos.",
+      "lat": -34.5875,
+      "lng": -58.3935,
+      "horario": "24h",
+      "precio": "Gratis",
+      "rating": 4.7,
+      "imagen": "img/buenosaires_recoleta.png",
+      "imagenCard": "img/buenosaires_recoleta.png",
+      "tags": [
+        "arquitectura",
+        "cafes",
+        "historia"
+      ]
+    },
+    {
+      "id": 4,
+      "nombre": "Avenida 9 de Julio",
+      "tipo": "cultura",
+      "descripcion": "Una de las avenidas mas anchas del mundo, presidida por el Obelisco y rodeada de teatros, carteles y ritmo metropolitano. Es la postal monumental del centro porteno.",
+      "descripcionCorta": "El eje monumental del Obelisco.",
+      "lat": -34.6037,
+      "lng": -58.3816,
+      "horario": "24h",
+      "precio": "Gratis",
+      "rating": 4.6,
+      "imagen": "img/buenosaires_9dejulio.png",
+      "imagenCard": "img/buenosaires_9dejulio.png",
+      "tags": [
+        "obelisco",
+        "avenida",
+        "centro"
+      ]
+    },
+    {
+      "id": 5,
+      "nombre": "Puerto Madero",
+      "tipo": "barrios",
+      "descripcion": "Los antiguos diques portuarios se transformaron en un distrito contemporaneo de paseos, restaurantes y arquitectura junto al rio. Al atardecer, sus puentes y torres ofrecen una cara moderna de la ciudad.",
+      "descripcionCorta": "El frente fluvial contemporaneo.",
+      "lat": -34.6118,
+      "lng": -58.3638,
+      "horario": "24h",
+      "precio": "Gratis",
+      "rating": 4.7,
+      "imagen": "img/buenosaires_puertomadero.png",
+      "imagenCard": "img/buenosaires_puertomadero.png",
+      "tags": [
+        "rio",
+        "arquitectura",
+        "gastronomia"
+      ]
+    },
+    {
+      "id": 6,
+      "nombre": "El Ateneo Grand Splendid",
+      "tipo": "cultura",
+      "descripcion": "Una libreria instalada en un antiguo teatro, con palcos, cupula pintada y escenario convertido en cafe. Es uno de esos lugares donde comprar un libro se vuelve experiencia escenica.",
+      "descripcionCorta": "La libreria teatro mas hermosa.",
+      "lat": -34.5959,
+      "lng": -58.3947,
+      "horario": "9:00 - 21:00",
+      "precio": "Gratis",
+      "rating": 4.8,
+      "imagen": "img/buenosaires_elateneo.png",
+      "imagenCard": "img/buenosaires_elateneo.png",
+      "tags": [
+        "libros",
+        "teatro",
+        "cafe"
+      ]
+    },
+    {
+      "id": 7,
+      "nombre": "San Telmo",
+      "tipo": "barrios",
+      "descripcion": "Calles empedradas, casonas antiguas, anticuarios y tango callejero dan forma al barrio mas nostalgico de Buenos Aires. Los domingos, su feria convierte la zona en un gran paseo popular.",
+      "descripcionCorta": "Anticuarios, tango y adoquines.",
+      "lat": -34.6212,
+      "lng": -58.3731,
+      "horario": "24h",
+      "precio": "Gratis",
+      "rating": 4.7,
+      "imagen": "img/buenosaires_santelmo.png",
+      "imagenCard": "img/buenosaires_santelmo.png",
+      "tags": [
+        "tango",
+        "feria",
+        "historia"
+      ]
+    },
+    {
+      "id": 8,
+      "nombre": "Palermo",
+      "tipo": "barrios",
+      "descripcion": "El gran distrito verde y creativo de la ciudad mezcla parques, diseno, bares, galerias y restaurantes. Sus subzonas permiten pasar del jardin botanico a la noche mas activa en pocos minutos.",
+      "descripcionCorta": "Diseno, parques y vida nocturna.",
+      "lat": -34.5889,
+      "lng": -58.4306,
+      "horario": "24h",
+      "precio": "Gratis",
+      "rating": 4.7,
+      "imagen": "img/buenosaires_palermo.png",
+      "imagenCard": "img/buenosaires_palermo.png",
+      "tags": [
+        "parques",
+        "diseno",
+        "gastronomia"
+      ]
+    },
+    {
+      "id": 9,
+      "nombre": "Floralis Generica",
+      "tipo": "cultura",
+      "descripcion": "La escultura metalica de Eduardo Catalano abre y cierra sus petalos como una flor urbana en una plaza luminosa. Es una pausa contemporanea entre Recoleta y los grandes parques.",
+      "descripcionCorta": "La flor metalica de Buenos Aires.",
+      "lat": -34.5827,
+      "lng": -58.3933,
+      "horario": "24h",
+      "precio": "Gratis",
+      "rating": 4.6,
+      "imagen": "img/buenosaires_floralis.png",
+      "imagenCard": "img/buenosaires_floralis.png",
+      "tags": [
+        "escultura",
+        "parque",
+        "moderno"
+      ]
+    }
+  ]
+}

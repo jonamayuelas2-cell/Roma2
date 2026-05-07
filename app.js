@@ -20,6 +20,7 @@ const state = {
 
 document.addEventListener('DOMContentLoaded', async () => {
     await loadCities();
+    await ensureGlobeLibrary();
     initGlobe();
     setupEventListeners();
 });
@@ -35,29 +36,45 @@ async function loadCities() {
     }
 }
 
+function ensureGlobeLibrary() {
+    if (window.Globe) return Promise.resolve();
+
+    return new Promise(resolve => {
+        const script = document.createElement('script');
+        script.src = 'https://unpkg.com/globe.gl';
+        script.onload = resolve;
+        script.onerror = resolve;
+        document.head.appendChild(script);
+    });
+}
+
 // ══ SELECTOR 3D (GLOBE) ══════════════════════════════════════
 
 function initGlobe() {
     const globeContainer = document.getElementById('globeViz');
+    if (!window.Globe) {
+        renderGlobeFallback(globeContainer);
+        return;
+    }
     
     state.globe = Globe()
         (globeContainer)
-        .globeImageUrl('//unpkg.com/three-globe/example/img/earth-dark.jpg')
-        .bumpImageUrl('//unpkg.com/three-globe/example/img/earth-topology.png')
-        .backgroundImageUrl('//unpkg.com/three-globe/example/img/night-sky.png')
+        .globeImageUrl('https://unpkg.com/three-globe/example/img/earth-blue-marble.jpg')
+        .bumpImageUrl('https://unpkg.com/three-globe/example/img/earth-topology.png')
+        .backgroundColor('rgba(0,0,0,0)')
         .showAtmosphere(true)
-        .atmosphereColor('#7de4ff')
-        .atmosphereAltitude(0.22)
+        .atmosphereColor('#8ee8ff')
+        .atmosphereAltitude(0.28)
         .pointsData(state.cities)
         .pointLat(d => d.lat)
         .pointLng(d => d.lng)
-        .pointAltitude(0.04)
-        .pointRadius(0.34)
-        .pointColor(() => '#fdbb2d')
+        .pointAltitude(0.07)
+        .pointRadius(0.44)
+        .pointColor(() => '#ffdf5d')
         .ringsData(state.cities)
         .ringLat(d => d.lat)
         .ringLng(d => d.lng)
-        .ringColor(() => t => `rgba(125, 228, 255, ${0.55 * (1 - t)})`)
+        .ringColor(() => t => `rgba(255, 223, 93, ${0.62 * (1 - t)})`)
         .ringMaxRadius(4.2)
         .ringPropagationSpeed(1.2)
         .ringRepeatPeriod(1900)
@@ -66,7 +83,7 @@ function initGlobe() {
         .arcStartLng(d => d.startLng)
         .arcEndLat(d => d.endLat)
         .arcEndLng(d => d.endLng)
-        .arcColor(() => ['rgba(125,228,255,0.25)', 'rgba(253,187,45,0.78)'])
+        .arcColor(() => ['rgba(125,228,255,0.42)', 'rgba(255,223,93,0.86)'])
         .arcAltitude(0.24)
         .arcStroke(0.55)
         .arcDashLength(0.42)
@@ -86,6 +103,7 @@ function initGlobe() {
         .htmlElementsData(state.cities)
         .htmlLat(d => d.lat)
         .htmlLng(d => d.lng)
+        .htmlAltitude(0.1)
         .htmlElement(d => {
             const el = document.createElement('div');
             el.className = 'globe-city-marker';
@@ -125,6 +143,14 @@ function buildGlobeArcs() {
 }
 
 // ══ NAVEGACIÓN Y ESTADO ══════════════════════════════════════
+
+function renderGlobeFallback(container) {
+    container.innerHTML = `
+        <div class="fallback-globe" aria-label="Bola del mundo decorativa">
+            <div class="fallback-globe-map"></div>
+        </div>
+    `;
+}
 
 async function selectCity(city) {
     if (!city.lugares || city.lugares.length === 0) {
@@ -245,7 +271,9 @@ function createPlaceCard(place) {
     const div = document.createElement('div');
     div.className = `place-card ${state.viewMode === 'list' ? 'list-view' : ''}`;
     div.innerHTML = `
-        <img src="${place.imagenCard}" alt="${place.nombre}" class="card-img" loading="lazy">
+        <div class="place-img-wrapper">
+            <img src="${place.imagenCard}" alt="${place.nombre}" class="place-img" loading="lazy">
+        </div>
         <div class="card-content">
             <span class="card-tag">${getTypeLabel(place.tipo)}</span>
             <h3 class="card-title">${place.nombre}</h3>
@@ -467,6 +495,16 @@ function getWeatherIcon(code) {
     return '🌡️';
 }
 
+function getPlaceExtraInfo(place) {
+    const cityName = state.currentCity?.nombre || 'la ciudad';
+    const typeLabel = getTypeLabel(place.tipo).replace(/[^\p{L}\p{N}\s]/gu, '').trim().toLowerCase();
+    const tags = (place.tags || []).slice(0, 3).join(', ');
+    const rating = place.rating ? `Su valoracion de ${place.rating} sobre 5 lo situa entre las paradas mas recomendables del itinerario.` : '';
+    const tagSentence = tags ? `Destaca especialmente por ${tags}, asi que funciona muy bien para viajeros que quieran algo mas que una visita rapida.` : '';
+
+    return `Este lugar encaja dentro de ${typeLabel || 'los imprescindibles'} de ${cityName}. ${tagSentence} ${rating}`.replace(/\s+/g, ' ').trim();
+}
+
 function showPlaceDetails(place) {
     const modal = document.getElementById('place-modal');
     document.getElementById('modal-place-img').src = place.imagen || place.imagenCard;
@@ -474,6 +512,7 @@ function showPlaceDetails(place) {
     document.getElementById('modal-place-tag').textContent = getTypeLabel(place.tipo);
     document.getElementById('modal-place-title').textContent = place.nombre;
     document.getElementById('modal-place-desc').textContent = place.descripcion || place.descripcionCorta;
+    document.getElementById('modal-place-extra').textContent = getPlaceExtraInfo(place);
     document.getElementById('modal-place-price').textContent = `Precio: ${place.precio || 'Consultar'}`;
     document.getElementById('modal-place-hours').textContent = `Horario: ${place.horario || 'Consultar'}`;
     document.getElementById('modal-place-rating').textContent = `Valoracion: ${place.rating || '4.7'} / 5`;

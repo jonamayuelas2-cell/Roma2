@@ -1,173 +1,188 @@
-[
-  {
-    "id": 1,
-    "nombre": "Table Mountain",
-    "tipo": "parques",
-    "descripcion": "Table Mountain es una visita destacada de Ciudad del Cabo, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-    "descripcionCorta": "Table Mountain es una visita destacada de Ciudad del Cabo, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje.",
-    "lat": -33.9628,
-    "lng": 18.4098,
-    "horario": "7:00 - 20:00",
-    "precio": "Gratis",
-    "rating": 4.5,
-    "imagen": "img/capetown_tablemountain.png",
-    "imagenCard": "img/capetown_tablemountain.png",
-    "tags": [
-      "parques",
-      "africa",
-      "ciudad del cabo"
-    ]
+{
+  "id": "ciudaddelcabo",
+  "nombre": "Ciudad del Cabo",
+  "pais": "Sudafrica",
+  "continente": "Africa",
+  "emoji": "🇿🇦",
+  "lat": -33.9249,
+  "lng": 18.4241,
+  "imagen": "img/capetown_hero.png",
+  "theme": {
+    "primary": "#20b2aa",
+    "secondary": "#ffa500",
+    "font": "'Outfit', sans-serif"
   },
-  {
-    "id": 2,
-    "nombre": "V&A Waterfront",
-    "tipo": "barrios",
-    "descripcion": "V&A Waterfront es una visita destacada de Ciudad del Cabo, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-    "descripcionCorta": "V&A Waterfront es una visita destacada de Ciudad del Cabo, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad.",
-    "lat": -33.903,
-    "lng": 18.4219,
-    "horario": "24h",
-    "precio": "Gratis",
-    "rating": 4.6,
-    "imagen": "img/capetown_waterfront.png",
-    "imagenCard": "img/capetown_waterfront.png",
-    "tags": [
-      "barrios",
-      "africa",
-      "ciudad del cabo"
-    ]
-  },
-  {
-    "id": 3,
-    "nombre": "Robben Island",
-    "tipo": "museos",
-    "descripcion": "Robben Island es una visita destacada de Ciudad del Cabo, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-    "descripcionCorta": "Robben Island es una visita destacada de Ciudad del Cabo, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares.",
-    "lat": -33.8067,
-    "lng": 18.3662,
-    "horario": "10:00 - 18:00",
-    "precio": "Desde 12 EUR",
-    "rating": 4.7,
-    "imagen": "img/capetown_robbenisland.png",
-    "imagenCard": "img/capetown_robbenisland.png",
-    "tags": [
-      "museos",
-      "africa",
-      "ciudad del cabo"
-    ]
-  },
-  {
-    "id": 4,
-    "nombre": "Bo-Kaap",
-    "tipo": "barrios",
-    "descripcion": "Bo-Kaap es una visita destacada de Ciudad del Cabo, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-    "descripcionCorta": "Bo-Kaap es una visita destacada de Ciudad del Cabo, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad.",
-    "lat": -33.9219,
-    "lng": 18.4142,
-    "horario": "24h",
-    "precio": "Gratis",
-    "rating": 4.7,
-    "imagen": "img/capetown_bokaap.png",
-    "imagenCard": "img/capetown_bokaap.png",
-    "tags": [
-      "barrios",
-      "africa",
-      "ciudad del cabo"
-    ]
-  },
-  {
-    "id": 5,
-    "nombre": "Kirstenbosch",
-    "tipo": "parques",
-    "descripcion": "Kirstenbosch es una visita destacada de Ciudad del Cabo, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-    "descripcionCorta": "Kirstenbosch es una visita destacada de Ciudad del Cabo, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje.",
-    "lat": -33.9875,
-    "lng": 18.4327,
-    "horario": "7:00 - 20:00",
-    "precio": "Gratis",
-    "rating": 4.8,
-    "imagen": "img/capetown_kirstenbosch.png",
-    "imagenCard": "img/capetown_kirstenbosch.png",
-    "tags": [
-      "parques",
-      "africa",
-      "ciudad del cabo"
-    ]
-  },
-  {
-    "id": 6,
-    "nombre": "Camps Bay",
-    "tipo": "parques",
-    "descripcion": "Camps Bay es una visita destacada de Ciudad del Cabo, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-    "descripcionCorta": "Camps Bay es una visita destacada de Ciudad del Cabo, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje.",
-    "lat": -33.9509,
-    "lng": 18.3776,
-    "horario": "7:00 - 20:00",
-    "precio": "Gratis",
-    "rating": 4.5,
-    "imagen": "img/capetown_campsbay.png",
-    "imagenCard": "img/capetown_campsbay.png",
-    "tags": [
-      "parques",
-      "africa",
-      "ciudad del cabo"
-    ]
-  },
-  {
-    "id": 7,
-    "nombre": "District Six Museum",
-    "tipo": "museos",
-    "descripcion": "District Six Museum es una visita destacada de Ciudad del Cabo, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-    "descripcionCorta": "District Six Museum es una visita destacada de Ciudad del Cabo, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares.",
-    "lat": -33.9274,
-    "lng": 18.4234,
-    "horario": "10:00 - 18:00",
-    "precio": "Desde 12 EUR",
-    "rating": 4.6,
-    "imagen": "img/capetown_districtsix.png",
-    "imagenCard": "img/capetown_districtsix.png",
-    "tags": [
-      "museos",
-      "africa",
-      "ciudad del cabo"
-    ]
-  },
-  {
-    "id": 8,
-    "nombre": "Old Biscuit Mill",
-    "tipo": "mercados",
-    "descripcion": "Old Biscuit Mill es una visita destacada de Ciudad del Cabo, una referencia: mercado lleno de puestos, productos locales y escenas cotidianas. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-    "descripcionCorta": "Old Biscuit Mill es una visita destacada de Ciudad del Cabo, una referencia: mercado lleno de puestos, productos locales y escenas cotidianas.",
-    "lat": -33.9271,
-    "lng": 18.457,
-    "horario": "9:00 - 15:00",
-    "precio": "Gratis",
-    "rating": 4.7,
-    "imagen": "img/capetown_oldbiscuitmill.png",
-    "imagenCard": "img/capetown_oldbiscuitmill.png",
-    "tags": [
-      "mercados",
-      "africa",
-      "ciudad del cabo"
-    ]
-  },
-  {
-    "id": 9,
-    "nombre": "Boulders Beach",
-    "tipo": "parques",
-    "descripcion": "Boulders Beach es una visita destacada de Ciudad del Cabo, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-    "descripcionCorta": "Boulders Beach es una visita destacada de Ciudad del Cabo, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje.",
-    "lat": -34.1979,
-    "lng": 18.451,
-    "horario": "7:00 - 20:00",
-    "precio": "Gratis",
-    "rating": 4.7,
-    "imagen": "img/capetown_boulders.png",
-    "imagenCard": "img/capetown_boulders.png",
-    "tags": [
-      "parques",
-      "africa",
-      "ciudad del cabo"
-    ]
-  }
-]
+  "lugares": [
+    {
+      "id": 1,
+      "nombre": "Table Mountain",
+      "tipo": "parques",
+      "descripcion": "Ascender a la cima de Table Mountain es una experiencia transformadora. Esta maravilla natural, con su cima plana y escarpada, domina el horizonte de Ciudad del Cabo y ofrece un mirador inigualable sobre el 'Fin del Mundo'.",
+      "descripcionCorta": "Un icono geológico que ofrece las vistas más espectaculares del Atlántico y la ciudad.",
+      "lat": -33.9628,
+      "lng": 18.4098,
+      "horario": "7:00 - 20:00",
+      "precio": "Gratis",
+      "rating": 4.5,
+      "imagen": "img/capetown_tablemountain.png",
+      "imagenCard": "img/capetown_tablemountain.png",
+      "tags": [
+        "parques",
+        "africa",
+        "ciudad del cabo"
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "V&A Waterfront",
+      "tipo": "barrios",
+      "descripcion": "El Victoria & Alfred Waterfront es un puerto histórico transformado en un vibrante epicentro de ocio. Aquí, el sonido de las focas compite con el jazz en vivo, mientras los yates descansan bajo la sombra de la montaña.",
+      "descripcionCorta": "El latido comercial y marítimo de la ciudad, donde la historia colonial se une al lujo moderno.",
+      "lat": -33.903,
+      "lng": 18.4219,
+      "horario": "24h",
+      "precio": "Gratis",
+      "rating": 4.6,
+      "imagen": "img/capetown_waterfront.png",
+      "imagenCard": "img/capetown_waterfront.png",
+      "tags": [
+        "barrios",
+        "africa",
+        "ciudad del cabo"
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Robben Island",
+      "tipo": "museos",
+      "descripcion": "Visitar Robben Island es mucho más que un tour; es una peregrinación hacia la libertad. La antigua prisión, ahora Patrimonio de la Humanidad, narra la lucha contra el apartheid a través de los ojos de sus propios ex-prisioneros.",
+      "descripcionCorta": "Una lección de resiliencia y esperanza en el lugar donde Nelson Mandela cambió la historia.",
+      "lat": -33.8067,
+      "lng": 18.3662,
+      "horario": "10:00 - 18:00",
+      "precio": "Desde 12 EUR",
+      "rating": 4.7,
+      "imagen": "img/capetown_robbenisland.png",
+      "imagenCard": "img/capetown_robbenisland.png",
+      "tags": [
+        "museos",
+        "africa",
+        "ciudad del cabo"
+      ]
+    },
+    {
+      "id": 4,
+      "nombre": "Bo-Kaap",
+      "tipo": "barrios",
+      "descripcion": "Las calles empedradas de Bo-Kaap son un lienzo de colores pastel y cultura islámica. Antiguamente conocido como el Barrio Malayo, es el corazón histórico de la comunidad musulmana de Ciudad del Cabo y un deleite visual.",
+      "descripcionCorta": "El barrio malayo, famoso por sus casas de colores vibrantes y su rica herencia cultural.",
+      "lat": -33.9219,
+      "lng": 18.4142,
+      "horario": "24h",
+      "precio": "Gratis",
+      "rating": 4.7,
+      "imagen": "img/capetown_bokaap.png",
+      "imagenCard": "img/capetown_bokaap.png",
+      "tags": [
+        "barrios",
+        "africa",
+        "ciudad del cabo"
+      ]
+    },
+    {
+      "id": 5,
+      "nombre": "Kirstenbosch",
+      "tipo": "parques",
+      "descripcion": "Kirstenbosch es un santuario de flora indígena sudafricana. Pasear por su pasarela de madera sobre las copas de los árboles ('The Boomslang') ofrece una perspectiva única de la biodiversidad del Cabo.",
+      "descripcionCorta": "Uno de los jardines botánicos más bellos del mundo, abrazado por la falda de la montaña.",
+      "lat": -33.9875,
+      "lng": 18.4327,
+      "horario": "7:00 - 20:00",
+      "precio": "Gratis",
+      "rating": 4.8,
+      "imagen": "img/capetown_kirstenbosch.png",
+      "imagenCard": "img/capetown_kirstenbosch.png",
+      "tags": [
+        "parques",
+        "africa",
+        "ciudad del cabo"
+      ]
+    },
+    {
+      "id": 6,
+      "nombre": "Camps Bay",
+      "tipo": "parques",
+      "descripcion": "Camps Bay es el refugio de los amantes del sol y la sofisticación. Su playa de aguas cristalinas y palmeras está flanqueada por una cordillera majestuosa y una hilera de los mejores bistrós de la ciudad.",
+      "descripcionCorta": "Elegancia costera y arenas blancas bajo los impresionantes Doce Apóstoles.",
+      "lat": -33.9509,
+      "lng": 18.3776,
+      "horario": "7:00 - 20:00",
+      "precio": "Gratis",
+      "rating": 4.5,
+      "imagen": "img/capetown_campsbay.png",
+      "imagenCard": "img/capetown_campsbay.png",
+      "tags": [
+        "parques",
+        "africa",
+        "ciudad del cabo"
+      ]
+    },
+    {
+      "id": 7,
+      "nombre": "District Six Museum",
+      "tipo": "museos",
+      "descripcion": "Este museo es el guardián de la memoria colectiva. A través de mapas, fotografías y testimonios, revive el espíritu de un barrio vibrante que fue borrado del mapa, recordándonos la importancia de la justicia social.",
+      "descripcionCorta": "Un conmovedor homenaje a la comunidad desplazada durante la era del apartheid.",
+      "lat": -33.9274,
+      "lng": 18.4234,
+      "horario": "10:00 - 18:00",
+      "precio": "Desde 12 EUR",
+      "rating": 4.6,
+      "imagen": "img/capetown_districtsix.png",
+      "imagenCard": "img/capetown_districtsix.png",
+      "tags": [
+        "museos",
+        "africa",
+        "ciudad del cabo"
+      ]
+    },
+    {
+      "id": 10,
+      "nombre": "Old Biscuit Mill",
+      "tipo": "mercados",
+      "descripcion": "En el corazón del renacido Woodstock, el Old Biscuit Mill es un mercado de diseño y gastronomía de autor. Es el lugar perfecto para descubrir el talento local, desde moda independiente hasta el famoso café sudafricano.",
+      "descripcionCorta": "El centro creativo y gastronómico más dinámico del barrio de Woodstock.",
+      "lat": -33.9271,
+      "lng": 18.457,
+      "horario": "9:00 - 15:00",
+      "precio": "Gratis",
+      "rating": 4.7,
+      "imagen": "img/capetown_oldbiscuitmill.png",
+      "imagenCard": "img/capetown_oldbiscuitmill.png",
+      "tags": [
+        "mercados",
+        "africa",
+        "ciudad del cabo"
+      ]
+    },
+    {
+      "id": 11,
+      "nombre": "Boulders Beach",
+      "tipo": "parques",
+      "descripcion": "Situada en la histórica Simon's Town, Boulders Beach es famosa por su colonia de pingüinos africanos. Sus gigantescas rocas de granito protegen ensenadas de agua turquesa, creando un refugio natural mágico.",
+      "descripcionCorta": "El único lugar del mundo donde puedes caminar entre pingüinos africanos en libertad.",
+      "lat": -34.1979,
+      "lng": 18.451,
+      "horario": "7:00 - 20:00",
+      "precio": "Gratis",
+      "rating": 4.7,
+      "imagen": "img/capetown_boulders.png",
+      "imagenCard": "img/capetown_boulders.png",
+      "tags": [
+        "parques",
+        "africa",
+        "ciudad del cabo"
+      ]
+    }
+  ]
+}

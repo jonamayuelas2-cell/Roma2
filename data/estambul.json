@@ -1,30 +1,188 @@
-[
-  {
-    "id": 1,
-    "nombre": "Santa Sofía",
-    "tipo": "cultura",
-    "descripcion": "Antigua basílica patriarcal ortodoxa, luego mezquita y ahora museo en Estambul.",
-    "descripcionCorta": "Una maravilla arquitectónica de dos mundos.",
-    "lat": 41.0086, "lng": 28.9792,
-    "horario": "9:00 - 17:00",
-    "precio": "Gratis",
-    "rating": 4.9,
-    "imagen": "https://picsum.photos/seed/hagiasophia/800/600",
-    "imagenCard": "https://picsum.photos/seed/hagiasophia/400/300",
-    "tags": ["historia", "arquitectura", "religión"]
+{
+  "id": "estambul",
+  "nombre": "Estambul",
+  "pais": "Turquia",
+  "continente": "Europa/Asia",
+  "emoji": "🇹🇷",
+  "lat": 41.0082,
+  "lng": 28.9784,
+  "imagen": "img/istanbul_hero.png",
+  "theme": {
+    "primary": "#0f766e",
+    "secondary": "#c2410c",
+    "font": "'Merriweather', serif"
   },
-  {
-    "id": 2,
-    "nombre": "Gran Bazar",
-    "tipo": "mercados",
-    "descripcion": "Uno de los mercados cubiertos más grandes y antiguos del mundo.",
-    "descripcionCorta": "El corazón comercial de Estambul.",
-    "lat": 41.0106, "lng": 28.9681,
-    "horario": "9:00 - 19:00",
-    "precio": "Gratis",
-    "rating": 4.7,
-    "imagen": "https://picsum.photos/seed/grandbazaar/800/600",
-    "imagenCard": "https://picsum.photos/seed/grandbazaar/400/300",
-    "tags": ["compras", "tradición", "especias"]
-  }
-]
+  "lugares": [
+    {
+      "id": 1,
+      "nombre": "Santa Sofia",
+      "tipo": "cultura",
+      "descripcion": "Un monumento unico donde conviven capas bizantinas y otomanas bajo una cupula que parece flotar. Entrar en Santa Sofia es recorrer quince siglos de poder, fe y arquitectura.",
+      "descripcionCorta": "La gran cupula entre dos imperios.",
+      "lat": 41.0086,
+      "lng": 28.9792,
+      "horario": "9:00 - 19:00",
+      "precio": "Variable",
+      "rating": 4.9,
+      "imagen": "img/istanbul_hagiasophia.png",
+      "imagenCard": "img/istanbul_hagiasophia.png",
+      "tags": [
+        "bizantino",
+        "otomano",
+        "arquitectura"
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "Mezquita Azul",
+      "tipo": "cultura",
+      "descripcion": "La mezquita de Sultanahmet impresiona por sus seis minaretes, su patio monumental y los azulejos que dan nombre al interior. Su presencia dialoga directamente con Santa Sofia.",
+      "descripcionCorta": "La silueta azul de Sultanahmet.",
+      "lat": 41.0054,
+      "lng": 28.9768,
+      "horario": "Fuera de horas de rezo",
+      "precio": "Gratis",
+      "rating": 4.8,
+      "imagen": "img/istanbul_bluemosque.png",
+      "imagenCard": "img/istanbul_bluemosque.png",
+      "tags": [
+        "mezquita",
+        "azulejos",
+        "sultanahmet"
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Palacio Topkapi",
+      "tipo": "cultura",
+      "descripcion": "Residencia de sultanes durante siglos, conserva patios, pabellones, tesoros y vistas al Bosforo. Sus estancias permiten imaginar la administracion y la intimidad del Imperio otomano.",
+      "descripcionCorta": "El palacio imperial sobre el Bosforo.",
+      "lat": 41.0115,
+      "lng": 28.9833,
+      "horario": "9:00 - 18:00",
+      "precio": "1500 TRY",
+      "rating": 4.7,
+      "imagen": "img/istanbul_topkapi.png",
+      "imagenCard": "img/istanbul_topkapi.png",
+      "tags": [
+        "palacio",
+        "otomano",
+        "historia"
+      ]
+    },
+    {
+      "id": 4,
+      "nombre": "Gran Bazar",
+      "tipo": "mercados",
+      "descripcion": "Uno de los mercados cubiertos mas antiguos del mundo, con pasillos de alfombras, lamparas, joyas y ceramica. Es una ciudad comercial dentro de la ciudad.",
+      "descripcionCorta": "El laberinto comercial historico.",
+      "lat": 41.0106,
+      "lng": 28.9681,
+      "horario": "9:00 - 19:00",
+      "precio": "Gratis",
+      "rating": 4.7,
+      "imagen": "img/istanbul_grandbazaar.png",
+      "imagenCard": "img/istanbul_grandbazaar.png",
+      "tags": [
+        "mercado",
+        "compras",
+        "artesania"
+      ]
+    },
+    {
+      "id": 5,
+      "nombre": "Bazar de las Especias",
+      "tipo": "mercados",
+      "descripcion": "Aromas de azafran, pimienta, dulces turcos y frutos secos llenan este mercado junto a Eminonu. Es una parada perfecta para entender la Estambul de rutas comerciales.",
+      "descripcionCorta": "Aromas y colores junto al Cuerno de Oro.",
+      "lat": 41.0165,
+      "lng": 28.9706,
+      "horario": "9:00 - 19:00",
+      "precio": "Gratis",
+      "rating": 4.7,
+      "imagen": "img/istanbul_spicebazaar.png",
+      "imagenCard": "img/istanbul_spicebazaar.png",
+      "tags": [
+        "especias",
+        "mercado",
+        "dulces"
+      ]
+    },
+    {
+      "id": 6,
+      "nombre": "Torre de Galata",
+      "tipo": "vistas",
+      "descripcion": "La torre medieval domina Beyoglu y ofrece una vista circular sobre el Cuerno de Oro, Sultanahmet y el Bosforo. Su entorno suma cafes, musica y calles empinadas.",
+      "descripcionCorta": "El mirador historico de Galata.",
+      "lat": 41.0256,
+      "lng": 28.9741,
+      "horario": "8:30 - 23:00",
+      "precio": "650 TRY",
+      "rating": 4.7,
+      "imagen": "img/istanbul_galata.png",
+      "imagenCard": "img/istanbul_galata.png",
+      "tags": [
+        "vistas",
+        "torre",
+        "beyoglu"
+      ]
+    },
+    {
+      "id": 7,
+      "nombre": "Crucero por el Bosforo",
+      "tipo": "vistas",
+      "descripcion": "Navegar entre Europa y Asia revela palacios, yali de madera, puentes y colinas cubiertas de mezquitas. Es la forma mas clara de comprender la geografia emocional de Estambul.",
+      "descripcionCorta": "La ciudad vista desde su estrecho.",
+      "lat": 41.041,
+      "lng": 29.008,
+      "horario": "Diario",
+      "precio": "Desde 300 TRY",
+      "rating": 4.8,
+      "imagen": "img/istanbul_bosphorus.png",
+      "imagenCard": "img/istanbul_bosphorus.png",
+      "tags": [
+        "barco",
+        "bosforo",
+        "vistas"
+      ]
+    },
+    {
+      "id": 8,
+      "nombre": "Cisterna Basilica",
+      "tipo": "cultura",
+      "descripcion": "Un bosque subterraneo de columnas romanas sostiene una atmosfera fresca, sonora y misteriosa bajo Sultanahmet. La iluminacion actual realza su caracter casi cinematografico.",
+      "descripcionCorta": "El palacio subterraneo de columnas.",
+      "lat": 41.0084,
+      "lng": 28.9779,
+      "horario": "9:00 - 22:00",
+      "precio": "900 TRY",
+      "rating": 4.7,
+      "imagen": "img/istanbul_basilicacistern.png",
+      "imagenCard": "img/istanbul_basilicacistern.png",
+      "tags": [
+        "subterraneo",
+        "romano",
+        "columnas"
+      ]
+    },
+    {
+      "id": 9,
+      "nombre": "Palacio Dolmabahce",
+      "tipo": "cultura",
+      "descripcion": "Un palacio imperial junto al Bosforo que une lujo otomano tardio, salones europeos y una escalera de cristal memorable. Su fachada blanca resume la ambicion cosmopolita del siglo XIX.",
+      "descripcionCorta": "Lujo otomano a orillas del Bosforo.",
+      "lat": 41.0392,
+      "lng": 29.0007,
+      "horario": "9:00 - 17:30",
+      "precio": "1050 TRY",
+      "rating": 4.7,
+      "imagen": "img/istanbul_dolmabahce.png",
+      "imagenCard": "img/istanbul_dolmabahce.png",
+      "tags": [
+        "palacio",
+        "bosforo",
+        "lujo"
+      ]
+    }
+  ]
+}

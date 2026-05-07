@@ -1,0 +1,188 @@
+{
+  "id": "auckland",
+  "nombre": "Auckland",
+  "pais": "Nueva Zelanda",
+  "continente": "Oceania",
+  "emoji": "🇳🇿",
+  "lat": -36.8485,
+  "lng": 174.7633,
+  "imagen": "img/auckland_hero.png",
+  "theme": {
+    "primary": "#000000",
+    "secondary": "#ffffff",
+    "font": "'Work Sans', sans-serif"
+  },
+  "lugares": [
+    {
+      "id": 1,
+      "nombre": "Sky Tower",
+      "tipo": "cultura",
+      "descripcion": "La estructura más alta de Nueva Zelanda, un icono del skyline que ofrece una vista de 360 grados de toda la ciudad y sus dos bahías. Un hito de la ingeniería moderna en el corazón del CBD.",
+      "descripcionCorta": "El icono arquitectónico más reconocible de Auckland.",
+      "lat": -36.8484,
+      "lng": 174.7622,
+      "horario": "9:00 - 18:00",
+      "precio": "32 NZD",
+      "rating": 4.5,
+      "imagen": "img/auckland_skytower.png",
+      "imagenCard": "img/auckland_skytower.png",
+      "tags": [
+        "vistas",
+        "iconic",
+        "altura"
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "Auckland War Memorial Museum",
+      "tipo": "museos",
+      "descripcion": "Situado en el corazón del Auckland Domain, este museo neoclásico es el guardián de la historia de Nueva Zelanda y alberga una de las colecciones de arte maorí más importantes del mundo.",
+      "descripcionCorta": "El tesoro de la historia y cultura maorí.",
+      "lat": -36.8607,
+      "lng": 174.777,
+      "horario": "10:00 - 18:00",
+      "precio": "25 NZD",
+      "rating": 4.6,
+      "imagen": "img/auckland_museum.png",
+      "imagenCard": "img/auckland_museum.png",
+      "tags": [
+        "museos",
+        "historia",
+        "maori"
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Waiheke Island",
+      "tipo": "parques",
+      "descripcion": "Conocida como la 'Isla del Vino', es un paraíso de viñedos de clase mundial, olivares y playas de arena blanca. Un refugio sofisticado a solo 40 minutos en ferry desde el centro.",
+      "descripcionCorta": "Paraíso de viñedos y playas a un paso de la ciudad.",
+      "lat": -36.8019,
+      "lng": 175.091,
+      "horario": "Ferry 6:00 - 0:00",
+      "precio": "Ferry 42 NZD",
+      "rating": 4.7,
+      "imagen": "img/auckland_waiheke.png",
+      "imagenCard": "img/auckland_waiheke.png",
+      "tags": [
+        "vino",
+        "playas",
+        "naturaleza"
+      ]
+    },
+    {
+      "id": 4,
+      "nombre": "Mount Eden",
+      "tipo": "parques",
+      "descripcion": "El punto natural más alto de la ciudad, un volcán inactivo con un cráter de 50 metros de profundidad. Ofrece las panorámicas terrestres más espectaculares del istmo de Auckland.",
+      "descripcionCorta": "Vistas panorámicas desde el volcán más alto de la ciudad.",
+      "lat": -36.877,
+      "lng": 174.7646,
+      "horario": "7:00 - 19:00",
+      "precio": "Gratis",
+      "rating": 4.7,
+      "imagen": "img/auckland_mteden.png",
+      "imagenCard": "img/auckland_mteden.png",
+      "tags": [
+        "volcán",
+        "vistas",
+        "parques"
+      ]
+    },
+    {
+      "id": 5,
+      "nombre": "Viaduct Harbour",
+      "tipo": "barrios",
+      "descripcion": "El corazon nautico de Auckland, donde yates, terrazas y restaurantes miran al agua con energia cosmopolita. Al atardecer, el puerto resume la relacion de la ciudad con sus bahias.",
+      "descripcionCorta": "El frente maritimo mas animado.",
+      "lat": -36.8425,
+      "lng": 174.7587,
+      "horario": "24h",
+      "precio": "Gratis",
+      "rating": 4.8,
+      "imagen": "img/auckland_viaductharbour.png",
+      "imagenCard": "img/auckland_viaductharbour.png",
+      "tags": [
+        "puerto",
+        "gastronomia",
+        "ocio"
+      ]
+    },
+    {
+      "id": 6,
+      "nombre": "Auckland Art Gallery",
+      "tipo": "museos",
+      "descripcion": "La principal galeria de arte del pais combina arquitectura contemporanea y patrimonio, con colecciones maories, del Pacifico y exposiciones internacionales.",
+      "descripcionCorta": "El gran museo artistico de Auckland.",
+      "lat": -36.8516,
+      "lng": 174.7679,
+      "horario": "10:00 - 17:00",
+      "precio": "Gratis / exposiciones de pago",
+      "rating": 4.6,
+      "imagen": "img/auckland_artgallery.png",
+      "imagenCard": "img/auckland_artgallery.png",
+      "tags": [
+        "arte",
+        "museo",
+        "maori"
+      ]
+    },
+    {
+      "id": 7,
+      "nombre": "Ponsonby",
+      "tipo": "barrios",
+      "descripcion": "Un barrio de villas historicas, tiendas independientes, bares y restaurantes que marca el pulso creativo de Auckland. Es ideal para cenar, comprar y ver vida local.",
+      "descripcionCorta": "Diseno, cafes y noche local.",
+      "lat": -36.8577,
+      "lng": 174.7461,
+      "horario": "24h",
+      "precio": "Gratis",
+      "rating": 4.5,
+      "imagen": "img/auckland_ponsonby.png",
+      "imagenCard": "img/auckland_ponsonby.png",
+      "tags": [
+        "barrio",
+        "diseno",
+        "gastronomia"
+      ]
+    },
+    {
+      "id": 8,
+      "nombre": "Britomart",
+      "tipo": "barrios",
+      "descripcion": "Antiguos almacenes portuarios convertidos en distrito de moda, restauracion y transporte junto al centro. Sus calles de ladrillo y patios esconden algunas de las mejores mesas de la ciudad.",
+      "descripcionCorta": "El distrito urbano mas sofisticado.",
+      "lat": -36.8443,
+      "lng": 174.769,
+      "horario": "24h",
+      "precio": "Gratis",
+      "rating": 4.6,
+      "imagen": "img/auckland_britomart.png",
+      "imagenCard": "img/auckland_britomart.png",
+      "tags": [
+        "compras",
+        "restaurantes",
+        "centro"
+      ]
+    },
+    {
+      "id": 9,
+      "nombre": "One Tree Hill",
+      "tipo": "parques",
+      "descripcion": "Un cono volcanico con praderas, ovejas y vistas amplias sobre el istmo. Su obelisco y su entorno verde conectan paisaje natural, memoria maori y vida cotidiana.",
+      "descripcionCorta": "Volcan, praderas y vistas abiertas.",
+      "lat": -36.9006,
+      "lng": 174.7838,
+      "horario": "7:00 - 19:00",
+      "precio": "Gratis",
+      "rating": 4.7,
+      "imagen": "img/auckland_onetreehill.png",
+      "imagenCard": "img/auckland_onetreehill.png",
+      "tags": [
+        "volcan",
+        "parque",
+        "vistas"
+      ]
+    }
+  ]
+}

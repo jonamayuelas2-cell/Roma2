@@ -21,5 +21,9 @@ Si sigues viendo la imagen antigua o el texto genérico ("visita destacada de El
 2. **Limpiar Caché**: En el navegador, realiza un **Hard Reload** (`Ctrl + F5` o `Cmd + Shift + R`).
 3. **Service Worker**: Si es una PWA instalada, ciérrala completamente y vuelve a abrirla (o desinstala y vuelve a cargar desde el navegador).
 
+### 🎨 Ajustes de Diseño (Fix de Altura)
+- Se ha corregido la estructura en `app.js` envolviendo las imágenes en un contenedor `.place-img-wrapper`.
+- Esto garantiza que los "frames" de cada lugar tengan una altura uniforme de **240px**, evitando que las imágenes premium desproporcionen las tarjetas.
+
 ---
 *Documentación registrada en Readme.md y prompts/prompts.md.*

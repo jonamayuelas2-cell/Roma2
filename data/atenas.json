@@ -1,30 +1,188 @@
-[
-  {
-    "id": 1,
-    "nombre": "Acrópolis de Atenas",
-    "tipo": "cultura",
-    "descripcion": "Antigua ciudadela que contiene los restos de varios edificios históricos, incluyendo el Partenón.",
-    "descripcionCorta": "La cuna de la civilización occidental.",
-    "lat": 37.9715, "lng": 23.7257,
-    "horario": "8:00 - 20:00",
-    "precio": "20€",
-    "rating": 4.9,
-    "imagen": "https://picsum.photos/seed/acropolis/800/600",
-    "imagenCard": "https://picsum.photos/seed/acropolis/400/300",
-    "tags": ["historia", "antigüedad", "vistas"]
+{
+  "id": "atenas",
+  "nombre": "Atenas",
+  "pais": "Grecia",
+  "continente": "Europa",
+  "emoji": "🇬🇷",
+  "lat": 37.9838,
+  "lng": 23.7275,
+  "imagen": "img/athens_hero.png",
+  "theme": {
+    "primary": "#2563eb",
+    "secondary": "#f5f5dc",
+    "font": "'Cinzel', serif"
   },
-  {
-    "id": 2,
-    "nombre": "Barrio de Plaka",
-    "tipo": "barrios",
-    "descripcion": "El barrio más antiguo de Atenas, situado a los pies de la Acrópolis.",
-    "descripcionCorta": "El barrio de los dioses.",
-    "lat": 37.9725, "lng": 23.7300,
-    "horario": "24h",
-    "precio": "Gratis",
-    "rating": 4.8,
-    "imagen": "https://picsum.photos/seed/plaka/800/600",
-    "imagenCard": "https://picsum.photos/seed/plaka/400/300",
-    "tags": ["calles", "gastronomía", "tradición"]
-  }
-]
+  "lugares": [
+    {
+      "id": 1,
+      "nombre": "Acropolis",
+      "tipo": "cultura",
+      "descripcion": "La roca sagrada de Atenas concentra templos, propileos y vistas que resumen el nacimiento simbolico de la ciudad occidental. Subir al amanecer o al final del dia multiplica su fuerza.",
+      "descripcionCorta": "La ciudadela sagrada de Atenas.",
+      "lat": 37.9715,
+      "lng": 23.7257,
+      "horario": "8:00 - 20:00",
+      "precio": "20 EUR",
+      "rating": 4.9,
+      "imagen": "img/athens_acropolis.png",
+      "imagenCard": "img/athens_acropolis.png",
+      "tags": [
+        "historia",
+        "arqueologia",
+        "vistas"
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "Partenon",
+      "tipo": "cultura",
+      "descripcion": "El templo dedicado a Atenea sigue siendo una leccion de proporcion, poder civico y belleza clasica. Aun en ruina, domina el horizonte cultural de Europa.",
+      "descripcionCorta": "El canon de la arquitectura clasica.",
+      "lat": 37.9715,
+      "lng": 23.7267,
+      "horario": "8:00 - 20:00",
+      "precio": "Incluido Acropolis",
+      "rating": 4.9,
+      "imagen": "img/athens_parthenon.png",
+      "imagenCard": "img/athens_parthenon.png",
+      "tags": [
+        "templo",
+        "clasico",
+        "atenas"
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Plaka",
+      "tipo": "barrios",
+      "descripcion": "Calles empedradas, buganvillas, tabernas y casas bajas forman el barrio mas antiguo y amable bajo la Acropolis. Es ideal para pasear cuando baja el calor.",
+      "descripcionCorta": "El barrio antiguo bajo la Acropolis.",
+      "lat": 37.9725,
+      "lng": 23.73,
+      "horario": "24h",
+      "precio": "Gratis",
+      "rating": 4.8,
+      "imagen": "img/athens_plaka.png",
+      "imagenCard": "img/athens_plaka.png",
+      "tags": [
+        "barrio",
+        "tabernas",
+        "tradicion"
+      ]
+    },
+    {
+      "id": 4,
+      "nombre": "Museo de la Acropolis",
+      "tipo": "museos",
+      "descripcion": "Un museo contemporaneo de cristal y luz que presenta esculturas, frisos y hallazgos con una relacion directa con la roca sagrada. Su ultima planta dialoga visualmente con el Partenon.",
+      "descripcionCorta": "El gran relato moderno de la Acropolis.",
+      "lat": 37.9684,
+      "lng": 23.7285,
+      "horario": "9:00 - 20:00",
+      "precio": "15 EUR",
+      "rating": 4.8,
+      "imagen": "img/athens_acropolismuseum.png",
+      "imagenCard": "img/athens_acropolismuseum.png",
+      "tags": [
+        "museo",
+        "arqueologia",
+        "arte"
+      ]
+    },
+    {
+      "id": 5,
+      "nombre": "Agora Antigua",
+      "tipo": "cultura",
+      "descripcion": "El antiguo centro politico, comercial y social de Atenas conserva templos, stoas y senderos entre olivos. Aqui la democracia deja de ser abstraccion y se vuelve paisaje.",
+      "descripcionCorta": "El foro donde nacio la vida civica.",
+      "lat": 37.9757,
+      "lng": 23.7225,
+      "horario": "8:00 - 20:00",
+      "precio": "10 EUR",
+      "rating": 4.7,
+      "imagen": "img/athens_ancientagora.png",
+      "imagenCard": "img/athens_ancientagora.png",
+      "tags": [
+        "democracia",
+        "ruinas",
+        "historia"
+      ]
+    },
+    {
+      "id": 6,
+      "nombre": "Monte Licabeto",
+      "tipo": "vistas",
+      "descripcion": "La colina mas alta del centro ofrece una panoramica total de Atenas, desde la Acropolis hasta el mar. Al atardecer, la ciudad se vuelve dorada y casi infinita.",
+      "descripcionCorta": "El balcon mas alto de Atenas.",
+      "lat": 37.9818,
+      "lng": 23.7436,
+      "horario": "24h",
+      "precio": "Gratis",
+      "rating": 4.8,
+      "imagen": "img/athens_lycabettus.png",
+      "imagenCard": "img/athens_lycabettus.png",
+      "tags": [
+        "vistas",
+        "colina",
+        "atardecer"
+      ]
+    },
+    {
+      "id": 7,
+      "nombre": "Monastiraki",
+      "tipo": "barrios",
+      "descripcion": "Una plaza viva rodeada de mercado, mezquitas historicas, terrazas y vistas inesperadas a la Acropolis. Es el cruce perfecto entre comercio, historia y vida urbana.",
+      "descripcionCorta": "Mercado, plazas y vistas clasicas.",
+      "lat": 37.976,
+      "lng": 23.7257,
+      "horario": "24h",
+      "precio": "Gratis",
+      "rating": 4.6,
+      "imagen": "img/athens_monastiraki.png",
+      "imagenCard": "img/athens_monastiraki.png",
+      "tags": [
+        "mercado",
+        "plaza",
+        "vida urbana"
+      ]
+    },
+    {
+      "id": 8,
+      "nombre": "Estadio Panatenaico",
+      "tipo": "cultura",
+      "descripcion": "Construido en marmol blanco sobre un estadio antiguo, fue sede de los primeros Juegos Olimpicos modernos. Su curva perfecta resume deporte, ceremonia e historia griega.",
+      "descripcionCorta": "El estadio olimpico de marmol.",
+      "lat": 37.9683,
+      "lng": 23.7411,
+      "horario": "8:00 - 19:00",
+      "precio": "10 EUR",
+      "rating": 4.7,
+      "imagen": "img/athens_panatenaic.png",
+      "imagenCard": "img/athens_panatenaic.png",
+      "tags": [
+        "olimpico",
+        "marmol",
+        "deporte"
+      ]
+    },
+    {
+      "id": 9,
+      "nombre": "Anafiotika",
+      "tipo": "barrios",
+      "descripcion": "Un pequeno laberinto de casas blancas y escaleras estrechas en la ladera de la Acropolis. Parece una isla cicladica escondida dentro de Atenas.",
+      "descripcionCorta": "Una isla blanca bajo la Acropolis.",
+      "lat": 37.9737,
+      "lng": 23.7296,
+      "horario": "24h",
+      "precio": "Gratis",
+      "rating": 4.7,
+      "imagen": "img/athens_anafiotika.png",
+      "imagenCard": "img/athens_anafiotika.png",
+      "tags": [
+        "barrio",
+        "cicladas",
+        "paseo"
+      ]
+    }
+  ]
+}

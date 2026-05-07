@@ -1,30 +1,188 @@
-[
-  {
-    "id": 1,
-    "nombre": "Casa de Ana Frank",
-    "tipo": "museos",
-    "descripcion": "Casa donde Ana Frank y su familia se ocultaron durante la ocupación nazi.",
-    "descripcionCorta": "Una historia conmovedora.",
-    "lat": 52.3752, "lng": 4.8840,
-    "horario": "9:00 - 22:00",
-    "precio": "14€",
-    "rating": 4.8,
-    "imagen": "https://picsum.photos/seed/annefrank/800/600",
-    "imagenCard": "https://picsum.photos/seed/annefrank/400/300",
-    "tags": ["historia", "museo", "emoción"]
+{
+  "id": "amsterdam",
+  "nombre": "Amsterdam",
+  "pais": "Paises Bajos",
+  "continente": "Europa",
+  "emoji": "🇳🇱",
+  "lat": 52.3676,
+  "lng": 4.9041,
+  "imagen": "img/amsterdam_hero.png",
+  "theme": {
+    "primary": "#ea580c",
+    "secondary": "#1d4ed8",
+    "font": "'Inter', sans-serif"
   },
-  {
-    "id": 2,
-    "nombre": "Rijksmuseum",
-    "tipo": "museos",
-    "descripcion": "Museo Nacional de Ámsterdam dedicado a las artes y la historia.",
-    "descripcionCorta": "El hogar de 'La ronda de noche' de Rembrandt.",
-    "lat": 52.3600, "lng": 4.8852,
-    "horario": "9:00 - 17:00",
-    "precio": "20€",
-    "rating": 4.9,
-    "imagen": "https://picsum.photos/seed/rijks/800/600",
-    "imagenCard": "https://picsum.photos/seed/rijks/400/300",
-    "tags": ["arte", "historia", "rembrandt"]
-  }
-]
+  "lugares": [
+    {
+      "id": 1,
+      "nombre": "Casa de Ana Frank",
+      "tipo": "museos",
+      "descripcion": "El anexo secreto conserva una de las historias mas conmovedoras del siglo XX. La visita es sobria, intensa y necesaria para entender la memoria de la ciudad durante la ocupacion nazi.",
+      "descripcionCorta": "Memoria viva en los canales.",
+      "lat": 52.3752,
+      "lng": 4.884,
+      "horario": "9:00 - 22:00",
+      "precio": "16 EUR",
+      "rating": 4.8,
+      "imagen": "img/amsterdam_annefrank.png",
+      "imagenCard": "img/amsterdam_annefrank.png",
+      "tags": [
+        "historia",
+        "memoria",
+        "museo"
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "Rijksmuseum",
+      "tipo": "museos",
+      "descripcion": "El gran museo nacional reune maestros neerlandeses, objetos historicos y una arquitectura majestuosa. Ver a Rembrandt y Vermeer aqui es entrar en el Siglo de Oro.",
+      "descripcionCorta": "El templo del arte neerlandes.",
+      "lat": 52.36,
+      "lng": 4.8852,
+      "horario": "9:00 - 17:00",
+      "precio": "22.50 EUR",
+      "rating": 4.8,
+      "imagen": "img/amsterdam_rijksmuseum.png",
+      "imagenCard": "img/amsterdam_rijksmuseum.png",
+      "tags": [
+        "arte",
+        "rembrandt",
+        "historia"
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Museo Van Gogh",
+      "tipo": "museos",
+      "descripcion": "La mayor coleccion del pintor permite seguir su evolucion desde los tonos oscuros iniciales hasta los colores vibrantes de Arles. Es una visita emocional y muy bien narrada.",
+      "descripcionCorta": "El viaje interior de Van Gogh.",
+      "lat": 52.3584,
+      "lng": 4.8811,
+      "horario": "9:00 - 18:00",
+      "precio": "22 EUR",
+      "rating": 4.8,
+      "imagen": "img/amsterdam_vangogh.png",
+      "imagenCard": "img/amsterdam_vangogh.png",
+      "tags": [
+        "arte",
+        "vangogh",
+        "museo"
+      ]
+    },
+    {
+      "id": 4,
+      "nombre": "Vondelpark",
+      "tipo": "parques",
+      "descripcion": "El parque urbano mas querido de Amsterdam mezcla lagos, senderos, praderas y cafes en un respiro verde muy local. Ideal para caminar, pedalear o descansar entre museos.",
+      "descripcionCorta": "El gran jardin cotidiano de la ciudad.",
+      "lat": 52.3579,
+      "lng": 4.8686,
+      "horario": "24h",
+      "precio": "Gratis",
+      "rating": 4.7,
+      "imagen": "img/amsterdam_vondelpark.png",
+      "imagenCard": "img/amsterdam_vondelpark.png",
+      "tags": [
+        "parque",
+        "bicicletas",
+        "relax"
+      ]
+    },
+    {
+      "id": 5,
+      "nombre": "Canales de Amsterdam",
+      "tipo": "vistas",
+      "descripcion": "El cinturon de canales declarado patrimonio mundial dibuja puentes, casas estrechas y reflejos que cambian con la luz. Recorrerlo a pie o en barco revela la elegancia anfibia de la ciudad.",
+      "descripcionCorta": "Puentes y reflejos patrimonio mundial.",
+      "lat": 52.3702,
+      "lng": 4.8952,
+      "horario": "24h",
+      "precio": "Gratis",
+      "rating": 4.9,
+      "imagen": "img/amsterdam_canals.png",
+      "imagenCard": "img/amsterdam_canals.png",
+      "tags": [
+        "canales",
+        "puentes",
+        "patrimonio"
+      ]
+    },
+    {
+      "id": 6,
+      "nombre": "Jordaan",
+      "tipo": "barrios",
+      "descripcion": "Un barrio de calles tranquilas, patios escondidos, galerias, boutiques y cafes junto a canales secundarios. Conserva una escala intima que contrasta con las zonas mas transitadas.",
+      "descripcionCorta": "El Amsterdam mas intimo y creativo.",
+      "lat": 52.373,
+      "lng": 4.8807,
+      "horario": "24h",
+      "precio": "Gratis",
+      "rating": 4.8,
+      "imagen": "img/amsterdam_jordaan.png",
+      "imagenCard": "img/amsterdam_jordaan.png",
+      "tags": [
+        "barrio",
+        "cafes",
+        "canales"
+      ]
+    },
+    {
+      "id": 7,
+      "nombre": "Mercado Albert Cuyp",
+      "tipo": "mercados",
+      "descripcion": "Puestos de comida, flores, telas y productos locales llenan De Pijp de ritmo popular. Es el lugar perfecto para probar stroopwafels calientes y mirar la vida diaria.",
+      "descripcionCorta": "El mercado callejero mas animado.",
+      "lat": 52.3555,
+      "lng": 4.8932,
+      "horario": "9:30 - 17:00",
+      "precio": "Gratis",
+      "rating": 4.5,
+      "imagen": "img/amsterdam_albertcuyp.png",
+      "imagenCard": "img/amsterdam_albertcuyp.png",
+      "tags": [
+        "mercado",
+        "comida",
+        "de pijp"
+      ]
+    },
+    {
+      "id": 8,
+      "nombre": "Bloemenmarkt",
+      "tipo": "mercados",
+      "descripcion": "El mercado flotante de flores mantiene viva la relacion de Amsterdam con tulipanes, bulbos y color. Sus puestos sobre barcazas son una imagen clasica del centro.",
+      "descripcionCorta": "Flores flotantes en pleno canal.",
+      "lat": 52.3662,
+      "lng": 4.8917,
+      "horario": "9:00 - 17:30",
+      "precio": "Gratis",
+      "rating": 4.3,
+      "imagen": "img/amsterdam_bloemenmarkt.png",
+      "imagenCard": "img/amsterdam_bloemenmarkt.png",
+      "tags": [
+        "flores",
+        "canal",
+        "mercado"
+      ]
+    },
+    {
+      "id": 9,
+      "nombre": "NDSM Werf",
+      "tipo": "barrios",
+      "descripcion": "Un antiguo astillero convertido en distrito creativo con arte urbano, estudios, terrazas y arquitectura industrial. Muestra la cara mas experimental del norte de Amsterdam.",
+      "descripcionCorta": "Arte urbano en el antiguo astillero.",
+      "lat": 52.3995,
+      "lng": 4.8923,
+      "horario": "24h",
+      "precio": "Gratis",
+      "rating": 4.6,
+      "imagen": "img/amsterdam_ndsmwerf.png",
+      "imagenCard": "img/amsterdam_ndsmwerf.png",
+      "tags": [
+        "arte urbano",
+        "industrial",
+        "creativo"
+      ]
+    }
+  ]
+}

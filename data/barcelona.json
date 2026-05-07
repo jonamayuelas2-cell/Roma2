@@ -1,92 +1,188 @@
-[
-  {
-    "id": 1,
-    "nombre": "Sagrada Familia",
-    "tipo": "cultura",
-    "descripcion": "La obra maestra inacabada de Antoni Gaudí, símbolo máximo del modernismo catalán.",
-    "descripcionCorta": "La joya modernista de Antoni Gaudí.",
-    "direccion": "C/ de Mallorca, 401, 08013 Barcelona",
-    "lat": 41.4036,
-    "lng": 2.1744,
-    "horario": "9:00 - 20:00",
-    "precio": "26€",
-    "rating": 4.9,
-    "imagen": "https://picsum.photos/seed/sagrada/800/600",
-    "imagenCard": "https://picsum.photos/seed/sagrada/400/300",
-    "tags": ["gaudí", "modernismo", "iglesia"],
-    "web": "https://sagradafamilia.org",
-    "telefono": ""
+{
+  "id": "barcelona",
+  "nombre": "Barcelona",
+  "pais": "Espana",
+  "continente": "Europa",
+  "emoji": "🇪🇸",
+  "lat": 41.3874,
+  "lng": 2.1686,
+  "imagen": "img/barcelona_hero.png",
+  "theme": {
+    "primary": "#b91c1c",
+    "secondary": "#f59e0b",
+    "font": "'Montserrat', sans-serif"
   },
-  {
-    "id": 2,
-    "nombre": "Parque Güell",
-    "tipo": "parques",
-    "descripcion": "Un parque público con jardines y elementos arquitectónicos situados en la parte superior de la ciudad.",
-    "descripcionCorta": "El parque más colorido y creativo del mundo.",
-    "direccion": "08024 Barcelona",
-    "lat": 41.4145,
-    "lng": 2.1527,
-    "horario": "9:30 - 19:30",
-    "precio": "10€",
-    "rating": 4.7,
-    "imagen": "https://picsum.photos/seed/guell/800/600",
-    "imagenCard": "https://picsum.photos/seed/guell/400/300",
-    "tags": ["gaudí", "vistas", "mosaicos"],
-    "web": "https://parkguell.barcelona",
-    "telefono": ""
-  },
-  {
-    "id": 3,
-    "nombre": "Las Ramblas",
-    "tipo": "barrios",
-    "descripcion": "El paseo más famoso de Barcelona, lleno de vida, quioscos y artistas callejeros.",
-    "descripcionCorta": "El corazón palpitante de Barcelona.",
-    "direccion": "La Rambla, Barcelona",
-    "lat": 41.3817,
-    "lng": 2.1722,
-    "horario": "Siempre",
-    "precio": "Gratuito",
-    "rating": 4.4,
-    "imagen": "https://picsum.photos/seed/ramblas/800/600",
-    "imagenCard": "https://picsum.photos/seed/ramblas/400/300",
-    "tags": ["paseo", "centro", "turismo"],
-    "web": "",
-    "telefono": ""
-  },
-  {
-    "id": 4,
-    "nombre": "Mercado de la Boquería",
-    "tipo": "mercados",
-    "descripcion": "El mercado municipal más famoso de la ciudad, un paraíso de colores y sabores.",
-    "descripcionCorta": "El mercado más emblemático de España.",
-    "direccion": "La Rambla, 91, 08001 Barcelona",
-    "lat": 41.3817,
-    "lng": 2.1712,
-    "horario": "8:00 - 20:30",
-    "precio": "Gratuito",
-    "rating": 4.6,
-    "imagen": "https://picsum.photos/seed/boqueria/800/600",
-    "imagenCard": "https://picsum.photos/seed/boqueria/400/300",
-    "tags": ["mercado", "comida", "tapas"],
-    "web": "https://www.boqueria.barcelona",
-    "telefono": ""
-  },
-  {
-    "id": 5,
-    "nombre": "Barrio Gótico",
-    "tipo": "barrios",
-    "descripcion": "El centro histórico de Barcelona, con estrechas calles medievales y plazas escondidas.",
-    "descripcionCorta": "Historia viva en el laberinto medieval.",
-    "direccion": "Barri Gòtic, 08002 Barcelona",
-    "lat": 41.3833,
-    "lng": 2.1769,
-    "horario": "Siempre",
-    "precio": "Gratuito",
-    "rating": 4.8,
-    "imagen": "https://picsum.photos/seed/gotico/800/600",
-    "imagenCard": "https://picsum.photos/seed/gotico/400/300",
-    "tags": ["historia", "medieval", "centro"],
-    "web": "",
-    "telefono": ""
-  }
-]
+  "lugares": [
+    {
+      "id": 1,
+      "nombre": "Sagrada Familia",
+      "tipo": "cultura",
+      "descripcion": "La basilica modernista de Gaudi combina piedra, luz y simbolismo en una experiencia arquitectonica irrepetible. Sus torres organicas dominan el Eixample y convierten cada fachada en un relato tallado.",
+      "descripcionCorta": "La gran obra viva de Gaudi.",
+      "lat": 41.4036,
+      "lng": 2.1744,
+      "horario": "9:00 - 20:00",
+      "precio": "26 EUR",
+      "rating": 4.9,
+      "imagen": "img/barcelona_sagradafamilia.png",
+      "imagenCard": "img/barcelona_sagradafamilia.png",
+      "tags": [
+        "gaudi",
+        "modernismo",
+        "basilica"
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "Park Guell",
+      "tipo": "parques",
+      "descripcion": "Un jardin suspendido donde mosaicos, columnas inclinadas y miradores dialogan con la ciudad y el Mediterraneo. Es una de las expresiones mas ludicas y luminosas del modernismo catalan.",
+      "descripcionCorta": "Mosaicos y vistas con alma modernista.",
+      "lat": 41.4145,
+      "lng": 2.1527,
+      "horario": "9:30 - 19:30",
+      "precio": "10 EUR",
+      "rating": 4.7,
+      "imagen": "img/barcelona_parkguell.png",
+      "imagenCard": "img/barcelona_parkguell.png",
+      "tags": [
+        "gaudi",
+        "mosaicos",
+        "vistas"
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Barrio Gotico",
+      "tipo": "barrios",
+      "descripcion": "El laberinto medieval de Barcelona conserva plazas silenciosas, restos romanos y callejones de piedra donde la historia aparece a cada giro. Ideal para pasear sin prisa entre catedral, patios y pequenas tiendas.",
+      "descripcionCorta": "El nucleo medieval de la ciudad.",
+      "lat": 41.3833,
+      "lng": 2.1769,
+      "horario": "24h",
+      "precio": "Gratis",
+      "rating": 4.8,
+      "imagen": "img/barcelona_barriogotico.png",
+      "imagenCard": "img/barcelona_barriogotico.png",
+      "tags": [
+        "historia",
+        "medieval",
+        "centro"
+      ]
+    },
+    {
+      "id": 4,
+      "nombre": "Casa Batllo",
+      "tipo": "cultura",
+      "descripcion": "Una fachada ondulante de ceramica, hierro y color convierte el Passeig de Gracia en un escenario fantastico. En su interior, Gaudi transforma escaleras, patios y techos en una casa casi marina.",
+      "descripcionCorta": "La fantasia modernista del Passeig de Gracia.",
+      "lat": 41.3916,
+      "lng": 2.1649,
+      "horario": "9:00 - 20:30",
+      "precio": "35 EUR",
+      "rating": 4.8,
+      "imagen": "img/barcelona_casabatllo.png",
+      "imagenCard": "img/barcelona_casabatllo.png",
+      "tags": [
+        "gaudi",
+        "arquitectura",
+        "modernismo"
+      ]
+    },
+    {
+      "id": 5,
+      "nombre": "La Rambla",
+      "tipo": "barrios",
+      "descripcion": "El paseo mas conocido de Barcelona conecta plaza Catalunya con el puerto entre flores, teatros, terrazas y un movimiento constante. Sigue siendo una arteria esencial para leer la energia popular de la ciudad.",
+      "descripcionCorta": "El paseo clasico hacia el puerto.",
+      "lat": 41.3817,
+      "lng": 2.1722,
+      "horario": "24h",
+      "precio": "Gratis",
+      "rating": 4.4,
+      "imagen": "img/barcelona_larambla.png",
+      "imagenCard": "img/barcelona_larambla.png",
+      "tags": [
+        "paseo",
+        "centro",
+        "vida urbana"
+      ]
+    },
+    {
+      "id": 6,
+      "nombre": "Mercado de la Boqueria",
+      "tipo": "mercados",
+      "descripcion": "Un mercado historico rebosante de frutas, pescados, especias y barras donde probar la ciudad con todos los sentidos. Su cubierta y sus colores lo convierten en una parada gastronomica imprescindible.",
+      "descripcionCorta": "El gran mercado sensorial de Barcelona.",
+      "lat": 41.3817,
+      "lng": 2.1712,
+      "horario": "8:00 - 20:30",
+      "precio": "Gratis",
+      "rating": 4.6,
+      "imagen": "img/barcelona_boqueria.png",
+      "imagenCard": "img/barcelona_boqueria.png",
+      "tags": [
+        "mercado",
+        "gastronomia",
+        "producto"
+      ]
+    },
+    {
+      "id": 7,
+      "nombre": "Montjuic",
+      "tipo": "parques",
+      "descripcion": "La montana cultural de Barcelona reune jardines, museos, miradores y memoria olimpica sobre el puerto. Desde sus terrazas se entienden la escala de la ciudad y su relacion con el mar.",
+      "descripcionCorta": "Jardines, museos y miradores sobre el puerto.",
+      "lat": 41.3636,
+      "lng": 2.1586,
+      "horario": "24h",
+      "precio": "Gratis",
+      "rating": 4.7,
+      "imagen": "img/barcelona_montjuic.png",
+      "imagenCard": "img/barcelona_montjuic.png",
+      "tags": [
+        "vistas",
+        "jardines",
+        "museos"
+      ]
+    },
+    {
+      "id": 8,
+      "nombre": "Barceloneta",
+      "tipo": "barrios",
+      "descripcion": "El antiguo barrio marinero conserva calles estrechas, restaurantes de arroz y una playa urbana siempre viva. Es el mejor lugar para sentir la Barcelona abierta al Mediterraneo.",
+      "descripcionCorta": "El barrio marinero junto a la playa.",
+      "lat": 41.3784,
+      "lng": 2.1925,
+      "horario": "24h",
+      "precio": "Gratis",
+      "rating": 4.5,
+      "imagen": "img/barcelona_barceloneta.png",
+      "imagenCard": "img/barcelona_barceloneta.png",
+      "tags": [
+        "playa",
+        "mar",
+        "barrio"
+      ]
+    },
+    {
+      "id": 9,
+      "nombre": "Palau de la Musica Catalana",
+      "tipo": "cultura",
+      "descripcion": "Una joya modernista de Lluis Domenech i Montaner donde vidrieras, ceramica y escultura envuelven la musica. Su sala principal es una de las mas bellas de Europa.",
+      "descripcionCorta": "Un templo modernista para la musica.",
+      "lat": 41.3875,
+      "lng": 2.1753,
+      "horario": "9:00 - 21:00",
+      "precio": "18 EUR",
+      "rating": 4.8,
+      "imagen": "img/barcelona_palaumusica.png",
+      "imagenCard": "img/barcelona_palaumusica.png",
+      "tags": [
+        "musica",
+        "modernismo",
+        "arte"
+      ]
+    }
+  ]
+}
