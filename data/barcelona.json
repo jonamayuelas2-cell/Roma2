@@ -30,6 +30,50 @@
         "gaudi",
         "modernismo",
         "basilica"
+      ],
+      "actividades": [
+        {
+          "titulo": "Visita Guiada Detallada",
+          "descripcion": "Recorrido por el interior de la basilica explicando el simbolismo de las columnas y la luz.",
+          "proveedor": "Basílica Sagrada Família",
+          "contacto": "sagradafamilia.org",
+          "horario": "9:00 - 18:00"
+        },
+        {
+          "titulo": "Subida a las Torres",
+          "descripcion": "Vistas panoramicas de Barcelona desde las alturas de la obra maestra de Gaudi.",
+          "proveedor": "Basílica Sagrada Família",
+          "contacto": "sagradafamilia.org",
+          "horario": "Mañanas"
+        },
+        {
+          "titulo": "Concierto de Organo",
+          "descripcion": "Sesiones musicales que aprovechan la increible acustica del templo.",
+          "proveedor": "Cultura BCN",
+          "contacto": "barcelona.cat/cultura",
+          "horario": "Eventos especiales"
+        },
+        {
+          "titulo": "Taller de Mosaicos",
+          "descripcion": "Aprende la tecnica del trencadis en un taller cercano inspirado en la obra viva.",
+          "proveedor": "Gaudi Experience",
+          "contacto": "gaudiexperience.com",
+          "horario": "11:00 - 13:00"
+        },
+        {
+          "titulo": "Fotografia Nocturna",
+          "descripcion": "Tour especializado para capturar la fachada de la Pasion iluminada.",
+          "proveedor": "BCN Photo Tour",
+          "contacto": "bcnphototour.com",
+          "horario": "21:00"
+        },
+        {
+          "titulo": "Misa Internacional",
+          "descripcion": "Ceremonia religiosa en un entorno unico abierta a visitantes de todo el mundo.",
+          "proveedor": "Arquebisbat de Barcelona",
+          "contacto": "esglesiabarcelona.cat",
+          "horario": "Domingos 9:00"
+        }
       ]
     },
     {
@@ -49,6 +93,50 @@
         "gaudi",
         "mosaicos",
         "vistas"
+      ],
+      "actividades": [
+        {
+          "titulo": "Recorrido Historico",
+          "descripcion": "Visita guiada por la zona monumental, el banco de trencadis y la escalinata del dragon.",
+          "proveedor": "Park Güell Oficial",
+          "contacto": "parkguell.barcelona",
+          "horario": "10:00 - 19:00"
+        },
+        {
+          "titulo": "Picnic en los Jardines",
+          "descripcion": "Espacios habilitados para disfrutar de la naturaleza y las vistas al Mediterraneo.",
+          "proveedor": "Parcs i Jardins BCN",
+          "contacto": "barcelona.cat/parcs",
+          "horario": "Todo el día"
+        },
+        {
+          "titulo": "Taller de Trencadis",
+          "descripcion": "Actividad creativa para niños y familias basada en los mosaicos del parque.",
+          "proveedor": "Mosaiccos BCN",
+          "contacto": "mosaiccos.com",
+          "horario": "12:00"
+        },
+        {
+          "titulo": "Ruta Botanica",
+          "descripcion": "Descubre las especies mediterraneas que Gaudi integro en el diseño del parque.",
+          "proveedor": "Barcelona Green",
+          "contacto": "bcn-green.com",
+          "horario": "Bajo reserva"
+        },
+        {
+          "titulo": "Puesta de Sol",
+          "descripcion": "El mejor punto de observacion en el Calvario para ver caer el sol sobre la ciudad.",
+          "proveedor": "Libre",
+          "contacto": "N/A",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Casa-Museu Gaudi",
+          "descripcion": "Visita la que fue residencia del arquitecto durante 20 años.",
+          "proveedor": "Fundació Sagrada Família",
+          "contacto": "casamuseugaudi.org",
+          "horario": "10:00 - 18:00"
+        }
       ]
     },
     {
@@ -68,6 +156,50 @@
         "historia",
         "medieval",
         "centro"
+      ],
+      "actividades": [
+        {
+          "titulo": "Tour de Leyendas",
+          "descripcion": "Paseo nocturno por los callejones medievales descubriendo historias ocultas.",
+          "proveedor": "Icono Serveis",
+          "contacto": "iconoserveis.com",
+          "horario": "20:00"
+        },
+        {
+          "titulo": "Tapas Historicas",
+          "descripcion": "Ruta gastronomica por tabernas centenarias del barrio mas antiguo.",
+          "proveedor": "Devour Tours",
+          "contacto": "devourtours.com",
+          "horario": "19:00"
+        },
+        {
+          "titulo": "Guitarra Española",
+          "descripcion": "Conciertos intimos en la Basilica de Santa Maria del Pi.",
+          "proveedor": "Maestros de la Guitarra",
+          "contacto": "maestrosdelaguitarra.com",
+          "horario": "21:00"
+        },
+        {
+          "titulo": "Barcelona Romana",
+          "descripcion": "Descubre los restos de la antigua Barcino y las columnas del Templo de Augusto.",
+          "proveedor": "MUHBA",
+          "contacto": "barcelona.cat/museuhistoria",
+          "horario": "10:00 - 19:00"
+        },
+        {
+          "titulo": "Caligrafia Medieval",
+          "descripcion": "Taller de escritura antigua en un claustro gotico.",
+          "proveedor": "Arts Medievals",
+          "contacto": "artsmedievals.com",
+          "horario": "Sabados"
+        },
+        {
+          "titulo": "Patios Escondidos",
+          "descripcion": "Visita guiada a palacios privados que abren sus patios solo para grupos reducidos.",
+          "proveedor": "Cases Singulars",
+          "contacto": "casessingulars.com",
+          "horario": "Bajo reserva"
+        }
       ]
     },
     {
@@ -87,6 +219,50 @@
         "gaudi",
         "arquitectura",
         "modernismo"
+      ],
+      "actividades": [
+        {
+          "titulo": "Visita Teatralizada",
+          "descripcion": "El propio Gaudí (actor) te guia por los secretos de su casa mas imaginativa.",
+          "proveedor": "Casa Batlló",
+          "contacto": "casabatllo.es",
+          "horario": "18:00"
+        },
+        {
+          "titulo": "Noches Magicas",
+          "descripcion": "Conciertos en vivo en la azotea del Dragon con una copa de cava.",
+          "proveedor": "Casa Batlló",
+          "contacto": "casabatllo.es",
+          "horario": "20:00"
+        },
+        {
+          "titulo": "Experiencia 10D",
+          "descripcion": "Viaje inmersivo a la mente de Gaudi mediante tecnologia de vanguardia.",
+          "proveedor": "Casa Batlló",
+          "contacto": "casabatllo.es",
+          "horario": "9:00 - 20:00"
+        },
+        {
+          "titulo": "Desayuno en el Tejado",
+          "descripcion": "Acceso exclusivo antes de la apertura general con desayuno gourmet.",
+          "proveedor": "Casa Batlló",
+          "contacto": "casabatllo.es",
+          "horario": "8:30"
+        },
+        {
+          "titulo": "Taller de Vidrieras",
+          "descripcion": "Aprende sobre el manejo del color y la luz en el modernismo.",
+          "proveedor": "Artesania BCN",
+          "contacto": "artesaniabcn.cat",
+          "horario": "Mensual"
+        },
+        {
+          "titulo": "Sesion Fotografica",
+          "descripcion": "Fotografo profesional para capturar tu visita en el Salon Noble.",
+          "proveedor": "Photo Experience",
+          "contacto": "photo-exp.com",
+          "horario": "Previa cita"
+        }
       ]
     },
     {
@@ -106,6 +282,50 @@
         "paseo",
         "centro",
         "vida urbana"
+      ],
+      "actividades": [
+        {
+          "titulo": "Paseo de Canaletes",
+          "descripcion": "Recorrido desde la famosa fuente hasta el monumento a Colon.",
+          "proveedor": "Barcelona Turisme",
+          "contacto": "barcelonaturisme.com",
+          "horario": "Cualquier hora"
+        },
+        {
+          "titulo": "Flamenco en el Tablao",
+          "descripcion": "Pasion y duende en el historico Tablao Cordobes.",
+          "proveedor": "Tablao Cordobes",
+          "contacto": "tablaocordobes.es",
+          "horario": "Varios pases"
+        },
+        {
+          "titulo": "Opera en el Liceu",
+          "descripcion": "Visita al interior del gran teatro de la opera de Barcelona.",
+          "proveedor": "Gran Teatre del Liceu",
+          "contacto": "liceubarcelona.cat",
+          "horario": "10:00 - 18:00"
+        },
+        {
+          "titulo": "Cocteleria Boadas",
+          "descripcion": "Degustacion en la cocteleria mas antigua de la ciudad.",
+          "proveedor": "Boadas Cocktails",
+          "contacto": "boadascocktails.com",
+          "horario": "Tarde/Noche"
+        },
+        {
+          "titulo": "Ruta de Estatuas",
+          "descripcion": "Conoce la historia de los artistas callejeros mas iconicos.",
+          "proveedor": "Rambla Artistas",
+          "contacto": "laramblabcn.com",
+          "horario": "Mañana"
+        },
+        {
+          "titulo": "Cena en Terraza",
+          "descripcion": "Gastronomia tradicional en la Plaza Real junto a las farolas de Gaudi.",
+          "proveedor": "Restaurante Glaciar",
+          "contacto": "glaciarbcn.com",
+          "horario": "20:00"
+        }
       ]
     },
     {
@@ -125,6 +345,50 @@
         "mercado",
         "gastronomia",
         "producto"
+      ],
+      "actividades": [
+        {
+          "titulo": "Tour con Chef",
+          "descripcion": "Visita el mercado con un chef local para comprar ingredientes frescos.",
+          "proveedor": "Boqueria Food Tours",
+          "contacto": "boqueria.barcelona",
+          "horario": "10:00"
+        },
+        {
+          "titulo": "Taller de Cocina",
+          "descripcion": "Aprende a cocinar paella y crema catalana tras la visita al mercado.",
+          "proveedor": "Barcelona Cooking",
+          "contacto": "barcelonacooking.net",
+          "horario": "11:00"
+        },
+        {
+          "titulo": "Ostras y Cava",
+          "descripcion": "Degustacion de producto fresco en los puestos mas exclusivos.",
+          "proveedor": "Peixateries Joana",
+          "contacto": "laboqueria.es",
+          "horario": "Mañana"
+        },
+        {
+          "titulo": "Puestos Historicos",
+          "descripcion": "Ruta centrada en los comerciantes que llevan generaciones en el mercado.",
+          "proveedor": "Amics de la Boqueria",
+          "contacto": "boqueria.info",
+          "horario": "12:00"
+        },
+        {
+          "titulo": "Desayuno de Tenedor",
+          "descripcion": "La experiencia autentica de desayunar platos calientes en El Quim.",
+          "proveedor": "El Quim de la Boqueria",
+          "contacto": "elquimdelaboqueria.com",
+          "horario": "8:00 - 11:00"
+        },
+        {
+          "titulo": "Corte de Jamon",
+          "descripcion": "Masterclass sobre los diferentes tipos de jamon y tecnicas de corte.",
+          "proveedor": "Reserva Iberica",
+          "contacto": "reservaiberica.com",
+          "horario": "16:00"
+        }
       ]
     },
     {
@@ -144,6 +408,50 @@
         "vistas",
         "jardines",
         "museos"
+      ],
+      "actividades": [
+        {
+          "titulo": "Teleferico de Montjuic",
+          "descripcion": "Vuelo sobre la ciudad con las mejores vistas del puerto y el mar.",
+          "proveedor": "TMB",
+          "contacto": "telefericdemontjuic.cat",
+          "horario": "10:00 - 19:00"
+        },
+        {
+          "titulo": "Font Magica",
+          "descripcion": "Espectaculo de agua, luz y musica al pie del Palacio Nacional.",
+          "proveedor": "Ayuntamiento BCN",
+          "contacto": "barcelona.cat/fontmagica",
+          "horario": "Noche (Consultar dias)"
+        },
+        {
+          "titulo": "Castell de Montjuic",
+          "descripcion": "Visita a la antigua fortaleza militar con vistas 360 grados.",
+          "proveedor": "Castell Montjuic",
+          "contacto": "barcelona.cat/castellmontjuic",
+          "horario": "10:00 - 20:00"
+        },
+        {
+          "titulo": "Jardines de Brossa",
+          "descripcion": "Ruta por los jardines tematicos y las esculturas al aire libre.",
+          "proveedor": "Parcs BCN",
+          "contacto": "barcelona.cat/parcs",
+          "horario": "Todo el día"
+        },
+        {
+          "titulo": "MNAC Experience",
+          "descripcion": "Visita a la mejor coleccion de pintura romanica del mundo.",
+          "proveedor": "Museu Nacional",
+          "contacto": "museunacional.cat",
+          "horario": "10:00 - 18:00"
+        },
+        {
+          "titulo": "Piscina Olimpica",
+          "descripcion": "Bañate en la piscina de los saltos olimpicos con la ciudad de fondo.",
+          "proveedor": "CEM Montjuic",
+          "contacto": "picornell.cat",
+          "horario": "Verano"
+        }
       ]
     },
     {
@@ -163,6 +471,50 @@
         "playa",
         "mar",
         "barrio"
+      ],
+      "actividades": [
+        {
+          "titulo": "Paddle Surf Amanecer",
+          "descripcion": "Empieza el dia remando en el Mediterraneo frente a la costa.",
+          "proveedor": "Manihi Surf",
+          "contacto": "manihisurf.com",
+          "horario": "6:30"
+        },
+        {
+          "titulo": "Arroz Marinero",
+          "descripcion": "Almuerzo tradicional en una de las arrocerias del paseo maritimo.",
+          "proveedor": "Can Solé",
+          "contacto": "restaurantcansole.com",
+          "horario": "14:00"
+        },
+        {
+          "titulo": "Pesca Tradicional",
+          "descripcion": "Acompaña a los pescadores en su jornada y visita la lonja.",
+          "proveedor": "Cap a Mar",
+          "contacto": "capamar.cat",
+          "horario": "Mañanas"
+        },
+        {
+          "titulo": "Bicicletas por el Mar",
+          "descripcion": "Alquiler para recorrer toda la linea de costa hasta el Forum.",
+          "proveedor": "BCN Bike Rent",
+          "contacto": "barcelonabikerent.com",
+          "horario": "Diario"
+        },
+        {
+          "titulo": "Museo de Historia",
+          "descripcion": "Vistas desde la terraza del museo sobre el Port Vell.",
+          "proveedor": "MHCat",
+          "contacto": "mhcat.cat",
+          "horario": "10:00 - 19:00"
+        },
+        {
+          "titulo": "Cena con Brisa",
+          "descripcion": "Experiencia gastronomica nocturna frente a los yates del puerto.",
+          "proveedor": "Restaurante Barceloneta",
+          "contacto": "restaurantbarceloneta.com",
+          "horario": "21:00"
+        }
       ]
     },
     {
@@ -182,6 +534,50 @@
         "musica",
         "modernismo",
         "arte"
+      ],
+      "actividades": [
+        {
+          "titulo": "Visita Modernista",
+          "descripcion": "Descubre la explosion de color y luz en el templo de la musica.",
+          "proveedor": "Palau de la Música",
+          "contacto": "palaumusica.cat",
+          "horario": "10:00 - 15:30"
+        },
+        {
+          "titulo": "Ensayo Abierto",
+          "descripcion": "Escucha al Orfeó Català en sus sesiones de preparacion.",
+          "proveedor": "Palau de la Música",
+          "contacto": "palaumusica.cat",
+          "horario": "Segun calendario"
+        },
+        {
+          "titulo": "Opera y Flamenco",
+          "descripcion": "Espectaculo de fusion artistica en el escenario principal.",
+          "proveedor": "Barcelona Flamenco",
+          "contacto": "operaflamenco.com",
+          "horario": "20:00"
+        },
+        {
+          "titulo": "Escultura Modernista",
+          "descripcion": "Recorrido enfocado en las musas y el simbolismo esculpido.",
+          "proveedor": "Arts Modernistes",
+          "contacto": "modernisme.cat",
+          "horario": "Bajo reserva"
+        },
+        {
+          "titulo": "Te en el Balcon",
+          "descripcion": "Disfruta de un te entre las columnas de mosaico de la fachada.",
+          "proveedor": "Café del Palau",
+          "contacto": "palaumusica.cat",
+          "horario": "Tarde"
+        },
+        {
+          "titulo": "Recital de Piano",
+          "descripcion": "Conciertos de piano a la luz de las velas en la sala pequeña.",
+          "proveedor": "Candlelight BCN",
+          "contacto": "feverup.com",
+          "horario": "21:30"
+        }
       ]
     }
   ]

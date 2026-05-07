@@ -16,7 +16,7 @@ const state = {
     isTransitioning: false
 };
 
-const ASSET_VERSION = '2026-05-07-istanbul-activities-v2';
+const ASSET_VERSION = '2026-05-07-barcelona-activities-v1';
 
 function assetUrl(src) {
     if (!src || src.startsWith('http') || src.startsWith('data:')) return src;

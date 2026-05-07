@@ -26,5 +26,11 @@ Hemos completado la elevación de Estambul al estándar "Premium" de la PWA. Est
 - [!] **Estado de Imágenes**: 49 imágenes de actividades pendientes por límite de cuota (se usarán las principales como fallback hasta el reset).
 - [x] **Sincronización Total**: `cities.json` y `data/estambul.json` completamente actualizados con el estándar de 9 lugares y 6 actividades.
 
+## 🕒 Actualización 2026-05-07 18:05
+- [x] **Estructura Barcelona**: Definidos 9 lugares y 54 actividades premium.
+- [x] **Sincronización de Datos**: `cities.json` y `data/barcelona.json` actualizados.
+- [!] **Generación Visual**: Pendiente de reset de cuota para crear las 64 imágenes necesarias.
+- [x] **Plan Estratégico**: Creado `artefactos/plan_barcelona_premium.md`.
+
 ---
-*Última actualización: 2026-05-07 - Estambul Premium v2 en marcha* 🇹🇷 🏁
+*Última actualización: 2026-05-07 - Barcelona Premium en cola* 🇪🇸 🏁

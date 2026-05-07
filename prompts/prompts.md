@@ -23,6 +23,20 @@
 
 ---
 
+## 🕒 2026-05-07 18:05
+**User Request:** "Vamos a hacer lo mismo con Barcelona. Creamos las fotos por cada lugar y dentro de cada lugasr metemos actividades"
+
+**Plan Barcelona Premium:**
+1. Definir 54 actividades (6 por cada uno de los 9 lugares) con datos reales/premium. ✅
+2. Sincronizar `cities.json` y `data/barcelona.json` con la nueva estructura. ✅
+3. Crear catálogo de prompts para regeneración visual total. ✅
+4. ⚠️ **Nota:** Imágenes en espera por límite de cuota (~4h).
+
+**Prompts Clave:**
+*   **Hero:** "Professional cinematic 8k travel photograph of Barcelona skyline at sunset..."
+*   **Sagrada Familia:** "Professional cinematic 8k travel photograph of the Sagrada Familia..."
+*   **Park Guell:** "Professional cinematic 8k travel photograph of the main terrace..."
+
 ## 🕒 2026-05-07 17:55
 **User Request:** Finalización de integración de activos y corrección de burbujas en el globo.
 
