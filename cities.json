@@ -7214,6 +7214,393 @@
             "horario": "Durante apertura"
           }
         ]
+      },
+      {
+        "id": 4,
+        "nombre": "Templo de Debod",
+        "tipo": "cultura",
+        "descripcion": "Un templo egipcio del siglo II a. C. reconstruido en Madrid como regalo de Egipto a España. Sus estanques, la piedra dorada y las vistas hacia la Casa de Campo lo convierten en uno de los atardeceres mas especiales de la ciudad.",
+        "descripcionCorta": "Un templo egipcio con uno de los mejores atardeceres de Madrid.",
+        "direccion": "Calle de Ferraz, 1, 28008 Madrid",
+        "lat": 40.424,
+        "lng": -3.7178,
+        "horario": "10:00 - 20:00",
+        "precio": "Gratis",
+        "rating": 4.6,
+        "imagen": "img/madrid_debod.png",
+        "imagenCard": "img/madrid_debod.png",
+        "tags": [
+          "egipto",
+          "atardecer",
+          "mirador"
+        ],
+        "web": "https://www.madrid.es/templodebod",
+        "actividades": [
+          {
+            "titulo": "Tour historico esencial",
+            "descripcion": "Recorrido guiado por Templo de Debod para conectar arquitectura, personajes y momentos clave de Madrid.",
+            "proveedor": "Historia Viva Madrid",
+            "contacto": "reservas@historiamadrid.local",
+            "horario": "10:00 - 12:00"
+          },
+          {
+            "titulo": "Acceso con contexto local",
+            "descripcion": "Visita pausada con explicaciones practicas para comprender por que este lugar sigue siendo imprescindible.",
+            "proveedor": "Guias Locales Madrid",
+            "contacto": "hola@madridlocal.local",
+            "horario": "12:00 - 14:00"
+          },
+          {
+            "titulo": "Paseo fotografico",
+            "descripcion": "Itinerario para capturar fachadas, perspectivas y detalles con la mejor luz disponible.",
+            "proveedor": "Photo Walk Madrid",
+            "contacto": "foto@madridwalk.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Ruta de leyendas",
+            "descripcion": "Historias, simbolos y anecdotas alrededor de Templo de Debod, con tono narrativo y facil de seguir.",
+            "proveedor": "Relatos de Madrid",
+            "contacto": "relatos@madrid.local",
+            "horario": "18:00 - 19:30"
+          },
+          {
+            "titulo": "Visita familiar",
+            "descripcion": "Version didactica con paradas breves, preguntas y claves sencillas para ninos y adultos.",
+            "proveedor": "Familias Viajeras",
+            "contacto": "familias@viaje.local",
+            "horario": "11:00 - 12:30"
+          },
+          {
+            "titulo": "Audioguia express",
+            "descripcion": "Recorrido autonomo para ver lo principal de Templo de Debod con contexto claro y sin prisas.",
+            "proveedor": "Audio Travel",
+            "contacto": "audio@travel.local",
+            "horario": "Durante apertura"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "nombre": "Gran Via",
+        "tipo": "barrios",
+        "descripcion": "La avenida mas cinematografica de Madrid concentra teatros, edificios historicos, tiendas, azoteas y neones. Caminarla desde Alcala hasta Plaza de España es ver la ciudad en movimiento constante.",
+        "descripcionCorta": "La gran arteria teatral, comercial y luminosa de Madrid.",
+        "direccion": "Gran Via, 28013 Madrid",
+        "lat": 40.4203,
+        "lng": -3.7058,
+        "horario": "24h",
+        "precio": "Gratis",
+        "rating": 4.7,
+        "imagen": "img/madrid_granvia.png",
+        "imagenCard": "img/madrid_granvia.png",
+        "tags": [
+          "teatros",
+          "compras",
+          "arquitectura"
+        ],
+        "actividades": [
+          {
+            "titulo": "Paseo de barrio",
+            "descripcion": "Ruta a pie por calles, plazas y rincones cotidianos para entender el caracter de Gran Via.",
+            "proveedor": "Walks Madrid",
+            "contacto": "walks@madrid.local",
+            "horario": "10:30 - 12:30"
+          },
+          {
+            "titulo": "Ruta gastronomica local",
+            "descripcion": "Paradas escogidas para probar sabores representativos y conocer pequenos comercios de la zona.",
+            "proveedor": "Sabores de Madrid",
+            "contacto": "sabores@madrid.local",
+            "horario": "13:00 - 15:00"
+          },
+          {
+            "titulo": "Fotografia urbana",
+            "descripcion": "Paseo para buscar fachadas, mercados, escenas de calle y detalles con personalidad.",
+            "proveedor": "Photo Walk Madrid",
+            "contacto": "foto@madridwalk.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Historias del vecindario",
+            "descripcion": "Relato guiado sobre cambios urbanos, vida local y memoria del barrio.",
+            "proveedor": "Cronicas Madrid",
+            "contacto": "cronicas@madrid.local",
+            "horario": "17:00 - 18:30"
+          },
+          {
+            "titulo": "Compras con guia local",
+            "descripcion": "Seleccion de tiendas, talleres y productos con criterio local y sin prisas.",
+            "proveedor": "Local Shops Madrid",
+            "contacto": "shops@madrid.local",
+            "horario": "11:00 - 13:00"
+          },
+          {
+            "titulo": "Noche de ambiente",
+            "descripcion": "Recorrido suave por bares, plazas y locales recomendados para tomar el pulso nocturno.",
+            "proveedor": "After Dark Madrid",
+            "contacto": "noche@madrid.local",
+            "horario": "20:00 - 22:00"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "nombre": "Plaza Mayor",
+        "tipo": "cultura",
+        "descripcion": "El gran salon urbano del Madrid de los Austrias. Sus soportales, balcones y la estatua de Felipe III resumen siglos de mercado, celebraciones, historia popular y vida de terraza.",
+        "descripcionCorta": "La plaza porticada mas historica del centro de Madrid.",
+        "direccion": "Plaza Mayor, 28012 Madrid",
+        "lat": 40.4155,
+        "lng": -3.7074,
+        "horario": "24h",
+        "precio": "Gratis",
+        "rating": 4.7,
+        "imagen": "img/madrid_plazamayor.png",
+        "imagenCard": "img/madrid_plazamayor.png",
+        "tags": [
+          "historia",
+          "austrias",
+          "plaza"
+        ],
+        "actividades": [
+          {
+            "titulo": "Tour historico esencial",
+            "descripcion": "Recorrido guiado por Plaza Mayor para conectar arquitectura, personajes y momentos clave de Madrid.",
+            "proveedor": "Historia Viva Madrid",
+            "contacto": "reservas@historiamadrid.local",
+            "horario": "10:00 - 12:00"
+          },
+          {
+            "titulo": "Acceso con contexto local",
+            "descripcion": "Visita pausada con explicaciones practicas para comprender por que este lugar sigue siendo imprescindible.",
+            "proveedor": "Guias Locales Madrid",
+            "contacto": "hola@madridlocal.local",
+            "horario": "12:00 - 14:00"
+          },
+          {
+            "titulo": "Paseo fotografico",
+            "descripcion": "Itinerario para capturar fachadas, perspectivas y detalles con la mejor luz disponible.",
+            "proveedor": "Photo Walk Madrid",
+            "contacto": "foto@madridwalk.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Ruta de leyendas",
+            "descripcion": "Historias, simbolos y anecdotas alrededor de Plaza Mayor, con tono narrativo y facil de seguir.",
+            "proveedor": "Relatos de Madrid",
+            "contacto": "relatos@madrid.local",
+            "horario": "18:00 - 19:30"
+          },
+          {
+            "titulo": "Visita familiar",
+            "descripcion": "Version didactica con paradas breves, preguntas y claves sencillas para ninos y adultos.",
+            "proveedor": "Familias Viajeras",
+            "contacto": "familias@viaje.local",
+            "horario": "11:00 - 12:30"
+          },
+          {
+            "titulo": "Audioguia express",
+            "descripcion": "Recorrido autonomo para ver lo principal de Plaza Mayor con contexto claro y sin prisas.",
+            "proveedor": "Audio Travel",
+            "contacto": "audio@travel.local",
+            "horario": "Durante apertura"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "nombre": "Mercado de San Miguel",
+        "tipo": "restaurantes",
+        "descripcion": "Un mercado historico transformado en escaparate gastronomico. Entre hierro, cristal y barras animadas se prueban tapas, conservas, vinos, arroces y dulces en pleno centro.",
+        "descripcionCorta": "El mercado gourmet mas famoso del casco historico.",
+        "direccion": "Plaza de San Miguel, s/n, 28005 Madrid",
+        "lat": 40.4154,
+        "lng": -3.7089,
+        "horario": "10:00 - 0:00",
+        "precio": "Segun consumo",
+        "rating": 4.5,
+        "imagen": "img/madrid_sanmiguel.png",
+        "imagenCard": "img/madrid_sanmiguel.png",
+        "tags": [
+          "tapas",
+          "mercado",
+          "gastronomia"
+        ],
+        "web": "https://mercadodesanmiguel.es",
+        "actividades": [
+          {
+            "titulo": "Mesa recomendada",
+            "descripcion": "Reserva orientada para probar los platos mas representativos de Mercado de San Miguel sin complicarse.",
+            "proveedor": "Mercado de San Miguel",
+            "contacto": "reservas@mercadodesanmiguel.local",
+            "horario": "Comida y cena"
+          },
+          {
+            "titulo": "Menu degustacion",
+            "descripcion": "Seleccion de platos para entender la propuesta de cocina y los sabores de Madrid.",
+            "proveedor": "Sabores de Madrid",
+            "contacto": "sabores@madrid.local",
+            "horario": "Consultar servicio"
+          },
+          {
+            "titulo": "Charla con cocina",
+            "descripcion": "Experiencia breve para conocer ingredientes, tecnica y pequenos detalles del equipo.",
+            "proveedor": "Food Stories Madrid",
+            "contacto": "food@madrid.local",
+            "horario": "Antes de comer"
+          },
+          {
+            "titulo": "Maridaje local",
+            "descripcion": "Propuesta de bebidas o productos locales para acompanar la comida con criterio.",
+            "proveedor": "Catas Madrid",
+            "contacto": "catas@madrid.local",
+            "horario": "Cena"
+          },
+          {
+            "titulo": "Ruta gastronomica cercana",
+            "descripcion": "Paseo por la zona antes o despues de comer, enlazando mercado, barrio y mesa.",
+            "proveedor": "Food Walk Madrid",
+            "contacto": "foodwalk@madrid.local",
+            "horario": "12:00 - 14:00"
+          },
+          {
+            "titulo": "Clase de sabor local",
+            "descripcion": "Taller sencillo inspirado en recetas, ingredientes o tecnicas vinculadas al restaurante.",
+            "proveedor": "Talleres Madrid",
+            "contacto": "talleres@madrid.local",
+            "horario": "Consultar calendario"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "nombre": "Puerta del Sol",
+        "tipo": "cultura",
+        "descripcion": "Kilometro cero simbolico de España y punto de encuentro permanente. El reloj de la Real Casa de Correos, el Oso y el Madroño y el ir y venir de gente condensan la energia del centro.",
+        "descripcionCorta": "El kilometro cero y punto de encuentro clasico de Madrid.",
+        "direccion": "Puerta del Sol, 28013 Madrid",
+        "lat": 40.4169,
+        "lng": -3.7035,
+        "horario": "24h",
+        "precio": "Gratis",
+        "rating": 4.6,
+        "imagen": "img/madrid_sol.png",
+        "imagenCard": "img/madrid_sol.png",
+        "tags": [
+          "kilometro cero",
+          "centro",
+          "icono"
+        ],
+        "actividades": [
+          {
+            "titulo": "Tour historico esencial",
+            "descripcion": "Recorrido guiado por Puerta del Sol para conectar arquitectura, personajes y momentos clave de Madrid.",
+            "proveedor": "Historia Viva Madrid",
+            "contacto": "reservas@historiamadrid.local",
+            "horario": "10:00 - 12:00"
+          },
+          {
+            "titulo": "Acceso con contexto local",
+            "descripcion": "Visita pausada con explicaciones practicas para comprender por que este lugar sigue siendo imprescindible.",
+            "proveedor": "Guias Locales Madrid",
+            "contacto": "hola@madridlocal.local",
+            "horario": "12:00 - 14:00"
+          },
+          {
+            "titulo": "Paseo fotografico",
+            "descripcion": "Itinerario para capturar fachadas, perspectivas y detalles con la mejor luz disponible.",
+            "proveedor": "Photo Walk Madrid",
+            "contacto": "foto@madridwalk.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Ruta de leyendas",
+            "descripcion": "Historias, simbolos y anecdotas alrededor de Puerta del Sol, con tono narrativo y facil de seguir.",
+            "proveedor": "Relatos de Madrid",
+            "contacto": "relatos@madrid.local",
+            "horario": "18:00 - 19:30"
+          },
+          {
+            "titulo": "Visita familiar",
+            "descripcion": "Version didactica con paradas breves, preguntas y claves sencillas para ninos y adultos.",
+            "proveedor": "Familias Viajeras",
+            "contacto": "familias@viaje.local",
+            "horario": "11:00 - 12:30"
+          },
+          {
+            "titulo": "Audioguia express",
+            "descripcion": "Recorrido autonomo para ver lo principal de Puerta del Sol con contexto claro y sin prisas.",
+            "proveedor": "Audio Travel",
+            "contacto": "audio@travel.local",
+            "horario": "Durante apertura"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "nombre": "Chocolateria San Gines",
+        "tipo": "restaurantes",
+        "descripcion": "Desde 1894, este clasico junto a la Puerta del Sol sirve chocolate con churros a cualquier hora. Es una parada castiza, dulce y perfecta para cerrar una ruta por el centro.",
+        "descripcionCorta": "El chocolate con churros mas emblematico de Madrid.",
+        "direccion": "Pasadizo de San Gines, 5, 28013 Madrid",
+        "lat": 40.4167,
+        "lng": -3.7069,
+        "horario": "24h",
+        "precio": "Desde 5 EUR",
+        "rating": 4.5,
+        "imagen": "img/madrid_sangines.png",
+        "imagenCard": "img/madrid_sangines.png",
+        "tags": [
+          "churros",
+          "chocolate",
+          "clasico"
+        ],
+        "web": "https://chocolateriasangines.com",
+        "actividades": [
+          {
+            "titulo": "Mesa recomendada",
+            "descripcion": "Reserva orientada para probar los platos mas representativos de Chocolateria San Gines sin complicarse.",
+            "proveedor": "Chocolateria San Gines",
+            "contacto": "reservas@chocolateriasangines.local",
+            "horario": "Comida y cena"
+          },
+          {
+            "titulo": "Menu degustacion",
+            "descripcion": "Seleccion de platos para entender la propuesta de cocina y los sabores de Madrid.",
+            "proveedor": "Sabores de Madrid",
+            "contacto": "sabores@madrid.local",
+            "horario": "Consultar servicio"
+          },
+          {
+            "titulo": "Charla con cocina",
+            "descripcion": "Experiencia breve para conocer ingredientes, tecnica y pequenos detalles del equipo.",
+            "proveedor": "Food Stories Madrid",
+            "contacto": "food@madrid.local",
+            "horario": "Antes de comer"
+          },
+          {
+            "titulo": "Maridaje local",
+            "descripcion": "Propuesta de bebidas o productos locales para acompanar la comida con criterio.",
+            "proveedor": "Catas Madrid",
+            "contacto": "catas@madrid.local",
+            "horario": "Cena"
+          },
+          {
+            "titulo": "Ruta gastronomica cercana",
+            "descripcion": "Paseo por la zona antes o despues de comer, enlazando mercado, barrio y mesa.",
+            "proveedor": "Food Walk Madrid",
+            "contacto": "foodwalk@madrid.local",
+            "horario": "12:00 - 14:00"
+          },
+          {
+            "titulo": "Clase de sabor local",
+            "descripcion": "Taller sencillo inspirado en recetas, ingredientes o tecnicas vinculadas al restaurante.",
+            "proveedor": "Talleres Madrid",
+            "contacto": "talleres@madrid.local",
+            "horario": "Consultar calendario"
+          }
+        ]
       }
     ]
   },
