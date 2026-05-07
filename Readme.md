@@ -1,6 +1,7 @@
 # Registro de Cambios - TravelWorld PWA 🌍✨
 
 ## [2026-05-07] - Revisión de Activos de El Cairo: Giza 🇪🇬🏛️
+- **Revisión Premium El Cairo**: Generación de activo 8K para las Pirámides de Giza y auditoría de sincronización JSON. Documentado en `artefactos/cairo_review.md`.
 - **Refinamiento de Imagen**: Generada una nueva imagen ultra-premium (8K, estilo National Geographic) para las **Pirámides de Giza**.
 - **Documentación**: Creado artefacto de revisión en `artefactos/cairo_review.md` con la previsualización de la nueva imagen.
 - **Registro de Prompts**: Actualizado `prompts/prompts.md` con las instrucciones exactas usadas para la generación.

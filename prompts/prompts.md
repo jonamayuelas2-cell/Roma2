@@ -1,5 +1,9 @@
 # Registro de Prompts 📝✨
 
+### Generación de Imagen: Pirámides de Giza (V2 Premium)
+**Fecha**: 2026-05-07
+**Prompt**: `Ultra-high-definition 8K photography of the Great Pyramids of Giza and the Sphinx at sunrise. Golden hour lighting, majestic atmosphere, cinematic perspective. Style of National Geographic, premium travel magazine quality. Sharp details, vibrant colors, clear blue sky with a hint of morning mist. No tourists, professional composition, hyper-realistic.`
+
 ## El Cairo - Pirámides de Giza 🏜️
 **Fecha:** 2026-05-07
 **Prompt:**
