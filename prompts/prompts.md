@@ -1,12 +1,12 @@
 # Registro de Prompts - TravelWorld 🎨
 
-## [2026-05-06] - Auditoría de Imágenes y Sincronización de Londres
-**Objetivo**: Verificar la asociación de las 116 imágenes locales generadas y completar los datos de Londres para aprovechar los activos disponibles.
-**Prompt**: "revisame que todas las imagenes nuevas generadas sustituyendo a las de picsum están asociadas en la app a su elemento asociado correspondiente en los elementos a visitar de cada pais"
-**Acción**: 
-- Auditoría de 19 ciudades: 11 ciudades con 10/10 imágenes locales, 1 ciudad (Londres) ampliada de 3 a 6 imágenes.
-- Sincronización de `cities.json` y `data/londres.json` con 3 nuevos lugares: Camden Market, Hyde Park y Tower Bridge.
-- Identificación de 7 ciudades restantes con placeholders de Picsum.
+### 2026-05-06: Transformación Premium y Sincronización de Activos
+- **Egipto (El Cairo)**: Regeneración completa de imágenes (Hero, Giza, GEM) y actualización de descripciones a formato Premium.
+- **Roma (Italia)**: Actualización total de 9 lugares con descripciones detalladas y nuevas imágenes de alta calidad (Coliseo, Trevi, Vaticano, etc.).
+- **París (Francia)**: Refinamiento de 9 lugares emblemáticos y nuevas imágenes de portada y Torre Eiffel.
+- **Tokio (Japón)**: Mejora de 9 puntos clave con descripciones curadas y nuevas visuales de Shibuya y skyline.
+- **Optimización de PWA**: Actualización del Service Worker (v1.2.0) para forzar la recarga de datos cacheados y resolver problemas de visualización.
+- **Auditoría de Imágenes**: Sincronización de `cities.json` con las rutas locales `img/*.png` para eliminar dependencias externas.
 
 ---
 

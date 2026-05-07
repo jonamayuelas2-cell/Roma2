@@ -3,171 +3,135 @@
     "id": 1,
     "nombre": "Torre Eiffel",
     "tipo": "cultura",
-    "descripcion": "Torre Eiffel es una visita destacada de París, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-    "descripcionCorta": "Torre Eiffel es una visita destacada de París, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad.",
+    "descripcion": "El símbolo indiscutible de Francia y una de las estructuras más reconocidas del mundo. Diseñada por Gustave Eiffel para la Exposición Universal de 1889, ofrece vistas incomparables de la Ciudad de la Luz desde sus tres niveles.",
+    "descripcionCorta": "La Dama de Hierro que domina el horizonte parisino.",
     "lat": 48.8584,
     "lng": 2.2945,
-    "horario": "9:00 - 18:00",
-    "precio": "Desde 8 EUR",
-    "rating": 4.5,
+    "horario": "9:30 - 22:45",
+    "precio": "Desde 18€",
+    "rating": 4.9,
     "imagen": "img/paris_eiffel.png",
     "imagenCard": "img/paris_eiffel.png",
-    "tags": [
-      "cultura",
-      "europa",
-      "paris"
-    ]
+    "tags": ["monumento", "vistas", "iconic"]
   },
   {
     "id": 2,
     "nombre": "Museo del Louvre",
     "tipo": "museos",
-    "descripcion": "Museo del Louvre es una visita destacada de París, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-    "descripcionCorta": "Museo del Louvre es una visita destacada de París, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares.",
+    "descripcion": "El museo de arte más grande y visitado del mundo. Antiguo palacio real, alberga obras maestras universales como la Mona Lisa de Da Vinci y la Venus de Milo, bajo su icónica pirámide de cristal.",
+    "descripcionCorta": "El santuario definitivo del arte y la historia mundial.",
     "lat": 48.8606,
     "lng": 2.3376,
-    "horario": "10:00 - 18:00",
-    "precio": "Desde 12 EUR",
-    "rating": 4.6,
+    "horario": "9:00 - 18:00 (Cerrado martes)",
+    "precio": "17€",
+    "rating": 4.8,
     "imagen": "img/paris_louvre.png",
     "imagenCard": "img/paris_louvre.png",
-    "tags": [
-      "museos",
-      "europa",
-      "paris"
-    ]
+    "tags": ["arte", "historia", "museo"]
   },
   {
     "id": 3,
-    "nombre": "Notre-Dame",
+    "nombre": "Catedral de Notre-Dame",
     "tipo": "cultura",
-    "descripcion": "Notre-Dame es una visita destacada de París, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-    "descripcionCorta": "Notre-Dame es una visita destacada de París, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad.",
+    "descripcion": "Una joya del gótico francés situada en la Île de la Cité. Aunque en proceso de restauración, su fachada de piedra, sus rosetones y sus famosas gárgolas siguen siendo el alma espiritual e histórica de París.",
+    "descripcionCorta": "La majestuosa catedral gótica a orillas del Sena.",
     "lat": 48.853,
     "lng": 2.3499,
-    "horario": "9:00 - 18:00",
-    "precio": "Desde 8 EUR",
-    "rating": 4.7,
+    "horario": "Vistas exteriores",
+    "precio": "Gratuito",
+    "rating": 4.8,
     "imagen": "img/paris_notredame.png",
     "imagenCard": "img/paris_notredame.png",
-    "tags": [
-      "cultura",
-      "europa",
-      "paris"
-    ]
+    "tags": ["gótico", "historia", "iglesia"]
   },
   {
     "id": 4,
     "nombre": "Montmartre",
     "tipo": "barrios",
-    "descripcion": "Montmartre es una visita destacada de París, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-    "descripcionCorta": "Montmartre es una visita destacada de París, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad.",
+    "descripcion": "El barrio de los artistas, coronado por la basílica del Sacré-Cœur. Sus calles empedradas, retratistas de la Place du Tertre y su pasado bohemio conservan el encanto del París de la Belle Époque.",
+    "descripcionCorta": "El encanto bohemio en la colina más famosa.",
     "lat": 48.8867,
     "lng": 2.3431,
     "horario": "24h",
     "precio": "Gratis",
-    "rating": 4.7,
+    "rating": 4.8,
     "imagen": "img/paris_montmartre.png",
     "imagenCard": "img/paris_montmartre.png",
-    "tags": [
-      "barrios",
-      "europa",
-      "paris"
-    ]
+    "tags": ["bohemio", "vistas", "arte"]
   },
   {
     "id": 5,
     "nombre": "Museo de Orsay",
     "tipo": "museos",
-    "descripcion": "Museo de Orsay es una visita destacada de París, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-    "descripcionCorta": "Museo de Orsay es una visita destacada de París, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares.",
+    "descripcion": "Instalado en una antigua y elegante estación de tren, este museo alberga la colección más importante del mundo de arte impresionista y postimpresionista, con obras de Monet, Van Gogh y Renoir.",
+    "descripcionCorta": "El paraíso del impresionismo en una estación histórica.",
     "lat": 48.86,
     "lng": 2.3266,
-    "horario": "10:00 - 18:00",
-    "precio": "Desde 12 EUR",
-    "rating": 4.8,
+    "horario": "9:30 - 18:00 (Cerrado lunes)",
+    "precio": "16€",
+    "rating": 4.9,
     "imagen": "img/paris_orsay.png",
     "imagenCard": "img/paris_orsay.png",
-    "tags": [
-      "museos",
-      "europa",
-      "paris"
-    ]
+    "tags": ["impresionismo", "arte", "estación"]
   },
   {
     "id": 6,
     "nombre": "Jardines de Luxemburgo",
     "tipo": "parques",
-    "descripcion": "Jardines de Luxemburgo es una visita destacada de París, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-    "descripcionCorta": "Jardines de Luxemburgo es una visita destacada de París, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje.",
+    "descripcion": "El jardín más querido por los parisinos. Un oasis de paz con estatuas clásicas, fuentes de estilo italiano y el imponente Palacio del Senado, ideal para un paseo relajado o un picnic elegante.",
+    "descripcionCorta": "Elegancia clásica y naturaleza en el Barrio Latino.",
     "lat": 48.8462,
     "lng": 2.3372,
-    "horario": "7:00 - 20:00",
+    "horario": "Amanecer - Atardecer",
     "precio": "Gratis",
-    "rating": 4.5,
+    "rating": 4.7,
     "imagen": "img/paris_luxemburgo.png",
     "imagenCard": "img/paris_luxemburgo.png",
-    "tags": [
-      "parques",
-      "europa",
-      "paris"
-    ]
+    "tags": ["parque", "relax", "palacio"]
   },
   {
     "id": 7,
     "nombre": "Le Marais",
     "tipo": "barrios",
-    "descripcion": "Le Marais es una visita destacada de París, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-    "descripcionCorta": "Le Marais es una visita destacada de París, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad.",
+    "descripcion": "Un barrio histórico que mezcla arquitectura medieval y renacentista con boutiques de moda, galerías de arte y la famosa Place des Vosges. Es el epicentro de la vida cosmopolita parisina.",
+    "descripcionCorta": "Historia, moda y vanguardia en el corazón de París.",
     "lat": 48.8589,
     "lng": 2.3622,
     "horario": "24h",
     "precio": "Gratis",
-    "rating": 4.6,
+    "rating": 4.7,
     "imagen": "img/paris_lemarais.png",
     "imagenCard": "img/paris_lemarais.png",
-    "tags": [
-      "barrios",
-      "europa",
-      "paris"
-    ]
+    "tags": ["barrio", "moda", "historia"]
   },
   {
     "id": 8,
-    "nombre": "Marche des Enfants Rouges",
+    "nombre": "Marché des Enfants Rouges",
     "tipo": "mercados",
-    "descripcion": "Marche des Enfants Rouges es una visita destacada de París, una referencia: mercado lleno de puestos, productos locales y escenas cotidianas. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-    "descripcionCorta": "Marche des Enfants Rouges es una visita destacada de París, una referencia: mercado lleno de puestos, productos locales y escenas cotidianas.",
+    "descripcion": "El mercado cubierto más antiguo de París (1615). Un festín para los sentidos donde se puede degustar comida de todo el mundo en un ambiente auténtico, bullicioso y lleno de sabor local.",
+    "descripcionCorta": "El mercado gourmet más antiguo y auténtico.",
     "lat": 48.8629,
     "lng": 2.3615,
-    "horario": "9:00 - 15:00",
-    "precio": "Gratis",
-    "rating": 4.7,
+    "horario": "8:30 - 20:30",
+    "precio": "Según consumo",
+    "rating": 4.6,
     "imagen": "img/paris_enfantsrouges.png",
     "imagenCard": "img/paris_enfantsrouges.png",
-    "tags": [
-      "mercados",
-      "europa",
-      "paris"
-    ]
+    "tags": ["gastronomía", "mercado", "historia"]
   },
   {
     "id": 9,
     "nombre": "Bistrot Paul Bert",
     "tipo": "restaurantes",
-    "descripcion": "Bistrot Paul Bert es una visita destacada de París, una referencia: parada gastronómica recomendada para probar sabores representativos. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-    "descripcionCorta": "Bistrot Paul Bert es una visita destacada de París, una referencia: parada gastronómica recomendada para probar sabores representativos.",
+    "descripcion": "Un bistrot parisino por excelencia, famoso por su Steak Frites y su impresionante carta de vinos. Es el lugar ideal para experimentar la cocina tradicional francesa sin pretensiones pero con máxima calidad.",
+    "descripcionCorta": "La esencia del bistrot francés clásico.",
     "lat": 48.8517,
     "lng": 2.3836,
-    "horario": "12:30 - 23:00",
-    "precio": "Menu variable",
+    "horario": "12:00 - 23:00",
+    "precio": "40-60€ p.p.",
     "rating": 4.7,
     "imagen": "img/paris_paulbert.png",
     "imagenCard": "img/paris_paulbert.png",
-    "tags": [
-      "restaurantes",
-      "europa",
-      "paris"
-    ]
+    "tags": ["bistrot", "gastronomía", "vino"]
   }
 ]

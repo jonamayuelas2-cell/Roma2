@@ -18,172 +18,136 @@
         "id": 1,
         "nombre": "Coliseo Romano",
         "tipo": "cultura",
-        "descripcion": "Coliseo Romano es una visita destacada de Roma, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-        "descripcionCorta": "Coliseo Romano es una visita destacada de Roma, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad.",
+        "descripcion": "El anfiteatro más grande jamás construido y el símbolo eterno de la Antigua Roma. Este monumento de la ingeniería flavia fue el escenario de legendarios combates de gladiadores y espectáculos públicos que definieron una era.",
+        "descripcionCorta": "El corazón de piedra del Imperio Romano.",
         "lat": 41.8902,
         "lng": 12.4922,
-        "horario": "9:00 - 18:00",
-        "precio": "Desde 8 EUR",
-        "rating": 4.5,
+        "horario": "9:00 - 19:00",
+        "precio": "16€ (Billete combinado)",
+        "rating": 4.9,
         "imagen": "img/roma_coliseo.png",
         "imagenCard": "img/roma_coliseo.png",
-        "tags": [
-          "cultura",
-          "europa",
-          "roma"
-        ]
+        "tags": ["historia", "imperio", "patrimonio"]
       },
       {
         "id": 2,
         "nombre": "Foro Romano",
         "tipo": "cultura",
-        "descripcion": "Foro Romano es una visita destacada de Roma, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-        "descripcionCorta": "Foro Romano es una visita destacada de Roma, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad.",
+        "descripcion": "El centro neurálgico de la vida política, económica y religiosa de la antigua metrópolis. Caminar entre sus templos y basílicas en ruinas es hacer un viaje directo al epicentro del poder del mundo antiguo.",
+        "descripcionCorta": "Donde se escribieron las leyes del mundo antiguo.",
         "lat": 41.8925,
         "lng": 12.4853,
-        "horario": "9:00 - 18:00",
-        "precio": "Desde 8 EUR",
-        "rating": 4.6,
+        "horario": "9:00 - 19:00",
+        "precio": "Incluido en el Coliseo",
+        "rating": 4.8,
         "imagen": "img/roma_foro.png",
         "imagenCard": "img/roma_foro.png",
-        "tags": [
-          "cultura",
-          "europa",
-          "roma"
-        ]
+        "tags": ["ruinas", "arqueología", "poder"]
       },
       {
         "id": 3,
         "nombre": "Fontana di Trevi",
         "tipo": "cultura",
-        "descripcion": "Fontana di Trevi es una visita destacada de Roma, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-        "descripcionCorta": "Fontana di Trevi es una visita destacada de Roma, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad.",
+        "descripcion": "La fuente barroca más espectacular y cinematográfica del mundo. Una obra maestra de Nicola Salvi donde el rugido del agua y la majestuosidad de Neptuno crean un espectáculo de mármol inigualable.",
+        "descripcionCorta": "La joya barroca de los deseos y el cine.",
         "lat": 41.9009,
         "lng": 12.4833,
-        "horario": "9:00 - 18:00",
-        "precio": "Desde 8 EUR",
-        "rating": 4.7,
+        "horario": "24h",
+        "precio": "Gratuito",
+        "rating": 4.9,
         "imagen": "img/roma_trevi.png",
         "imagenCard": "img/roma_trevi.png",
-        "tags": [
-          "cultura",
-          "europa",
-          "roma"
-        ]
+        "tags": ["barroco", "arte", "fuente"]
       },
       {
         "id": 4,
-        "nombre": "Panteón",
+        "nombre": "Panteón de Agripa",
         "tipo": "cultura",
-        "descripcion": "Panteón es una visita destacada de Roma, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-        "descripcionCorta": "Panteón es una visita destacada de Roma, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad.",
+        "descripcion": "El edificio mejor conservado de la Antigua Roma. Su cúpula de hormigón no armado sigue siendo la más grande del mundo, con su óculo central que permite la entrada de una luz celestial única.",
+        "descripcionCorta": "La perfección arquitectónica de los dioses.",
         "lat": 41.8986,
         "lng": 12.4769,
-        "horario": "9:00 - 18:00",
-        "precio": "Desde 8 EUR",
-        "rating": 4.7,
+        "horario": "9:00 - 19:00",
+        "precio": "5€",
+        "rating": 4.9,
         "imagen": "img/roma_panteon.png",
         "imagenCard": "img/roma_panteon.png",
-        "tags": [
-          "cultura",
-          "europa",
-          "roma"
-        ]
+        "tags": ["arquitectura", "templo", "cúpula"]
       },
       {
         "id": 5,
         "nombre": "Museos Vaticanos",
         "tipo": "museos",
-        "descripcion": "Museos Vaticanos es una visita destacada de Roma, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-        "descripcionCorta": "Museos Vaticanos es una visita destacada de Roma, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares.",
+        "descripcion": "Una de las colecciones de arte más vastas y fascinantes de la humanidad. Desde las Galerías de los Mapas hasta la Capilla Sixtina de Miguel Ángel, es una experiencia estética sobrecogedora.",
+        "descripcionCorta": "El tesoro infinito del arte occidental.",
         "lat": 41.9065,
         "lng": 12.4536,
-        "horario": "10:00 - 18:00",
-        "precio": "Desde 12 EUR",
+        "horario": "9:00 - 18:00",
+        "precio": "17€",
         "rating": 4.8,
         "imagen": "img/roma_vaticano.png",
         "imagenCard": "img/roma_vaticano.png",
-        "tags": [
-          "museos",
-          "europa",
-          "roma"
-        ]
+        "tags": ["arte", "vaticano", "renacimiento"]
       },
       {
         "id": 6,
         "nombre": "Trastevere",
         "tipo": "barrios",
-        "descripcion": "Trastevere es una visita destacada de Roma, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-        "descripcionCorta": "Trastevere es una visita destacada de Roma, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad.",
+        "descripcion": "El barrio más bohemio y auténtico de Roma. Con sus calles empedradas cubiertas de hiedra, sus plazas animadas y su atmósfera medieval, es el lugar perfecto para perderse y disfrutar de la 'Dolce Vita'.",
+        "descripcionCorta": "Encanto medieval y vida bohemia romana.",
         "lat": 41.8894,
         "lng": 12.4697,
-        "horario": "24h",
-        "precio": "Gratis",
-        "rating": 4.5,
+        "horario": "Siempre",
+        "precio": "Acceso libre",
+        "rating": 4.7,
         "imagen": "img/roma_trastevere.png",
         "imagenCard": "img/roma_trastevere.png",
-        "tags": [
-          "barrios",
-          "europa",
-          "roma"
-        ]
+        "tags": ["bohemio", "barrio", "noche"]
       },
       {
         "id": 7,
         "nombre": "Villa Borghese",
         "tipo": "parques",
-        "descripcion": "Villa Borghese es una visita destacada de Roma, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-        "descripcionCorta": "Villa Borghese es una visita destacada de Roma, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje.",
+        "descripcion": "Un inmenso parque que combina naturaleza, fuentes y arte de primer nivel. Alberga la Galería Borghese, con obras maestras de Bernini y Caravaggio, en un entorno de paz absoluta sobre el Pincio.",
+        "descripcionCorta": "El oasis de arte y naturaleza sobre Roma.",
         "lat": 41.9142,
         "lng": 12.4922,
-        "horario": "7:00 - 20:00",
-        "precio": "Gratis",
-        "rating": 4.6,
+        "horario": "Amanecer - Atardecer",
+        "precio": "Parque gratis / Galería 15€",
+        "rating": 4.7,
         "imagen": "img/roma_borghese.png",
         "imagenCard": "img/roma_borghese.png",
-        "tags": [
-          "parques",
-          "europa",
-          "roma"
-        ]
+        "tags": ["parque", "arte", "naturaleza"]
       },
       {
         "id": 8,
-        "nombre": "Campo de Fiori",
+        "nombre": "Campo de' Fiori",
         "tipo": "mercados",
-        "descripcion": "Campo de Fiori es una visita destacada de Roma, una referencia: mercado lleno de puestos, productos locales y escenas cotidianas. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-        "descripcionCorta": "Campo de Fiori es una visita destacada de Roma, una referencia: mercado lleno de puestos, productos locales y escenas cotidianas.",
+        "descripcion": "Uno de los mercados más pintorescos de Roma por la mañana y el epicentro de la vida nocturna al caer el sol. Su atmósfera vibrante y su mercado de flores y alimentos son pura esencia romana.",
+        "descripcionCorta": "Mercado histórico de flores y vida local.",
         "lat": 41.8956,
         "lng": 12.4722,
-        "horario": "9:00 - 15:00",
-        "precio": "Gratis",
-        "rating": 4.7,
+        "horario": "Mercado 7:00 - 14:00",
+        "precio": "Acceso libre",
+        "rating": 4.6,
         "imagen": "img/roma_campofiori.png",
         "imagenCard": "img/roma_campofiori.png",
-        "tags": [
-          "mercados",
-          "europa",
-          "roma"
-        ]
+        "tags": ["mercado", "flores", "ambiente"]
       },
       {
         "id": 9,
-        "nombre": "Roscioli",
+        "nombre": "Salumeria Roscioli",
         "tipo": "restaurantes",
-        "descripcion": "Roscioli es una visita destacada de Roma, una referencia: parada gastronómica recomendada para probar sabores representativos. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-        "descripcionCorta": "Roscioli es una visita destacada de Roma, una referencia: parada gastronómica recomendada para probar sabores representativos.",
+        "descripcion": "Una institución gastronómica romana que combina charcutería fina, panadería artesanal y un restaurante donde se sirve la que muchos consideran la mejor Carbonara de la ciudad.",
+        "descripcionCorta": "El templo sagrado de la gastronomía romana.",
         "lat": 41.895,
         "lng": 12.474,
-        "horario": "12:30 - 23:00",
-        "precio": "Menu variable",
-        "rating": 4.7,
+        "horario": "12:30 - 23:30",
+        "precio": "30-50€ p.p.",
+        "rating": 4.8,
         "imagen": "img/roma_roscioli.png",
         "imagenCard": "img/roma_roscioli.png",
-        "tags": [
-          "restaurantes",
-          "europa",
-          "roma"
-        ]
+        "tags": ["gastronomía", "carbonara", "delicatessen"]
       }
     ]
   },
@@ -206,172 +170,136 @@
         "id": 1,
         "nombre": "Torre Eiffel",
         "tipo": "cultura",
-        "descripcion": "Torre Eiffel es una visita destacada de París, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-        "descripcionCorta": "Torre Eiffel es una visita destacada de París, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad.",
+        "descripcion": "El símbolo indiscutible de Francia y una de las estructuras más reconocidas del mundo. Diseñada por Gustave Eiffel para la Exposición Universal de 1889, ofrece vistas incomparables de la Ciudad de la Luz desde sus tres niveles.",
+        "descripcionCorta": "La Dama de Hierro que domina el horizonte parisino.",
         "lat": 48.8584,
         "lng": 2.2945,
-        "horario": "9:00 - 18:00",
-        "precio": "Desde 8 EUR",
-        "rating": 4.5,
+        "horario": "9:30 - 22:45",
+        "precio": "Desde 18€",
+        "rating": 4.9,
         "imagen": "img/paris_eiffel.png",
         "imagenCard": "img/paris_eiffel.png",
-        "tags": [
-          "cultura",
-          "europa",
-          "paris"
-        ]
+        "tags": ["monumento", "vistas", "iconic"]
       },
       {
         "id": 2,
         "nombre": "Museo del Louvre",
         "tipo": "museos",
-        "descripcion": "Museo del Louvre es una visita destacada de París, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-        "descripcionCorta": "Museo del Louvre es una visita destacada de París, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares.",
+        "descripcion": "El museo de arte más grande y visitado del mundo. Antiguo palacio real, alberga obras maestras universales como la Mona Lisa de Da Vinci y la Venus de Milo, bajo su icónica pirámide de cristal.",
+        "descripcionCorta": "El santuario definitivo del arte y la historia mundial.",
         "lat": 48.8606,
         "lng": 2.3376,
-        "horario": "10:00 - 18:00",
-        "precio": "Desde 12 EUR",
-        "rating": 4.6,
+        "horario": "9:00 - 18:00 (Cerrado martes)",
+        "precio": "17€",
+        "rating": 4.8,
         "imagen": "img/paris_louvre.png",
         "imagenCard": "img/paris_louvre.png",
-        "tags": [
-          "museos",
-          "europa",
-          "paris"
-        ]
+        "tags": ["arte", "historia", "museo"]
       },
       {
         "id": 3,
-        "nombre": "Notre-Dame",
+        "nombre": "Catedral de Notre-Dame",
         "tipo": "cultura",
-        "descripcion": "Notre-Dame es una visita destacada de París, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-        "descripcionCorta": "Notre-Dame es una visita destacada de París, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad.",
+        "descripcion": "Una joya del gótico francés situada en la Île de la Cité. Aunque en proceso de restauración, su fachada de piedra, sus rosetones y sus famosas gárgolas siguen siendo el alma espiritual e histórica de París.",
+        "descripcionCorta": "La majestuosa catedral gótica a orillas del Sena.",
         "lat": 48.853,
         "lng": 2.3499,
-        "horario": "9:00 - 18:00",
-        "precio": "Desde 8 EUR",
-        "rating": 4.7,
+        "horario": "Vistas exteriores",
+        "precio": "Gratuito",
+        "rating": 4.8,
         "imagen": "img/paris_notredame.png",
         "imagenCard": "img/paris_notredame.png",
-        "tags": [
-          "cultura",
-          "europa",
-          "paris"
-        ]
+        "tags": ["gótico", "historia", "iglesia"]
       },
       {
         "id": 4,
         "nombre": "Montmartre",
         "tipo": "barrios",
-        "descripcion": "Montmartre es una visita destacada de París, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-        "descripcionCorta": "Montmartre es una visita destacada de París, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad.",
+        "descripcion": "El barrio de los artistas, coronado por la basílica del Sacré-Cœur. Sus calles empedradas, retratistas de la Place du Tertre y su pasado bohemio conservan el encanto del París de la Belle Époque.",
+        "descripcionCorta": "El encanto bohemio en la colina más famosa.",
         "lat": 48.8867,
         "lng": 2.3431,
         "horario": "24h",
         "precio": "Gratis",
-        "rating": 4.7,
+        "rating": 4.8,
         "imagen": "img/paris_montmartre.png",
         "imagenCard": "img/paris_montmartre.png",
-        "tags": [
-          "barrios",
-          "europa",
-          "paris"
-        ]
+        "tags": ["bohemio", "vistas", "arte"]
       },
       {
         "id": 5,
         "nombre": "Museo de Orsay",
         "tipo": "museos",
-        "descripcion": "Museo de Orsay es una visita destacada de París, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-        "descripcionCorta": "Museo de Orsay es una visita destacada de París, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares.",
+        "descripcion": "Instalado en una antigua y elegante estación de tren, este museo alberga la colección más importante del mundo de arte impresionista y postimpresionista, con obras de Monet, Van Gogh y Renoir.",
+        "descripcionCorta": "El paraíso del impresionismo en una estación histórica.",
         "lat": 48.86,
         "lng": 2.3266,
-        "horario": "10:00 - 18:00",
-        "precio": "Desde 12 EUR",
-        "rating": 4.8,
+        "horario": "9:30 - 18:00 (Cerrado lunes)",
+        "precio": "16€",
+        "rating": 4.9,
         "imagen": "img/paris_orsay.png",
         "imagenCard": "img/paris_orsay.png",
-        "tags": [
-          "museos",
-          "europa",
-          "paris"
-        ]
+        "tags": ["impresionismo", "arte", "estación"]
       },
       {
         "id": 6,
         "nombre": "Jardines de Luxemburgo",
         "tipo": "parques",
-        "descripcion": "Jardines de Luxemburgo es una visita destacada de París, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-        "descripcionCorta": "Jardines de Luxemburgo es una visita destacada de París, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje.",
+        "descripcion": "El jardín más querido por los parisinos. Un oasis de paz con estatuas clásicas, fuentes de estilo italiano y el imponente Palacio del Senado, ideal para un paseo relajado o un picnic elegante.",
+        "descripcionCorta": "Elegancia clásica y naturaleza en el Barrio Latino.",
         "lat": 48.8462,
         "lng": 2.3372,
-        "horario": "7:00 - 20:00",
+        "horario": "Amanecer - Atardecer",
         "precio": "Gratis",
-        "rating": 4.5,
+        "rating": 4.7,
         "imagen": "img/paris_luxemburgo.png",
         "imagenCard": "img/paris_luxemburgo.png",
-        "tags": [
-          "parques",
-          "europa",
-          "paris"
-        ]
+        "tags": ["parque", "relax", "palacio"]
       },
       {
         "id": 7,
         "nombre": "Le Marais",
         "tipo": "barrios",
-        "descripcion": "Le Marais es una visita destacada de París, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-        "descripcionCorta": "Le Marais es una visita destacada de París, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad.",
+        "descripcion": "Un barrio histórico que mezcla arquitectura medieval y renacentista con boutiques de moda, galerías de arte y la famosa Place des Vosges. Es el epicentro de la vida cosmopolita parisina.",
+        "descripcionCorta": "Historia, moda y vanguardia en el corazón de París.",
         "lat": 48.8589,
         "lng": 2.3622,
         "horario": "24h",
         "precio": "Gratis",
-        "rating": 4.6,
+        "rating": 4.7,
         "imagen": "img/paris_lemarais.png",
         "imagenCard": "img/paris_lemarais.png",
-        "tags": [
-          "barrios",
-          "europa",
-          "paris"
-        ]
+        "tags": ["barrio", "moda", "historia"]
       },
       {
         "id": 8,
-        "nombre": "Marche des Enfants Rouges",
+        "nombre": "Marché des Enfants Rouges",
         "tipo": "mercados",
-        "descripcion": "Marche des Enfants Rouges es una visita destacada de París, una referencia: mercado lleno de puestos, productos locales y escenas cotidianas. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-        "descripcionCorta": "Marche des Enfants Rouges es una visita destacada de París, una referencia: mercado lleno de puestos, productos locales y escenas cotidianas.",
+        "descripcion": "El mercado cubierto más antiguo de París (1615). Un festín para los sentidos donde se puede degustar comida de todo el mundo en un ambiente auténtico, bullicioso y lleno de sabor local.",
+        "descripcionCorta": "El mercado gourmet más antiguo y auténtico.",
         "lat": 48.8629,
         "lng": 2.3615,
-        "horario": "9:00 - 15:00",
-        "precio": "Gratis",
-        "rating": 4.7,
+        "horario": "8:30 - 20:30",
+        "precio": "Según consumo",
+        "rating": 4.6,
         "imagen": "img/paris_enfantsrouges.png",
         "imagenCard": "img/paris_enfantsrouges.png",
-        "tags": [
-          "mercados",
-          "europa",
-          "paris"
-        ]
+        "tags": ["gastronomía", "mercado", "historia"]
       },
       {
         "id": 9,
         "nombre": "Bistrot Paul Bert",
         "tipo": "restaurantes",
-        "descripcion": "Bistrot Paul Bert es una visita destacada de París, una referencia: parada gastronómica recomendada para probar sabores representativos. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-        "descripcionCorta": "Bistrot Paul Bert es una visita destacada de París, una referencia: parada gastronómica recomendada para probar sabores representativos.",
+        "descripcion": "Un bistrot parisino por excelencia, famoso por su Steak Frites y su impresionante carta de vinos. Es el lugar ideal para experimentar la cocina tradicional francesa sin pretensiones pero con máxima calidad.",
+        "descripcionCorta": "La esencia del bistrot francés clásico.",
         "lat": 48.8517,
         "lng": 2.3836,
-        "horario": "12:30 - 23:00",
-        "precio": "Menu variable",
+        "horario": "12:00 - 23:00",
+        "precio": "40-60€ p.p.",
         "rating": 4.7,
         "imagen": "img/paris_paulbert.png",
         "imagenCard": "img/paris_paulbert.png",
-        "tags": [
-          "restaurantes",
-          "europa",
-          "paris"
-        ]
+        "tags": ["bistrot", "gastronomía", "vino"]
       }
     ]
   },
@@ -851,178 +779,143 @@
     "nombre": "Tokio",
     "pais": "Japón",
     "continente": "Asia",
-    "emoji": "🇯🇵",
-    "lat": 35.6762,
-    "lng": 139.6503,
-    "imagen": "img/tokyo_hero.png",
-    "theme": {
-      "primary": "#ff0033",
-      "secondary": "#000000",
-      "font": "'Space Grotesk', sans-serif"
-    },
-    "lugares": [
+     "lugares": [
       {
         "id": 1,
         "nombre": "Cruce de Shibuya",
         "tipo": "barrios",
-        "descripcion": "Cruce de Shibuya es una visita destacada de Tokio, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-        "descripcionCorta": "Cruce de Shibuya es una visita destacada de Tokio, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad.",
+        "descripcion": "El paso de cebra más transitado del mundo y el corazón palpitante de la cultura juvenil de Tokio. Cuando los semáforos se ponen en rojo, miles de personas cruzan en todas direcciones bajo el resplandor de las pantallas gigantes de neón.",
+        "descripcionCorta": "La intersección más icónica y energética del mundo.",
         "lat": 35.6595,
         "lng": 139.7005,
         "horario": "24h",
         "precio": "Gratis",
-        "rating": 4.5,
+        "rating": 4.9,
         "imagen": "img/tokyo_shibuya.png",
         "imagenCard": "img/tokyo_shibuya.png",
-        "tags": [
-          "barrios",
-          "asia",
-          "tokio"
-        ]
+        "tags": ["neón", "vibrante", "iconic"]
       },
       {
         "id": 2,
         "nombre": "Templo Senso-ji",
         "tipo": "cultura",
-        "descripcion": "Templo Senso-ji es una visita destacada de Tokio, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-        "descripcionCorta": "Templo Senso-ji es una visita destacada de Tokio, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad.",
+        "descripcion": "El templo budista más antiguo y sagrado de Tokio, ubicado en el histórico distrito de Asakusa. Su gran puerta Kaminarimon y la calle comercial Nakamise ofrecen un viaje al pasado tradicional de la ciudad.",
+        "descripcionCorta": "El alma antigua de Tokio en el barrio de Asakusa.",
         "lat": 35.7148,
         "lng": 139.7967,
-        "horario": "9:00 - 18:00",
-        "precio": "Desde 8 EUR",
-        "rating": 4.6,
+        "horario": "6:00 - 17:00",
+        "precio": "Gratuito",
+        "rating": 4.8,
         "imagen": "img/tokyo_sensoji.png",
         "imagenCard": "img/tokyo_sensoji.png",
-        "tags": [
-          "cultura",
-          "asia",
-          "tokio"
-        ]
+        "tags": ["templo", "tradición", "historia"]
       },
       {
         "id": 3,
-        "nombre": "Santuario Meiji",
+        "nombre": "Santuario Meiji Jingu",
         "tipo": "cultura",
-        "descripcion": "Santuario Meiji es una visita destacada de Tokio, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-        "descripcionCorta": "Santuario Meiji es una visita destacada de Tokio, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad.",
+        "descripcion": "Un oasis de serenidad dedicado al emperador Meiji y la emperatriz Shoken. Rodeado por un bosque de 70 hectáreas en pleno centro urbano, es un lugar de profunda espiritualidad y belleza arquitectónica sintoísta.",
+        "descripcionCorta": "Un santuario de paz en el corazón de un bosque urbano.",
         "lat": 35.6764,
         "lng": 139.6993,
-        "horario": "9:00 - 18:00",
-        "precio": "Desde 8 EUR",
-        "rating": 4.7,
+        "horario": "Amanecer - Atardecer",
+        "precio": "Gratuito",
+        "rating": 4.8,
         "imagen": "img/tokyo_meiji.png",
         "imagenCard": "img/tokyo_meiji.png",
-        "tags": [
-          "cultura",
-          "asia",
-          "tokio"
-        ]
+        "tags": ["espiritualidad", "bosque", "sintoísmo"]
       },
       {
         "id": 4,
         "nombre": "TeamLab Planets",
         "tipo": "museos",
-        "descripcion": "TeamLab Planets es una visita destacada de Tokio, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-        "descripcionCorta": "TeamLab Planets es una visita destacada de Tokio, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares.",
+        "descripcion": "Un museo de arte digital inmersivo donde los visitantes caminan a través del agua y se funden con las obras. Una experiencia sensorial única que redefine la relación entre el espectador y el arte digital.",
+        "descripcionCorta": "Una experiencia inmersiva de arte digital y naturaleza.",
         "lat": 35.6491,
         "lng": 139.7899,
-        "horario": "10:00 - 18:00",
-        "precio": "Desde 12 EUR",
-        "rating": 4.7,
+        "horario": "9:00 - 21:00",
+        "precio": "3.800 JPY",
+        "rating": 4.9,
         "imagen": "img/tokyo_teamlab.png",
         "imagenCard": "img/tokyo_teamlab.png",
-        "tags": [
-          "museos",
-          "asia",
-          "tokio"
-        ]
+        "tags": ["digital", "inmersivo", "vanguardia"]
       },
       {
         "id": 5,
-        "nombre": "Mercado exterior de Tsukiji",
+        "nombre": "Mercado de Tsukiji",
         "tipo": "mercados",
-        "descripcion": "Mercado exterior de Tsukiji es una visita destacada de Tokio, una referencia: mercado lleno de puestos, productos locales y escenas cotidianas. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-        "descripcionCorta": "Mercado exterior de Tsukiji es una visita destacada de Tokio, una referencia: mercado lleno de puestos, productos locales y escenas cotidianas.",
+        "descripcion": "Aunque el mercado mayorista se mudó a Toyosu, el mercado exterior de Tsukiji sigue siendo el paraíso de los amantes del sushi. Sus puestos ofrecen el pescado más fresco del mundo y delicias callejeras inigualables.",
+        "descripcionCorta": "El mercado de pescado más famoso y delicioso.",
         "lat": 35.6655,
         "lng": 139.7707,
-        "horario": "9:00 - 15:00",
-        "precio": "Gratis",
-        "rating": 4.8,
+        "horario": "5:00 - 14:00",
+        "precio": "Según consumo",
+        "rating": 4.7,
         "imagen": "img/tokyo_tsukiji.png",
         "imagenCard": "img/tokyo_tsukiji.png",
-        "tags": [
-          "mercados",
-          "asia",
-          "tokio"
-        ]
+        "tags": ["sushi", "gastronomía", "mercado"]
       },
       {
         "id": 6,
-        "nombre": "Akihabara",
+        "nombre": "Akihabara Electric Town",
         "tipo": "barrios",
-        "descripcion": "Akihabara es una visita destacada de Tokio, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-        "descripcionCorta": "Akihabara es una visita destacada de Tokio, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad.",
+        "descripcion": "El epicentro mundial de la electrónica, el manga y el anime. Con sus edificios cubiertos de luces de neón y sus tiendas especializadas, es el lugar de peregrinaje para los amantes de la cultura 'otaku' y la tecnología.",
+        "descripcionCorta": "El paraíso tecnológico y de la cultura otaku.",
         "lat": 35.6984,
         "lng": 139.773,
-        "horario": "24h",
+        "horario": "10:00 - 21:00",
         "precio": "Gratis",
-        "rating": 4.5,
+        "rating": 4.7,
         "imagen": "img/tokyo_akihabara.png",
         "imagenCard": "img/tokyo_akihabara.png",
-        "tags": [
-          "barrios",
-          "asia",
-          "tokio"
-        ]
+        "tags": ["anime", "tecnología", "electrónica"]
       },
       {
         "id": 7,
         "nombre": "Parque Ueno",
         "tipo": "parques",
-        "descripcion": "Parque Ueno es una visita destacada de Tokio, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-        "descripcionCorta": "Parque Ueno es una visita destacada de Tokio, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje.",
+        "descripcion": "Un gran parque público que alberga museos de clase mundial, templos antiguos y el famoso estanque Shinobazu. Es especialmente espectacular durante la floración de los cerezos (sakura).",
+        "descripcionCorta": "El pulmón cultural y botánico del norte de Tokio.",
         "lat": 35.7156,
         "lng": 139.7745,
-        "horario": "7:00 - 20:00",
+        "horario": "5:00 - 23:00",
         "precio": "Gratis",
         "rating": 4.6,
         "imagen": "img/tokyo_ueno.png",
         "imagenCard": "img/tokyo_ueno.png",
-        "tags": [
-          "parques",
-          "asia",
-          "tokio"
-        ]
+        "tags": ["parque", "museos", "sakura"]
       },
       {
         "id": 8,
         "nombre": "Tokyo Skytree",
         "tipo": "cultura",
-        "descripcion": "Tokyo Skytree es una visita destacada de Tokio, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-        "descripcionCorta": "Tokyo Skytree es una visita destacada de Tokio, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad.",
+        "descripcion": "La torre de comunicaciones más alta del mundo. Sus observatorios ofrecen las vistas panorámicas más impresionantes de la metrópolis, llegando a verse el Monte Fuji en días despejados.",
+        "descripcionCorta": "La torre más alta con vistas infinitas de la ciudad.",
         "lat": 35.7101,
         "lng": 139.8107,
-        "horario": "9:00 - 18:00",
-        "precio": "Desde 8 EUR",
+        "horario": "10:00 - 21:00",
+        "precio": "2.100 JPY",
         "rating": 4.7,
         "imagen": "img/tokyo_skytree.png",
         "imagenCard": "img/tokyo_skytree.png",
-        "tags": [
-          "cultura",
-          "asia",
-          "tokio"
-        ]
+        "tags": ["vistas", "modernidad", "skyline"]
       },
       {
         "id": 9,
-        "nombre": "Golden Gai",
+        "nombre": "Shinjuku Golden Gai",
         "tipo": "barrios",
-        "descripcion": "Golden Gai es una visita destacada de Tokio, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-        "descripcionCorta": "Golden Gai es una visita destacada de Tokio, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad.",
+        "descripcion": "Una red de seis estrechos callejones llenos de más de 200 diminutos bares y locales. Un rastro del Tokio de posguerra que ofrece una experiencia íntima y auténtica en la vida nocturna de la ciudad.",
+        "descripcionCorta": "Laberinto nostálgico de bares minúsculos.",
         "lat": 35.6938,
         "lng": 139.7046,
-        "horario": "24h",
-        "precio": "Gratis",
+        "horario": "19:00 - tarde",
+        "precio": "Consumo + Cover charge",
+        "rating": 4.7,
+        "imagen": "img/tokyo_goldengai.png",
+        "imagenCard": "img/tokyo_goldengai.png",
+        "tags": ["nocturno", "auténtico", "bar"]
+      }
+    ]cio": "Gratis",
         "rating": 4.7,
         "imagen": "img/tokyo_goldengai.png",
         "imagenCard": "img/tokyo_goldengai.png",

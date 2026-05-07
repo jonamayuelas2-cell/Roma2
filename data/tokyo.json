@@ -3,171 +3,135 @@
     "id": 1,
     "nombre": "Cruce de Shibuya",
     "tipo": "barrios",
-    "descripcion": "Cruce de Shibuya es una visita destacada de Tokio, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-    "descripcionCorta": "Cruce de Shibuya es una visita destacada de Tokio, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad.",
+    "descripcion": "El paso de cebra más transitado del mundo y el corazón palpitante de la cultura juvenil de Tokio. Cuando los semáforos se ponen en rojo, miles de personas cruzan en todas direcciones bajo el resplandor de las pantallas gigantes de neón.",
+    "descripcionCorta": "La intersección más icónica y energética del mundo.",
     "lat": 35.6595,
     "lng": 139.7005,
     "horario": "24h",
     "precio": "Gratis",
-    "rating": 4.5,
+    "rating": 4.9,
     "imagen": "img/tokyo_shibuya.png",
     "imagenCard": "img/tokyo_shibuya.png",
-    "tags": [
-      "barrios",
-      "asia",
-      "tokio"
-    ]
+    "tags": ["neón", "vibrante", "iconic"]
   },
   {
     "id": 2,
     "nombre": "Templo Senso-ji",
     "tipo": "cultura",
-    "descripcion": "Templo Senso-ji es una visita destacada de Tokio, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-    "descripcionCorta": "Templo Senso-ji es una visita destacada de Tokio, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad.",
+    "descripcion": "El templo budista más antiguo y sagrado de Tokio, ubicado en el histórico distrito de Asakusa. Su gran puerta Kaminarimon y la calle comercial Nakamise ofrecen un viaje al pasado tradicional de la ciudad.",
+    "descripcionCorta": "El alma antigua de Tokio en el barrio de Asakusa.",
     "lat": 35.7148,
     "lng": 139.7967,
-    "horario": "9:00 - 18:00",
-    "precio": "Desde 8 EUR",
-    "rating": 4.6,
+    "horario": "6:00 - 17:00",
+    "precio": "Gratuito",
+    "rating": 4.8,
     "imagen": "img/tokyo_sensoji.png",
     "imagenCard": "img/tokyo_sensoji.png",
-    "tags": [
-      "cultura",
-      "asia",
-      "tokio"
-    ]
+    "tags": ["templo", "tradición", "historia"]
   },
   {
     "id": 3,
-    "nombre": "Santuario Meiji",
+    "nombre": "Santuario Meiji Jingu",
     "tipo": "cultura",
-    "descripcion": "Santuario Meiji es una visita destacada de Tokio, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-    "descripcionCorta": "Santuario Meiji es una visita destacada de Tokio, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad.",
+    "descripcion": "Un oasis de serenidad dedicado al emperador Meiji y la emperatriz Shoken. Rodeado por un bosque de 70 hectáreas en pleno centro urbano, es un lugar de profunda espiritualidad y belleza arquitectónica sintoísta.",
+    "descripcionCorta": "Un santuario de paz en el corazón de un bosque urbano.",
     "lat": 35.6764,
     "lng": 139.6993,
-    "horario": "9:00 - 18:00",
-    "precio": "Desde 8 EUR",
-    "rating": 4.7,
+    "horario": "Amanecer - Atardecer",
+    "precio": "Gratuito",
+    "rating": 4.8,
     "imagen": "img/tokyo_meiji.png",
     "imagenCard": "img/tokyo_meiji.png",
-    "tags": [
-      "cultura",
-      "asia",
-      "tokio"
-    ]
+    "tags": ["espiritualidad", "bosque", "sintoísmo"]
   },
   {
     "id": 4,
     "nombre": "TeamLab Planets",
     "tipo": "museos",
-    "descripcion": "TeamLab Planets es una visita destacada de Tokio, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-    "descripcionCorta": "TeamLab Planets es una visita destacada de Tokio, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares.",
+    "descripcion": "Un museo de arte digital inmersivo donde los visitantes caminan a través del agua y se funden con las obras. Una experiencia sensorial única que redefine la relación entre el espectador y el arte digital.",
+    "descripcionCorta": "Una experiencia inmersiva de arte digital y naturaleza.",
     "lat": 35.6491,
     "lng": 139.7899,
-    "horario": "10:00 - 18:00",
-    "precio": "Desde 12 EUR",
-    "rating": 4.7,
+    "horario": "9:00 - 21:00",
+    "precio": "3.800 JPY",
+    "rating": 4.9,
     "imagen": "img/tokyo_teamlab.png",
     "imagenCard": "img/tokyo_teamlab.png",
-    "tags": [
-      "museos",
-      "asia",
-      "tokio"
-    ]
+    "tags": ["digital", "inmersivo", "vanguardia"]
   },
   {
     "id": 5,
-    "nombre": "Mercado exterior de Tsukiji",
+    "nombre": "Mercado de Tsukiji",
     "tipo": "mercados",
-    "descripcion": "Mercado exterior de Tsukiji es una visita destacada de Tokio, una referencia: mercado lleno de puestos, productos locales y escenas cotidianas. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-    "descripcionCorta": "Mercado exterior de Tsukiji es una visita destacada de Tokio, una referencia: mercado lleno de puestos, productos locales y escenas cotidianas.",
+    "descripcion": "Aunque el mercado mayorista se mudó a Toyosu, el mercado exterior de Tsukiji sigue siendo el paraíso de los amantes del sushi. Sus puestos ofrecen el pescado más fresco del mundo y delicias callejeras inigualables.",
+    "descripcionCorta": "El mercado de pescado más famoso y delicioso.",
     "lat": 35.6655,
     "lng": 139.7707,
-    "horario": "9:00 - 15:00",
-    "precio": "Gratis",
-    "rating": 4.8,
+    "horario": "5:00 - 14:00",
+    "precio": "Según consumo",
+    "rating": 4.7,
     "imagen": "img/tokyo_tsukiji.png",
     "imagenCard": "img/tokyo_tsukiji.png",
-    "tags": [
-      "mercados",
-      "asia",
-      "tokio"
-    ]
+    "tags": ["sushi", "gastronomía", "mercado"]
   },
   {
     "id": 6,
-    "nombre": "Akihabara",
+    "nombre": "Akihabara Electric Town",
     "tipo": "barrios",
-    "descripcion": "Akihabara es una visita destacada de Tokio, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-    "descripcionCorta": "Akihabara es una visita destacada de Tokio, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad.",
+    "descripcion": "El epicentro mundial de la electrónica, el manga y el anime. Con sus edificios cubiertos de luces de neón y sus tiendas especializadas, es el lugar de peregrinaje para los amantes de la cultura 'otaku' y la tecnología.",
+    "descripcionCorta": "El paraíso tecnológico y de la cultura otaku.",
     "lat": 35.6984,
     "lng": 139.773,
-    "horario": "24h",
+    "horario": "10:00 - 21:00",
     "precio": "Gratis",
-    "rating": 4.5,
+    "rating": 4.7,
     "imagen": "img/tokyo_akihabara.png",
     "imagenCard": "img/tokyo_akihabara.png",
-    "tags": [
-      "barrios",
-      "asia",
-      "tokio"
-    ]
+    "tags": ["anime", "tecnología", "electrónica"]
   },
   {
     "id": 7,
     "nombre": "Parque Ueno",
     "tipo": "parques",
-    "descripcion": "Parque Ueno es una visita destacada de Tokio, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-    "descripcionCorta": "Parque Ueno es una visita destacada de Tokio, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje.",
+    "descripcion": "Un gran parque público que alberga museos de clase mundial, templos antiguos y el famoso estanque Shinobazu. Es especialmente espectacular durante la floración de los cerezos (sakura).",
+    "descripcionCorta": "El pulmón cultural y botánico del norte de Tokio.",
     "lat": 35.7156,
     "lng": 139.7745,
-    "horario": "7:00 - 20:00",
+    "horario": "5:00 - 23:00",
     "precio": "Gratis",
     "rating": 4.6,
     "imagen": "img/tokyo_ueno.png",
     "imagenCard": "img/tokyo_ueno.png",
-    "tags": [
-      "parques",
-      "asia",
-      "tokio"
-    ]
+    "tags": ["parque", "museos", "sakura"]
   },
   {
     "id": 8,
     "nombre": "Tokyo Skytree",
     "tipo": "cultura",
-    "descripcion": "Tokyo Skytree es una visita destacada de Tokio, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-    "descripcionCorta": "Tokyo Skytree es una visita destacada de Tokio, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad.",
+    "descripcion": "La torre de comunicaciones más alta del mundo. Sus observatorios ofrecen las vistas panorámicas más impresionantes de la metrópolis, llegando a verse el Monte Fuji en días despejados.",
+    "descripcionCorta": "La torre más alta con vistas infinitas de la ciudad.",
     "lat": 35.7101,
     "lng": 139.8107,
-    "horario": "9:00 - 18:00",
-    "precio": "Desde 8 EUR",
+    "horario": "10:00 - 21:00",
+    "precio": "2.100 JPY",
     "rating": 4.7,
     "imagen": "img/tokyo_skytree.png",
     "imagenCard": "img/tokyo_skytree.png",
-    "tags": [
-      "cultura",
-      "asia",
-      "tokio"
-    ]
+    "tags": ["vistas", "modernidad", "skyline"]
   },
   {
     "id": 9,
-    "nombre": "Golden Gai",
+    "nombre": "Shinjuku Golden Gai",
     "tipo": "barrios",
-    "descripcion": "Golden Gai es una visita destacada de Tokio, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-    "descripcionCorta": "Golden Gai es una visita destacada de Tokio, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad.",
+    "descripcion": "Una red de seis estrechos callejones llenos de más de 200 diminutos bares y locales. Un rastro del Tokio de posguerra que ofrece una experiencia íntima y auténtica en la vida nocturna de la ciudad.",
+    "descripcionCorta": "Laberinto nostálgico de bares minúsculos.",
     "lat": 35.6938,
     "lng": 139.7046,
-    "horario": "24h",
-    "precio": "Gratis",
+    "horario": "19:00 - tarde",
+    "precio": "Consumo + Cover charge",
     "rating": 4.7,
     "imagen": "img/tokyo_goldengai.png",
     "imagenCard": "img/tokyo_goldengai.png",
-    "tags": [
-      "barrios",
-      "asia",
-      "tokio"
-    ]
+    "tags": ["nocturno", "auténtico", "bar"]
   }
 ]

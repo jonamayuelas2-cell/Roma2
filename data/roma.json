@@ -3,171 +3,135 @@
     "id": 1,
     "nombre": "Coliseo Romano",
     "tipo": "cultura",
-    "descripcion": "Coliseo Romano es una visita destacada de Roma, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-    "descripcionCorta": "Coliseo Romano es una visita destacada de Roma, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad.",
+    "descripcion": "El anfiteatro más grande jamás construido y el símbolo eterno de la Antigua Roma. Este monumento de la ingeniería flavia fue el escenario de legendarios combates de gladiadores y espectáculos públicos que definieron una era.",
+    "descripcionCorta": "El corazón de piedra del Imperio Romano.",
     "lat": 41.8902,
     "lng": 12.4922,
-    "horario": "9:00 - 18:00",
-    "precio": "Desde 8 EUR",
-    "rating": 4.5,
+    "horario": "9:00 - 19:00",
+    "precio": "16€ (Billete combinado)",
+    "rating": 4.9,
     "imagen": "img/roma_coliseo.png",
     "imagenCard": "img/roma_coliseo.png",
-    "tags": [
-      "cultura",
-      "europa",
-      "roma"
-    ]
+    "tags": ["historia", "imperio", "patrimonio"]
   },
   {
     "id": 2,
     "nombre": "Foro Romano",
     "tipo": "cultura",
-    "descripcion": "Foro Romano es una visita destacada de Roma, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-    "descripcionCorta": "Foro Romano es una visita destacada de Roma, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad.",
+    "descripcion": "El centro neurálgico de la vida política, económica y religiosa de la antigua metrópolis. Caminar entre sus templos y basílicas en ruinas es hacer un viaje directo al epicentro del poder del mundo antiguo.",
+    "descripcionCorta": "Donde se escribieron las leyes del mundo antiguo.",
     "lat": 41.8925,
     "lng": 12.4853,
-    "horario": "9:00 - 18:00",
-    "precio": "Desde 8 EUR",
-    "rating": 4.6,
+    "horario": "9:00 - 19:00",
+    "precio": "Incluido en el Coliseo",
+    "rating": 4.8,
     "imagen": "img/roma_foro.png",
     "imagenCard": "img/roma_foro.png",
-    "tags": [
-      "cultura",
-      "europa",
-      "roma"
-    ]
+    "tags": ["ruinas", "arqueología", "poder"]
   },
   {
     "id": 3,
     "nombre": "Fontana di Trevi",
     "tipo": "cultura",
-    "descripcion": "Fontana di Trevi es una visita destacada de Roma, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-    "descripcionCorta": "Fontana di Trevi es una visita destacada de Roma, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad.",
+    "descripcion": "La fuente barroca más espectacular y cinematográfica del mundo. Una obra maestra de Nicola Salvi donde el rugido del agua y la majestuosidad de Neptuno crean un espectáculo de mármol inigualable.",
+    "descripcionCorta": "La joya barroca de los deseos y el cine.",
     "lat": 41.9009,
     "lng": 12.4833,
-    "horario": "9:00 - 18:00",
-    "precio": "Desde 8 EUR",
-    "rating": 4.7,
+    "horario": "24h",
+    "precio": "Gratuito",
+    "rating": 4.9,
     "imagen": "img/roma_trevi.png",
     "imagenCard": "img/roma_trevi.png",
-    "tags": [
-      "cultura",
-      "europa",
-      "roma"
-    ]
+    "tags": ["barroco", "arte", "fuente"]
   },
   {
     "id": 4,
-    "nombre": "Panteón",
+    "nombre": "Panteón de Agripa",
     "tipo": "cultura",
-    "descripcion": "Panteón es una visita destacada de Roma, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-    "descripcionCorta": "Panteón es una visita destacada de Roma, una referencia: monumento o conjunto histórico ideal para entender la identidad de la ciudad.",
+    "descripcion": "El edificio mejor conservado de la Antigua Roma. Su cúpula de hormigón no armado sigue siendo la más grande del mundo, con su óculo central que permite la entrada de una luz celestial única.",
+    "descripcionCorta": "La perfección arquitectónica de los dioses.",
     "lat": 41.8986,
     "lng": 12.4769,
-    "horario": "9:00 - 18:00",
-    "precio": "Desde 8 EUR",
-    "rating": 4.7,
+    "horario": "9:00 - 19:00",
+    "precio": "5€",
+    "rating": 4.9,
     "imagen": "img/roma_panteon.png",
     "imagenCard": "img/roma_panteon.png",
-    "tags": [
-      "cultura",
-      "europa",
-      "roma"
-    ]
+    "tags": ["arquitectura", "templo", "cúpula"]
   },
   {
     "id": 5,
     "nombre": "Museos Vaticanos",
     "tipo": "museos",
-    "descripcion": "Museos Vaticanos es una visita destacada de Roma, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-    "descripcionCorta": "Museos Vaticanos es una visita destacada de Roma, una referencia: museo clave para recorrer arte, memoria local y colecciones singulares.",
+    "descripcion": "Una de las colecciones de arte más vastas y fascinantes de la humanidad. Desde las Galerías de los Mapas hasta la Capilla Sixtina de Miguel Ángel, es una experiencia estética sobrecogedora.",
+    "descripcionCorta": "El tesoro infinito del arte occidental.",
     "lat": 41.9065,
     "lng": 12.4536,
-    "horario": "10:00 - 18:00",
-    "precio": "Desde 12 EUR",
+    "horario": "9:00 - 18:00",
+    "precio": "17€",
     "rating": 4.8,
     "imagen": "img/roma_vaticano.png",
     "imagenCard": "img/roma_vaticano.png",
-    "tags": [
-      "museos",
-      "europa",
-      "roma"
-    ]
+    "tags": ["arte", "vaticano", "renacimiento"]
   },
   {
     "id": 6,
     "nombre": "Trastevere",
     "tipo": "barrios",
-    "descripcion": "Trastevere es una visita destacada de Roma, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-    "descripcionCorta": "Trastevere es una visita destacada de Roma, una referencia: zona perfecta para caminar, observar vida local y descubrir rincones con personalidad.",
+    "descripcion": "El barrio más bohemio y auténtico de Roma. Con sus calles empedradas cubiertas de hiedra, sus plazas animadas y su atmósfera medieval, es el lugar perfecto para perderse y disfrutar de la 'Dolce Vita'.",
+    "descripcionCorta": "Encanto medieval y vida bohemia romana.",
     "lat": 41.8894,
     "lng": 12.4697,
-    "horario": "24h",
-    "precio": "Gratis",
-    "rating": 4.5,
+    "horario": "Siempre",
+    "precio": "Acceso libre",
+    "rating": 4.7,
     "imagen": "img/roma_trastevere.png",
     "imagenCard": "img/roma_trastevere.png",
-    "tags": [
-      "barrios",
-      "europa",
-      "roma"
-    ]
+    "tags": ["bohemio", "barrio", "noche"]
   },
   {
     "id": 7,
     "nombre": "Villa Borghese",
     "tipo": "parques",
-    "descripcion": "Villa Borghese es una visita destacada de Roma, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-    "descripcionCorta": "Villa Borghese es una visita destacada de Roma, una referencia: espacio abierto para descansar, mirar la ciudad y cambiar el ritmo del viaje.",
+    "descripcion": "Un inmenso parque que combina naturaleza, fuentes y arte de primer nivel. Alberga la Galería Borghese, con obras maestras de Bernini y Caravaggio, en un entorno de paz absoluta sobre el Pincio.",
+    "descripcionCorta": "El oasis de arte y naturaleza sobre Roma.",
     "lat": 41.9142,
     "lng": 12.4922,
-    "horario": "7:00 - 20:00",
-    "precio": "Gratis",
-    "rating": 4.6,
+    "horario": "Amanecer - Atardecer",
+    "precio": "Parque gratis / Galería 15€",
+    "rating": 4.7,
     "imagen": "img/roma_borghese.png",
     "imagenCard": "img/roma_borghese.png",
-    "tags": [
-      "parques",
-      "europa",
-      "roma"
-    ]
+    "tags": ["parque", "arte", "naturaleza"]
   },
   {
     "id": 8,
-    "nombre": "Campo de Fiori",
+    "nombre": "Campo de' Fiori",
     "tipo": "mercados",
-    "descripcion": "Campo de Fiori es una visita destacada de Roma, una referencia: mercado lleno de puestos, productos locales y escenas cotidianas. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-    "descripcionCorta": "Campo de Fiori es una visita destacada de Roma, una referencia: mercado lleno de puestos, productos locales y escenas cotidianas.",
+    "descripcion": "Uno de los mercados más pintorescos de Roma por la mañana y el epicentro de la vida nocturna al caer el sol. Su atmósfera vibrante y su mercado de flores y alimentos son pura esencia romana.",
+    "descripcionCorta": "Mercado histórico de flores y vida local.",
     "lat": 41.8956,
     "lng": 12.4722,
-    "horario": "9:00 - 15:00",
-    "precio": "Gratis",
-    "rating": 4.7,
+    "horario": "Mercado 7:00 - 14:00",
+    "precio": "Acceso libre",
+    "rating": 4.6,
     "imagen": "img/roma_campofiori.png",
     "imagenCard": "img/roma_campofiori.png",
-    "tags": [
-      "mercados",
-      "europa",
-      "roma"
-    ]
+    "tags": ["mercado", "flores", "ambiente"]
   },
   {
     "id": 9,
-    "nombre": "Roscioli",
+    "nombre": "Salumeria Roscioli",
     "tipo": "restaurantes",
-    "descripcion": "Roscioli es una visita destacada de Roma, una referencia: parada gastronómica recomendada para probar sabores representativos. Incluyelo en la ruta si buscas una experiencia representativa, facil de ubicar en el mapa y con tiempo suficiente para disfrutarla sin prisas.",
-    "descripcionCorta": "Roscioli es una visita destacada de Roma, una referencia: parada gastronómica recomendada para probar sabores representativos.",
+    "descripcion": "Una institución gastronómica romana que combina charcutería fina, panadería artesanal y un restaurante donde se sirve la que muchos consideran la mejor Carbonara de la ciudad.",
+    "descripcionCorta": "El templo sagrado de la gastronomía romana.",
     "lat": 41.895,
     "lng": 12.474,
-    "horario": "12:30 - 23:00",
-    "precio": "Menu variable",
-    "rating": 4.7,
+    "horario": "12:30 - 23:30",
+    "precio": "30-50€ p.p.",
+    "rating": 4.8,
     "imagen": "img/roma_roscioli.png",
     "imagenCard": "img/roma_roscioli.png",
-    "tags": [
-      "restaurantes",
-      "europa",
-      "roma"
-    ]
+    "tags": ["gastronomía", "carbonara", "delicatessen"]
   }
 ]
