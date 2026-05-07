@@ -15,7 +15,7 @@ const state = {
     isTransitioning: false
 };
 
-const ASSET_VERSION = '2026-05-07-istanbul-activities-v1';
+const ASSET_VERSION = '2026-05-07-istanbul-activities-v2';
 
 function assetUrl(src) {
     if (!src || src.startsWith('http') || src.startsWith('data:')) return src;
@@ -45,7 +45,7 @@ async function loadCities() {
 
 function getTotalActivitiesCount() {
     return state.cities.reduce((total, city) => {
-        if (city.id !== 'roma') return total;
+        if (city.id !== 'roma' && city.id !== 'estambul') return total;
         return total + (city.lugares?.length || 0) * 6;
     }, 0);
 }
@@ -752,6 +752,18 @@ function getIstanbulActivityIdeas(place) {
 
 function getPlaceActivities(place) {
     const cityId = state.currentCity?.id;
+
+    // Soporte para actividades estructuradas en el JSON (Premium)
+    if (place.actividades && place.actividades.length > 0) {
+        return place.actividades.map((act, index) => ({
+            title: act.titulo || act.title,
+            description: act.descripcion || act.description,
+            image: act.imagen || act.image || getActivityImage(cityId, place, index),
+            provider: act.proveedor || act.provider,
+            contact: act.contacto || act.contact,
+            schedule: act.horario || act.schedule
+        }));
+    }
 
     if (cityId === 'roma') {
         const providers = getRomeActivityProviders(place);

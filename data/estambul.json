@@ -30,6 +30,50 @@
         "bizantino",
         "otomano",
         "arquitectura"
+      ],
+      "actividades": [
+        {
+          "titulo": "Tour historico bizantino",
+          "descripcion": "Recorrido centrado en los mosaicos, la cupula y la conversion en mezquita.",
+          "proveedor": "Ayasofya-i Kebir Cami",
+          "contacto": "muze.gen.tr",
+          "horario": "9:00 - 19:00"
+        },
+        {
+          "titulo": "Acceso prioritario y guia",
+          "descripcion": "Evita las colas principales con explicacion de un guia oficial.",
+          "proveedor": "Istanbul Welcome Card",
+          "contacto": "istanbulwelcomecard.com",
+          "horario": "Diario"
+        },
+        {
+          "titulo": "Paseo por Sultanahmet",
+          "descripcion": "Ruta a pie por la plaza que une Santa Sofia y la Mezquita Azul.",
+          "proveedor": "GetYourGuide Istanbul",
+          "contacto": "getyourguide.com/istanbul",
+          "horario": "Mañana y tarde"
+        },
+        {
+          "titulo": "Sesion de fotos exteriores",
+          "descripcion": "Captura la luz del atardecer sobre los minaretes y la cupula.",
+          "proveedor": "Civitatis Estambul",
+          "contacto": "civitatis.com/estambul",
+          "horario": "Al atardecer"
+        },
+        {
+          "titulo": "Audioguia interactiva",
+          "descripcion": "Explora a tu ritmo con contexto historico en tu dispositivo.",
+          "proveedor": "Tiqets Istanbul",
+          "contacto": "tiqets.com/istanbul",
+          "horario": "Cualquier momento"
+        },
+        {
+          "titulo": "Charla de arquitectura",
+          "descripcion": "Actividad especializada en las tecnicas de construccion del siglo VI.",
+          "proveedor": "Withlocals Istanbul",
+          "contacto": "withlocals.com/istanbul",
+          "horario": "Bajo reserva"
+        }
       ]
     },
     {
@@ -49,6 +93,50 @@
         "mezquita",
         "azulejos",
         "sultanahmet"
+      ],
+      "actividades": [
+        {
+          "titulo": "Visita de espiritualidad",
+          "descripcion": "Explicacion del culto, los azulejos de Iznik y la arquitectura sagrada.",
+          "proveedor": "Sultanahmet Camii",
+          "contacto": "sultanahmetcamii.org",
+          "horario": "Fuera de horas de rezo"
+        },
+        {
+          "titulo": "Ruta de mezquitas imperiales",
+          "descripcion": "Recorrido por las principales mezquitas del centro historico.",
+          "proveedor": "Istanbul Welcome Card",
+          "contacto": "istanbulwelcomecard.com",
+          "horario": "Diario"
+        },
+        {
+          "titulo": "Fotografia de minaretes",
+          "descripcion": "Busqueda de los mejores angulos para captar los seis minaretes.",
+          "proveedor": "GetYourGuide Istanbul",
+          "contacto": "getyourguide.com/istanbul",
+          "horario": "Cualquier momento"
+        },
+        {
+          "titulo": "Tour por el Hipodromo",
+          "descripcion": "Contexto sobre el obelisco y la historia romana frente a la mezquita.",
+          "proveedor": "Civitatis Estambul",
+          "contacto": "civitatis.com/estambul",
+          "horario": "Diario"
+        },
+        {
+          "titulo": "Visita nocturna iluminada",
+          "descripcion": "Paseo por los patios cuando la iluminacion resalta su silueta.",
+          "proveedor": "Tiqets Istanbul",
+          "contacto": "tiqets.com/istanbul",
+          "horario": "Noche"
+        },
+        {
+          "titulo": "Charla sobre artesania turca",
+          "descripcion": "Actividad centrada en los azulejos y la caligrafia del interior.",
+          "proveedor": "Withlocals Istanbul",
+          "contacto": "withlocals.com/istanbul",
+          "horario": "Privado"
+        }
       ]
     },
     {
@@ -68,6 +156,50 @@
         "palacio",
         "otomano",
         "historia"
+      ],
+      "actividades": [
+        {
+          "titulo": "Ruta por el Harem",
+          "descripcion": "Visita detallada a las estancias privadas de las sultanas y el sultan.",
+          "proveedor": "Topkapi Sarayi",
+          "contacto": "millisaraylar.gov.tr",
+          "horario": "9:00 - 18:00"
+        },
+        {
+          "titulo": "Tesoro y Vistas del Bosforo",
+          "descripcion": "Recorrido por las joyas imperiales y los miradores al mar.",
+          "proveedor": "Istanbul Welcome Card",
+          "contacto": "istanbulwelcomecard.com",
+          "horario": "Diario"
+        },
+        {
+          "titulo": "Jardines del Cuarto Patio",
+          "descripcion": "Paseo relajado por los pabellones y fuentes sobre el Cuerno de Oro.",
+          "proveedor": "GetYourGuide Istanbul",
+          "contacto": "getyourguide.com/istanbul",
+          "horario": "Libre"
+        },
+        {
+          "titulo": "Tour de Reliquias Sagradas",
+          "descripcion": "Visita a la coleccion de objetos religiosos de gran valor historico.",
+          "proveedor": "Civitatis Estambul",
+          "contacto": "civitatis.com/estambul",
+          "horario": "Mañana"
+        },
+        {
+          "titulo": "Visita a las Cocinas Reales",
+          "descripcion": "Explicacion de la logistica y la gastronomia del imperio.",
+          "proveedor": "Tiqets Istanbul",
+          "contacto": "tiqets.com/istanbul",
+          "horario": "Diario"
+        },
+        {
+          "titulo": "Historia del Imperio Otomano",
+          "descripcion": "Ruta contextual sobre la administracion desde este centro de poder.",
+          "proveedor": "Withlocals Istanbul",
+          "contacto": "withlocals.com/istanbul",
+          "horario": "Privado"
+        }
       ]
     },
     {
@@ -87,6 +219,50 @@
         "mercado",
         "compras",
         "artesania"
+      ],
+      "actividades": [
+        {
+          "titulo": "Tour de compras y regateo",
+          "descripcion": "Consejos de un local para navegar y comprar alfombras o joyas.",
+          "proveedor": "Kapalicarsi Management",
+          "contacto": "kapalicarsi.com.tr",
+          "horario": "9:00 - 19:00"
+        },
+        {
+          "titulo": "Ruta de artesanos ocultos",
+          "descripcion": "Visita a talleres tradicionales de orfebreria y ceramica.",
+          "proveedor": "Istanbul Welcome Card",
+          "contacto": "istanbulwelcomecard.com",
+          "horario": "Mañana"
+        },
+        {
+          "titulo": "Paseo por los Hanes",
+          "descripcion": "Exploracion de los antiguos caravasares que rodean el bazar.",
+          "proveedor": "GetYourGuide Istanbul",
+          "contacto": "getyourguide.com/istanbul",
+          "horario": "Diario"
+        },
+        {
+          "titulo": "Degustacion de Cafe Turco",
+          "descripcion": "Parada en los cafes mas antiguos y con mas encanto del laberinto.",
+          "proveedor": "Civitatis Estambul",
+          "contacto": "civitatis.com/estambul",
+          "horario": "Tarde"
+        },
+        {
+          "titulo": "Fotografia de lamparas",
+          "descripcion": "Sesion centrada en los colores y luces de los pasillos interiores.",
+          "proveedor": "Tiqets Istanbul",
+          "contacto": "tiqets.com/istanbul",
+          "horario": "Libre"
+        },
+        {
+          "titulo": "Historia de la Ruta de la Seda",
+          "descripcion": "Contexto sobre el papel de Estambul en el comercio mundial.",
+          "proveedor": "Withlocals Istanbul",
+          "contacto": "withlocals.com/istanbul",
+          "horario": "Privado"
+        }
       ]
     },
     {
@@ -106,6 +282,50 @@
         "especias",
         "mercado",
         "dulces"
+      ],
+      "actividades": [
+        {
+          "titulo": "Ruta de Sabores y Aromas",
+          "descripcion": "Cata guiada de especias, frutos secos y delicias turcas.",
+          "proveedor": "Istanbul Welcome Card",
+          "contacto": "istanbulwelcomecard.com",
+          "horario": "9:00 - 19:00"
+        },
+        {
+          "titulo": "Taller de Lokum (Turkish Delight)",
+          "descripcion": "Demostracion y degustacion de los dulces mas famosos.",
+          "proveedor": "GetYourGuide Istanbul",
+          "contacto": "getyourguide.com/istanbul",
+          "horario": "Tarde"
+        },
+        {
+          "titulo": "Compra de Te Guiada",
+          "descripcion": "Seleccion de mezclas de flores y hierbas locales.",
+          "proveedor": "Civitatis Estambul",
+          "contacto": "civitatis.com/estambul",
+          "horario": "Mañana"
+        },
+        {
+          "titulo": "Mercado de Eminonu",
+          "descripcion": "Paseo por los alrededores del bazar y el puerto.",
+          "proveedor": "Tiqets Istanbul",
+          "contacto": "tiqets.com/istanbul",
+          "horario": "Libre"
+        },
+        {
+          "titulo": "Fotografia de Montanas de Especias",
+          "descripcion": "Captura el colorido visual de los puestos tradicionales.",
+          "proveedor": "Withlocals Istanbul",
+          "contacto": "withlocals.com/istanbul",
+          "horario": "Libre"
+        },
+        {
+          "titulo": "Degustacion de Quesos y Olivas",
+          "descripcion": "Exploracion de los productos frescos del mercado exterior.",
+          "proveedor": "Turkish Heritage",
+          "contacto": "turkishheritagetravel.com",
+          "horario": "Mañana"
+        }
       ]
     },
     {
@@ -125,6 +345,50 @@
         "vistas",
         "torre",
         "beyoglu"
+      ],
+      "actividades": [
+        {
+          "titulo": "Vistas 360 grados",
+          "descripcion": "Acceso al mirador para ver toda Estambul desde las alturas.",
+          "proveedor": "Galata Kulesi Muze",
+          "contacto": "muze.gen.tr",
+          "horario": "8:30 - 23:00"
+        },
+        {
+          "titulo": "Barrio Genoves de Galata",
+          "descripcion": "Paseo por las calles empinadas, tiendas de diseño y musica.",
+          "proveedor": "Istanbul Welcome Card",
+          "contacto": "istanbulwelcomecard.com",
+          "horario": "Tarde"
+        },
+        {
+          "titulo": "Ruta de Cafes en Beyoglu",
+          "descripcion": "Exploracion de la vida social y bohemia de los alrededores.",
+          "proveedor": "GetYourGuide Istanbul",
+          "contacto": "getyourguide.com/istanbul",
+          "horario": "Tarde/Noche"
+        },
+        {
+          "titulo": "Atardecer sobre el Cuerno de Oro",
+          "descripcion": "Experiencia fotografica con la mejor luz del dia.",
+          "proveedor": "Civitatis Estambul",
+          "contacto": "civitatis.com/estambul",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Historia Medieval de la Torre",
+          "descripcion": "Contexto sobre la defensa de la ciudad y los genoveses.",
+          "proveedor": "Tiqets Istanbul",
+          "contacto": "tiqets.com/istanbul",
+          "horario": "Mañana"
+        },
+        {
+          "titulo": "Paseo hasta el Puente de Galata",
+          "descripcion": "Ruta descendente conectando con los pescadores del puente.",
+          "proveedor": "Withlocals Istanbul",
+          "contacto": "withlocals.com/istanbul",
+          "horario": "Mañana"
+        }
       ]
     },
     {
@@ -144,6 +408,50 @@
         "barco",
         "bosforo",
         "vistas"
+      ],
+      "actividades": [
+        {
+          "titulo": "Navegacion al Atardecer",
+          "descripcion": "Crucero publico o compartido para ver las siluetas de la ciudad.",
+          "proveedor": "Istanbul Welcome Card",
+          "contacto": "istanbulwelcomecard.com",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Crucero Privado de Lujo",
+          "descripcion": "Experiencia exclusiva para ver palacios y yalis de madera.",
+          "proveedor": "Turkish Heritage",
+          "contacto": "turkishheritagetravel.com",
+          "horario": "Bajo reserva"
+        },
+        {
+          "titulo": "Desayuno en el Barco",
+          "descripcion": "Mañana relajada navegando entre Europa y Asia.",
+          "proveedor": "GetYourGuide Istanbul",
+          "contacto": "getyourguide.com/istanbul",
+          "horario": "Mañana"
+        },
+        {
+          "titulo": "Ruta de Palacios Costeros",
+          "descripcion": "Explicacion de Dolmabahce y Beylerbeyi desde el agua.",
+          "proveedor": "Civitatis Estambul",
+          "contacto": "civitatis.com/estambul",
+          "horario": "Diario"
+        },
+        {
+          "titulo": "Tour Nocturno con Cena",
+          "descripcion": "Espectaculo de danzas tradicionales y vistas iluminadas.",
+          "proveedor": "Tiqets Istanbul",
+          "contacto": "tiqets.com/istanbul",
+          "horario": "Noche"
+        },
+        {
+          "titulo": "Paseo por la Costa Asiatica",
+          "descripcion": "Parada en barrios como Kanlica o Kuzguncuk.",
+          "proveedor": "Withlocals Istanbul",
+          "contacto": "withlocals.com/istanbul",
+          "horario": "Diario"
+        }
       ]
     },
     {
@@ -163,6 +471,50 @@
         "subterraneo",
         "romano",
         "columnas"
+      ],
+      "actividades": [
+        {
+          "titulo": "Bosque Subterraneo",
+          "descripcion": "Recorrido por las columnas romanas y las cabezas de Medusa.",
+          "proveedor": "Yerebatan Sarnici",
+          "contacto": "yerebatan.com",
+          "horario": "9:00 - 22:00"
+        },
+        {
+          "titulo": "Leyendas de Bizancio",
+          "descripcion": "Historias y mitos asociados a este deposito de agua.",
+          "proveedor": "Istanbul Welcome Card",
+          "contacto": "istanbulwelcomecard.com",
+          "horario": "Diario"
+        },
+        {
+          "titulo": "Experiencia Sonora y Eco",
+          "descripcion": "Momento de silencio para apreciar la acustica del lugar.",
+          "proveedor": "GetYourGuide Istanbul",
+          "contacto": "getyourguide.com/istanbul",
+          "horario": "Libre"
+        },
+        {
+          "titulo": "Fotografia de Reflejos",
+          "descripcion": "Captura de la luz sobre el agua y las columnas milenarias.",
+          "proveedor": "Civitatis Estambul",
+          "contacto": "civitatis.com/estambul",
+          "horario": "Libre"
+        },
+        {
+          "titulo": "Ingenieria Hidraulica Romana",
+          "descripcion": "Charla tecnica sobre como se abastecia la ciudad.",
+          "proveedor": "Tiqets Istanbul",
+          "contacto": "tiqets.com/istanbul",
+          "horario": "Tarde"
+        },
+        {
+          "titulo": "Visita Privada Nocturna",
+          "descripcion": "Acceso exclusivo con iluminacion especial segun calendario.",
+          "proveedor": "Withlocals Istanbul",
+          "contacto": "withlocals.com/istanbul",
+          "horario": "Noche"
+        }
       ]
     },
     {
@@ -182,6 +534,50 @@
         "palacio",
         "bosforo",
         "lujo"
+      ],
+      "actividades": [
+        {
+          "titulo": "Tour de Lujo y Cristal",
+          "descripcion": "Visita al salon de ceremonias y la gran escalera de baccarat.",
+          "proveedor": "Istanbul Welcome Card",
+          "contacto": "istanbulwelcomecard.com",
+          "horario": "9:00 - 17:30"
+        },
+        {
+          "titulo": "Jardines Imperiales",
+          "descripcion": "Paseo por los jardines frente al Bosforo y la Torre del Reloj.",
+          "proveedor": "GetYourGuide Istanbul",
+          "contacto": "getyourguide.com/istanbul",
+          "horario": "Libre"
+        },
+        {
+          "titulo": "Estancias de Ataturk",
+          "descripcion": "Visita a la parte del palacio vinculada a la historia moderna.",
+          "proveedor": "Civitatis Estambul",
+          "contacto": "civitatis.com/estambul",
+          "horario": "Diario"
+        },
+        {
+          "titulo": "Ruta de Pintura y Arte",
+          "descripcion": "Exploracion de las colecciones de arte europeo y otomano.",
+          "proveedor": "Tiqets Istanbul",
+          "contacto": "tiqets.com/istanbul",
+          "horario": "Diario"
+        },
+        {
+          "titulo": "Arquitectura del Siglo XIX",
+          "descripcion": "Contexto sobre la transicion del estilo otomano al europeo.",
+          "proveedor": "Withlocals Istanbul",
+          "contacto": "withlocals.com/istanbul",
+          "horario": "Privado"
+        },
+        {
+          "titulo": "Fotografia de Puertas Imperiales",
+          "descripcion": "Captura de la majestuosidad de las entradas al palacio.",
+          "proveedor": "Turkish Heritage",
+          "contacto": "turkishheritagetravel.com",
+          "horario": "Libre"
+        }
       ]
     }
   ]
