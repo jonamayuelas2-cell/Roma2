@@ -16,6 +16,50 @@
       "cultura",
       "norteamerica",
       "ciudad de mexico"
+    ],
+    "actividades": [
+      {
+        "titulo": "Tour historico esencial",
+        "descripcion": "Recorrido guiado por Zócalo para conectar arquitectura, personajes y momentos clave de Ciudad de Mexico.",
+        "proveedor": "Historia Viva Ciudad de Mexico",
+        "contacto": "reservas@historiaciudaddemexico.local",
+        "horario": "10:00 - 12:00"
+      },
+      {
+        "titulo": "Acceso con contexto local",
+        "descripcion": "Visita pausada con explicaciones practicas para comprender por que este lugar sigue siendo imprescindible.",
+        "proveedor": "Guias Locales Ciudad de Mexico",
+        "contacto": "hola@ciudaddemexicolocal.local",
+        "horario": "12:00 - 14:00"
+      },
+      {
+        "titulo": "Paseo fotografico",
+        "descripcion": "Itinerario para capturar fachadas, perspectivas y detalles con la mejor luz disponible.",
+        "proveedor": "Photo Walk Ciudad de Mexico",
+        "contacto": "foto@ciudaddemexicowalk.local",
+        "horario": "Atardecer"
+      },
+      {
+        "titulo": "Ruta de leyendas",
+        "descripcion": "Historias, simbolos y anecdotas alrededor de Zócalo, con tono narrativo y facil de seguir.",
+        "proveedor": "Relatos de Ciudad de Mexico",
+        "contacto": "relatos@ciudaddemexico.local",
+        "horario": "18:00 - 19:30"
+      },
+      {
+        "titulo": "Visita familiar",
+        "descripcion": "Version didactica con paradas breves, preguntas y claves sencillas para ninos y adultos.",
+        "proveedor": "Familias Viajeras",
+        "contacto": "familias@viaje.local",
+        "horario": "11:00 - 12:30"
+      },
+      {
+        "titulo": "Audioguia express",
+        "descripcion": "Recorrido autonomo para ver lo principal de Zócalo con contexto claro y sin prisas.",
+        "proveedor": "Audio Travel",
+        "contacto": "audio@travel.local",
+        "horario": "Durante apertura"
+      }
     ]
   },
   {
@@ -35,6 +79,50 @@
       "museos",
       "norteamerica",
       "ciudad de mexico"
+    ],
+    "actividades": [
+      {
+        "titulo": "Visita guiada a la coleccion",
+        "descripcion": "Recorrido para entender las piezas clave de Museo Nacional de Antropología y su papel en la identidad de Ciudad de Mexico.",
+        "proveedor": "Museo Nacional de Antropología Educacion",
+        "contacto": "educacion@museonacionaldeantropologia.local",
+        "horario": "10:00 - 12:00"
+      },
+      {
+        "titulo": "Ruta de obras imprescindibles",
+        "descripcion": "Seleccion comentada de salas, objetos y relatos para aprovechar la visita sin perderse lo esencial.",
+        "proveedor": "Guias de Ciudad de Mexico",
+        "contacto": "reservas@ciudaddemexicotours.local",
+        "horario": "12:30 - 14:00"
+      },
+      {
+        "titulo": "Taller creativo",
+        "descripcion": "Actividad practica inspirada en las colecciones del museo, pensada para viajeros curiosos y familias.",
+        "proveedor": "Atelier Ciudad de Mexico",
+        "contacto": "talleres@ciudaddemexicoatelier.local",
+        "horario": "16:00 - 18:00"
+      },
+      {
+        "titulo": "Audioguia express",
+        "descripcion": "Formato autonomo y breve para recorrer Museo Nacional de Antropología con contexto historico y buenas pausas.",
+        "proveedor": "Audio Travel",
+        "contacto": "audio@travel.local",
+        "horario": "Durante apertura"
+      },
+      {
+        "titulo": "Encuentro con especialista",
+        "descripcion": "Charla divulgativa sobre restauracion, archivo o seleccion de piezas destacadas.",
+        "proveedor": "Cultura Ciudad de Mexico",
+        "contacto": "info@culturaciudaddemexico.local",
+        "horario": "Consultar calendario"
+      },
+      {
+        "titulo": "Paseo fotografico interior",
+        "descripcion": "Ruta de encuadres permitidos, arquitectura y detalles visuales sin interferir con la visita.",
+        "proveedor": "Photo Walk Ciudad de Mexico",
+        "contacto": "foto@ciudaddemexicowalk.local",
+        "horario": "Ultima hora de apertura"
+      }
     ]
   },
   {
@@ -54,6 +142,50 @@
       "parques",
       "norteamerica",
       "ciudad de mexico"
+    ],
+    "actividades": [
+      {
+        "titulo": "Paseo botanico",
+        "descripcion": "Recorrido por senderos, jardines y miradores para reconocer especies y entender el paisaje de Chapultepec.",
+        "proveedor": "Green Ciudad de Mexico",
+        "contacto": "green@ciudaddemexico.local",
+        "horario": "10:00 - 11:30"
+      },
+      {
+        "titulo": "Picnic con producto local",
+        "descripcion": "Experiencia relajada con cesta preparada y recomendaciones de zonas tranquilas.",
+        "proveedor": "Picnic Ciudad de Mexico",
+        "contacto": "picnic@ciudaddemexico.local",
+        "horario": "13:00 - 15:00"
+      },
+      {
+        "titulo": "Ruta fotografica natural",
+        "descripcion": "Paseo para capturar luz, vegetacion, agua y vistas con ritmo tranquilo.",
+        "proveedor": "Photo Walk Ciudad de Mexico",
+        "contacto": "foto@ciudaddemexicowalk.local",
+        "horario": "Atardecer"
+      },
+      {
+        "titulo": "Actividad familiar al aire libre",
+        "descripcion": "Juego de observacion y pequenas misiones para recorrer Chapultepec con ninos.",
+        "proveedor": "Familias Viajeras",
+        "contacto": "familias@viaje.local",
+        "horario": "11:00 - 12:30"
+      },
+      {
+        "titulo": "Bienestar y estiramientos",
+        "descripcion": "Sesion suave para empezar el dia respirando mejor y disfrutando del entorno.",
+        "proveedor": "Wellness Ciudad de Mexico",
+        "contacto": "wellness@ciudaddemexico.local",
+        "horario": "08:30 - 09:30"
+      },
+      {
+        "titulo": "Miradores y rincones tranquilos",
+        "descripcion": "Ruta breve por bancos, sombras y puntos de descanso para bajar el ritmo del viaje.",
+        "proveedor": "Slow Travel Ciudad de Mexico",
+        "contacto": "slow@ciudaddemexico.local",
+        "horario": "16:30 - 18:00"
+      }
     ]
   },
   {
@@ -73,6 +205,50 @@
       "museos",
       "norteamerica",
       "ciudad de mexico"
+    ],
+    "actividades": [
+      {
+        "titulo": "Visita guiada a la coleccion",
+        "descripcion": "Recorrido para entender las piezas clave de Casa Azul y su papel en la identidad de Ciudad de Mexico.",
+        "proveedor": "Casa Azul Educacion",
+        "contacto": "educacion@casaazul.local",
+        "horario": "10:00 - 12:00"
+      },
+      {
+        "titulo": "Ruta de obras imprescindibles",
+        "descripcion": "Seleccion comentada de salas, objetos y relatos para aprovechar la visita sin perderse lo esencial.",
+        "proveedor": "Guias de Ciudad de Mexico",
+        "contacto": "reservas@ciudaddemexicotours.local",
+        "horario": "12:30 - 14:00"
+      },
+      {
+        "titulo": "Taller creativo",
+        "descripcion": "Actividad practica inspirada en las colecciones del museo, pensada para viajeros curiosos y familias.",
+        "proveedor": "Atelier Ciudad de Mexico",
+        "contacto": "talleres@ciudaddemexicoatelier.local",
+        "horario": "16:00 - 18:00"
+      },
+      {
+        "titulo": "Audioguia express",
+        "descripcion": "Formato autonomo y breve para recorrer Casa Azul con contexto historico y buenas pausas.",
+        "proveedor": "Audio Travel",
+        "contacto": "audio@travel.local",
+        "horario": "Durante apertura"
+      },
+      {
+        "titulo": "Encuentro con especialista",
+        "descripcion": "Charla divulgativa sobre restauracion, archivo o seleccion de piezas destacadas.",
+        "proveedor": "Cultura Ciudad de Mexico",
+        "contacto": "info@culturaciudaddemexico.local",
+        "horario": "Consultar calendario"
+      },
+      {
+        "titulo": "Paseo fotografico interior",
+        "descripcion": "Ruta de encuadres permitidos, arquitectura y detalles visuales sin interferir con la visita.",
+        "proveedor": "Photo Walk Ciudad de Mexico",
+        "contacto": "foto@ciudaddemexicowalk.local",
+        "horario": "Ultima hora de apertura"
+      }
     ]
   },
   {
@@ -92,6 +268,50 @@
       "barrios",
       "norteamerica",
       "ciudad de mexico"
+    ],
+    "actividades": [
+      {
+        "titulo": "Paseo de barrio",
+        "descripcion": "Ruta a pie por calles, plazas y rincones cotidianos para entender el caracter de Xochimilco.",
+        "proveedor": "Walks Ciudad de Mexico",
+        "contacto": "walks@ciudaddemexico.local",
+        "horario": "10:30 - 12:30"
+      },
+      {
+        "titulo": "Ruta gastronomica local",
+        "descripcion": "Paradas escogidas para probar sabores representativos y conocer pequenos comercios de la zona.",
+        "proveedor": "Sabores de Ciudad de Mexico",
+        "contacto": "sabores@ciudaddemexico.local",
+        "horario": "13:00 - 15:00"
+      },
+      {
+        "titulo": "Fotografia urbana",
+        "descripcion": "Paseo para buscar fachadas, mercados, escenas de calle y detalles con personalidad.",
+        "proveedor": "Photo Walk Ciudad de Mexico",
+        "contacto": "foto@ciudaddemexicowalk.local",
+        "horario": "Atardecer"
+      },
+      {
+        "titulo": "Historias del vecindario",
+        "descripcion": "Relato guiado sobre cambios urbanos, vida local y memoria del barrio.",
+        "proveedor": "Cronicas Ciudad de Mexico",
+        "contacto": "cronicas@ciudaddemexico.local",
+        "horario": "17:00 - 18:30"
+      },
+      {
+        "titulo": "Compras con guia local",
+        "descripcion": "Seleccion de tiendas, talleres y productos con criterio local y sin prisas.",
+        "proveedor": "Local Shops Ciudad de Mexico",
+        "contacto": "shops@ciudaddemexico.local",
+        "horario": "11:00 - 13:00"
+      },
+      {
+        "titulo": "Noche de ambiente",
+        "descripcion": "Recorrido suave por bares, plazas y locales recomendados para tomar el pulso nocturno.",
+        "proveedor": "After Dark Ciudad de Mexico",
+        "contacto": "noche@ciudaddemexico.local",
+        "horario": "20:00 - 22:00"
+      }
     ]
   },
   {
@@ -111,6 +331,50 @@
       "museos",
       "norteamerica",
       "ciudad de mexico"
+    ],
+    "actividades": [
+      {
+        "titulo": "Visita guiada a la coleccion",
+        "descripcion": "Recorrido para entender las piezas clave de Templo Mayor y su papel en la identidad de Ciudad de Mexico.",
+        "proveedor": "Templo Mayor Educacion",
+        "contacto": "educacion@templomayor.local",
+        "horario": "10:00 - 12:00"
+      },
+      {
+        "titulo": "Ruta de obras imprescindibles",
+        "descripcion": "Seleccion comentada de salas, objetos y relatos para aprovechar la visita sin perderse lo esencial.",
+        "proveedor": "Guias de Ciudad de Mexico",
+        "contacto": "reservas@ciudaddemexicotours.local",
+        "horario": "12:30 - 14:00"
+      },
+      {
+        "titulo": "Taller creativo",
+        "descripcion": "Actividad practica inspirada en las colecciones del museo, pensada para viajeros curiosos y familias.",
+        "proveedor": "Atelier Ciudad de Mexico",
+        "contacto": "talleres@ciudaddemexicoatelier.local",
+        "horario": "16:00 - 18:00"
+      },
+      {
+        "titulo": "Audioguia express",
+        "descripcion": "Formato autonomo y breve para recorrer Templo Mayor con contexto historico y buenas pausas.",
+        "proveedor": "Audio Travel",
+        "contacto": "audio@travel.local",
+        "horario": "Durante apertura"
+      },
+      {
+        "titulo": "Encuentro con especialista",
+        "descripcion": "Charla divulgativa sobre restauracion, archivo o seleccion de piezas destacadas.",
+        "proveedor": "Cultura Ciudad de Mexico",
+        "contacto": "info@culturaciudaddemexico.local",
+        "horario": "Consultar calendario"
+      },
+      {
+        "titulo": "Paseo fotografico interior",
+        "descripcion": "Ruta de encuadres permitidos, arquitectura y detalles visuales sin interferir con la visita.",
+        "proveedor": "Photo Walk Ciudad de Mexico",
+        "contacto": "foto@ciudaddemexicowalk.local",
+        "horario": "Ultima hora de apertura"
+      }
     ]
   },
   {
@@ -130,6 +394,50 @@
       "barrios",
       "norteamerica",
       "ciudad de mexico"
+    ],
+    "actividades": [
+      {
+        "titulo": "Paseo de barrio",
+        "descripcion": "Ruta a pie por calles, plazas y rincones cotidianos para entender el caracter de Roma-Condesa.",
+        "proveedor": "Walks Ciudad de Mexico",
+        "contacto": "walks@ciudaddemexico.local",
+        "horario": "10:30 - 12:30"
+      },
+      {
+        "titulo": "Ruta gastronomica local",
+        "descripcion": "Paradas escogidas para probar sabores representativos y conocer pequenos comercios de la zona.",
+        "proveedor": "Sabores de Ciudad de Mexico",
+        "contacto": "sabores@ciudaddemexico.local",
+        "horario": "13:00 - 15:00"
+      },
+      {
+        "titulo": "Fotografia urbana",
+        "descripcion": "Paseo para buscar fachadas, mercados, escenas de calle y detalles con personalidad.",
+        "proveedor": "Photo Walk Ciudad de Mexico",
+        "contacto": "foto@ciudaddemexicowalk.local",
+        "horario": "Atardecer"
+      },
+      {
+        "titulo": "Historias del vecindario",
+        "descripcion": "Relato guiado sobre cambios urbanos, vida local y memoria del barrio.",
+        "proveedor": "Cronicas Ciudad de Mexico",
+        "contacto": "cronicas@ciudaddemexico.local",
+        "horario": "17:00 - 18:30"
+      },
+      {
+        "titulo": "Compras con guia local",
+        "descripcion": "Seleccion de tiendas, talleres y productos con criterio local y sin prisas.",
+        "proveedor": "Local Shops Ciudad de Mexico",
+        "contacto": "shops@ciudaddemexico.local",
+        "horario": "11:00 - 13:00"
+      },
+      {
+        "titulo": "Noche de ambiente",
+        "descripcion": "Recorrido suave por bares, plazas y locales recomendados para tomar el pulso nocturno.",
+        "proveedor": "After Dark Ciudad de Mexico",
+        "contacto": "noche@ciudaddemexico.local",
+        "horario": "20:00 - 22:00"
+      }
     ]
   },
   {
@@ -149,6 +457,50 @@
       "mercados",
       "norteamerica",
       "ciudad de mexico"
+    ],
+    "actividades": [
+      {
+        "titulo": "Visita guiada esencial",
+        "descripcion": "Recorrido interpretado por Mercado de Coyoacán y su contexto dentro de Ciudad de Mexico.",
+        "proveedor": "Guias Locales Ciudad de Mexico",
+        "contacto": "hola@ciudaddemexicolocal.local",
+        "horario": "10:00 - 12:00"
+      },
+      {
+        "titulo": "Paseo fotografico",
+        "descripcion": "Actividad para encontrar buenos encuadres, detalles y luz adecuada en Mercado de Coyoacán.",
+        "proveedor": "Photo Walk Ciudad de Mexico",
+        "contacto": "foto@ciudaddemexicowalk.local",
+        "horario": "Atardecer"
+      },
+      {
+        "titulo": "Tour privado a medida",
+        "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
+        "proveedor": "Travel Designers Ciudad de Mexico",
+        "contacto": "plan@ciudaddemexicotravel.local",
+        "horario": "Bajo reserva"
+      },
+      {
+        "titulo": "Ruta familiar",
+        "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
+        "proveedor": "Familias Viajeras",
+        "contacto": "familias@viaje.local",
+        "horario": "11:00 - 12:30"
+      },
+      {
+        "titulo": "Experiencia al atardecer",
+        "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
+        "proveedor": "Slow Travel Ciudad de Mexico",
+        "contacto": "slow@ciudaddemexico.local",
+        "horario": "Atardecer"
+      },
+      {
+        "titulo": "Audioguia express",
+        "descripcion": "Formato breve para entender lo esencial de Mercado de Coyoacán con autonomia.",
+        "proveedor": "Audio Travel",
+        "contacto": "audio@travel.local",
+        "horario": "Durante apertura"
+      }
     ]
   },
   {
@@ -168,6 +520,50 @@
       "restaurantes",
       "norteamerica",
       "ciudad de mexico"
+    ],
+    "actividades": [
+      {
+        "titulo": "Mesa recomendada",
+        "descripcion": "Reserva orientada para probar los platos mas representativos de Pujol sin complicarse.",
+        "proveedor": "Pujol",
+        "contacto": "reservas@pujol.local",
+        "horario": "Comida y cena"
+      },
+      {
+        "titulo": "Menu degustacion",
+        "descripcion": "Seleccion de platos para entender la propuesta de cocina y los sabores de Ciudad de Mexico.",
+        "proveedor": "Sabores de Ciudad de Mexico",
+        "contacto": "sabores@ciudaddemexico.local",
+        "horario": "Consultar servicio"
+      },
+      {
+        "titulo": "Charla con cocina",
+        "descripcion": "Experiencia breve para conocer ingredientes, tecnica y pequenos detalles del equipo.",
+        "proveedor": "Food Stories Ciudad de Mexico",
+        "contacto": "food@ciudaddemexico.local",
+        "horario": "Antes de comer"
+      },
+      {
+        "titulo": "Maridaje local",
+        "descripcion": "Propuesta de bebidas o productos locales para acompanar la comida con criterio.",
+        "proveedor": "Catas Ciudad de Mexico",
+        "contacto": "catas@ciudaddemexico.local",
+        "horario": "Cena"
+      },
+      {
+        "titulo": "Ruta gastronomica cercana",
+        "descripcion": "Paseo por la zona antes o despues de comer, enlazando mercado, barrio y mesa.",
+        "proveedor": "Food Walk Ciudad de Mexico",
+        "contacto": "foodwalk@ciudaddemexico.local",
+        "horario": "12:00 - 14:00"
+      },
+      {
+        "titulo": "Clase de sabor local",
+        "descripcion": "Taller sencillo inspirado en recetas, ingredientes o tecnicas vinculadas al restaurante.",
+        "proveedor": "Talleres Ciudad de Mexico",
+        "contacto": "talleres@ciudaddemexico.local",
+        "horario": "Consultar calendario"
+      }
     ]
   }
 ]

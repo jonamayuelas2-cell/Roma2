@@ -5,13 +5,62 @@
     "tipo": "cultura",
     "descripcion": "El corazón de Venecia, rodeada de la Basílica de San Marcos y el Palacio Ducal.",
     "descripcionCorta": "El salón de Europa.",
-    "lat": 45.4342, "lng": 12.3385,
+    "lat": 45.4342,
+    "lng": 12.3385,
     "horario": "24h",
     "precio": "Gratis",
     "rating": 4.9,
     "imagen": "img/venice_sanmarco.png",
     "imagenCard": "img/venice_sanmarco.png",
-    "tags": ["plaza", "historia", "palomas"]
+    "tags": [
+      "plaza",
+      "historia",
+      "palomas"
+    ],
+    "actividades": [
+      {
+        "titulo": "Tour historico esencial",
+        "descripcion": "Recorrido guiado por Plaza de San Marcos para conectar arquitectura, personajes y momentos clave de Venecia.",
+        "proveedor": "Historia Viva Venecia",
+        "contacto": "reservas@historiavenecia.local",
+        "horario": "10:00 - 12:00"
+      },
+      {
+        "titulo": "Acceso con contexto local",
+        "descripcion": "Visita pausada con explicaciones practicas para comprender por que este lugar sigue siendo imprescindible.",
+        "proveedor": "Guias Locales Venecia",
+        "contacto": "hola@venecialocal.local",
+        "horario": "12:00 - 14:00"
+      },
+      {
+        "titulo": "Paseo fotografico",
+        "descripcion": "Itinerario para capturar fachadas, perspectivas y detalles con la mejor luz disponible.",
+        "proveedor": "Photo Walk Venecia",
+        "contacto": "foto@veneciawalk.local",
+        "horario": "Atardecer"
+      },
+      {
+        "titulo": "Ruta de leyendas",
+        "descripcion": "Historias, simbolos y anecdotas alrededor de Plaza de San Marcos, con tono narrativo y facil de seguir.",
+        "proveedor": "Relatos de Venecia",
+        "contacto": "relatos@venecia.local",
+        "horario": "18:00 - 19:30"
+      },
+      {
+        "titulo": "Visita familiar",
+        "descripcion": "Version didactica con paradas breves, preguntas y claves sencillas para ninos y adultos.",
+        "proveedor": "Familias Viajeras",
+        "contacto": "familias@viaje.local",
+        "horario": "11:00 - 12:30"
+      },
+      {
+        "titulo": "Audioguia express",
+        "descripcion": "Recorrido autonomo para ver lo principal de Plaza de San Marcos con contexto claro y sin prisas.",
+        "proveedor": "Audio Travel",
+        "contacto": "audio@travel.local",
+        "horario": "Durante apertura"
+      }
+    ]
   },
   {
     "id": 2,
@@ -19,12 +68,61 @@
     "tipo": "cultura",
     "descripcion": "El puente más antiguo de los cuatro que cruzan el Gran Canal de Venecia.",
     "descripcionCorta": "El puente más icónico del Gran Canal.",
-    "lat": 45.4380, "lng": 12.3359,
+    "lat": 45.438,
+    "lng": 12.3359,
     "horario": "24h",
     "precio": "Gratis",
     "rating": 4.8,
     "imagen": "img/venice_rialto.png",
     "imagenCard": "img/venice_rialto.png",
-    "tags": ["puente", "vistas", "compras"]
+    "tags": [
+      "puente",
+      "vistas",
+      "compras"
+    ],
+    "actividades": [
+      {
+        "titulo": "Tour historico esencial",
+        "descripcion": "Recorrido guiado por Puente de Rialto para conectar arquitectura, personajes y momentos clave de Venecia.",
+        "proveedor": "Historia Viva Venecia",
+        "contacto": "reservas@historiavenecia.local",
+        "horario": "10:00 - 12:00"
+      },
+      {
+        "titulo": "Acceso con contexto local",
+        "descripcion": "Visita pausada con explicaciones practicas para comprender por que este lugar sigue siendo imprescindible.",
+        "proveedor": "Guias Locales Venecia",
+        "contacto": "hola@venecialocal.local",
+        "horario": "12:00 - 14:00"
+      },
+      {
+        "titulo": "Paseo fotografico",
+        "descripcion": "Itinerario para capturar fachadas, perspectivas y detalles con la mejor luz disponible.",
+        "proveedor": "Photo Walk Venecia",
+        "contacto": "foto@veneciawalk.local",
+        "horario": "Atardecer"
+      },
+      {
+        "titulo": "Ruta de leyendas",
+        "descripcion": "Historias, simbolos y anecdotas alrededor de Puente de Rialto, con tono narrativo y facil de seguir.",
+        "proveedor": "Relatos de Venecia",
+        "contacto": "relatos@venecia.local",
+        "horario": "18:00 - 19:30"
+      },
+      {
+        "titulo": "Visita familiar",
+        "descripcion": "Version didactica con paradas breves, preguntas y claves sencillas para ninos y adultos.",
+        "proveedor": "Familias Viajeras",
+        "contacto": "familias@viaje.local",
+        "horario": "11:00 - 12:30"
+      },
+      {
+        "titulo": "Audioguia express",
+        "descripcion": "Recorrido autonomo para ver lo principal de Puente de Rialto con contexto claro y sin prisas.",
+        "proveedor": "Audio Travel",
+        "contacto": "audio@travel.local",
+        "horario": "Durante apertura"
+      }
+    ]
   }
 ]

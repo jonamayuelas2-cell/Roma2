@@ -30,6 +30,50 @@
         "historia",
         "memoria",
         "museo"
+      ],
+      "actividades": [
+        {
+          "titulo": "Visita guiada a la coleccion",
+          "descripcion": "Recorrido para entender las piezas clave de Casa de Ana Frank y su papel en la identidad de Amsterdam.",
+          "proveedor": "Casa de Ana Frank Educacion",
+          "contacto": "educacion@casadeanafrank.local",
+          "horario": "10:00 - 12:00"
+        },
+        {
+          "titulo": "Ruta de obras imprescindibles",
+          "descripcion": "Seleccion comentada de salas, objetos y relatos para aprovechar la visita sin perderse lo esencial.",
+          "proveedor": "Guias de Amsterdam",
+          "contacto": "reservas@amsterdamtours.local",
+          "horario": "12:30 - 14:00"
+        },
+        {
+          "titulo": "Taller creativo",
+          "descripcion": "Actividad practica inspirada en las colecciones del museo, pensada para viajeros curiosos y familias.",
+          "proveedor": "Atelier Amsterdam",
+          "contacto": "talleres@amsterdamatelier.local",
+          "horario": "16:00 - 18:00"
+        },
+        {
+          "titulo": "Audioguia express",
+          "descripcion": "Formato autonomo y breve para recorrer Casa de Ana Frank con contexto historico y buenas pausas.",
+          "proveedor": "Audio Travel",
+          "contacto": "audio@travel.local",
+          "horario": "Durante apertura"
+        },
+        {
+          "titulo": "Encuentro con especialista",
+          "descripcion": "Charla divulgativa sobre restauracion, archivo o seleccion de piezas destacadas.",
+          "proveedor": "Cultura Amsterdam",
+          "contacto": "info@culturaamsterdam.local",
+          "horario": "Consultar calendario"
+        },
+        {
+          "titulo": "Paseo fotografico interior",
+          "descripcion": "Ruta de encuadres permitidos, arquitectura y detalles visuales sin interferir con la visita.",
+          "proveedor": "Photo Walk Amsterdam",
+          "contacto": "foto@amsterdamwalk.local",
+          "horario": "Ultima hora de apertura"
+        }
       ]
     },
     {
@@ -49,6 +93,50 @@
         "arte",
         "rembrandt",
         "historia"
+      ],
+      "actividades": [
+        {
+          "titulo": "Visita guiada a la coleccion",
+          "descripcion": "Recorrido para entender las piezas clave de Rijksmuseum y su papel en la identidad de Amsterdam.",
+          "proveedor": "Rijksmuseum Educacion",
+          "contacto": "educacion@rijksmuseum.local",
+          "horario": "10:00 - 12:00"
+        },
+        {
+          "titulo": "Ruta de obras imprescindibles",
+          "descripcion": "Seleccion comentada de salas, objetos y relatos para aprovechar la visita sin perderse lo esencial.",
+          "proveedor": "Guias de Amsterdam",
+          "contacto": "reservas@amsterdamtours.local",
+          "horario": "12:30 - 14:00"
+        },
+        {
+          "titulo": "Taller creativo",
+          "descripcion": "Actividad practica inspirada en las colecciones del museo, pensada para viajeros curiosos y familias.",
+          "proveedor": "Atelier Amsterdam",
+          "contacto": "talleres@amsterdamatelier.local",
+          "horario": "16:00 - 18:00"
+        },
+        {
+          "titulo": "Audioguia express",
+          "descripcion": "Formato autonomo y breve para recorrer Rijksmuseum con contexto historico y buenas pausas.",
+          "proveedor": "Audio Travel",
+          "contacto": "audio@travel.local",
+          "horario": "Durante apertura"
+        },
+        {
+          "titulo": "Encuentro con especialista",
+          "descripcion": "Charla divulgativa sobre restauracion, archivo o seleccion de piezas destacadas.",
+          "proveedor": "Cultura Amsterdam",
+          "contacto": "info@culturaamsterdam.local",
+          "horario": "Consultar calendario"
+        },
+        {
+          "titulo": "Paseo fotografico interior",
+          "descripcion": "Ruta de encuadres permitidos, arquitectura y detalles visuales sin interferir con la visita.",
+          "proveedor": "Photo Walk Amsterdam",
+          "contacto": "foto@amsterdamwalk.local",
+          "horario": "Ultima hora de apertura"
+        }
       ]
     },
     {
@@ -68,6 +156,50 @@
         "arte",
         "vangogh",
         "museo"
+      ],
+      "actividades": [
+        {
+          "titulo": "Visita guiada a la coleccion",
+          "descripcion": "Recorrido para entender las piezas clave de Museo Van Gogh y su papel en la identidad de Amsterdam.",
+          "proveedor": "Museo Van Gogh Educacion",
+          "contacto": "educacion@museovangogh.local",
+          "horario": "10:00 - 12:00"
+        },
+        {
+          "titulo": "Ruta de obras imprescindibles",
+          "descripcion": "Seleccion comentada de salas, objetos y relatos para aprovechar la visita sin perderse lo esencial.",
+          "proveedor": "Guias de Amsterdam",
+          "contacto": "reservas@amsterdamtours.local",
+          "horario": "12:30 - 14:00"
+        },
+        {
+          "titulo": "Taller creativo",
+          "descripcion": "Actividad practica inspirada en las colecciones del museo, pensada para viajeros curiosos y familias.",
+          "proveedor": "Atelier Amsterdam",
+          "contacto": "talleres@amsterdamatelier.local",
+          "horario": "16:00 - 18:00"
+        },
+        {
+          "titulo": "Audioguia express",
+          "descripcion": "Formato autonomo y breve para recorrer Museo Van Gogh con contexto historico y buenas pausas.",
+          "proveedor": "Audio Travel",
+          "contacto": "audio@travel.local",
+          "horario": "Durante apertura"
+        },
+        {
+          "titulo": "Encuentro con especialista",
+          "descripcion": "Charla divulgativa sobre restauracion, archivo o seleccion de piezas destacadas.",
+          "proveedor": "Cultura Amsterdam",
+          "contacto": "info@culturaamsterdam.local",
+          "horario": "Consultar calendario"
+        },
+        {
+          "titulo": "Paseo fotografico interior",
+          "descripcion": "Ruta de encuadres permitidos, arquitectura y detalles visuales sin interferir con la visita.",
+          "proveedor": "Photo Walk Amsterdam",
+          "contacto": "foto@amsterdamwalk.local",
+          "horario": "Ultima hora de apertura"
+        }
       ]
     },
     {
@@ -87,6 +219,50 @@
         "parque",
         "bicicletas",
         "relax"
+      ],
+      "actividades": [
+        {
+          "titulo": "Paseo botanico",
+          "descripcion": "Recorrido por senderos, jardines y miradores para reconocer especies y entender el paisaje de Vondelpark.",
+          "proveedor": "Green Amsterdam",
+          "contacto": "green@amsterdam.local",
+          "horario": "10:00 - 11:30"
+        },
+        {
+          "titulo": "Picnic con producto local",
+          "descripcion": "Experiencia relajada con cesta preparada y recomendaciones de zonas tranquilas.",
+          "proveedor": "Picnic Amsterdam",
+          "contacto": "picnic@amsterdam.local",
+          "horario": "13:00 - 15:00"
+        },
+        {
+          "titulo": "Ruta fotografica natural",
+          "descripcion": "Paseo para capturar luz, vegetacion, agua y vistas con ritmo tranquilo.",
+          "proveedor": "Photo Walk Amsterdam",
+          "contacto": "foto@amsterdamwalk.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Actividad familiar al aire libre",
+          "descripcion": "Juego de observacion y pequenas misiones para recorrer Vondelpark con ninos.",
+          "proveedor": "Familias Viajeras",
+          "contacto": "familias@viaje.local",
+          "horario": "11:00 - 12:30"
+        },
+        {
+          "titulo": "Bienestar y estiramientos",
+          "descripcion": "Sesion suave para empezar el dia respirando mejor y disfrutando del entorno.",
+          "proveedor": "Wellness Amsterdam",
+          "contacto": "wellness@amsterdam.local",
+          "horario": "08:30 - 09:30"
+        },
+        {
+          "titulo": "Miradores y rincones tranquilos",
+          "descripcion": "Ruta breve por bancos, sombras y puntos de descanso para bajar el ritmo del viaje.",
+          "proveedor": "Slow Travel Amsterdam",
+          "contacto": "slow@amsterdam.local",
+          "horario": "16:30 - 18:00"
+        }
       ]
     },
     {
@@ -106,6 +282,50 @@
         "canales",
         "puentes",
         "patrimonio"
+      ],
+      "actividades": [
+        {
+          "titulo": "Visita guiada esencial",
+          "descripcion": "Recorrido interpretado por Canales de Amsterdam y su contexto dentro de Amsterdam.",
+          "proveedor": "Guias Locales Amsterdam",
+          "contacto": "hola@amsterdamlocal.local",
+          "horario": "10:00 - 12:00"
+        },
+        {
+          "titulo": "Paseo fotografico",
+          "descripcion": "Actividad para encontrar buenos encuadres, detalles y luz adecuada en Canales de Amsterdam.",
+          "proveedor": "Photo Walk Amsterdam",
+          "contacto": "foto@amsterdamwalk.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Tour privado a medida",
+          "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
+          "proveedor": "Travel Designers Amsterdam",
+          "contacto": "plan@amsterdamtravel.local",
+          "horario": "Bajo reserva"
+        },
+        {
+          "titulo": "Ruta familiar",
+          "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
+          "proveedor": "Familias Viajeras",
+          "contacto": "familias@viaje.local",
+          "horario": "11:00 - 12:30"
+        },
+        {
+          "titulo": "Experiencia al atardecer",
+          "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
+          "proveedor": "Slow Travel Amsterdam",
+          "contacto": "slow@amsterdam.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Audioguia express",
+          "descripcion": "Formato breve para entender lo esencial de Canales de Amsterdam con autonomia.",
+          "proveedor": "Audio Travel",
+          "contacto": "audio@travel.local",
+          "horario": "Durante apertura"
+        }
       ]
     },
     {
@@ -125,6 +345,50 @@
         "barrio",
         "cafes",
         "canales"
+      ],
+      "actividades": [
+        {
+          "titulo": "Paseo de barrio",
+          "descripcion": "Ruta a pie por calles, plazas y rincones cotidianos para entender el caracter de Jordaan.",
+          "proveedor": "Walks Amsterdam",
+          "contacto": "walks@amsterdam.local",
+          "horario": "10:30 - 12:30"
+        },
+        {
+          "titulo": "Ruta gastronomica local",
+          "descripcion": "Paradas escogidas para probar sabores representativos y conocer pequenos comercios de la zona.",
+          "proveedor": "Sabores de Amsterdam",
+          "contacto": "sabores@amsterdam.local",
+          "horario": "13:00 - 15:00"
+        },
+        {
+          "titulo": "Fotografia urbana",
+          "descripcion": "Paseo para buscar fachadas, mercados, escenas de calle y detalles con personalidad.",
+          "proveedor": "Photo Walk Amsterdam",
+          "contacto": "foto@amsterdamwalk.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Historias del vecindario",
+          "descripcion": "Relato guiado sobre cambios urbanos, vida local y memoria del barrio.",
+          "proveedor": "Cronicas Amsterdam",
+          "contacto": "cronicas@amsterdam.local",
+          "horario": "17:00 - 18:30"
+        },
+        {
+          "titulo": "Compras con guia local",
+          "descripcion": "Seleccion de tiendas, talleres y productos con criterio local y sin prisas.",
+          "proveedor": "Local Shops Amsterdam",
+          "contacto": "shops@amsterdam.local",
+          "horario": "11:00 - 13:00"
+        },
+        {
+          "titulo": "Noche de ambiente",
+          "descripcion": "Recorrido suave por bares, plazas y locales recomendados para tomar el pulso nocturno.",
+          "proveedor": "After Dark Amsterdam",
+          "contacto": "noche@amsterdam.local",
+          "horario": "20:00 - 22:00"
+        }
       ]
     },
     {
@@ -144,6 +408,50 @@
         "mercado",
         "comida",
         "de pijp"
+      ],
+      "actividades": [
+        {
+          "titulo": "Visita guiada esencial",
+          "descripcion": "Recorrido interpretado por Mercado Albert Cuyp y su contexto dentro de Amsterdam.",
+          "proveedor": "Guias Locales Amsterdam",
+          "contacto": "hola@amsterdamlocal.local",
+          "horario": "10:00 - 12:00"
+        },
+        {
+          "titulo": "Paseo fotografico",
+          "descripcion": "Actividad para encontrar buenos encuadres, detalles y luz adecuada en Mercado Albert Cuyp.",
+          "proveedor": "Photo Walk Amsterdam",
+          "contacto": "foto@amsterdamwalk.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Tour privado a medida",
+          "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
+          "proveedor": "Travel Designers Amsterdam",
+          "contacto": "plan@amsterdamtravel.local",
+          "horario": "Bajo reserva"
+        },
+        {
+          "titulo": "Ruta familiar",
+          "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
+          "proveedor": "Familias Viajeras",
+          "contacto": "familias@viaje.local",
+          "horario": "11:00 - 12:30"
+        },
+        {
+          "titulo": "Experiencia al atardecer",
+          "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
+          "proveedor": "Slow Travel Amsterdam",
+          "contacto": "slow@amsterdam.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Audioguia express",
+          "descripcion": "Formato breve para entender lo esencial de Mercado Albert Cuyp con autonomia.",
+          "proveedor": "Audio Travel",
+          "contacto": "audio@travel.local",
+          "horario": "Durante apertura"
+        }
       ]
     },
     {
@@ -163,6 +471,50 @@
         "flores",
         "canal",
         "mercado"
+      ],
+      "actividades": [
+        {
+          "titulo": "Visita guiada esencial",
+          "descripcion": "Recorrido interpretado por Bloemenmarkt y su contexto dentro de Amsterdam.",
+          "proveedor": "Guias Locales Amsterdam",
+          "contacto": "hola@amsterdamlocal.local",
+          "horario": "10:00 - 12:00"
+        },
+        {
+          "titulo": "Paseo fotografico",
+          "descripcion": "Actividad para encontrar buenos encuadres, detalles y luz adecuada en Bloemenmarkt.",
+          "proveedor": "Photo Walk Amsterdam",
+          "contacto": "foto@amsterdamwalk.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Tour privado a medida",
+          "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
+          "proveedor": "Travel Designers Amsterdam",
+          "contacto": "plan@amsterdamtravel.local",
+          "horario": "Bajo reserva"
+        },
+        {
+          "titulo": "Ruta familiar",
+          "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
+          "proveedor": "Familias Viajeras",
+          "contacto": "familias@viaje.local",
+          "horario": "11:00 - 12:30"
+        },
+        {
+          "titulo": "Experiencia al atardecer",
+          "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
+          "proveedor": "Slow Travel Amsterdam",
+          "contacto": "slow@amsterdam.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Audioguia express",
+          "descripcion": "Formato breve para entender lo esencial de Bloemenmarkt con autonomia.",
+          "proveedor": "Audio Travel",
+          "contacto": "audio@travel.local",
+          "horario": "Durante apertura"
+        }
       ]
     },
     {
@@ -182,6 +534,50 @@
         "arte urbano",
         "industrial",
         "creativo"
+      ],
+      "actividades": [
+        {
+          "titulo": "Paseo de barrio",
+          "descripcion": "Ruta a pie por calles, plazas y rincones cotidianos para entender el caracter de NDSM Werf.",
+          "proveedor": "Walks Amsterdam",
+          "contacto": "walks@amsterdam.local",
+          "horario": "10:30 - 12:30"
+        },
+        {
+          "titulo": "Ruta gastronomica local",
+          "descripcion": "Paradas escogidas para probar sabores representativos y conocer pequenos comercios de la zona.",
+          "proveedor": "Sabores de Amsterdam",
+          "contacto": "sabores@amsterdam.local",
+          "horario": "13:00 - 15:00"
+        },
+        {
+          "titulo": "Fotografia urbana",
+          "descripcion": "Paseo para buscar fachadas, mercados, escenas de calle y detalles con personalidad.",
+          "proveedor": "Photo Walk Amsterdam",
+          "contacto": "foto@amsterdamwalk.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Historias del vecindario",
+          "descripcion": "Relato guiado sobre cambios urbanos, vida local y memoria del barrio.",
+          "proveedor": "Cronicas Amsterdam",
+          "contacto": "cronicas@amsterdam.local",
+          "horario": "17:00 - 18:30"
+        },
+        {
+          "titulo": "Compras con guia local",
+          "descripcion": "Seleccion de tiendas, talleres y productos con criterio local y sin prisas.",
+          "proveedor": "Local Shops Amsterdam",
+          "contacto": "shops@amsterdam.local",
+          "horario": "11:00 - 13:00"
+        },
+        {
+          "titulo": "Noche de ambiente",
+          "descripcion": "Recorrido suave por bares, plazas y locales recomendados para tomar el pulso nocturno.",
+          "proveedor": "After Dark Amsterdam",
+          "contacto": "noche@amsterdam.local",
+          "horario": "20:00 - 22:00"
+        }
       ]
     }
   ]

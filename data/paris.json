@@ -12,7 +12,55 @@
     "rating": 4.9,
     "imagen": "img/paris_eiffel.png",
     "imagenCard": "img/paris_eiffel.png",
-    "tags": ["monumento", "vistas", "iconic"]
+    "tags": [
+      "monumento",
+      "vistas",
+      "iconic"
+    ],
+    "actividades": [
+      {
+        "titulo": "Tour historico esencial",
+        "descripcion": "Recorrido guiado por Torre Eiffel para conectar arquitectura, personajes y momentos clave de Paris.",
+        "proveedor": "Historia Viva Paris",
+        "contacto": "reservas@historiaparis.local",
+        "horario": "10:00 - 12:00"
+      },
+      {
+        "titulo": "Acceso con contexto local",
+        "descripcion": "Visita pausada con explicaciones practicas para comprender por que este lugar sigue siendo imprescindible.",
+        "proveedor": "Guias Locales Paris",
+        "contacto": "hola@parislocal.local",
+        "horario": "12:00 - 14:00"
+      },
+      {
+        "titulo": "Paseo fotografico",
+        "descripcion": "Itinerario para capturar fachadas, perspectivas y detalles con la mejor luz disponible.",
+        "proveedor": "Photo Walk Paris",
+        "contacto": "foto@pariswalk.local",
+        "horario": "Atardecer"
+      },
+      {
+        "titulo": "Ruta de leyendas",
+        "descripcion": "Historias, simbolos y anecdotas alrededor de Torre Eiffel, con tono narrativo y facil de seguir.",
+        "proveedor": "Relatos de Paris",
+        "contacto": "relatos@paris.local",
+        "horario": "18:00 - 19:30"
+      },
+      {
+        "titulo": "Visita familiar",
+        "descripcion": "Version didactica con paradas breves, preguntas y claves sencillas para ninos y adultos.",
+        "proveedor": "Familias Viajeras",
+        "contacto": "familias@viaje.local",
+        "horario": "11:00 - 12:30"
+      },
+      {
+        "titulo": "Audioguia express",
+        "descripcion": "Recorrido autonomo para ver lo principal de Torre Eiffel con contexto claro y sin prisas.",
+        "proveedor": "Audio Travel",
+        "contacto": "audio@travel.local",
+        "horario": "Durante apertura"
+      }
+    ]
   },
   {
     "id": 2,
@@ -27,7 +75,55 @@
     "rating": 4.8,
     "imagen": "img/paris_louvre.png",
     "imagenCard": "img/paris_louvre.png",
-    "tags": ["arte", "historia", "museo"]
+    "tags": [
+      "arte",
+      "historia",
+      "museo"
+    ],
+    "actividades": [
+      {
+        "titulo": "Visita guiada a la coleccion",
+        "descripcion": "Recorrido para entender las piezas clave de Museo del Louvre y su papel en la identidad de Paris.",
+        "proveedor": "Museo del Louvre Educacion",
+        "contacto": "educacion@museodellouvre.local",
+        "horario": "10:00 - 12:00"
+      },
+      {
+        "titulo": "Ruta de obras imprescindibles",
+        "descripcion": "Seleccion comentada de salas, objetos y relatos para aprovechar la visita sin perderse lo esencial.",
+        "proveedor": "Guias de Paris",
+        "contacto": "reservas@paristours.local",
+        "horario": "12:30 - 14:00"
+      },
+      {
+        "titulo": "Taller creativo",
+        "descripcion": "Actividad practica inspirada en las colecciones del museo, pensada para viajeros curiosos y familias.",
+        "proveedor": "Atelier Paris",
+        "contacto": "talleres@parisatelier.local",
+        "horario": "16:00 - 18:00"
+      },
+      {
+        "titulo": "Audioguia express",
+        "descripcion": "Formato autonomo y breve para recorrer Museo del Louvre con contexto historico y buenas pausas.",
+        "proveedor": "Audio Travel",
+        "contacto": "audio@travel.local",
+        "horario": "Durante apertura"
+      },
+      {
+        "titulo": "Encuentro con especialista",
+        "descripcion": "Charla divulgativa sobre restauracion, archivo o seleccion de piezas destacadas.",
+        "proveedor": "Cultura Paris",
+        "contacto": "info@culturaparis.local",
+        "horario": "Consultar calendario"
+      },
+      {
+        "titulo": "Paseo fotografico interior",
+        "descripcion": "Ruta de encuadres permitidos, arquitectura y detalles visuales sin interferir con la visita.",
+        "proveedor": "Photo Walk Paris",
+        "contacto": "foto@pariswalk.local",
+        "horario": "Ultima hora de apertura"
+      }
+    ]
   },
   {
     "id": 3,
@@ -42,7 +138,55 @@
     "rating": 4.8,
     "imagen": "img/paris_notredame.png",
     "imagenCard": "img/paris_notredame.png",
-    "tags": ["gótico", "historia", "iglesia"]
+    "tags": [
+      "gótico",
+      "historia",
+      "iglesia"
+    ],
+    "actividades": [
+      {
+        "titulo": "Tour historico esencial",
+        "descripcion": "Recorrido guiado por Catedral de Notre-Dame para conectar arquitectura, personajes y momentos clave de Paris.",
+        "proveedor": "Historia Viva Paris",
+        "contacto": "reservas@historiaparis.local",
+        "horario": "10:00 - 12:00"
+      },
+      {
+        "titulo": "Acceso con contexto local",
+        "descripcion": "Visita pausada con explicaciones practicas para comprender por que este lugar sigue siendo imprescindible.",
+        "proveedor": "Guias Locales Paris",
+        "contacto": "hola@parislocal.local",
+        "horario": "12:00 - 14:00"
+      },
+      {
+        "titulo": "Paseo fotografico",
+        "descripcion": "Itinerario para capturar fachadas, perspectivas y detalles con la mejor luz disponible.",
+        "proveedor": "Photo Walk Paris",
+        "contacto": "foto@pariswalk.local",
+        "horario": "Atardecer"
+      },
+      {
+        "titulo": "Ruta de leyendas",
+        "descripcion": "Historias, simbolos y anecdotas alrededor de Catedral de Notre-Dame, con tono narrativo y facil de seguir.",
+        "proveedor": "Relatos de Paris",
+        "contacto": "relatos@paris.local",
+        "horario": "18:00 - 19:30"
+      },
+      {
+        "titulo": "Visita familiar",
+        "descripcion": "Version didactica con paradas breves, preguntas y claves sencillas para ninos y adultos.",
+        "proveedor": "Familias Viajeras",
+        "contacto": "familias@viaje.local",
+        "horario": "11:00 - 12:30"
+      },
+      {
+        "titulo": "Audioguia express",
+        "descripcion": "Recorrido autonomo para ver lo principal de Catedral de Notre-Dame con contexto claro y sin prisas.",
+        "proveedor": "Audio Travel",
+        "contacto": "audio@travel.local",
+        "horario": "Durante apertura"
+      }
+    ]
   },
   {
     "id": 4,
@@ -57,7 +201,55 @@
     "rating": 4.8,
     "imagen": "img/paris_montmartre.png",
     "imagenCard": "img/paris_montmartre.png",
-    "tags": ["bohemio", "vistas", "arte"]
+    "tags": [
+      "bohemio",
+      "vistas",
+      "arte"
+    ],
+    "actividades": [
+      {
+        "titulo": "Paseo de barrio",
+        "descripcion": "Ruta a pie por calles, plazas y rincones cotidianos para entender el caracter de Montmartre.",
+        "proveedor": "Walks Paris",
+        "contacto": "walks@paris.local",
+        "horario": "10:30 - 12:30"
+      },
+      {
+        "titulo": "Ruta gastronomica local",
+        "descripcion": "Paradas escogidas para probar sabores representativos y conocer pequenos comercios de la zona.",
+        "proveedor": "Sabores de Paris",
+        "contacto": "sabores@paris.local",
+        "horario": "13:00 - 15:00"
+      },
+      {
+        "titulo": "Fotografia urbana",
+        "descripcion": "Paseo para buscar fachadas, mercados, escenas de calle y detalles con personalidad.",
+        "proveedor": "Photo Walk Paris",
+        "contacto": "foto@pariswalk.local",
+        "horario": "Atardecer"
+      },
+      {
+        "titulo": "Historias del vecindario",
+        "descripcion": "Relato guiado sobre cambios urbanos, vida local y memoria del barrio.",
+        "proveedor": "Cronicas Paris",
+        "contacto": "cronicas@paris.local",
+        "horario": "17:00 - 18:30"
+      },
+      {
+        "titulo": "Compras con guia local",
+        "descripcion": "Seleccion de tiendas, talleres y productos con criterio local y sin prisas.",
+        "proveedor": "Local Shops Paris",
+        "contacto": "shops@paris.local",
+        "horario": "11:00 - 13:00"
+      },
+      {
+        "titulo": "Noche de ambiente",
+        "descripcion": "Recorrido suave por bares, plazas y locales recomendados para tomar el pulso nocturno.",
+        "proveedor": "After Dark Paris",
+        "contacto": "noche@paris.local",
+        "horario": "20:00 - 22:00"
+      }
+    ]
   },
   {
     "id": 5,
@@ -72,7 +264,55 @@
     "rating": 4.9,
     "imagen": "img/paris_orsay.png",
     "imagenCard": "img/paris_orsay.png",
-    "tags": ["impresionismo", "arte", "estación"]
+    "tags": [
+      "impresionismo",
+      "arte",
+      "estación"
+    ],
+    "actividades": [
+      {
+        "titulo": "Visita guiada a la coleccion",
+        "descripcion": "Recorrido para entender las piezas clave de Museo de Orsay y su papel en la identidad de Paris.",
+        "proveedor": "Museo de Orsay Educacion",
+        "contacto": "educacion@museodeorsay.local",
+        "horario": "10:00 - 12:00"
+      },
+      {
+        "titulo": "Ruta de obras imprescindibles",
+        "descripcion": "Seleccion comentada de salas, objetos y relatos para aprovechar la visita sin perderse lo esencial.",
+        "proveedor": "Guias de Paris",
+        "contacto": "reservas@paristours.local",
+        "horario": "12:30 - 14:00"
+      },
+      {
+        "titulo": "Taller creativo",
+        "descripcion": "Actividad practica inspirada en las colecciones del museo, pensada para viajeros curiosos y familias.",
+        "proveedor": "Atelier Paris",
+        "contacto": "talleres@parisatelier.local",
+        "horario": "16:00 - 18:00"
+      },
+      {
+        "titulo": "Audioguia express",
+        "descripcion": "Formato autonomo y breve para recorrer Museo de Orsay con contexto historico y buenas pausas.",
+        "proveedor": "Audio Travel",
+        "contacto": "audio@travel.local",
+        "horario": "Durante apertura"
+      },
+      {
+        "titulo": "Encuentro con especialista",
+        "descripcion": "Charla divulgativa sobre restauracion, archivo o seleccion de piezas destacadas.",
+        "proveedor": "Cultura Paris",
+        "contacto": "info@culturaparis.local",
+        "horario": "Consultar calendario"
+      },
+      {
+        "titulo": "Paseo fotografico interior",
+        "descripcion": "Ruta de encuadres permitidos, arquitectura y detalles visuales sin interferir con la visita.",
+        "proveedor": "Photo Walk Paris",
+        "contacto": "foto@pariswalk.local",
+        "horario": "Ultima hora de apertura"
+      }
+    ]
   },
   {
     "id": 6,
@@ -87,7 +327,55 @@
     "rating": 4.7,
     "imagen": "img/paris_luxemburgo.png",
     "imagenCard": "img/paris_luxemburgo.png",
-    "tags": ["parque", "relax", "palacio"]
+    "tags": [
+      "parque",
+      "relax",
+      "palacio"
+    ],
+    "actividades": [
+      {
+        "titulo": "Paseo botanico",
+        "descripcion": "Recorrido por senderos, jardines y miradores para reconocer especies y entender el paisaje de Jardines de Luxemburgo.",
+        "proveedor": "Green Paris",
+        "contacto": "green@paris.local",
+        "horario": "10:00 - 11:30"
+      },
+      {
+        "titulo": "Picnic con producto local",
+        "descripcion": "Experiencia relajada con cesta preparada y recomendaciones de zonas tranquilas.",
+        "proveedor": "Picnic Paris",
+        "contacto": "picnic@paris.local",
+        "horario": "13:00 - 15:00"
+      },
+      {
+        "titulo": "Ruta fotografica natural",
+        "descripcion": "Paseo para capturar luz, vegetacion, agua y vistas con ritmo tranquilo.",
+        "proveedor": "Photo Walk Paris",
+        "contacto": "foto@pariswalk.local",
+        "horario": "Atardecer"
+      },
+      {
+        "titulo": "Actividad familiar al aire libre",
+        "descripcion": "Juego de observacion y pequenas misiones para recorrer Jardines de Luxemburgo con ninos.",
+        "proveedor": "Familias Viajeras",
+        "contacto": "familias@viaje.local",
+        "horario": "11:00 - 12:30"
+      },
+      {
+        "titulo": "Bienestar y estiramientos",
+        "descripcion": "Sesion suave para empezar el dia respirando mejor y disfrutando del entorno.",
+        "proveedor": "Wellness Paris",
+        "contacto": "wellness@paris.local",
+        "horario": "08:30 - 09:30"
+      },
+      {
+        "titulo": "Miradores y rincones tranquilos",
+        "descripcion": "Ruta breve por bancos, sombras y puntos de descanso para bajar el ritmo del viaje.",
+        "proveedor": "Slow Travel Paris",
+        "contacto": "slow@paris.local",
+        "horario": "16:30 - 18:00"
+      }
+    ]
   },
   {
     "id": 7,
@@ -102,7 +390,55 @@
     "rating": 4.7,
     "imagen": "img/paris_lemarais.png",
     "imagenCard": "img/paris_lemarais.png",
-    "tags": ["barrio", "moda", "historia"]
+    "tags": [
+      "barrio",
+      "moda",
+      "historia"
+    ],
+    "actividades": [
+      {
+        "titulo": "Paseo de barrio",
+        "descripcion": "Ruta a pie por calles, plazas y rincones cotidianos para entender el caracter de Le Marais.",
+        "proveedor": "Walks Paris",
+        "contacto": "walks@paris.local",
+        "horario": "10:30 - 12:30"
+      },
+      {
+        "titulo": "Ruta gastronomica local",
+        "descripcion": "Paradas escogidas para probar sabores representativos y conocer pequenos comercios de la zona.",
+        "proveedor": "Sabores de Paris",
+        "contacto": "sabores@paris.local",
+        "horario": "13:00 - 15:00"
+      },
+      {
+        "titulo": "Fotografia urbana",
+        "descripcion": "Paseo para buscar fachadas, mercados, escenas de calle y detalles con personalidad.",
+        "proveedor": "Photo Walk Paris",
+        "contacto": "foto@pariswalk.local",
+        "horario": "Atardecer"
+      },
+      {
+        "titulo": "Historias del vecindario",
+        "descripcion": "Relato guiado sobre cambios urbanos, vida local y memoria del barrio.",
+        "proveedor": "Cronicas Paris",
+        "contacto": "cronicas@paris.local",
+        "horario": "17:00 - 18:30"
+      },
+      {
+        "titulo": "Compras con guia local",
+        "descripcion": "Seleccion de tiendas, talleres y productos con criterio local y sin prisas.",
+        "proveedor": "Local Shops Paris",
+        "contacto": "shops@paris.local",
+        "horario": "11:00 - 13:00"
+      },
+      {
+        "titulo": "Noche de ambiente",
+        "descripcion": "Recorrido suave por bares, plazas y locales recomendados para tomar el pulso nocturno.",
+        "proveedor": "After Dark Paris",
+        "contacto": "noche@paris.local",
+        "horario": "20:00 - 22:00"
+      }
+    ]
   },
   {
     "id": 8,
@@ -117,7 +453,55 @@
     "rating": 4.6,
     "imagen": "img/paris_enfantsrouges.png",
     "imagenCard": "img/paris_enfantsrouges.png",
-    "tags": ["gastronomía", "mercado", "historia"]
+    "tags": [
+      "gastronomía",
+      "mercado",
+      "historia"
+    ],
+    "actividades": [
+      {
+        "titulo": "Visita guiada esencial",
+        "descripcion": "Recorrido interpretado por Marché des Enfants Rouges y su contexto dentro de Paris.",
+        "proveedor": "Guias Locales Paris",
+        "contacto": "hola@parislocal.local",
+        "horario": "10:00 - 12:00"
+      },
+      {
+        "titulo": "Paseo fotografico",
+        "descripcion": "Actividad para encontrar buenos encuadres, detalles y luz adecuada en Marché des Enfants Rouges.",
+        "proveedor": "Photo Walk Paris",
+        "contacto": "foto@pariswalk.local",
+        "horario": "Atardecer"
+      },
+      {
+        "titulo": "Tour privado a medida",
+        "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
+        "proveedor": "Travel Designers Paris",
+        "contacto": "plan@paristravel.local",
+        "horario": "Bajo reserva"
+      },
+      {
+        "titulo": "Ruta familiar",
+        "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
+        "proveedor": "Familias Viajeras",
+        "contacto": "familias@viaje.local",
+        "horario": "11:00 - 12:30"
+      },
+      {
+        "titulo": "Experiencia al atardecer",
+        "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
+        "proveedor": "Slow Travel Paris",
+        "contacto": "slow@paris.local",
+        "horario": "Atardecer"
+      },
+      {
+        "titulo": "Audioguia express",
+        "descripcion": "Formato breve para entender lo esencial de Marché des Enfants Rouges con autonomia.",
+        "proveedor": "Audio Travel",
+        "contacto": "audio@travel.local",
+        "horario": "Durante apertura"
+      }
+    ]
   },
   {
     "id": 9,
@@ -132,6 +516,54 @@
     "rating": 4.7,
     "imagen": "img/paris_paulbert.png",
     "imagenCard": "img/paris_paulbert.png",
-    "tags": ["bistrot", "gastronomía", "vino"]
+    "tags": [
+      "bistrot",
+      "gastronomía",
+      "vino"
+    ],
+    "actividades": [
+      {
+        "titulo": "Mesa recomendada",
+        "descripcion": "Reserva orientada para probar los platos mas representativos de Bistrot Paul Bert sin complicarse.",
+        "proveedor": "Bistrot Paul Bert",
+        "contacto": "reservas@bistrotpaulbert.local",
+        "horario": "Comida y cena"
+      },
+      {
+        "titulo": "Menu degustacion",
+        "descripcion": "Seleccion de platos para entender la propuesta de cocina y los sabores de Paris.",
+        "proveedor": "Sabores de Paris",
+        "contacto": "sabores@paris.local",
+        "horario": "Consultar servicio"
+      },
+      {
+        "titulo": "Charla con cocina",
+        "descripcion": "Experiencia breve para conocer ingredientes, tecnica y pequenos detalles del equipo.",
+        "proveedor": "Food Stories Paris",
+        "contacto": "food@paris.local",
+        "horario": "Antes de comer"
+      },
+      {
+        "titulo": "Maridaje local",
+        "descripcion": "Propuesta de bebidas o productos locales para acompanar la comida con criterio.",
+        "proveedor": "Catas Paris",
+        "contacto": "catas@paris.local",
+        "horario": "Cena"
+      },
+      {
+        "titulo": "Ruta gastronomica cercana",
+        "descripcion": "Paseo por la zona antes o despues de comer, enlazando mercado, barrio y mesa.",
+        "proveedor": "Food Walk Paris",
+        "contacto": "foodwalk@paris.local",
+        "horario": "12:00 - 14:00"
+      },
+      {
+        "titulo": "Clase de sabor local",
+        "descripcion": "Taller sencillo inspirado en recetas, ingredientes o tecnicas vinculadas al restaurante.",
+        "proveedor": "Talleres Paris",
+        "contacto": "talleres@paris.local",
+        "horario": "Consultar calendario"
+      }
+    ]
   }
 ]

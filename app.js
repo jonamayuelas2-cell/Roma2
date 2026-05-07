@@ -13,10 +13,14 @@ const state = {
     map: null,
     globe: null,
     markers: [],
+    countryPolygons: [],
     isTransitioning: false
 };
 
 const ASSET_VERSION = '2026-05-07-barcelona-activities-v1';
+const GLOBE_TEXTURE_URL = 'https://unpkg.com/three-globe/example/img/earth-blue-marble.jpg';
+const GLOBE_BUMP_URL = 'https://unpkg.com/three-globe/example/img/earth-topology.png';
+const COUNTRIES_GEOJSON_URL = 'https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson';
 
 function assetUrl(src) {
     if (!src || src.startsWith('http') || src.startsWith('data:')) return src;
@@ -27,6 +31,7 @@ function assetUrl(src) {
 
 document.addEventListener('DOMContentLoaded', async () => {
     await loadCities();
+    await loadCountryPolygons();
     await ensureGlobeLibrary();
     initGlobe();
     setupEventListeners();
@@ -44,10 +49,22 @@ async function loadCities() {
     }
 }
 
+async function loadCountryPolygons() {
+    try {
+        const response = await fetch(COUNTRIES_GEOJSON_URL, { cache: 'force-cache' });
+        const geojson = await response.json();
+        state.countryPolygons = geojson.features || [];
+    } catch (error) {
+        console.warn('No se pudieron cargar las fronteras del mapa mundi:', error);
+        state.countryPolygons = [];
+    }
+}
+
 function getTotalActivitiesCount() {
     return state.cities.reduce((total, city) => {
-        if (city.id !== 'roma' && city.id !== 'estambul') return total;
-        return total + (city.lugares?.length || 0) * 6;
+        return total + (city.lugares || []).reduce((cityTotal, place) => {
+            return cityTotal + (place.actividades?.length || 0);
+        }, 0);
     }, 0);
 }
 
@@ -86,8 +103,8 @@ function initGlobe() {
 
     state.globe = Globe()
         (globeContainer)
-        .globeImageUrl('https://unpkg.com/three-globe/example/img/earth-blue-marble.jpg')
-        .bumpImageUrl('https://unpkg.com/three-globe/example/img/earth-topology.png')
+        .globeImageUrl(GLOBE_TEXTURE_URL)
+        .bumpImageUrl(GLOBE_BUMP_URL)
         .backgroundColor('rgba(0,0,0,0)')
         .showAtmosphere(true)
         .atmosphereColor('#8ee8ff')
@@ -116,6 +133,11 @@ function initGlobe() {
         .arcDashLength(0.42)
         .arcDashGap(1.6)
         .arcDashAnimateTime(3600)
+        .polygonsData(state.countryPolygons)
+        .polygonCapColor(() => 'rgba(76, 175, 118, 0.22)')
+        .polygonSideColor(() => 'rgba(76, 175, 118, 0.08)')
+        .polygonStrokeColor(() => 'rgba(255, 255, 255, 0.42)')
+        .polygonAltitude(0.008)
         // Etiquetas de texto
         .labelsData(state.cities)
         .labelLat(d => d.lat)
@@ -759,7 +781,7 @@ function getPlaceActivities(place) {
         return place.actividades.map((act, index) => ({
             title: act.titulo || act.title,
             description: act.descripcion || act.description,
-            image: act.imagen || act.image || getActivityImage(cityId, place, index),
+            image: act.imagen || act.image || place.imagenCard || place.imagen || getActivityImage(cityId, place, index),
             provider: act.proveedor || act.provider,
             contact: act.contacto || act.contact,
             schedule: act.horario || act.schedule

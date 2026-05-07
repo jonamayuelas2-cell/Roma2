@@ -1,4 +1,4 @@
-const CACHE_NAME = 'ciudades-del-mundo-v1.2.2-barcelona-activities';
+const CACHE_NAME = 'ciudades-del-mundo-v1.2.5-all-place-activities';
 const STATIC_ASSETS = [
   '/',
   '/index.html',

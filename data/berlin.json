@@ -30,6 +30,50 @@
         "monumento",
         "historia",
         "reunificacion"
+      ],
+      "actividades": [
+        {
+          "titulo": "Tour historico esencial",
+          "descripcion": "Recorrido guiado por Puerta de Brandeburgo para conectar arquitectura, personajes y momentos clave de Berlin.",
+          "proveedor": "Historia Viva Berlin",
+          "contacto": "reservas@historiaberlin.local",
+          "horario": "10:00 - 12:00"
+        },
+        {
+          "titulo": "Acceso con contexto local",
+          "descripcion": "Visita pausada con explicaciones practicas para comprender por que este lugar sigue siendo imprescindible.",
+          "proveedor": "Guias Locales Berlin",
+          "contacto": "hola@berlinlocal.local",
+          "horario": "12:00 - 14:00"
+        },
+        {
+          "titulo": "Paseo fotografico",
+          "descripcion": "Itinerario para capturar fachadas, perspectivas y detalles con la mejor luz disponible.",
+          "proveedor": "Photo Walk Berlin",
+          "contacto": "foto@berlinwalk.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Ruta de leyendas",
+          "descripcion": "Historias, simbolos y anecdotas alrededor de Puerta de Brandeburgo, con tono narrativo y facil de seguir.",
+          "proveedor": "Relatos de Berlin",
+          "contacto": "relatos@berlin.local",
+          "horario": "18:00 - 19:30"
+        },
+        {
+          "titulo": "Visita familiar",
+          "descripcion": "Version didactica con paradas breves, preguntas y claves sencillas para ninos y adultos.",
+          "proveedor": "Familias Viajeras",
+          "contacto": "familias@viaje.local",
+          "horario": "11:00 - 12:30"
+        },
+        {
+          "titulo": "Audioguia express",
+          "descripcion": "Recorrido autonomo para ver lo principal de Puerta de Brandeburgo con contexto claro y sin prisas.",
+          "proveedor": "Audio Travel",
+          "contacto": "audio@travel.local",
+          "horario": "Durante apertura"
+        }
       ]
     },
     {
@@ -49,6 +93,50 @@
         "muro",
         "arte urbano",
         "historia"
+      ],
+      "actividades": [
+        {
+          "titulo": "Tour historico esencial",
+          "descripcion": "Recorrido guiado por East Side Gallery para conectar arquitectura, personajes y momentos clave de Berlin.",
+          "proveedor": "Historia Viva Berlin",
+          "contacto": "reservas@historiaberlin.local",
+          "horario": "10:00 - 12:00"
+        },
+        {
+          "titulo": "Acceso con contexto local",
+          "descripcion": "Visita pausada con explicaciones practicas para comprender por que este lugar sigue siendo imprescindible.",
+          "proveedor": "Guias Locales Berlin",
+          "contacto": "hola@berlinlocal.local",
+          "horario": "12:00 - 14:00"
+        },
+        {
+          "titulo": "Paseo fotografico",
+          "descripcion": "Itinerario para capturar fachadas, perspectivas y detalles con la mejor luz disponible.",
+          "proveedor": "Photo Walk Berlin",
+          "contacto": "foto@berlinwalk.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Ruta de leyendas",
+          "descripcion": "Historias, simbolos y anecdotas alrededor de East Side Gallery, con tono narrativo y facil de seguir.",
+          "proveedor": "Relatos de Berlin",
+          "contacto": "relatos@berlin.local",
+          "horario": "18:00 - 19:30"
+        },
+        {
+          "titulo": "Visita familiar",
+          "descripcion": "Version didactica con paradas breves, preguntas y claves sencillas para ninos y adultos.",
+          "proveedor": "Familias Viajeras",
+          "contacto": "familias@viaje.local",
+          "horario": "11:00 - 12:30"
+        },
+        {
+          "titulo": "Audioguia express",
+          "descripcion": "Recorrido autonomo para ver lo principal de East Side Gallery con contexto claro y sin prisas.",
+          "proveedor": "Audio Travel",
+          "contacto": "audio@travel.local",
+          "horario": "Durante apertura"
+        }
       ]
     },
     {
@@ -68,6 +156,50 @@
         "museos",
         "arte",
         "patrimonio"
+      ],
+      "actividades": [
+        {
+          "titulo": "Visita guiada a la coleccion",
+          "descripcion": "Recorrido para entender las piezas clave de Isla de los Museos y su papel en la identidad de Berlin.",
+          "proveedor": "Isla de los Museos Educacion",
+          "contacto": "educacion@isladelosmuseos.local",
+          "horario": "10:00 - 12:00"
+        },
+        {
+          "titulo": "Ruta de obras imprescindibles",
+          "descripcion": "Seleccion comentada de salas, objetos y relatos para aprovechar la visita sin perderse lo esencial.",
+          "proveedor": "Guias de Berlin",
+          "contacto": "reservas@berlintours.local",
+          "horario": "12:30 - 14:00"
+        },
+        {
+          "titulo": "Taller creativo",
+          "descripcion": "Actividad practica inspirada en las colecciones del museo, pensada para viajeros curiosos y familias.",
+          "proveedor": "Atelier Berlin",
+          "contacto": "talleres@berlinatelier.local",
+          "horario": "16:00 - 18:00"
+        },
+        {
+          "titulo": "Audioguia express",
+          "descripcion": "Formato autonomo y breve para recorrer Isla de los Museos con contexto historico y buenas pausas.",
+          "proveedor": "Audio Travel",
+          "contacto": "audio@travel.local",
+          "horario": "Durante apertura"
+        },
+        {
+          "titulo": "Encuentro con especialista",
+          "descripcion": "Charla divulgativa sobre restauracion, archivo o seleccion de piezas destacadas.",
+          "proveedor": "Cultura Berlin",
+          "contacto": "info@culturaberlin.local",
+          "horario": "Consultar calendario"
+        },
+        {
+          "titulo": "Paseo fotografico interior",
+          "descripcion": "Ruta de encuadres permitidos, arquitectura y detalles visuales sin interferir con la visita.",
+          "proveedor": "Photo Walk Berlin",
+          "contacto": "foto@berlinwalk.local",
+          "horario": "Ultima hora de apertura"
+        }
       ]
     },
     {
@@ -87,6 +219,50 @@
         "parlamento",
         "cupula",
         "historia"
+      ],
+      "actividades": [
+        {
+          "titulo": "Tour historico esencial",
+          "descripcion": "Recorrido guiado por Reichstag para conectar arquitectura, personajes y momentos clave de Berlin.",
+          "proveedor": "Historia Viva Berlin",
+          "contacto": "reservas@historiaberlin.local",
+          "horario": "10:00 - 12:00"
+        },
+        {
+          "titulo": "Acceso con contexto local",
+          "descripcion": "Visita pausada con explicaciones practicas para comprender por que este lugar sigue siendo imprescindible.",
+          "proveedor": "Guias Locales Berlin",
+          "contacto": "hola@berlinlocal.local",
+          "horario": "12:00 - 14:00"
+        },
+        {
+          "titulo": "Paseo fotografico",
+          "descripcion": "Itinerario para capturar fachadas, perspectivas y detalles con la mejor luz disponible.",
+          "proveedor": "Photo Walk Berlin",
+          "contacto": "foto@berlinwalk.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Ruta de leyendas",
+          "descripcion": "Historias, simbolos y anecdotas alrededor de Reichstag, con tono narrativo y facil de seguir.",
+          "proveedor": "Relatos de Berlin",
+          "contacto": "relatos@berlin.local",
+          "horario": "18:00 - 19:30"
+        },
+        {
+          "titulo": "Visita familiar",
+          "descripcion": "Version didactica con paradas breves, preguntas y claves sencillas para ninos y adultos.",
+          "proveedor": "Familias Viajeras",
+          "contacto": "familias@viaje.local",
+          "horario": "11:00 - 12:30"
+        },
+        {
+          "titulo": "Audioguia express",
+          "descripcion": "Recorrido autonomo para ver lo principal de Reichstag con contexto claro y sin prisas.",
+          "proveedor": "Audio Travel",
+          "contacto": "audio@travel.local",
+          "horario": "Durante apertura"
+        }
       ]
     },
     {
@@ -106,6 +282,50 @@
         "guerra fria",
         "historia",
         "muro"
+      ],
+      "actividades": [
+        {
+          "titulo": "Tour historico esencial",
+          "descripcion": "Recorrido guiado por Checkpoint Charlie para conectar arquitectura, personajes y momentos clave de Berlin.",
+          "proveedor": "Historia Viva Berlin",
+          "contacto": "reservas@historiaberlin.local",
+          "horario": "10:00 - 12:00"
+        },
+        {
+          "titulo": "Acceso con contexto local",
+          "descripcion": "Visita pausada con explicaciones practicas para comprender por que este lugar sigue siendo imprescindible.",
+          "proveedor": "Guias Locales Berlin",
+          "contacto": "hola@berlinlocal.local",
+          "horario": "12:00 - 14:00"
+        },
+        {
+          "titulo": "Paseo fotografico",
+          "descripcion": "Itinerario para capturar fachadas, perspectivas y detalles con la mejor luz disponible.",
+          "proveedor": "Photo Walk Berlin",
+          "contacto": "foto@berlinwalk.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Ruta de leyendas",
+          "descripcion": "Historias, simbolos y anecdotas alrededor de Checkpoint Charlie, con tono narrativo y facil de seguir.",
+          "proveedor": "Relatos de Berlin",
+          "contacto": "relatos@berlin.local",
+          "horario": "18:00 - 19:30"
+        },
+        {
+          "titulo": "Visita familiar",
+          "descripcion": "Version didactica con paradas breves, preguntas y claves sencillas para ninos y adultos.",
+          "proveedor": "Familias Viajeras",
+          "contacto": "familias@viaje.local",
+          "horario": "11:00 - 12:30"
+        },
+        {
+          "titulo": "Audioguia express",
+          "descripcion": "Recorrido autonomo para ver lo principal de Checkpoint Charlie con contexto claro y sin prisas.",
+          "proveedor": "Audio Travel",
+          "contacto": "audio@travel.local",
+          "horario": "Durante apertura"
+        }
       ]
     },
     {
@@ -125,6 +345,50 @@
         "parque",
         "naturaleza",
         "paseo"
+      ],
+      "actividades": [
+        {
+          "titulo": "Paseo botanico",
+          "descripcion": "Recorrido por senderos, jardines y miradores para reconocer especies y entender el paisaje de Tiergarten.",
+          "proveedor": "Green Berlin",
+          "contacto": "green@berlin.local",
+          "horario": "10:00 - 11:30"
+        },
+        {
+          "titulo": "Picnic con producto local",
+          "descripcion": "Experiencia relajada con cesta preparada y recomendaciones de zonas tranquilas.",
+          "proveedor": "Picnic Berlin",
+          "contacto": "picnic@berlin.local",
+          "horario": "13:00 - 15:00"
+        },
+        {
+          "titulo": "Ruta fotografica natural",
+          "descripcion": "Paseo para capturar luz, vegetacion, agua y vistas con ritmo tranquilo.",
+          "proveedor": "Photo Walk Berlin",
+          "contacto": "foto@berlinwalk.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Actividad familiar al aire libre",
+          "descripcion": "Juego de observacion y pequenas misiones para recorrer Tiergarten con ninos.",
+          "proveedor": "Familias Viajeras",
+          "contacto": "familias@viaje.local",
+          "horario": "11:00 - 12:30"
+        },
+        {
+          "titulo": "Bienestar y estiramientos",
+          "descripcion": "Sesion suave para empezar el dia respirando mejor y disfrutando del entorno.",
+          "proveedor": "Wellness Berlin",
+          "contacto": "wellness@berlin.local",
+          "horario": "08:30 - 09:30"
+        },
+        {
+          "titulo": "Miradores y rincones tranquilos",
+          "descripcion": "Ruta breve por bancos, sombras y puntos de descanso para bajar el ritmo del viaje.",
+          "proveedor": "Slow Travel Berlin",
+          "contacto": "slow@berlin.local",
+          "horario": "16:30 - 18:00"
+        }
       ]
     },
     {
@@ -144,6 +408,50 @@
         "plaza",
         "torre",
         "vida urbana"
+      ],
+      "actividades": [
+        {
+          "titulo": "Paseo de barrio",
+          "descripcion": "Ruta a pie por calles, plazas y rincones cotidianos para entender el caracter de Alexanderplatz.",
+          "proveedor": "Walks Berlin",
+          "contacto": "walks@berlin.local",
+          "horario": "10:30 - 12:30"
+        },
+        {
+          "titulo": "Ruta gastronomica local",
+          "descripcion": "Paradas escogidas para probar sabores representativos y conocer pequenos comercios de la zona.",
+          "proveedor": "Sabores de Berlin",
+          "contacto": "sabores@berlin.local",
+          "horario": "13:00 - 15:00"
+        },
+        {
+          "titulo": "Fotografia urbana",
+          "descripcion": "Paseo para buscar fachadas, mercados, escenas de calle y detalles con personalidad.",
+          "proveedor": "Photo Walk Berlin",
+          "contacto": "foto@berlinwalk.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Historias del vecindario",
+          "descripcion": "Relato guiado sobre cambios urbanos, vida local y memoria del barrio.",
+          "proveedor": "Cronicas Berlin",
+          "contacto": "cronicas@berlin.local",
+          "horario": "17:00 - 18:30"
+        },
+        {
+          "titulo": "Compras con guia local",
+          "descripcion": "Seleccion de tiendas, talleres y productos con criterio local y sin prisas.",
+          "proveedor": "Local Shops Berlin",
+          "contacto": "shops@berlin.local",
+          "horario": "11:00 - 13:00"
+        },
+        {
+          "titulo": "Noche de ambiente",
+          "descripcion": "Recorrido suave por bares, plazas y locales recomendados para tomar el pulso nocturno.",
+          "proveedor": "After Dark Berlin",
+          "contacto": "noche@berlin.local",
+          "horario": "20:00 - 22:00"
+        }
       ]
     },
     {
@@ -163,6 +471,50 @@
         "memoria",
         "historia",
         "sobriedad"
+      ],
+      "actividades": [
+        {
+          "titulo": "Tour historico esencial",
+          "descripcion": "Recorrido guiado por Memorial del Holocausto para conectar arquitectura, personajes y momentos clave de Berlin.",
+          "proveedor": "Historia Viva Berlin",
+          "contacto": "reservas@historiaberlin.local",
+          "horario": "10:00 - 12:00"
+        },
+        {
+          "titulo": "Acceso con contexto local",
+          "descripcion": "Visita pausada con explicaciones practicas para comprender por que este lugar sigue siendo imprescindible.",
+          "proveedor": "Guias Locales Berlin",
+          "contacto": "hola@berlinlocal.local",
+          "horario": "12:00 - 14:00"
+        },
+        {
+          "titulo": "Paseo fotografico",
+          "descripcion": "Itinerario para capturar fachadas, perspectivas y detalles con la mejor luz disponible.",
+          "proveedor": "Photo Walk Berlin",
+          "contacto": "foto@berlinwalk.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Ruta de leyendas",
+          "descripcion": "Historias, simbolos y anecdotas alrededor de Memorial del Holocausto, con tono narrativo y facil de seguir.",
+          "proveedor": "Relatos de Berlin",
+          "contacto": "relatos@berlin.local",
+          "horario": "18:00 - 19:30"
+        },
+        {
+          "titulo": "Visita familiar",
+          "descripcion": "Version didactica con paradas breves, preguntas y claves sencillas para ninos y adultos.",
+          "proveedor": "Familias Viajeras",
+          "contacto": "familias@viaje.local",
+          "horario": "11:00 - 12:30"
+        },
+        {
+          "titulo": "Audioguia express",
+          "descripcion": "Recorrido autonomo para ver lo principal de Memorial del Holocausto con contexto claro y sin prisas.",
+          "proveedor": "Audio Travel",
+          "contacto": "audio@travel.local",
+          "horario": "Durante apertura"
+        }
       ]
     },
     {
@@ -182,6 +534,50 @@
         "barrio",
         "arte urbano",
         "gastronomia"
+      ],
+      "actividades": [
+        {
+          "titulo": "Paseo de barrio",
+          "descripcion": "Ruta a pie por calles, plazas y rincones cotidianos para entender el caracter de Kreuzberg.",
+          "proveedor": "Walks Berlin",
+          "contacto": "walks@berlin.local",
+          "horario": "10:30 - 12:30"
+        },
+        {
+          "titulo": "Ruta gastronomica local",
+          "descripcion": "Paradas escogidas para probar sabores representativos y conocer pequenos comercios de la zona.",
+          "proveedor": "Sabores de Berlin",
+          "contacto": "sabores@berlin.local",
+          "horario": "13:00 - 15:00"
+        },
+        {
+          "titulo": "Fotografia urbana",
+          "descripcion": "Paseo para buscar fachadas, mercados, escenas de calle y detalles con personalidad.",
+          "proveedor": "Photo Walk Berlin",
+          "contacto": "foto@berlinwalk.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Historias del vecindario",
+          "descripcion": "Relato guiado sobre cambios urbanos, vida local y memoria del barrio.",
+          "proveedor": "Cronicas Berlin",
+          "contacto": "cronicas@berlin.local",
+          "horario": "17:00 - 18:30"
+        },
+        {
+          "titulo": "Compras con guia local",
+          "descripcion": "Seleccion de tiendas, talleres y productos con criterio local y sin prisas.",
+          "proveedor": "Local Shops Berlin",
+          "contacto": "shops@berlin.local",
+          "horario": "11:00 - 13:00"
+        },
+        {
+          "titulo": "Noche de ambiente",
+          "descripcion": "Recorrido suave por bares, plazas y locales recomendados para tomar el pulso nocturno.",
+          "proveedor": "After Dark Berlin",
+          "contacto": "noche@berlin.local",
+          "horario": "20:00 - 22:00"
+        }
       ]
     }
   ]

@@ -30,6 +30,50 @@
         "vistas",
         "iconic",
         "altura"
+      ],
+      "actividades": [
+        {
+          "titulo": "Tour historico esencial",
+          "descripcion": "Recorrido guiado por Sky Tower para conectar arquitectura, personajes y momentos clave de Auckland.",
+          "proveedor": "Historia Viva Auckland",
+          "contacto": "reservas@historiaauckland.local",
+          "horario": "10:00 - 12:00"
+        },
+        {
+          "titulo": "Acceso con contexto local",
+          "descripcion": "Visita pausada con explicaciones practicas para comprender por que este lugar sigue siendo imprescindible.",
+          "proveedor": "Guias Locales Auckland",
+          "contacto": "hola@aucklandlocal.local",
+          "horario": "12:00 - 14:00"
+        },
+        {
+          "titulo": "Paseo fotografico",
+          "descripcion": "Itinerario para capturar fachadas, perspectivas y detalles con la mejor luz disponible.",
+          "proveedor": "Photo Walk Auckland",
+          "contacto": "foto@aucklandwalk.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Ruta de leyendas",
+          "descripcion": "Historias, simbolos y anecdotas alrededor de Sky Tower, con tono narrativo y facil de seguir.",
+          "proveedor": "Relatos de Auckland",
+          "contacto": "relatos@auckland.local",
+          "horario": "18:00 - 19:30"
+        },
+        {
+          "titulo": "Visita familiar",
+          "descripcion": "Version didactica con paradas breves, preguntas y claves sencillas para ninos y adultos.",
+          "proveedor": "Familias Viajeras",
+          "contacto": "familias@viaje.local",
+          "horario": "11:00 - 12:30"
+        },
+        {
+          "titulo": "Audioguia express",
+          "descripcion": "Recorrido autonomo para ver lo principal de Sky Tower con contexto claro y sin prisas.",
+          "proveedor": "Audio Travel",
+          "contacto": "audio@travel.local",
+          "horario": "Durante apertura"
+        }
       ]
     },
     {
@@ -49,6 +93,50 @@
         "museos",
         "historia",
         "maori"
+      ],
+      "actividades": [
+        {
+          "titulo": "Visita guiada a la coleccion",
+          "descripcion": "Recorrido para entender las piezas clave de Auckland War Memorial Museum y su papel en la identidad de Auckland.",
+          "proveedor": "Auckland War Memorial Museum Educacion",
+          "contacto": "educacion@aucklandwarmemorialmuseum.local",
+          "horario": "10:00 - 12:00"
+        },
+        {
+          "titulo": "Ruta de obras imprescindibles",
+          "descripcion": "Seleccion comentada de salas, objetos y relatos para aprovechar la visita sin perderse lo esencial.",
+          "proveedor": "Guias de Auckland",
+          "contacto": "reservas@aucklandtours.local",
+          "horario": "12:30 - 14:00"
+        },
+        {
+          "titulo": "Taller creativo",
+          "descripcion": "Actividad practica inspirada en las colecciones del museo, pensada para viajeros curiosos y familias.",
+          "proveedor": "Atelier Auckland",
+          "contacto": "talleres@aucklandatelier.local",
+          "horario": "16:00 - 18:00"
+        },
+        {
+          "titulo": "Audioguia express",
+          "descripcion": "Formato autonomo y breve para recorrer Auckland War Memorial Museum con contexto historico y buenas pausas.",
+          "proveedor": "Audio Travel",
+          "contacto": "audio@travel.local",
+          "horario": "Durante apertura"
+        },
+        {
+          "titulo": "Encuentro con especialista",
+          "descripcion": "Charla divulgativa sobre restauracion, archivo o seleccion de piezas destacadas.",
+          "proveedor": "Cultura Auckland",
+          "contacto": "info@culturaauckland.local",
+          "horario": "Consultar calendario"
+        },
+        {
+          "titulo": "Paseo fotografico interior",
+          "descripcion": "Ruta de encuadres permitidos, arquitectura y detalles visuales sin interferir con la visita.",
+          "proveedor": "Photo Walk Auckland",
+          "contacto": "foto@aucklandwalk.local",
+          "horario": "Ultima hora de apertura"
+        }
       ]
     },
     {
@@ -68,6 +156,50 @@
         "vino",
         "playas",
         "naturaleza"
+      ],
+      "actividades": [
+        {
+          "titulo": "Paseo botanico",
+          "descripcion": "Recorrido por senderos, jardines y miradores para reconocer especies y entender el paisaje de Waiheke Island.",
+          "proveedor": "Green Auckland",
+          "contacto": "green@auckland.local",
+          "horario": "10:00 - 11:30"
+        },
+        {
+          "titulo": "Picnic con producto local",
+          "descripcion": "Experiencia relajada con cesta preparada y recomendaciones de zonas tranquilas.",
+          "proveedor": "Picnic Auckland",
+          "contacto": "picnic@auckland.local",
+          "horario": "13:00 - 15:00"
+        },
+        {
+          "titulo": "Ruta fotografica natural",
+          "descripcion": "Paseo para capturar luz, vegetacion, agua y vistas con ritmo tranquilo.",
+          "proveedor": "Photo Walk Auckland",
+          "contacto": "foto@aucklandwalk.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Actividad familiar al aire libre",
+          "descripcion": "Juego de observacion y pequenas misiones para recorrer Waiheke Island con ninos.",
+          "proveedor": "Familias Viajeras",
+          "contacto": "familias@viaje.local",
+          "horario": "11:00 - 12:30"
+        },
+        {
+          "titulo": "Bienestar y estiramientos",
+          "descripcion": "Sesion suave para empezar el dia respirando mejor y disfrutando del entorno.",
+          "proveedor": "Wellness Auckland",
+          "contacto": "wellness@auckland.local",
+          "horario": "08:30 - 09:30"
+        },
+        {
+          "titulo": "Miradores y rincones tranquilos",
+          "descripcion": "Ruta breve por bancos, sombras y puntos de descanso para bajar el ritmo del viaje.",
+          "proveedor": "Slow Travel Auckland",
+          "contacto": "slow@auckland.local",
+          "horario": "16:30 - 18:00"
+        }
       ]
     },
     {
@@ -87,6 +219,50 @@
         "volcán",
         "vistas",
         "parques"
+      ],
+      "actividades": [
+        {
+          "titulo": "Paseo botanico",
+          "descripcion": "Recorrido por senderos, jardines y miradores para reconocer especies y entender el paisaje de Mount Eden.",
+          "proveedor": "Green Auckland",
+          "contacto": "green@auckland.local",
+          "horario": "10:00 - 11:30"
+        },
+        {
+          "titulo": "Picnic con producto local",
+          "descripcion": "Experiencia relajada con cesta preparada y recomendaciones de zonas tranquilas.",
+          "proveedor": "Picnic Auckland",
+          "contacto": "picnic@auckland.local",
+          "horario": "13:00 - 15:00"
+        },
+        {
+          "titulo": "Ruta fotografica natural",
+          "descripcion": "Paseo para capturar luz, vegetacion, agua y vistas con ritmo tranquilo.",
+          "proveedor": "Photo Walk Auckland",
+          "contacto": "foto@aucklandwalk.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Actividad familiar al aire libre",
+          "descripcion": "Juego de observacion y pequenas misiones para recorrer Mount Eden con ninos.",
+          "proveedor": "Familias Viajeras",
+          "contacto": "familias@viaje.local",
+          "horario": "11:00 - 12:30"
+        },
+        {
+          "titulo": "Bienestar y estiramientos",
+          "descripcion": "Sesion suave para empezar el dia respirando mejor y disfrutando del entorno.",
+          "proveedor": "Wellness Auckland",
+          "contacto": "wellness@auckland.local",
+          "horario": "08:30 - 09:30"
+        },
+        {
+          "titulo": "Miradores y rincones tranquilos",
+          "descripcion": "Ruta breve por bancos, sombras y puntos de descanso para bajar el ritmo del viaje.",
+          "proveedor": "Slow Travel Auckland",
+          "contacto": "slow@auckland.local",
+          "horario": "16:30 - 18:00"
+        }
       ]
     },
     {
@@ -106,6 +282,50 @@
         "puerto",
         "gastronomia",
         "ocio"
+      ],
+      "actividades": [
+        {
+          "titulo": "Paseo de barrio",
+          "descripcion": "Ruta a pie por calles, plazas y rincones cotidianos para entender el caracter de Viaduct Harbour.",
+          "proveedor": "Walks Auckland",
+          "contacto": "walks@auckland.local",
+          "horario": "10:30 - 12:30"
+        },
+        {
+          "titulo": "Ruta gastronomica local",
+          "descripcion": "Paradas escogidas para probar sabores representativos y conocer pequenos comercios de la zona.",
+          "proveedor": "Sabores de Auckland",
+          "contacto": "sabores@auckland.local",
+          "horario": "13:00 - 15:00"
+        },
+        {
+          "titulo": "Fotografia urbana",
+          "descripcion": "Paseo para buscar fachadas, mercados, escenas de calle y detalles con personalidad.",
+          "proveedor": "Photo Walk Auckland",
+          "contacto": "foto@aucklandwalk.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Historias del vecindario",
+          "descripcion": "Relato guiado sobre cambios urbanos, vida local y memoria del barrio.",
+          "proveedor": "Cronicas Auckland",
+          "contacto": "cronicas@auckland.local",
+          "horario": "17:00 - 18:30"
+        },
+        {
+          "titulo": "Compras con guia local",
+          "descripcion": "Seleccion de tiendas, talleres y productos con criterio local y sin prisas.",
+          "proveedor": "Local Shops Auckland",
+          "contacto": "shops@auckland.local",
+          "horario": "11:00 - 13:00"
+        },
+        {
+          "titulo": "Noche de ambiente",
+          "descripcion": "Recorrido suave por bares, plazas y locales recomendados para tomar el pulso nocturno.",
+          "proveedor": "After Dark Auckland",
+          "contacto": "noche@auckland.local",
+          "horario": "20:00 - 22:00"
+        }
       ]
     },
     {
@@ -125,6 +345,50 @@
         "arte",
         "museo",
         "maori"
+      ],
+      "actividades": [
+        {
+          "titulo": "Visita guiada a la coleccion",
+          "descripcion": "Recorrido para entender las piezas clave de Auckland Art Gallery y su papel en la identidad de Auckland.",
+          "proveedor": "Auckland Art Gallery Educacion",
+          "contacto": "educacion@aucklandartgallery.local",
+          "horario": "10:00 - 12:00"
+        },
+        {
+          "titulo": "Ruta de obras imprescindibles",
+          "descripcion": "Seleccion comentada de salas, objetos y relatos para aprovechar la visita sin perderse lo esencial.",
+          "proveedor": "Guias de Auckland",
+          "contacto": "reservas@aucklandtours.local",
+          "horario": "12:30 - 14:00"
+        },
+        {
+          "titulo": "Taller creativo",
+          "descripcion": "Actividad practica inspirada en las colecciones del museo, pensada para viajeros curiosos y familias.",
+          "proveedor": "Atelier Auckland",
+          "contacto": "talleres@aucklandatelier.local",
+          "horario": "16:00 - 18:00"
+        },
+        {
+          "titulo": "Audioguia express",
+          "descripcion": "Formato autonomo y breve para recorrer Auckland Art Gallery con contexto historico y buenas pausas.",
+          "proveedor": "Audio Travel",
+          "contacto": "audio@travel.local",
+          "horario": "Durante apertura"
+        },
+        {
+          "titulo": "Encuentro con especialista",
+          "descripcion": "Charla divulgativa sobre restauracion, archivo o seleccion de piezas destacadas.",
+          "proveedor": "Cultura Auckland",
+          "contacto": "info@culturaauckland.local",
+          "horario": "Consultar calendario"
+        },
+        {
+          "titulo": "Paseo fotografico interior",
+          "descripcion": "Ruta de encuadres permitidos, arquitectura y detalles visuales sin interferir con la visita.",
+          "proveedor": "Photo Walk Auckland",
+          "contacto": "foto@aucklandwalk.local",
+          "horario": "Ultima hora de apertura"
+        }
       ]
     },
     {
@@ -144,6 +408,50 @@
         "barrio",
         "diseno",
         "gastronomia"
+      ],
+      "actividades": [
+        {
+          "titulo": "Paseo de barrio",
+          "descripcion": "Ruta a pie por calles, plazas y rincones cotidianos para entender el caracter de Ponsonby.",
+          "proveedor": "Walks Auckland",
+          "contacto": "walks@auckland.local",
+          "horario": "10:30 - 12:30"
+        },
+        {
+          "titulo": "Ruta gastronomica local",
+          "descripcion": "Paradas escogidas para probar sabores representativos y conocer pequenos comercios de la zona.",
+          "proveedor": "Sabores de Auckland",
+          "contacto": "sabores@auckland.local",
+          "horario": "13:00 - 15:00"
+        },
+        {
+          "titulo": "Fotografia urbana",
+          "descripcion": "Paseo para buscar fachadas, mercados, escenas de calle y detalles con personalidad.",
+          "proveedor": "Photo Walk Auckland",
+          "contacto": "foto@aucklandwalk.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Historias del vecindario",
+          "descripcion": "Relato guiado sobre cambios urbanos, vida local y memoria del barrio.",
+          "proveedor": "Cronicas Auckland",
+          "contacto": "cronicas@auckland.local",
+          "horario": "17:00 - 18:30"
+        },
+        {
+          "titulo": "Compras con guia local",
+          "descripcion": "Seleccion de tiendas, talleres y productos con criterio local y sin prisas.",
+          "proveedor": "Local Shops Auckland",
+          "contacto": "shops@auckland.local",
+          "horario": "11:00 - 13:00"
+        },
+        {
+          "titulo": "Noche de ambiente",
+          "descripcion": "Recorrido suave por bares, plazas y locales recomendados para tomar el pulso nocturno.",
+          "proveedor": "After Dark Auckland",
+          "contacto": "noche@auckland.local",
+          "horario": "20:00 - 22:00"
+        }
       ]
     },
     {
@@ -163,6 +471,50 @@
         "compras",
         "restaurantes",
         "centro"
+      ],
+      "actividades": [
+        {
+          "titulo": "Paseo de barrio",
+          "descripcion": "Ruta a pie por calles, plazas y rincones cotidianos para entender el caracter de Britomart.",
+          "proveedor": "Walks Auckland",
+          "contacto": "walks@auckland.local",
+          "horario": "10:30 - 12:30"
+        },
+        {
+          "titulo": "Ruta gastronomica local",
+          "descripcion": "Paradas escogidas para probar sabores representativos y conocer pequenos comercios de la zona.",
+          "proveedor": "Sabores de Auckland",
+          "contacto": "sabores@auckland.local",
+          "horario": "13:00 - 15:00"
+        },
+        {
+          "titulo": "Fotografia urbana",
+          "descripcion": "Paseo para buscar fachadas, mercados, escenas de calle y detalles con personalidad.",
+          "proveedor": "Photo Walk Auckland",
+          "contacto": "foto@aucklandwalk.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Historias del vecindario",
+          "descripcion": "Relato guiado sobre cambios urbanos, vida local y memoria del barrio.",
+          "proveedor": "Cronicas Auckland",
+          "contacto": "cronicas@auckland.local",
+          "horario": "17:00 - 18:30"
+        },
+        {
+          "titulo": "Compras con guia local",
+          "descripcion": "Seleccion de tiendas, talleres y productos con criterio local y sin prisas.",
+          "proveedor": "Local Shops Auckland",
+          "contacto": "shops@auckland.local",
+          "horario": "11:00 - 13:00"
+        },
+        {
+          "titulo": "Noche de ambiente",
+          "descripcion": "Recorrido suave por bares, plazas y locales recomendados para tomar el pulso nocturno.",
+          "proveedor": "After Dark Auckland",
+          "contacto": "noche@auckland.local",
+          "horario": "20:00 - 22:00"
+        }
       ]
     },
     {
@@ -182,6 +534,50 @@
         "volcan",
         "parque",
         "vistas"
+      ],
+      "actividades": [
+        {
+          "titulo": "Paseo botanico",
+          "descripcion": "Recorrido por senderos, jardines y miradores para reconocer especies y entender el paisaje de One Tree Hill.",
+          "proveedor": "Green Auckland",
+          "contacto": "green@auckland.local",
+          "horario": "10:00 - 11:30"
+        },
+        {
+          "titulo": "Picnic con producto local",
+          "descripcion": "Experiencia relajada con cesta preparada y recomendaciones de zonas tranquilas.",
+          "proveedor": "Picnic Auckland",
+          "contacto": "picnic@auckland.local",
+          "horario": "13:00 - 15:00"
+        },
+        {
+          "titulo": "Ruta fotografica natural",
+          "descripcion": "Paseo para capturar luz, vegetacion, agua y vistas con ritmo tranquilo.",
+          "proveedor": "Photo Walk Auckland",
+          "contacto": "foto@aucklandwalk.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Actividad familiar al aire libre",
+          "descripcion": "Juego de observacion y pequenas misiones para recorrer One Tree Hill con ninos.",
+          "proveedor": "Familias Viajeras",
+          "contacto": "familias@viaje.local",
+          "horario": "11:00 - 12:30"
+        },
+        {
+          "titulo": "Bienestar y estiramientos",
+          "descripcion": "Sesion suave para empezar el dia respirando mejor y disfrutando del entorno.",
+          "proveedor": "Wellness Auckland",
+          "contacto": "wellness@auckland.local",
+          "horario": "08:30 - 09:30"
+        },
+        {
+          "titulo": "Miradores y rincones tranquilos",
+          "descripcion": "Ruta breve por bancos, sombras y puntos de descanso para bajar el ritmo del viaje.",
+          "proveedor": "Slow Travel Auckland",
+          "contacto": "slow@auckland.local",
+          "horario": "16:30 - 18:00"
+        }
       ]
     }
   ]

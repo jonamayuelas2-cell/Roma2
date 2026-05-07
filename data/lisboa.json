@@ -5,13 +5,62 @@
     "tipo": "cultura",
     "descripcion": "Fortaleza del siglo XVI que servía de punto de partida para los exploradores portugueses.",
     "descripcionCorta": "La joya del Tajo.",
-    "lat": 38.6916, "lng": -9.2160,
+    "lat": 38.6916,
+    "lng": -9.216,
     "horario": "10:00 - 17:30",
     "precio": "6€",
     "rating": 4.8,
     "imagen": "img/lisbon_belem.png",
     "imagenCard": "img/lisbon_belem.png",
-    "tags": ["historia", "arquitectura", "exploración"]
+    "tags": [
+      "historia",
+      "arquitectura",
+      "exploración"
+    ],
+    "actividades": [
+      {
+        "titulo": "Tour historico esencial",
+        "descripcion": "Recorrido guiado por Torre de Belém para conectar arquitectura, personajes y momentos clave de Lisboa.",
+        "proveedor": "Historia Viva Lisboa",
+        "contacto": "reservas@historialisboa.local",
+        "horario": "10:00 - 12:00"
+      },
+      {
+        "titulo": "Acceso con contexto local",
+        "descripcion": "Visita pausada con explicaciones practicas para comprender por que este lugar sigue siendo imprescindible.",
+        "proveedor": "Guias Locales Lisboa",
+        "contacto": "hola@lisboalocal.local",
+        "horario": "12:00 - 14:00"
+      },
+      {
+        "titulo": "Paseo fotografico",
+        "descripcion": "Itinerario para capturar fachadas, perspectivas y detalles con la mejor luz disponible.",
+        "proveedor": "Photo Walk Lisboa",
+        "contacto": "foto@lisboawalk.local",
+        "horario": "Atardecer"
+      },
+      {
+        "titulo": "Ruta de leyendas",
+        "descripcion": "Historias, simbolos y anecdotas alrededor de Torre de Belém, con tono narrativo y facil de seguir.",
+        "proveedor": "Relatos de Lisboa",
+        "contacto": "relatos@lisboa.local",
+        "horario": "18:00 - 19:30"
+      },
+      {
+        "titulo": "Visita familiar",
+        "descripcion": "Version didactica con paradas breves, preguntas y claves sencillas para ninos y adultos.",
+        "proveedor": "Familias Viajeras",
+        "contacto": "familias@viaje.local",
+        "horario": "11:00 - 12:30"
+      },
+      {
+        "titulo": "Audioguia express",
+        "descripcion": "Recorrido autonomo para ver lo principal de Torre de Belém con contexto claro y sin prisas.",
+        "proveedor": "Audio Travel",
+        "contacto": "audio@travel.local",
+        "horario": "Durante apertura"
+      }
+    ]
   },
   {
     "id": 2,
@@ -19,12 +68,61 @@
     "tipo": "barrios",
     "descripcion": "El barrio más antiguo y pintoresco de Lisboa, famoso por el Fado.",
     "descripcionCorta": "El alma de Lisboa.",
-    "lat": 38.7121, "lng": -9.1305,
+    "lat": 38.7121,
+    "lng": -9.1305,
     "horario": "24h",
     "precio": "Gratis",
     "rating": 4.9,
     "imagen": "img/lisbon_alfama.png",
     "imagenCard": "img/lisbon_alfama.png",
-    "tags": ["fado", "callejuelas", "tradición"]
+    "tags": [
+      "fado",
+      "callejuelas",
+      "tradición"
+    ],
+    "actividades": [
+      {
+        "titulo": "Paseo de barrio",
+        "descripcion": "Ruta a pie por calles, plazas y rincones cotidianos para entender el caracter de Barrio de Alfama.",
+        "proveedor": "Walks Lisboa",
+        "contacto": "walks@lisboa.local",
+        "horario": "10:30 - 12:30"
+      },
+      {
+        "titulo": "Ruta gastronomica local",
+        "descripcion": "Paradas escogidas para probar sabores representativos y conocer pequenos comercios de la zona.",
+        "proveedor": "Sabores de Lisboa",
+        "contacto": "sabores@lisboa.local",
+        "horario": "13:00 - 15:00"
+      },
+      {
+        "titulo": "Fotografia urbana",
+        "descripcion": "Paseo para buscar fachadas, mercados, escenas de calle y detalles con personalidad.",
+        "proveedor": "Photo Walk Lisboa",
+        "contacto": "foto@lisboawalk.local",
+        "horario": "Atardecer"
+      },
+      {
+        "titulo": "Historias del vecindario",
+        "descripcion": "Relato guiado sobre cambios urbanos, vida local y memoria del barrio.",
+        "proveedor": "Cronicas Lisboa",
+        "contacto": "cronicas@lisboa.local",
+        "horario": "17:00 - 18:30"
+      },
+      {
+        "titulo": "Compras con guia local",
+        "descripcion": "Seleccion de tiendas, talleres y productos con criterio local y sin prisas.",
+        "proveedor": "Local Shops Lisboa",
+        "contacto": "shops@lisboa.local",
+        "horario": "11:00 - 13:00"
+      },
+      {
+        "titulo": "Noche de ambiente",
+        "descripcion": "Recorrido suave por bares, plazas y locales recomendados para tomar el pulso nocturno.",
+        "proveedor": "After Dark Lisboa",
+        "contacto": "noche@lisboa.local",
+        "horario": "20:00 - 22:00"
+      }
+    ]
   }
 ]

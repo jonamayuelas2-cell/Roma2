@@ -12,7 +12,55 @@
     "rating": 4.9,
     "imagen": "img/roma_coliseo.png",
     "imagenCard": "img/roma_coliseo.png",
-    "tags": ["historia", "imperio", "patrimonio"]
+    "tags": [
+      "historia",
+      "imperio",
+      "patrimonio"
+    ],
+    "actividades": [
+      {
+        "titulo": "Tour historico esencial",
+        "descripcion": "Recorrido guiado por Coliseo Romano para conectar arquitectura, personajes y momentos clave de Roma.",
+        "proveedor": "Historia Viva Roma",
+        "contacto": "reservas@historiaroma.local",
+        "horario": "10:00 - 12:00"
+      },
+      {
+        "titulo": "Acceso con contexto local",
+        "descripcion": "Visita pausada con explicaciones practicas para comprender por que este lugar sigue siendo imprescindible.",
+        "proveedor": "Guias Locales Roma",
+        "contacto": "hola@romalocal.local",
+        "horario": "12:00 - 14:00"
+      },
+      {
+        "titulo": "Paseo fotografico",
+        "descripcion": "Itinerario para capturar fachadas, perspectivas y detalles con la mejor luz disponible.",
+        "proveedor": "Photo Walk Roma",
+        "contacto": "foto@romawalk.local",
+        "horario": "Atardecer"
+      },
+      {
+        "titulo": "Ruta de leyendas",
+        "descripcion": "Historias, simbolos y anecdotas alrededor de Coliseo Romano, con tono narrativo y facil de seguir.",
+        "proveedor": "Relatos de Roma",
+        "contacto": "relatos@roma.local",
+        "horario": "18:00 - 19:30"
+      },
+      {
+        "titulo": "Visita familiar",
+        "descripcion": "Version didactica con paradas breves, preguntas y claves sencillas para ninos y adultos.",
+        "proveedor": "Familias Viajeras",
+        "contacto": "familias@viaje.local",
+        "horario": "11:00 - 12:30"
+      },
+      {
+        "titulo": "Audioguia express",
+        "descripcion": "Recorrido autonomo para ver lo principal de Coliseo Romano con contexto claro y sin prisas.",
+        "proveedor": "Audio Travel",
+        "contacto": "audio@travel.local",
+        "horario": "Durante apertura"
+      }
+    ]
   },
   {
     "id": 2,
@@ -27,7 +75,55 @@
     "rating": 4.8,
     "imagen": "img/roma_foro.png",
     "imagenCard": "img/roma_foro.png",
-    "tags": ["ruinas", "arqueología", "poder"]
+    "tags": [
+      "ruinas",
+      "arqueología",
+      "poder"
+    ],
+    "actividades": [
+      {
+        "titulo": "Tour historico esencial",
+        "descripcion": "Recorrido guiado por Foro Romano para conectar arquitectura, personajes y momentos clave de Roma.",
+        "proveedor": "Historia Viva Roma",
+        "contacto": "reservas@historiaroma.local",
+        "horario": "10:00 - 12:00"
+      },
+      {
+        "titulo": "Acceso con contexto local",
+        "descripcion": "Visita pausada con explicaciones practicas para comprender por que este lugar sigue siendo imprescindible.",
+        "proveedor": "Guias Locales Roma",
+        "contacto": "hola@romalocal.local",
+        "horario": "12:00 - 14:00"
+      },
+      {
+        "titulo": "Paseo fotografico",
+        "descripcion": "Itinerario para capturar fachadas, perspectivas y detalles con la mejor luz disponible.",
+        "proveedor": "Photo Walk Roma",
+        "contacto": "foto@romawalk.local",
+        "horario": "Atardecer"
+      },
+      {
+        "titulo": "Ruta de leyendas",
+        "descripcion": "Historias, simbolos y anecdotas alrededor de Foro Romano, con tono narrativo y facil de seguir.",
+        "proveedor": "Relatos de Roma",
+        "contacto": "relatos@roma.local",
+        "horario": "18:00 - 19:30"
+      },
+      {
+        "titulo": "Visita familiar",
+        "descripcion": "Version didactica con paradas breves, preguntas y claves sencillas para ninos y adultos.",
+        "proveedor": "Familias Viajeras",
+        "contacto": "familias@viaje.local",
+        "horario": "11:00 - 12:30"
+      },
+      {
+        "titulo": "Audioguia express",
+        "descripcion": "Recorrido autonomo para ver lo principal de Foro Romano con contexto claro y sin prisas.",
+        "proveedor": "Audio Travel",
+        "contacto": "audio@travel.local",
+        "horario": "Durante apertura"
+      }
+    ]
   },
   {
     "id": 3,
@@ -42,7 +138,55 @@
     "rating": 4.9,
     "imagen": "img/roma_trevi.png",
     "imagenCard": "img/roma_trevi.png",
-    "tags": ["barroco", "arte", "fuente"]
+    "tags": [
+      "barroco",
+      "arte",
+      "fuente"
+    ],
+    "actividades": [
+      {
+        "titulo": "Tour historico esencial",
+        "descripcion": "Recorrido guiado por Fontana di Trevi para conectar arquitectura, personajes y momentos clave de Roma.",
+        "proveedor": "Historia Viva Roma",
+        "contacto": "reservas@historiaroma.local",
+        "horario": "10:00 - 12:00"
+      },
+      {
+        "titulo": "Acceso con contexto local",
+        "descripcion": "Visita pausada con explicaciones practicas para comprender por que este lugar sigue siendo imprescindible.",
+        "proveedor": "Guias Locales Roma",
+        "contacto": "hola@romalocal.local",
+        "horario": "12:00 - 14:00"
+      },
+      {
+        "titulo": "Paseo fotografico",
+        "descripcion": "Itinerario para capturar fachadas, perspectivas y detalles con la mejor luz disponible.",
+        "proveedor": "Photo Walk Roma",
+        "contacto": "foto@romawalk.local",
+        "horario": "Atardecer"
+      },
+      {
+        "titulo": "Ruta de leyendas",
+        "descripcion": "Historias, simbolos y anecdotas alrededor de Fontana di Trevi, con tono narrativo y facil de seguir.",
+        "proveedor": "Relatos de Roma",
+        "contacto": "relatos@roma.local",
+        "horario": "18:00 - 19:30"
+      },
+      {
+        "titulo": "Visita familiar",
+        "descripcion": "Version didactica con paradas breves, preguntas y claves sencillas para ninos y adultos.",
+        "proveedor": "Familias Viajeras",
+        "contacto": "familias@viaje.local",
+        "horario": "11:00 - 12:30"
+      },
+      {
+        "titulo": "Audioguia express",
+        "descripcion": "Recorrido autonomo para ver lo principal de Fontana di Trevi con contexto claro y sin prisas.",
+        "proveedor": "Audio Travel",
+        "contacto": "audio@travel.local",
+        "horario": "Durante apertura"
+      }
+    ]
   },
   {
     "id": 4,
@@ -57,7 +201,55 @@
     "rating": 4.9,
     "imagen": "img/roma_panteon.png",
     "imagenCard": "img/roma_panteon.png",
-    "tags": ["arquitectura", "templo", "cúpula"]
+    "tags": [
+      "arquitectura",
+      "templo",
+      "cúpula"
+    ],
+    "actividades": [
+      {
+        "titulo": "Tour historico esencial",
+        "descripcion": "Recorrido guiado por Panteón de Agripa para conectar arquitectura, personajes y momentos clave de Roma.",
+        "proveedor": "Historia Viva Roma",
+        "contacto": "reservas@historiaroma.local",
+        "horario": "10:00 - 12:00"
+      },
+      {
+        "titulo": "Acceso con contexto local",
+        "descripcion": "Visita pausada con explicaciones practicas para comprender por que este lugar sigue siendo imprescindible.",
+        "proveedor": "Guias Locales Roma",
+        "contacto": "hola@romalocal.local",
+        "horario": "12:00 - 14:00"
+      },
+      {
+        "titulo": "Paseo fotografico",
+        "descripcion": "Itinerario para capturar fachadas, perspectivas y detalles con la mejor luz disponible.",
+        "proveedor": "Photo Walk Roma",
+        "contacto": "foto@romawalk.local",
+        "horario": "Atardecer"
+      },
+      {
+        "titulo": "Ruta de leyendas",
+        "descripcion": "Historias, simbolos y anecdotas alrededor de Panteón de Agripa, con tono narrativo y facil de seguir.",
+        "proveedor": "Relatos de Roma",
+        "contacto": "relatos@roma.local",
+        "horario": "18:00 - 19:30"
+      },
+      {
+        "titulo": "Visita familiar",
+        "descripcion": "Version didactica con paradas breves, preguntas y claves sencillas para ninos y adultos.",
+        "proveedor": "Familias Viajeras",
+        "contacto": "familias@viaje.local",
+        "horario": "11:00 - 12:30"
+      },
+      {
+        "titulo": "Audioguia express",
+        "descripcion": "Recorrido autonomo para ver lo principal de Panteón de Agripa con contexto claro y sin prisas.",
+        "proveedor": "Audio Travel",
+        "contacto": "audio@travel.local",
+        "horario": "Durante apertura"
+      }
+    ]
   },
   {
     "id": 5,
@@ -72,7 +264,55 @@
     "rating": 4.8,
     "imagen": "img/roma_vaticano.png",
     "imagenCard": "img/roma_vaticano.png",
-    "tags": ["arte", "vaticano", "renacimiento"]
+    "tags": [
+      "arte",
+      "vaticano",
+      "renacimiento"
+    ],
+    "actividades": [
+      {
+        "titulo": "Visita guiada a la coleccion",
+        "descripcion": "Recorrido para entender las piezas clave de Museos Vaticanos y su papel en la identidad de Roma.",
+        "proveedor": "Museos Vaticanos Educacion",
+        "contacto": "educacion@museosvaticanos.local",
+        "horario": "10:00 - 12:00"
+      },
+      {
+        "titulo": "Ruta de obras imprescindibles",
+        "descripcion": "Seleccion comentada de salas, objetos y relatos para aprovechar la visita sin perderse lo esencial.",
+        "proveedor": "Guias de Roma",
+        "contacto": "reservas@romatours.local",
+        "horario": "12:30 - 14:00"
+      },
+      {
+        "titulo": "Taller creativo",
+        "descripcion": "Actividad practica inspirada en las colecciones del museo, pensada para viajeros curiosos y familias.",
+        "proveedor": "Atelier Roma",
+        "contacto": "talleres@romaatelier.local",
+        "horario": "16:00 - 18:00"
+      },
+      {
+        "titulo": "Audioguia express",
+        "descripcion": "Formato autonomo y breve para recorrer Museos Vaticanos con contexto historico y buenas pausas.",
+        "proveedor": "Audio Travel",
+        "contacto": "audio@travel.local",
+        "horario": "Durante apertura"
+      },
+      {
+        "titulo": "Encuentro con especialista",
+        "descripcion": "Charla divulgativa sobre restauracion, archivo o seleccion de piezas destacadas.",
+        "proveedor": "Cultura Roma",
+        "contacto": "info@culturaroma.local",
+        "horario": "Consultar calendario"
+      },
+      {
+        "titulo": "Paseo fotografico interior",
+        "descripcion": "Ruta de encuadres permitidos, arquitectura y detalles visuales sin interferir con la visita.",
+        "proveedor": "Photo Walk Roma",
+        "contacto": "foto@romawalk.local",
+        "horario": "Ultima hora de apertura"
+      }
+    ]
   },
   {
     "id": 6,
@@ -87,7 +327,55 @@
     "rating": 4.7,
     "imagen": "img/roma_trastevere.png",
     "imagenCard": "img/roma_trastevere.png",
-    "tags": ["bohemio", "barrio", "noche"]
+    "tags": [
+      "bohemio",
+      "barrio",
+      "noche"
+    ],
+    "actividades": [
+      {
+        "titulo": "Paseo de barrio",
+        "descripcion": "Ruta a pie por calles, plazas y rincones cotidianos para entender el caracter de Trastevere.",
+        "proveedor": "Walks Roma",
+        "contacto": "walks@roma.local",
+        "horario": "10:30 - 12:30"
+      },
+      {
+        "titulo": "Ruta gastronomica local",
+        "descripcion": "Paradas escogidas para probar sabores representativos y conocer pequenos comercios de la zona.",
+        "proveedor": "Sabores de Roma",
+        "contacto": "sabores@roma.local",
+        "horario": "13:00 - 15:00"
+      },
+      {
+        "titulo": "Fotografia urbana",
+        "descripcion": "Paseo para buscar fachadas, mercados, escenas de calle y detalles con personalidad.",
+        "proveedor": "Photo Walk Roma",
+        "contacto": "foto@romawalk.local",
+        "horario": "Atardecer"
+      },
+      {
+        "titulo": "Historias del vecindario",
+        "descripcion": "Relato guiado sobre cambios urbanos, vida local y memoria del barrio.",
+        "proveedor": "Cronicas Roma",
+        "contacto": "cronicas@roma.local",
+        "horario": "17:00 - 18:30"
+      },
+      {
+        "titulo": "Compras con guia local",
+        "descripcion": "Seleccion de tiendas, talleres y productos con criterio local y sin prisas.",
+        "proveedor": "Local Shops Roma",
+        "contacto": "shops@roma.local",
+        "horario": "11:00 - 13:00"
+      },
+      {
+        "titulo": "Noche de ambiente",
+        "descripcion": "Recorrido suave por bares, plazas y locales recomendados para tomar el pulso nocturno.",
+        "proveedor": "After Dark Roma",
+        "contacto": "noche@roma.local",
+        "horario": "20:00 - 22:00"
+      }
+    ]
   },
   {
     "id": 7,
@@ -102,7 +390,55 @@
     "rating": 4.7,
     "imagen": "img/roma_borghese.png",
     "imagenCard": "img/roma_borghese.png",
-    "tags": ["parque", "arte", "naturaleza"]
+    "tags": [
+      "parque",
+      "arte",
+      "naturaleza"
+    ],
+    "actividades": [
+      {
+        "titulo": "Paseo botanico",
+        "descripcion": "Recorrido por senderos, jardines y miradores para reconocer especies y entender el paisaje de Villa Borghese.",
+        "proveedor": "Green Roma",
+        "contacto": "green@roma.local",
+        "horario": "10:00 - 11:30"
+      },
+      {
+        "titulo": "Picnic con producto local",
+        "descripcion": "Experiencia relajada con cesta preparada y recomendaciones de zonas tranquilas.",
+        "proveedor": "Picnic Roma",
+        "contacto": "picnic@roma.local",
+        "horario": "13:00 - 15:00"
+      },
+      {
+        "titulo": "Ruta fotografica natural",
+        "descripcion": "Paseo para capturar luz, vegetacion, agua y vistas con ritmo tranquilo.",
+        "proveedor": "Photo Walk Roma",
+        "contacto": "foto@romawalk.local",
+        "horario": "Atardecer"
+      },
+      {
+        "titulo": "Actividad familiar al aire libre",
+        "descripcion": "Juego de observacion y pequenas misiones para recorrer Villa Borghese con ninos.",
+        "proveedor": "Familias Viajeras",
+        "contacto": "familias@viaje.local",
+        "horario": "11:00 - 12:30"
+      },
+      {
+        "titulo": "Bienestar y estiramientos",
+        "descripcion": "Sesion suave para empezar el dia respirando mejor y disfrutando del entorno.",
+        "proveedor": "Wellness Roma",
+        "contacto": "wellness@roma.local",
+        "horario": "08:30 - 09:30"
+      },
+      {
+        "titulo": "Miradores y rincones tranquilos",
+        "descripcion": "Ruta breve por bancos, sombras y puntos de descanso para bajar el ritmo del viaje.",
+        "proveedor": "Slow Travel Roma",
+        "contacto": "slow@roma.local",
+        "horario": "16:30 - 18:00"
+      }
+    ]
   },
   {
     "id": 8,
@@ -117,7 +453,55 @@
     "rating": 4.6,
     "imagen": "img/roma_campofiori.png",
     "imagenCard": "img/roma_campofiori.png",
-    "tags": ["mercado", "flores", "ambiente"]
+    "tags": [
+      "mercado",
+      "flores",
+      "ambiente"
+    ],
+    "actividades": [
+      {
+        "titulo": "Visita guiada esencial",
+        "descripcion": "Recorrido interpretado por Campo de' Fiori y su contexto dentro de Roma.",
+        "proveedor": "Guias Locales Roma",
+        "contacto": "hola@romalocal.local",
+        "horario": "10:00 - 12:00"
+      },
+      {
+        "titulo": "Paseo fotografico",
+        "descripcion": "Actividad para encontrar buenos encuadres, detalles y luz adecuada en Campo de' Fiori.",
+        "proveedor": "Photo Walk Roma",
+        "contacto": "foto@romawalk.local",
+        "horario": "Atardecer"
+      },
+      {
+        "titulo": "Tour privado a medida",
+        "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
+        "proveedor": "Travel Designers Roma",
+        "contacto": "plan@romatravel.local",
+        "horario": "Bajo reserva"
+      },
+      {
+        "titulo": "Ruta familiar",
+        "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
+        "proveedor": "Familias Viajeras",
+        "contacto": "familias@viaje.local",
+        "horario": "11:00 - 12:30"
+      },
+      {
+        "titulo": "Experiencia al atardecer",
+        "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
+        "proveedor": "Slow Travel Roma",
+        "contacto": "slow@roma.local",
+        "horario": "Atardecer"
+      },
+      {
+        "titulo": "Audioguia express",
+        "descripcion": "Formato breve para entender lo esencial de Campo de' Fiori con autonomia.",
+        "proveedor": "Audio Travel",
+        "contacto": "audio@travel.local",
+        "horario": "Durante apertura"
+      }
+    ]
   },
   {
     "id": 9,
@@ -132,6 +516,54 @@
     "rating": 4.8,
     "imagen": "img/roma_roscioli.png",
     "imagenCard": "img/roma_roscioli.png",
-    "tags": ["gastronomía", "carbonara", "delicatessen"]
+    "tags": [
+      "gastronomía",
+      "carbonara",
+      "delicatessen"
+    ],
+    "actividades": [
+      {
+        "titulo": "Mesa recomendada",
+        "descripcion": "Reserva orientada para probar los platos mas representativos de Salumeria Roscioli sin complicarse.",
+        "proveedor": "Salumeria Roscioli",
+        "contacto": "reservas@salumeriaroscioli.local",
+        "horario": "Comida y cena"
+      },
+      {
+        "titulo": "Menu degustacion",
+        "descripcion": "Seleccion de platos para entender la propuesta de cocina y los sabores de Roma.",
+        "proveedor": "Sabores de Roma",
+        "contacto": "sabores@roma.local",
+        "horario": "Consultar servicio"
+      },
+      {
+        "titulo": "Charla con cocina",
+        "descripcion": "Experiencia breve para conocer ingredientes, tecnica y pequenos detalles del equipo.",
+        "proveedor": "Food Stories Roma",
+        "contacto": "food@roma.local",
+        "horario": "Antes de comer"
+      },
+      {
+        "titulo": "Maridaje local",
+        "descripcion": "Propuesta de bebidas o productos locales para acompanar la comida con criterio.",
+        "proveedor": "Catas Roma",
+        "contacto": "catas@roma.local",
+        "horario": "Cena"
+      },
+      {
+        "titulo": "Ruta gastronomica cercana",
+        "descripcion": "Paseo por la zona antes o despues de comer, enlazando mercado, barrio y mesa.",
+        "proveedor": "Food Walk Roma",
+        "contacto": "foodwalk@roma.local",
+        "horario": "12:00 - 14:00"
+      },
+      {
+        "titulo": "Clase de sabor local",
+        "descripcion": "Taller sencillo inspirado en recetas, ingredientes o tecnicas vinculadas al restaurante.",
+        "proveedor": "Talleres Roma",
+        "contacto": "talleres@roma.local",
+        "horario": "Consultar calendario"
+      }
+    ]
   }
 ]

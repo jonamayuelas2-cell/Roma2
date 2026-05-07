@@ -5,13 +5,62 @@
     "tipo": "cultura",
     "descripcion": "Residencia de verano de los Habsburgo, famosa por sus jardines barrocos.",
     "descripcionCorta": "El Versalles vienés.",
-    "lat": 48.1848, "lng": 16.3122,
+    "lat": 48.1848,
+    "lng": 16.3122,
     "horario": "8:30 - 17:30",
     "precio": "22€",
     "rating": 4.9,
     "imagen": "img/vienna_schonbrunn.png",
     "imagenCard": "img/vienna_schonbrunn.png",
-    "tags": ["realeza", "historia", "jardines"]
+    "tags": [
+      "realeza",
+      "historia",
+      "jardines"
+    ],
+    "actividades": [
+      {
+        "titulo": "Tour historico esencial",
+        "descripcion": "Recorrido guiado por Palacio de Schönbrunn para conectar arquitectura, personajes y momentos clave de Viena.",
+        "proveedor": "Historia Viva Viena",
+        "contacto": "reservas@historiaviena.local",
+        "horario": "10:00 - 12:00"
+      },
+      {
+        "titulo": "Acceso con contexto local",
+        "descripcion": "Visita pausada con explicaciones practicas para comprender por que este lugar sigue siendo imprescindible.",
+        "proveedor": "Guias Locales Viena",
+        "contacto": "hola@vienalocal.local",
+        "horario": "12:00 - 14:00"
+      },
+      {
+        "titulo": "Paseo fotografico",
+        "descripcion": "Itinerario para capturar fachadas, perspectivas y detalles con la mejor luz disponible.",
+        "proveedor": "Photo Walk Viena",
+        "contacto": "foto@vienawalk.local",
+        "horario": "Atardecer"
+      },
+      {
+        "titulo": "Ruta de leyendas",
+        "descripcion": "Historias, simbolos y anecdotas alrededor de Palacio de Schönbrunn, con tono narrativo y facil de seguir.",
+        "proveedor": "Relatos de Viena",
+        "contacto": "relatos@viena.local",
+        "horario": "18:00 - 19:30"
+      },
+      {
+        "titulo": "Visita familiar",
+        "descripcion": "Version didactica con paradas breves, preguntas y claves sencillas para ninos y adultos.",
+        "proveedor": "Familias Viajeras",
+        "contacto": "familias@viaje.local",
+        "horario": "11:00 - 12:30"
+      },
+      {
+        "titulo": "Audioguia express",
+        "descripcion": "Recorrido autonomo para ver lo principal de Palacio de Schönbrunn con contexto claro y sin prisas.",
+        "proveedor": "Audio Travel",
+        "contacto": "audio@travel.local",
+        "horario": "Durante apertura"
+      }
+    ]
   },
   {
     "id": 2,
@@ -19,12 +68,61 @@
     "tipo": "cultura",
     "descripcion": "El símbolo religioso más importante de Viena, situada en el Stephansplatz.",
     "descripcionCorta": "El corazón gótico de Viena.",
-    "lat": 48.2084, "lng": 16.3731,
+    "lat": 48.2084,
+    "lng": 16.3731,
     "horario": "6:00 - 22:00",
     "precio": "Gratis",
     "rating": 4.8,
     "imagen": "img/vienna_stephansdom.png",
     "imagenCard": "img/vienna_stephansdom.png",
-    "tags": ["catedral", "vistas", "arquitectura"]
+    "tags": [
+      "catedral",
+      "vistas",
+      "arquitectura"
+    ],
+    "actividades": [
+      {
+        "titulo": "Tour historico esencial",
+        "descripcion": "Recorrido guiado por Catedral de San Esteban para conectar arquitectura, personajes y momentos clave de Viena.",
+        "proveedor": "Historia Viva Viena",
+        "contacto": "reservas@historiaviena.local",
+        "horario": "10:00 - 12:00"
+      },
+      {
+        "titulo": "Acceso con contexto local",
+        "descripcion": "Visita pausada con explicaciones practicas para comprender por que este lugar sigue siendo imprescindible.",
+        "proveedor": "Guias Locales Viena",
+        "contacto": "hola@vienalocal.local",
+        "horario": "12:00 - 14:00"
+      },
+      {
+        "titulo": "Paseo fotografico",
+        "descripcion": "Itinerario para capturar fachadas, perspectivas y detalles con la mejor luz disponible.",
+        "proveedor": "Photo Walk Viena",
+        "contacto": "foto@vienawalk.local",
+        "horario": "Atardecer"
+      },
+      {
+        "titulo": "Ruta de leyendas",
+        "descripcion": "Historias, simbolos y anecdotas alrededor de Catedral de San Esteban, con tono narrativo y facil de seguir.",
+        "proveedor": "Relatos de Viena",
+        "contacto": "relatos@viena.local",
+        "horario": "18:00 - 19:30"
+      },
+      {
+        "titulo": "Visita familiar",
+        "descripcion": "Version didactica con paradas breves, preguntas y claves sencillas para ninos y adultos.",
+        "proveedor": "Familias Viajeras",
+        "contacto": "familias@viaje.local",
+        "horario": "11:00 - 12:30"
+      },
+      {
+        "titulo": "Audioguia express",
+        "descripcion": "Recorrido autonomo para ver lo principal de Catedral de San Esteban con contexto claro y sin prisas.",
+        "proveedor": "Audio Travel",
+        "contacto": "audio@travel.local",
+        "horario": "Durante apertura"
+      }
+    ]
   }
 ]

@@ -5,13 +5,62 @@
     "tipo": "cultura",
     "descripcion": "Puente medieval famoso que une la Ciudad Vieja con el Barrio Pequeño.",
     "descripcionCorta": "El puente más romántico de Europa.",
-    "lat": 50.0865, "lng": 14.4114,
+    "lat": 50.0865,
+    "lng": 14.4114,
     "horario": "24h",
     "precio": "Gratis",
     "rating": 4.9,
     "imagen": "img/prague_charlesbridge.png",
     "imagenCard": "img/prague_charlesbridge.png",
-    "tags": ["historia", "vistas", "romántico"]
+    "tags": [
+      "historia",
+      "vistas",
+      "romántico"
+    ],
+    "actividades": [
+      {
+        "titulo": "Tour historico esencial",
+        "descripcion": "Recorrido guiado por Puente Carlos para conectar arquitectura, personajes y momentos clave de Praga.",
+        "proveedor": "Historia Viva Praga",
+        "contacto": "reservas@historiapraga.local",
+        "horario": "10:00 - 12:00"
+      },
+      {
+        "titulo": "Acceso con contexto local",
+        "descripcion": "Visita pausada con explicaciones practicas para comprender por que este lugar sigue siendo imprescindible.",
+        "proveedor": "Guias Locales Praga",
+        "contacto": "hola@pragalocal.local",
+        "horario": "12:00 - 14:00"
+      },
+      {
+        "titulo": "Paseo fotografico",
+        "descripcion": "Itinerario para capturar fachadas, perspectivas y detalles con la mejor luz disponible.",
+        "proveedor": "Photo Walk Praga",
+        "contacto": "foto@pragawalk.local",
+        "horario": "Atardecer"
+      },
+      {
+        "titulo": "Ruta de leyendas",
+        "descripcion": "Historias, simbolos y anecdotas alrededor de Puente Carlos, con tono narrativo y facil de seguir.",
+        "proveedor": "Relatos de Praga",
+        "contacto": "relatos@praga.local",
+        "horario": "18:00 - 19:30"
+      },
+      {
+        "titulo": "Visita familiar",
+        "descripcion": "Version didactica con paradas breves, preguntas y claves sencillas para ninos y adultos.",
+        "proveedor": "Familias Viajeras",
+        "contacto": "familias@viaje.local",
+        "horario": "11:00 - 12:30"
+      },
+      {
+        "titulo": "Audioguia express",
+        "descripcion": "Recorrido autonomo para ver lo principal de Puente Carlos con contexto claro y sin prisas.",
+        "proveedor": "Audio Travel",
+        "contacto": "audio@travel.local",
+        "horario": "Durante apertura"
+      }
+    ]
   },
   {
     "id": 2,
@@ -19,12 +68,61 @@
     "tipo": "cultura",
     "descripcion": "Complejo fortificado que domina la ciudad, sede de los reyes de Bohemia.",
     "descripcionCorta": "El castillo más grande del mundo.",
-    "lat": 50.0911, "lng": 14.4016,
+    "lat": 50.0911,
+    "lng": 14.4016,
     "horario": "9:00 - 17:00",
     "precio": "10€",
     "rating": 4.8,
     "imagen": "img/prague_castle.png",
     "imagenCard": "img/prague_castle.png",
-    "tags": ["monarquía", "vistas", "historia"]
+    "tags": [
+      "monarquía",
+      "vistas",
+      "historia"
+    ],
+    "actividades": [
+      {
+        "titulo": "Tour historico esencial",
+        "descripcion": "Recorrido guiado por Castillo de Praga para conectar arquitectura, personajes y momentos clave de Praga.",
+        "proveedor": "Historia Viva Praga",
+        "contacto": "reservas@historiapraga.local",
+        "horario": "10:00 - 12:00"
+      },
+      {
+        "titulo": "Acceso con contexto local",
+        "descripcion": "Visita pausada con explicaciones practicas para comprender por que este lugar sigue siendo imprescindible.",
+        "proveedor": "Guias Locales Praga",
+        "contacto": "hola@pragalocal.local",
+        "horario": "12:00 - 14:00"
+      },
+      {
+        "titulo": "Paseo fotografico",
+        "descripcion": "Itinerario para capturar fachadas, perspectivas y detalles con la mejor luz disponible.",
+        "proveedor": "Photo Walk Praga",
+        "contacto": "foto@pragawalk.local",
+        "horario": "Atardecer"
+      },
+      {
+        "titulo": "Ruta de leyendas",
+        "descripcion": "Historias, simbolos y anecdotas alrededor de Castillo de Praga, con tono narrativo y facil de seguir.",
+        "proveedor": "Relatos de Praga",
+        "contacto": "relatos@praga.local",
+        "horario": "18:00 - 19:30"
+      },
+      {
+        "titulo": "Visita familiar",
+        "descripcion": "Version didactica con paradas breves, preguntas y claves sencillas para ninos y adultos.",
+        "proveedor": "Familias Viajeras",
+        "contacto": "familias@viaje.local",
+        "horario": "11:00 - 12:30"
+      },
+      {
+        "titulo": "Audioguia express",
+        "descripcion": "Recorrido autonomo para ver lo principal de Castillo de Praga con contexto claro y sin prisas.",
+        "proveedor": "Audio Travel",
+        "contacto": "audio@travel.local",
+        "horario": "Durante apertura"
+      }
+    ]
   }
 ]

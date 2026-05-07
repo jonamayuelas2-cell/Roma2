@@ -16,6 +16,50 @@
       "cultura",
       "oceania",
       "sidney"
+    ],
+    "actividades": [
+      {
+        "titulo": "Tour historico esencial",
+        "descripcion": "Recorrido guiado por Opera House para conectar arquitectura, personajes y momentos clave de Sidney.",
+        "proveedor": "Historia Viva Sidney",
+        "contacto": "reservas@historiasidney.local",
+        "horario": "10:00 - 12:00"
+      },
+      {
+        "titulo": "Acceso con contexto local",
+        "descripcion": "Visita pausada con explicaciones practicas para comprender por que este lugar sigue siendo imprescindible.",
+        "proveedor": "Guias Locales Sidney",
+        "contacto": "hola@sidneylocal.local",
+        "horario": "12:00 - 14:00"
+      },
+      {
+        "titulo": "Paseo fotografico",
+        "descripcion": "Itinerario para capturar fachadas, perspectivas y detalles con la mejor luz disponible.",
+        "proveedor": "Photo Walk Sidney",
+        "contacto": "foto@sidneywalk.local",
+        "horario": "Atardecer"
+      },
+      {
+        "titulo": "Ruta de leyendas",
+        "descripcion": "Historias, simbolos y anecdotas alrededor de Opera House, con tono narrativo y facil de seguir.",
+        "proveedor": "Relatos de Sidney",
+        "contacto": "relatos@sidney.local",
+        "horario": "18:00 - 19:30"
+      },
+      {
+        "titulo": "Visita familiar",
+        "descripcion": "Version didactica con paradas breves, preguntas y claves sencillas para ninos y adultos.",
+        "proveedor": "Familias Viajeras",
+        "contacto": "familias@viaje.local",
+        "horario": "11:00 - 12:30"
+      },
+      {
+        "titulo": "Audioguia express",
+        "descripcion": "Recorrido autonomo para ver lo principal de Opera House con contexto claro y sin prisas.",
+        "proveedor": "Audio Travel",
+        "contacto": "audio@travel.local",
+        "horario": "Durante apertura"
+      }
     ]
   },
   {
@@ -35,6 +79,50 @@
       "cultura",
       "oceania",
       "sidney"
+    ],
+    "actividades": [
+      {
+        "titulo": "Tour historico esencial",
+        "descripcion": "Recorrido guiado por Harbour Bridge para conectar arquitectura, personajes y momentos clave de Sidney.",
+        "proveedor": "Historia Viva Sidney",
+        "contacto": "reservas@historiasidney.local",
+        "horario": "10:00 - 12:00"
+      },
+      {
+        "titulo": "Acceso con contexto local",
+        "descripcion": "Visita pausada con explicaciones practicas para comprender por que este lugar sigue siendo imprescindible.",
+        "proveedor": "Guias Locales Sidney",
+        "contacto": "hola@sidneylocal.local",
+        "horario": "12:00 - 14:00"
+      },
+      {
+        "titulo": "Paseo fotografico",
+        "descripcion": "Itinerario para capturar fachadas, perspectivas y detalles con la mejor luz disponible.",
+        "proveedor": "Photo Walk Sidney",
+        "contacto": "foto@sidneywalk.local",
+        "horario": "Atardecer"
+      },
+      {
+        "titulo": "Ruta de leyendas",
+        "descripcion": "Historias, simbolos y anecdotas alrededor de Harbour Bridge, con tono narrativo y facil de seguir.",
+        "proveedor": "Relatos de Sidney",
+        "contacto": "relatos@sidney.local",
+        "horario": "18:00 - 19:30"
+      },
+      {
+        "titulo": "Visita familiar",
+        "descripcion": "Version didactica con paradas breves, preguntas y claves sencillas para ninos y adultos.",
+        "proveedor": "Familias Viajeras",
+        "contacto": "familias@viaje.local",
+        "horario": "11:00 - 12:30"
+      },
+      {
+        "titulo": "Audioguia express",
+        "descripcion": "Recorrido autonomo para ver lo principal de Harbour Bridge con contexto claro y sin prisas.",
+        "proveedor": "Audio Travel",
+        "contacto": "audio@travel.local",
+        "horario": "Durante apertura"
+      }
     ]
   },
   {
@@ -54,6 +142,50 @@
       "parques",
       "oceania",
       "sidney"
+    ],
+    "actividades": [
+      {
+        "titulo": "Paseo botanico",
+        "descripcion": "Recorrido por senderos, jardines y miradores para reconocer especies y entender el paisaje de Bondi Beach.",
+        "proveedor": "Green Sidney",
+        "contacto": "green@sidney.local",
+        "horario": "10:00 - 11:30"
+      },
+      {
+        "titulo": "Picnic con producto local",
+        "descripcion": "Experiencia relajada con cesta preparada y recomendaciones de zonas tranquilas.",
+        "proveedor": "Picnic Sidney",
+        "contacto": "picnic@sidney.local",
+        "horario": "13:00 - 15:00"
+      },
+      {
+        "titulo": "Ruta fotografica natural",
+        "descripcion": "Paseo para capturar luz, vegetacion, agua y vistas con ritmo tranquilo.",
+        "proveedor": "Photo Walk Sidney",
+        "contacto": "foto@sidneywalk.local",
+        "horario": "Atardecer"
+      },
+      {
+        "titulo": "Actividad familiar al aire libre",
+        "descripcion": "Juego de observacion y pequenas misiones para recorrer Bondi Beach con ninos.",
+        "proveedor": "Familias Viajeras",
+        "contacto": "familias@viaje.local",
+        "horario": "11:00 - 12:30"
+      },
+      {
+        "titulo": "Bienestar y estiramientos",
+        "descripcion": "Sesion suave para empezar el dia respirando mejor y disfrutando del entorno.",
+        "proveedor": "Wellness Sidney",
+        "contacto": "wellness@sidney.local",
+        "horario": "08:30 - 09:30"
+      },
+      {
+        "titulo": "Miradores y rincones tranquilos",
+        "descripcion": "Ruta breve por bancos, sombras y puntos de descanso para bajar el ritmo del viaje.",
+        "proveedor": "Slow Travel Sidney",
+        "contacto": "slow@sidney.local",
+        "horario": "16:30 - 18:00"
+      }
     ]
   },
   {
@@ -73,6 +205,50 @@
       "barrios",
       "oceania",
       "sidney"
+    ],
+    "actividades": [
+      {
+        "titulo": "Paseo de barrio",
+        "descripcion": "Ruta a pie por calles, plazas y rincones cotidianos para entender el caracter de The Rocks.",
+        "proveedor": "Walks Sidney",
+        "contacto": "walks@sidney.local",
+        "horario": "10:30 - 12:30"
+      },
+      {
+        "titulo": "Ruta gastronomica local",
+        "descripcion": "Paradas escogidas para probar sabores representativos y conocer pequenos comercios de la zona.",
+        "proveedor": "Sabores de Sidney",
+        "contacto": "sabores@sidney.local",
+        "horario": "13:00 - 15:00"
+      },
+      {
+        "titulo": "Fotografia urbana",
+        "descripcion": "Paseo para buscar fachadas, mercados, escenas de calle y detalles con personalidad.",
+        "proveedor": "Photo Walk Sidney",
+        "contacto": "foto@sidneywalk.local",
+        "horario": "Atardecer"
+      },
+      {
+        "titulo": "Historias del vecindario",
+        "descripcion": "Relato guiado sobre cambios urbanos, vida local y memoria del barrio.",
+        "proveedor": "Cronicas Sidney",
+        "contacto": "cronicas@sidney.local",
+        "horario": "17:00 - 18:30"
+      },
+      {
+        "titulo": "Compras con guia local",
+        "descripcion": "Seleccion de tiendas, talleres y productos con criterio local y sin prisas.",
+        "proveedor": "Local Shops Sidney",
+        "contacto": "shops@sidney.local",
+        "horario": "11:00 - 13:00"
+      },
+      {
+        "titulo": "Noche de ambiente",
+        "descripcion": "Recorrido suave por bares, plazas y locales recomendados para tomar el pulso nocturno.",
+        "proveedor": "After Dark Sidney",
+        "contacto": "noche@sidney.local",
+        "horario": "20:00 - 22:00"
+      }
     ]
   },
   {
@@ -92,6 +268,50 @@
       "parques",
       "oceania",
       "sidney"
+    ],
+    "actividades": [
+      {
+        "titulo": "Paseo botanico",
+        "descripcion": "Recorrido por senderos, jardines y miradores para reconocer especies y entender el paisaje de Royal Botanic Garden.",
+        "proveedor": "Green Sidney",
+        "contacto": "green@sidney.local",
+        "horario": "10:00 - 11:30"
+      },
+      {
+        "titulo": "Picnic con producto local",
+        "descripcion": "Experiencia relajada con cesta preparada y recomendaciones de zonas tranquilas.",
+        "proveedor": "Picnic Sidney",
+        "contacto": "picnic@sidney.local",
+        "horario": "13:00 - 15:00"
+      },
+      {
+        "titulo": "Ruta fotografica natural",
+        "descripcion": "Paseo para capturar luz, vegetacion, agua y vistas con ritmo tranquilo.",
+        "proveedor": "Photo Walk Sidney",
+        "contacto": "foto@sidneywalk.local",
+        "horario": "Atardecer"
+      },
+      {
+        "titulo": "Actividad familiar al aire libre",
+        "descripcion": "Juego de observacion y pequenas misiones para recorrer Royal Botanic Garden con ninos.",
+        "proveedor": "Familias Viajeras",
+        "contacto": "familias@viaje.local",
+        "horario": "11:00 - 12:30"
+      },
+      {
+        "titulo": "Bienestar y estiramientos",
+        "descripcion": "Sesion suave para empezar el dia respirando mejor y disfrutando del entorno.",
+        "proveedor": "Wellness Sidney",
+        "contacto": "wellness@sidney.local",
+        "horario": "08:30 - 09:30"
+      },
+      {
+        "titulo": "Miradores y rincones tranquilos",
+        "descripcion": "Ruta breve por bancos, sombras y puntos de descanso para bajar el ritmo del viaje.",
+        "proveedor": "Slow Travel Sidney",
+        "contacto": "slow@sidney.local",
+        "horario": "16:30 - 18:00"
+      }
     ]
   },
   {
@@ -111,6 +331,50 @@
       "museos",
       "oceania",
       "sidney"
+    ],
+    "actividades": [
+      {
+        "titulo": "Visita guiada a la coleccion",
+        "descripcion": "Recorrido para entender las piezas clave de Art Gallery of NSW y su papel en la identidad de Sidney.",
+        "proveedor": "Art Gallery of NSW Educacion",
+        "contacto": "educacion@artgalleryofnsw.local",
+        "horario": "10:00 - 12:00"
+      },
+      {
+        "titulo": "Ruta de obras imprescindibles",
+        "descripcion": "Seleccion comentada de salas, objetos y relatos para aprovechar la visita sin perderse lo esencial.",
+        "proveedor": "Guias de Sidney",
+        "contacto": "reservas@sidneytours.local",
+        "horario": "12:30 - 14:00"
+      },
+      {
+        "titulo": "Taller creativo",
+        "descripcion": "Actividad practica inspirada en las colecciones del museo, pensada para viajeros curiosos y familias.",
+        "proveedor": "Atelier Sidney",
+        "contacto": "talleres@sidneyatelier.local",
+        "horario": "16:00 - 18:00"
+      },
+      {
+        "titulo": "Audioguia express",
+        "descripcion": "Formato autonomo y breve para recorrer Art Gallery of NSW con contexto historico y buenas pausas.",
+        "proveedor": "Audio Travel",
+        "contacto": "audio@travel.local",
+        "horario": "Durante apertura"
+      },
+      {
+        "titulo": "Encuentro con especialista",
+        "descripcion": "Charla divulgativa sobre restauracion, archivo o seleccion de piezas destacadas.",
+        "proveedor": "Cultura Sidney",
+        "contacto": "info@culturasidney.local",
+        "horario": "Consultar calendario"
+      },
+      {
+        "titulo": "Paseo fotografico interior",
+        "descripcion": "Ruta de encuadres permitidos, arquitectura y detalles visuales sin interferir con la visita.",
+        "proveedor": "Photo Walk Sidney",
+        "contacto": "foto@sidneywalk.local",
+        "horario": "Ultima hora de apertura"
+      }
     ]
   },
   {
@@ -130,6 +394,50 @@
       "barrios",
       "oceania",
       "sidney"
+    ],
+    "actividades": [
+      {
+        "titulo": "Paseo de barrio",
+        "descripcion": "Ruta a pie por calles, plazas y rincones cotidianos para entender el caracter de Darling Harbour.",
+        "proveedor": "Walks Sidney",
+        "contacto": "walks@sidney.local",
+        "horario": "10:30 - 12:30"
+      },
+      {
+        "titulo": "Ruta gastronomica local",
+        "descripcion": "Paradas escogidas para probar sabores representativos y conocer pequenos comercios de la zona.",
+        "proveedor": "Sabores de Sidney",
+        "contacto": "sabores@sidney.local",
+        "horario": "13:00 - 15:00"
+      },
+      {
+        "titulo": "Fotografia urbana",
+        "descripcion": "Paseo para buscar fachadas, mercados, escenas de calle y detalles con personalidad.",
+        "proveedor": "Photo Walk Sidney",
+        "contacto": "foto@sidneywalk.local",
+        "horario": "Atardecer"
+      },
+      {
+        "titulo": "Historias del vecindario",
+        "descripcion": "Relato guiado sobre cambios urbanos, vida local y memoria del barrio.",
+        "proveedor": "Cronicas Sidney",
+        "contacto": "cronicas@sidney.local",
+        "horario": "17:00 - 18:30"
+      },
+      {
+        "titulo": "Compras con guia local",
+        "descripcion": "Seleccion de tiendas, talleres y productos con criterio local y sin prisas.",
+        "proveedor": "Local Shops Sidney",
+        "contacto": "shops@sidney.local",
+        "horario": "11:00 - 13:00"
+      },
+      {
+        "titulo": "Noche de ambiente",
+        "descripcion": "Recorrido suave por bares, plazas y locales recomendados para tomar el pulso nocturno.",
+        "proveedor": "After Dark Sidney",
+        "contacto": "noche@sidney.local",
+        "horario": "20:00 - 22:00"
+      }
     ]
   },
   {
@@ -149,6 +457,50 @@
       "mercados",
       "oceania",
       "sidney"
+    ],
+    "actividades": [
+      {
+        "titulo": "Visita guiada esencial",
+        "descripcion": "Recorrido interpretado por Sydney Fish Market y su contexto dentro de Sidney.",
+        "proveedor": "Guias Locales Sidney",
+        "contacto": "hola@sidneylocal.local",
+        "horario": "10:00 - 12:00"
+      },
+      {
+        "titulo": "Paseo fotografico",
+        "descripcion": "Actividad para encontrar buenos encuadres, detalles y luz adecuada en Sydney Fish Market.",
+        "proveedor": "Photo Walk Sidney",
+        "contacto": "foto@sidneywalk.local",
+        "horario": "Atardecer"
+      },
+      {
+        "titulo": "Tour privado a medida",
+        "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
+        "proveedor": "Travel Designers Sidney",
+        "contacto": "plan@sidneytravel.local",
+        "horario": "Bajo reserva"
+      },
+      {
+        "titulo": "Ruta familiar",
+        "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
+        "proveedor": "Familias Viajeras",
+        "contacto": "familias@viaje.local",
+        "horario": "11:00 - 12:30"
+      },
+      {
+        "titulo": "Experiencia al atardecer",
+        "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
+        "proveedor": "Slow Travel Sidney",
+        "contacto": "slow@sidney.local",
+        "horario": "Atardecer"
+      },
+      {
+        "titulo": "Audioguia express",
+        "descripcion": "Formato breve para entender lo esencial de Sydney Fish Market con autonomia.",
+        "proveedor": "Audio Travel",
+        "contacto": "audio@travel.local",
+        "horario": "Durante apertura"
+      }
     ]
   },
   {
@@ -168,6 +520,50 @@
       "cultura",
       "oceania",
       "sidney"
+    ],
+    "actividades": [
+      {
+        "titulo": "Tour historico esencial",
+        "descripcion": "Recorrido guiado por Manly Ferry para conectar arquitectura, personajes y momentos clave de Sidney.",
+        "proveedor": "Historia Viva Sidney",
+        "contacto": "reservas@historiasidney.local",
+        "horario": "10:00 - 12:00"
+      },
+      {
+        "titulo": "Acceso con contexto local",
+        "descripcion": "Visita pausada con explicaciones practicas para comprender por que este lugar sigue siendo imprescindible.",
+        "proveedor": "Guias Locales Sidney",
+        "contacto": "hola@sidneylocal.local",
+        "horario": "12:00 - 14:00"
+      },
+      {
+        "titulo": "Paseo fotografico",
+        "descripcion": "Itinerario para capturar fachadas, perspectivas y detalles con la mejor luz disponible.",
+        "proveedor": "Photo Walk Sidney",
+        "contacto": "foto@sidneywalk.local",
+        "horario": "Atardecer"
+      },
+      {
+        "titulo": "Ruta de leyendas",
+        "descripcion": "Historias, simbolos y anecdotas alrededor de Manly Ferry, con tono narrativo y facil de seguir.",
+        "proveedor": "Relatos de Sidney",
+        "contacto": "relatos@sidney.local",
+        "horario": "18:00 - 19:30"
+      },
+      {
+        "titulo": "Visita familiar",
+        "descripcion": "Version didactica con paradas breves, preguntas y claves sencillas para ninos y adultos.",
+        "proveedor": "Familias Viajeras",
+        "contacto": "familias@viaje.local",
+        "horario": "11:00 - 12:30"
+      },
+      {
+        "titulo": "Audioguia express",
+        "descripcion": "Recorrido autonomo para ver lo principal de Manly Ferry con contexto claro y sin prisas.",
+        "proveedor": "Audio Travel",
+        "contacto": "audio@travel.local",
+        "horario": "Durante apertura"
+      }
     ]
   }
 ]
