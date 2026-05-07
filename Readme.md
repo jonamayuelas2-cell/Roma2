@@ -1,5 +1,14 @@
 # Registro de Cambios - TravelWorld PWA 🌍✨
 
+## [2026-05-07] - Estandarización Premium: Estambul 🕌🇹🇷✨
+- **Actividades Premium Estambul**: 
+  - Refactorizada la lógica de `app.js` para soportar actividades dinámicas en cualquier ciudad.
+  - Creadas las funciones `getIstanbulActivityProviders` y `getIstanbulActivityIdeas` con contenido editorial de alta calidad.
+  - Generados los primeros 3 activos 8K para actividades: Santa Sofía (Tour), Mezquita Azul (Espiritualidad) y Gran Bazar (Compras). 📸
+  - Bump de `ASSET_VERSION` para forzar el refresco de imágenes y corregir visualización en dispositivos con caché. ⚡️
+- **Mejora de Datos**: Estambul ahora cuenta con una estructura de actividades idéntica a la de Roma, elevando el destino al estándar Premium. 🌟
+- **Corrección Egipto**: Verificación de activos de El Cairo para asegurar que las nuevas imágenes 8K se muestran correctamente tras la actualización de versión. 🇪🇬
+
 ## [2026-05-07] - Estandarización Premium: Madrid y Auckland 🇪🇸🇳🇿✨
 - **Madrid Premium Completado**: Sustitución de todos los placeholders por imágenes 8K locales y mejora de descripciones literarias.
 - **Auckland Premium Parcial**: 
@@ -28,11 +37,12 @@
 - [x] **Italia (Roma)**: ✅ Fotos 8K + Descripciones Premium
 - [x] **Francia (París)**: ✅ Fotos 8K + Descripciones Premium
 - [x] **Japón (Tokio)**: ✅ Fotos 8K + Descripciones Premium
+- [x] **Turquía (Estambul)**: ✅ Actividades Premium + Fotos (Inicio) 🕌
 - [x] **Reino Unido (Londres)**: ✅ 9 Lugares (Mezcla 8K + Placeholder)
 - [x] **España (Madrid)**: ✅ Fotos 8K + Descripciones Premium
 - [/] **N. Zelanda (Auckland)**: 🔄 50% Completado (Cuota agotada)
-- [ ] **Resto de ciudades**: ⏳ Pendientes (Buenos Aires, Estambul, Ámsterdam, Atenas, Berlín)
-- **Mapeo de Picsum**: Identificadas 7 ciudades que aún dependen de placeholders (Auckland, Madrid, Buenos Aires, Estambul, Ámsterdam, Atenas, Berlín) pendientes de generación de imágenes locales.
+- [ ] **Resto de ciudades**: ⏳ Pendientes (Buenos Aires, Ámsterdam, Atenas, Berlín)
+- **Mapeo de Picsum**: Identificadas 6 ciudades que aún dependen de placeholders (Auckland, Buenos Aires, Ámsterdam, Atenas, Berlín) pendientes de generación de imágenes locales.
 - **Validación de Rutas**: Confirmado que todas las rutas `img/*.png` en los JSONs coinciden con los archivos físicos en el servidor.
 
 ## [2026-05-06] - Corrección de Errores de Sintaxis en Lima 🇵🇪🛠️

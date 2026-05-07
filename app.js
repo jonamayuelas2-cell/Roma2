@@ -1,6 +1,5 @@
-/**
  * CIUDADES DEL MUNDO PWA - Global Travel Guide
- * Dinámicamente carga datos de ciudades del mundo con un selector 3D (Globe.gl).
+    * Dinámicamente carga datos de ciudades del mundo con un selector 3D(Globe.gl).
  */
 
 const state = {
@@ -16,7 +15,7 @@ const state = {
     isTransitioning: false
 };
 
-const ASSET_VERSION = '2026-05-07-ba-refresh';
+const ASSET_VERSION = '2026-05-07-istanbul-activities-v1';
 
 function assetUrl(src) {
     if (!src || src.startsWith('http') || src.startsWith('data:')) return src;
@@ -83,7 +82,7 @@ function initGlobe() {
         renderGlobeFallback(globeContainer);
         return;
     }
-    
+
     state.globe = Globe()
         (globeContainer)
         .globeImageUrl('https://unpkg.com/three-globe/example/img/earth-blue-marble.jpg')
@@ -125,7 +124,7 @@ function initGlobe() {
         .labelDotRadius(0.2)
         .labelColor(() => 'rgba(255, 255, 255, 0.8)')
         .onLabelClick(city => selectCity(city))
-        
+
         // Fotos directamente en el mapa (HTML Elements)
         .htmlElementsData(state.cities)
         .htmlLat(d => d.lat)
@@ -153,7 +152,7 @@ function initGlobe() {
 
     state.globe.controls().autoRotate = true;
     state.globe.controls().autoRotateSpeed = 0.45;
-    
+
     state.globe.pointOfView({ lat: 15, lng: -20, altitude: 2.25 });
 }
 
@@ -188,10 +187,10 @@ async function selectCity(city) {
     state.currentCity = city;
     state.places = city.lugares;
     state.filteredPlaces = [...state.places];
-    
+
     applyTheme(city);
     updateUIForCity(city);
-    
+
     // Transición suave
     if (state.isTransitioning) return;
     state.isTransitioning = true;
@@ -200,16 +199,16 @@ async function selectCity(city) {
     const app = document.getElementById('main-app');
 
     selection.classList.add('fade-out');
-    
+
     setTimeout(() => {
         selection.style.display = 'none';
         selection.classList.remove('fade-out');
-        
+
         app.style.display = 'block';
         app.classList.add('fade-in');
-        
+
         renderPlaces();
-        
+
         setTimeout(() => {
             app.classList.remove('fade-in');
             state.isTransitioning = false;
@@ -220,11 +219,11 @@ async function selectCity(city) {
 function applyTheme(city) {
     const root = document.documentElement;
     const theme = city.theme;
-    
+
     root.style.setProperty('--primary-color', theme.primary);
     root.style.setProperty('--secondary-color', theme.secondary);
     document.body.style.fontFamily = theme.font;
-    
+
     document.querySelectorAll('.logo-text, .hero h1, .tab-btn').forEach(el => {
         el.style.fontFamily = theme.font;
     });
@@ -233,11 +232,11 @@ function applyTheme(city) {
 function updateUIForCity(city) {
     document.getElementById('app-title').innerHTML = `${city.nombre} <span class="logo-sub">Guía de Viaje · ${city.pais}</span>`;
     document.getElementById('app-logo-icon').textContent = city.emoji;
-    
+
     const heroTitle = document.getElementById('hero-title');
     const heroSubtitle = document.getElementById('hero-subtitle');
     const heroSection = document.getElementById('city-hero');
-    
+
     heroTitle.textContent = `Descubre ${city.nombre}`;
     heroSubtitle.textContent = `Explora los secretos de la ciudad de ${city.nombre}`;
     heroSection.style.backgroundImage = `url('${assetUrl(city.imagen)}')`;
@@ -251,17 +250,17 @@ function backToSelection() {
     const app = document.getElementById('main-app');
 
     app.classList.add('fade-out');
-    
+
     setTimeout(() => {
         app.style.display = 'none';
         app.classList.remove('fade-out');
-        
+
         selection.style.display = 'flex';
         selection.classList.add('fade-in');
-        
+
         state.currentCity = null;
         cleanupMap();
-        
+
         setTimeout(() => {
             selection.classList.remove('fade-in');
             state.isTransitioning = false;
@@ -317,7 +316,7 @@ function initMap() {
     cleanupMap();
     const { lat, lng } = state.currentCity;
     state.map = L.map('map').setView([lat, lng], 13);
-    
+
     L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
         attribution: '&copy; CARTO'
     }).addTo(state.map);
@@ -342,18 +341,18 @@ function cleanupMap() {
 async function loadWeather() {
     const container = document.getElementById('weather-container');
     const { lat, lng, nombre } = state.currentCity;
-    
+
     container.innerHTML = '<div class="loading"><div class="spinner"></div> Consultando satélites...</div>';
-    
+
     try {
         const url = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lng}&current_weather=true&hourly=relativehumidity_2m,apparent_temperature&daily=temperature_2m_max,temperature_2m_min,weathercode,uv_index_max,precipitation_probability_max&timezone=auto`;
         const response = await fetch(url);
         const data = await response.json();
-        
+
         const weather = data.current_weather;
         const daily = data.daily;
         const hourly = data.hourly;
-        
+
         // Obtener humedad actual (aproximada de la hora actual)
         const currentHourIndex = new Date().getHours();
         const humidity = hourly.relativehumidity_2m[currentHourIndex];
@@ -403,11 +402,11 @@ async function loadWeather() {
                 <div class="forecast-grid">
                     ${daily.time.slice(1, 6).map((time, i) => `
                         <div class="forecast-item">
-                            <span class="forecast-day">${new Date(time).toLocaleDateString('es-ES', {weekday: 'long'})}</span>
-                            <span class="forecast-icon">${getWeatherIcon(daily.weathercode[i+1])}</span>
+                            <span class="forecast-day">${new Date(time).toLocaleDateString('es-ES', { weekday: 'long' })}</span>
+                            <span class="forecast-icon">${getWeatherIcon(daily.weathercode[i + 1])}</span>
                             <div class="forecast-temp">
-                                <span class="temp-max">${Math.round(daily.temperature_2m_max[i+1])}°</span>
-                                <span class="temp-min">${Math.round(daily.temperature_2m_min[i+1])}°</span>
+                                <span class="temp-max">${Math.round(daily.temperature_2m_max[i + 1])}°</span>
+                                <span class="temp-min">${Math.round(daily.temperature_2m_min[i + 1])}°</span>
                             </div>
                         </div>
                     `).join('')}
@@ -643,21 +642,143 @@ function getRomeActivityIdeas(place) {
     ];
 }
 
-function getPlaceActivities(place) {
-    if (state.currentCity?.id !== 'roma') return [];
+function getIstanbulActivityProviders(place) {
+    const common = [
+        { name: 'Istanbul Welcome Card', contact: 'istanbulwelcomecard.com', schedule: 'Diario, recogida en hotel o punto' },
+        { name: 'GetYourGuide Istanbul', contact: 'getyourguide.com/istanbul', schedule: 'Varios horarios segun temporada' },
+        { name: 'Civitatis Estambul', contact: 'civitatis.com/estambul', schedule: 'Reserva previa online 24h' },
+        { name: 'Tiqets Istanbul', contact: 'tiqets.com/istanbul', schedule: 'Tickets inmediatos en smartphone' },
+        { name: 'Withlocals Istanbul', contact: 'withlocals.com/istanbul', schedule: 'Tours privados personalizados' },
+        { name: 'Turkish Heritage', contact: 'turkishheritagetravel.com', schedule: 'Experiencias culturales profundas' }
+    ];
 
-    const providers = getRomeActivityProviders(place);
-    return getRomeActivityIdeas(place).slice(0, 6).map(([title, description], index) => ({
-        title,
-        description,
-        image: getRomeActivityImage(place, index),
-        provider: providers[index].name,
-        contact: providers[index].contact,
-        schedule: providers[index].schedule
-    }));
+    const official = {
+        'Santa Sofia': { name: 'Ayasofya-i Kebir Cami', contact: 'muze.gen.tr', schedule: place.horario },
+        'Mezquita Azul': { name: 'Sultanahmet Camii', contact: 'sultanahmetcamii.org', schedule: place.horario },
+        'Palacio Topkapi': { name: 'Topkapi Sarayi', contact: 'millisaraylar.gov.tr', schedule: place.horario },
+        'Gran Bazar': { name: 'Kapalicarsi Management', contact: 'kapalicarsi.com.tr', schedule: place.horario },
+        'Torre de Galata': { name: 'Galata Kulesi Muze', contact: 'muze.gen.tr', schedule: place.horario },
+        'Cisterna Basilica': { name: 'Yerebatan Sarnici', contact: 'yerebatan.com', schedule: place.horario }
+    };
+
+    return [official[place.nombre] || common[0], ...common].slice(0, 6);
 }
 
-function getRomeActivityImage(place, index) {
+function getIstanbulActivityIdeas(place) {
+    const byPlace = {
+        'Santa Sofia': [
+            ['Tour historico bizantino', 'Recorrido centrado en los mosaicos, la cupula y la conversion en mezquita.'],
+            ['Acceso prioritario y guia', 'Evita las colas principales con explicacion de un guia oficial.'],
+            ['Paseo por Sultanahmet', 'Ruta a pie por la plaza que une Santa Sofia y la Mezquita Azul.'],
+            ['Sesion de fotos exteriores', 'Captura la luz del atardecer sobre los minaretes y la cupula.'],
+            ['Audioguia interactiva', 'Explora a tu ritmo con contexto historico en tu dispositivo.'],
+            ['Charla de arquitectura', 'Actividad especializada en las tecnicas de construccion del siglo VI.']
+        ],
+        'Mezquita Azul': [
+            ['Visita de espiritualidad', 'Explicacion del culto, los azulejos de Iznik y la arquitectura sagrada.'],
+            ['Ruta de mezquitas imperiales', 'Recorrido por las principales mezquitas del centro historico.'],
+            ['Fotografia de minaretes', 'Busqueda de los mejores angulos para captar los seis minaretes.'],
+            ['Tour por el Hipodromo', 'Contexto sobre el obelisco y la historia romana frente a la mezquita.'],
+            ['Visita nocturna iluminada', 'Paseo por los patios cuando la iluminacion resalta su silueta.'],
+            ['Charla sobre artesania turca', 'Actividad centrada en los azulejos y la caligrafia del interior.']
+        ],
+        'Palacio Topkapi': [
+            ['Ruta por el Harem', 'Visita detallada a las estancias privadas de las sultanas y el sultan.'],
+            ['Tesoro y Vistas del Bosforo', 'Recorrido por las joyas imperiales y los miradores al mar.'],
+            ['Jardines del Cuarto Patio', 'Paseo relajado por los pabellones y fuentes sobre el Cuerno de Oro.'],
+            ['Tour de Reliquias Sagradas', 'Visita a la coleccion de objetos religiosos de gran valor historico.'],
+            ['Visita a las Cocinas Reales', 'Explicacion de la logistica y la gastronomia del imperio.'],
+            ['Historia del Imperio Otomano', 'Ruta contextual sobre la administracion desde este centro de poder.']
+        ],
+        'Gran Bazar': [
+            ['Tour de compras y regateo', 'Consejos de un local para navegar y comprar alfombras o joyas.'],
+            ['Ruta de artesanos ocultos', 'Visita a talleres tradicionales de orfebreria y ceramica.'],
+            ['Paseo por los Hanes', 'Exploracion de los antiguos caravasares que rodean el bazar.'],
+            ['Degustacion de Cafe Turco', 'Parada en los cafes mas antiguos y con mas encanto del laberinto.'],
+            ['Fotografia de lamparas', 'Sesion centrada en los colores y luces de los pasillos interiores.'],
+            ['Historia de la Ruta de la Seda', 'Contexto sobre el papel de Estambul en el comercio mundial.']
+        ],
+        'Bazar de las Especias': [
+            ['Ruta de Sabores y Aromas', 'Cata guiada de especias, frutos secos y delicias turcas.'],
+            ['Taller de Lokum (Turkish Delight)', 'Demostracion y degustacion de los dulces mas famosos.'],
+            ['Compra de Te Guiada', 'Seleccion de mezclas de flores y hierbas locales.'],
+            ['Mercado de Eminonu', 'Paseo por los alrededores del bazar y el puerto.'],
+            ['Fotografia de Montanas de Especias', 'Captura el colorido visual de los puestos tradicionales.'],
+            ['Degustacion de Quesos y Olivas', 'Exploracion de los productos frescos del mercado exterior.']
+        ],
+        'Torre de Galata': [
+            ['Vistas 360 grados', 'Acceso al mirador para ver toda Estambul desde las alturas.'],
+            ['Barrio Genoves de Galata', 'Paseo por las calles empinadas, tiendas de diseño y musica.'],
+            ['Ruta de Cafes en Beyoglu', 'Exploracion de la vida social y bohemia de los alrededores.'],
+            ['Atardecer sobre el Cuerno de Oro', 'Experiencia fotografica con la mejor luz del dia.'],
+            ['Historia Medieval de la Torre', 'Contexto sobre la defensa de la ciudad y los genoveses.'],
+            ['Paseo hasta el Puente de Galata', 'Ruta descendente conectando con los pescadores del puente.']
+        ],
+        'Crucero por el Bosforo': [
+            ['Navegacion al Atardecer', 'Crucero publico o compartido para ver las siluetas de la ciudad.'],
+            ['Crucero Privado de Lujo', 'Experiencia exclusiva para ver palacios y yalis de madera.'],
+            ['Desayuno en el Barco', 'Mañana relajada navegando entre Europa y Asia.'],
+            ['Ruta de Palacios Costeros', 'Explicacion de Dolmabahce y Beylerbeyi desde el agua.'],
+            ['Tour Nocturno con Cena', 'Espectaculo de danzas tradicionales y vistas iluminadas.'],
+            ['Paseo por la Costa Asiatica', 'Parada en barrios como Kanlica o Kuzguncuk.']
+        ],
+        'Cisterna Basilica': [
+            ['Bosque Subterraneo', 'Recorrido por las columnas romanas y las cabezas de Medusa.'],
+            ['Leyendas de Bizancio', 'Historias y mitos asociados a este deposito de agua.'],
+            ['Experiencia Sonora y Eco', 'Momento de silencio para apreciar la acustica del lugar.'],
+            ['Fotografia de Reflejos', 'Captura de la luz sobre el agua y las columnas milenarias.'],
+            ['Ingenieria Hidraulica Romana', 'Charla tecnica sobre como se abastecia la ciudad.'],
+            ['Visita Privada Nocturna', 'Acceso exclusivo con iluminacion especial segun calendario.']
+        ],
+        'Palacio Dolmabahce': [
+            ['Tour de Lujo y Cristal', 'Visita al salon de ceremonias y la gran escalera de baccarat.'],
+            ['Jardines Imperiales', 'Paseo por los jardines frente al Bosforo y la Torre del Reloj.'],
+            ['Estancias de Ataturk', 'Visita a la parte del palacio vinculada a la historia moderna.'],
+            ['Ruta de Pintura y Arte', 'Exploracion de las colecciones de arte europeo y otomano.'],
+            ['Arquitectura del Siglo XIX', 'Contexto sobre la transicion del estilo otomano al europeo.'],
+            ['Fotografia de Puertas Imperiales', 'Captura de la majestuosidad de las entradas al palacio.']
+        ]
+    };
+
+    return byPlace[place.nombre] || [
+        ['Visita guiada esencial', `Recorrido interpretado por ${place.nombre} y su contexto historico.`],
+        ['Paseo fotografico', 'Actividad pensada para encontrar buenos encuadres y luz adecuada.'],
+        ['Tour privado a medida', 'Experiencia flexible con guia local segun intereses del viajero.'],
+        ['Ruta familiar', 'Version didactica y ligera para visitar sin saturar a los mas pequenos.'],
+        ['Experiencia al atardecer', 'Visita en la franja mas fotogenica del dia.'],
+        ['Audioguia express', 'Formato breve para entender lo esencial con autonomia.']
+    ];
+}
+
+function getPlaceActivities(place) {
+    const cityId = state.currentCity?.id;
+
+    if (cityId === 'roma') {
+        const providers = getRomeActivityProviders(place);
+        return getRomeActivityIdeas(place).slice(0, 6).map(([title, description], index) => ({
+            title,
+            description,
+            image: getActivityImage(cityId, place, index),
+            provider: providers[index].name,
+            contact: providers[index].contact,
+            schedule: providers[index].schedule
+        }));
+    } else if (cityId === 'estambul') {
+        const providers = getIstanbulActivityProviders(place);
+        return getIstanbulActivityIdeas(place).slice(0, 6).map(([title, description], index) => ({
+            title,
+            description,
+            image: getActivityImage(cityId, place, index),
+            provider: providers[index].name,
+            contact: providers[index].contact,
+            schedule: providers[index].schedule
+        }));
+    }
+
+    return [];
+}
+
+function getActivityImage(cityId, place, index) {
     const slug = place.nombre
         .normalize('NFD')
         .replace(/[\u0300-\u036f]/g, '')
@@ -665,7 +786,7 @@ function getRomeActivityImage(place, index) {
         .replace(/[^a-z0-9]+/g, '')
         .replace(/^$/, 'actividad');
 
-    return `img/roma_activities/${slug}_${index + 1}.png`;
+    return `img/${cityId}_activities/${slug}_${index + 1}.png`;
 }
 
 function renderPlaceActivities(place) {

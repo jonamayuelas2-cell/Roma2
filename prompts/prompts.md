@@ -28,3 +28,17 @@
 **Prompt:** `Ultra-high-definition 8K photography of Mount Eden crater in Auckland. Lush green volcanic cone with a deep grassy crater. Panoramic view of Auckland city in the background. Sunny afternoon, clear sky. Premium travel photography, sharp details, natural beauty. National Geographic style. Scenic and majestic landscape. Hyper-realistic.`
 
 ---
+
+## Estambul - Actividades Premium 🕌🇹🇷✨
+**Fecha:** 2026-05-07
+
+### Santa Sofía - Tour Histórico
+**Prompt:** `Professional travel photography of a guided tour inside Hagia Sophia, Istanbul. Golden mosaics reflecting warm light, a group of travelers listening to a guide near the massive dome and hanging lamps. Cinematic atmosphere, high quality, 4k.`
+
+### Mezquita Azul - Visita Espiritual
+**Prompt:** `Atmospheric interior shot of the Blue Mosque in Istanbul during a spiritual visit. Sunlight filtering through stained glass windows, intricate blue Iznik tiles on the walls, a peaceful and silent atmosphere. Professional travel photography, 4k.`
+
+### Gran Bazar - Tour de Compras
+**Prompt:** `Vibrant travel photography of a shopping tour in the Grand Bazar, Istanbul. Close-up of colorful Turkish lamps, intricate carpets, and a merchant interacting with a traveler. Busy but atmospheric, warm lighting, premium look. 4k.`
+
+---
