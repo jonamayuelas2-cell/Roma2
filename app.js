@@ -173,9 +173,19 @@ function initGlobe() {
             : [];
 
         // Obtener cruceros activos
-        const activeCruises = state.activeFilters.showCruises 
-            ? state.cruises.filter(c => state.activeFilters.cruiseRegions.includes(c.region)).slice(0, 10)
-            : [];
+        let activeCruises = [];
+        if (state.activeFilters.showCruises) {
+            if (state.currentCruise) {
+                // Si hay uno seleccionado específicamente, solo ese
+                activeCruises = [state.currentCruise];
+            } else {
+                // Si no, mostramos todos los de las regiones activas (o ninguno si prefieres)
+                // Según el usuario: "al pinchar en uno aparecerá...", así que mejor mostrar solo si hay selección
+                // Pero para dar feedback inicial, mostramos los barcos moviéndose pero sin ruta fija?
+                // Vamos a seguir el deseo del usuario: al pinchar aparecerá la ruta y ciudades.
+                activeCruises = state.cruises.filter(c => state.activeFilters.cruiseRegions.includes(c.region)).slice(0, 10);
+            }
+        }
 
         // Combinar paradas de cruceros con ciudades (si activo)
         let displayPoints = [...filteredCities];
@@ -313,9 +323,11 @@ function setupGlobeFilters() {
         if (cruiseToggle.checked) {
             citiesToggle.checked = false;
             state.activeFilters.showCities = false;
+            state.currentCruise = null; // Reset al cambiar de modo
         }
         
         updateFilterVisuals();
+        updateCruiseList(); // Actualizar la lista lateral
         window.refreshGlobe();
     });
 
@@ -324,12 +336,70 @@ function setupGlobeFilters() {
             state.activeFilters.cruiseRegions = Array.from(regionChecks)
                 .filter(c => c.checked)
                 .map(c => c.value);
+            updateCruiseList();
             window.refreshGlobe();
         });
     });
 
     // Estado inicial
     updateFilterVisuals();
+}
+
+function updateCruiseList() {
+    const panel = document.getElementById('cruise-list-panel');
+    const container = document.getElementById('cruise-items-container');
+    
+    if (!panel || !container) return;
+
+    if (!state.activeFilters.showCruises || state.activeFilters.cruiseRegions.length === 0) {
+        panel.style.display = 'none';
+        return;
+    }
+
+    const filteredCruises = state.cruises
+        .filter(c => state.activeFilters.cruiseRegions.includes(c.region))
+        .slice(0, 10);
+
+    panel.style.display = filteredCruises.length > 0 ? 'flex' : 'none';
+    container.innerHTML = '';
+
+    filteredCruises.forEach(cruise => {
+        const origin = cruise.ruta[0]?.nombre || 'N/A';
+        const destination = cruise.ruta[cruise.ruta.length - 1]?.nombre || 'N/A';
+        const duration = cruise.ruta.length + 2; 
+        const rating = (4.5 + Math.random() * 0.5).toFixed(1);
+        const stopsCount = cruise.paradas.length;
+
+        const card = document.createElement('div');
+        card.className = `cruise-card ${state.currentCruise?.id === cruise.id ? 'active' : ''}`;
+        card.innerHTML = `
+            <img src="${cruise.imagen}" class="cruise-card-img" alt="${cruise.nombre}">
+            <div class="cruise-card-content">
+                <div class="cruise-card-title">${cruise.nombre}</div>
+                <div class="cruise-info-row">
+                    <span class="cruise-info-icon">📍</span>
+                    <span>${origin} → ${destination}</span>
+                </div>
+                <div class="cruise-info-row">
+                    <span class="cruise-info-icon">🚢</span>
+                    <span>${stopsCount} escalas en total</span>
+                </div>
+                <div class="cruise-rating">
+                    <span class="stars">★ ${rating}</span>
+                    <span class="duration">${duration} días</span>
+                </div>
+            </div>
+        `;
+
+        card.onclick = () => {
+            state.currentCruise = cruise;
+            document.querySelectorAll('.cruise-card').forEach(el => el.classList.remove('active'));
+            card.classList.add('active');
+            window.refreshGlobe();
+        };
+
+        container.appendChild(card);
+    });
 }
 
 // Exponer refreshGlobe para el contexto

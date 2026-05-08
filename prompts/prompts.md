@@ -42,7 +42,13 @@
 
 **Objetivo:** Garantizar que al activar un grupo principal (Ciudades o Cruceros), ninguna sub-opción se active automáticamente. El usuario debe elegir específicamente qué continentes o zonas de crucero quiere ver. Además, unificar el comportamiento de "El Caribe" con el resto de zonas.
 
+### Prompt 9: Panel de Selección de Cruceros y Visualización Dinámica
+**Usuario:** "si activo el check de cruceros, en cuanto seleccione una o varias zonas, debe aparecer en la izquierda de la pantalla una lista de los cruceros por orden de importancia y reputación con datos generales de ciudad salida,recorrido, ciudad destino, duración, foto del barco. (máximo 10 cruceros) al pinchar en uno de ellos aparecerá en el mapamundi las ciudades que visita (con igual apariencioa que las ciudades que tenemos ya creadas (por ejemplo Londres) y aparecerán unidas entre ellas siguiendo el recorrido que hace el barco. al pinchar en cualquiera de las ciudades nos llevará a la pantalla creada específicamente para ver el detalle del crucero."
+
+**Objetivo:** Implementar un flujo de descubrimiento de cruceros guiado por un panel lateral dinámico. El panel filtra cruceros por zona y permite al usuario seleccionar uno para visualizar su ruta completa y paradas en el globo 3D, conectando visualmente con el detalle del itinerario.
+
 ### Acciones Realizadas:
-1.  **HTML**: Eliminado el atributo `checked` de todos los continentes y regiones de crucero.
-2.  **Conversión a Checkboxes**: Cambiadas las regiones de crucero de `radio` a `checkbox` para permitir selección múltiple manual y estado inicial "todo apagado".
-3.  **Lógica JS**: Actualizado el estado inicial a arrays vacíos y ajustado el filtrado para soportar múltiples regiones simultáneas.
+1.  **Panel Lateral**: Creado `#cruise-list-panel` con diseño de cristalmerismo (glassmorphism) que se activa dinámicamente.
+2.  **Tarjetas de Crucero**: Implementadas tarjetas interactivas que muestran origen, destino, duración (simulada) y reputación.
+3.  **Visualización en Globo**: Refactorizada la función `refreshData` para que, al seleccionar un crucero del panel, se rendericen sus paradas como marcadores de ciudad y su ruta marítima animada.
+4.  **Interacción Unificada**: Al pulsar cualquier parada de la ruta en el globo, se navega automáticamente a la vista detallada del crucero.

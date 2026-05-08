@@ -22,8 +22,9 @@ Se ha implementado una experiencia de navegación jerárquica para los cruceros 
 
 ### 4. Sistema de Filtros Exclusivos 🛡️🆚
 - **Exclusividad Total**: Implementada lógica "Continentes vs Cruceros". Activar uno deshabilita completamente el otro para evitar ruido visual.
-- **Control Manual Granular**: Las sub-opciones (continentes y zonas de crucero) inician siempre deshabilitadas. El usuario debe activarlas una a una tras habilitar el grupo principal.
-- **Multiselección de Cruceros**: Las regiones de crucero ahora son checkboxes, permitiendo ver múltiples zonas (ej. Caribe + Mediterráneo) simultáneamente si se desea.
+- **Panel de Descubrimiento de Cruceros**: Nueva interfaz lateral que lista los mejores cruceros por zona, mostrando origen, destino y reputación.
+- **Visualización Contextual**: Al seleccionar un crucero de la lista, el globo 3D se actualiza para mostrar sus escalas y la ruta marítima animada.
+- **Control Manual Granular**: Las sub-opciones inician siempre deshabilitadas, requiriendo acción del usuario.
 - **Estado Inicial Limpio**: El mapamundi inicia vacío y con todas las opciones desmarcadas.
 - **Feedback Visual de Estado**: Uso de la clase `.disabled-group` para atenuar y bloquear interacciones en los filtros inactivos.
 

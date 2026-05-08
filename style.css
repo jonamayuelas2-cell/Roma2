@@ -239,6 +239,120 @@ body {
   transition: all 0.3s ease;
 }
 
+/* Panel Lateral de Cruceros */
+.cruise-list-panel {
+  position: fixed;
+  top: 100px;
+  left: 20px;
+  width: 380px;
+  max-height: calc(100vh - 140px);
+  background: rgba(15, 23, 42, 0.75);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  z-index: 1001;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+  animation: slideInLeft 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes slideInLeft {
+  from { transform: translateX(-100%) opacity: 0; }
+  to { transform: translateX(0) opacity: 1; }
+}
+
+.panel-header-sticky {
+  padding: 24px;
+  background: rgba(30, 41, 59, 0.5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.panel-header-sticky h3 {
+  margin: 0;
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.panel-subtitle {
+  margin: 4px 0 0;
+  font-size: 0.85rem;
+  color: #94a3b8;
+}
+
+.cruise-items-container {
+  padding: 16px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.cruise-card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.cruise-card:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: #38bdf8;
+  transform: translateY(-4px);
+}
+
+.cruise-card.active {
+  background: rgba(56, 189, 248, 0.1);
+  border-color: #38bdf8;
+  box-shadow: 0 0 20px rgba(56, 189, 248, 0.2);
+}
+
+.cruise-card-img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+}
+
+.cruise-card-content {
+  padding: 16px;
+}
+
+.cruise-card-title {
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+  color: #fff;
+}
+
+.cruise-info-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.85rem;
+  color: #cbd5e1;
+  margin-bottom: 6px;
+}
+
+.cruise-info-icon {
+  width: 16px;
+  text-align: center;
+}
+
+.cruise-rating {
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.8rem;
+}
+
+.stars { color: #fbbf24; }
+.duration { color: #38bdf8; font-weight: 600; }
+
 .toggle-item {
   display: flex;
   align-items: center;
