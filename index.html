@@ -60,11 +60,17 @@
       </div>
 
       <div class="control-group">
-        <div class="group-header">
-          <span class="group-icon">🌍</span>
-          <h3>Continentes</h3>
+        <div class="group-header-wrapper">
+          <div class="group-header">
+            <span class="group-icon">🌍</span>
+            <h3>Continentes</h3>
+          </div>
+          <label class="toggle-switch main-toggle">
+            <input type="checkbox" id="cities-toggle" checked>
+            <span class="slider round"></span>
+          </label>
         </div>
-        <div class="filter-options" id="continent-filters">
+        <div id="continents-sub-options" class="filter-options">
           <div class="toggle-item">
             <span class="toggle-label">Europa</span>
             <label class="toggle-switch">

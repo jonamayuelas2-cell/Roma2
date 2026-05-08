@@ -197,23 +197,33 @@ body {
   padding: 20px;
 }
 
+.group-header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  width: 100%;
+}
+
 .group-header {
   display: flex;
   align-items: center;
-  gap: 10px;
-  margin-bottom: 16px;
+  gap: 12px;
 }
 
 .group-header h3 {
-  font-size: 0.85rem;
-  font-weight: 600;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text-primary);
   margin: 0;
-  color: rgba(255, 255, 255, 0.9);
 }
 
 .group-icon {
-  font-size: 1.1rem;
-  filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.3));
+  font-size: 1.4rem;
+}
+
+.main-toggle {
+  transform: scale(0.9);
 }
 
 .filter-options {

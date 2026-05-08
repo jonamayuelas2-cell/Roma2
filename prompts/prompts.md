@@ -7,31 +7,28 @@
 
 **Objetivo:** Implementar navegación multinivel para cruceros: Globo -> Itinerario -> Plano de Escala -> Guía de Ciudad.
 
-### Acciones Realizadas:
-1.  **Datos**: Actualización de `cruises.json` con jerarquía de escalas y datos del *Wonder of the Seas*.
-2.  **HTML**: Inserción de `#cruise-app` en `index.html`.
-3.  **CSS**: Añadidos estilos para `.cruise-header-premium` y mapas detallados.
-4.  **JS**: Lógica de navegación y renderizado de mapas interactivos con Leaflet.
-
 ### Prompt 2: Vistosidad y Animaciones
 **Usuario:** "me gustaria darle vistosidad y meter alguna animacion"
 
 **Objetivo:** Elevar la calidad visual con efectos interactivos y transiciones cinematográficas.
-
-### Acciones Realizadas:
-1.  **Parallax**: Implementado efecto de seguimiento de ratón en la imagen del buque.
-2.  **Floating Stats**: Animación `float` CSS para las tarjetas de especificaciones.
-3.  **Shimmer**: Efecto de brillo dinámico en la barra de progreso.
-4.  **Map Zoom**: Transición `flyTo` de Leaflet para un efecto de "vuelo" al entrar en los mapas.
-5.  **Pulse**: Marcadores de mapa con ondas expansivas.
 
 ### Prompt 3: Circuitos Completos y Navegación Unificada
 **Usuario:** "pinchando en cualquiera de las escalas de un crucero concreto nos llevará a la misma pantalla de ese crucero, por eso debemos tener en el mapamundi todas las ciudades de escala del mismo crucero conectadas con una linea que simule el circuito que hace el barco"
 
 **Objetivo:** Garantizar que todas las escalas sean puntos de entrada al crucero y que las rutas sean circuitos cerrados realistas.
 
+### Prompt 4: Control Manual del Globo
+**Usuario:** "necesito que el maap mundi no gire solo, sino cuando lo mueva yo desde ratón o pantalla táctil"
+
+**Objetivo:** Desactivar la rotación automática del globo para mejorar la precisión de la navegación manual.
+
+### Prompt 5: Exclusividad de Filtros (Ciudades vs Cruceros)
+**Usuario:** "vamos a poner un botón on/off en Continentes. Si está habilitado (por defecto) se dehabilita cruceros y si se habilita cruceros se deshabilita continentes. Pero si se deshabilita uno de ellos no se habilita el otro."
+
+**Objetivo:** Implementar una lógica de filtrado excluyente para evitar la saturación de elementos en el globo, dando prioridad a la intención del usuario.
+
 ### Acciones Realizadas:
-1.  **Datos**: Actualización de rutas en `cruises.json` para que regresen al origen.
-2.  **Interactividad**: Lógica en el globo para que cualquier punto con prefijo `stop-` abra el detalle del crucero correspondiente.
-3.  **Estética**: Mejora de las líneas de navegación con efecto náutico punteado y brillo.
-4.  **Priorización**: Las paradas de crucero ocultan a las ciudades genéricas en el globo para evitar conflictos de clic.
+1.  **UI**: Añadido interruptor principal (`#cities-toggle`) al grupo de Continentes.
+2.  **Lógica JS**: Sincronización de interruptores para que al encender uno se apague el otro.
+3.  **Visual**: Las sub-opciones se ocultan automáticamente cuando el interruptor de grupo está apagado.
+4.  **Refactor**: Actualizada la función `refreshData` para respetar el estado de `showCities`.

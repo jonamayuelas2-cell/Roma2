@@ -8,6 +8,7 @@ const state = {
     cruises: [],
     activeFilters: {
         continents: ["Europa", "Asia", "Africa", "America", "Oceania"],
+        showCities: true,
         showCruises: false,
         cruiseRegion: "Caribe"
     },
@@ -158,8 +159,7 @@ function initGlobe() {
     // Configuración de controles inicial
     const controls = state.globe.controls();
     if (controls) {
-        controls.autoRotate = true;
-        controls.autoRotateSpeed = 0.5;
+        controls.autoRotate = false;
         controls.enableDamping = true;
     }
 
@@ -167,10 +167,10 @@ function initGlobe() {
     const refreshData = () => {
         if (!state.globe) return;
         
-        // Filtrar ciudades por continente
-        const filteredCities = state.cities.filter(c => 
-            state.activeFilters.continents.includes(c.continente)
-        );
+        // Filtrar ciudades por continente (solo si showCities está activo)
+        const filteredCities = state.activeFilters.showCities 
+            ? state.cities.filter(c => state.activeFilters.continents.includes(c.continente))
+            : [];
 
         // Obtener cruceros activos
         const activeCruises = state.activeFilters.showCruises 
@@ -268,25 +268,50 @@ function initGlobe() {
 
 
 
-function setupGlobeFilters() {
-    // Filtros de Continente
-    const continentChecks = document.querySelectorAll('#continent-filters input');
+    // Toggle de Ciudades (Continentes)
+    const citiesToggle = document.getElementById('cities-toggle');
+    const cruiseToggle = document.getElementById('cruise-toggle');
+    const continentsSub = document.getElementById('continents-sub-options');
+    const cruiseRegions = document.getElementById('cruise-regions');
+
+    citiesToggle.addEventListener('change', () => {
+        state.activeFilters.showCities = citiesToggle.checked;
+        continentsSub.classList.toggle('hidden', !citiesToggle.checked);
+        
+        // Exclusividad: Si habilito ciudades, deshabilito cruceros
+        if (citiesToggle.checked && cruiseToggle.checked) {
+            cruiseToggle.checked = false;
+            state.activeFilters.showCruises = false;
+            cruiseRegions.classList.add('hidden');
+        }
+        
+        window.refreshGlobe();
+    });
+
+    // Filtros de Continente individuales
+    const continentChecks = document.querySelectorAll('#continents-sub-options input');
     continentChecks.forEach(check => {
         check.addEventListener('change', () => {
             state.activeFilters.continents = Array.from(continentChecks)
                 .filter(c => c.checked)
                 .map(c => c.value);
-            if (window.triggerRefresh) window.triggerRefresh();
+            window.refreshGlobe();
         });
     });
 
     // Toggle de Cruceros
-    const cruiseToggle = document.getElementById('cruise-toggle');
-    const cruiseRegions = document.getElementById('cruise-regions');
     cruiseToggle.addEventListener('change', () => {
         state.activeFilters.showCruises = cruiseToggle.checked;
         cruiseRegions.classList.toggle('hidden', !cruiseToggle.checked);
-        if (window.triggerRefresh) window.triggerRefresh();
+        
+        // Exclusividad: Si habilito cruceros, deshabilito ciudades
+        if (cruiseToggle.checked && citiesToggle.checked) {
+            citiesToggle.checked = false;
+            state.activeFilters.showCities = false;
+            continentsSub.classList.add('hidden');
+        }
+        
+        window.refreshGlobe();
     });
 
     // Filtro de Región de Crucero
@@ -294,7 +319,7 @@ function setupGlobeFilters() {
     regionRadios.forEach(radio => {
         radio.addEventListener('change', () => {
             state.activeFilters.cruiseRegion = radio.value;
-            if (window.triggerRefresh) window.triggerRefresh();
+            window.refreshGlobe();
         });
     });
 
@@ -890,8 +915,7 @@ async function loadWeather() {
                     <div class="stat-item">
                         <span class="stat-label">Lluvia</span>
                         <span class="stat-value">${daily.precipitation_probability_max[0]}%</span>
-                    </div>
-                </div>
+            </div>
             </div>
 
             <div class="forecast-section">

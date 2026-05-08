@@ -11,6 +11,7 @@ Se ha implementado una experiencia de navegación jerárquica para los cruceros 
 - **Datos Técnicos**: Incluida información detallada del buque (tonelaje, capacidad, etc.).
 
 ### 2. Navegación Unificada y Lógica 🔄
+- **Control Manual del Globo**: Se ha desactivado la rotación automática para que el usuario tenga el control total mediante ratón o táctil.
 - **Prioridad de Crucero**: Al pinchar en *cualquier* escala de un crucero en el mapamundi, el sistema identifica el crucero y te lleva a su pantalla de detalle.
 - **Flujo de Retorno**: Implementada lógica para volver del detalle de ciudad al crucero manteniendo el contexto.
 
