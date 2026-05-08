@@ -11,5 +11,8 @@
 ### Prompt 3: Interruptores y Ajuste Visual
 > "cambiame los checks por interruptores de ON/OFF, además las imagenes de los pasises que presentas en el mapa mundi haslas un poco más pequeñas, y saca todas ya que ahora mismo solo aparecen las de Europa y las de los cruceros"
 
+### Prompt 4: Rediseño Premium y Consolidación de Continentes
+> "elimina continente Eurasia, dejando solo los 5 continentes existente. quita el recuadro de las ciudades del mapamundi y dela solo el circulo. Pon el circulo en otro color de las ciudades que son puntos de atraque de un crucero. En la selección de cruceros pon primero El Caribe y utiliza también botonoes on/off para cada uno de ellos.. La ventana que has creado con la activación de continentes y cruceros debe tener una apariencia mucho más vistosa y atractiva"
+
 ---
 *Nota: Los prompts han sido ejecutados integrando lógica de Globe.gl y CSS premium.*

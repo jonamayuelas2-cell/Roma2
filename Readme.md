@@ -1,6 +1,21 @@
 # Registro de Cambios - TravelWorld PWA 🌍🛳️
 
-## [2026-05-08] - Panel de Control Global e Integración de Cruceros
+## [2026-05-08 - Iteración 2] - Rediseño Premium y Limpieza de Datos
+
+### Añadido 🆕
+- **Panel de Exploración Premium**: Rediseño total del panel de control con glassmorphism avanzado, animaciones de entrada y encabezados con degradados neón.
+- **Interruptores de Crucero**: Las regiones de crucero ahora utilizan interruptores ON/OFF (estilizados desde radios) para una experiencia táctil superior.
+- **Diferenciación Visual de Puntos**: 
+    - Círculos amarillos/dorados para ciudades.
+    - Círculos cian/celestes para puntos de atraque de cruceros.
+
+### Modificado 🛠️
+- **Consolidación de Continentes**: Eliminación de "Eurasia" para cumplir con el estándar de 5 continentes (África, América, Asia, Europa, Oceanía). Estambul remapeada a Europa.
+- **Estilización de Marcadores**: Eliminación de recuadros y fondos, dejando únicamente el círculo de la imagen flotando sobre el globo.
+- **Optimización de UI**: "El Caribe" ahora aparece como primera opción en la lista de cruceros.
+- **Dimensiones**: Ajuste de tamaños a 28px para ciudades y 24px para paradas, maximizando la legibilidad global.
+
+## [2026-05-08 - Iteración 1] - Panel de Control Global e Integración de Cruceros
 
 ### Añadido 🆕
 - **Interruptores ON/OFF**: Los antiguos checkboxes de continentes han sido sustituidos por interruptores deslizantes modernos.

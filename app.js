@@ -7,9 +7,9 @@ const state = {
     cities: [],
     cruises: [],
     activeFilters: {
-        continents: ["Europa", "Asia", "Africa", "America", "Oceania", "Europa/Asia"],
+        continents: ["Europa", "Asia", "Africa", "America", "Oceania"],
         showCruises: false,
-        cruiseRegion: "Mediterraneo"
+        cruiseRegion: "Caribe"
     },
     currentCity: null,
     places: [],
@@ -81,7 +81,9 @@ async function loadCities() {
         state.cities = data.map(c => ({
             ...c,
             lat: Number(c.lat),
-            lng: Number(c.lng)
+            lng: Number(c.lng),
+            // Remapear Eurasia a Europa para simplificar a 5 continentes
+            continente: c.continente === "Europa/Asia" ? "Europa" : c.continente
         }));
         console.log('📍 Datos de ciudades obtenidos y normalizados');
         updateSelectionStats();
@@ -191,7 +193,7 @@ function initGlobe() {
         callGlobe('labelLat', d => d.lat);
         callGlobe('labelLng', d => d.lng);
         callGlobe('labelText', d => d.nombre);
-        callGlobe('labelSize', d => d.id && d.id.toString().startsWith('stop-') ? 1.5 : 2.0);
+        callGlobe('labelSize', d => d.id && d.id.toString().startsWith('stop-') ? 1.4 : 1.8);
         callGlobe('labelColor', d => d.id && d.id.toString().startsWith('stop-') ? '#38bdf8' : '#ffffff');
         callGlobe('labelAltitude', 0.05);
 
@@ -199,13 +201,13 @@ function initGlobe() {
         callGlobe('htmlElement', d => {
             const el = document.createElement('button');
             el.type = 'button';
-            el.className = `globe-city-marker ${d.id && d.id.toString().startsWith('stop-') ? 'cruise-stop' : ''}`;
-            el.style.border = `3px solid ${d.id && d.id.toString().startsWith('stop-') ? '#38bdf8' : '#ffdf5d'}`;
+            const isStop = d.id && d.id.toString().startsWith('stop-');
+            el.className = `globe-city-marker ${isStop ? 'cruise-stop' : ''}`;
             el.innerHTML = `
-                <span class="globe-thumb-container">
+                <div class="globe-thumb-container">
                     <img src="${assetUrl(d.imagen)}" class="globe-thumb" onerror="this.style.display='none'">
-                    <span class="globe-emoji">${d.emoji}</span>
-                </span>
+                    ${!isStop ? `<span class="globe-emoji">${d.emoji}</span>` : ''}
+                </div>
             `;
             el.onclick = (ev) => { ev.stopPropagation(); selectCity(d); };
             return el;

@@ -54,50 +54,51 @@
 
     <!-- Panel de Controles del Globo -->
     <div class="globe-controls-panel">
+      <div class="panel-header">
+        <span class="panel-icon">⚙️</span>
+        <h2>Panel de Exploración</h2>
+      </div>
+
       <div class="control-group">
-        <h3>🌍 Continentes</h3>
+        <div class="group-header">
+          <span class="group-icon">🌍</span>
+          <h3>Continentes</h3>
+        </div>
         <div class="filter-options" id="continent-filters">
           <div class="toggle-item">
+            <span class="toggle-label">Europa</span>
             <label class="toggle-switch">
               <input type="checkbox" value="Europa" checked>
               <span class="slider round"></span>
             </label>
-            <span class="toggle-label">Europa</span>
           </div>
           <div class="toggle-item">
+            <span class="toggle-label">Asia</span>
             <label class="toggle-switch">
               <input type="checkbox" value="Asia" checked>
               <span class="slider round"></span>
             </label>
-            <span class="toggle-label">Asia</span>
           </div>
           <div class="toggle-item">
+            <span class="toggle-label">África</span>
             <label class="toggle-switch">
               <input type="checkbox" value="Africa" checked>
               <span class="slider round"></span>
             </label>
-            <span class="toggle-label">África</span>
           </div>
           <div class="toggle-item">
+            <span class="toggle-label">América</span>
             <label class="toggle-switch">
               <input type="checkbox" value="America" checked>
               <span class="slider round"></span>
             </label>
-            <span class="toggle-label">América</span>
           </div>
           <div class="toggle-item">
+            <span class="toggle-label">Oceanía</span>
             <label class="toggle-switch">
               <input type="checkbox" value="Oceania" checked>
               <span class="slider round"></span>
             </label>
-            <span class="toggle-label">Oceanía</span>
-          </div>
-          <div class="toggle-item">
-            <label class="toggle-switch">
-              <input type="checkbox" value="Europa/Asia" checked>
-              <span class="slider round"></span>
-            </label>
-            <span class="toggle-label">Eurasia</span>
           </div>
         </div>
       </div>
@@ -106,30 +107,45 @@
 
       <div class="control-group">
         <div class="cruise-header">
-          <h3>🛳️ Cruceros</h3>
-          <label class="toggle-switch">
+          <div class="group-header">
+            <span class="group-icon">🛳️</span>
+            <h3>Cruceros</h3>
+          </div>
+          <label class="toggle-switch main-toggle">
             <input type="checkbox" id="cruise-toggle">
             <span class="slider round"></span>
           </label>
         </div>
 
         <div id="cruise-regions" class="sub-options hidden">
-          <label class="custom-radio">
-            <input type="radio" name="cruise-region" value="Mediterraneo" checked>
-            <span class="radio-mark"></span> Mediterráneo
-          </label>
-          <label class="custom-radio">
-            <input type="radio" name="cruise-region" value="Paises Nordicos">
-            <span class="radio-mark"></span> Nórdicos
-          </label>
-          <label class="custom-radio">
-            <input type="radio" name="cruise-region" value="Caribe">
-            <span class="radio-mark"></span> Caribe
-          </label>
-          <label class="custom-radio">
-            <input type="radio" name="cruise-region" value="Otros">
-            <span class="radio-mark"></span> Otros
-          </label>
+          <div class="toggle-item">
+            <span class="toggle-label">El Caribe</span>
+            <label class="toggle-switch secondary">
+              <input type="radio" name="cruise-region" value="Caribe" checked>
+              <span class="slider round"></span>
+            </label>
+          </div>
+          <div class="toggle-item">
+            <span class="toggle-label">Mediterráneo</span>
+            <label class="toggle-switch secondary">
+              <input type="radio" name="cruise-region" value="Mediterraneo">
+              <span class="slider round"></span>
+            </label>
+          </div>
+          <div class="toggle-item">
+            <span class="toggle-label">Países Nórdicos</span>
+            <label class="toggle-switch secondary">
+              <input type="radio" name="cruise-region" value="Paises Nordicos">
+              <span class="slider round"></span>
+            </label>
+          </div>
+          <div class="toggle-item">
+            <span class="toggle-label">Otros Destinos</span>
+            <label class="toggle-switch secondary">
+              <input type="radio" name="cruise-region" value="Otros">
+              <span class="slider round"></span>
+            </label>
+          </div>
         </div>
       </div>
     </div>
