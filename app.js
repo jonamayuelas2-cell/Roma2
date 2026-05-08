@@ -17,7 +17,7 @@ const state = {
     isTransitioning: false
 };
 
-const ASSET_VERSION = '2026-05-08-buenosaires-activity-photos-v1';
+const ASSET_VERSION = '2026-05-08-auckland-activity-photos-v1';
 const GLOBE_TEXTURE_URL = 'https://unpkg.com/three-globe/example/img/earth-blue-marble.jpg';
 const GLOBE_BUMP_URL = 'https://unpkg.com/three-globe/example/img/earth-topology.png';
 const COUNTRIES_GEOJSON_URL = 'https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson';
