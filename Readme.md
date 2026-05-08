@@ -32,5 +32,9 @@ Hemos completado la elevación de Estambul al estándar "Premium" de la PWA. Est
 - [x] **Descripciones Mejoradas**: Actualizadas las descripciones de los lugares para un tono más evocador y profesional.
 - [x] **Artefactos**: Creado `artefactos/rio_activities.json` con el respaldo de los datos generados.
 
+## 🕒 Actualización 2026-05-08
+- [x] **Corrección 3D**: Se corrigió el error de visibilidad de marcadores en el globo 3D.
+- [x] **Optimización**: Se mejoró la robustez de la carga asíncrona de datos y se ajustaron las altitudes de renderizado para una mejor experiencia visual.
+
 ---
-*Última actualización: 2026-05-07 - Rio de Janeiro Premium Finalizado* 🇧🇷 🏁
+*Última actualización: 2026-05-08 - Correcciones en motor 3D* 🌍 🏁

@@ -17,35 +17,52 @@ const state = {
     isTransitioning: false
 };
 
-const ASSET_VERSION = '2026-05-07-barcelona-activities-v1';
+const ASSET_VERSION = '2026-05-08-fix-globe-markers-v3';
 const GLOBE_TEXTURE_URL = 'https://unpkg.com/three-globe/example/img/earth-blue-marble.jpg';
 const GLOBE_BUMP_URL = 'https://unpkg.com/three-globe/example/img/earth-topology.png';
 const COUNTRIES_GEOJSON_URL = 'https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson';
 
 function assetUrl(src) {
     if (!src || src.startsWith('http') || src.startsWith('data:')) return src;
-    return `${src}${src.includes('?') ? '&' : '?'}v=${ASSET_VERSION}`;
+    const baseSrc = src.split('?')[0];
+    return `${baseSrc}?v=${ASSET_VERSION}`;
 }
+
 
 // ══ INICIALIZACIÓN ══════════════════════════════════════════
 
 document.addEventListener('DOMContentLoaded', async () => {
-    await loadCities();
-    await loadCountryPolygons();
-    await ensureGlobeLibrary();
-    initGlobe();
-    setupEventListeners();
+    console.log('🚀 Iniciando TravelWorld PWA...');
+    try {
+        await loadCities();
+        console.log(`✅ ${state.cities.length} ciudades cargadas.`);
+        
+        await Promise.all([
+            loadCountryPolygons(),
+            ensureGlobeLibrary()
+        ]);
+        
+        initGlobe();
+        setupEventListeners();
+        console.log('✨ Aplicación lista.');
+    } catch (err) {
+        console.error('❌ Error crítico en el arranque:', err);
+    }
 });
 
 // ══ CARGA DE DATOS ══════════════════════════════════════════
 
 async function loadCities() {
     try {
+        console.log('📦 Solicitando cities.json...');
         const response = await fetch(`cities.json?v=${Date.now()}`, { cache: 'no-store' });
+        if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
         state.cities = await response.json();
+        console.log('📍 Datos de ciudades obtenidos correctamente');
         updateSelectionStats();
     } catch (error) {
         console.error('Error cargando ciudades:', error);
+        state.cities = [];
     }
 }
 
@@ -96,11 +113,15 @@ function ensureGlobeLibrary() {
 
 function initGlobe() {
     const globeContainer = document.getElementById('globeViz');
+    if (!globeContainer) return;
+
     if (!window.Globe) {
+        console.warn('⚠️ Globe.gl no disponible, usando fallback');
         renderGlobeFallback(globeContainer);
         return;
     }
 
+    console.log('🌐 Inicializando globo 3D...');
     state.globe = Globe()
         (globeContainer)
         .globeImageUrl(GLOBE_TEXTURE_URL)
@@ -109,12 +130,16 @@ function initGlobe() {
         .showAtmosphere(true)
         .atmosphereColor('#8ee8ff')
         .atmosphereAltitude(0.28)
+        
+        // Configuración de puntos (Ciudades)
         .pointsData(state.cities)
         .pointLat(d => d.lat)
         .pointLng(d => d.lng)
-        .pointAltitude(0.07)
-        .pointRadius(0.44)
+        .pointAltitude(0.01)
+        .pointRadius(0.8)
         .pointColor(() => '#ffdf5d')
+        
+        // Anillos pulsantes
         .ringsData(state.cities)
         .ringLat(d => d.lat)
         .ringLng(d => d.lng)
@@ -122,6 +147,8 @@ function initGlobe() {
         .ringMaxRadius(4.2)
         .ringPropagationSpeed(1.2)
         .ringRepeatPeriod(1900)
+        
+        // Arcos de conexión
         .arcsData(buildGlobeArcs())
         .arcStartLat(d => d.startLat)
         .arcStartLng(d => d.startLng)
@@ -133,32 +160,36 @@ function initGlobe() {
         .arcDashLength(0.42)
         .arcDashGap(1.6)
         .arcDashAnimateTime(3600)
+        
+        // Fronteras de países
         .polygonsData(state.countryPolygons)
         .polygonCapColor(() => 'rgba(76, 175, 118, 0.22)')
         .polygonSideColor(() => 'rgba(76, 175, 118, 0.08)')
         .polygonStrokeColor(() => 'rgba(255, 255, 255, 0.42)')
         .polygonAltitude(0.008)
+        
         // Etiquetas de texto
         .labelsData(state.cities)
         .labelLat(d => d.lat)
         .labelLng(d => d.lng)
         .labelText(d => d.nombre)
-        .labelSize(1.0)
-        .labelDotRadius(0.2)
-        .labelColor(() => 'rgba(255, 255, 255, 0.8)')
+        .labelSize(1.2)
+        .labelDotRadius(0.4)
+        .labelColor(() => 'rgba(255, 255, 255, 0.9)')
+        .labelAltitude(0.01)
         .onLabelClick(city => selectCity(city))
 
-        // Fotos directamente en el mapa (HTML Elements)
+        // Marcadores HTML (Miniaturas)
         .htmlElementsData(state.cities)
         .htmlLat(d => d.lat)
         .htmlLng(d => d.lng)
-        .htmlAltitude(0.1)
+        .htmlAltitude(0.02) 
         .htmlElement(d => {
             const el = document.createElement('div');
             el.className = 'globe-city-marker';
             el.innerHTML = `
                 <div class="globe-thumb-container">
-                    <img src="${assetUrl(d.imagen)}" class="globe-thumb">
+                    <img src="${assetUrl(d.imagen)}" class="globe-thumb" loading="lazy">
                     <span class="globe-emoji">${d.emoji}</span>
                     
                     <div class="globe-preview-panel">
@@ -169,15 +200,25 @@ function initGlobe() {
                 </div>
             `;
             el.style.cursor = 'pointer';
-            el.onclick = () => selectCity(d);
+            el.onclick = (ev) => {
+                ev.stopPropagation();
+                selectCity(d);
+            };
             return el;
         });
 
-    state.globe.controls().autoRotate = true;
-    state.globe.controls().autoRotateSpeed = 0.45;
+    // Configuración de controles
+    const controls = state.globe.controls();
+    if (controls) {
+        controls.autoRotate = true;
+        controls.autoRotateSpeed = 0.5;
+        controls.enableDamping = true;
+    }
 
-    state.globe.pointOfView({ lat: 15, lng: -20, altitude: 2.25 });
+    state.globe.pointOfView({ lat: 15, lng: -20, altitude: 2.25 }, 1000);
+    console.log('✅ Globo inicializado con marcadores');
 }
+
 
 function buildGlobeArcs() {
     return state.cities.map((city, index) => {

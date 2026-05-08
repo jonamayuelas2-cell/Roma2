@@ -28,7 +28,7 @@
 
 **Plan Barcelona Premium:**
 1. Definir 54 actividades (6 por cada uno de los 9 lugares) con datos reales/premium. ✅
-2. Sincronizar `cities.json` y `data/barcelona.json` con la nueva estructura. ✅
+2. Sincronizar `cities.json` and `data/barcelona.json` con la nueva estructura. ✅
 3. Crear catálogo de prompts para regeneración visual total. ✅
 4. ⚠️ **Nota:** Imágenes en espera por límite de cuota (~4h).
 
@@ -62,3 +62,18 @@
 **Generación de Datos:**
 *   Se utilizó un script de Python (`scratch/generate_rio.py`) para estructurar los 9 lugares con sus respectivas 6 actividades cada uno, asegurando coherencia con el modelo de Estambul y Roma.
 *   Las actividades incluyen proveedores ficticios pero realistas, horarios, y descripciones detalladas.
+
+---
+
+## 🕒 2026-05-08 08:30
+**User Request:** "acabo de arrancar la app y otra vez no aparecen las ciudades ubicadas en el mapamundi"
+
+**Diagnóstico y Solución:**
+1. **Validación:** Se comprobó la integridad de `cities.json` (20 ciudades válidas).
+2. **Robustez:** Se refactorizó `app.js` para asegurar que `initGlobe()` espere a que todos los datos y librerías estén cargados.
+3. **Visibilidad:** Se ajustaron las altitudes de los marcadores HTML (`htmlAltitude`) de 0.1 a 0.02 para que se integren mejor con la superficie y sean más fáciles de ver.
+4. **Caché:** Se incrementó `ASSET_VERSION` para forzar la recarga de activos.
+
+**Prompts de Acción:**
+* "Investigar por qué los marcadores del globo Globe.gl no se renderizan a pesar de que cities.json es válido. Comprobar altitudes, lógica de carga asíncrona y versionado de assets."
+* "Aplicar mejoras de robustez en la inicialización del globo: añadir logs de consola detallados, asegurar que loadCities termine antes de initGlobe, y ajustar las altitudes de los marcadores HTML para evitar clipping con la superficie del globo. Actualizar ASSET_VERSION."
