@@ -11691,5 +11691,2341 @@
         ]
       }
     ]
+  },
+  {
+    "id": "lisboa",
+    "nombre": "Lisboa",
+    "pais": "Portugal",
+    "continente": "Europa",
+    "emoji": "🇵🇹",
+    "lat": 38.7223,
+    "lng": -9.1393,
+    "imagen": "img/lisbon_hero.png",
+    "theme": {
+      "primary": "#0f766e",
+      "secondary": "#f59e0b",
+      "font": "'Inter', sans-serif"
+    },
+    "lugares": [
+      {
+        "id": 1,
+        "nombre": "Torre de Belém",
+        "tipo": "cultura",
+        "descripcion": "Fortaleza del siglo XVI que servía de punto de partida para los exploradores portugueses.",
+        "descripcionCorta": "La joya del Tajo.",
+        "lat": 38.6916,
+        "lng": -9.216,
+        "horario": "10:00 - 17:30",
+        "precio": "6€",
+        "rating": 4.8,
+        "imagen": "img/lisbon_belem.png",
+        "imagenCard": "img/lisbon_belem.png",
+        "tags": [
+          "historia",
+          "arquitectura",
+          "exploración"
+        ],
+        "actividades": [
+          {
+            "titulo": "Tour historico esencial",
+            "descripcion": "Recorrido guiado por Torre de Belém para conectar arquitectura, personajes y momentos clave de Lisboa.",
+            "proveedor": "Historia Viva Lisboa",
+            "contacto": "reservas@historialisboa.local",
+            "horario": "10:00 - 12:00"
+          },
+          {
+            "titulo": "Acceso con contexto local",
+            "descripcion": "Visita pausada con explicaciones practicas para comprender por que este lugar sigue siendo imprescindible.",
+            "proveedor": "Guias Locales Lisboa",
+            "contacto": "hola@lisboalocal.local",
+            "horario": "12:00 - 14:00"
+          },
+          {
+            "titulo": "Paseo fotografico",
+            "descripcion": "Itinerario para capturar fachadas, perspectivas y detalles con la mejor luz disponible.",
+            "proveedor": "Photo Walk Lisboa",
+            "contacto": "foto@lisboawalk.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Ruta de leyendas",
+            "descripcion": "Historias, simbolos y anecdotas alrededor de Torre de Belém, con tono narrativo y facil de seguir.",
+            "proveedor": "Relatos de Lisboa",
+            "contacto": "relatos@lisboa.local",
+            "horario": "18:00 - 19:30"
+          },
+          {
+            "titulo": "Visita familiar",
+            "descripcion": "Version didactica con paradas breves, preguntas y claves sencillas para ninos y adultos.",
+            "proveedor": "Familias Viajeras",
+            "contacto": "familias@viaje.local",
+            "horario": "11:00 - 12:30"
+          },
+          {
+            "titulo": "Audioguia express",
+            "descripcion": "Recorrido autonomo para ver lo principal de Torre de Belém con contexto claro y sin prisas.",
+            "proveedor": "Audio Travel",
+            "contacto": "audio@travel.local",
+            "horario": "Durante apertura"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "nombre": "Barrio de Alfama",
+        "tipo": "barrios",
+        "descripcion": "El barrio más antiguo y pintoresco de Lisboa, famoso por el Fado.",
+        "descripcionCorta": "El alma de Lisboa.",
+        "lat": 38.7121,
+        "lng": -9.1305,
+        "horario": "24h",
+        "precio": "Gratis",
+        "rating": 4.9,
+        "imagen": "img/lisbon_alfama.png",
+        "imagenCard": "img/lisbon_alfama.png",
+        "tags": [
+          "fado",
+          "callejuelas",
+          "tradición"
+        ],
+        "actividades": [
+          {
+            "titulo": "Paseo de barrio",
+            "descripcion": "Ruta a pie por calles, plazas y rincones cotidianos para entender el caracter de Barrio de Alfama.",
+            "proveedor": "Walks Lisboa",
+            "contacto": "walks@lisboa.local",
+            "horario": "10:30 - 12:30"
+          },
+          {
+            "titulo": "Ruta gastronomica local",
+            "descripcion": "Paradas escogidas para probar sabores representativos y conocer pequenos comercios de la zona.",
+            "proveedor": "Sabores de Lisboa",
+            "contacto": "sabores@lisboa.local",
+            "horario": "13:00 - 15:00"
+          },
+          {
+            "titulo": "Fotografia urbana",
+            "descripcion": "Paseo para buscar fachadas, mercados, escenas de calle y detalles con personalidad.",
+            "proveedor": "Photo Walk Lisboa",
+            "contacto": "foto@lisboawalk.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Historias del vecindario",
+            "descripcion": "Relato guiado sobre cambios urbanos, vida local y memoria del barrio.",
+            "proveedor": "Cronicas Lisboa",
+            "contacto": "cronicas@lisboa.local",
+            "horario": "17:00 - 18:30"
+          },
+          {
+            "titulo": "Compras con guia local",
+            "descripcion": "Seleccion de tiendas, talleres y productos con criterio local y sin prisas.",
+            "proveedor": "Local Shops Lisboa",
+            "contacto": "shops@lisboa.local",
+            "horario": "11:00 - 13:00"
+          },
+          {
+            "titulo": "Noche de ambiente",
+            "descripcion": "Recorrido suave por bares, plazas y locales recomendados para tomar el pulso nocturno.",
+            "proveedor": "After Dark Lisboa",
+            "contacto": "noche@lisboa.local",
+            "horario": "20:00 - 22:00"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "nombre": "Monasterio de los Jeronimos",
+        "tipo": "cultura",
+        "descripcion": "Obra maestra manuelina ligada a la era de los descubrimientos, con claustros de piedra tallada y memoria marinera.",
+        "descripcionCorta": "El gran templo manuelino de Belem.",
+        "lat": 38.6979,
+        "lng": -9.2067,
+        "horario": "10:00 - 17:30",
+        "precio": "10 EUR",
+        "rating": 4.8,
+        "imagen": "img/lisbon_jeronimos.png",
+        "imagenCard": "img/lisbon_jeronimos.png",
+        "tags": [
+          "manuelino",
+          "patrimonio",
+          "belem"
+        ],
+        "actividades": [
+          {
+            "titulo": "Visita guiada esencial",
+            "descripcion": "Recorrido interpretado por Monasterio de los Jeronimos para entender su contexto dentro de Lisboa.",
+            "proveedor": "Guias Locales Lisboa",
+            "contacto": "hola@lisboa.local",
+            "horario": "10:00 - 12:00"
+          },
+          {
+            "titulo": "Paseo fotografico",
+            "descripcion": "Itinerario para capturar perspectivas, detalles y luz adecuada en Monasterio de los Jeronimos.",
+            "proveedor": "Photo Walk Lisboa",
+            "contacto": "foto@lisboawalk.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Tour privado a medida",
+            "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
+            "proveedor": "Travel Designers Lisboa",
+            "contacto": "plan@lisboatravel.local",
+            "horario": "Bajo reserva"
+          },
+          {
+            "titulo": "Ruta familiar",
+            "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
+            "proveedor": "Familias Viajeras",
+            "contacto": "familias@viaje.local",
+            "horario": "11:00 - 12:30"
+          },
+          {
+            "titulo": "Experiencia al atardecer",
+            "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
+            "proveedor": "Slow Travel Lisboa",
+            "contacto": "slow@lisboa.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Audioguia express",
+            "descripcion": "Formato breve para entender lo esencial de Monasterio de los Jeronimos con autonomia.",
+            "proveedor": "Audio Travel",
+            "contacto": "audio@travel.local",
+            "horario": "Durante apertura"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "nombre": "Mirador de Santa Luzia",
+        "tipo": "vistas",
+        "descripcion": "Terrazas de azulejo y buganvillas abiertas sobre Alfama, el Tajo y los tejados rojizos de la ciudad.",
+        "descripcionCorta": "Postal luminosa sobre Alfama.",
+        "lat": 38.7117,
+        "lng": -9.1302,
+        "horario": "24h",
+        "precio": "Gratis",
+        "rating": 4.7,
+        "imagen": "img/lisbon_santaluzia.png",
+        "imagenCard": "img/lisbon_santaluzia.png",
+        "tags": [
+          "mirador",
+          "azulejos",
+          "alfama"
+        ],
+        "actividades": [
+          {
+            "titulo": "Visita guiada esencial",
+            "descripcion": "Recorrido interpretado por Mirador de Santa Luzia para entender su contexto dentro de Lisboa.",
+            "proveedor": "Guias Locales Lisboa",
+            "contacto": "hola@lisboa.local",
+            "horario": "10:00 - 12:00"
+          },
+          {
+            "titulo": "Paseo fotografico",
+            "descripcion": "Itinerario para capturar perspectivas, detalles y luz adecuada en Mirador de Santa Luzia.",
+            "proveedor": "Photo Walk Lisboa",
+            "contacto": "foto@lisboawalk.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Tour privado a medida",
+            "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
+            "proveedor": "Travel Designers Lisboa",
+            "contacto": "plan@lisboatravel.local",
+            "horario": "Bajo reserva"
+          },
+          {
+            "titulo": "Ruta familiar",
+            "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
+            "proveedor": "Familias Viajeras",
+            "contacto": "familias@viaje.local",
+            "horario": "11:00 - 12:30"
+          },
+          {
+            "titulo": "Experiencia al atardecer",
+            "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
+            "proveedor": "Slow Travel Lisboa",
+            "contacto": "slow@lisboa.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Audioguia express",
+            "descripcion": "Formato breve para entender lo esencial de Mirador de Santa Luzia con autonomia.",
+            "proveedor": "Audio Travel",
+            "contacto": "audio@travel.local",
+            "horario": "Durante apertura"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "nombre": "Elevador de Santa Justa",
+        "tipo": "cultura",
+        "descripcion": "Ascensor neogotico de hierro que conecta la Baixa con el Chiado y regala una vista vertical del centro.",
+        "descripcionCorta": "Hierro historico sobre la Baixa.",
+        "lat": 38.7121,
+        "lng": -9.1395,
+        "horario": "7:00 - 22:00",
+        "precio": "Desde 5 EUR",
+        "rating": 4.4,
+        "imagen": "img/lisbon_santajusta.png",
+        "imagenCard": "img/lisbon_santajusta.png",
+        "tags": [
+          "mirador",
+          "hierro",
+          "baixa"
+        ],
+        "actividades": [
+          {
+            "titulo": "Visita guiada esencial",
+            "descripcion": "Recorrido interpretado por Elevador de Santa Justa para entender su contexto dentro de Lisboa.",
+            "proveedor": "Guias Locales Lisboa",
+            "contacto": "hola@lisboa.local",
+            "horario": "10:00 - 12:00"
+          },
+          {
+            "titulo": "Paseo fotografico",
+            "descripcion": "Itinerario para capturar perspectivas, detalles y luz adecuada en Elevador de Santa Justa.",
+            "proveedor": "Photo Walk Lisboa",
+            "contacto": "foto@lisboawalk.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Tour privado a medida",
+            "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
+            "proveedor": "Travel Designers Lisboa",
+            "contacto": "plan@lisboatravel.local",
+            "horario": "Bajo reserva"
+          },
+          {
+            "titulo": "Ruta familiar",
+            "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
+            "proveedor": "Familias Viajeras",
+            "contacto": "familias@viaje.local",
+            "horario": "11:00 - 12:30"
+          },
+          {
+            "titulo": "Experiencia al atardecer",
+            "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
+            "proveedor": "Slow Travel Lisboa",
+            "contacto": "slow@lisboa.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Audioguia express",
+            "descripcion": "Formato breve para entender lo esencial de Elevador de Santa Justa con autonomia.",
+            "proveedor": "Audio Travel",
+            "contacto": "audio@travel.local",
+            "horario": "Durante apertura"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "nombre": "LX Factory",
+        "tipo": "barrios",
+        "descripcion": "Antiguo complejo industrial convertido en distrito creativo con librerias, talleres, murales y terrazas.",
+        "descripcionCorta": "La Lisboa creativa bajo el puente.",
+        "lat": 38.7033,
+        "lng": -9.1786,
+        "horario": "10:00 - 22:00",
+        "precio": "Gratis",
+        "rating": 4.6,
+        "imagen": "img/lisbon_lxfactory.png",
+        "imagenCard": "img/lisbon_lxfactory.png",
+        "tags": [
+          "arte urbano",
+          "diseno",
+          "gastronomia"
+        ],
+        "actividades": [
+          {
+            "titulo": "Paseo de barrio",
+            "descripcion": "Ruta a pie por rincones, miradores y escenas cotidianas de LX Factory.",
+            "proveedor": "Walks Lisboa",
+            "contacto": "walks@lisboa.local",
+            "horario": "10:30 - 12:30"
+          },
+          {
+            "titulo": "Paseo fotografico",
+            "descripcion": "Itinerario para capturar perspectivas, detalles y luz adecuada en LX Factory.",
+            "proveedor": "Photo Walk Lisboa",
+            "contacto": "foto@lisboawalk.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Tour privado a medida",
+            "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
+            "proveedor": "Travel Designers Lisboa",
+            "contacto": "plan@lisboatravel.local",
+            "horario": "Bajo reserva"
+          },
+          {
+            "titulo": "Ruta familiar",
+            "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
+            "proveedor": "Familias Viajeras",
+            "contacto": "familias@viaje.local",
+            "horario": "11:00 - 12:30"
+          },
+          {
+            "titulo": "Experiencia al atardecer",
+            "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
+            "proveedor": "Slow Travel Lisboa",
+            "contacto": "slow@lisboa.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Audioguia express",
+            "descripcion": "Formato breve para entender lo esencial de LX Factory con autonomia.",
+            "proveedor": "Audio Travel",
+            "contacto": "audio@travel.local",
+            "horario": "Durante apertura"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "nombre": "Mercado da Ribeira",
+        "tipo": "mercados",
+        "descripcion": "Mercado historico y food hall donde conviven producto fresco, cocina portuguesa y mesas compartidas.",
+        "descripcionCorta": "Sabores de Lisboa en una nave viva.",
+        "lat": 38.7066,
+        "lng": -9.1459,
+        "horario": "10:00 - 00:00",
+        "precio": "Segun consumo",
+        "rating": 4.5,
+        "imagen": "img/lisbon_ribeira.png",
+        "imagenCard": "img/lisbon_ribeira.png",
+        "tags": [
+          "mercado",
+          "gastronomia",
+          "local"
+        ],
+        "actividades": [
+          {
+            "titulo": "Ruta de sabores",
+            "descripcion": "Paradas escogidas para probar producto local y entender el pulso gastronomico de Mercado da Ribeira.",
+            "proveedor": "Sabores de Lisboa",
+            "contacto": "sabores@lisboa.local",
+            "horario": "12:00 - 14:00"
+          },
+          {
+            "titulo": "Paseo fotografico",
+            "descripcion": "Itinerario para capturar perspectivas, detalles y luz adecuada en Mercado da Ribeira.",
+            "proveedor": "Photo Walk Lisboa",
+            "contacto": "foto@lisboawalk.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Tour privado a medida",
+            "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
+            "proveedor": "Travel Designers Lisboa",
+            "contacto": "plan@lisboatravel.local",
+            "horario": "Bajo reserva"
+          },
+          {
+            "titulo": "Ruta familiar",
+            "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
+            "proveedor": "Familias Viajeras",
+            "contacto": "familias@viaje.local",
+            "horario": "11:00 - 12:30"
+          },
+          {
+            "titulo": "Experiencia al atardecer",
+            "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
+            "proveedor": "Slow Travel Lisboa",
+            "contacto": "slow@lisboa.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Audioguia express",
+            "descripcion": "Formato breve para entender lo esencial de Mercado da Ribeira con autonomia.",
+            "proveedor": "Audio Travel",
+            "contacto": "audio@travel.local",
+            "horario": "Durante apertura"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "nombre": "Museo Nacional del Azulejo",
+        "tipo": "museos",
+        "descripcion": "Coleccion dedicada al azulejo portugues dentro de un antiguo convento, con paneles que explican siglos de color y oficio.",
+        "descripcionCorta": "La historia portuguesa en ceramica.",
+        "lat": 38.7241,
+        "lng": -9.1139,
+        "horario": "10:00 - 18:00",
+        "precio": "8 EUR",
+        "rating": 4.7,
+        "imagen": "img/lisbon_azulejo.png",
+        "imagenCard": "img/lisbon_azulejo.png",
+        "tags": [
+          "museo",
+          "azulejos",
+          "arte"
+        ],
+        "actividades": [
+          {
+            "titulo": "Visita guiada a la coleccion",
+            "descripcion": "Recorrido para entender las piezas clave de Museo Nacional del Azulejo y su papel cultural en Lisboa.",
+            "proveedor": "Museo Nacional del Azulejo Educacion",
+            "contacto": "educacion@lisboa.local",
+            "horario": "10:00 - 12:00"
+          },
+          {
+            "titulo": "Paseo fotografico",
+            "descripcion": "Itinerario para capturar perspectivas, detalles y luz adecuada en Museo Nacional del Azulejo.",
+            "proveedor": "Photo Walk Lisboa",
+            "contacto": "foto@lisboawalk.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Tour privado a medida",
+            "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
+            "proveedor": "Travel Designers Lisboa",
+            "contacto": "plan@lisboatravel.local",
+            "horario": "Bajo reserva"
+          },
+          {
+            "titulo": "Ruta familiar",
+            "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
+            "proveedor": "Familias Viajeras",
+            "contacto": "familias@viaje.local",
+            "horario": "11:00 - 12:30"
+          },
+          {
+            "titulo": "Experiencia al atardecer",
+            "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
+            "proveedor": "Slow Travel Lisboa",
+            "contacto": "slow@lisboa.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Audioguia express",
+            "descripcion": "Formato breve para entender lo esencial de Museo Nacional del Azulejo con autonomia.",
+            "proveedor": "Audio Travel",
+            "contacto": "audio@travel.local",
+            "horario": "Durante apertura"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "nombre": "Parque Eduardo VII",
+        "tipo": "parques",
+        "descripcion": "Gran eje verde con jardines geometricos, invernadero y una panoramica abierta hacia la Baixa y el Tajo.",
+        "descripcionCorta": "El mirador verde de la ciudad.",
+        "lat": 38.7289,
+        "lng": -9.1526,
+        "horario": "24h",
+        "precio": "Gratis",
+        "rating": 4.6,
+        "imagen": "img/lisbon_eduardovii.png",
+        "imagenCard": "img/lisbon_eduardovii.png",
+        "tags": [
+          "parque",
+          "jardin",
+          "vistas"
+        ],
+        "actividades": [
+          {
+            "titulo": "Paseo verde",
+            "descripcion": "Ruta a pie por rincones, miradores y escenas cotidianas de Parque Eduardo VII.",
+            "proveedor": "Walks Lisboa",
+            "contacto": "walks@lisboa.local",
+            "horario": "10:30 - 12:30"
+          },
+          {
+            "titulo": "Paseo fotografico",
+            "descripcion": "Itinerario para capturar perspectivas, detalles y luz adecuada en Parque Eduardo VII.",
+            "proveedor": "Photo Walk Lisboa",
+            "contacto": "foto@lisboawalk.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Tour privado a medida",
+            "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
+            "proveedor": "Travel Designers Lisboa",
+            "contacto": "plan@lisboatravel.local",
+            "horario": "Bajo reserva"
+          },
+          {
+            "titulo": "Ruta familiar",
+            "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
+            "proveedor": "Familias Viajeras",
+            "contacto": "familias@viaje.local",
+            "horario": "11:00 - 12:30"
+          },
+          {
+            "titulo": "Experiencia al atardecer",
+            "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
+            "proveedor": "Slow Travel Lisboa",
+            "contacto": "slow@lisboa.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Audioguia express",
+            "descripcion": "Formato breve para entender lo esencial de Parque Eduardo VII con autonomia.",
+            "proveedor": "Audio Travel",
+            "contacto": "audio@travel.local",
+            "horario": "Durante apertura"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "praga",
+    "nombre": "Praga",
+    "pais": "Republica Checa",
+    "continente": "Europa",
+    "emoji": "🇨🇿",
+    "lat": 50.0755,
+    "lng": 14.4378,
+    "imagen": "img/prague_hero.png",
+    "theme": {
+      "primary": "#7f1d1d",
+      "secondary": "#d97706",
+      "font": "'Playfair Display', serif"
+    },
+    "lugares": [
+      {
+        "id": 1,
+        "nombre": "Puente Carlos",
+        "tipo": "cultura",
+        "descripcion": "Puente medieval famoso que une la Ciudad Vieja con el Barrio Pequeño.",
+        "descripcionCorta": "El puente más romántico de Europa.",
+        "lat": 50.0865,
+        "lng": 14.4114,
+        "horario": "24h",
+        "precio": "Gratis",
+        "rating": 4.9,
+        "imagen": "img/prague_charlesbridge.png",
+        "imagenCard": "img/prague_charlesbridge.png",
+        "tags": [
+          "historia",
+          "vistas",
+          "romántico"
+        ],
+        "actividades": [
+          {
+            "titulo": "Tour historico esencial",
+            "descripcion": "Recorrido guiado por Puente Carlos para conectar arquitectura, personajes y momentos clave de Praga.",
+            "proveedor": "Historia Viva Praga",
+            "contacto": "reservas@historiapraga.local",
+            "horario": "10:00 - 12:00"
+          },
+          {
+            "titulo": "Acceso con contexto local",
+            "descripcion": "Visita pausada con explicaciones practicas para comprender por que este lugar sigue siendo imprescindible.",
+            "proveedor": "Guias Locales Praga",
+            "contacto": "hola@pragalocal.local",
+            "horario": "12:00 - 14:00"
+          },
+          {
+            "titulo": "Paseo fotografico",
+            "descripcion": "Itinerario para capturar fachadas, perspectivas y detalles con la mejor luz disponible.",
+            "proveedor": "Photo Walk Praga",
+            "contacto": "foto@pragawalk.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Ruta de leyendas",
+            "descripcion": "Historias, simbolos y anecdotas alrededor de Puente Carlos, con tono narrativo y facil de seguir.",
+            "proveedor": "Relatos de Praga",
+            "contacto": "relatos@praga.local",
+            "horario": "18:00 - 19:30"
+          },
+          {
+            "titulo": "Visita familiar",
+            "descripcion": "Version didactica con paradas breves, preguntas y claves sencillas para ninos y adultos.",
+            "proveedor": "Familias Viajeras",
+            "contacto": "familias@viaje.local",
+            "horario": "11:00 - 12:30"
+          },
+          {
+            "titulo": "Audioguia express",
+            "descripcion": "Recorrido autonomo para ver lo principal de Puente Carlos con contexto claro y sin prisas.",
+            "proveedor": "Audio Travel",
+            "contacto": "audio@travel.local",
+            "horario": "Durante apertura"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "nombre": "Castillo de Praga",
+        "tipo": "cultura",
+        "descripcion": "Complejo fortificado que domina la ciudad, sede de los reyes de Bohemia.",
+        "descripcionCorta": "El castillo más grande del mundo.",
+        "lat": 50.0911,
+        "lng": 14.4016,
+        "horario": "9:00 - 17:00",
+        "precio": "10€",
+        "rating": 4.8,
+        "imagen": "img/prague_castle.png",
+        "imagenCard": "img/prague_castle.png",
+        "tags": [
+          "monarquía",
+          "vistas",
+          "historia"
+        ],
+        "actividades": [
+          {
+            "titulo": "Tour historico esencial",
+            "descripcion": "Recorrido guiado por Castillo de Praga para conectar arquitectura, personajes y momentos clave de Praga.",
+            "proveedor": "Historia Viva Praga",
+            "contacto": "reservas@historiapraga.local",
+            "horario": "10:00 - 12:00"
+          },
+          {
+            "titulo": "Acceso con contexto local",
+            "descripcion": "Visita pausada con explicaciones practicas para comprender por que este lugar sigue siendo imprescindible.",
+            "proveedor": "Guias Locales Praga",
+            "contacto": "hola@pragalocal.local",
+            "horario": "12:00 - 14:00"
+          },
+          {
+            "titulo": "Paseo fotografico",
+            "descripcion": "Itinerario para capturar fachadas, perspectivas y detalles con la mejor luz disponible.",
+            "proveedor": "Photo Walk Praga",
+            "contacto": "foto@pragawalk.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Ruta de leyendas",
+            "descripcion": "Historias, simbolos y anecdotas alrededor de Castillo de Praga, con tono narrativo y facil de seguir.",
+            "proveedor": "Relatos de Praga",
+            "contacto": "relatos@praga.local",
+            "horario": "18:00 - 19:30"
+          },
+          {
+            "titulo": "Visita familiar",
+            "descripcion": "Version didactica con paradas breves, preguntas y claves sencillas para ninos y adultos.",
+            "proveedor": "Familias Viajeras",
+            "contacto": "familias@viaje.local",
+            "horario": "11:00 - 12:30"
+          },
+          {
+            "titulo": "Audioguia express",
+            "descripcion": "Recorrido autonomo para ver lo principal de Castillo de Praga con contexto claro y sin prisas.",
+            "proveedor": "Audio Travel",
+            "contacto": "audio@travel.local",
+            "horario": "Durante apertura"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "nombre": "Plaza de la Ciudad Vieja",
+        "tipo": "cultura",
+        "descripcion": "La plaza concentra fachadas goticas, barrocas y medievales alrededor del reloj astronomico y la iglesia de Tyn.",
+        "descripcionCorta": "El escenario historico de Praga.",
+        "lat": 50.087,
+        "lng": 14.4213,
+        "horario": "24h",
+        "precio": "Gratis",
+        "rating": 4.9,
+        "imagen": "img/prague_oldtownsquare.png",
+        "imagenCard": "img/prague_oldtownsquare.png",
+        "tags": [
+          "plaza",
+          "reloj",
+          "historia"
+        ],
+        "actividades": [
+          {
+            "titulo": "Visita guiada esencial",
+            "descripcion": "Recorrido interpretado por Plaza de la Ciudad Vieja para entender su contexto dentro de Praga.",
+            "proveedor": "Guias Locales Praga",
+            "contacto": "hola@praga.local",
+            "horario": "10:00 - 12:00"
+          },
+          {
+            "titulo": "Paseo fotografico",
+            "descripcion": "Itinerario para capturar perspectivas, detalles y luz adecuada en Plaza de la Ciudad Vieja.",
+            "proveedor": "Photo Walk Praga",
+            "contacto": "foto@pragawalk.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Tour privado a medida",
+            "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
+            "proveedor": "Travel Designers Praga",
+            "contacto": "plan@pragatravel.local",
+            "horario": "Bajo reserva"
+          },
+          {
+            "titulo": "Ruta familiar",
+            "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
+            "proveedor": "Familias Viajeras",
+            "contacto": "familias@viaje.local",
+            "horario": "11:00 - 12:30"
+          },
+          {
+            "titulo": "Experiencia al atardecer",
+            "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
+            "proveedor": "Slow Travel Praga",
+            "contacto": "slow@praga.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Audioguia express",
+            "descripcion": "Formato breve para entender lo esencial de Plaza de la Ciudad Vieja con autonomia.",
+            "proveedor": "Audio Travel",
+            "contacto": "audio@travel.local",
+            "horario": "Durante apertura"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "nombre": "Reloj Astronomico",
+        "tipo": "cultura",
+        "descripcion": "Mecanismo medieval que marca horas, signos y procesion de figuras en la fachada del Ayuntamiento Viejo.",
+        "descripcionCorta": "La maquinaria poetica del centro.",
+        "lat": 50.087,
+        "lng": 14.4208,
+        "horario": "9:00 - 21:00",
+        "precio": "Desde 10 EUR",
+        "rating": 4.7,
+        "imagen": "img/prague_astronomicalclock.png",
+        "imagenCard": "img/prague_astronomicalclock.png",
+        "tags": [
+          "reloj",
+          "medieval",
+          "ayuntamiento"
+        ],
+        "actividades": [
+          {
+            "titulo": "Visita guiada esencial",
+            "descripcion": "Recorrido interpretado por Reloj Astronomico para entender su contexto dentro de Praga.",
+            "proveedor": "Guias Locales Praga",
+            "contacto": "hola@praga.local",
+            "horario": "10:00 - 12:00"
+          },
+          {
+            "titulo": "Paseo fotografico",
+            "descripcion": "Itinerario para capturar perspectivas, detalles y luz adecuada en Reloj Astronomico.",
+            "proveedor": "Photo Walk Praga",
+            "contacto": "foto@pragawalk.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Tour privado a medida",
+            "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
+            "proveedor": "Travel Designers Praga",
+            "contacto": "plan@pragatravel.local",
+            "horario": "Bajo reserva"
+          },
+          {
+            "titulo": "Ruta familiar",
+            "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
+            "proveedor": "Familias Viajeras",
+            "contacto": "familias@viaje.local",
+            "horario": "11:00 - 12:30"
+          },
+          {
+            "titulo": "Experiencia al atardecer",
+            "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
+            "proveedor": "Slow Travel Praga",
+            "contacto": "slow@praga.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Audioguia express",
+            "descripcion": "Formato breve para entender lo esencial de Reloj Astronomico con autonomia.",
+            "proveedor": "Audio Travel",
+            "contacto": "audio@travel.local",
+            "horario": "Durante apertura"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "nombre": "Catedral de San Vito",
+        "tipo": "cultura",
+        "descripcion": "Gran catedral gotica dentro del recinto del castillo, con vidrieras, capillas reales y torres dominantes.",
+        "descripcionCorta": "La catedral gotica de Bohemia.",
+        "lat": 50.0909,
+        "lng": 14.4006,
+        "horario": "9:00 - 17:00",
+        "precio": "Incluida en circuito",
+        "rating": 4.8,
+        "imagen": "img/prague_stvitus.png",
+        "imagenCard": "img/prague_stvitus.png",
+        "tags": [
+          "gotico",
+          "catedral",
+          "castillo"
+        ],
+        "actividades": [
+          {
+            "titulo": "Visita guiada esencial",
+            "descripcion": "Recorrido interpretado por Catedral de San Vito para entender su contexto dentro de Praga.",
+            "proveedor": "Guias Locales Praga",
+            "contacto": "hola@praga.local",
+            "horario": "10:00 - 12:00"
+          },
+          {
+            "titulo": "Paseo fotografico",
+            "descripcion": "Itinerario para capturar perspectivas, detalles y luz adecuada en Catedral de San Vito.",
+            "proveedor": "Photo Walk Praga",
+            "contacto": "foto@pragawalk.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Tour privado a medida",
+            "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
+            "proveedor": "Travel Designers Praga",
+            "contacto": "plan@pragatravel.local",
+            "horario": "Bajo reserva"
+          },
+          {
+            "titulo": "Ruta familiar",
+            "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
+            "proveedor": "Familias Viajeras",
+            "contacto": "familias@viaje.local",
+            "horario": "11:00 - 12:30"
+          },
+          {
+            "titulo": "Experiencia al atardecer",
+            "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
+            "proveedor": "Slow Travel Praga",
+            "contacto": "slow@praga.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Audioguia express",
+            "descripcion": "Formato breve para entender lo esencial de Catedral de San Vito con autonomia.",
+            "proveedor": "Audio Travel",
+            "contacto": "audio@travel.local",
+            "horario": "Durante apertura"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "nombre": "Mala Strana",
+        "tipo": "barrios",
+        "descripcion": "Barrio de palacios, jardines y calles empedradas bajo el castillo, con una atmosfera pausada y elegante.",
+        "descripcionCorta": "El barrio barroco bajo el castillo.",
+        "lat": 50.0886,
+        "lng": 14.4048,
+        "horario": "24h",
+        "precio": "Gratis",
+        "rating": 4.8,
+        "imagen": "img/prague_malastrana.png",
+        "imagenCard": "img/prague_malastrana.png",
+        "tags": [
+          "barrio",
+          "barroco",
+          "palacios"
+        ],
+        "actividades": [
+          {
+            "titulo": "Paseo de barrio",
+            "descripcion": "Ruta a pie por rincones, miradores y escenas cotidianas de Mala Strana.",
+            "proveedor": "Walks Praga",
+            "contacto": "walks@praga.local",
+            "horario": "10:30 - 12:30"
+          },
+          {
+            "titulo": "Paseo fotografico",
+            "descripcion": "Itinerario para capturar perspectivas, detalles y luz adecuada en Mala Strana.",
+            "proveedor": "Photo Walk Praga",
+            "contacto": "foto@pragawalk.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Tour privado a medida",
+            "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
+            "proveedor": "Travel Designers Praga",
+            "contacto": "plan@pragatravel.local",
+            "horario": "Bajo reserva"
+          },
+          {
+            "titulo": "Ruta familiar",
+            "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
+            "proveedor": "Familias Viajeras",
+            "contacto": "familias@viaje.local",
+            "horario": "11:00 - 12:30"
+          },
+          {
+            "titulo": "Experiencia al atardecer",
+            "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
+            "proveedor": "Slow Travel Praga",
+            "contacto": "slow@praga.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Audioguia express",
+            "descripcion": "Formato breve para entender lo esencial de Mala Strana con autonomia.",
+            "proveedor": "Audio Travel",
+            "contacto": "audio@travel.local",
+            "horario": "Durante apertura"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "nombre": "Barrio Judio Josefov",
+        "tipo": "cultura",
+        "descripcion": "Sinagogas, cementerio antiguo y memoria comunitaria condensan una parte esencial de la historia europea.",
+        "descripcionCorta": "Memoria judia en el centro historico.",
+        "lat": 50.0906,
+        "lng": 14.4195,
+        "horario": "9:00 - 18:00",
+        "precio": "Desde 15 EUR",
+        "rating": 4.7,
+        "imagen": "img/prague_josefov.png",
+        "imagenCard": "img/prague_josefov.png",
+        "tags": [
+          "memoria",
+          "sinagogas",
+          "historia"
+        ],
+        "actividades": [
+          {
+            "titulo": "Visita guiada esencial",
+            "descripcion": "Recorrido interpretado por Barrio Judio Josefov para entender su contexto dentro de Praga.",
+            "proveedor": "Guias Locales Praga",
+            "contacto": "hola@praga.local",
+            "horario": "10:00 - 12:00"
+          },
+          {
+            "titulo": "Paseo fotografico",
+            "descripcion": "Itinerario para capturar perspectivas, detalles y luz adecuada en Barrio Judio Josefov.",
+            "proveedor": "Photo Walk Praga",
+            "contacto": "foto@pragawalk.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Tour privado a medida",
+            "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
+            "proveedor": "Travel Designers Praga",
+            "contacto": "plan@pragatravel.local",
+            "horario": "Bajo reserva"
+          },
+          {
+            "titulo": "Ruta familiar",
+            "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
+            "proveedor": "Familias Viajeras",
+            "contacto": "familias@viaje.local",
+            "horario": "11:00 - 12:30"
+          },
+          {
+            "titulo": "Experiencia al atardecer",
+            "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
+            "proveedor": "Slow Travel Praga",
+            "contacto": "slow@praga.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Audioguia express",
+            "descripcion": "Formato breve para entender lo esencial de Barrio Judio Josefov con autonomia.",
+            "proveedor": "Audio Travel",
+            "contacto": "audio@travel.local",
+            "horario": "Durante apertura"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "nombre": "Casa Danzante",
+        "tipo": "vistas",
+        "descripcion": "Edificio contemporaneo de Gehry y Milunic que rompe la linea del Moldava con una silueta dinamica.",
+        "descripcionCorta": "Arquitectura en movimiento junto al rio.",
+        "lat": 50.0755,
+        "lng": 14.4142,
+        "horario": "10:00 - 22:00",
+        "precio": "Mirador segun consumo",
+        "rating": 4.4,
+        "imagen": "img/prague_dancinghouse.png",
+        "imagenCard": "img/prague_dancinghouse.png",
+        "tags": [
+          "arquitectura",
+          "rio",
+          "moderno"
+        ],
+        "actividades": [
+          {
+            "titulo": "Visita guiada esencial",
+            "descripcion": "Recorrido interpretado por Casa Danzante para entender su contexto dentro de Praga.",
+            "proveedor": "Guias Locales Praga",
+            "contacto": "hola@praga.local",
+            "horario": "10:00 - 12:00"
+          },
+          {
+            "titulo": "Paseo fotografico",
+            "descripcion": "Itinerario para capturar perspectivas, detalles y luz adecuada en Casa Danzante.",
+            "proveedor": "Photo Walk Praga",
+            "contacto": "foto@pragawalk.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Tour privado a medida",
+            "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
+            "proveedor": "Travel Designers Praga",
+            "contacto": "plan@pragatravel.local",
+            "horario": "Bajo reserva"
+          },
+          {
+            "titulo": "Ruta familiar",
+            "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
+            "proveedor": "Familias Viajeras",
+            "contacto": "familias@viaje.local",
+            "horario": "11:00 - 12:30"
+          },
+          {
+            "titulo": "Experiencia al atardecer",
+            "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
+            "proveedor": "Slow Travel Praga",
+            "contacto": "slow@praga.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Audioguia express",
+            "descripcion": "Formato breve para entender lo esencial de Casa Danzante con autonomia.",
+            "proveedor": "Audio Travel",
+            "contacto": "audio@travel.local",
+            "horario": "Durante apertura"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "nombre": "Parque Letna",
+        "tipo": "parques",
+        "descripcion": "Colina verde con cerveceria, senderos y una de las mejores vistas de los puentes sobre el Moldava.",
+        "descripcionCorta": "La postal panoramica de los puentes.",
+        "lat": 50.0962,
+        "lng": 14.4178,
+        "horario": "24h",
+        "precio": "Gratis",
+        "rating": 4.7,
+        "imagen": "img/prague_letna.png",
+        "imagenCard": "img/prague_letna.png",
+        "tags": [
+          "parque",
+          "mirador",
+          "rio"
+        ],
+        "actividades": [
+          {
+            "titulo": "Paseo verde",
+            "descripcion": "Ruta a pie por rincones, miradores y escenas cotidianas de Parque Letna.",
+            "proveedor": "Walks Praga",
+            "contacto": "walks@praga.local",
+            "horario": "10:30 - 12:30"
+          },
+          {
+            "titulo": "Paseo fotografico",
+            "descripcion": "Itinerario para capturar perspectivas, detalles y luz adecuada en Parque Letna.",
+            "proveedor": "Photo Walk Praga",
+            "contacto": "foto@pragawalk.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Tour privado a medida",
+            "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
+            "proveedor": "Travel Designers Praga",
+            "contacto": "plan@pragatravel.local",
+            "horario": "Bajo reserva"
+          },
+          {
+            "titulo": "Ruta familiar",
+            "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
+            "proveedor": "Familias Viajeras",
+            "contacto": "familias@viaje.local",
+            "horario": "11:00 - 12:30"
+          },
+          {
+            "titulo": "Experiencia al atardecer",
+            "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
+            "proveedor": "Slow Travel Praga",
+            "contacto": "slow@praga.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Audioguia express",
+            "descripcion": "Formato breve para entender lo esencial de Parque Letna con autonomia.",
+            "proveedor": "Audio Travel",
+            "contacto": "audio@travel.local",
+            "horario": "Durante apertura"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "venecia",
+    "nombre": "Venecia",
+    "pais": "Italia",
+    "continente": "Europa",
+    "emoji": "🇮🇹",
+    "lat": 45.4408,
+    "lng": 12.3155,
+    "imagen": "img/venice_hero.png",
+    "theme": {
+      "primary": "#0e7490",
+      "secondary": "#b45309",
+      "font": "'Cardo', serif"
+    },
+    "lugares": [
+      {
+        "id": 1,
+        "nombre": "Plaza de San Marcos",
+        "tipo": "cultura",
+        "descripcion": "El corazón de Venecia, rodeada de la Basílica de San Marcos y el Palacio Ducal.",
+        "descripcionCorta": "El salón de Europa.",
+        "lat": 45.4342,
+        "lng": 12.3385,
+        "horario": "24h",
+        "precio": "Gratis",
+        "rating": 4.9,
+        "imagen": "img/venice_sanmarco.png",
+        "imagenCard": "img/venice_sanmarco.png",
+        "tags": [
+          "plaza",
+          "historia",
+          "palomas"
+        ],
+        "actividades": [
+          {
+            "titulo": "Tour historico esencial",
+            "descripcion": "Recorrido guiado por Plaza de San Marcos para conectar arquitectura, personajes y momentos clave de Venecia.",
+            "proveedor": "Historia Viva Venecia",
+            "contacto": "reservas@historiavenecia.local",
+            "horario": "10:00 - 12:00"
+          },
+          {
+            "titulo": "Acceso con contexto local",
+            "descripcion": "Visita pausada con explicaciones practicas para comprender por que este lugar sigue siendo imprescindible.",
+            "proveedor": "Guias Locales Venecia",
+            "contacto": "hola@venecialocal.local",
+            "horario": "12:00 - 14:00"
+          },
+          {
+            "titulo": "Paseo fotografico",
+            "descripcion": "Itinerario para capturar fachadas, perspectivas y detalles con la mejor luz disponible.",
+            "proveedor": "Photo Walk Venecia",
+            "contacto": "foto@veneciawalk.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Ruta de leyendas",
+            "descripcion": "Historias, simbolos y anecdotas alrededor de Plaza de San Marcos, con tono narrativo y facil de seguir.",
+            "proveedor": "Relatos de Venecia",
+            "contacto": "relatos@venecia.local",
+            "horario": "18:00 - 19:30"
+          },
+          {
+            "titulo": "Visita familiar",
+            "descripcion": "Version didactica con paradas breves, preguntas y claves sencillas para ninos y adultos.",
+            "proveedor": "Familias Viajeras",
+            "contacto": "familias@viaje.local",
+            "horario": "11:00 - 12:30"
+          },
+          {
+            "titulo": "Audioguia express",
+            "descripcion": "Recorrido autonomo para ver lo principal de Plaza de San Marcos con contexto claro y sin prisas.",
+            "proveedor": "Audio Travel",
+            "contacto": "audio@travel.local",
+            "horario": "Durante apertura"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "nombre": "Puente de Rialto",
+        "tipo": "cultura",
+        "descripcion": "El puente más antiguo de los cuatro que cruzan el Gran Canal de Venecia.",
+        "descripcionCorta": "El puente más icónico del Gran Canal.",
+        "lat": 45.438,
+        "lng": 12.3359,
+        "horario": "24h",
+        "precio": "Gratis",
+        "rating": 4.8,
+        "imagen": "img/venice_rialto.png",
+        "imagenCard": "img/venice_rialto.png",
+        "tags": [
+          "puente",
+          "vistas",
+          "compras"
+        ],
+        "actividades": [
+          {
+            "titulo": "Tour historico esencial",
+            "descripcion": "Recorrido guiado por Puente de Rialto para conectar arquitectura, personajes y momentos clave de Venecia.",
+            "proveedor": "Historia Viva Venecia",
+            "contacto": "reservas@historiavenecia.local",
+            "horario": "10:00 - 12:00"
+          },
+          {
+            "titulo": "Acceso con contexto local",
+            "descripcion": "Visita pausada con explicaciones practicas para comprender por que este lugar sigue siendo imprescindible.",
+            "proveedor": "Guias Locales Venecia",
+            "contacto": "hola@venecialocal.local",
+            "horario": "12:00 - 14:00"
+          },
+          {
+            "titulo": "Paseo fotografico",
+            "descripcion": "Itinerario para capturar fachadas, perspectivas y detalles con la mejor luz disponible.",
+            "proveedor": "Photo Walk Venecia",
+            "contacto": "foto@veneciawalk.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Ruta de leyendas",
+            "descripcion": "Historias, simbolos y anecdotas alrededor de Puente de Rialto, con tono narrativo y facil de seguir.",
+            "proveedor": "Relatos de Venecia",
+            "contacto": "relatos@venecia.local",
+            "horario": "18:00 - 19:30"
+          },
+          {
+            "titulo": "Visita familiar",
+            "descripcion": "Version didactica con paradas breves, preguntas y claves sencillas para ninos y adultos.",
+            "proveedor": "Familias Viajeras",
+            "contacto": "familias@viaje.local",
+            "horario": "11:00 - 12:30"
+          },
+          {
+            "titulo": "Audioguia express",
+            "descripcion": "Recorrido autonomo para ver lo principal de Puente de Rialto con contexto claro y sin prisas.",
+            "proveedor": "Audio Travel",
+            "contacto": "audio@travel.local",
+            "horario": "Durante apertura"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "nombre": "Basilica de San Marcos",
+        "tipo": "cultura",
+        "descripcion": "Templo de mosaicos dorados, marmoles orientales y cupulas bizantinas que resume el poder mercantil veneciano.",
+        "descripcionCorta": "Oro bizantino frente a la plaza.",
+        "lat": 45.4346,
+        "lng": 12.3397,
+        "horario": "9:30 - 17:15",
+        "precio": "Desde 3 EUR",
+        "rating": 4.8,
+        "imagen": "img/venice_basilica.png",
+        "imagenCard": "img/venice_basilica.png",
+        "tags": [
+          "mosaicos",
+          "bizantino",
+          "san marcos"
+        ],
+        "actividades": [
+          {
+            "titulo": "Visita guiada esencial",
+            "descripcion": "Recorrido interpretado por Basilica de San Marcos para entender su contexto dentro de Venecia.",
+            "proveedor": "Guias Locales Venecia",
+            "contacto": "hola@venecia.local",
+            "horario": "10:00 - 12:00"
+          },
+          {
+            "titulo": "Paseo fotografico",
+            "descripcion": "Itinerario para capturar perspectivas, detalles y luz adecuada en Basilica de San Marcos.",
+            "proveedor": "Photo Walk Venecia",
+            "contacto": "foto@veneciawalk.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Tour privado a medida",
+            "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
+            "proveedor": "Travel Designers Venecia",
+            "contacto": "plan@veneciatravel.local",
+            "horario": "Bajo reserva"
+          },
+          {
+            "titulo": "Ruta familiar",
+            "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
+            "proveedor": "Familias Viajeras",
+            "contacto": "familias@viaje.local",
+            "horario": "11:00 - 12:30"
+          },
+          {
+            "titulo": "Experiencia al atardecer",
+            "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
+            "proveedor": "Slow Travel Venecia",
+            "contacto": "slow@venecia.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Audioguia express",
+            "descripcion": "Formato breve para entender lo esencial de Basilica de San Marcos con autonomia.",
+            "proveedor": "Audio Travel",
+            "contacto": "audio@travel.local",
+            "horario": "Durante apertura"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "nombre": "Palacio Ducal",
+        "tipo": "cultura",
+        "descripcion": "Sede del gobierno veneciano, con salones monumentales, patios goticos y el paso hacia el Puente de los Suspiros.",
+        "descripcionCorta": "El poder de la Serenissima.",
+        "lat": 45.4337,
+        "lng": 12.3404,
+        "horario": "9:00 - 18:00",
+        "precio": "30 EUR",
+        "rating": 4.8,
+        "imagen": "img/venice_dogespalace.png",
+        "imagenCard": "img/venice_dogespalace.png",
+        "tags": [
+          "palacio",
+          "gotico",
+          "historia"
+        ],
+        "actividades": [
+          {
+            "titulo": "Visita guiada esencial",
+            "descripcion": "Recorrido interpretado por Palacio Ducal para entender su contexto dentro de Venecia.",
+            "proveedor": "Guias Locales Venecia",
+            "contacto": "hola@venecia.local",
+            "horario": "10:00 - 12:00"
+          },
+          {
+            "titulo": "Paseo fotografico",
+            "descripcion": "Itinerario para capturar perspectivas, detalles y luz adecuada en Palacio Ducal.",
+            "proveedor": "Photo Walk Venecia",
+            "contacto": "foto@veneciawalk.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Tour privado a medida",
+            "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
+            "proveedor": "Travel Designers Venecia",
+            "contacto": "plan@veneciatravel.local",
+            "horario": "Bajo reserva"
+          },
+          {
+            "titulo": "Ruta familiar",
+            "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
+            "proveedor": "Familias Viajeras",
+            "contacto": "familias@viaje.local",
+            "horario": "11:00 - 12:30"
+          },
+          {
+            "titulo": "Experiencia al atardecer",
+            "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
+            "proveedor": "Slow Travel Venecia",
+            "contacto": "slow@venecia.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Audioguia express",
+            "descripcion": "Formato breve para entender lo esencial de Palacio Ducal con autonomia.",
+            "proveedor": "Audio Travel",
+            "contacto": "audio@travel.local",
+            "horario": "Durante apertura"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "nombre": "Gran Canal",
+        "tipo": "vistas",
+        "descripcion": "La avenida acuatica de Venecia serpentea entre palacios, vaporetos y reflejos que cambian a cada hora.",
+        "descripcionCorta": "La gran avenida de agua.",
+        "lat": 45.4375,
+        "lng": 12.3326,
+        "horario": "24h",
+        "precio": "Vaporetto desde 9.50 EUR",
+        "rating": 4.9,
+        "imagen": "img/venice_grandcanal.png",
+        "imagenCard": "img/venice_grandcanal.png",
+        "tags": [
+          "canal",
+          "palacios",
+          "vistas"
+        ],
+        "actividades": [
+          {
+            "titulo": "Visita guiada esencial",
+            "descripcion": "Recorrido interpretado por Gran Canal para entender su contexto dentro de Venecia.",
+            "proveedor": "Guias Locales Venecia",
+            "contacto": "hola@venecia.local",
+            "horario": "10:00 - 12:00"
+          },
+          {
+            "titulo": "Paseo fotografico",
+            "descripcion": "Itinerario para capturar perspectivas, detalles y luz adecuada en Gran Canal.",
+            "proveedor": "Photo Walk Venecia",
+            "contacto": "foto@veneciawalk.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Tour privado a medida",
+            "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
+            "proveedor": "Travel Designers Venecia",
+            "contacto": "plan@veneciatravel.local",
+            "horario": "Bajo reserva"
+          },
+          {
+            "titulo": "Ruta familiar",
+            "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
+            "proveedor": "Familias Viajeras",
+            "contacto": "familias@viaje.local",
+            "horario": "11:00 - 12:30"
+          },
+          {
+            "titulo": "Experiencia al atardecer",
+            "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
+            "proveedor": "Slow Travel Venecia",
+            "contacto": "slow@venecia.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Audioguia express",
+            "descripcion": "Formato breve para entender lo esencial de Gran Canal con autonomia.",
+            "proveedor": "Audio Travel",
+            "contacto": "audio@travel.local",
+            "horario": "Durante apertura"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "nombre": "Gallerie dell'Accademia",
+        "tipo": "museos",
+        "descripcion": "Museo clave para leer la pintura veneciana, de Bellini a Tintoretto, en antiguas salas religiosas.",
+        "descripcionCorta": "La gran pinacoteca veneciana.",
+        "lat": 45.431,
+        "lng": 12.3285,
+        "horario": "8:15 - 19:15",
+        "precio": "12 EUR",
+        "rating": 4.7,
+        "imagen": "img/venice_accademia.png",
+        "imagenCard": "img/venice_accademia.png",
+        "tags": [
+          "museo",
+          "pintura",
+          "renacimiento"
+        ],
+        "actividades": [
+          {
+            "titulo": "Visita guiada a la coleccion",
+            "descripcion": "Recorrido para entender las piezas clave de Gallerie dell'Accademia y su papel cultural en Venecia.",
+            "proveedor": "Gallerie dell'Accademia Educacion",
+            "contacto": "educacion@venecia.local",
+            "horario": "10:00 - 12:00"
+          },
+          {
+            "titulo": "Paseo fotografico",
+            "descripcion": "Itinerario para capturar perspectivas, detalles y luz adecuada en Gallerie dell'Accademia.",
+            "proveedor": "Photo Walk Venecia",
+            "contacto": "foto@veneciawalk.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Tour privado a medida",
+            "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
+            "proveedor": "Travel Designers Venecia",
+            "contacto": "plan@veneciatravel.local",
+            "horario": "Bajo reserva"
+          },
+          {
+            "titulo": "Ruta familiar",
+            "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
+            "proveedor": "Familias Viajeras",
+            "contacto": "familias@viaje.local",
+            "horario": "11:00 - 12:30"
+          },
+          {
+            "titulo": "Experiencia al atardecer",
+            "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
+            "proveedor": "Slow Travel Venecia",
+            "contacto": "slow@venecia.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Audioguia express",
+            "descripcion": "Formato breve para entender lo esencial de Gallerie dell'Accademia con autonomia.",
+            "proveedor": "Audio Travel",
+            "contacto": "audio@travel.local",
+            "horario": "Durante apertura"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "nombre": "Dorsoduro",
+        "tipo": "barrios",
+        "descripcion": "Barrio universitario y artistico con canales tranquilos, talleres, bares y una escala mas local.",
+        "descripcionCorta": "El lado creativo y sereno.",
+        "lat": 45.43,
+        "lng": 12.3267,
+        "horario": "24h",
+        "precio": "Gratis",
+        "rating": 4.7,
+        "imagen": "img/venice_dorsoduro.png",
+        "imagenCard": "img/venice_dorsoduro.png",
+        "tags": [
+          "barrio",
+          "arte",
+          "canales"
+        ],
+        "actividades": [
+          {
+            "titulo": "Paseo de barrio",
+            "descripcion": "Ruta a pie por rincones, miradores y escenas cotidianas de Dorsoduro.",
+            "proveedor": "Walks Venecia",
+            "contacto": "walks@venecia.local",
+            "horario": "10:30 - 12:30"
+          },
+          {
+            "titulo": "Paseo fotografico",
+            "descripcion": "Itinerario para capturar perspectivas, detalles y luz adecuada en Dorsoduro.",
+            "proveedor": "Photo Walk Venecia",
+            "contacto": "foto@veneciawalk.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Tour privado a medida",
+            "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
+            "proveedor": "Travel Designers Venecia",
+            "contacto": "plan@veneciatravel.local",
+            "horario": "Bajo reserva"
+          },
+          {
+            "titulo": "Ruta familiar",
+            "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
+            "proveedor": "Familias Viajeras",
+            "contacto": "familias@viaje.local",
+            "horario": "11:00 - 12:30"
+          },
+          {
+            "titulo": "Experiencia al atardecer",
+            "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
+            "proveedor": "Slow Travel Venecia",
+            "contacto": "slow@venecia.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Audioguia express",
+            "descripcion": "Formato breve para entender lo esencial de Dorsoduro con autonomia.",
+            "proveedor": "Audio Travel",
+            "contacto": "audio@travel.local",
+            "horario": "Durante apertura"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "nombre": "Mercado de Rialto",
+        "tipo": "mercados",
+        "descripcion": "Puestos de pescado, frutas y verduras junto al Gran Canal, con el pulso cotidiano de la cocina veneciana.",
+        "descripcionCorta": "El mercado historico del canal.",
+        "lat": 45.4395,
+        "lng": 12.3338,
+        "horario": "7:30 - 13:00",
+        "precio": "Gratis",
+        "rating": 4.6,
+        "imagen": "img/venice_rialtomarket.png",
+        "imagenCard": "img/venice_rialtomarket.png",
+        "tags": [
+          "mercado",
+          "pescado",
+          "gastronomia"
+        ],
+        "actividades": [
+          {
+            "titulo": "Ruta de sabores",
+            "descripcion": "Paradas escogidas para probar producto local y entender el pulso gastronomico de Mercado de Rialto.",
+            "proveedor": "Sabores de Venecia",
+            "contacto": "sabores@venecia.local",
+            "horario": "12:00 - 14:00"
+          },
+          {
+            "titulo": "Paseo fotografico",
+            "descripcion": "Itinerario para capturar perspectivas, detalles y luz adecuada en Mercado de Rialto.",
+            "proveedor": "Photo Walk Venecia",
+            "contacto": "foto@veneciawalk.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Tour privado a medida",
+            "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
+            "proveedor": "Travel Designers Venecia",
+            "contacto": "plan@veneciatravel.local",
+            "horario": "Bajo reserva"
+          },
+          {
+            "titulo": "Ruta familiar",
+            "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
+            "proveedor": "Familias Viajeras",
+            "contacto": "familias@viaje.local",
+            "horario": "11:00 - 12:30"
+          },
+          {
+            "titulo": "Experiencia al atardecer",
+            "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
+            "proveedor": "Slow Travel Venecia",
+            "contacto": "slow@venecia.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Audioguia express",
+            "descripcion": "Formato breve para entender lo esencial de Mercado de Rialto con autonomia.",
+            "proveedor": "Audio Travel",
+            "contacto": "audio@travel.local",
+            "horario": "Durante apertura"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "nombre": "Isla de Burano",
+        "tipo": "barrios",
+        "descripcion": "Casas de colores vivos, canales pequenos y tradicion de encaje convierten la isla en una excursion luminosa.",
+        "descripcionCorta": "Color y encaje en la laguna.",
+        "lat": 45.4855,
+        "lng": 12.4169,
+        "horario": "24h",
+        "precio": "Vaporetto",
+        "rating": 4.8,
+        "imagen": "img/venice_burano.png",
+        "imagenCard": "img/venice_burano.png",
+        "tags": [
+          "isla",
+          "color",
+          "canales"
+        ],
+        "actividades": [
+          {
+            "titulo": "Paseo de barrio",
+            "descripcion": "Ruta a pie por rincones, miradores y escenas cotidianas de Isla de Burano.",
+            "proveedor": "Walks Venecia",
+            "contacto": "walks@venecia.local",
+            "horario": "10:30 - 12:30"
+          },
+          {
+            "titulo": "Paseo fotografico",
+            "descripcion": "Itinerario para capturar perspectivas, detalles y luz adecuada en Isla de Burano.",
+            "proveedor": "Photo Walk Venecia",
+            "contacto": "foto@veneciawalk.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Tour privado a medida",
+            "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
+            "proveedor": "Travel Designers Venecia",
+            "contacto": "plan@veneciatravel.local",
+            "horario": "Bajo reserva"
+          },
+          {
+            "titulo": "Ruta familiar",
+            "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
+            "proveedor": "Familias Viajeras",
+            "contacto": "familias@viaje.local",
+            "horario": "11:00 - 12:30"
+          },
+          {
+            "titulo": "Experiencia al atardecer",
+            "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
+            "proveedor": "Slow Travel Venecia",
+            "contacto": "slow@venecia.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Audioguia express",
+            "descripcion": "Formato breve para entender lo esencial de Isla de Burano con autonomia.",
+            "proveedor": "Audio Travel",
+            "contacto": "audio@travel.local",
+            "horario": "Durante apertura"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "viena",
+    "nombre": "Viena",
+    "pais": "Austria",
+    "continente": "Europa",
+    "emoji": "🇦🇹",
+    "lat": 48.2082,
+    "lng": 16.3738,
+    "imagen": "img/vienna_hero.png",
+    "theme": {
+      "primary": "#7c2d12",
+      "secondary": "#be123c",
+      "font": "'Cinzel', serif"
+    },
+    "lugares": [
+      {
+        "id": 1,
+        "nombre": "Palacio de Schönbrunn",
+        "tipo": "cultura",
+        "descripcion": "Residencia de verano de los Habsburgo, famosa por sus jardines barrocos.",
+        "descripcionCorta": "El Versalles vienés.",
+        "lat": 48.1848,
+        "lng": 16.3122,
+        "horario": "8:30 - 17:30",
+        "precio": "22€",
+        "rating": 4.9,
+        "imagen": "img/vienna_schonbrunn.png",
+        "imagenCard": "img/vienna_schonbrunn.png",
+        "tags": [
+          "realeza",
+          "historia",
+          "jardines"
+        ],
+        "actividades": [
+          {
+            "titulo": "Tour historico esencial",
+            "descripcion": "Recorrido guiado por Palacio de Schönbrunn para conectar arquitectura, personajes y momentos clave de Viena.",
+            "proveedor": "Historia Viva Viena",
+            "contacto": "reservas@historiaviena.local",
+            "horario": "10:00 - 12:00"
+          },
+          {
+            "titulo": "Acceso con contexto local",
+            "descripcion": "Visita pausada con explicaciones practicas para comprender por que este lugar sigue siendo imprescindible.",
+            "proveedor": "Guias Locales Viena",
+            "contacto": "hola@vienalocal.local",
+            "horario": "12:00 - 14:00"
+          },
+          {
+            "titulo": "Paseo fotografico",
+            "descripcion": "Itinerario para capturar fachadas, perspectivas y detalles con la mejor luz disponible.",
+            "proveedor": "Photo Walk Viena",
+            "contacto": "foto@vienawalk.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Ruta de leyendas",
+            "descripcion": "Historias, simbolos y anecdotas alrededor de Palacio de Schönbrunn, con tono narrativo y facil de seguir.",
+            "proveedor": "Relatos de Viena",
+            "contacto": "relatos@viena.local",
+            "horario": "18:00 - 19:30"
+          },
+          {
+            "titulo": "Visita familiar",
+            "descripcion": "Version didactica con paradas breves, preguntas y claves sencillas para ninos y adultos.",
+            "proveedor": "Familias Viajeras",
+            "contacto": "familias@viaje.local",
+            "horario": "11:00 - 12:30"
+          },
+          {
+            "titulo": "Audioguia express",
+            "descripcion": "Recorrido autonomo para ver lo principal de Palacio de Schönbrunn con contexto claro y sin prisas.",
+            "proveedor": "Audio Travel",
+            "contacto": "audio@travel.local",
+            "horario": "Durante apertura"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "nombre": "Catedral de San Esteban",
+        "tipo": "cultura",
+        "descripcion": "El símbolo religioso más importante de Viena, situada en el Stephansplatz.",
+        "descripcionCorta": "El corazón gótico de Viena.",
+        "lat": 48.2084,
+        "lng": 16.3731,
+        "horario": "6:00 - 22:00",
+        "precio": "Gratis",
+        "rating": 4.8,
+        "imagen": "img/vienna_stephansdom.png",
+        "imagenCard": "img/vienna_stephansdom.png",
+        "tags": [
+          "catedral",
+          "vistas",
+          "arquitectura"
+        ],
+        "actividades": [
+          {
+            "titulo": "Tour historico esencial",
+            "descripcion": "Recorrido guiado por Catedral de San Esteban para conectar arquitectura, personajes y momentos clave de Viena.",
+            "proveedor": "Historia Viva Viena",
+            "contacto": "reservas@historiaviena.local",
+            "horario": "10:00 - 12:00"
+          },
+          {
+            "titulo": "Acceso con contexto local",
+            "descripcion": "Visita pausada con explicaciones practicas para comprender por que este lugar sigue siendo imprescindible.",
+            "proveedor": "Guias Locales Viena",
+            "contacto": "hola@vienalocal.local",
+            "horario": "12:00 - 14:00"
+          },
+          {
+            "titulo": "Paseo fotografico",
+            "descripcion": "Itinerario para capturar fachadas, perspectivas y detalles con la mejor luz disponible.",
+            "proveedor": "Photo Walk Viena",
+            "contacto": "foto@vienawalk.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Ruta de leyendas",
+            "descripcion": "Historias, simbolos y anecdotas alrededor de Catedral de San Esteban, con tono narrativo y facil de seguir.",
+            "proveedor": "Relatos de Viena",
+            "contacto": "relatos@viena.local",
+            "horario": "18:00 - 19:30"
+          },
+          {
+            "titulo": "Visita familiar",
+            "descripcion": "Version didactica con paradas breves, preguntas y claves sencillas para ninos y adultos.",
+            "proveedor": "Familias Viajeras",
+            "contacto": "familias@viaje.local",
+            "horario": "11:00 - 12:30"
+          },
+          {
+            "titulo": "Audioguia express",
+            "descripcion": "Recorrido autonomo para ver lo principal de Catedral de San Esteban con contexto claro y sin prisas.",
+            "proveedor": "Audio Travel",
+            "contacto": "audio@travel.local",
+            "horario": "Durante apertura"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "nombre": "Palacio Belvedere",
+        "tipo": "museos",
+        "descripcion": "Conjunto barroco con jardines escalonados y una coleccion esencial donde brilla Klimt.",
+        "descripcionCorta": "Barroco, jardines y Klimt.",
+        "lat": 48.1912,
+        "lng": 16.3808,
+        "horario": "9:00 - 18:00",
+        "precio": "Desde 17 EUR",
+        "rating": 4.7,
+        "imagen": "img/vienna_belvedere.png",
+        "imagenCard": "img/vienna_belvedere.png",
+        "tags": [
+          "museo",
+          "klimt",
+          "barroco"
+        ],
+        "actividades": [
+          {
+            "titulo": "Visita guiada a la coleccion",
+            "descripcion": "Recorrido para entender las piezas clave de Palacio Belvedere y su papel cultural en Viena.",
+            "proveedor": "Palacio Belvedere Educacion",
+            "contacto": "educacion@viena.local",
+            "horario": "10:00 - 12:00"
+          },
+          {
+            "titulo": "Paseo fotografico",
+            "descripcion": "Itinerario para capturar perspectivas, detalles y luz adecuada en Palacio Belvedere.",
+            "proveedor": "Photo Walk Viena",
+            "contacto": "foto@vienawalk.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Tour privado a medida",
+            "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
+            "proveedor": "Travel Designers Viena",
+            "contacto": "plan@vienatravel.local",
+            "horario": "Bajo reserva"
+          },
+          {
+            "titulo": "Ruta familiar",
+            "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
+            "proveedor": "Familias Viajeras",
+            "contacto": "familias@viaje.local",
+            "horario": "11:00 - 12:30"
+          },
+          {
+            "titulo": "Experiencia al atardecer",
+            "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
+            "proveedor": "Slow Travel Viena",
+            "contacto": "slow@viena.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Audioguia express",
+            "descripcion": "Formato breve para entender lo esencial de Palacio Belvedere con autonomia.",
+            "proveedor": "Audio Travel",
+            "contacto": "audio@travel.local",
+            "horario": "Durante apertura"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "nombre": "Opera Estatal de Viena",
+        "tipo": "cultura",
+        "descripcion": "Teatro lirico de referencia mundial, con programacion intensa y una arquitectura historica en el Ring.",
+        "descripcionCorta": "El gran templo musical vienes.",
+        "lat": 48.2028,
+        "lng": 16.3692,
+        "horario": "Segun funcion",
+        "precio": "Visitas desde 13 EUR",
+        "rating": 4.8,
+        "imagen": "img/vienna_stateopera.png",
+        "imagenCard": "img/vienna_stateopera.png",
+        "tags": [
+          "opera",
+          "musica",
+          "ring"
+        ],
+        "actividades": [
+          {
+            "titulo": "Visita guiada esencial",
+            "descripcion": "Recorrido interpretado por Opera Estatal de Viena para entender su contexto dentro de Viena.",
+            "proveedor": "Guias Locales Viena",
+            "contacto": "hola@viena.local",
+            "horario": "10:00 - 12:00"
+          },
+          {
+            "titulo": "Paseo fotografico",
+            "descripcion": "Itinerario para capturar perspectivas, detalles y luz adecuada en Opera Estatal de Viena.",
+            "proveedor": "Photo Walk Viena",
+            "contacto": "foto@vienawalk.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Tour privado a medida",
+            "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
+            "proveedor": "Travel Designers Viena",
+            "contacto": "plan@vienatravel.local",
+            "horario": "Bajo reserva"
+          },
+          {
+            "titulo": "Ruta familiar",
+            "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
+            "proveedor": "Familias Viajeras",
+            "contacto": "familias@viaje.local",
+            "horario": "11:00 - 12:30"
+          },
+          {
+            "titulo": "Experiencia al atardecer",
+            "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
+            "proveedor": "Slow Travel Viena",
+            "contacto": "slow@viena.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Audioguia express",
+            "descripcion": "Formato breve para entender lo esencial de Opera Estatal de Viena con autonomia.",
+            "proveedor": "Audio Travel",
+            "contacto": "audio@travel.local",
+            "horario": "Durante apertura"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "nombre": "Hofburg",
+        "tipo": "cultura",
+        "descripcion": "Complejo imperial de los Habsburgo con patios, museos, salones y memoria politica en pleno centro.",
+        "descripcionCorta": "El palacio imperial del centro.",
+        "lat": 48.2065,
+        "lng": 16.3656,
+        "horario": "9:00 - 17:30",
+        "precio": "Desde 17 EUR",
+        "rating": 4.7,
+        "imagen": "img/vienna_hofburg.png",
+        "imagenCard": "img/vienna_hofburg.png",
+        "tags": [
+          "imperio",
+          "palacio",
+          "habsburgo"
+        ],
+        "actividades": [
+          {
+            "titulo": "Visita guiada esencial",
+            "descripcion": "Recorrido interpretado por Hofburg para entender su contexto dentro de Viena.",
+            "proveedor": "Guias Locales Viena",
+            "contacto": "hola@viena.local",
+            "horario": "10:00 - 12:00"
+          },
+          {
+            "titulo": "Paseo fotografico",
+            "descripcion": "Itinerario para capturar perspectivas, detalles y luz adecuada en Hofburg.",
+            "proveedor": "Photo Walk Viena",
+            "contacto": "foto@vienawalk.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Tour privado a medida",
+            "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
+            "proveedor": "Travel Designers Viena",
+            "contacto": "plan@vienatravel.local",
+            "horario": "Bajo reserva"
+          },
+          {
+            "titulo": "Ruta familiar",
+            "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
+            "proveedor": "Familias Viajeras",
+            "contacto": "familias@viaje.local",
+            "horario": "11:00 - 12:30"
+          },
+          {
+            "titulo": "Experiencia al atardecer",
+            "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
+            "proveedor": "Slow Travel Viena",
+            "contacto": "slow@viena.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Audioguia express",
+            "descripcion": "Formato breve para entender lo esencial de Hofburg con autonomia.",
+            "proveedor": "Audio Travel",
+            "contacto": "audio@travel.local",
+            "horario": "Durante apertura"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "nombre": "MuseumsQuartier",
+        "tipo": "museos",
+        "descripcion": "Distrito cultural con museos, patios publicos y vida urbana entre arquitectura historica y contemporanea.",
+        "descripcionCorta": "El barrio cultural de Viena.",
+        "lat": 48.2033,
+        "lng": 16.3597,
+        "horario": "10:00 - 18:00",
+        "precio": "Segun museo",
+        "rating": 4.6,
+        "imagen": "img/vienna_museumsquartier.png",
+        "imagenCard": "img/vienna_museumsquartier.png",
+        "tags": [
+          "museos",
+          "arte",
+          "patios"
+        ],
+        "actividades": [
+          {
+            "titulo": "Visita guiada a la coleccion",
+            "descripcion": "Recorrido para entender las piezas clave de MuseumsQuartier y su papel cultural en Viena.",
+            "proveedor": "MuseumsQuartier Educacion",
+            "contacto": "educacion@viena.local",
+            "horario": "10:00 - 12:00"
+          },
+          {
+            "titulo": "Paseo fotografico",
+            "descripcion": "Itinerario para capturar perspectivas, detalles y luz adecuada en MuseumsQuartier.",
+            "proveedor": "Photo Walk Viena",
+            "contacto": "foto@vienawalk.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Tour privado a medida",
+            "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
+            "proveedor": "Travel Designers Viena",
+            "contacto": "plan@vienatravel.local",
+            "horario": "Bajo reserva"
+          },
+          {
+            "titulo": "Ruta familiar",
+            "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
+            "proveedor": "Familias Viajeras",
+            "contacto": "familias@viaje.local",
+            "horario": "11:00 - 12:30"
+          },
+          {
+            "titulo": "Experiencia al atardecer",
+            "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
+            "proveedor": "Slow Travel Viena",
+            "contacto": "slow@viena.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Audioguia express",
+            "descripcion": "Formato breve para entender lo esencial de MuseumsQuartier con autonomia.",
+            "proveedor": "Audio Travel",
+            "contacto": "audio@travel.local",
+            "horario": "Durante apertura"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "nombre": "Naschmarkt",
+        "tipo": "mercados",
+        "descripcion": "Mercado de sabores internacionales, puestos tradicionales y terrazas animadas junto al Wienzeile.",
+        "descripcionCorta": "El mercado mas sabroso de Viena.",
+        "lat": 48.198,
+        "lng": 16.3647,
+        "horario": "6:00 - 21:00",
+        "precio": "Segun consumo",
+        "rating": 4.6,
+        "imagen": "img/vienna_naschmarkt.png",
+        "imagenCard": "img/vienna_naschmarkt.png",
+        "tags": [
+          "mercado",
+          "gastronomia",
+          "local"
+        ],
+        "actividades": [
+          {
+            "titulo": "Ruta de sabores",
+            "descripcion": "Paradas escogidas para probar producto local y entender el pulso gastronomico de Naschmarkt.",
+            "proveedor": "Sabores de Viena",
+            "contacto": "sabores@viena.local",
+            "horario": "12:00 - 14:00"
+          },
+          {
+            "titulo": "Paseo fotografico",
+            "descripcion": "Itinerario para capturar perspectivas, detalles y luz adecuada en Naschmarkt.",
+            "proveedor": "Photo Walk Viena",
+            "contacto": "foto@vienawalk.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Tour privado a medida",
+            "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
+            "proveedor": "Travel Designers Viena",
+            "contacto": "plan@vienatravel.local",
+            "horario": "Bajo reserva"
+          },
+          {
+            "titulo": "Ruta familiar",
+            "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
+            "proveedor": "Familias Viajeras",
+            "contacto": "familias@viaje.local",
+            "horario": "11:00 - 12:30"
+          },
+          {
+            "titulo": "Experiencia al atardecer",
+            "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
+            "proveedor": "Slow Travel Viena",
+            "contacto": "slow@viena.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Audioguia express",
+            "descripcion": "Formato breve para entender lo esencial de Naschmarkt con autonomia.",
+            "proveedor": "Audio Travel",
+            "contacto": "audio@travel.local",
+            "horario": "Durante apertura"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "nombre": "Prater",
+        "tipo": "parques",
+        "descripcion": "Parque popular con la noria historica, avenidas largas y ambiente de feria clasica.",
+        "descripcionCorta": "La noria iconica y el gran parque.",
+        "lat": 48.2167,
+        "lng": 16.3972,
+        "horario": "24h",
+        "precio": "Parque gratis",
+        "rating": 4.6,
+        "imagen": "img/vienna_prater.png",
+        "imagenCard": "img/vienna_prater.png",
+        "tags": [
+          "parque",
+          "noria",
+          "familias"
+        ],
+        "actividades": [
+          {
+            "titulo": "Paseo verde",
+            "descripcion": "Ruta a pie por rincones, miradores y escenas cotidianas de Prater.",
+            "proveedor": "Walks Viena",
+            "contacto": "walks@viena.local",
+            "horario": "10:30 - 12:30"
+          },
+          {
+            "titulo": "Paseo fotografico",
+            "descripcion": "Itinerario para capturar perspectivas, detalles y luz adecuada en Prater.",
+            "proveedor": "Photo Walk Viena",
+            "contacto": "foto@vienawalk.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Tour privado a medida",
+            "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
+            "proveedor": "Travel Designers Viena",
+            "contacto": "plan@vienatravel.local",
+            "horario": "Bajo reserva"
+          },
+          {
+            "titulo": "Ruta familiar",
+            "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
+            "proveedor": "Familias Viajeras",
+            "contacto": "familias@viaje.local",
+            "horario": "11:00 - 12:30"
+          },
+          {
+            "titulo": "Experiencia al atardecer",
+            "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
+            "proveedor": "Slow Travel Viena",
+            "contacto": "slow@viena.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Audioguia express",
+            "descripcion": "Formato breve para entender lo esencial de Prater con autonomia.",
+            "proveedor": "Audio Travel",
+            "contacto": "audio@travel.local",
+            "horario": "Durante apertura"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "nombre": "Cafe Central",
+        "tipo": "cafes",
+        "descripcion": "Cafe historico de columnas, periodicos, tartas y memoria intelectual de la Viena finisecular.",
+        "descripcionCorta": "El cafe literario por excelencia.",
+        "lat": 48.2101,
+        "lng": 16.3657,
+        "horario": "8:00 - 22:00",
+        "precio": "Segun consumo",
+        "rating": 4.5,
+        "imagen": "img/vienna_cafecentral.png",
+        "imagenCard": "img/vienna_cafecentral.png",
+        "tags": [
+          "cafe",
+          "historia",
+          "tartas"
+        ],
+        "actividades": [
+          {
+            "titulo": "Visita guiada esencial",
+            "descripcion": "Recorrido interpretado por Cafe Central para entender su contexto dentro de Viena.",
+            "proveedor": "Guias Locales Viena",
+            "contacto": "hola@viena.local",
+            "horario": "10:00 - 12:00"
+          },
+          {
+            "titulo": "Paseo fotografico",
+            "descripcion": "Itinerario para capturar perspectivas, detalles y luz adecuada en Cafe Central.",
+            "proveedor": "Photo Walk Viena",
+            "contacto": "foto@vienawalk.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Tour privado a medida",
+            "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
+            "proveedor": "Travel Designers Viena",
+            "contacto": "plan@vienatravel.local",
+            "horario": "Bajo reserva"
+          },
+          {
+            "titulo": "Ruta familiar",
+            "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
+            "proveedor": "Familias Viajeras",
+            "contacto": "familias@viaje.local",
+            "horario": "11:00 - 12:30"
+          },
+          {
+            "titulo": "Experiencia al atardecer",
+            "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
+            "proveedor": "Slow Travel Viena",
+            "contacto": "slow@viena.local",
+            "horario": "Atardecer"
+          },
+          {
+            "titulo": "Audioguia express",
+            "descripcion": "Formato breve para entender lo esencial de Cafe Central con autonomia.",
+            "proveedor": "Audio Travel",
+            "contacto": "audio@travel.local",
+            "horario": "Durante apertura"
+          }
+        ]
+      }
+    ]
   }
 ]

@@ -1,128 +1,584 @@
-[
-  {
-    "id": 1,
-    "nombre": "Palacio de Schönbrunn",
-    "tipo": "cultura",
-    "descripcion": "Residencia de verano de los Habsburgo, famosa por sus jardines barrocos.",
-    "descripcionCorta": "El Versalles vienés.",
-    "lat": 48.1848,
-    "lng": 16.3122,
-    "horario": "8:30 - 17:30",
-    "precio": "22€",
-    "rating": 4.9,
-    "imagen": "img/vienna_schonbrunn.png",
-    "imagenCard": "img/vienna_schonbrunn.png",
-    "tags": [
-      "realeza",
-      "historia",
-      "jardines"
-    ],
-    "actividades": [
-      {
-        "titulo": "Tour historico esencial",
-        "descripcion": "Recorrido guiado por Palacio de Schönbrunn para conectar arquitectura, personajes y momentos clave de Viena.",
-        "proveedor": "Historia Viva Viena",
-        "contacto": "reservas@historiaviena.local",
-        "horario": "10:00 - 12:00"
-      },
-      {
-        "titulo": "Acceso con contexto local",
-        "descripcion": "Visita pausada con explicaciones practicas para comprender por que este lugar sigue siendo imprescindible.",
-        "proveedor": "Guias Locales Viena",
-        "contacto": "hola@vienalocal.local",
-        "horario": "12:00 - 14:00"
-      },
-      {
-        "titulo": "Paseo fotografico",
-        "descripcion": "Itinerario para capturar fachadas, perspectivas y detalles con la mejor luz disponible.",
-        "proveedor": "Photo Walk Viena",
-        "contacto": "foto@vienawalk.local",
-        "horario": "Atardecer"
-      },
-      {
-        "titulo": "Ruta de leyendas",
-        "descripcion": "Historias, simbolos y anecdotas alrededor de Palacio de Schönbrunn, con tono narrativo y facil de seguir.",
-        "proveedor": "Relatos de Viena",
-        "contacto": "relatos@viena.local",
-        "horario": "18:00 - 19:30"
-      },
-      {
-        "titulo": "Visita familiar",
-        "descripcion": "Version didactica con paradas breves, preguntas y claves sencillas para ninos y adultos.",
-        "proveedor": "Familias Viajeras",
-        "contacto": "familias@viaje.local",
-        "horario": "11:00 - 12:30"
-      },
-      {
-        "titulo": "Audioguia express",
-        "descripcion": "Recorrido autonomo para ver lo principal de Palacio de Schönbrunn con contexto claro y sin prisas.",
-        "proveedor": "Audio Travel",
-        "contacto": "audio@travel.local",
-        "horario": "Durante apertura"
-      }
-    ]
+{
+  "id": "viena",
+  "nombre": "Viena",
+  "pais": "Austria",
+  "continente": "Europa",
+  "emoji": "🇦🇹",
+  "lat": 48.2082,
+  "lng": 16.3738,
+  "imagen": "img/vienna_hero.png",
+  "theme": {
+    "primary": "#7c2d12",
+    "secondary": "#be123c",
+    "font": "'Cinzel', serif"
   },
-  {
-    "id": 2,
-    "nombre": "Catedral de San Esteban",
-    "tipo": "cultura",
-    "descripcion": "El símbolo religioso más importante de Viena, situada en el Stephansplatz.",
-    "descripcionCorta": "El corazón gótico de Viena.",
-    "lat": 48.2084,
-    "lng": 16.3731,
-    "horario": "6:00 - 22:00",
-    "precio": "Gratis",
-    "rating": 4.8,
-    "imagen": "img/vienna_stephansdom.png",
-    "imagenCard": "img/vienna_stephansdom.png",
-    "tags": [
-      "catedral",
-      "vistas",
-      "arquitectura"
-    ],
-    "actividades": [
-      {
-        "titulo": "Tour historico esencial",
-        "descripcion": "Recorrido guiado por Catedral de San Esteban para conectar arquitectura, personajes y momentos clave de Viena.",
-        "proveedor": "Historia Viva Viena",
-        "contacto": "reservas@historiaviena.local",
-        "horario": "10:00 - 12:00"
-      },
-      {
-        "titulo": "Acceso con contexto local",
-        "descripcion": "Visita pausada con explicaciones practicas para comprender por que este lugar sigue siendo imprescindible.",
-        "proveedor": "Guias Locales Viena",
-        "contacto": "hola@vienalocal.local",
-        "horario": "12:00 - 14:00"
-      },
-      {
-        "titulo": "Paseo fotografico",
-        "descripcion": "Itinerario para capturar fachadas, perspectivas y detalles con la mejor luz disponible.",
-        "proveedor": "Photo Walk Viena",
-        "contacto": "foto@vienawalk.local",
-        "horario": "Atardecer"
-      },
-      {
-        "titulo": "Ruta de leyendas",
-        "descripcion": "Historias, simbolos y anecdotas alrededor de Catedral de San Esteban, con tono narrativo y facil de seguir.",
-        "proveedor": "Relatos de Viena",
-        "contacto": "relatos@viena.local",
-        "horario": "18:00 - 19:30"
-      },
-      {
-        "titulo": "Visita familiar",
-        "descripcion": "Version didactica con paradas breves, preguntas y claves sencillas para ninos y adultos.",
-        "proveedor": "Familias Viajeras",
-        "contacto": "familias@viaje.local",
-        "horario": "11:00 - 12:30"
-      },
-      {
-        "titulo": "Audioguia express",
-        "descripcion": "Recorrido autonomo para ver lo principal de Catedral de San Esteban con contexto claro y sin prisas.",
-        "proveedor": "Audio Travel",
-        "contacto": "audio@travel.local",
-        "horario": "Durante apertura"
-      }
-    ]
-  }
-]
+  "lugares": [
+    {
+      "id": 1,
+      "nombre": "Palacio de Schönbrunn",
+      "tipo": "cultura",
+      "descripcion": "Residencia de verano de los Habsburgo, famosa por sus jardines barrocos.",
+      "descripcionCorta": "El Versalles vienés.",
+      "lat": 48.1848,
+      "lng": 16.3122,
+      "horario": "8:30 - 17:30",
+      "precio": "22€",
+      "rating": 4.9,
+      "imagen": "img/vienna_schonbrunn.png",
+      "imagenCard": "img/vienna_schonbrunn.png",
+      "tags": [
+        "realeza",
+        "historia",
+        "jardines"
+      ],
+      "actividades": [
+        {
+          "titulo": "Tour historico esencial",
+          "descripcion": "Recorrido guiado por Palacio de Schönbrunn para conectar arquitectura, personajes y momentos clave de Viena.",
+          "proveedor": "Historia Viva Viena",
+          "contacto": "reservas@historiaviena.local",
+          "horario": "10:00 - 12:00"
+        },
+        {
+          "titulo": "Acceso con contexto local",
+          "descripcion": "Visita pausada con explicaciones practicas para comprender por que este lugar sigue siendo imprescindible.",
+          "proveedor": "Guias Locales Viena",
+          "contacto": "hola@vienalocal.local",
+          "horario": "12:00 - 14:00"
+        },
+        {
+          "titulo": "Paseo fotografico",
+          "descripcion": "Itinerario para capturar fachadas, perspectivas y detalles con la mejor luz disponible.",
+          "proveedor": "Photo Walk Viena",
+          "contacto": "foto@vienawalk.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Ruta de leyendas",
+          "descripcion": "Historias, simbolos y anecdotas alrededor de Palacio de Schönbrunn, con tono narrativo y facil de seguir.",
+          "proveedor": "Relatos de Viena",
+          "contacto": "relatos@viena.local",
+          "horario": "18:00 - 19:30"
+        },
+        {
+          "titulo": "Visita familiar",
+          "descripcion": "Version didactica con paradas breves, preguntas y claves sencillas para ninos y adultos.",
+          "proveedor": "Familias Viajeras",
+          "contacto": "familias@viaje.local",
+          "horario": "11:00 - 12:30"
+        },
+        {
+          "titulo": "Audioguia express",
+          "descripcion": "Recorrido autonomo para ver lo principal de Palacio de Schönbrunn con contexto claro y sin prisas.",
+          "proveedor": "Audio Travel",
+          "contacto": "audio@travel.local",
+          "horario": "Durante apertura"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "Catedral de San Esteban",
+      "tipo": "cultura",
+      "descripcion": "El símbolo religioso más importante de Viena, situada en el Stephansplatz.",
+      "descripcionCorta": "El corazón gótico de Viena.",
+      "lat": 48.2084,
+      "lng": 16.3731,
+      "horario": "6:00 - 22:00",
+      "precio": "Gratis",
+      "rating": 4.8,
+      "imagen": "img/vienna_stephansdom.png",
+      "imagenCard": "img/vienna_stephansdom.png",
+      "tags": [
+        "catedral",
+        "vistas",
+        "arquitectura"
+      ],
+      "actividades": [
+        {
+          "titulo": "Tour historico esencial",
+          "descripcion": "Recorrido guiado por Catedral de San Esteban para conectar arquitectura, personajes y momentos clave de Viena.",
+          "proveedor": "Historia Viva Viena",
+          "contacto": "reservas@historiaviena.local",
+          "horario": "10:00 - 12:00"
+        },
+        {
+          "titulo": "Acceso con contexto local",
+          "descripcion": "Visita pausada con explicaciones practicas para comprender por que este lugar sigue siendo imprescindible.",
+          "proveedor": "Guias Locales Viena",
+          "contacto": "hola@vienalocal.local",
+          "horario": "12:00 - 14:00"
+        },
+        {
+          "titulo": "Paseo fotografico",
+          "descripcion": "Itinerario para capturar fachadas, perspectivas y detalles con la mejor luz disponible.",
+          "proveedor": "Photo Walk Viena",
+          "contacto": "foto@vienawalk.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Ruta de leyendas",
+          "descripcion": "Historias, simbolos y anecdotas alrededor de Catedral de San Esteban, con tono narrativo y facil de seguir.",
+          "proveedor": "Relatos de Viena",
+          "contacto": "relatos@viena.local",
+          "horario": "18:00 - 19:30"
+        },
+        {
+          "titulo": "Visita familiar",
+          "descripcion": "Version didactica con paradas breves, preguntas y claves sencillas para ninos y adultos.",
+          "proveedor": "Familias Viajeras",
+          "contacto": "familias@viaje.local",
+          "horario": "11:00 - 12:30"
+        },
+        {
+          "titulo": "Audioguia express",
+          "descripcion": "Recorrido autonomo para ver lo principal de Catedral de San Esteban con contexto claro y sin prisas.",
+          "proveedor": "Audio Travel",
+          "contacto": "audio@travel.local",
+          "horario": "Durante apertura"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Palacio Belvedere",
+      "tipo": "museos",
+      "descripcion": "Conjunto barroco con jardines escalonados y una coleccion esencial donde brilla Klimt.",
+      "descripcionCorta": "Barroco, jardines y Klimt.",
+      "lat": 48.1912,
+      "lng": 16.3808,
+      "horario": "9:00 - 18:00",
+      "precio": "Desde 17 EUR",
+      "rating": 4.7,
+      "imagen": "img/vienna_belvedere.png",
+      "imagenCard": "img/vienna_belvedere.png",
+      "tags": [
+        "museo",
+        "klimt",
+        "barroco"
+      ],
+      "actividades": [
+        {
+          "titulo": "Visita guiada a la coleccion",
+          "descripcion": "Recorrido para entender las piezas clave de Palacio Belvedere y su papel cultural en Viena.",
+          "proveedor": "Palacio Belvedere Educacion",
+          "contacto": "educacion@viena.local",
+          "horario": "10:00 - 12:00"
+        },
+        {
+          "titulo": "Paseo fotografico",
+          "descripcion": "Itinerario para capturar perspectivas, detalles y luz adecuada en Palacio Belvedere.",
+          "proveedor": "Photo Walk Viena",
+          "contacto": "foto@vienawalk.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Tour privado a medida",
+          "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
+          "proveedor": "Travel Designers Viena",
+          "contacto": "plan@vienatravel.local",
+          "horario": "Bajo reserva"
+        },
+        {
+          "titulo": "Ruta familiar",
+          "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
+          "proveedor": "Familias Viajeras",
+          "contacto": "familias@viaje.local",
+          "horario": "11:00 - 12:30"
+        },
+        {
+          "titulo": "Experiencia al atardecer",
+          "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
+          "proveedor": "Slow Travel Viena",
+          "contacto": "slow@viena.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Audioguia express",
+          "descripcion": "Formato breve para entender lo esencial de Palacio Belvedere con autonomia.",
+          "proveedor": "Audio Travel",
+          "contacto": "audio@travel.local",
+          "horario": "Durante apertura"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nombre": "Opera Estatal de Viena",
+      "tipo": "cultura",
+      "descripcion": "Teatro lirico de referencia mundial, con programacion intensa y una arquitectura historica en el Ring.",
+      "descripcionCorta": "El gran templo musical vienes.",
+      "lat": 48.2028,
+      "lng": 16.3692,
+      "horario": "Segun funcion",
+      "precio": "Visitas desde 13 EUR",
+      "rating": 4.8,
+      "imagen": "img/vienna_stateopera.png",
+      "imagenCard": "img/vienna_stateopera.png",
+      "tags": [
+        "opera",
+        "musica",
+        "ring"
+      ],
+      "actividades": [
+        {
+          "titulo": "Visita guiada esencial",
+          "descripcion": "Recorrido interpretado por Opera Estatal de Viena para entender su contexto dentro de Viena.",
+          "proveedor": "Guias Locales Viena",
+          "contacto": "hola@viena.local",
+          "horario": "10:00 - 12:00"
+        },
+        {
+          "titulo": "Paseo fotografico",
+          "descripcion": "Itinerario para capturar perspectivas, detalles y luz adecuada en Opera Estatal de Viena.",
+          "proveedor": "Photo Walk Viena",
+          "contacto": "foto@vienawalk.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Tour privado a medida",
+          "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
+          "proveedor": "Travel Designers Viena",
+          "contacto": "plan@vienatravel.local",
+          "horario": "Bajo reserva"
+        },
+        {
+          "titulo": "Ruta familiar",
+          "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
+          "proveedor": "Familias Viajeras",
+          "contacto": "familias@viaje.local",
+          "horario": "11:00 - 12:30"
+        },
+        {
+          "titulo": "Experiencia al atardecer",
+          "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
+          "proveedor": "Slow Travel Viena",
+          "contacto": "slow@viena.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Audioguia express",
+          "descripcion": "Formato breve para entender lo esencial de Opera Estatal de Viena con autonomia.",
+          "proveedor": "Audio Travel",
+          "contacto": "audio@travel.local",
+          "horario": "Durante apertura"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "nombre": "Hofburg",
+      "tipo": "cultura",
+      "descripcion": "Complejo imperial de los Habsburgo con patios, museos, salones y memoria politica en pleno centro.",
+      "descripcionCorta": "El palacio imperial del centro.",
+      "lat": 48.2065,
+      "lng": 16.3656,
+      "horario": "9:00 - 17:30",
+      "precio": "Desde 17 EUR",
+      "rating": 4.7,
+      "imagen": "img/vienna_hofburg.png",
+      "imagenCard": "img/vienna_hofburg.png",
+      "tags": [
+        "imperio",
+        "palacio",
+        "habsburgo"
+      ],
+      "actividades": [
+        {
+          "titulo": "Visita guiada esencial",
+          "descripcion": "Recorrido interpretado por Hofburg para entender su contexto dentro de Viena.",
+          "proveedor": "Guias Locales Viena",
+          "contacto": "hola@viena.local",
+          "horario": "10:00 - 12:00"
+        },
+        {
+          "titulo": "Paseo fotografico",
+          "descripcion": "Itinerario para capturar perspectivas, detalles y luz adecuada en Hofburg.",
+          "proveedor": "Photo Walk Viena",
+          "contacto": "foto@vienawalk.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Tour privado a medida",
+          "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
+          "proveedor": "Travel Designers Viena",
+          "contacto": "plan@vienatravel.local",
+          "horario": "Bajo reserva"
+        },
+        {
+          "titulo": "Ruta familiar",
+          "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
+          "proveedor": "Familias Viajeras",
+          "contacto": "familias@viaje.local",
+          "horario": "11:00 - 12:30"
+        },
+        {
+          "titulo": "Experiencia al atardecer",
+          "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
+          "proveedor": "Slow Travel Viena",
+          "contacto": "slow@viena.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Audioguia express",
+          "descripcion": "Formato breve para entender lo esencial de Hofburg con autonomia.",
+          "proveedor": "Audio Travel",
+          "contacto": "audio@travel.local",
+          "horario": "Durante apertura"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "nombre": "MuseumsQuartier",
+      "tipo": "museos",
+      "descripcion": "Distrito cultural con museos, patios publicos y vida urbana entre arquitectura historica y contemporanea.",
+      "descripcionCorta": "El barrio cultural de Viena.",
+      "lat": 48.2033,
+      "lng": 16.3597,
+      "horario": "10:00 - 18:00",
+      "precio": "Segun museo",
+      "rating": 4.6,
+      "imagen": "img/vienna_museumsquartier.png",
+      "imagenCard": "img/vienna_museumsquartier.png",
+      "tags": [
+        "museos",
+        "arte",
+        "patios"
+      ],
+      "actividades": [
+        {
+          "titulo": "Visita guiada a la coleccion",
+          "descripcion": "Recorrido para entender las piezas clave de MuseumsQuartier y su papel cultural en Viena.",
+          "proveedor": "MuseumsQuartier Educacion",
+          "contacto": "educacion@viena.local",
+          "horario": "10:00 - 12:00"
+        },
+        {
+          "titulo": "Paseo fotografico",
+          "descripcion": "Itinerario para capturar perspectivas, detalles y luz adecuada en MuseumsQuartier.",
+          "proveedor": "Photo Walk Viena",
+          "contacto": "foto@vienawalk.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Tour privado a medida",
+          "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
+          "proveedor": "Travel Designers Viena",
+          "contacto": "plan@vienatravel.local",
+          "horario": "Bajo reserva"
+        },
+        {
+          "titulo": "Ruta familiar",
+          "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
+          "proveedor": "Familias Viajeras",
+          "contacto": "familias@viaje.local",
+          "horario": "11:00 - 12:30"
+        },
+        {
+          "titulo": "Experiencia al atardecer",
+          "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
+          "proveedor": "Slow Travel Viena",
+          "contacto": "slow@viena.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Audioguia express",
+          "descripcion": "Formato breve para entender lo esencial de MuseumsQuartier con autonomia.",
+          "proveedor": "Audio Travel",
+          "contacto": "audio@travel.local",
+          "horario": "Durante apertura"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "nombre": "Naschmarkt",
+      "tipo": "mercados",
+      "descripcion": "Mercado de sabores internacionales, puestos tradicionales y terrazas animadas junto al Wienzeile.",
+      "descripcionCorta": "El mercado mas sabroso de Viena.",
+      "lat": 48.198,
+      "lng": 16.3647,
+      "horario": "6:00 - 21:00",
+      "precio": "Segun consumo",
+      "rating": 4.6,
+      "imagen": "img/vienna_naschmarkt.png",
+      "imagenCard": "img/vienna_naschmarkt.png",
+      "tags": [
+        "mercado",
+        "gastronomia",
+        "local"
+      ],
+      "actividades": [
+        {
+          "titulo": "Ruta de sabores",
+          "descripcion": "Paradas escogidas para probar producto local y entender el pulso gastronomico de Naschmarkt.",
+          "proveedor": "Sabores de Viena",
+          "contacto": "sabores@viena.local",
+          "horario": "12:00 - 14:00"
+        },
+        {
+          "titulo": "Paseo fotografico",
+          "descripcion": "Itinerario para capturar perspectivas, detalles y luz adecuada en Naschmarkt.",
+          "proveedor": "Photo Walk Viena",
+          "contacto": "foto@vienawalk.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Tour privado a medida",
+          "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
+          "proveedor": "Travel Designers Viena",
+          "contacto": "plan@vienatravel.local",
+          "horario": "Bajo reserva"
+        },
+        {
+          "titulo": "Ruta familiar",
+          "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
+          "proveedor": "Familias Viajeras",
+          "contacto": "familias@viaje.local",
+          "horario": "11:00 - 12:30"
+        },
+        {
+          "titulo": "Experiencia al atardecer",
+          "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
+          "proveedor": "Slow Travel Viena",
+          "contacto": "slow@viena.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Audioguia express",
+          "descripcion": "Formato breve para entender lo esencial de Naschmarkt con autonomia.",
+          "proveedor": "Audio Travel",
+          "contacto": "audio@travel.local",
+          "horario": "Durante apertura"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "nombre": "Prater",
+      "tipo": "parques",
+      "descripcion": "Parque popular con la noria historica, avenidas largas y ambiente de feria clasica.",
+      "descripcionCorta": "La noria iconica y el gran parque.",
+      "lat": 48.2167,
+      "lng": 16.3972,
+      "horario": "24h",
+      "precio": "Parque gratis",
+      "rating": 4.6,
+      "imagen": "img/vienna_prater.png",
+      "imagenCard": "img/vienna_prater.png",
+      "tags": [
+        "parque",
+        "noria",
+        "familias"
+      ],
+      "actividades": [
+        {
+          "titulo": "Paseo verde",
+          "descripcion": "Ruta a pie por rincones, miradores y escenas cotidianas de Prater.",
+          "proveedor": "Walks Viena",
+          "contacto": "walks@viena.local",
+          "horario": "10:30 - 12:30"
+        },
+        {
+          "titulo": "Paseo fotografico",
+          "descripcion": "Itinerario para capturar perspectivas, detalles y luz adecuada en Prater.",
+          "proveedor": "Photo Walk Viena",
+          "contacto": "foto@vienawalk.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Tour privado a medida",
+          "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
+          "proveedor": "Travel Designers Viena",
+          "contacto": "plan@vienatravel.local",
+          "horario": "Bajo reserva"
+        },
+        {
+          "titulo": "Ruta familiar",
+          "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
+          "proveedor": "Familias Viajeras",
+          "contacto": "familias@viaje.local",
+          "horario": "11:00 - 12:30"
+        },
+        {
+          "titulo": "Experiencia al atardecer",
+          "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
+          "proveedor": "Slow Travel Viena",
+          "contacto": "slow@viena.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Audioguia express",
+          "descripcion": "Formato breve para entender lo esencial de Prater con autonomia.",
+          "proveedor": "Audio Travel",
+          "contacto": "audio@travel.local",
+          "horario": "Durante apertura"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "nombre": "Cafe Central",
+      "tipo": "cafes",
+      "descripcion": "Cafe historico de columnas, periodicos, tartas y memoria intelectual de la Viena finisecular.",
+      "descripcionCorta": "El cafe literario por excelencia.",
+      "lat": 48.2101,
+      "lng": 16.3657,
+      "horario": "8:00 - 22:00",
+      "precio": "Segun consumo",
+      "rating": 4.5,
+      "imagen": "img/vienna_cafecentral.png",
+      "imagenCard": "img/vienna_cafecentral.png",
+      "tags": [
+        "cafe",
+        "historia",
+        "tartas"
+      ],
+      "actividades": [
+        {
+          "titulo": "Visita guiada esencial",
+          "descripcion": "Recorrido interpretado por Cafe Central para entender su contexto dentro de Viena.",
+          "proveedor": "Guias Locales Viena",
+          "contacto": "hola@viena.local",
+          "horario": "10:00 - 12:00"
+        },
+        {
+          "titulo": "Paseo fotografico",
+          "descripcion": "Itinerario para capturar perspectivas, detalles y luz adecuada en Cafe Central.",
+          "proveedor": "Photo Walk Viena",
+          "contacto": "foto@vienawalk.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Tour privado a medida",
+          "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
+          "proveedor": "Travel Designers Viena",
+          "contacto": "plan@vienatravel.local",
+          "horario": "Bajo reserva"
+        },
+        {
+          "titulo": "Ruta familiar",
+          "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
+          "proveedor": "Familias Viajeras",
+          "contacto": "familias@viaje.local",
+          "horario": "11:00 - 12:30"
+        },
+        {
+          "titulo": "Experiencia al atardecer",
+          "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
+          "proveedor": "Slow Travel Viena",
+          "contacto": "slow@viena.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Audioguia express",
+          "descripcion": "Formato breve para entender lo esencial de Cafe Central con autonomia.",
+          "proveedor": "Audio Travel",
+          "contacto": "audio@travel.local",
+          "horario": "Durante apertura"
+        }
+      ]
+    }
+  ]
+}

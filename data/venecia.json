@@ -1,128 +1,584 @@
-[
-  {
-    "id": 1,
-    "nombre": "Plaza de San Marcos",
-    "tipo": "cultura",
-    "descripcion": "El corazón de Venecia, rodeada de la Basílica de San Marcos y el Palacio Ducal.",
-    "descripcionCorta": "El salón de Europa.",
-    "lat": 45.4342,
-    "lng": 12.3385,
-    "horario": "24h",
-    "precio": "Gratis",
-    "rating": 4.9,
-    "imagen": "img/venice_sanmarco.png",
-    "imagenCard": "img/venice_sanmarco.png",
-    "tags": [
-      "plaza",
-      "historia",
-      "palomas"
-    ],
-    "actividades": [
-      {
-        "titulo": "Tour historico esencial",
-        "descripcion": "Recorrido guiado por Plaza de San Marcos para conectar arquitectura, personajes y momentos clave de Venecia.",
-        "proveedor": "Historia Viva Venecia",
-        "contacto": "reservas@historiavenecia.local",
-        "horario": "10:00 - 12:00"
-      },
-      {
-        "titulo": "Acceso con contexto local",
-        "descripcion": "Visita pausada con explicaciones practicas para comprender por que este lugar sigue siendo imprescindible.",
-        "proveedor": "Guias Locales Venecia",
-        "contacto": "hola@venecialocal.local",
-        "horario": "12:00 - 14:00"
-      },
-      {
-        "titulo": "Paseo fotografico",
-        "descripcion": "Itinerario para capturar fachadas, perspectivas y detalles con la mejor luz disponible.",
-        "proveedor": "Photo Walk Venecia",
-        "contacto": "foto@veneciawalk.local",
-        "horario": "Atardecer"
-      },
-      {
-        "titulo": "Ruta de leyendas",
-        "descripcion": "Historias, simbolos y anecdotas alrededor de Plaza de San Marcos, con tono narrativo y facil de seguir.",
-        "proveedor": "Relatos de Venecia",
-        "contacto": "relatos@venecia.local",
-        "horario": "18:00 - 19:30"
-      },
-      {
-        "titulo": "Visita familiar",
-        "descripcion": "Version didactica con paradas breves, preguntas y claves sencillas para ninos y adultos.",
-        "proveedor": "Familias Viajeras",
-        "contacto": "familias@viaje.local",
-        "horario": "11:00 - 12:30"
-      },
-      {
-        "titulo": "Audioguia express",
-        "descripcion": "Recorrido autonomo para ver lo principal de Plaza de San Marcos con contexto claro y sin prisas.",
-        "proveedor": "Audio Travel",
-        "contacto": "audio@travel.local",
-        "horario": "Durante apertura"
-      }
-    ]
+{
+  "id": "venecia",
+  "nombre": "Venecia",
+  "pais": "Italia",
+  "continente": "Europa",
+  "emoji": "🇮🇹",
+  "lat": 45.4408,
+  "lng": 12.3155,
+  "imagen": "img/venice_hero.png",
+  "theme": {
+    "primary": "#0e7490",
+    "secondary": "#b45309",
+    "font": "'Cardo', serif"
   },
-  {
-    "id": 2,
-    "nombre": "Puente de Rialto",
-    "tipo": "cultura",
-    "descripcion": "El puente más antiguo de los cuatro que cruzan el Gran Canal de Venecia.",
-    "descripcionCorta": "El puente más icónico del Gran Canal.",
-    "lat": 45.438,
-    "lng": 12.3359,
-    "horario": "24h",
-    "precio": "Gratis",
-    "rating": 4.8,
-    "imagen": "img/venice_rialto.png",
-    "imagenCard": "img/venice_rialto.png",
-    "tags": [
-      "puente",
-      "vistas",
-      "compras"
-    ],
-    "actividades": [
-      {
-        "titulo": "Tour historico esencial",
-        "descripcion": "Recorrido guiado por Puente de Rialto para conectar arquitectura, personajes y momentos clave de Venecia.",
-        "proveedor": "Historia Viva Venecia",
-        "contacto": "reservas@historiavenecia.local",
-        "horario": "10:00 - 12:00"
-      },
-      {
-        "titulo": "Acceso con contexto local",
-        "descripcion": "Visita pausada con explicaciones practicas para comprender por que este lugar sigue siendo imprescindible.",
-        "proveedor": "Guias Locales Venecia",
-        "contacto": "hola@venecialocal.local",
-        "horario": "12:00 - 14:00"
-      },
-      {
-        "titulo": "Paseo fotografico",
-        "descripcion": "Itinerario para capturar fachadas, perspectivas y detalles con la mejor luz disponible.",
-        "proveedor": "Photo Walk Venecia",
-        "contacto": "foto@veneciawalk.local",
-        "horario": "Atardecer"
-      },
-      {
-        "titulo": "Ruta de leyendas",
-        "descripcion": "Historias, simbolos y anecdotas alrededor de Puente de Rialto, con tono narrativo y facil de seguir.",
-        "proveedor": "Relatos de Venecia",
-        "contacto": "relatos@venecia.local",
-        "horario": "18:00 - 19:30"
-      },
-      {
-        "titulo": "Visita familiar",
-        "descripcion": "Version didactica con paradas breves, preguntas y claves sencillas para ninos y adultos.",
-        "proveedor": "Familias Viajeras",
-        "contacto": "familias@viaje.local",
-        "horario": "11:00 - 12:30"
-      },
-      {
-        "titulo": "Audioguia express",
-        "descripcion": "Recorrido autonomo para ver lo principal de Puente de Rialto con contexto claro y sin prisas.",
-        "proveedor": "Audio Travel",
-        "contacto": "audio@travel.local",
-        "horario": "Durante apertura"
-      }
-    ]
-  }
-]
+  "lugares": [
+    {
+      "id": 1,
+      "nombre": "Plaza de San Marcos",
+      "tipo": "cultura",
+      "descripcion": "El corazón de Venecia, rodeada de la Basílica de San Marcos y el Palacio Ducal.",
+      "descripcionCorta": "El salón de Europa.",
+      "lat": 45.4342,
+      "lng": 12.3385,
+      "horario": "24h",
+      "precio": "Gratis",
+      "rating": 4.9,
+      "imagen": "img/venice_sanmarco.png",
+      "imagenCard": "img/venice_sanmarco.png",
+      "tags": [
+        "plaza",
+        "historia",
+        "palomas"
+      ],
+      "actividades": [
+        {
+          "titulo": "Tour historico esencial",
+          "descripcion": "Recorrido guiado por Plaza de San Marcos para conectar arquitectura, personajes y momentos clave de Venecia.",
+          "proveedor": "Historia Viva Venecia",
+          "contacto": "reservas@historiavenecia.local",
+          "horario": "10:00 - 12:00"
+        },
+        {
+          "titulo": "Acceso con contexto local",
+          "descripcion": "Visita pausada con explicaciones practicas para comprender por que este lugar sigue siendo imprescindible.",
+          "proveedor": "Guias Locales Venecia",
+          "contacto": "hola@venecialocal.local",
+          "horario": "12:00 - 14:00"
+        },
+        {
+          "titulo": "Paseo fotografico",
+          "descripcion": "Itinerario para capturar fachadas, perspectivas y detalles con la mejor luz disponible.",
+          "proveedor": "Photo Walk Venecia",
+          "contacto": "foto@veneciawalk.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Ruta de leyendas",
+          "descripcion": "Historias, simbolos y anecdotas alrededor de Plaza de San Marcos, con tono narrativo y facil de seguir.",
+          "proveedor": "Relatos de Venecia",
+          "contacto": "relatos@venecia.local",
+          "horario": "18:00 - 19:30"
+        },
+        {
+          "titulo": "Visita familiar",
+          "descripcion": "Version didactica con paradas breves, preguntas y claves sencillas para ninos y adultos.",
+          "proveedor": "Familias Viajeras",
+          "contacto": "familias@viaje.local",
+          "horario": "11:00 - 12:30"
+        },
+        {
+          "titulo": "Audioguia express",
+          "descripcion": "Recorrido autonomo para ver lo principal de Plaza de San Marcos con contexto claro y sin prisas.",
+          "proveedor": "Audio Travel",
+          "contacto": "audio@travel.local",
+          "horario": "Durante apertura"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "Puente de Rialto",
+      "tipo": "cultura",
+      "descripcion": "El puente más antiguo de los cuatro que cruzan el Gran Canal de Venecia.",
+      "descripcionCorta": "El puente más icónico del Gran Canal.",
+      "lat": 45.438,
+      "lng": 12.3359,
+      "horario": "24h",
+      "precio": "Gratis",
+      "rating": 4.8,
+      "imagen": "img/venice_rialto.png",
+      "imagenCard": "img/venice_rialto.png",
+      "tags": [
+        "puente",
+        "vistas",
+        "compras"
+      ],
+      "actividades": [
+        {
+          "titulo": "Tour historico esencial",
+          "descripcion": "Recorrido guiado por Puente de Rialto para conectar arquitectura, personajes y momentos clave de Venecia.",
+          "proveedor": "Historia Viva Venecia",
+          "contacto": "reservas@historiavenecia.local",
+          "horario": "10:00 - 12:00"
+        },
+        {
+          "titulo": "Acceso con contexto local",
+          "descripcion": "Visita pausada con explicaciones practicas para comprender por que este lugar sigue siendo imprescindible.",
+          "proveedor": "Guias Locales Venecia",
+          "contacto": "hola@venecialocal.local",
+          "horario": "12:00 - 14:00"
+        },
+        {
+          "titulo": "Paseo fotografico",
+          "descripcion": "Itinerario para capturar fachadas, perspectivas y detalles con la mejor luz disponible.",
+          "proveedor": "Photo Walk Venecia",
+          "contacto": "foto@veneciawalk.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Ruta de leyendas",
+          "descripcion": "Historias, simbolos y anecdotas alrededor de Puente de Rialto, con tono narrativo y facil de seguir.",
+          "proveedor": "Relatos de Venecia",
+          "contacto": "relatos@venecia.local",
+          "horario": "18:00 - 19:30"
+        },
+        {
+          "titulo": "Visita familiar",
+          "descripcion": "Version didactica con paradas breves, preguntas y claves sencillas para ninos y adultos.",
+          "proveedor": "Familias Viajeras",
+          "contacto": "familias@viaje.local",
+          "horario": "11:00 - 12:30"
+        },
+        {
+          "titulo": "Audioguia express",
+          "descripcion": "Recorrido autonomo para ver lo principal de Puente de Rialto con contexto claro y sin prisas.",
+          "proveedor": "Audio Travel",
+          "contacto": "audio@travel.local",
+          "horario": "Durante apertura"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Basilica de San Marcos",
+      "tipo": "cultura",
+      "descripcion": "Templo de mosaicos dorados, marmoles orientales y cupulas bizantinas que resume el poder mercantil veneciano.",
+      "descripcionCorta": "Oro bizantino frente a la plaza.",
+      "lat": 45.4346,
+      "lng": 12.3397,
+      "horario": "9:30 - 17:15",
+      "precio": "Desde 3 EUR",
+      "rating": 4.8,
+      "imagen": "img/venice_basilica.png",
+      "imagenCard": "img/venice_basilica.png",
+      "tags": [
+        "mosaicos",
+        "bizantino",
+        "san marcos"
+      ],
+      "actividades": [
+        {
+          "titulo": "Visita guiada esencial",
+          "descripcion": "Recorrido interpretado por Basilica de San Marcos para entender su contexto dentro de Venecia.",
+          "proveedor": "Guias Locales Venecia",
+          "contacto": "hola@venecia.local",
+          "horario": "10:00 - 12:00"
+        },
+        {
+          "titulo": "Paseo fotografico",
+          "descripcion": "Itinerario para capturar perspectivas, detalles y luz adecuada en Basilica de San Marcos.",
+          "proveedor": "Photo Walk Venecia",
+          "contacto": "foto@veneciawalk.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Tour privado a medida",
+          "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
+          "proveedor": "Travel Designers Venecia",
+          "contacto": "plan@veneciatravel.local",
+          "horario": "Bajo reserva"
+        },
+        {
+          "titulo": "Ruta familiar",
+          "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
+          "proveedor": "Familias Viajeras",
+          "contacto": "familias@viaje.local",
+          "horario": "11:00 - 12:30"
+        },
+        {
+          "titulo": "Experiencia al atardecer",
+          "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
+          "proveedor": "Slow Travel Venecia",
+          "contacto": "slow@venecia.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Audioguia express",
+          "descripcion": "Formato breve para entender lo esencial de Basilica de San Marcos con autonomia.",
+          "proveedor": "Audio Travel",
+          "contacto": "audio@travel.local",
+          "horario": "Durante apertura"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nombre": "Palacio Ducal",
+      "tipo": "cultura",
+      "descripcion": "Sede del gobierno veneciano, con salones monumentales, patios goticos y el paso hacia el Puente de los Suspiros.",
+      "descripcionCorta": "El poder de la Serenissima.",
+      "lat": 45.4337,
+      "lng": 12.3404,
+      "horario": "9:00 - 18:00",
+      "precio": "30 EUR",
+      "rating": 4.8,
+      "imagen": "img/venice_dogespalace.png",
+      "imagenCard": "img/venice_dogespalace.png",
+      "tags": [
+        "palacio",
+        "gotico",
+        "historia"
+      ],
+      "actividades": [
+        {
+          "titulo": "Visita guiada esencial",
+          "descripcion": "Recorrido interpretado por Palacio Ducal para entender su contexto dentro de Venecia.",
+          "proveedor": "Guias Locales Venecia",
+          "contacto": "hola@venecia.local",
+          "horario": "10:00 - 12:00"
+        },
+        {
+          "titulo": "Paseo fotografico",
+          "descripcion": "Itinerario para capturar perspectivas, detalles y luz adecuada en Palacio Ducal.",
+          "proveedor": "Photo Walk Venecia",
+          "contacto": "foto@veneciawalk.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Tour privado a medida",
+          "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
+          "proveedor": "Travel Designers Venecia",
+          "contacto": "plan@veneciatravel.local",
+          "horario": "Bajo reserva"
+        },
+        {
+          "titulo": "Ruta familiar",
+          "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
+          "proveedor": "Familias Viajeras",
+          "contacto": "familias@viaje.local",
+          "horario": "11:00 - 12:30"
+        },
+        {
+          "titulo": "Experiencia al atardecer",
+          "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
+          "proveedor": "Slow Travel Venecia",
+          "contacto": "slow@venecia.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Audioguia express",
+          "descripcion": "Formato breve para entender lo esencial de Palacio Ducal con autonomia.",
+          "proveedor": "Audio Travel",
+          "contacto": "audio@travel.local",
+          "horario": "Durante apertura"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "nombre": "Gran Canal",
+      "tipo": "vistas",
+      "descripcion": "La avenida acuatica de Venecia serpentea entre palacios, vaporetos y reflejos que cambian a cada hora.",
+      "descripcionCorta": "La gran avenida de agua.",
+      "lat": 45.4375,
+      "lng": 12.3326,
+      "horario": "24h",
+      "precio": "Vaporetto desde 9.50 EUR",
+      "rating": 4.9,
+      "imagen": "img/venice_grandcanal.png",
+      "imagenCard": "img/venice_grandcanal.png",
+      "tags": [
+        "canal",
+        "palacios",
+        "vistas"
+      ],
+      "actividades": [
+        {
+          "titulo": "Visita guiada esencial",
+          "descripcion": "Recorrido interpretado por Gran Canal para entender su contexto dentro de Venecia.",
+          "proveedor": "Guias Locales Venecia",
+          "contacto": "hola@venecia.local",
+          "horario": "10:00 - 12:00"
+        },
+        {
+          "titulo": "Paseo fotografico",
+          "descripcion": "Itinerario para capturar perspectivas, detalles y luz adecuada en Gran Canal.",
+          "proveedor": "Photo Walk Venecia",
+          "contacto": "foto@veneciawalk.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Tour privado a medida",
+          "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
+          "proveedor": "Travel Designers Venecia",
+          "contacto": "plan@veneciatravel.local",
+          "horario": "Bajo reserva"
+        },
+        {
+          "titulo": "Ruta familiar",
+          "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
+          "proveedor": "Familias Viajeras",
+          "contacto": "familias@viaje.local",
+          "horario": "11:00 - 12:30"
+        },
+        {
+          "titulo": "Experiencia al atardecer",
+          "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
+          "proveedor": "Slow Travel Venecia",
+          "contacto": "slow@venecia.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Audioguia express",
+          "descripcion": "Formato breve para entender lo esencial de Gran Canal con autonomia.",
+          "proveedor": "Audio Travel",
+          "contacto": "audio@travel.local",
+          "horario": "Durante apertura"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "nombre": "Gallerie dell'Accademia",
+      "tipo": "museos",
+      "descripcion": "Museo clave para leer la pintura veneciana, de Bellini a Tintoretto, en antiguas salas religiosas.",
+      "descripcionCorta": "La gran pinacoteca veneciana.",
+      "lat": 45.431,
+      "lng": 12.3285,
+      "horario": "8:15 - 19:15",
+      "precio": "12 EUR",
+      "rating": 4.7,
+      "imagen": "img/venice_accademia.png",
+      "imagenCard": "img/venice_accademia.png",
+      "tags": [
+        "museo",
+        "pintura",
+        "renacimiento"
+      ],
+      "actividades": [
+        {
+          "titulo": "Visita guiada a la coleccion",
+          "descripcion": "Recorrido para entender las piezas clave de Gallerie dell'Accademia y su papel cultural en Venecia.",
+          "proveedor": "Gallerie dell'Accademia Educacion",
+          "contacto": "educacion@venecia.local",
+          "horario": "10:00 - 12:00"
+        },
+        {
+          "titulo": "Paseo fotografico",
+          "descripcion": "Itinerario para capturar perspectivas, detalles y luz adecuada en Gallerie dell'Accademia.",
+          "proveedor": "Photo Walk Venecia",
+          "contacto": "foto@veneciawalk.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Tour privado a medida",
+          "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
+          "proveedor": "Travel Designers Venecia",
+          "contacto": "plan@veneciatravel.local",
+          "horario": "Bajo reserva"
+        },
+        {
+          "titulo": "Ruta familiar",
+          "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
+          "proveedor": "Familias Viajeras",
+          "contacto": "familias@viaje.local",
+          "horario": "11:00 - 12:30"
+        },
+        {
+          "titulo": "Experiencia al atardecer",
+          "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
+          "proveedor": "Slow Travel Venecia",
+          "contacto": "slow@venecia.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Audioguia express",
+          "descripcion": "Formato breve para entender lo esencial de Gallerie dell'Accademia con autonomia.",
+          "proveedor": "Audio Travel",
+          "contacto": "audio@travel.local",
+          "horario": "Durante apertura"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "nombre": "Dorsoduro",
+      "tipo": "barrios",
+      "descripcion": "Barrio universitario y artistico con canales tranquilos, talleres, bares y una escala mas local.",
+      "descripcionCorta": "El lado creativo y sereno.",
+      "lat": 45.43,
+      "lng": 12.3267,
+      "horario": "24h",
+      "precio": "Gratis",
+      "rating": 4.7,
+      "imagen": "img/venice_dorsoduro.png",
+      "imagenCard": "img/venice_dorsoduro.png",
+      "tags": [
+        "barrio",
+        "arte",
+        "canales"
+      ],
+      "actividades": [
+        {
+          "titulo": "Paseo de barrio",
+          "descripcion": "Ruta a pie por rincones, miradores y escenas cotidianas de Dorsoduro.",
+          "proveedor": "Walks Venecia",
+          "contacto": "walks@venecia.local",
+          "horario": "10:30 - 12:30"
+        },
+        {
+          "titulo": "Paseo fotografico",
+          "descripcion": "Itinerario para capturar perspectivas, detalles y luz adecuada en Dorsoduro.",
+          "proveedor": "Photo Walk Venecia",
+          "contacto": "foto@veneciawalk.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Tour privado a medida",
+          "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
+          "proveedor": "Travel Designers Venecia",
+          "contacto": "plan@veneciatravel.local",
+          "horario": "Bajo reserva"
+        },
+        {
+          "titulo": "Ruta familiar",
+          "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
+          "proveedor": "Familias Viajeras",
+          "contacto": "familias@viaje.local",
+          "horario": "11:00 - 12:30"
+        },
+        {
+          "titulo": "Experiencia al atardecer",
+          "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
+          "proveedor": "Slow Travel Venecia",
+          "contacto": "slow@venecia.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Audioguia express",
+          "descripcion": "Formato breve para entender lo esencial de Dorsoduro con autonomia.",
+          "proveedor": "Audio Travel",
+          "contacto": "audio@travel.local",
+          "horario": "Durante apertura"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "nombre": "Mercado de Rialto",
+      "tipo": "mercados",
+      "descripcion": "Puestos de pescado, frutas y verduras junto al Gran Canal, con el pulso cotidiano de la cocina veneciana.",
+      "descripcionCorta": "El mercado historico del canal.",
+      "lat": 45.4395,
+      "lng": 12.3338,
+      "horario": "7:30 - 13:00",
+      "precio": "Gratis",
+      "rating": 4.6,
+      "imagen": "img/venice_rialtomarket.png",
+      "imagenCard": "img/venice_rialtomarket.png",
+      "tags": [
+        "mercado",
+        "pescado",
+        "gastronomia"
+      ],
+      "actividades": [
+        {
+          "titulo": "Ruta de sabores",
+          "descripcion": "Paradas escogidas para probar producto local y entender el pulso gastronomico de Mercado de Rialto.",
+          "proveedor": "Sabores de Venecia",
+          "contacto": "sabores@venecia.local",
+          "horario": "12:00 - 14:00"
+        },
+        {
+          "titulo": "Paseo fotografico",
+          "descripcion": "Itinerario para capturar perspectivas, detalles y luz adecuada en Mercado de Rialto.",
+          "proveedor": "Photo Walk Venecia",
+          "contacto": "foto@veneciawalk.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Tour privado a medida",
+          "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
+          "proveedor": "Travel Designers Venecia",
+          "contacto": "plan@veneciatravel.local",
+          "horario": "Bajo reserva"
+        },
+        {
+          "titulo": "Ruta familiar",
+          "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
+          "proveedor": "Familias Viajeras",
+          "contacto": "familias@viaje.local",
+          "horario": "11:00 - 12:30"
+        },
+        {
+          "titulo": "Experiencia al atardecer",
+          "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
+          "proveedor": "Slow Travel Venecia",
+          "contacto": "slow@venecia.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Audioguia express",
+          "descripcion": "Formato breve para entender lo esencial de Mercado de Rialto con autonomia.",
+          "proveedor": "Audio Travel",
+          "contacto": "audio@travel.local",
+          "horario": "Durante apertura"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "nombre": "Isla de Burano",
+      "tipo": "barrios",
+      "descripcion": "Casas de colores vivos, canales pequenos y tradicion de encaje convierten la isla en una excursion luminosa.",
+      "descripcionCorta": "Color y encaje en la laguna.",
+      "lat": 45.4855,
+      "lng": 12.4169,
+      "horario": "24h",
+      "precio": "Vaporetto",
+      "rating": 4.8,
+      "imagen": "img/venice_burano.png",
+      "imagenCard": "img/venice_burano.png",
+      "tags": [
+        "isla",
+        "color",
+        "canales"
+      ],
+      "actividades": [
+        {
+          "titulo": "Paseo de barrio",
+          "descripcion": "Ruta a pie por rincones, miradores y escenas cotidianas de Isla de Burano.",
+          "proveedor": "Walks Venecia",
+          "contacto": "walks@venecia.local",
+          "horario": "10:30 - 12:30"
+        },
+        {
+          "titulo": "Paseo fotografico",
+          "descripcion": "Itinerario para capturar perspectivas, detalles y luz adecuada en Isla de Burano.",
+          "proveedor": "Photo Walk Venecia",
+          "contacto": "foto@veneciawalk.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Tour privado a medida",
+          "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
+          "proveedor": "Travel Designers Venecia",
+          "contacto": "plan@veneciatravel.local",
+          "horario": "Bajo reserva"
+        },
+        {
+          "titulo": "Ruta familiar",
+          "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
+          "proveedor": "Familias Viajeras",
+          "contacto": "familias@viaje.local",
+          "horario": "11:00 - 12:30"
+        },
+        {
+          "titulo": "Experiencia al atardecer",
+          "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
+          "proveedor": "Slow Travel Venecia",
+          "contacto": "slow@venecia.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Audioguia express",
+          "descripcion": "Formato breve para entender lo esencial de Isla de Burano con autonomia.",
+          "proveedor": "Audio Travel",
+          "contacto": "audio@travel.local",
+          "horario": "Durante apertura"
+        }
+      ]
+    }
+  ]
+}

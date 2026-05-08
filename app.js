@@ -17,7 +17,7 @@ const state = {
     isTransitioning: false
 };
 
-const ASSET_VERSION = '2026-05-08-fix-globe-markers-v3';
+const ASSET_VERSION = '2026-05-08-prague-photos-v1';
 const GLOBE_TEXTURE_URL = 'https://unpkg.com/three-globe/example/img/earth-blue-marble.jpg';
 const GLOBE_BUMP_URL = 'https://unpkg.com/three-globe/example/img/earth-topology.png';
 const COUNTRIES_GEOJSON_URL = 'https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson';
@@ -26,6 +26,17 @@ function assetUrl(src) {
     if (!src || src.startsWith('http') || src.startsWith('data:')) return src;
     const baseSrc = src.split('?')[0];
     return `${baseSrc}?v=${ASSET_VERSION}`;
+}
+
+function callGlobe(method, ...args) {
+    if (!state.globe || typeof state.globe[method] !== 'function') return false;
+    try {
+        state.globe[method](...args);
+        return true;
+    } catch (error) {
+        console.warn(`Globe.gl no pudo aplicar ${method}:`, error);
+        return false;
+    }
 }
 
 
@@ -142,45 +153,44 @@ function initGlobe() {
         if (!state.globe || state.cities.length === 0) return;
         console.log('📍 Aplicando datos al globo...');
         
-        state.globe
-            .pointsData(state.cities)
-            .pointAltitude(0.02)
-            .pointRadius(1.5)
-            .pointColor(() => '#ffdf5d')
-            
-            .labelsData(state.cities)
-            .labelLat(d => d.lat)
-            .labelLng(d => d.lng)
-            .labelText(d => d.nombre)
-            .labelSize(2.0)
-            .labelColor(() => '#ffffff')
-            .labelAltitude(0.02)
+        callGlobe('pointsData', state.cities);
+        callGlobe('pointAltitude', 0.035);
+        callGlobe('pointRadius', 1.35);
+        callGlobe('pointColor', () => '#ffdf5d');
 
-            .htmlElementsData(state.cities)
-            .htmlLat(d => d.lat)
-            .htmlLng(d => d.lng)
-            .htmlAltitude(0.04)
-            .htmlElement(d => {
-                const el = document.createElement('div');
-                el.className = 'globe-city-marker';
-                el.style.border = '3px solid #ffdf5d'; // Borde muy visible
-                el.style.borderRadius = '50%';
-                el.title = `${d.nombre}, ${d.pais}`;
-                el.innerHTML = `
-                    <div class="globe-thumb-container">
-                        <span class="globe-pin-core"></span>
-                        <img src="${assetUrl(d.imagen)}" class="globe-thumb" onerror="this.src='https://via.placeholder.com/64/ffdf5d/000000?text=${d.nombre[0]}'">
-                        <span class="globe-emoji">${d.emoji}</span>
-                        <span class="globe-preview-panel">
-                            <img src="${assetUrl(d.imagen)}" class="preview-img" alt="">
-                            <span class="preview-name">${d.nombre}</span>
-                            <span class="preview-country">${d.pais}</span>
-                        </span>
-                    </div>
-                `;
-                el.onclick = (ev) => { ev.stopPropagation(); selectCity(d); };
-                return el;
-            });
+        callGlobe('labelsData', state.cities);
+        callGlobe('labelLat', d => d.lat);
+        callGlobe('labelLng', d => d.lng);
+        callGlobe('labelText', d => d.nombre);
+        callGlobe('labelSize', 2.0);
+        callGlobe('labelColor', () => '#ffffff');
+        callGlobe('labelAltitude', 0.05);
+
+        callGlobe('htmlLat', d => d.lat);
+        callGlobe('htmlLng', d => d.lng);
+        callGlobe('htmlAltitude', 0.06);
+        callGlobe('htmlElement', d => {
+            const el = document.createElement('button');
+            el.type = 'button';
+            el.className = 'globe-city-marker';
+            el.title = `${d.nombre}, ${d.pais}`;
+            el.setAttribute('aria-label', `Abrir ${d.nombre}, ${d.pais}`);
+            el.innerHTML = `
+                <span class="globe-thumb-container">
+                    <span class="globe-pin-core"></span>
+                    <img src="${assetUrl(d.imagen)}" class="globe-thumb" onerror="this.style.display='none'">
+                    <span class="globe-emoji">${d.emoji}</span>
+                    <span class="globe-preview-panel">
+                        <img src="${assetUrl(d.imagen)}" class="preview-img" alt="">
+                        <span class="preview-name">${d.nombre}</span>
+                        <span class="preview-country">${d.pais}</span>
+                    </span>
+                </span>
+            `;
+            el.onclick = (ev) => { ev.stopPropagation(); selectCity(d); };
+            return el;
+        });
+        callGlobe('htmlElementsData', state.cities);
     };
 
     // Inyectar datos con retardos progresivos para asegurar el renderizado

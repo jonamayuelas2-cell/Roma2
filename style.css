@@ -232,6 +232,10 @@ body {
 
 /* ══ GLOBE MARKERS (PHOTOS) ══════════════════════════════ */
 .globe-city-marker {
+  appearance: none;
+  background: transparent;
+  border: 0;
+  padding: 0;
   pointer-events: auto !important;
   position: relative;
   z-index: 20;

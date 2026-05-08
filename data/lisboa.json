@@ -1,128 +1,584 @@
-[
-  {
-    "id": 1,
-    "nombre": "Torre de Belém",
-    "tipo": "cultura",
-    "descripcion": "Fortaleza del siglo XVI que servía de punto de partida para los exploradores portugueses.",
-    "descripcionCorta": "La joya del Tajo.",
-    "lat": 38.6916,
-    "lng": -9.216,
-    "horario": "10:00 - 17:30",
-    "precio": "6€",
-    "rating": 4.8,
-    "imagen": "img/lisbon_belem.png",
-    "imagenCard": "img/lisbon_belem.png",
-    "tags": [
-      "historia",
-      "arquitectura",
-      "exploración"
-    ],
-    "actividades": [
-      {
-        "titulo": "Tour historico esencial",
-        "descripcion": "Recorrido guiado por Torre de Belém para conectar arquitectura, personajes y momentos clave de Lisboa.",
-        "proveedor": "Historia Viva Lisboa",
-        "contacto": "reservas@historialisboa.local",
-        "horario": "10:00 - 12:00"
-      },
-      {
-        "titulo": "Acceso con contexto local",
-        "descripcion": "Visita pausada con explicaciones practicas para comprender por que este lugar sigue siendo imprescindible.",
-        "proveedor": "Guias Locales Lisboa",
-        "contacto": "hola@lisboalocal.local",
-        "horario": "12:00 - 14:00"
-      },
-      {
-        "titulo": "Paseo fotografico",
-        "descripcion": "Itinerario para capturar fachadas, perspectivas y detalles con la mejor luz disponible.",
-        "proveedor": "Photo Walk Lisboa",
-        "contacto": "foto@lisboawalk.local",
-        "horario": "Atardecer"
-      },
-      {
-        "titulo": "Ruta de leyendas",
-        "descripcion": "Historias, simbolos y anecdotas alrededor de Torre de Belém, con tono narrativo y facil de seguir.",
-        "proveedor": "Relatos de Lisboa",
-        "contacto": "relatos@lisboa.local",
-        "horario": "18:00 - 19:30"
-      },
-      {
-        "titulo": "Visita familiar",
-        "descripcion": "Version didactica con paradas breves, preguntas y claves sencillas para ninos y adultos.",
-        "proveedor": "Familias Viajeras",
-        "contacto": "familias@viaje.local",
-        "horario": "11:00 - 12:30"
-      },
-      {
-        "titulo": "Audioguia express",
-        "descripcion": "Recorrido autonomo para ver lo principal de Torre de Belém con contexto claro y sin prisas.",
-        "proveedor": "Audio Travel",
-        "contacto": "audio@travel.local",
-        "horario": "Durante apertura"
-      }
-    ]
+{
+  "id": "lisboa",
+  "nombre": "Lisboa",
+  "pais": "Portugal",
+  "continente": "Europa",
+  "emoji": "🇵🇹",
+  "lat": 38.7223,
+  "lng": -9.1393,
+  "imagen": "img/lisbon_hero.png",
+  "theme": {
+    "primary": "#0f766e",
+    "secondary": "#f59e0b",
+    "font": "'Inter', sans-serif"
   },
-  {
-    "id": 2,
-    "nombre": "Barrio de Alfama",
-    "tipo": "barrios",
-    "descripcion": "El barrio más antiguo y pintoresco de Lisboa, famoso por el Fado.",
-    "descripcionCorta": "El alma de Lisboa.",
-    "lat": 38.7121,
-    "lng": -9.1305,
-    "horario": "24h",
-    "precio": "Gratis",
-    "rating": 4.9,
-    "imagen": "img/lisbon_alfama.png",
-    "imagenCard": "img/lisbon_alfama.png",
-    "tags": [
-      "fado",
-      "callejuelas",
-      "tradición"
-    ],
-    "actividades": [
-      {
-        "titulo": "Paseo de barrio",
-        "descripcion": "Ruta a pie por calles, plazas y rincones cotidianos para entender el caracter de Barrio de Alfama.",
-        "proveedor": "Walks Lisboa",
-        "contacto": "walks@lisboa.local",
-        "horario": "10:30 - 12:30"
-      },
-      {
-        "titulo": "Ruta gastronomica local",
-        "descripcion": "Paradas escogidas para probar sabores representativos y conocer pequenos comercios de la zona.",
-        "proveedor": "Sabores de Lisboa",
-        "contacto": "sabores@lisboa.local",
-        "horario": "13:00 - 15:00"
-      },
-      {
-        "titulo": "Fotografia urbana",
-        "descripcion": "Paseo para buscar fachadas, mercados, escenas de calle y detalles con personalidad.",
-        "proveedor": "Photo Walk Lisboa",
-        "contacto": "foto@lisboawalk.local",
-        "horario": "Atardecer"
-      },
-      {
-        "titulo": "Historias del vecindario",
-        "descripcion": "Relato guiado sobre cambios urbanos, vida local y memoria del barrio.",
-        "proveedor": "Cronicas Lisboa",
-        "contacto": "cronicas@lisboa.local",
-        "horario": "17:00 - 18:30"
-      },
-      {
-        "titulo": "Compras con guia local",
-        "descripcion": "Seleccion de tiendas, talleres y productos con criterio local y sin prisas.",
-        "proveedor": "Local Shops Lisboa",
-        "contacto": "shops@lisboa.local",
-        "horario": "11:00 - 13:00"
-      },
-      {
-        "titulo": "Noche de ambiente",
-        "descripcion": "Recorrido suave por bares, plazas y locales recomendados para tomar el pulso nocturno.",
-        "proveedor": "After Dark Lisboa",
-        "contacto": "noche@lisboa.local",
-        "horario": "20:00 - 22:00"
-      }
-    ]
-  }
-]
+  "lugares": [
+    {
+      "id": 1,
+      "nombre": "Torre de Belém",
+      "tipo": "cultura",
+      "descripcion": "Fortaleza del siglo XVI que servía de punto de partida para los exploradores portugueses.",
+      "descripcionCorta": "La joya del Tajo.",
+      "lat": 38.6916,
+      "lng": -9.216,
+      "horario": "10:00 - 17:30",
+      "precio": "6€",
+      "rating": 4.8,
+      "imagen": "img/lisbon_belem.png",
+      "imagenCard": "img/lisbon_belem.png",
+      "tags": [
+        "historia",
+        "arquitectura",
+        "exploración"
+      ],
+      "actividades": [
+        {
+          "titulo": "Tour historico esencial",
+          "descripcion": "Recorrido guiado por Torre de Belém para conectar arquitectura, personajes y momentos clave de Lisboa.",
+          "proveedor": "Historia Viva Lisboa",
+          "contacto": "reservas@historialisboa.local",
+          "horario": "10:00 - 12:00"
+        },
+        {
+          "titulo": "Acceso con contexto local",
+          "descripcion": "Visita pausada con explicaciones practicas para comprender por que este lugar sigue siendo imprescindible.",
+          "proveedor": "Guias Locales Lisboa",
+          "contacto": "hola@lisboalocal.local",
+          "horario": "12:00 - 14:00"
+        },
+        {
+          "titulo": "Paseo fotografico",
+          "descripcion": "Itinerario para capturar fachadas, perspectivas y detalles con la mejor luz disponible.",
+          "proveedor": "Photo Walk Lisboa",
+          "contacto": "foto@lisboawalk.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Ruta de leyendas",
+          "descripcion": "Historias, simbolos y anecdotas alrededor de Torre de Belém, con tono narrativo y facil de seguir.",
+          "proveedor": "Relatos de Lisboa",
+          "contacto": "relatos@lisboa.local",
+          "horario": "18:00 - 19:30"
+        },
+        {
+          "titulo": "Visita familiar",
+          "descripcion": "Version didactica con paradas breves, preguntas y claves sencillas para ninos y adultos.",
+          "proveedor": "Familias Viajeras",
+          "contacto": "familias@viaje.local",
+          "horario": "11:00 - 12:30"
+        },
+        {
+          "titulo": "Audioguia express",
+          "descripcion": "Recorrido autonomo para ver lo principal de Torre de Belém con contexto claro y sin prisas.",
+          "proveedor": "Audio Travel",
+          "contacto": "audio@travel.local",
+          "horario": "Durante apertura"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "Barrio de Alfama",
+      "tipo": "barrios",
+      "descripcion": "El barrio más antiguo y pintoresco de Lisboa, famoso por el Fado.",
+      "descripcionCorta": "El alma de Lisboa.",
+      "lat": 38.7121,
+      "lng": -9.1305,
+      "horario": "24h",
+      "precio": "Gratis",
+      "rating": 4.9,
+      "imagen": "img/lisbon_alfama.png",
+      "imagenCard": "img/lisbon_alfama.png",
+      "tags": [
+        "fado",
+        "callejuelas",
+        "tradición"
+      ],
+      "actividades": [
+        {
+          "titulo": "Paseo de barrio",
+          "descripcion": "Ruta a pie por calles, plazas y rincones cotidianos para entender el caracter de Barrio de Alfama.",
+          "proveedor": "Walks Lisboa",
+          "contacto": "walks@lisboa.local",
+          "horario": "10:30 - 12:30"
+        },
+        {
+          "titulo": "Ruta gastronomica local",
+          "descripcion": "Paradas escogidas para probar sabores representativos y conocer pequenos comercios de la zona.",
+          "proveedor": "Sabores de Lisboa",
+          "contacto": "sabores@lisboa.local",
+          "horario": "13:00 - 15:00"
+        },
+        {
+          "titulo": "Fotografia urbana",
+          "descripcion": "Paseo para buscar fachadas, mercados, escenas de calle y detalles con personalidad.",
+          "proveedor": "Photo Walk Lisboa",
+          "contacto": "foto@lisboawalk.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Historias del vecindario",
+          "descripcion": "Relato guiado sobre cambios urbanos, vida local y memoria del barrio.",
+          "proveedor": "Cronicas Lisboa",
+          "contacto": "cronicas@lisboa.local",
+          "horario": "17:00 - 18:30"
+        },
+        {
+          "titulo": "Compras con guia local",
+          "descripcion": "Seleccion de tiendas, talleres y productos con criterio local y sin prisas.",
+          "proveedor": "Local Shops Lisboa",
+          "contacto": "shops@lisboa.local",
+          "horario": "11:00 - 13:00"
+        },
+        {
+          "titulo": "Noche de ambiente",
+          "descripcion": "Recorrido suave por bares, plazas y locales recomendados para tomar el pulso nocturno.",
+          "proveedor": "After Dark Lisboa",
+          "contacto": "noche@lisboa.local",
+          "horario": "20:00 - 22:00"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Monasterio de los Jeronimos",
+      "tipo": "cultura",
+      "descripcion": "Obra maestra manuelina ligada a la era de los descubrimientos, con claustros de piedra tallada y memoria marinera.",
+      "descripcionCorta": "El gran templo manuelino de Belem.",
+      "lat": 38.6979,
+      "lng": -9.2067,
+      "horario": "10:00 - 17:30",
+      "precio": "10 EUR",
+      "rating": 4.8,
+      "imagen": "img/lisbon_jeronimos.png",
+      "imagenCard": "img/lisbon_jeronimos.png",
+      "tags": [
+        "manuelino",
+        "patrimonio",
+        "belem"
+      ],
+      "actividades": [
+        {
+          "titulo": "Visita guiada esencial",
+          "descripcion": "Recorrido interpretado por Monasterio de los Jeronimos para entender su contexto dentro de Lisboa.",
+          "proveedor": "Guias Locales Lisboa",
+          "contacto": "hola@lisboa.local",
+          "horario": "10:00 - 12:00"
+        },
+        {
+          "titulo": "Paseo fotografico",
+          "descripcion": "Itinerario para capturar perspectivas, detalles y luz adecuada en Monasterio de los Jeronimos.",
+          "proveedor": "Photo Walk Lisboa",
+          "contacto": "foto@lisboawalk.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Tour privado a medida",
+          "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
+          "proveedor": "Travel Designers Lisboa",
+          "contacto": "plan@lisboatravel.local",
+          "horario": "Bajo reserva"
+        },
+        {
+          "titulo": "Ruta familiar",
+          "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
+          "proveedor": "Familias Viajeras",
+          "contacto": "familias@viaje.local",
+          "horario": "11:00 - 12:30"
+        },
+        {
+          "titulo": "Experiencia al atardecer",
+          "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
+          "proveedor": "Slow Travel Lisboa",
+          "contacto": "slow@lisboa.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Audioguia express",
+          "descripcion": "Formato breve para entender lo esencial de Monasterio de los Jeronimos con autonomia.",
+          "proveedor": "Audio Travel",
+          "contacto": "audio@travel.local",
+          "horario": "Durante apertura"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nombre": "Mirador de Santa Luzia",
+      "tipo": "vistas",
+      "descripcion": "Terrazas de azulejo y buganvillas abiertas sobre Alfama, el Tajo y los tejados rojizos de la ciudad.",
+      "descripcionCorta": "Postal luminosa sobre Alfama.",
+      "lat": 38.7117,
+      "lng": -9.1302,
+      "horario": "24h",
+      "precio": "Gratis",
+      "rating": 4.7,
+      "imagen": "img/lisbon_santaluzia.png",
+      "imagenCard": "img/lisbon_santaluzia.png",
+      "tags": [
+        "mirador",
+        "azulejos",
+        "alfama"
+      ],
+      "actividades": [
+        {
+          "titulo": "Visita guiada esencial",
+          "descripcion": "Recorrido interpretado por Mirador de Santa Luzia para entender su contexto dentro de Lisboa.",
+          "proveedor": "Guias Locales Lisboa",
+          "contacto": "hola@lisboa.local",
+          "horario": "10:00 - 12:00"
+        },
+        {
+          "titulo": "Paseo fotografico",
+          "descripcion": "Itinerario para capturar perspectivas, detalles y luz adecuada en Mirador de Santa Luzia.",
+          "proveedor": "Photo Walk Lisboa",
+          "contacto": "foto@lisboawalk.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Tour privado a medida",
+          "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
+          "proveedor": "Travel Designers Lisboa",
+          "contacto": "plan@lisboatravel.local",
+          "horario": "Bajo reserva"
+        },
+        {
+          "titulo": "Ruta familiar",
+          "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
+          "proveedor": "Familias Viajeras",
+          "contacto": "familias@viaje.local",
+          "horario": "11:00 - 12:30"
+        },
+        {
+          "titulo": "Experiencia al atardecer",
+          "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
+          "proveedor": "Slow Travel Lisboa",
+          "contacto": "slow@lisboa.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Audioguia express",
+          "descripcion": "Formato breve para entender lo esencial de Mirador de Santa Luzia con autonomia.",
+          "proveedor": "Audio Travel",
+          "contacto": "audio@travel.local",
+          "horario": "Durante apertura"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "nombre": "Elevador de Santa Justa",
+      "tipo": "cultura",
+      "descripcion": "Ascensor neogotico de hierro que conecta la Baixa con el Chiado y regala una vista vertical del centro.",
+      "descripcionCorta": "Hierro historico sobre la Baixa.",
+      "lat": 38.7121,
+      "lng": -9.1395,
+      "horario": "7:00 - 22:00",
+      "precio": "Desde 5 EUR",
+      "rating": 4.4,
+      "imagen": "img/lisbon_santajusta.png",
+      "imagenCard": "img/lisbon_santajusta.png",
+      "tags": [
+        "mirador",
+        "hierro",
+        "baixa"
+      ],
+      "actividades": [
+        {
+          "titulo": "Visita guiada esencial",
+          "descripcion": "Recorrido interpretado por Elevador de Santa Justa para entender su contexto dentro de Lisboa.",
+          "proveedor": "Guias Locales Lisboa",
+          "contacto": "hola@lisboa.local",
+          "horario": "10:00 - 12:00"
+        },
+        {
+          "titulo": "Paseo fotografico",
+          "descripcion": "Itinerario para capturar perspectivas, detalles y luz adecuada en Elevador de Santa Justa.",
+          "proveedor": "Photo Walk Lisboa",
+          "contacto": "foto@lisboawalk.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Tour privado a medida",
+          "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
+          "proveedor": "Travel Designers Lisboa",
+          "contacto": "plan@lisboatravel.local",
+          "horario": "Bajo reserva"
+        },
+        {
+          "titulo": "Ruta familiar",
+          "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
+          "proveedor": "Familias Viajeras",
+          "contacto": "familias@viaje.local",
+          "horario": "11:00 - 12:30"
+        },
+        {
+          "titulo": "Experiencia al atardecer",
+          "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
+          "proveedor": "Slow Travel Lisboa",
+          "contacto": "slow@lisboa.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Audioguia express",
+          "descripcion": "Formato breve para entender lo esencial de Elevador de Santa Justa con autonomia.",
+          "proveedor": "Audio Travel",
+          "contacto": "audio@travel.local",
+          "horario": "Durante apertura"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "nombre": "LX Factory",
+      "tipo": "barrios",
+      "descripcion": "Antiguo complejo industrial convertido en distrito creativo con librerias, talleres, murales y terrazas.",
+      "descripcionCorta": "La Lisboa creativa bajo el puente.",
+      "lat": 38.7033,
+      "lng": -9.1786,
+      "horario": "10:00 - 22:00",
+      "precio": "Gratis",
+      "rating": 4.6,
+      "imagen": "img/lisbon_lxfactory.png",
+      "imagenCard": "img/lisbon_lxfactory.png",
+      "tags": [
+        "arte urbano",
+        "diseno",
+        "gastronomia"
+      ],
+      "actividades": [
+        {
+          "titulo": "Paseo de barrio",
+          "descripcion": "Ruta a pie por rincones, miradores y escenas cotidianas de LX Factory.",
+          "proveedor": "Walks Lisboa",
+          "contacto": "walks@lisboa.local",
+          "horario": "10:30 - 12:30"
+        },
+        {
+          "titulo": "Paseo fotografico",
+          "descripcion": "Itinerario para capturar perspectivas, detalles y luz adecuada en LX Factory.",
+          "proveedor": "Photo Walk Lisboa",
+          "contacto": "foto@lisboawalk.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Tour privado a medida",
+          "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
+          "proveedor": "Travel Designers Lisboa",
+          "contacto": "plan@lisboatravel.local",
+          "horario": "Bajo reserva"
+        },
+        {
+          "titulo": "Ruta familiar",
+          "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
+          "proveedor": "Familias Viajeras",
+          "contacto": "familias@viaje.local",
+          "horario": "11:00 - 12:30"
+        },
+        {
+          "titulo": "Experiencia al atardecer",
+          "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
+          "proveedor": "Slow Travel Lisboa",
+          "contacto": "slow@lisboa.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Audioguia express",
+          "descripcion": "Formato breve para entender lo esencial de LX Factory con autonomia.",
+          "proveedor": "Audio Travel",
+          "contacto": "audio@travel.local",
+          "horario": "Durante apertura"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "nombre": "Mercado da Ribeira",
+      "tipo": "mercados",
+      "descripcion": "Mercado historico y food hall donde conviven producto fresco, cocina portuguesa y mesas compartidas.",
+      "descripcionCorta": "Sabores de Lisboa en una nave viva.",
+      "lat": 38.7066,
+      "lng": -9.1459,
+      "horario": "10:00 - 00:00",
+      "precio": "Segun consumo",
+      "rating": 4.5,
+      "imagen": "img/lisbon_ribeira.png",
+      "imagenCard": "img/lisbon_ribeira.png",
+      "tags": [
+        "mercado",
+        "gastronomia",
+        "local"
+      ],
+      "actividades": [
+        {
+          "titulo": "Ruta de sabores",
+          "descripcion": "Paradas escogidas para probar producto local y entender el pulso gastronomico de Mercado da Ribeira.",
+          "proveedor": "Sabores de Lisboa",
+          "contacto": "sabores@lisboa.local",
+          "horario": "12:00 - 14:00"
+        },
+        {
+          "titulo": "Paseo fotografico",
+          "descripcion": "Itinerario para capturar perspectivas, detalles y luz adecuada en Mercado da Ribeira.",
+          "proveedor": "Photo Walk Lisboa",
+          "contacto": "foto@lisboawalk.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Tour privado a medida",
+          "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
+          "proveedor": "Travel Designers Lisboa",
+          "contacto": "plan@lisboatravel.local",
+          "horario": "Bajo reserva"
+        },
+        {
+          "titulo": "Ruta familiar",
+          "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
+          "proveedor": "Familias Viajeras",
+          "contacto": "familias@viaje.local",
+          "horario": "11:00 - 12:30"
+        },
+        {
+          "titulo": "Experiencia al atardecer",
+          "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
+          "proveedor": "Slow Travel Lisboa",
+          "contacto": "slow@lisboa.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Audioguia express",
+          "descripcion": "Formato breve para entender lo esencial de Mercado da Ribeira con autonomia.",
+          "proveedor": "Audio Travel",
+          "contacto": "audio@travel.local",
+          "horario": "Durante apertura"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "nombre": "Museo Nacional del Azulejo",
+      "tipo": "museos",
+      "descripcion": "Coleccion dedicada al azulejo portugues dentro de un antiguo convento, con paneles que explican siglos de color y oficio.",
+      "descripcionCorta": "La historia portuguesa en ceramica.",
+      "lat": 38.7241,
+      "lng": -9.1139,
+      "horario": "10:00 - 18:00",
+      "precio": "8 EUR",
+      "rating": 4.7,
+      "imagen": "img/lisbon_azulejo.png",
+      "imagenCard": "img/lisbon_azulejo.png",
+      "tags": [
+        "museo",
+        "azulejos",
+        "arte"
+      ],
+      "actividades": [
+        {
+          "titulo": "Visita guiada a la coleccion",
+          "descripcion": "Recorrido para entender las piezas clave de Museo Nacional del Azulejo y su papel cultural en Lisboa.",
+          "proveedor": "Museo Nacional del Azulejo Educacion",
+          "contacto": "educacion@lisboa.local",
+          "horario": "10:00 - 12:00"
+        },
+        {
+          "titulo": "Paseo fotografico",
+          "descripcion": "Itinerario para capturar perspectivas, detalles y luz adecuada en Museo Nacional del Azulejo.",
+          "proveedor": "Photo Walk Lisboa",
+          "contacto": "foto@lisboawalk.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Tour privado a medida",
+          "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
+          "proveedor": "Travel Designers Lisboa",
+          "contacto": "plan@lisboatravel.local",
+          "horario": "Bajo reserva"
+        },
+        {
+          "titulo": "Ruta familiar",
+          "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
+          "proveedor": "Familias Viajeras",
+          "contacto": "familias@viaje.local",
+          "horario": "11:00 - 12:30"
+        },
+        {
+          "titulo": "Experiencia al atardecer",
+          "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
+          "proveedor": "Slow Travel Lisboa",
+          "contacto": "slow@lisboa.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Audioguia express",
+          "descripcion": "Formato breve para entender lo esencial de Museo Nacional del Azulejo con autonomia.",
+          "proveedor": "Audio Travel",
+          "contacto": "audio@travel.local",
+          "horario": "Durante apertura"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "nombre": "Parque Eduardo VII",
+      "tipo": "parques",
+      "descripcion": "Gran eje verde con jardines geometricos, invernadero y una panoramica abierta hacia la Baixa y el Tajo.",
+      "descripcionCorta": "El mirador verde de la ciudad.",
+      "lat": 38.7289,
+      "lng": -9.1526,
+      "horario": "24h",
+      "precio": "Gratis",
+      "rating": 4.6,
+      "imagen": "img/lisbon_eduardovii.png",
+      "imagenCard": "img/lisbon_eduardovii.png",
+      "tags": [
+        "parque",
+        "jardin",
+        "vistas"
+      ],
+      "actividades": [
+        {
+          "titulo": "Paseo verde",
+          "descripcion": "Ruta a pie por rincones, miradores y escenas cotidianas de Parque Eduardo VII.",
+          "proveedor": "Walks Lisboa",
+          "contacto": "walks@lisboa.local",
+          "horario": "10:30 - 12:30"
+        },
+        {
+          "titulo": "Paseo fotografico",
+          "descripcion": "Itinerario para capturar perspectivas, detalles y luz adecuada en Parque Eduardo VII.",
+          "proveedor": "Photo Walk Lisboa",
+          "contacto": "foto@lisboawalk.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Tour privado a medida",
+          "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
+          "proveedor": "Travel Designers Lisboa",
+          "contacto": "plan@lisboatravel.local",
+          "horario": "Bajo reserva"
+        },
+        {
+          "titulo": "Ruta familiar",
+          "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
+          "proveedor": "Familias Viajeras",
+          "contacto": "familias@viaje.local",
+          "horario": "11:00 - 12:30"
+        },
+        {
+          "titulo": "Experiencia al atardecer",
+          "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
+          "proveedor": "Slow Travel Lisboa",
+          "contacto": "slow@lisboa.local",
+          "horario": "Atardecer"
+        },
+        {
+          "titulo": "Audioguia express",
+          "descripcion": "Formato breve para entender lo esencial de Parque Eduardo VII con autonomia.",
+          "proveedor": "Audio Travel",
+          "contacto": "audio@travel.local",
+          "horario": "Durante apertura"
+        }
+      ]
+    }
+  ]
+}
