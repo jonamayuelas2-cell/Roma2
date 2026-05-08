@@ -187,44 +187,20 @@ body {
   gap: 10px;
 }
 
-.custom-checkbox {
+.toggle-item {
   display: flex;
   align-items: center;
-  gap: 10px;
-  cursor: pointer;
+  justify-content: space-between;
+  gap: 12px;
+  width: 100%;
+}
+
+.toggle-label {
   font-size: 0.85rem;
-  color: rgba(255, 255, 255, 0.7);
-  transition: color 0.2s;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 500;
 }
 
-.custom-checkbox:hover { color: white; }
-.custom-checkbox input { display: none; }
-
-.checkmark {
-  width: 18px;
-  height: 18px;
-  background: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: 4px;
-  position: relative;
-  transition: all 0.2s;
-}
-
-.custom-checkbox input:checked + .checkmark {
-  background: #ffdf5d;
-  border-color: #ffdf5d;
-}
-
-.custom-checkbox input:checked + .checkmark::after {
-  content: '✓';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #0f172a;
-  font-weight: bold;
-  font-size: 10px;
-}
 
 .cruise-header {
   display: flex;
@@ -330,6 +306,63 @@ input:checked + .slider:before { transform: translateX(20px); }
 
 #globeViz canvas {
   display: block;
+}
+
+/* Estilos de marcadores del globo */
+.globe-city-marker {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.globe-city-marker:hover {
+  transform: scale(1.4);
+  z-index: 1000 !important;
+}
+
+.globe-thumb-container {
+  position: relative;
+  width: 32px;  /* Tamaño reducido de 40px a 32px */
+  height: 32px; /* Tamaño reducido de 40px a 32px */
+  border-radius: 50%;
+  border: 2px solid #ffdf5d;
+  overflow: visible;
+  box-shadow: 0 0 15px rgba(255, 223, 93, 0.5);
+  background: #0f172a;
+}
+
+.globe-thumb {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.globe-emoji {
+  position: absolute;
+  bottom: -5px;
+  right: -5px;
+  font-size: 14px;
+  background: white;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.globe-city-marker.cruise-stop .globe-thumb-container {
+  border-color: #38bdf8;
+  box-shadow: 0 0 15px rgba(56, 189, 248, 0.5);
+  width: 26px;  /* Paradas de crucero aún más pequeñas */
+  height: 26px;
 }
 
 .fallback-globe {

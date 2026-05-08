@@ -3,8 +3,10 @@
 ## [2026-05-08] - Panel de Control Global e Integración de Cruceros
 
 ### Añadido 🆕
+- **Interruptores ON/OFF**: Los antiguos checkboxes de continentes han sido sustituidos por interruptores deslizantes modernos.
+- **Iconografía Redimensionada**: Se ha reducido el tamaño de los marcadores de ciudades en el globo para una visualización más limpia y profesional.
+- **Sincronización Global**: Corrección de los valores de filtrado para asegurar que ciudades de todos los continentes (América, África, Asia, Oceanía, Eurasia) se visualicen correctamente.
 - **Panel de Control del Globo**: Nueva interfaz flotante (`globe-controls-panel`) con efecto glassmorphism para gestionar filtros.
-- **Filtros por Continente**: Checkboxes dinámicos para mostrar/ocultar ciudades según su continente.
 - **Modo Cruceros**: Toggle para activar la visualización de rutas marítimas y barcos.
 - **Dataset de Cruceros**: Creación de `cruises.json` con rutas para el Mediterráneo, Países Nórdicos, Caribe y otras regiones.
 - **Animación de Barcos**: Implementación de una capa personalizada en `Globe.gl` que simula el movimiento de barcos (`🚢`) entre puertos.

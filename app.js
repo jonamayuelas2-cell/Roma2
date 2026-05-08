@@ -7,7 +7,7 @@ const state = {
     cities: [],
     cruises: [],
     activeFilters: {
-        continents: ["Europa", "Asia", "África", "América del Norte", "América del Sur", "Oceanía"],
+        continents: ["Europa", "Asia", "Africa", "America", "Oceania", "Europa/Asia"],
         showCruises: false,
         cruiseRegion: "Mediterraneo"
     },
