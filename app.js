@@ -157,15 +157,25 @@ function initGlobe() {
             .labelAltitude(0.02)
 
             .htmlElementsData(state.cities)
+            .htmlLat(d => d.lat)
+            .htmlLng(d => d.lng)
+            .htmlAltitude(0.04)
             .htmlElement(d => {
                 const el = document.createElement('div');
                 el.className = 'globe-city-marker';
                 el.style.border = '3px solid #ffdf5d'; // Borde muy visible
                 el.style.borderRadius = '50%';
+                el.title = `${d.nombre}, ${d.pais}`;
                 el.innerHTML = `
                     <div class="globe-thumb-container">
+                        <span class="globe-pin-core"></span>
                         <img src="${assetUrl(d.imagen)}" class="globe-thumb" onerror="this.src='https://via.placeholder.com/64/ffdf5d/000000?text=${d.nombre[0]}'">
                         <span class="globe-emoji">${d.emoji}</span>
+                        <span class="globe-preview-panel">
+                            <img src="${assetUrl(d.imagen)}" class="preview-img" alt="">
+                            <span class="preview-name">${d.nombre}</span>
+                            <span class="preview-country">${d.pais}</span>
+                        </span>
                     </div>
                 `;
                 el.onclick = (ev) => { ev.stopPropagation(); selectCity(d); };
