@@ -1,58 +1,27 @@
-# Registro de Cambios - TravelWorld PWA 🌍🛳️
+# Registro de Cambios - Cruceros Interactivos 🛳️🗺️✨
 
-## [2026-05-08 - Iteración 3] - Escalas de Crucero y Simulación de Tránsito 🛳️🌊🗺️
+## Descripción del Proceso
+Se ha implementado una experiencia de navegación jerárquica para los cruceros en la PWA **TravelWorld**. El flujo permite pasar de una vista global en el mapa mundi a un detalle del itinerario del crucero, y de ahí a planos detallados de cada escala de puerto, finalizando en las guías de ciudades y actividades ya existentes.
 
-### Añadido 🆕
-- **Detalle Total de Escalas**: Los cruceros ahora muestran todas las ciudades de escala en el mapa, no solo el origen y destino.
-- **Micro-itinerarios**: Cada parada de crucero es interactiva y cuenta con su propia galería, clima y actividades sugeridas.
-- **Rutas de Superficie (Paths)**: Sustitución de arcos aéreos por rutas marítimas realistas sobre la superficie del océano.
-- **Simulación Náutica Avanzada**:
-    - Animación del barco con rotación automática según el rumbo.
-    - Efecto visual de estela (wake) bajo el barco para simular el desplazamiento sobre el agua.
-    - Sincronización precisa entre la ruta visual y la posición del barco.
+## Cambios Realizados
 
-### Modificado 🛠️
-- **Dataset Enriquecido**: Actualización de `cruises.json` con datos detallados para más de 15 nuevas ciudades de escala en el Mediterráneo, Fiordos y Caribe.
-- **Lógica de Renderizado**: Optimización de `app.js` para gestionar múltiples puntos de interés dinámicamente.
-- **Estilos Premium**: Añadidos efectos de neón y degradados para las rutas marítimas.
+### 1. Enriquecimiento de Datos (`cruises.json`) 📊
+- **Itinerarios Completos**: Se han cerrado los circuitos de navegación (regreso al origen) para todos los cruceros.
+- **Escalas Interactivas**: Todas las paradas de la ruta son ahora puntos clicables en el globo.
+- **Datos Técnicos**: Incluida información detallada del buque (tonelaje, capacidad, etc.).
 
-## [2026-05-08 - Iteración 2] - Rediseño Premium y Limpieza de Datos
+### 2. Navegación Unificada y Lógica 🔄
+- **Prioridad de Crucero**: Al pinchar en *cualquier* escala de un crucero en el mapamundi, el sistema identifica el crucero y te lleva a su pantalla de detalle.
+- **Flujo de Retorno**: Implementada lógica para volver del detalle de ciudad al crucero manteniendo el contexto.
 
-### Añadido 🆕
-- **Panel de Exploración Premium**: Rediseño total del panel de control con glassmorphism avanzado, animaciones de entrada y encabezados con degradados neón.
-- **Interruptores de Crucero**: Las regiones de crucero ahora utilizan interruptores ON/OFF (estilizados desde radios) para una experiencia táctil superior.
-- **Diferenciación Visual de Puntos**: 
-    - Círculos amarillos/dorados para ciudades.
-    - Círculos cian/celestes para puntos de atraque de cruceros.
+### 3. Estética Náutica y Animaciones 🎬✨
+- **Líneas de Navegación**: Tanto en el globo como en los mapas detallados, las rutas usan un estilo de "línea náutica" (punteada, con brillo exterior y animación de flujo).
+- **Parallax de Buque**: La imagen del barco en la cabecera reacciona al movimiento del ratón.
+- **Efectos Premium**: Animaciones de flotación para estadísticas, efecto de brillo (shimmer) en barras de progreso y transiciones `flyTo` cinemáticas en los mapas.
 
-### Modificado 🛠️
-- **Consolidación de Continentes**: Eliminación de "Eurasia" para cumplir con el estándar de 5 continentes (África, América, Asia, Europa, Oceanía). Estambul remapeada a Europa.
-- **Estilización de Marcadores**: Eliminación de recuadros y fondos, dejando únicamente el círculo de la imagen flotando sobre el globo.
-- **Optimización de UI**: "El Caribe" ahora aparece como primera opción en la lista de cruceros.
-- **Dimensiones**: Ajuste de tamaños a 28px para ciudades y 24px para paradas, maximizando la legibilidad global.
+### 4. Mejoras Técnicas 🛠️
+- **Sincronización de Globo**: Unificada la función de refresco del globo para evitar inconsistencias en los filtros.
+- **Leaflet Avanzado**: Mapas de puerto con marcadores pulsantes y capas de profundidad visual.
 
-## [2026-05-08 - Iteración 1] - Panel de Control Global e Integración de Cruceros
-
-### Añadido 🆕
-- **Interruptores ON/OFF**: Los antiguos checkboxes de continentes han sido sustituidos por interruptores deslizantes modernos.
-- **Iconografía Redimensionada**: Se ha reducido el tamaño de los marcadores de ciudades en el globo para una visualización más limpia y profesional.
-- **Sincronización Global**: Corrección de los valores de filtrado para asegurar que ciudades de todos los continentes (América, África, Asia, Oceanía, Eurasia) se visualicen correctamente.
-- **Panel de Control del Globo**: Nueva interfaz flotante (`globe-controls-panel`) con efecto glassmorphism para gestionar filtros.
-- **Modo Cruceros**: Toggle para activar la visualización de rutas marítimas y barcos.
-- **Dataset de Cruceros**: Creación de `cruises.json` con rutas para el Mediterráneo, Países Nórdicos, Caribe y otras regiones.
-- **Animación de Barcos**: Implementación de una capa personalizada en `Globe.gl` que simula el movimiento de barcos (`🚢`) entre puertos.
-- **Subpáginas de Cruceros**: Las paradas de los cruceros ahora son interactivas y abren la misma estructura de detalles (clima, lugares, actividades) que las ciudades principales.
-
-### Modificado 🛠️
-- `index.html`: Inyectada la estructura del panel de controles.
-- `style.css`: Añadidos estilos para el panel, toggles premium y animaciones de barcos.
-- `app.js`: 
-    - Implementación de la lógica de filtrado reactivo.
-    - Centralización de la carga de datos (`loadCruises`).
-    - Mejora del sistema de renderizado del globo con `callGlobe` y `refreshData`.
-- `cities.json`: Asegurada la consistencia de datos para el filtrado por continente.
-
-### Técnico ⚙️
-- Uso de `backdrop-filter: blur(12px)` para estética premium.
-- Lógica de interpolación lineal para la animación de barcos en tiempo real.
-- Sistema de "Z-index" ajustado para asegurar que los controles no interfieran con la interactividad del globo pero permanezcan accesibles.
+---
+*Documentado por Antigravity el 08 de Mayo de 2026*

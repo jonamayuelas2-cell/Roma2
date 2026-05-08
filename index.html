@@ -150,6 +150,57 @@
       </div>
     </div>
   </section>
+  
+  <!-- ══ CRUISE DETAIL APP (Hidden by default) ═══════════════ -->
+  <div id="cruise-app" style="display: none;">
+    <!-- Ship Header -->
+    <header class="cruise-header-premium">
+      <div class="ship-info-container">
+        <div class="ship-photo-wrapper">
+          <img id="ship-img" src="" alt="Buque">
+          <div class="ship-badge">Buque Insignia</div>
+        </div>
+        <div class="ship-details">
+          <button id="back-from-cruise" class="back-btn small">
+            <span>← Volver</span>
+          </button>
+          <h1 id="ship-name">Wonder of the Seas</h1>
+          <div class="ship-stats-grid" id="ship-stats">
+            <!-- Stats added via JS -->
+          </div>
+          <div class="voyage-progress">
+            <span class="progress-label">Progreso del Viaje</span>
+            <div class="progress-bar-container">
+              <div class="progress-bar" id="voyage-progress-bar" style="width: 30%;"></div>
+            </div>
+            <span id="voyage-status" class="voyage-status">En navegación: Miami → Nassau</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="cruise-main">
+      <!-- Global Itinerary Map -->
+      <section id="cruise-itinerary-section" class="cruise-view-section">
+        <div class="view-header">
+          <h2>Itinerario Completo</h2>
+          <p>Selecciona una escala para ver detalles del puerto</p>
+        </div>
+        <div id="cruise-map" class="detailed-map"></div>
+      </section>
+
+      <!-- Port Scale Detail (hidden initially) -->
+      <section id="port-detail-section" class="cruise-view-section" style="display: none;">
+        <div class="view-header">
+          <button id="back-to-itinerary" class="back-link">← Volver al itinerario</button>
+          <h2 id="port-name">Puerto de Nassau</h2>
+          <p>Ciudades y puntos de interés en esta escala</p>
+        </div>
+        <div id="port-map" class="detailed-map"></div>
+      </section>
+    </main>
+  </div>
+
 
   <!-- ══ MAIN APP CONTENT (Hidden by default) ═══════════════ -->
   <div id="main-app" style="display: none;">

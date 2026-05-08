@@ -20,7 +20,10 @@ const state = {
     globe: null,
     markers: [],
     countryPolygons: [],
-    isTransitioning: false
+    isTransitioning: false,
+    currentCruise: null,
+    currentPort: null,
+    portMap: null
 };
 
 const ASSET_VERSION = '2026-05-08-auckland-activity-photos-v1';
@@ -177,6 +180,11 @@ function initGlobe() {
         // Combinar paradas de cruceros con ciudades (si activo)
         let displayPoints = [...filteredCities];
         if (state.activeFilters.showCruises) {
+            // Para evitar duplicados y dar prioridad al crucero, 
+            // filtramos ciudades que coincidan en coordenadas con las paradas
+            const stopCoords = activeCruises.flatMap(c => c.paradas.map(p => `${p.lat.toFixed(4)},${p.lng.toFixed(4)}`));
+            displayPoints = displayPoints.filter(city => !stopCoords.includes(`${city.lat.toFixed(4)},${city.lng.toFixed(4)}`));
+            
             activeCruises.forEach(cruise => {
                 displayPoints = [...displayPoints, ...cruise.paradas];
             });
@@ -209,15 +217,25 @@ function initGlobe() {
                     ${!isStop ? `<span class="globe-emoji">${d.emoji}</span>` : ''}
                 </div>
             `;
-            el.onclick = (ev) => { ev.stopPropagation(); selectCity(d); };
+            el.onclick = (ev) => { 
+                ev.stopPropagation(); 
+                if (isStop) {
+                    // Si es una parada de crucero, buscamos el crucero al que pertenece
+                    const cruise = state.cruises.find(c => c.paradas.some(p => p.id === d.id));
+                    if (cruise) selectCruise(cruise);
+                } else {
+                    selectCity(d); 
+                }
+            };
             return el;
         });
 
-        // Dibujar rutas de cruceros (Rutas en superficie para barcos)
+        // Dibujar rutas de cruceros (Rutas en superficie para barcos con estilo premium)
         const cruisePaths = activeCruises.map(cruise => ({
             path: cruise.ruta.map(p => [p.lat, p.lng]),
             name: cruise.nombre,
-            color: '#38bdf8'
+            color: '#38bdf8',
+            opacity: 0.6
         }));
 
         callGlobe('pathsData', cruisePaths);
@@ -258,7 +276,7 @@ function setupGlobeFilters() {
             state.activeFilters.continents = Array.from(continentChecks)
                 .filter(c => c.checked)
                 .map(c => c.value);
-            window.refreshGlobe();
+            if (window.triggerRefresh) window.triggerRefresh();
         });
     });
 
@@ -268,7 +286,7 @@ function setupGlobeFilters() {
     cruiseToggle.addEventListener('change', () => {
         state.activeFilters.showCruises = cruiseToggle.checked;
         cruiseRegions.classList.toggle('hidden', !cruiseToggle.checked);
-        window.refreshGlobe();
+        if (window.triggerRefresh) window.triggerRefresh();
     });
 
     // Filtro de Región de Crucero
@@ -276,7 +294,7 @@ function setupGlobeFilters() {
     regionRadios.forEach(radio => {
         radio.addEventListener('change', () => {
             state.activeFilters.cruiseRegion = radio.value;
-            window.refreshGlobe();
+            if (window.triggerRefresh) window.triggerRefresh();
         });
     });
 
@@ -451,6 +469,294 @@ function backToSelection() {
 
         state.currentCity = null;
         cleanupMap();
+
+        // Si venimos de un crucero, volver al crucero en lugar de a la selección
+        if (state.fromCruise) {
+            state.fromCruise = false;
+            app.style.display = 'none';
+            document.getElementById('cruise-app').style.display = 'block';
+            state.isTransitioning = false;
+            return;
+        }
+
+        setTimeout(() => {
+            selection.classList.remove('fade-in');
+            state.isTransitioning = false;
+        }, 500);
+    }, 500);
+}
+
+// ══ CRUCEROS LÓGICA ══════════════════════════════════════════
+
+async function selectCruise(cruise) {
+    if (state.isTransitioning) return;
+    state.isTransitioning = true;
+    state.currentCruise = cruise;
+
+    const selection = document.getElementById('city-selection');
+    const cruiseApp = document.getElementById('cruise-app');
+    
+    // Renderizar datos antes de mostrar
+    renderCruiseHeader(cruise);
+    
+    selection.classList.add('fade-out');
+    
+    setTimeout(() => {
+        selection.style.display = 'none';
+        selection.classList.remove('fade-out');
+        
+        cruiseApp.style.display = 'block';
+        cruiseApp.classList.add('fade-in');
+        
+        // Mostrar vista de itinerario por defecto
+        showItineraryView();
+        
+        setTimeout(() => {
+            cruiseApp.classList.remove('fade-in');
+            state.isTransitioning = false;
+        }, 500);
+    }, 500);
+}
+
+function renderCruiseHeader(cruise) {
+    const ship = cruise.buque;
+    const header = document.querySelector('.cruise-header-premium');
+    
+    // Cambiar fondo si existe imagen del buque
+    if (ship.imagen) {
+        header.style.setProperty('--cruise-bg-img', `url('${assetUrl(ship.imagen)}')`);
+    }
+
+    document.getElementById('ship-name').textContent = ship.nombre;
+    document.getElementById('ship-photo').src = assetUrl(ship.imagen);
+    document.getElementById('ship-photo').alt = ship.nombre;
+    
+    // Efecto parallax en la foto al mover el ratón
+    const photoWrapper = document.querySelector('.ship-photo-wrapper');
+    photoWrapper.onmousemove = (e) => {
+        const { left, top, width, height } = photoWrapper.getBoundingClientRect();
+        const x = (e.clientX - left) / width - 0.5;
+        const y = (e.clientY - top) / height - 0.5;
+        photoWrapper.querySelector('img').style.transform = `scale(1.1) translate(${x * 20}px, ${y * 20}px) rotate(${x * 2}deg)`;
+    };
+    photoWrapper.onmouseleave = () => {
+        photoWrapper.querySelector('img').style.transform = 'scale(1) translate(0, 0) rotate(0)';
+    };
+    
+    // Stats
+    document.getElementById('stat-tonelaje').textContent = ship.tonelaje;
+    document.getElementById('stat-capacidad').textContent = ship.capacidad;
+    document.getElementById('stat-eslora').textContent = ship.eslora;
+    document.getElementById('stat-tripulacion').textContent = ship.tripulacion;
+
+    // Animación escalonada de las cajas de estadísticas
+    const statBoxes = document.querySelectorAll('.stat-box');
+    statBoxes.forEach((box, i) => {
+        box.style.opacity = '0';
+        box.style.transform = 'translateY(20px)';
+        setTimeout(() => {
+            box.style.transition = 'all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275)';
+            box.style.opacity = '1';
+            box.style.transform = 'translateY(0)';
+        }, 100 * i);
+    });
+
+    // Progreso (Ejemplo: Escala actual es la 1 de N)
+    const progress = (1 / cruise.paradas.length) * 100;
+    setTimeout(() => {
+        document.getElementById('cruise-progress-bar').style.width = `${progress}%`;
+    }, 500);
+    document.getElementById('cruise-status-text').textContent = `Navegando hacia ${cruise.paradas[0].nombre}`;
+}
+
+function showItineraryView() {
+    document.getElementById('cruise-itinerary-view').classList.remove('hidden');
+    document.getElementById('cruise-port-view').classList.add('hidden');
+    
+    // Renderizar mapa global de crucero
+    setTimeout(renderCruiseMap, 100);
+}
+
+function renderCruiseMap() {
+    const cruise = state.currentCruise;
+    const cruiseMap = document.getElementById('cruise-map');
+    
+    // Limpiar si ya existe
+    if (state.map) {
+        state.map.remove();
+        state.map = null;
+    }
+    
+    state.map = L.map('cruise-map', {
+        zoomControl: false,
+        attributionControl: false,
+        zoomAnimation: true,
+        fadeAnimation: true,
+        markerZoomAnimation: true
+    }).setView([cruise.paradas[0].lat, cruise.paradas[0].lng], 2); // Empezar con zoom alejado
+
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png').addTo(state.map);
+
+    // Zoom cinematográfico al cargar
+    setTimeout(() => {
+        state.map.flyTo([cruise.paradas[0].lat, cruise.paradas[0].lng], 5, {
+            duration: 2,
+            easeLinearity: 0.25
+        });
+    }, 100);
+
+    // Dibujar ruta con efecto premium
+    const pathCoords = cruise.ruta.map(p => [p.lat, p.lng]);
+    
+    // Línea de ruta con efecto náutico (discontinua y con sombra)
+    L.polyline(pathCoords, { 
+        color: '#38bdf8', 
+        weight: 5, 
+        opacity: 0.9, 
+        dashArray: '10, 15',
+        lineJoin: 'round'
+    }).addTo(state.map);
+
+    // Añadir un brillo exterior a la línea
+    L.polyline(pathCoords, { 
+        color: '#38bdf8', 
+        weight: 12, 
+        opacity: 0.2,
+        lineJoin: 'round'
+    }).addTo(state.map);
+
+    // Añadir marcadores de escalas
+    cruise.paradas.forEach(stop => {
+        const icon = L.divIcon({
+            className: 'custom-div-icon',
+            html: `<div class="marker-pin-cruise"></div>`,
+            iconSize: [30, 30],
+            iconAnchor: [15, 30]
+        });
+
+        const marker = L.marker([stop.lat, stop.lng], { icon }).addTo(state.map);
+        marker.bindTooltip(`<strong>${stop.nombre}</strong>`, { permanent: false, direction: 'top' });
+        
+        marker.on('click', () => {
+            showPortDetails(stop);
+        });
+    });
+
+    // Ajustar vista para que quepa toda la ruta
+    state.map.fitBounds(polyline.getBounds(), { padding: [50, 50] });
+}
+
+function showPortDetails(stop) {
+    state.currentPort = stop;
+    document.getElementById('cruise-itinerary-view').classList.add('hidden');
+    document.getElementById('cruise-port-view').classList.remove('hidden');
+    
+    document.getElementById('port-title').textContent = stop.nombre;
+    document.getElementById('port-subtitle').textContent = `Escala técnica y turística · ${state.currentCruise.nombre}`;
+    
+    // Renderizar mapa del puerto/escala
+    setTimeout(() => renderPortMap(stop), 100);
+}
+
+function renderPortMap(stop) {
+    const container = document.getElementById('port-map');
+    
+    // Usamos state.portMap para el mapa secundario si queremos mantener ambos, 
+    // pero aquí limpiamos el principal para reusar lógica si es necesario
+    if (state.portMap) {
+        state.portMap.remove();
+    }
+    
+    state.portMap = L.map('port-map', {
+        zoomControl: true
+    }).setView([stop.lat, stop.lng], 13);
+
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png').addTo(state.portMap);
+
+    // Dibujar ciudades/puntos dentro de la escala
+    if (stop.ciudades && stop.ciudades.length > 0) {
+        const points = stop.ciudades.map(c => [c.lat, c.lng]);
+        
+        // Polyline entre ciudades de la escala
+        L.polyline(points, {
+            color: '#ffdf5d',
+            weight: 2,
+            dashArray: '5, 5'
+        }).addTo(state.portMap);
+
+        stop.ciudades.forEach(city => {
+            const icon = L.divIcon({
+                className: 'custom-div-icon',
+                html: `<div class="marker-pin-city"></div>`,
+                iconSize: [24, 24],
+                iconAnchor: [12, 12]
+            });
+
+            const marker = L.marker([city.lat, city.lng], { icon }).addTo(state.portMap);
+            
+            // Popup con botón para ir a la ciudad
+            const popupContent = document.createElement('div');
+            popupContent.className = 'port-popup';
+            popupContent.innerHTML = `
+                <strong style="color:#000">${city.nombre}</strong><br>
+                <p style="color:#666; font-size:12px; margin:5px 0">${city.tipo || 'Punto de interés'}</p>
+                <button class="back-btn small" style="width:100%; margin-top:5px">Ver Detalles</button>
+            `;
+            
+            popupContent.querySelector('button').onclick = () => {
+                // Encontrar los datos completos de la ciudad en state.cities
+                const fullCityData = state.cities.find(c => c.nombre === city.nombre);
+                if (fullCityData) {
+                    selectCity(fullCityData);
+                    // Ocultar app de crucero para mostrar app de ciudad
+                    document.getElementById('cruise-app').style.display = 'none';
+                    // Marcar que venimos de un crucero para el botón volver
+                    state.fromCruise = true;
+                } else {
+                    alert("Datos de la ciudad no encontrados");
+                }
+            };
+
+            marker.bindPopup(popupContent);
+        });
+        
+        // Ajustar vista
+        const bounds = L.latLngBounds(points);
+        state.portMap.fitBounds(bounds, { padding: [40, 40] });
+    }
+}
+
+function backToItinerary() {
+    document.getElementById('cruise-port-view').classList.add('hidden');
+    document.getElementById('cruise-itinerary-view').classList.remove('hidden');
+    if (state.portMap) {
+        state.portMap.remove();
+        state.portMap = null;
+    }
+    renderCruiseMap();
+}
+
+function backFromCruise() {
+    if (state.isTransitioning) return;
+    state.isTransitioning = true;
+
+    const selection = document.getElementById('city-selection');
+    const cruiseApp = document.getElementById('cruise-app');
+
+    cruiseApp.classList.add('fade-out');
+
+    setTimeout(() => {
+        cruiseApp.style.display = 'none';
+        cruiseApp.classList.remove('fade-out');
+
+        selection.style.display = 'flex';
+        selection.classList.add('fade-in');
+
+        state.currentCruise = null;
+        if (state.map) {
+            state.map.remove();
+            state.map = null;
+        }
 
         setTimeout(() => {
             selection.classList.remove('fade-in');
@@ -642,6 +948,11 @@ function getWeatherDescription(code) {
 
 function setupEventListeners() {
     document.getElementById('back-to-cities').onclick = backToSelection;
+    
+    // Nuevos botones de crucero
+    document.getElementById('back-from-cruise').onclick = backFromCruise;
+    document.getElementById('back-to-itinerary').onclick = backToItinerary;
+    
     document.querySelectorAll('[data-close-modal]').forEach(el => {
         el.onclick = closePlaceDetails;
     });

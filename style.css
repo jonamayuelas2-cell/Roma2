@@ -1446,3 +1446,312 @@ header {
     0% { transform: scale(0.5); opacity: 0.8; }
     100% { transform: scale(2.5); opacity: 0; }
 }
+
+/* ══ CRUISE DETAIL VIEW STYLES ══════════════════════════════ */
+.cruise-header-premium {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.8)), var(--cruise-bg-img, url('https://images.unsplash.com/photo-1599640842225-85d111c60e6b?auto=format&fit=crop&q=80&w=1200'));
+    background-size: cover;
+    background-position: center;
+    padding: 40px 20px;
+    border-bottom: 2px solid var(--accent-color);
+    margin-top: -1px;
+}
+
+.ship-info-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    gap: 40px;
+    align-items: center;
+}
+
+.ship-photo-wrapper {
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+    border: 3px solid rgba(255,255,255,0.2);
+}
+
+.ship-photo-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.ship-photo-wrapper:hover img {
+    transform: scale(1.1) rotate(1deg);
+}
+
+.ship-badge {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: var(--accent-color);
+    color: black;
+    padding: 6px 15px;
+    border-radius: 20px;
+    font-weight: 800;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    box-shadow: 0 0 20px var(--accent-color);
+    animation: pulseBadge 2s infinite;
+}
+
+@keyframes pulseBadge {
+    0% { transform: scale(1); box-shadow: 0 0 10px var(--accent-color); }
+    50% { transform: scale(1.05); box-shadow: 0 0 25px var(--accent-color); }
+    100% { transform: scale(1); box-shadow: 0 0 10px var(--accent-color); }
+}
+
+.ship-details {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.ship-details h1 {
+    font-size: 3rem;
+    font-family: 'Playfair Display', serif;
+    background: linear-gradient(90deg, #fff, #7de4ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+}
+
+.ship-stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 15px;
+    margin: 10px 0;
+}
+
+.stat-box {
+    background: rgba(255,255,255,0.05);
+    padding: 15px;
+    border-radius: 16px;
+    border: 1px solid rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    animation: floatStat 3s infinite ease-in-out;
+}
+
+.stat-box:nth-child(2) { animation-delay: 0.2s; }
+.stat-box:nth-child(3) { animation-delay: 0.4s; }
+.stat-box:nth-child(4) { animation-delay: 0.6s; }
+
+.stat-box:hover {
+    background: rgba(255,255,255,0.12);
+    transform: translateY(-8px) scale(1.05);
+    border-color: var(--accent-color);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+}
+
+@keyframes floatStat {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+}
+
+.stat-label {
+    display: block;
+    font-size: 0.65rem;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    margin-bottom: 4px;
+}
+
+.stat-value {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--accent-color);
+}
+
+.voyage-progress {
+    margin-top: 15px;
+    padding: 15px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 15px;
+    border: 1px solid rgba(255,255,255,0.05);
+}
+
+.progress-label {
+    display: block;
+    font-size: 0.75rem;
+    margin-bottom: 8px;
+    color: var(--text-secondary);
+}
+
+.progress-bar-container {
+    height: 8px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 8px;
+}
+
+.progress-bar {
+    height: 100%;
+    background: linear-gradient(90deg, #38bdf8, #818cf8, #38bdf8);
+    background-size: 200% 100%;
+    box-shadow: 0 0 20px rgba(56, 189, 248, 0.6);
+    transition: width 1.5s cubic-bezier(0.4, 0, 0.2, 1);
+    animation: shimmerProgress 3s infinite linear;
+}
+
+@keyframes shimmerProgress {
+    0% { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
+}
+
+.voyage-status {
+    font-size: 0.85rem;
+    color: #38bdf8;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.cruise-main {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.cruise-view-section {
+    animation: fadeIn 0.8s ease;
+}
+
+.view-header {
+    margin-bottom: 25px;
+    border-left: 4px solid var(--accent-color);
+    padding-left: 20px;
+}
+
+.view-header h2 {
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+}
+
+.view-header p {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+}
+
+.detailed-map {
+    height: 500px;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 1px solid rgba(255,255,255,0.15);
+    box-shadow: 0 30px 80px rgba(0,0,0,0.6);
+    background: #0a192f;
+    animation: mapEntrance 1.2s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+@keyframes mapEntrance {
+    from { opacity: 0; transform: scale(0.95) translateY(30px); filter: blur(10px); }
+    to { opacity: 1; transform: scale(1) translateY(0); filter: blur(0); }
+}
+
+.back-btn.small {
+    min-width: auto;
+    padding: 0 15px;
+    height: 32px;
+    font-size: 0.7rem;
+    margin-bottom: 5px;
+    align-self: flex-start;
+}
+
+.back-link {
+    background: none;
+    border: none;
+    color: #38bdf8;
+    cursor: pointer;
+    font-weight: 700;
+    margin-bottom: 12px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: var(--transition);
+}
+
+.back-link:hover {
+    color: #fff;
+    transform: translateX(-5px);
+}
+
+/* Estilos de marcadores en mapas Leaflet */
+.custom-div-icon {
+    background: none;
+    border: none;
+}
+
+.marker-pin-cruise {
+    width: 32px;
+    height: 32px;
+    border-radius: 50% 50% 50% 0;
+    background: #38bdf8;
+    position: absolute;
+    transform: rotate(-45deg);
+    left: 50%;
+    top: 50%;
+    margin: -16px 0 0 -16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 15px rgba(56, 189, 248, 0.7);
+    border: 2px solid white;
+    animation: markerPulse 2s infinite;
+}
+
+@keyframes markerPulse {
+    0% { box-shadow: 0 0 0 0 rgba(56, 189, 248, 0.7); }
+    70% { box-shadow: 0 0 0 15px rgba(56, 189, 248, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(56, 189, 248, 0); }
+}
+
+.marker-pin-cruise::after {
+    content: '';
+    width: 14px;
+    height: 14px;
+    margin: 8px 0 0 8px;
+    background: #fff;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.marker-pin-city {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #ffdf5d;
+    border: 2px solid white;
+    box-shadow: 0 0 10px rgba(255, 223, 93, 0.5);
+}
+
+/* Marcadores de crucero en el globo 3D */
+.globe-city-marker.cruise-stop {
+    border-color: #38bdf8;
+    box-shadow: 0 0 15px rgba(56, 189, 248, 0.6);
+}
+
+.globe-city-marker.cruise-stop .globe-thumb-container {
+    border: 2px solid #38bdf8;
+}
+
+@media (max-width: 768px) {
+    .ship-info-container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .ship-photo-wrapper {
+        height: 220px;
+    }
+    .ship-details h1 {
+        font-size: 2rem;
+    }
+    .detailed-map {
+        height: 350px;
+    }
+}
+

@@ -11,7 +11,8 @@
       {"lat": 43.7102, "lng": 7.2620, "nombre": "Niza"},
       {"lat": 41.8902, "lng": 12.4922, "nombre": "Civitavecchia (Roma)"},
       {"lat": 40.8518, "lng": 14.2681, "nombre": "Nápoles"},
-      {"lat": 39.5696, "lng": 2.6502, "nombre": "Palma de Mallorca"}
+      {"lat": 39.5696, "lng": 2.6502, "nombre": "Palma de Mallorca"},
+      {"lat": 41.3851, "lng": 2.1734, "nombre": "Barcelona"}
     ],
     "paradas": [
       {
@@ -170,7 +171,8 @@
       {"lat": 59.9139, "lng": 10.7522, "nombre": "Oslo"},
       {"lat": 58.9700, "lng": 5.7331, "nombre": "Stavanger"},
       {"lat": 60.3913, "lng": 5.3221, "nombre": "Bergen"},
-      {"lat": 62.1015, "lng": 7.2058, "nombre": "Geiranger"}
+      {"lat": 62.1015, "lng": 7.2058, "nombre": "Geiranger"},
+      {"lat": 59.9139, "lng": 10.7522, "nombre": "Oslo"}
     ],
     "paradas": [
       {
@@ -244,6 +246,28 @@
             ]
           }
         ]
+      },
+      {
+        "id": "stop-gei",
+        "nombre": "Geiranger",
+        "pais": "Noruega",
+        "continente": "Europa",
+        "emoji": "🏔️",
+        "lat": 62.1015,
+        "lng": 7.2058,
+        "imagen": "https://images.unsplash.com/photo-1533619043845-df9bc7c32ee5?auto=format&fit=crop&q=80&w=800",
+        "theme": {"primary": "#1b4332", "secondary": "#d8f3dc", "font": "'Inter', sans-serif"},
+        "lugares": [
+          {
+            "id": 1,
+            "nombre": "Mirador de Ornevegen",
+            "tipo": "vistas",
+            "descripcion": "Vista espectacular del fiordo Geirangerfjord.",
+            "descripcionCorta": "El balcón de los fiordos.",
+            "imagenCard": "https://images.unsplash.com/photo-1533619043845-df9bc7c32ee5?auto=format&fit=crop&q=80&w=800",
+            "actividades": [{"titulo": "Crucero por el Fiordo", "descripcion": "Navega bajo las cascadas de las Siete Hermanas.", "horario": "10:00 - 16:00"}]
+          }
+        ]
       }
     ]
   },
@@ -253,33 +277,106 @@
     "region": "Caribe",
     "imagen": "https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&fit=crop&q=80&w=800",
     "emoji": "🏖️",
+    "buque": {
+      "nombre": "Wonder of the Seas",
+      "imagen": "https://images.unsplash.com/photo-1599640842225-85d111c60e6b?auto=format&fit=crop&q=80&w=1200",
+      "caracteristicas": [
+        {"label": "Tonelaje", "valor": "236,857 GT"},
+        {"label": "Pasajeros", "valor": "6,988"},
+        {"label": "Tripulación", "valor": "2,300"},
+        {"label": "Eslora", "valor": "362 m"}
+      ]
+    },
     "ruta": [
       {"lat": 25.7617, "lng": -80.1918, "nombre": "Miami"},
+      {"lat": 25.4820, "lng": -77.9354, "nombre": "CocoCay"},
       {"lat": 25.0480, "lng": -77.3554, "nombre": "Nassau"},
+      {"lat": 18.3419, "lng": -64.9307, "nombre": "Charlotte Amalie"},
       {"lat": 18.4655, "lng": -66.1057, "nombre": "San Juan"},
-      {"lat": 19.1265, "lng": -70.6865, "nombre": "Puerto Plata"}
+      {"lat": 19.8265, "lng": -70.6865, "nombre": "Puerto Plata"},
+      {"lat": 25.7617, "lng": -80.1918, "nombre": "Miami"}
     ],
     "paradas": [
       {
         "id": "stop-miami",
-        "nombre": "Miami",
+        "nombre": "Puerto de Miami",
         "pais": "USA",
-        "continente": "América del Norte",
         "emoji": "🇺🇸",
         "lat": 25.7617,
         "lng": -80.1918,
         "imagen": "https://images.unsplash.com/photo-1533106497176-45ae19e68ba2?auto=format&fit=crop&q=80&w=800",
-        "theme": {"primary": "#ff006e", "secondary": "#3a86ff", "font": "'Inter', sans-serif"},
-        "lugares": [
+        "orden": 1,
+        "ciudades": [
           {
-            "id": 1,
+            "id": "miami-south-beach",
             "nombre": "South Beach",
-            "tipo": "ocio",
-            "descripcion": "Famosa playa de estilo Art Déco.",
-            "descripcionCorta": "Sol, playa y arquitectura icónica.",
-            "imagenCard": "https://images.unsplash.com/photo-1533106497176-45ae19e68ba2?auto=format&fit=crop&q=80&w=800",
-            "actividades": [
-              {"titulo": "Paseo por Ocean Drive", "descripcion": "Arquitectura y vida nocturna.", "horario": "24h"}
+            "emoji": "🏖️",
+            "lat": 25.7825,
+            "lng": -80.1341,
+            "imagen": "https://images.unsplash.com/photo-1514214246283-d427a95c5d2f?auto=format&fit=crop&q=80&w=800",
+            "theme": {"primary": "#ff006e", "secondary": "#3a86ff", "font": "'Inter', sans-serif"},
+            "lugares": [
+              {
+                "id": 1,
+                "nombre": "Ocean Drive",
+                "tipo": "vistas",
+                "descripcion": "El epicentro del Art Déco en Miami.",
+                "descripcionCorta": "Arquitectura neón y palmeras.",
+                "imagenCard": "https://images.unsplash.com/photo-1514214246283-d427a95c5d2f?auto=format&fit=crop&q=80&w=800",
+                "actividades": [{"titulo": "Tour Art Déco", "descripcion": "Descubre los secretos de los edificios.", "horario": "10:00 - 18:00"}]
+              }
+            ]
+          },
+          {
+            "id": "miami-little-havana",
+            "nombre": "Little Havana",
+            "emoji": "🇨🇺",
+            "lat": 25.7656,
+            "lng": -80.2197,
+            "imagen": "https://images.unsplash.com/photo-1570116524317-06399a9a349c?auto=format&fit=crop&q=80&w=800",
+            "theme": {"primary": "#e63946", "secondary": "#f1faee", "font": "'Inter', sans-serif"},
+            "lugares": [
+              {
+                "id": 1,
+                "nombre": "Calle Ocho",
+                "tipo": "cultura",
+                "descripcion": "El corazón de la comunidad cubana.",
+                "descripcionCorta": "Café cubano y dominó.",
+                "imagenCard": "https://images.unsplash.com/photo-1570116524317-06399a9a349c?auto=format&fit=crop&q=80&w=800",
+                "actividades": [{"titulo": "Cata de Café", "descripcion": "Prueba el mejor cortadito.", "horario": "Todo el día"}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stop-cococay",
+        "nombre": "Perfect Day at CocoCay",
+        "pais": "Bahamas",
+        "emoji": "🏝️",
+        "lat": 25.4820,
+        "lng": -77.9354,
+        "imagen": "https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&fit=crop&q=80&w=800",
+        "orden": 1.5,
+        "ciudades": [
+          {
+            "id": "cococay-beach",
+            "nombre": "Chill Island",
+            "emoji": "🍹",
+            "lat": 25.4820,
+            "lng": -77.9354,
+            "imagen": "https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&fit=crop&q=80&w=800",
+            "theme": {"primary": "#00b4d8", "secondary": "#caf0f8", "font": "'Inter', sans-serif"},
+            "lugares": [
+              {
+                "id": 1,
+                "nombre": "Playa de CocoCay",
+                "tipo": "ocio",
+                "descripcion": "Isla privada exclusiva para pasajeros de Royal Caribbean.",
+                "descripcionCorta": "Paraíso tropical privado.",
+                "imagenCard": "https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&fit=crop&q=80&w=800",
+                "actividades": [{"titulo": "Snorkel", "descripcion": "Explora los arrecifes de la isla.", "horario": "Todo el día"}]
+              }
             ]
           }
         ]
@@ -288,22 +385,82 @@
         "id": "stop-nassau",
         "nombre": "Nassau",
         "pais": "Bahamas",
-        "continente": "América del Norte",
         "emoji": "🇧🇸",
         "lat": 25.0480,
         "lng": -77.3554,
         "imagen": "https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&fit=crop&q=80&w=800",
-        "theme": {"primary": "#00b4d8", "secondary": "#caf0f8", "font": "'Inter', sans-serif"},
-        "lugares": [
+        "orden": 2,
+        "ciudades": [
           {
-            "id": 1,
-            "nombre": "Cable Beach",
-            "tipo": "ocio",
-            "descripcion": "Aguas cristalinas y arena blanca paradisíaca.",
-            "descripcionCorta": "El paraíso terrenal en las Bahamas.",
-            "imagenCard": "https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&fit=crop&q=80&w=800",
-            "actividades": [
-              {"titulo": "Snorkeling", "descripcion": "Explora los arrecifes de coral.", "horario": "09:00 - 17:00"}
+            "id": "nassau-downtown",
+            "nombre": "Nassau Downtown",
+            "emoji": "🏙️",
+            "lat": 25.0772,
+            "lng": -77.3432,
+            "imagen": "https://images.unsplash.com/photo-1589197331816-453c3024220b?auto=format&fit=crop&q=80&w=800",
+            "theme": {"primary": "#00b4d8", "secondary": "#caf0f8", "font": "'Inter', sans-serif"},
+            "lugares": [
+              {
+                "id": 1,
+                "nombre": "Bay Street",
+                "tipo": "mercados",
+                "descripcion": "Zona comercial llena de vida.",
+                "descripcionCorta": "Compras y cultura local.",
+                "imagenCard": "https://images.unsplash.com/photo-1589197331816-453c3024220b?auto=format&fit=crop&q=80&w=800",
+                "actividades": [{"titulo": "Straw Market", "descripcion": "Artesanía local en paja.", "horario": "09:00 - 17:00"}]
+              }
+            ]
+          },
+          {
+            "id": "nassau-paradise-island",
+            "nombre": "Paradise Island",
+            "emoji": "🏝️",
+            "lat": 25.0847,
+            "lng": -77.3204,
+            "imagen": "https://images.unsplash.com/photo-1545564344-90f711204a37?auto=format&fit=crop&q=80&w=800",
+            "theme": {"primary": "#48cae4", "secondary": "#ade8f4", "font": "'Inter', sans-serif"},
+            "lugares": [
+              {
+                "id": 1,
+                "nombre": "Atlantis",
+                "tipo": "ocio",
+                "descripcion": "El resort más famoso de las Bahamas.",
+                "descripcionCorta": "Acuarios y diversión sin fin.",
+                "imagenCard": "https://images.unsplash.com/photo-1545564344-90f711204a37?auto=format&fit=crop&q=80&w=800",
+                "actividades": [{"titulo": "Aquaventure", "descripcion": "Parque acuático de clase mundial.", "horario": "10:00 - 18:00"}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stop-charlotte",
+        "nombre": "Charlotte Amalie",
+        "pais": "Islas Vírgenes",
+        "emoji": "🇻🇮",
+        "lat": 18.3419,
+        "lng": -64.9307,
+        "imagen": "https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&fit=crop&q=80&w=800",
+        "orden": 2.5,
+        "ciudades": [
+          {
+            "id": "charlotte-town",
+            "nombre": "Downtown Charlotte Amalie",
+            "emoji": "🏘️",
+            "lat": 18.3419,
+            "lng": -64.9307,
+            "imagen": "https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&fit=crop&q=80&w=800",
+            "theme": {"primary": "#3a86ff", "secondary": "#ffbe0b", "font": "'Inter', sans-serif"},
+            "lugares": [
+              {
+                "id": 1,
+                "nombre": "Main Street",
+                "tipo": "vistas",
+                "descripcion": "Famosa por sus joyerías y edificios coloniales daneses.",
+                "descripcionCorta": "Historia danesa en el Caribe.",
+                "imagenCard": "https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&fit=crop&q=80&w=800",
+                "actividades": [{"titulo": "Compras Libres de Impuestos", "descripcion": "Explora las boutiques locales.", "horario": "09:00 - 18:00"}]
+              }
             ]
           }
         ]
@@ -312,22 +469,62 @@
         "id": "stop-sanjuan",
         "nombre": "San Juan",
         "pais": "Puerto Rico",
-        "continente": "América del Norte",
         "emoji": "🇵🇷",
         "lat": 18.4655,
         "lng": -66.1057,
         "imagen": "https://images.unsplash.com/photo-1590518774218-0e318f773410?auto=format&fit=crop&q=80&w=800",
-        "theme": {"primary": "#ef476f", "secondary": "#ffd166", "font": "'Inter', sans-serif"},
-        "lugares": [
+        "orden": 3,
+        "ciudades": [
           {
-            "id": 1,
-            "nombre": "El Morro",
-            "tipo": "cultura",
-            "descripcion": "Impresionante fortaleza española del siglo XVI.",
-            "descripcionCorta": "Historia viva frente al océano.",
-            "imagenCard": "https://images.unsplash.com/photo-1590518774218-0e318f773410?auto=format&fit=crop&q=80&w=800",
-            "actividades": [
-              {"titulo": "Vuelo de Chiringas", "descripcion": "Vuela cometas frente al mar.", "horario": "10:00 - 18:00"}
+            "id": "sanjuan-viejo",
+            "nombre": "Viejo San Juan",
+            "emoji": "🏘️",
+            "lat": 18.4655,
+            "lng": -66.1157,
+            "imagen": "https://images.unsplash.com/photo-1590518774218-0e318f773410?auto=format&fit=crop&q=80&w=800",
+            "theme": {"primary": "#ef476f", "secondary": "#ffd166", "font": "'Inter', sans-serif"},
+            "lugares": [
+              {
+                "id": 1,
+                "nombre": "El Morro",
+                "tipo": "cultura",
+                "descripcion": "Fortaleza histórica del siglo XVI.",
+                "descripcionCorta": "Vistas épicas del Atlántico.",
+                "imagenCard": "https://images.unsplash.com/photo-1590518774218-0e318f773410?auto=format&fit=crop&q=80&w=800",
+                "actividades": [{"titulo": "Vuelo de Chiringas", "descripcion": "Vuelo de cometas frente al mar.", "horario": "Todo el día"}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stop-puertoplata",
+        "nombre": "Puerto Plata",
+        "pais": "Rep. Dominicana",
+        "emoji": "🇩🇴",
+        "lat": 19.8265,
+        "lng": -70.6865,
+        "imagen": "https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&fit=crop&q=80&w=800",
+        "orden": 4,
+        "ciudades": [
+          {
+            "id": "puertoplata-amber",
+            "nombre": "Amber Cove",
+            "emoji": "🚢",
+            "lat": 19.8265,
+            "lng": -70.6865,
+            "imagen": "https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&fit=crop&q=80&w=800",
+            "theme": {"primary": "#fb8500", "secondary": "#ffb703", "font": "'Inter', sans-serif"},
+            "lugares": [
+              {
+                "id": 1,
+                "nombre": "Teleférico",
+                "tipo": "vistas",
+                "descripcion": "Sube a la cima de la montaña Isabel de Torres.",
+                "descripcionCorta": "Vistas panorámicas de la costa.",
+                "imagenCard": "https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&fit=crop&q=80&w=800",
+                "actividades": [{"titulo": "Visita al Cristo Redentor", "descripcion": "Copia del famoso monumento de Río.", "horario": "09:00 - 17:00"}]
+              }
             ]
           }
         ]
@@ -335,3 +532,4 @@
     ]
   }
 ]
+
