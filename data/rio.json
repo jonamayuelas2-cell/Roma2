@@ -23,42 +23,48 @@
         "descripcion": "Evita las multitudes y disfruta de la primera luz sobre la bahía.",
         "proveedor": "Rio Exclusive Tours",
         "contacto": "rioexclusive.com",
-        "horario": "6:00 - 9:00"
+        "horario": "6:00 - 9:00",
+        "imagen": "img/rio_activities/cristoredentor_1_touralamanecer.png"
       },
       {
         "titulo": "Tren del Corcovado",
         "descripcion": "Ascenso histórico a través de la selva tropical de Tijuca.",
         "proveedor": "Trem do Corcovado",
         "contacto": "tremdocorcovado.rio",
-        "horario": "Cada 20 min"
+        "horario": "Cada 20 min",
+        "imagen": "img/rio_activities/cristoredentor_2_trendelcorcovado.png"
       },
       {
         "titulo": "Vuelo en helicóptero",
         "descripcion": "Vista aérea inigualable de la estatua y las playas.",
         "proveedor": "Helisight",
         "contacto": "helisight.com.br",
-        "horario": "Diario"
+        "horario": "Diario",
+        "imagen": "img/rio_activities/cristoredentor_3_vueloenhelicoptero.png"
       },
       {
         "titulo": "Senderismo por Tijuca",
         "descripcion": "Caminata guiada por la selva hasta la base del monumento.",
         "proveedor": "Jungle Me",
         "contacto": "jungleme.com.br",
-        "horario": "Mañanas"
+        "horario": "Mañanas",
+        "imagen": "img/rio_activities/cristoredentor_4_senderismoportijuca.png"
       },
       {
         "titulo": "Sesión fotográfica",
         "descripcion": "Fotógrafo profesional para capturar tu visita sin turistas de fondo.",
         "proveedor": "Rio Photo Tour",
         "contacto": "riophoto.com",
-        "horario": "Bajo reserva"
+        "horario": "Bajo reserva",
+        "imagen": "img/rio_activities/cristoredentor_5_sesionfotografica.png"
       },
       {
         "titulo": "Cena en Santa Teresa",
         "descripcion": "Tour combinado que termina con cena en el barrio bohemio.",
         "proveedor": "Eat Rio",
         "contacto": "eatrio.net",
-        "horario": "Tardes"
+        "horario": "Tardes",
+        "imagen": "img/rio_activities/cristoredentor_6_cenaensantateresa.png"
       }
     ]
   },
@@ -86,42 +92,48 @@
         "descripcion": "La mejor hora para ver cómo se encienden las luces de la ciudad.",
         "proveedor": "Bondinho Pão de Açúcar",
         "contacto": "bondinho.com.br",
-        "horario": "17:00 - 19:30"
+        "horario": "17:00 - 19:30",
+        "imagen": "img/rio_activities/pandeazucar_1_bondinhoalatardecer.png"
       },
       {
         "titulo": "Escalada en roca",
         "descripcion": "Asciende el Pan de Azúcar por rutas de escalada famosas mundialmente.",
         "proveedor": "Climb in Rio",
         "contacto": "climbinrio.com",
-        "horario": "Bajo reserva"
+        "horario": "Bajo reserva",
+        "imagen": "img/rio_activities/pandeazucar_2_escaladaenroca.png"
       },
       {
         "titulo": "Picnic en Morro da Urca",
         "descripcion": "Disfruta de productos locales en la primera parada del teleférico.",
         "proveedor": "Urca Gourmet",
         "contacto": "urcagourmet.com",
-        "horario": "12:00 - 16:00"
+        "horario": "12:00 - 16:00",
+        "imagen": "img/rio_activities/pandeazucar_3_picnicenmorrodaurca.png"
       },
       {
         "titulo": "Tour de Geología",
         "descripcion": "Aprende sobre la formación de estos domos de granito únicos.",
         "proveedor": "GeoRio Tours",
         "contacto": "georio.gov.br",
-        "horario": "Sábados"
+        "horario": "Sábados",
+        "imagen": "img/rio_activities/pandeazucar_4_tourdegeologia.png"
       },
       {
         "titulo": "Avistamiento de fauna",
         "descripcion": "Busca monos tití y aves tropicales en los senderos del morro.",
         "proveedor": "Wild Rio",
         "contacto": "wildrio.com.br",
-        "horario": "Mañanas"
+        "horario": "Mañanas",
+        "imagen": "img/rio_activities/pandeazucar_5_avistamientodefauna.png"
       },
       {
         "titulo": "Noche de música",
         "descripcion": "Eventos de música en vivo en el anfiteatro de la cima.",
         "proveedor": "Morro da Urca Events",
         "contacto": "morrodaurca.com",
-        "horario": "Fines de semana"
+        "horario": "Fines de semana",
+        "imagen": "img/rio_activities/pandeazucar_6_nochedemusica.png"
       }
     ]
   },
@@ -149,42 +161,48 @@
         "descripcion": "Únete a un partido en las redes públicas de la arena.",
         "proveedor": "Copacabana Beach Club",
         "contacto": "copabeach.com.br",
-        "horario": "Mañanas"
+        "horario": "Mañanas",
+        "imagen": "img/rio_activities/copacabana_1_voleyplayaconlocales.png"
       },
       {
         "titulo": "Clase de Samba nocturna",
         "descripcion": "Aprende los pasos básicos antes de ir a un club local.",
         "proveedor": "Rio Samba School",
         "contacto": "riosamba.com",
-        "horario": "20:00 - 22:00"
+        "horario": "20:00 - 22:00",
+        "imagen": "img/rio_activities/copacabana_2_clasedesambanocturna.png"
       },
       {
         "titulo": "Caminata por el Calçadão",
         "descripcion": "Recorrido por los 4km de mosaicos diseñados por Burle Marx.",
         "proveedor": "Cultural Rio",
         "contacto": "culturalrio.com",
-        "horario": "Cualquier hora"
+        "horario": "Cualquier hora",
+        "imagen": "img/rio_activities/copacabana_3_caminataporelcalcadao.png"
       },
       {
         "titulo": "Desayuno en el Forte",
         "descripcion": "Empieza el día con vistas a toda la playa desde el fuerte militar.",
         "proveedor": "Confeitaria Colombo Forte",
         "contacto": "confeitariacolombo.com.br",
-        "horario": "10:00 - 12:00"
+        "horario": "10:00 - 12:00",
+        "imagen": "img/rio_activities/copacabana_4_desayunoenelforte.png"
       },
       {
         "titulo": "Tour de Arquitectura Art Déco",
         "descripcion": "Descubre los edificios históricos detrás de la avenida atlántica.",
         "proveedor": "Rio Art Deco",
         "contacto": "rioartdeco.com.br",
-        "horario": "Bajo reserva"
+        "horario": "Bajo reserva",
+        "imagen": "img/rio_activities/copacabana_5_tourdearquitecturaartdeco.png"
       },
       {
         "titulo": "Paddle Surf al amanecer",
         "descripcion": "Rema en aguas tranquilas cerca del Puesto 6.",
         "proveedor": "Surf Rio",
         "contacto": "surfrio.com",
-        "horario": "6:00 - 8:00"
+        "horario": "6:00 - 8:00",
+        "imagen": "img/rio_activities/copacabana_6_paddlesurfalamanecer.png"
       }
     ]
   },
@@ -212,42 +230,48 @@
         "descripcion": "Únete a la tradición local de aplaudir cuando el sol se pone.",
         "proveedor": "Arpoador Community",
         "contacto": "arpoador.rio",
-        "horario": "Al atardecer"
+        "horario": "Al atardecer",
+        "imagen": "img/rio_activities/ipanema_1_aplausoalsolenarpoador.png"
       },
       {
         "titulo": "Feria Hippie de Ipanema",
         "descripcion": "Mercado dominical de artesanía, arte y comida típica.",
         "proveedor": "Feira Hippie Ipanema",
         "contacto": "feirahippieipanema.com",
-        "horario": "Domingos 8:00-18:00"
+        "horario": "Domingos 8:00-18:00",
+        "imagen": "img/rio_activities/ipanema_2_feriahippiedeipanema.png"
       },
       {
         "titulo": "Ruta de la Bossa Nova",
         "descripcion": "Visita los bares donde nació el género, como Garota de Ipanema.",
         "proveedor": "Bossa Rio Tours",
         "contacto": "bossario.net",
-        "horario": "Tardes"
+        "horario": "Tardes",
+        "imagen": "img/rio_activities/ipanema_3_rutadelabossanova.png"
       },
       {
         "titulo": "Compras en Rua Garcia d'Avila",
         "descripcion": "Tour por las boutiques de lujo y marcas brasileñas.",
         "proveedor": "Rio Fashion Guide",
         "contacto": "riofashion.com.br",
-        "horario": "10:00 - 19:00"
+        "horario": "10:00 - 19:00",
+        "imagen": "img/rio_activities/ipanema_4_comprasenruagarciadavila.png"
       },
       {
         "titulo": "Clase de Capoeira",
         "descripcion": "Entrenamiento básico en la arena de la playa.",
         "proveedor": "Capoeira Brasil",
         "contacto": "capoeirabrasil.com",
-        "horario": "Bajo reserva"
+        "horario": "Bajo reserva",
+        "imagen": "img/rio_activities/ipanema_5_clasedecapoeira.png"
       },
       {
         "titulo": "Tour de Gastronomía",
         "descripcion": "Degustación de zumos tropicales y snacks saludables.",
         "proveedor": "Polis Sucos",
         "contacto": "polissucos.com.br",
-        "horario": "Mañanas"
+        "horario": "Mañanas",
+        "imagen": "img/rio_activities/ipanema_6_tourdegastronomia.png"
       }
     ]
   },
@@ -275,42 +299,48 @@
         "descripcion": "Explora los graffitis de Lapa y la historia de Selarón.",
         "proveedor": "Rio Street Art",
         "contacto": "riostreetart.com",
-        "horario": "Mañanas"
+        "horario": "Mañanas",
+        "imagen": "img/rio_activities/escaleraselaron_1_tourdearteurbano.png"
       },
       {
         "titulo": "Búsqueda del azulejo",
         "descripcion": "Encuentra azulejos de tu propio país entre los miles de la escalera.",
         "proveedor": "Self-guided",
         "contacto": "n/a",
-        "horario": "24h"
+        "horario": "24h",
+        "imagen": "img/rio_activities/escaleraselaron_2_busquedadelazulejo.png"
       },
       {
         "titulo": "Paseo por Santa Teresa",
         "descripcion": "Sube los escalones para explorar el barrio de los artistas.",
         "proveedor": "Santa Teresa Guide",
         "contacto": "santateresa.rio",
-        "horario": "Diario"
+        "horario": "Diario",
+        "imagen": "img/rio_activities/escaleraselaron_3_paseoporsantateresa.png"
       },
       {
         "titulo": "Taller de Mosaico",
         "descripcion": "Crea tu propio azulejo inspirado en el estilo de Selarón.",
         "proveedor": "Lapa Arts",
         "contacto": "lapaarts.br",
-        "horario": "Bajo reserva"
+        "horario": "Bajo reserva",
+        "imagen": "img/rio_activities/escaleraselaron_4_tallerdemosaico.png"
       },
       {
         "titulo": "Noche de Samba en Lapa",
         "descripcion": "Disfruta de la música en vivo cerca de los Arcos de Lapa.",
         "proveedor": "Circo Voador",
         "contacto": "circovoador.com.br",
-        "horario": "Noches"
+        "horario": "Noches",
+        "imagen": "img/rio_activities/escaleraselaron_5_nochedesambaenlapa.png"
       },
       {
         "titulo": "Fotografía creativa",
         "descripcion": "Aprende a jugar con las perspectivas y los colores vibrantes.",
         "proveedor": "InstaRio",
         "contacto": "instario.photo",
-        "horario": "Mañanas"
+        "horario": "Mañanas",
+        "imagen": "img/rio_activities/escaleraselaron_6_fotografiacreativa.png"
       }
     ]
   },
@@ -338,42 +368,48 @@
         "descripcion": "Caminata fotográfica por la icónica entrada de palmeras imperiales.",
         "proveedor": "JBRJ",
         "contacto": "jbrj.gov.br",
-        "horario": "Diario"
+        "horario": "Diario",
+        "imagen": "img/rio_activities/jardinbotanico_1_avenidadelaspalmeras.png"
       },
       {
         "titulo": "Visita al Orquidario",
         "descripcion": "Explora una de las mayores colecciones de orquídeas de Brasil.",
         "proveedor": "Amigos do Jardim",
         "contacto": "amigosdojardim.org.br",
-        "horario": "Mañanas"
+        "horario": "Mañanas",
+        "imagen": "img/rio_activities/jardinbotanico_2_visitaalorquidario.png"
       },
       {
         "titulo": "Observación de aves",
         "descripcion": "Tour especializado para ver tucanes y otras especies tropicales.",
         "proveedor": "Birding Rio",
         "contacto": "birdingrio.info",
-        "horario": "6:00 - 9:00"
+        "horario": "6:00 - 9:00",
+        "imagen": "img/rio_activities/jardinbotanico_3_observaciondeaves.png"
       },
       {
         "titulo": "Taller de acuarela",
         "descripcion": "Pinta la naturaleza en vivo en los rincones más bellos del jardín.",
         "proveedor": "Art Rio",
         "contacto": "artrio.com.br",
-        "horario": "Sábados"
+        "horario": "Sábados",
+        "imagen": "img/rio_activities/jardinbotanico_4_tallerdeacuarela.png"
       },
       {
         "titulo": "Museo del Medio Ambiente",
         "descripcion": "Visita las exposiciones sobre la conservación de la Mata Atlántica.",
         "proveedor": "Museu do Meio Ambiente",
         "contacto": "jbrj.gov.br/museu",
-        "horario": "10:00 - 16:00"
+        "horario": "10:00 - 16:00",
+        "imagen": "img/rio_activities/jardinbotanico_5_museodelmedioambiente.png"
       },
       {
         "titulo": "Té en La Bicyclette",
         "descripcion": "Disfruta de repostería artesanal dentro del recinto del jardín.",
         "proveedor": "La Bicyclette",
         "contacto": "labicyclette.com.br",
-        "horario": "Diario"
+        "horario": "Diario",
+        "imagen": "img/rio_activities/jardinbotanico_6_teenlabicyclette.png"
       }
     ]
   },
@@ -401,42 +437,48 @@
         "descripcion": "Experiencia inmersiva 360 grados sobre el origen del universo.",
         "proveedor": "Museu do Amanhã",
         "contacto": "museudoamanha.org.br",
-        "horario": "Cada 30 min"
+        "horario": "Cada 30 min",
+        "imagen": "img/rio_activities/museudoamanha_1_recorridoporlacosmos.png"
       },
       {
         "titulo": "Tour de Arquitectura",
         "descripcion": "Descubre los secretos del diseño sostenible de Calatrava.",
         "proveedor": "Porto Maravilha Tours",
         "contacto": "portomaravilha.rio",
-        "horario": "Martes y Jueves"
+        "horario": "Martes y Jueves",
+        "imagen": "img/rio_activities/museudoamanha_2_tourdearquitectura.png"
       },
       {
         "titulo": "Talleres de Sostenibilidad",
         "descripcion": "Actividades prácticas sobre reciclaje y energías limpias.",
         "proveedor": "Educativo Amanhã",
         "contacto": "museudoamanha.org.br/educativo",
-        "horario": "Fines de semana"
+        "horario": "Fines de semana",
+        "imagen": "img/rio_activities/museudoamanha_3_talleresdesostenibilidad.png"
       },
       {
         "titulo": "Paseo por el Boulevard Olímpico",
         "descripcion": "Caminata por la zona portuaria renovada y sus murales.",
         "proveedor": "Rio Free Walk",
         "contacto": "riofreewalk.com",
-        "horario": "10:00 - 13:00"
+        "horario": "10:00 - 13:00",
+        "imagen": "img/rio_activities/museudoamanha_4_paseoporelboulevardolimpico.png"
       },
       {
         "titulo": "Realidad Aumentada",
         "descripcion": "Usa la app del museo para ver el futuro de los océanos.",
         "proveedor": "Museu Digital",
         "contacto": "museudoamanha.org.br/app",
-        "horario": "Cualquier momento"
+        "horario": "Cualquier momento",
+        "imagen": "img/rio_activities/museudoamanha_5_realidadaumentada.png"
       },
       {
         "titulo": "Atardecer en la Bahía",
         "descripcion": "Disfruta de las vistas desde el muelle exterior del museo.",
         "proveedor": "Self-guided",
         "contacto": "n/a",
-        "horario": "17:30 - 18:30"
+        "horario": "17:30 - 18:30",
+        "imagen": "img/rio_activities/museudoamanha_6_atardecerenlabahia.png"
       }
     ]
   },
@@ -464,42 +506,48 @@
         "descripcion": "Aprende a bailar el ritmo más popular del noreste.",
         "proveedor": "Palco Nordeste",
         "contacto": "feiradesaocristovao.org.br",
-        "horario": "Noches de fin de semana"
+        "horario": "Noches de fin de semana",
+        "imagen": "img/rio_activities/feiradesaocristovao_1_danzaforro.png"
       },
       {
         "titulo": "Degustación de Carne de Sol",
         "descripcion": "Prueba el plato estrella en los mejores restaurantes de la feria.",
         "proveedor": "Restaurante Maria e Cangaço",
         "contacto": "mariaecangaco.com.br",
-        "horario": "12:00 - 22:00"
+        "horario": "12:00 - 22:00",
+        "imagen": "img/rio_activities/feiradesaocristovao_2_degustaciondecarnedesol.png"
       },
       {
         "titulo": "Taller de Literatura de Cordel",
         "descripcion": "Crea tus propios versos ilustrados con xilografía.",
         "proveedor": "Cordelistas do Rio",
         "contacto": "cordel.org.br",
-        "horario": "Bajo reserva"
+        "horario": "Bajo reserva",
+        "imagen": "img/rio_activities/feiradesaocristovao_3_tallerdeliteraturadecordel.png"
       },
       {
         "titulo": "Compras de Artesanía",
         "descripcion": "Encuentra sombreros de cuero, hamacas y cerámica típica.",
         "proveedor": "Artesãos da Feira",
         "contacto": "feiradesaocristovao.org.br",
-        "horario": "Diario"
+        "horario": "Diario",
+        "imagen": "img/rio_activities/feiradesaocristovao_4_comprasdeartesania.png"
       },
       {
         "titulo": "Karaoke de Repente",
         "descripcion": "Participa en los duelos de rimas improvisadas.",
         "proveedor": "Repentistas Associados",
         "contacto": "repente.rio",
-        "horario": "Tardes"
+        "horario": "Tardes",
+        "imagen": "img/rio_activities/feiradesaocristovao_5_karaokederepente.png"
       },
       {
         "titulo": "Cata de Cachaça",
         "descripcion": "Prueba variedades artesanales de todo el país.",
         "proveedor": "Cachaçaria da Feira",
         "contacto": "cachaca.br",
-        "horario": "14:00 - 20:00"
+        "horario": "14:00 - 20:00",
+        "imagen": "img/rio_activities/feiradesaocristovao_6_catadecachaca.png"
       }
     ]
   },
@@ -527,42 +575,48 @@
         "descripcion": "El servicio clásico completo en el salón principal.",
         "proveedor": "Confeitaria Colombo",
         "contacto": "confeitariacolombo.com.br",
-        "horario": "15:00 - 18:00"
+        "horario": "15:00 - 18:00",
+        "imagen": "img/rio_activities/confeitariacolombo_1_tedelatarde.png"
       },
       {
         "titulo": "Tour Histórico guiado",
         "descripcion": "Conoce las personalidades que frecuentaban el café.",
         "proveedor": "Historiadores Rio",
         "contacto": "historiorio.com",
-        "horario": "Bajo reserva"
+        "horario": "Bajo reserva",
+        "imagen": "img/rio_activities/confeitariacolombo_2_tourhistoricoguiado.png"
       },
       {
         "titulo": "Cata de Dulces Portugueses",
         "descripcion": "Prueba los pasteles de nata y quindins tradicionales.",
         "proveedor": "Colombo Doces",
         "contacto": "confeitariacolombo.com.br",
-        "horario": "Diario"
+        "horario": "Diario",
+        "imagen": "img/rio_activities/confeitariacolombo_3_catadedulcesportugueses.png"
       },
       {
         "titulo": "Sesión de Fotos Vintage",
         "descripcion": "Ideal para retratos con la luz de las claraboyas históricas.",
         "proveedor": "Vintage Rio Photo",
         "contacto": "vintagephoto.rio",
-        "horario": "Mañanas"
+        "horario": "Mañanas",
+        "imagen": "img/rio_activities/confeitariacolombo_4_sesiondefotosvintage.png"
       },
       {
         "titulo": "Almuerzo en el Cristóvão",
         "descripcion": "Menú ejecutivo en la planta superior con vistas al salón.",
         "proveedor": "Restaurante Cristóvão",
         "contacto": "confeitariacolombo.com.br",
-        "horario": "12:00 - 15:00"
+        "horario": "12:00 - 15:00",
+        "imagen": "img/rio_activities/confeitariacolombo_5_almuerzoenelcristovao.png"
       },
       {
         "titulo": "Compra de regalos",
         "descripcion": "Lata de galletas decorativa con el diseño original de 1894.",
         "proveedor": "Loja Colombo",
         "contacto": "confeitariacolombo.com.br",
-        "horario": "Diario"
+        "horario": "Diario",
+        "imagen": "img/rio_activities/confeitariacolombo_6_compraderegalos.png"
       }
     ]
   }
