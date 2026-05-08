@@ -129,85 +129,9 @@ function initGlobe() {
         .backgroundColor('rgba(0,0,0,0)')
         .showAtmosphere(true)
         .atmosphereColor('#8ee8ff')
-        .atmosphereAltitude(0.28)
-        
-        // Configuración de puntos (Ciudades)
-        .pointsData(state.cities)
-        .pointLat(d => d.lat)
-        .pointLng(d => d.lng)
-        .pointAltitude(0.01)
-        .pointRadius(0.8)
-        .pointColor(() => '#ffdf5d')
-        
-        // Anillos pulsantes
-        .ringsData(state.cities)
-        .ringLat(d => d.lat)
-        .ringLng(d => d.lng)
-        .ringColor(() => t => `rgba(255, 223, 93, ${0.62 * (1 - t)})`)
-        .ringMaxRadius(4.2)
-        .ringPropagationSpeed(1.2)
-        .ringRepeatPeriod(1900)
-        
-        // Arcos de conexión
-        .arcsData(buildGlobeArcs())
-        .arcStartLat(d => d.startLat)
-        .arcStartLng(d => d.startLng)
-        .arcEndLat(d => d.endLat)
-        .arcEndLng(d => d.endLng)
-        .arcColor(() => ['rgba(125,228,255,0.42)', 'rgba(255,223,93,0.86)'])
-        .arcAltitude(0.24)
-        .arcStroke(0.55)
-        .arcDashLength(0.42)
-        .arcDashGap(1.6)
-        .arcDashAnimateTime(3600)
-        
-        // Fronteras de países
-        .polygonsData(state.countryPolygons)
-        .polygonCapColor(() => 'rgba(76, 175, 118, 0.22)')
-        .polygonSideColor(() => 'rgba(76, 175, 118, 0.08)')
-        .polygonStrokeColor(() => 'rgba(255, 255, 255, 0.42)')
-        .polygonAltitude(0.008)
-        
-        // Etiquetas de texto
-        .labelsData(state.cities)
-        .labelLat(d => d.lat)
-        .labelLng(d => d.lng)
-        .labelText(d => d.nombre)
-        .labelSize(1.2)
-        .labelDotRadius(0.4)
-        .labelColor(() => 'rgba(255, 255, 255, 0.9)')
-        .labelAltitude(0.01)
-        .onLabelClick(city => selectCity(city))
+        .atmosphereAltitude(0.28);
 
-        // Marcadores HTML (Miniaturas)
-        .htmlElementsData(state.cities)
-        .htmlLat(d => d.lat)
-        .htmlLng(d => d.lng)
-        .htmlAltitude(0.02) 
-        .htmlElement(d => {
-            const el = document.createElement('div');
-            el.className = 'globe-city-marker';
-            el.innerHTML = `
-                <div class="globe-thumb-container">
-                    <img src="${assetUrl(d.imagen)}" class="globe-thumb" loading="lazy">
-                    <span class="globe-emoji">${d.emoji}</span>
-                    
-                    <div class="globe-preview-panel">
-                        <img src="${assetUrl(d.imagen)}" class="preview-img">
-                        <span class="preview-name">${d.nombre}</span>
-                        <span class="preview-country">${d.pais}</span>
-                    </div>
-                </div>
-            `;
-            el.style.cursor = 'pointer';
-            el.onclick = (ev) => {
-                ev.stopPropagation();
-                selectCity(d);
-            };
-            return el;
-        });
-
-    // Configuración de controles
+    // Configuración de controles inicial
     const controls = state.globe.controls();
     if (controls) {
         controls.autoRotate = true;
@@ -215,9 +139,86 @@ function initGlobe() {
         controls.enableDamping = true;
     }
 
-    state.globe.pointOfView({ lat: 15, lng: -20, altitude: 2.25 }, 1000);
-    console.log('✅ Globo inicializado con marcadores');
+    // Retardo para asegurar que el contenedor tiene dimensiones y el canvas está listo
+    setTimeout(() => {
+        console.log('📍 Inyectando marcadores en el globo...');
+        state.globe
+            // Configuración de puntos (Ciudades)
+            .pointsData(state.cities)
+            .pointLat(d => d.lat)
+            .pointLng(d => d.lng)
+            .pointAltitude(0.01)
+            .pointRadius(1.2) // Un poco más grandes
+            .pointColor(() => '#ffdf5d')
+            
+            // Anillos pulsantes
+            .ringsData(state.cities)
+            .ringLat(d => d.lat)
+            .ringLng(d => d.lng)
+            .ringColor(() => t => `rgba(255, 223, 93, ${0.8 * (1 - t)})`)
+            .ringMaxRadius(5)
+            .ringPropagationSpeed(1.5)
+            .ringRepeatPeriod(2000)
+            
+            // Arcos
+            .arcsData(buildGlobeArcs())
+            .arcStartLat(d => d.startLat)
+            .arcStartLng(d => d.startLng)
+            .arcEndLat(d => d.endLat)
+            .arcEndLng(d => d.endLng)
+            .arcColor(() => ['rgba(125,228,255,0.6)', 'rgba(255,223,93,0.9)'])
+            .arcAltitudeAutoScale(0.3)
+            
+            // Fronteras
+            .polygonsData(state.countryPolygons)
+            .polygonCapColor(() => 'rgba(72, 203, 255, 0.08)')
+            .polygonSideColor(() => 'rgba(72, 203, 255, 0.05)')
+            .polygonStrokeColor(() => 'rgba(255, 255, 255, 0.2)')
+            
+            // Etiquetas
+            .labelsData(state.cities)
+            .labelLat(d => d.lat)
+            .labelLng(d => d.lng)
+            .labelText(d => d.nombre)
+            .labelSize(1.5)
+            .labelDotRadius(0.5)
+            .labelColor(() => '#ffffff')
+            .labelAltitude(0.01)
+            .onLabelClick(city => selectCity(city))
+
+            // Marcadores HTML
+            .htmlElementsData(state.cities)
+            .htmlLat(d => d.lat)
+            .htmlLng(d => d.lng)
+            .htmlAltitude(0.05)
+            .htmlElement(d => {
+                const el = document.createElement('div');
+                el.className = 'globe-city-marker';
+                el.innerHTML = `
+                    <div class="globe-thumb-container">
+                        <img src="${assetUrl(d.imagen)}" class="globe-thumb" loading="lazy" onerror="this.src='img/placeholder_city.png'">
+                        <span class="globe-emoji">${d.emoji}</span>
+                        
+                        <div class="globe-preview-panel">
+                            <img src="${assetUrl(d.imagen)}" class="preview-img" onerror="this.src='img/placeholder_city.png'">
+                            <span class="preview-name">${d.nombre}</span>
+                            <span class="preview-country">${d.pais}</span>
+                        </div>
+                    </div>
+                `;
+                el.style.cursor = 'pointer';
+                el.onclick = (ev) => {
+                    ev.stopPropagation();
+                    selectCity(d);
+                };
+                return el;
+            });
+
+        state.globe.pointOfView({ lat: 20, lng: 0, altitude: 2.5 }, 2000);
+        console.log('✅ Marcadores aplicados');
+    }, 300);
 }
+
 
 
 function buildGlobeArcs() {

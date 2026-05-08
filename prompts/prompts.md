@@ -71,9 +71,11 @@
 **Diagnóstico y Solución:**
 1. **Validación:** Se comprobó la integridad de `cities.json` (20 ciudades válidas).
 2. **Robustez:** Se refactorizó `app.js` para asegurar que `initGlobe()` espere a que todos los datos y librerías estén cargados.
-3. **Visibilidad:** Se ajustaron las altitudes de los marcadores HTML (`htmlAltitude`) de 0.1 a 0.02 para que se integren mejor con la superficie y sean más fáciles de ver.
+3. **Visibilidad (Fase 1):** Se ajustaron las altitudes de los marcadores HTML (`htmlAltitude`) de 0.1 a 0.02.
 4. **Caché:** Se incrementó `ASSET_VERSION` para forzar la recarga de activos.
+5. **Visibilidad (Fase 2):** Eliminación de filtros CSS (`filter`) en el contenedor del globo que causaban conflictos de renderizado en Chrome/Edge.
+6. **Sincronización:** Añadido un retardo controlado (`setTimeout`) antes de inyectar los datos en el globo para asegurar que el motor Three.js esté completamente inicializado.
 
 **Prompts de Acción:**
 * "Investigar por qué los marcadores del globo Globe.gl no se renderizan a pesar de que cities.json es válido. Comprobar altitudes, lógica de carga asíncrona y versionado de assets."
-* "Aplicar mejoras de robustez en la inicialización del globo: añadir logs de consola detallados, asegurar que loadCities termine antes de initGlobe, y ajustar las altitudes de los marcadores HTML para evitar clipping con la superficie del globo. Actualizar ASSET_VERSION."
+* "Eliminar filtros CSS en #globeViz que puedan interferir con el renderizado del canvas. Añadir un retardo en initGlobe antes de setear pointsData para asegurar que el contenedor tiene dimensiones."
