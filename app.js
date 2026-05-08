@@ -67,8 +67,12 @@ document.addEventListener('DOMContentLoaded', () => {
 async function loadCruises() {
     try {
         const response = await fetch('cruises.json');
-        state.cruises = await response.json();
-        console.log('🛳️ Cruceros cargados');
+        const data = await response.json();
+        state.cruises = data.map(c => ({
+            ...c,
+            puntuacion: (4.5 + (c.nombre.length % 5) / 10).toFixed(1) // Estable pero variado
+        }));
+        console.log('🛳️ Cruceros cargados con puntuaciones');
     } catch (error) {
         console.warn('No se pudieron cargar los cruceros:', error);
     }
@@ -244,8 +248,8 @@ function initGlobe() {
         const cruisePaths = activeCruises.map(cruise => ({
             path: cruise.ruta.map(p => [p.lat, p.lng]),
             name: cruise.nombre,
-            color: '#38bdf8',
-            opacity: 0.6
+            color: '#facc15', // Amarillo
+            opacity: 0.8
         }));
 
         callGlobe('pathsData', cruisePaths);
@@ -358,6 +362,7 @@ function updateCruiseList() {
 
     const filteredCruises = state.cruises
         .filter(c => state.activeFilters.cruiseRegions.includes(c.region))
+        .sort((a, b) => b.puntuacion - a.puntuacion) // Ordenar por puntuación descendente
         .slice(0, 10);
 
     panel.style.display = filteredCruises.length > 0 ? 'flex' : 'none';
@@ -367,8 +372,11 @@ function updateCruiseList() {
         const origin = cruise.ruta[0]?.nombre || 'N/A';
         const destination = cruise.ruta[cruise.ruta.length - 1]?.nombre || 'N/A';
         const duration = cruise.ruta.length + 2; 
-        const rating = (4.5 + Math.random() * 0.5).toFixed(1);
+        const rating = cruise.puntuacion;
         const stopsCount = cruise.paradas.length;
+        
+        // Obtener lista única de países visitados
+        const countries = [...new Set(cruise.paradas.map(p => p.pais))].join(', ');
 
         const card = document.createElement('div');
         card.className = `cruise-card ${state.currentCruise?.id === cruise.id ? 'active' : ''}`;
@@ -380,13 +388,17 @@ function updateCruiseList() {
                     <span class="cruise-info-icon">📍</span>
                     <span>${origin} → ${destination}</span>
                 </div>
+                <div class="cruise-countries-list">${countries}</div>
                 <div class="cruise-info-row">
                     <span class="cruise-info-icon">🚢</span>
                     <span>${stopsCount} escalas en total</span>
                 </div>
-                <div class="cruise-rating">
-                    <span class="stars">★ ${rating}</span>
-                    <span class="duration">${duration} días</span>
+                <div class="cruise-rating-row">
+                    <div class="cruise-rating">
+                        <span class="stars">★ ${rating}</span>
+                        <span class="duration">${duration} días</span>
+                    </div>
+                    <button class="cruise-detail-btn" onclick="event.stopPropagation(); selectCruise('${cruise.id}')">Ver Detalle</button>
                 </div>
             </div>
         `;
@@ -1459,7 +1471,60 @@ function closePlaceDetails() {
     document.body.style.overflow = '';
 }
 
+function selectCruise(idOrCruise) {
+    const cruise = typeof idOrCruise === 'string' 
+        ? state.cruises.find(c => c.id === idOrCruise) 
+        : idOrCruise;
+    
+    if (!cruise) return;
+
+    state.currentCruise = cruise;
+    
+    const selection = document.getElementById('city-selection');
+    const cruiseApp = document.getElementById('cruise-app');
+
+    if (selection) selection.style.display = 'none';
+    if (cruiseApp) {
+        cruiseApp.style.display = 'block';
+        cruiseApp.classList.add('fade-in');
+        updateCruiseDetailUI(cruise);
+    }
+}
+
+function updateCruiseDetailUI(cruise) {
+    const shipImg = document.getElementById('ship-img');
+    const shipName = document.getElementById('ship-name');
+    const shipStats = document.getElementById('ship-stats');
+    
+    if (shipImg) shipImg.src = cruise.imagen;
+    if (shipName) shipName.textContent = cruise.nombre;
+    
+    if (shipStats) {
+        shipStats.innerHTML = `
+            <div class="stat-item">
+                <span class="stat-value">${cruise.puntuacion}</span>
+                <span class="stat-label">Valoración</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-value">${cruise.paradas.length}</span>
+                <span class="stat-label">Escalas</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-value">${cruise.ruta.length + 2}</span>
+                <span class="stat-label">Días</span>
+            </div>
+        `;
+    }
+
+    // Inicializar el mapa de itinerario si existe la función
+    if (window.initCruiseItineraryMap) {
+        window.initCruiseItineraryMap(cruise);
+    }
+}
+
 window.showPlaceDetailsById = (id) => {
     const place = state.places.find(p => p.id === id);
     if (place) showPlaceDetails(place);
 };
+
+window.selectCruise = selectCruise;

@@ -52,3 +52,7 @@
 2.  **Tarjetas de Crucero**: Implementadas tarjetas interactivas que muestran origen, destino, duración (simulada) y reputación.
 3.  **Visualización en Globo**: Refactorizada la función `refreshData` para que, al seleccionar un crucero del panel, se rendericen sus paradas como marcadores de ciudad y su ruta marítima animada.
 4.  **Interacción Unificada**: Al pulsar cualquier parada de la ruta en el globo, se navega automáticamente a la vista detallada del crucero.
+5.  **Corrección de Filtros**: Convertidos definitivamente los selectores de "Países Nórdicos" y "Otros Destinos" a checkboxes (antes eran radios por error), permitiendo que coexistan en la selección.
+6.  **Ordenación y Metadata**: Cruceros ordenados por puntuación real. Añadida lista de países visitados en cada tarjeta.
+7.  **Rutas Amarillas**: Actualizado el estilo visual de las líneas de navegación a amarillo intenso para mayor contraste y fidelidad a la petición del usuario.
+8.  **Navegación Unificada**: Implementado botón "Ver Detalle" y lógica de salto entre el globo 3D y la vista de itinerario detallado.
