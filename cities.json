@@ -8865,42 +8865,48 @@
             "descripcion": "Recorrido guiado por Teatro Colon para conectar arquitectura, personajes y momentos clave de Buenos Aires.",
             "proveedor": "Historia Viva Buenos Aires",
             "contacto": "reservas@historiabuenosaires.local",
-            "horario": "10:00 - 12:00"
+            "horario": "10:00 - 12:00",
+            "imagen": "img/buenosaires_activities/teatrocolon_1_tourhistoricoesencial.png"
           },
           {
             "titulo": "Acceso con contexto local",
             "descripcion": "Visita pausada con explicaciones practicas para comprender por que este lugar sigue siendo imprescindible.",
             "proveedor": "Guias Locales Buenos Aires",
             "contacto": "hola@buenosaireslocal.local",
-            "horario": "12:00 - 14:00"
+            "horario": "12:00 - 14:00",
+            "imagen": "img/buenosaires_activities/teatrocolon_2_accesoconcontextolocal.png"
           },
           {
             "titulo": "Paseo fotografico",
             "descripcion": "Itinerario para capturar fachadas, perspectivas y detalles con la mejor luz disponible.",
             "proveedor": "Photo Walk Buenos Aires",
             "contacto": "foto@buenosaireswalk.local",
-            "horario": "Atardecer"
+            "horario": "Atardecer",
+            "imagen": "img/buenosaires_activities/teatrocolon_3_paseofotografico.png"
           },
           {
             "titulo": "Ruta de leyendas",
             "descripcion": "Historias, simbolos y anecdotas alrededor de Teatro Colon, con tono narrativo y facil de seguir.",
             "proveedor": "Relatos de Buenos Aires",
             "contacto": "relatos@buenosaires.local",
-            "horario": "18:00 - 19:30"
+            "horario": "18:00 - 19:30",
+            "imagen": "img/buenosaires_activities/teatrocolon_4_rutadeleyendas.png"
           },
           {
             "titulo": "Visita familiar",
             "descripcion": "Version didactica con paradas breves, preguntas y claves sencillas para ninos y adultos.",
             "proveedor": "Familias Viajeras",
             "contacto": "familias@viaje.local",
-            "horario": "11:00 - 12:30"
+            "horario": "11:00 - 12:30",
+            "imagen": "img/buenosaires_activities/teatrocolon_5_visitafamiliar.png"
           },
           {
             "titulo": "Audioguia express",
             "descripcion": "Recorrido autonomo para ver lo principal de Teatro Colon con contexto claro y sin prisas.",
             "proveedor": "Audio Travel",
             "contacto": "audio@travel.local",
-            "horario": "Durante apertura"
+            "horario": "Durante apertura",
+            "imagen": "img/buenosaires_activities/teatrocolon_6_audioguiaexpress.png"
           }
         ]
       },
@@ -8928,42 +8934,48 @@
             "descripcion": "Ruta a pie por calles, plazas y rincones cotidianos para entender el caracter de Caminito.",
             "proveedor": "Walks Buenos Aires",
             "contacto": "walks@buenosaires.local",
-            "horario": "10:30 - 12:30"
+            "horario": "10:30 - 12:30",
+            "imagen": "img/buenosaires_activities/caminito_1_paseodebarrio.png"
           },
           {
             "titulo": "Ruta gastronomica local",
             "descripcion": "Paradas escogidas para probar sabores representativos y conocer pequenos comercios de la zona.",
             "proveedor": "Sabores de Buenos Aires",
             "contacto": "sabores@buenosaires.local",
-            "horario": "13:00 - 15:00"
+            "horario": "13:00 - 15:00",
+            "imagen": "img/buenosaires_activities/caminito_2_rutagastronomicalocal.png"
           },
           {
             "titulo": "Fotografia urbana",
             "descripcion": "Paseo para buscar fachadas, mercados, escenas de calle y detalles con personalidad.",
             "proveedor": "Photo Walk Buenos Aires",
             "contacto": "foto@buenosaireswalk.local",
-            "horario": "Atardecer"
+            "horario": "Atardecer",
+            "imagen": "img/buenosaires_activities/caminito_3_fotografiaurbana.png"
           },
           {
             "titulo": "Historias del vecindario",
             "descripcion": "Relato guiado sobre cambios urbanos, vida local y memoria del barrio.",
             "proveedor": "Cronicas Buenos Aires",
             "contacto": "cronicas@buenosaires.local",
-            "horario": "17:00 - 18:30"
+            "horario": "17:00 - 18:30",
+            "imagen": "img/buenosaires_activities/caminito_4_historiasdelvecindario.png"
           },
           {
             "titulo": "Compras con guia local",
             "descripcion": "Seleccion de tiendas, talleres y productos con criterio local y sin prisas.",
             "proveedor": "Local Shops Buenos Aires",
             "contacto": "shops@buenosaires.local",
-            "horario": "11:00 - 13:00"
+            "horario": "11:00 - 13:00",
+            "imagen": "img/buenosaires_activities/caminito_5_comprasconguialocal.png"
           },
           {
             "titulo": "Noche de ambiente",
             "descripcion": "Recorrido suave por bares, plazas y locales recomendados para tomar el pulso nocturno.",
             "proveedor": "After Dark Buenos Aires",
             "contacto": "noche@buenosaires.local",
-            "horario": "20:00 - 22:00"
+            "horario": "20:00 - 22:00",
+            "imagen": "img/buenosaires_activities/caminito_6_nochedeambiente.png"
           }
         ]
       },
@@ -8991,42 +9003,48 @@
             "descripcion": "Ruta a pie por calles, plazas y rincones cotidianos para entender el caracter de Recoleta.",
             "proveedor": "Walks Buenos Aires",
             "contacto": "walks@buenosaires.local",
-            "horario": "10:30 - 12:30"
+            "horario": "10:30 - 12:30",
+            "imagen": "img/buenosaires_activities/recoleta_1_paseodebarrio.png"
           },
           {
             "titulo": "Ruta gastronomica local",
             "descripcion": "Paradas escogidas para probar sabores representativos y conocer pequenos comercios de la zona.",
             "proveedor": "Sabores de Buenos Aires",
             "contacto": "sabores@buenosaires.local",
-            "horario": "13:00 - 15:00"
+            "horario": "13:00 - 15:00",
+            "imagen": "img/buenosaires_activities/recoleta_2_rutagastronomicalocal.png"
           },
           {
             "titulo": "Fotografia urbana",
             "descripcion": "Paseo para buscar fachadas, mercados, escenas de calle y detalles con personalidad.",
             "proveedor": "Photo Walk Buenos Aires",
             "contacto": "foto@buenosaireswalk.local",
-            "horario": "Atardecer"
+            "horario": "Atardecer",
+            "imagen": "img/buenosaires_activities/recoleta_3_fotografiaurbana.png"
           },
           {
             "titulo": "Historias del vecindario",
             "descripcion": "Relato guiado sobre cambios urbanos, vida local y memoria del barrio.",
             "proveedor": "Cronicas Buenos Aires",
             "contacto": "cronicas@buenosaires.local",
-            "horario": "17:00 - 18:30"
+            "horario": "17:00 - 18:30",
+            "imagen": "img/buenosaires_activities/recoleta_4_historiasdelvecindario.png"
           },
           {
             "titulo": "Compras con guia local",
             "descripcion": "Seleccion de tiendas, talleres y productos con criterio local y sin prisas.",
             "proveedor": "Local Shops Buenos Aires",
             "contacto": "shops@buenosaires.local",
-            "horario": "11:00 - 13:00"
+            "horario": "11:00 - 13:00",
+            "imagen": "img/buenosaires_activities/recoleta_5_comprasconguialocal.png"
           },
           {
             "titulo": "Noche de ambiente",
             "descripcion": "Recorrido suave por bares, plazas y locales recomendados para tomar el pulso nocturno.",
             "proveedor": "After Dark Buenos Aires",
             "contacto": "noche@buenosaires.local",
-            "horario": "20:00 - 22:00"
+            "horario": "20:00 - 22:00",
+            "imagen": "img/buenosaires_activities/recoleta_6_nochedeambiente.png"
           }
         ]
       },
@@ -9054,42 +9072,48 @@
             "descripcion": "Recorrido guiado por Avenida 9 de Julio para conectar arquitectura, personajes y momentos clave de Buenos Aires.",
             "proveedor": "Historia Viva Buenos Aires",
             "contacto": "reservas@historiabuenosaires.local",
-            "horario": "10:00 - 12:00"
+            "horario": "10:00 - 12:00",
+            "imagen": "img/buenosaires_activities/avenida9dejulio_1_tourhistoricoesencial.png"
           },
           {
             "titulo": "Acceso con contexto local",
             "descripcion": "Visita pausada con explicaciones practicas para comprender por que este lugar sigue siendo imprescindible.",
             "proveedor": "Guias Locales Buenos Aires",
             "contacto": "hola@buenosaireslocal.local",
-            "horario": "12:00 - 14:00"
+            "horario": "12:00 - 14:00",
+            "imagen": "img/buenosaires_activities/avenida9dejulio_2_accesoconcontextolocal.png"
           },
           {
             "titulo": "Paseo fotografico",
             "descripcion": "Itinerario para capturar fachadas, perspectivas y detalles con la mejor luz disponible.",
             "proveedor": "Photo Walk Buenos Aires",
             "contacto": "foto@buenosaireswalk.local",
-            "horario": "Atardecer"
+            "horario": "Atardecer",
+            "imagen": "img/buenosaires_activities/avenida9dejulio_3_paseofotografico.png"
           },
           {
             "titulo": "Ruta de leyendas",
             "descripcion": "Historias, simbolos y anecdotas alrededor de Avenida 9 de Julio, con tono narrativo y facil de seguir.",
             "proveedor": "Relatos de Buenos Aires",
             "contacto": "relatos@buenosaires.local",
-            "horario": "18:00 - 19:30"
+            "horario": "18:00 - 19:30",
+            "imagen": "img/buenosaires_activities/avenida9dejulio_4_rutadeleyendas.png"
           },
           {
             "titulo": "Visita familiar",
             "descripcion": "Version didactica con paradas breves, preguntas y claves sencillas para ninos y adultos.",
             "proveedor": "Familias Viajeras",
             "contacto": "familias@viaje.local",
-            "horario": "11:00 - 12:30"
+            "horario": "11:00 - 12:30",
+            "imagen": "img/buenosaires_activities/avenida9dejulio_5_visitafamiliar.png"
           },
           {
             "titulo": "Audioguia express",
             "descripcion": "Recorrido autonomo para ver lo principal de Avenida 9 de Julio con contexto claro y sin prisas.",
             "proveedor": "Audio Travel",
             "contacto": "audio@travel.local",
-            "horario": "Durante apertura"
+            "horario": "Durante apertura",
+            "imagen": "img/buenosaires_activities/avenida9dejulio_6_audioguiaexpress.png"
           }
         ]
       },
@@ -9117,42 +9141,48 @@
             "descripcion": "Ruta a pie por calles, plazas y rincones cotidianos para entender el caracter de Puerto Madero.",
             "proveedor": "Walks Buenos Aires",
             "contacto": "walks@buenosaires.local",
-            "horario": "10:30 - 12:30"
+            "horario": "10:30 - 12:30",
+            "imagen": "img/buenosaires_activities/puertomadero_1_paseodebarrio.png"
           },
           {
             "titulo": "Ruta gastronomica local",
             "descripcion": "Paradas escogidas para probar sabores representativos y conocer pequenos comercios de la zona.",
             "proveedor": "Sabores de Buenos Aires",
             "contacto": "sabores@buenosaires.local",
-            "horario": "13:00 - 15:00"
+            "horario": "13:00 - 15:00",
+            "imagen": "img/buenosaires_activities/puertomadero_2_rutagastronomicalocal.png"
           },
           {
             "titulo": "Fotografia urbana",
             "descripcion": "Paseo para buscar fachadas, mercados, escenas de calle y detalles con personalidad.",
             "proveedor": "Photo Walk Buenos Aires",
             "contacto": "foto@buenosaireswalk.local",
-            "horario": "Atardecer"
+            "horario": "Atardecer",
+            "imagen": "img/buenosaires_activities/puertomadero_3_fotografiaurbana.png"
           },
           {
             "titulo": "Historias del vecindario",
             "descripcion": "Relato guiado sobre cambios urbanos, vida local y memoria del barrio.",
             "proveedor": "Cronicas Buenos Aires",
             "contacto": "cronicas@buenosaires.local",
-            "horario": "17:00 - 18:30"
+            "horario": "17:00 - 18:30",
+            "imagen": "img/buenosaires_activities/puertomadero_4_historiasdelvecindario.png"
           },
           {
             "titulo": "Compras con guia local",
             "descripcion": "Seleccion de tiendas, talleres y productos con criterio local y sin prisas.",
             "proveedor": "Local Shops Buenos Aires",
             "contacto": "shops@buenosaires.local",
-            "horario": "11:00 - 13:00"
+            "horario": "11:00 - 13:00",
+            "imagen": "img/buenosaires_activities/puertomadero_5_comprasconguialocal.png"
           },
           {
             "titulo": "Noche de ambiente",
             "descripcion": "Recorrido suave por bares, plazas y locales recomendados para tomar el pulso nocturno.",
             "proveedor": "After Dark Buenos Aires",
             "contacto": "noche@buenosaires.local",
-            "horario": "20:00 - 22:00"
+            "horario": "20:00 - 22:00",
+            "imagen": "img/buenosaires_activities/puertomadero_6_nochedeambiente.png"
           }
         ]
       },
@@ -9180,42 +9210,48 @@
             "descripcion": "Recorrido guiado por El Ateneo Grand Splendid para conectar arquitectura, personajes y momentos clave de Buenos Aires.",
             "proveedor": "Historia Viva Buenos Aires",
             "contacto": "reservas@historiabuenosaires.local",
-            "horario": "10:00 - 12:00"
+            "horario": "10:00 - 12:00",
+            "imagen": "img/buenosaires_activities/elateneograndsplendid_1_tourhistoricoesencial.png"
           },
           {
             "titulo": "Acceso con contexto local",
             "descripcion": "Visita pausada con explicaciones practicas para comprender por que este lugar sigue siendo imprescindible.",
             "proveedor": "Guias Locales Buenos Aires",
             "contacto": "hola@buenosaireslocal.local",
-            "horario": "12:00 - 14:00"
+            "horario": "12:00 - 14:00",
+            "imagen": "img/buenosaires_activities/elateneograndsplendid_2_accesoconcontextolocal.png"
           },
           {
             "titulo": "Paseo fotografico",
             "descripcion": "Itinerario para capturar fachadas, perspectivas y detalles con la mejor luz disponible.",
             "proveedor": "Photo Walk Buenos Aires",
             "contacto": "foto@buenosaireswalk.local",
-            "horario": "Atardecer"
+            "horario": "Atardecer",
+            "imagen": "img/buenosaires_activities/elateneograndsplendid_3_paseofotografico.png"
           },
           {
             "titulo": "Ruta de leyendas",
             "descripcion": "Historias, simbolos y anecdotas alrededor de El Ateneo Grand Splendid, con tono narrativo y facil de seguir.",
             "proveedor": "Relatos de Buenos Aires",
             "contacto": "relatos@buenosaires.local",
-            "horario": "18:00 - 19:30"
+            "horario": "18:00 - 19:30",
+            "imagen": "img/buenosaires_activities/elateneograndsplendid_4_rutadeleyendas.png"
           },
           {
             "titulo": "Visita familiar",
             "descripcion": "Version didactica con paradas breves, preguntas y claves sencillas para ninos y adultos.",
             "proveedor": "Familias Viajeras",
             "contacto": "familias@viaje.local",
-            "horario": "11:00 - 12:30"
+            "horario": "11:00 - 12:30",
+            "imagen": "img/buenosaires_activities/elateneograndsplendid_5_visitafamiliar.png"
           },
           {
             "titulo": "Audioguia express",
             "descripcion": "Recorrido autonomo para ver lo principal de El Ateneo Grand Splendid con contexto claro y sin prisas.",
             "proveedor": "Audio Travel",
             "contacto": "audio@travel.local",
-            "horario": "Durante apertura"
+            "horario": "Durante apertura",
+            "imagen": "img/buenosaires_activities/elateneograndsplendid_6_audioguiaexpress.png"
           }
         ]
       },
@@ -9243,42 +9279,48 @@
             "descripcion": "Ruta a pie por calles, plazas y rincones cotidianos para entender el caracter de San Telmo.",
             "proveedor": "Walks Buenos Aires",
             "contacto": "walks@buenosaires.local",
-            "horario": "10:30 - 12:30"
+            "horario": "10:30 - 12:30",
+            "imagen": "img/buenosaires_activities/santelmo_1_paseodebarrio.png"
           },
           {
             "titulo": "Ruta gastronomica local",
             "descripcion": "Paradas escogidas para probar sabores representativos y conocer pequenos comercios de la zona.",
             "proveedor": "Sabores de Buenos Aires",
             "contacto": "sabores@buenosaires.local",
-            "horario": "13:00 - 15:00"
+            "horario": "13:00 - 15:00",
+            "imagen": "img/buenosaires_activities/santelmo_2_rutagastronomicalocal.png"
           },
           {
             "titulo": "Fotografia urbana",
             "descripcion": "Paseo para buscar fachadas, mercados, escenas de calle y detalles con personalidad.",
             "proveedor": "Photo Walk Buenos Aires",
             "contacto": "foto@buenosaireswalk.local",
-            "horario": "Atardecer"
+            "horario": "Atardecer",
+            "imagen": "img/buenosaires_activities/santelmo_3_fotografiaurbana.png"
           },
           {
             "titulo": "Historias del vecindario",
             "descripcion": "Relato guiado sobre cambios urbanos, vida local y memoria del barrio.",
             "proveedor": "Cronicas Buenos Aires",
             "contacto": "cronicas@buenosaires.local",
-            "horario": "17:00 - 18:30"
+            "horario": "17:00 - 18:30",
+            "imagen": "img/buenosaires_activities/santelmo_4_historiasdelvecindario.png"
           },
           {
             "titulo": "Compras con guia local",
             "descripcion": "Seleccion de tiendas, talleres y productos con criterio local y sin prisas.",
             "proveedor": "Local Shops Buenos Aires",
             "contacto": "shops@buenosaires.local",
-            "horario": "11:00 - 13:00"
+            "horario": "11:00 - 13:00",
+            "imagen": "img/buenosaires_activities/santelmo_5_comprasconguialocal.png"
           },
           {
             "titulo": "Noche de ambiente",
             "descripcion": "Recorrido suave por bares, plazas y locales recomendados para tomar el pulso nocturno.",
             "proveedor": "After Dark Buenos Aires",
             "contacto": "noche@buenosaires.local",
-            "horario": "20:00 - 22:00"
+            "horario": "20:00 - 22:00",
+            "imagen": "img/buenosaires_activities/santelmo_6_nochedeambiente.png"
           }
         ]
       },
@@ -9306,42 +9348,48 @@
             "descripcion": "Ruta a pie por calles, plazas y rincones cotidianos para entender el caracter de Palermo.",
             "proveedor": "Walks Buenos Aires",
             "contacto": "walks@buenosaires.local",
-            "horario": "10:30 - 12:30"
+            "horario": "10:30 - 12:30",
+            "imagen": "img/buenosaires_activities/palermo_1_paseodebarrio.png"
           },
           {
             "titulo": "Ruta gastronomica local",
             "descripcion": "Paradas escogidas para probar sabores representativos y conocer pequenos comercios de la zona.",
             "proveedor": "Sabores de Buenos Aires",
             "contacto": "sabores@buenosaires.local",
-            "horario": "13:00 - 15:00"
+            "horario": "13:00 - 15:00",
+            "imagen": "img/buenosaires_activities/palermo_2_rutagastronomicalocal.png"
           },
           {
             "titulo": "Fotografia urbana",
             "descripcion": "Paseo para buscar fachadas, mercados, escenas de calle y detalles con personalidad.",
             "proveedor": "Photo Walk Buenos Aires",
             "contacto": "foto@buenosaireswalk.local",
-            "horario": "Atardecer"
+            "horario": "Atardecer",
+            "imagen": "img/buenosaires_activities/palermo_3_fotografiaurbana.png"
           },
           {
             "titulo": "Historias del vecindario",
             "descripcion": "Relato guiado sobre cambios urbanos, vida local y memoria del barrio.",
             "proveedor": "Cronicas Buenos Aires",
             "contacto": "cronicas@buenosaires.local",
-            "horario": "17:00 - 18:30"
+            "horario": "17:00 - 18:30",
+            "imagen": "img/buenosaires_activities/palermo_4_historiasdelvecindario.png"
           },
           {
             "titulo": "Compras con guia local",
             "descripcion": "Seleccion de tiendas, talleres y productos con criterio local y sin prisas.",
             "proveedor": "Local Shops Buenos Aires",
             "contacto": "shops@buenosaires.local",
-            "horario": "11:00 - 13:00"
+            "horario": "11:00 - 13:00",
+            "imagen": "img/buenosaires_activities/palermo_5_comprasconguialocal.png"
           },
           {
             "titulo": "Noche de ambiente",
             "descripcion": "Recorrido suave por bares, plazas y locales recomendados para tomar el pulso nocturno.",
             "proveedor": "After Dark Buenos Aires",
             "contacto": "noche@buenosaires.local",
-            "horario": "20:00 - 22:00"
+            "horario": "20:00 - 22:00",
+            "imagen": "img/buenosaires_activities/palermo_6_nochedeambiente.png"
           }
         ]
       },
@@ -9369,42 +9417,48 @@
             "descripcion": "Recorrido guiado por Floralis Generica para conectar arquitectura, personajes y momentos clave de Buenos Aires.",
             "proveedor": "Historia Viva Buenos Aires",
             "contacto": "reservas@historiabuenosaires.local",
-            "horario": "10:00 - 12:00"
+            "horario": "10:00 - 12:00",
+            "imagen": "img/buenosaires_activities/floralisgenerica_1_tourhistoricoesencial.png"
           },
           {
             "titulo": "Acceso con contexto local",
             "descripcion": "Visita pausada con explicaciones practicas para comprender por que este lugar sigue siendo imprescindible.",
             "proveedor": "Guias Locales Buenos Aires",
             "contacto": "hola@buenosaireslocal.local",
-            "horario": "12:00 - 14:00"
+            "horario": "12:00 - 14:00",
+            "imagen": "img/buenosaires_activities/floralisgenerica_2_accesoconcontextolocal.png"
           },
           {
             "titulo": "Paseo fotografico",
             "descripcion": "Itinerario para capturar fachadas, perspectivas y detalles con la mejor luz disponible.",
             "proveedor": "Photo Walk Buenos Aires",
             "contacto": "foto@buenosaireswalk.local",
-            "horario": "Atardecer"
+            "horario": "Atardecer",
+            "imagen": "img/buenosaires_activities/floralisgenerica_3_paseofotografico.png"
           },
           {
             "titulo": "Ruta de leyendas",
             "descripcion": "Historias, simbolos y anecdotas alrededor de Floralis Generica, con tono narrativo y facil de seguir.",
             "proveedor": "Relatos de Buenos Aires",
             "contacto": "relatos@buenosaires.local",
-            "horario": "18:00 - 19:30"
+            "horario": "18:00 - 19:30",
+            "imagen": "img/buenosaires_activities/floralisgenerica_4_rutadeleyendas.png"
           },
           {
             "titulo": "Visita familiar",
             "descripcion": "Version didactica con paradas breves, preguntas y claves sencillas para ninos y adultos.",
             "proveedor": "Familias Viajeras",
             "contacto": "familias@viaje.local",
-            "horario": "11:00 - 12:30"
+            "horario": "11:00 - 12:30",
+            "imagen": "img/buenosaires_activities/floralisgenerica_5_visitafamiliar.png"
           },
           {
             "titulo": "Audioguia express",
             "descripcion": "Recorrido autonomo para ver lo principal de Floralis Generica con contexto claro y sin prisas.",
             "proveedor": "Audio Travel",
             "contacto": "audio@travel.local",
-            "horario": "Durante apertura"
+            "horario": "Durante apertura",
+            "imagen": "img/buenosaires_activities/floralisgenerica_6_audioguiaexpress.png"
           }
         ]
       }
