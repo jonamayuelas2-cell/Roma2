@@ -232,6 +232,13 @@ body {
   gap: 12px;
 }
 
+.disabled-group {
+  opacity: 0.4;
+  filter: grayscale(1);
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
 .toggle-item {
   display: flex;
   align-items: center;

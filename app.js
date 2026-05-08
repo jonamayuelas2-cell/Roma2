@@ -7,10 +7,10 @@ const state = {
     cities: [],
     cruises: [],
     activeFilters: {
-        continents: ["Europa", "Asia", "Africa", "America", "Oceania"],
-        showCities: true,
+        continents: [],
+        showCities: false,
         showCruises: false,
-        cruiseRegion: "Caribe"
+        cruiseRegions: []
     },
     currentCity: null,
     places: [],
@@ -174,7 +174,7 @@ function initGlobe() {
 
         // Obtener cruceros activos
         const activeCruises = state.activeFilters.showCruises 
-            ? state.cruises.filter(c => c.region === state.activeFilters.cruiseRegion).slice(0, 10)
+            ? state.cruises.filter(c => state.activeFilters.cruiseRegions.includes(c.region)).slice(0, 10)
             : [];
 
         // Combinar paradas de cruceros con ciudades (si activo)
@@ -274,7 +274,7 @@ function setupGlobeFilters() {
     const continentsSub = document.getElementById('continents-sub-options');
     const cruiseRegions = document.getElementById('cruise-regions');
     const continentChecks = continentsSub.querySelectorAll('input');
-    const regionRadios = cruiseRegions.querySelectorAll('input');
+    const regionChecks = cruiseRegions.querySelectorAll('input');
 
     const updateFilterVisuals = () => {
         // Ciudades
@@ -283,7 +283,7 @@ function setupGlobeFilters() {
         
         // Cruceros
         cruiseRegions.classList.toggle('disabled-group', !cruiseToggle.checked);
-        regionRadios.forEach(i => i.disabled = !cruiseToggle.checked);
+        regionChecks.forEach(i => i.disabled = !cruiseToggle.checked);
     };
 
     citiesToggle.addEventListener('change', () => {
@@ -319,9 +319,11 @@ function setupGlobeFilters() {
         window.refreshGlobe();
     });
 
-    regionRadios.forEach(radio => {
-        radio.addEventListener('change', () => {
-            state.activeFilters.cruiseRegion = radio.value;
+    regionChecks.forEach(check => {
+        check.addEventListener('change', () => {
+            state.activeFilters.cruiseRegions = Array.from(regionChecks)
+                .filter(c => c.checked)
+                .map(c => c.value);
             window.refreshGlobe();
         });
     });
@@ -330,12 +332,11 @@ function setupGlobeFilters() {
     updateFilterVisuals();
 }
 
-    // Exponer refreshGlobe para el contexto
-    window.refreshGlobe = () => {
-        const refreshFunc = window.triggerRefresh;
-        if (refreshFunc) refreshFunc();
-    };
-}
+// Exponer refreshGlobe para el contexto
+window.refreshGlobe = () => {
+    const refreshFunc = window.triggerRefresh;
+    if (refreshFunc) refreshFunc();
+};
 
 function animateShips(activeCruises) {
     const ships = activeCruises.map(c => ({

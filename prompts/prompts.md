@@ -32,7 +32,17 @@
 
 **Objetivo:** Mantener todos los filtros visibles pero deshabilitar visualmente (`grayscale`, `opacity`) y funcionalmente (`disabled`) aquellos que no pertenezcan al grupo activo.
 
+### Prompt 7: Mapamundi Vacío al Inicio y Refinamiento de Lógica Excluyente
+**Usuario:** "no funciona.vamos a definirlo de nuevo. de inicio mapamundi sin ciudades. si activo continentes permitirá habilitar los continentes que quiera. y deshabilitará cruceros y cada uno de las áreas de cruceros. Si habilito cruceros permitirá habilitar cualquier zona y deshabilitará continentes y cada uno de los continentes. POor cierto el mapamundi ahora no aparece"
+
+**Objetivo:** Reiniciar el estado del mapa a vacío, corregir errores de visualización del globo y asegurar que la exclusividad entre grupos de filtros sea total y afecte tanto al grupo como a sus sub-opciones individuales.
+
+### Prompt 8: Deshabilitación por Defecto de Sub-opciones
+**Usuario:** "igual que resto de zonas Caribe debe aparecer deshabilitado. Al habilitar continentes no se deben habilitar cada uno de ellos a no ser que se active manualmente. Igual pasa con las zonas de cruceros"
+
+**Objetivo:** Garantizar que al activar un grupo principal (Ciudades o Cruceros), ninguna sub-opción se active automáticamente. El usuario debe elegir específicamente qué continentes o zonas de crucero quiere ver. Además, unificar el comportamiento de "El Caribe" con el resto de zonas.
+
 ### Acciones Realizadas:
-1.  **Lógica JS**: Refactorizada la función `updateFilterVisuals` para aplicar el atributo `disabled` a todos los inputs del grupo inactivo.
-2.  **CSS**: Añadida la clase `.disabled-group` que aplica `grayscale(1)` y `opacity: 0.4` para un feedback visual claro.
-3.  **HTML**: Eliminadas las clases `hidden` para que las opciones estén siempre presentes.
+1.  **HTML**: Eliminado el atributo `checked` de todos los continentes y regiones de crucero.
+2.  **Conversión a Checkboxes**: Cambiadas las regiones de crucero de `radio` a `checkbox` para permitir selección múltiple manual y estado inicial "todo apagado".
+3.  **Lógica JS**: Actualizado el estado inicial a arrays vacíos y ajustado el filtrado para soportar múltiples regiones simultáneas.

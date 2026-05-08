@@ -20,8 +20,16 @@ Se ha implementado una experiencia de navegación jerárquica para los cruceros 
 - **Parallax de Buque**: La imagen del barco en la cabecera reacciona al movimiento del ratón.
 - **Efectos Premium**: Animaciones de flotación para estadísticas, efecto de brillo (shimmer) en barras de progreso y transiciones `flyTo` cinemáticas en los mapas.
 
-### 4. Mejoras Técnicas 🛠️
+### 4. Sistema de Filtros Exclusivos 🛡️🆚
+- **Exclusividad Total**: Implementada lógica "Continentes vs Cruceros". Activar uno deshabilita completamente el otro para evitar ruido visual.
+- **Control Manual Granular**: Las sub-opciones (continentes y zonas de crucero) inician siempre deshabilitadas. El usuario debe activarlas una a una tras habilitar el grupo principal.
+- **Multiselección de Cruceros**: Las regiones de crucero ahora son checkboxes, permitiendo ver múltiples zonas (ej. Caribe + Mediterráneo) simultáneamente si se desea.
+- **Estado Inicial Limpio**: El mapamundi inicia vacío y con todas las opciones desmarcadas.
+- **Feedback Visual de Estado**: Uso de la clase `.disabled-group` para atenuar y bloquear interacciones en los filtros inactivos.
+
+### 5. Mejoras Técnicas y Estabilidad 🛠️
 - **Sincronización de Globo**: Unificada la función de refresco del globo para evitar inconsistencias en los filtros.
+- **Reparación de Layout**: Corregido error en la estructura del DOM que impedía la visualización correcta del globo 3D.
 - **Leaflet Avanzado**: Mapas de puerto con marcadores pulsantes y capas de profundidad visual.
 
 ---
