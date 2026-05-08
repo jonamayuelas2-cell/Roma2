@@ -213,25 +213,22 @@ function initGlobe() {
             return el;
         });
 
-        // Dibujar rutas de cruceros (arcos)
-        const cruiseArcs = [];
-        activeCruises.forEach(cruise => {
-            for (let i = 0; i < cruise.ruta.length - 1; i++) {
-                cruiseArcs.push({
-                    startLat: cruise.ruta[i].lat,
-                    startLng: cruise.ruta[i].lng,
-                    endLat: cruise.ruta[i+1].lat,
-                    endLng: cruise.ruta[i+1].lng,
-                    color: '#38bdf8'
-                });
-            }
-        });
+        // Dibujar rutas de cruceros (Rutas en superficie para barcos)
+        const cruisePaths = activeCruises.map(cruise => ({
+            path: cruise.ruta.map(p => [p.lat, p.lng]),
+            name: cruise.nombre,
+            color: '#38bdf8'
+        }));
 
-        callGlobe('arcsData', cruiseArcs);
-        callGlobe('arcColor', 'color');
-        callGlobe('arcDashLength', 0.4);
-        callGlobe('arcDashGap', 1);
-        callGlobe('arcDashAnimateTime', 2000);
+        callGlobe('pathsData', cruisePaths);
+        callGlobe('pathColor', () => '#38bdf8');
+        callGlobe('pathDashLength', 0.01);
+        callGlobe('pathDashGap', 0.005);
+        callGlobe('pathDashAnimateTime', 12000);
+        callGlobe('pathStroke', 2);
+        
+        // Limpiar arcos si existían
+        callGlobe('arcsData', []);
 
         // Animación de barcos
         if (state.activeFilters.showCruises) {
@@ -301,28 +298,54 @@ function animateShips(activeCruises) {
 
     callGlobe('customLayerData', ships);
     callGlobe('customLayerElement', d => {
-        const el = document.createElement('div');
-        el.innerHTML = '🚢';
-        el.style.fontSize = '24px';
-        el.style.filter = 'drop-shadow(0 0 5px rgba(56, 189, 248, 0.8))';
-        return el;
+        const container = document.createElement('div');
+        container.className = 'ship-animation-container';
+        
+        const ship = document.createElement('div');
+        ship.className = 'ship-icon';
+        ship.innerHTML = '🚢';
+        
+        const wake = document.createElement('div');
+        wake.className = 'ship-wake';
+        
+        container.appendChild(wake);
+        container.appendChild(ship);
+        return container;
     });
 
     if (window.shipInterval) clearInterval(window.shipInterval);
     window.shipInterval = setInterval(() => {
         ships.forEach(s => {
-            s.t += 0.02;
+            // Velocidad variable según el tramo (opcional, aquí constante)
+            s.t += 0.008; 
+            
             if (s.t >= 1) {
                 s.t = 0;
                 s.index = (s.index + 1) % (s.cruise.ruta.length - 1);
             }
+            
             const start = s.cruise.ruta[s.index];
             const end = s.cruise.ruta[s.index + 1];
+            
+            // Interpolación esférica simplificada (Lerp en lat/lng es aceptable para distancias de crucero)
             s.lat = start.lat + (end.lat - start.lat) * s.t;
             s.lng = start.lng + (end.lng - start.lng) * s.t;
+            
+            // Cálculo de rotación (rumbo)
+            const angle = Math.atan2(end.lat - start.lat, end.lng - start.lng) * (180 / Math.PI);
+            s.rotation = 90 - angle; // Ajustar según el emoji
         });
+        
         callGlobe('customLayerData', ships);
-    }, 100);
+        
+        // Actualizar rotación en el DOM si es necesario (el customLayerElement se encarga de posicionar)
+        const shipElements = document.querySelectorAll('.ship-icon');
+        ships.forEach((s, i) => {
+            if (shipElements[i]) {
+                shipElements[i].style.transform = `rotate(${s.rotation}deg)`;
+            }
+        });
+    }, 50);
 }
 
 function ensureGlobeLibrary() {

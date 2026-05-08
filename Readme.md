@@ -1,5 +1,21 @@
 # Registro de Cambios - TravelWorld PWA 🌍🛳️
 
+## [2026-05-08 - Iteración 3] - Escalas de Crucero y Simulación de Tránsito 🛳️🌊🗺️
+
+### Añadido 🆕
+- **Detalle Total de Escalas**: Los cruceros ahora muestran todas las ciudades de escala en el mapa, no solo el origen y destino.
+- **Micro-itinerarios**: Cada parada de crucero es interactiva y cuenta con su propia galería, clima y actividades sugeridas.
+- **Rutas de Superficie (Paths)**: Sustitución de arcos aéreos por rutas marítimas realistas sobre la superficie del océano.
+- **Simulación Náutica Avanzada**:
+    - Animación del barco con rotación automática según el rumbo.
+    - Efecto visual de estela (wake) bajo el barco para simular el desplazamiento sobre el agua.
+    - Sincronización precisa entre la ruta visual y la posición del barco.
+
+### Modificado 🛠️
+- **Dataset Enriquecido**: Actualización de `cruises.json` con datos detallados para más de 15 nuevas ciudades de escala en el Mediterráneo, Fiordos y Caribe.
+- **Lógica de Renderizado**: Optimización de `app.js` para gestionar múltiples puntos de interés dinámicamente.
+- **Estilos Premium**: Añadidos efectos de neón y degradados para las rutas marítimas.
+
 ## [2026-05-08 - Iteración 2] - Rediseño Premium y Limpieza de Datos
 
 ### Añadido 🆕

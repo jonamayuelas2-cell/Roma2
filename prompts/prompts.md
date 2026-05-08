@@ -14,5 +14,8 @@
 ### Prompt 4: Rediseño Premium y Consolidación de Continentes
 > "elimina continente Eurasia, dejando solo los 5 continentes existente. quita el recuadro de las ciudades del mapamundi y dela solo el circulo. Pon el circulo en otro color de las ciudades que son puntos de atraque de un crucero. En la selección de cruceros pon primero El Caribe y utiliza también botonoes on/off para cada uno de ellos.. La ventana que has creado con la activación de continentes y cruceros debe tener una apariencia mucho más vistosa y atractiva"
 
+### Prompt 5: Detalle de Escalas y Recorrido Animado
+> "en los cruceros no solamente debe aparecer la ciudad origen/destion del crucero, sino todas las ciudades donde se hace escala. y pintar recorrido de cada uno de los puntos, simulando el transito del barco entre cada ciudad"
+
 ---
 *Nota: Los prompts han sido ejecutados integrando lógica de Globe.gl y CSS premium.*
