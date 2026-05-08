@@ -31,23 +31,16 @@ function assetUrl(src) {
 
 // ══ INICIALIZACIÓN ══════════════════════════════════════════
 
-document.addEventListener('DOMContentLoaded', async () => {
+document.addEventListener('DOMContentLoaded', () => {
     console.log('🚀 Iniciando TravelWorld PWA...');
-    try {
-        await loadCities();
-        console.log(`✅ ${state.cities.length} ciudades cargadas.`);
-        
-        await Promise.all([
-            loadCountryPolygons(),
-            ensureGlobeLibrary()
-        ]);
-        
-        initGlobe();
-        setupEventListeners();
-        console.log('✨ Aplicación lista.');
-    } catch (err) {
-        console.error('❌ Error crítico en el arranque:', err);
-    }
+    loadCities().then(() => {
+        ensureGlobeLibrary().then(() => {
+            initGlobe();
+            setupEventListeners();
+        });
+    });
+    // Fronteras no bloqueantes
+    loadCountryPolygons();
 });
 
 // ══ CARGA DE DATOS ══════════════════════════════════════════
@@ -57,8 +50,13 @@ async function loadCities() {
         console.log('📦 Solicitando cities.json...');
         const response = await fetch(`cities.json?v=${Date.now()}`, { cache: 'no-store' });
         if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
-        state.cities = await response.json();
-        console.log('📍 Datos de ciudades obtenidos correctamente');
+        const data = await response.json();
+        state.cities = data.map(c => ({
+            ...c,
+            lat: Number(c.lat),
+            lng: Number(c.lng)
+        }));
+        console.log('📍 Datos de ciudades obtenidos y normalizados');
         updateSelectionStats();
     } catch (error) {
         console.error('Error cargando ciudades:', error);
@@ -139,84 +137,48 @@ function initGlobe() {
         controls.enableDamping = true;
     }
 
-    // Retardo para asegurar que el contenedor tiene dimensiones y el canvas está listo
-    setTimeout(() => {
-        console.log('📍 Inyectando marcadores en el globo...');
+    // Función para refrescar datos de forma segura
+    const refreshData = () => {
+        if (!state.globe || state.cities.length === 0) return;
+        console.log('📍 Aplicando datos al globo...');
+        
         state.globe
-            // Configuración de puntos (Ciudades)
             .pointsData(state.cities)
-            .pointLat(d => d.lat)
-            .pointLng(d => d.lng)
-            .pointAltitude(0.01)
-            .pointRadius(1.2) // Un poco más grandes
+            .pointAltitude(0.02)
+            .pointRadius(1.5)
             .pointColor(() => '#ffdf5d')
             
-            // Anillos pulsantes
-            .ringsData(state.cities)
-            .ringLat(d => d.lat)
-            .ringLng(d => d.lng)
-            .ringColor(() => t => `rgba(255, 223, 93, ${0.8 * (1 - t)})`)
-            .ringMaxRadius(5)
-            .ringPropagationSpeed(1.5)
-            .ringRepeatPeriod(2000)
-            
-            // Arcos
-            .arcsData(buildGlobeArcs())
-            .arcStartLat(d => d.startLat)
-            .arcStartLng(d => d.startLng)
-            .arcEndLat(d => d.endLat)
-            .arcEndLng(d => d.endLng)
-            .arcColor(() => ['rgba(125,228,255,0.6)', 'rgba(255,223,93,0.9)'])
-            .arcAltitudeAutoScale(0.3)
-            
-            // Fronteras
-            .polygonsData(state.countryPolygons)
-            .polygonCapColor(() => 'rgba(72, 203, 255, 0.08)')
-            .polygonSideColor(() => 'rgba(72, 203, 255, 0.05)')
-            .polygonStrokeColor(() => 'rgba(255, 255, 255, 0.2)')
-            
-            // Etiquetas
             .labelsData(state.cities)
             .labelLat(d => d.lat)
             .labelLng(d => d.lng)
             .labelText(d => d.nombre)
-            .labelSize(1.5)
-            .labelDotRadius(0.5)
+            .labelSize(2.0)
             .labelColor(() => '#ffffff')
-            .labelAltitude(0.01)
-            .onLabelClick(city => selectCity(city))
+            .labelAltitude(0.02)
 
-            // Marcadores HTML
             .htmlElementsData(state.cities)
-            .htmlLat(d => d.lat)
-            .htmlLng(d => d.lng)
-            .htmlAltitude(0.05)
             .htmlElement(d => {
                 const el = document.createElement('div');
                 el.className = 'globe-city-marker';
+                el.style.border = '3px solid #ffdf5d'; // Borde muy visible
+                el.style.borderRadius = '50%';
                 el.innerHTML = `
                     <div class="globe-thumb-container">
-                        <img src="${assetUrl(d.imagen)}" class="globe-thumb" loading="lazy" onerror="this.src='img/placeholder_city.png'">
+                        <img src="${assetUrl(d.imagen)}" class="globe-thumb" onerror="this.src='https://via.placeholder.com/64/ffdf5d/000000?text=${d.nombre[0]}'">
                         <span class="globe-emoji">${d.emoji}</span>
-                        
-                        <div class="globe-preview-panel">
-                            <img src="${assetUrl(d.imagen)}" class="preview-img" onerror="this.src='img/placeholder_city.png'">
-                            <span class="preview-name">${d.nombre}</span>
-                            <span class="preview-country">${d.pais}</span>
-                        </div>
                     </div>
                 `;
-                el.style.cursor = 'pointer';
-                el.onclick = (ev) => {
-                    ev.stopPropagation();
-                    selectCity(d);
-                };
+                el.onclick = (ev) => { ev.stopPropagation(); selectCity(d); };
                 return el;
             });
+    };
 
-        state.globe.pointOfView({ lat: 20, lng: 0, altitude: 2.5 }, 2000);
-        console.log('✅ Marcadores aplicados');
-    }, 300);
+    // Inyectar datos con retardos progresivos para asegurar el renderizado
+    setTimeout(refreshData, 100);
+    setTimeout(refreshData, 1000);
+    setTimeout(refreshData, 3000);
+
+    state.globe.pointOfView({ lat: 20, lng: 0, altitude: 2.5 }, 2000);
 }
 
 
