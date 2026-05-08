@@ -1,0 +1,133 @@
+[
+  {
+    "id": "med-clasico",
+    "nombre": "Mediterráneo Imperial",
+    "region": "Mediterraneo",
+    "imagen": "https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&fit=crop&q=80&w=800",
+    "emoji": "🛳️",
+    "ruta": [
+      {"lat": 41.3851, "lng": 2.1734, "nombre": "Barcelona"},
+      {"lat": 43.2965, "lng": 5.3698, "nombre": "Marsella"},
+      {"lat": 43.7102, "lng": 7.2620, "nombre": "Niza"},
+      {"lat": 41.8902, "lng": 12.4922, "nombre": "Civitavecchia (Roma)"},
+      {"lat": 40.8518, "lng": 14.2681, "nombre": "Nápoles"},
+      {"lat": 39.5696, "lng": 2.6502, "nombre": "Palma de Mallorca"}
+    ],
+    "paradas": [
+      {
+        "id": "stop-bcn",
+        "nombre": "Barcelona",
+        "pais": "España",
+        "continente": "Europa",
+        "emoji": "🇪🇸",
+        "lat": 41.3851,
+        "lng": 2.1734,
+        "imagen": "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&q=80&w=800",
+        "lugares": [
+          {
+            "id": 1,
+            "nombre": "Puerto de Barcelona",
+            "tipo": "vistas",
+            "descripcion": "Uno de los puertos más importantes del Mediterráneo, punto de inicio de grandes travesías.",
+            "actividades": [
+              {"titulo": "Paseo por las Ramblas", "descripcion": "Descubre la esencia de la ciudad condal.", "horario": "Todo el día"}
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stop-pmi",
+        "nombre": "Palma de Mallorca",
+        "pais": "España",
+        "continente": "Europa",
+        "emoji": "🏝️",
+        "lat": 39.5696,
+        "lng": 2.6502,
+        "imagen": "https://images.unsplash.com/photo-1516483642775-8129de216aae?auto=format&fit=crop&q=80&w=800",
+        "lugares": [
+          {
+            "id": 2,
+            "nombre": "Catedral de Santa María",
+            "tipo": "cultura",
+            "descripcion": "Espectacular catedral gótica frente al mar.",
+            "actividades": [
+              {"titulo": "Visita a la Seu", "descripcion": "Explora el interior gótico.", "horario": "10:00 - 17:00"}
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nordic-fjords",
+    "nombre": "Fiordos Legendarios",
+    "region": "Paises Nordicos",
+    "imagen": "https://images.unsplash.com/photo-1533619043845-df9bc7c32ee5?auto=format&fit=crop&q=80&w=800",
+    "emoji": "❄️",
+    "ruta": [
+      {"lat": 59.9139, "lng": 10.7522, "nombre": "Oslo"},
+      {"lat": 58.9700, "lng": 5.7331, "nombre": "Stavanger"},
+      {"lat": 60.3913, "lng": 5.3221, "nombre": "Bergen"},
+      {"lat": 62.1015, "lng": 7.2058, "nombre": "Geiranger"}
+    ],
+    "paradas": [
+      {
+        "id": "stop-oslo",
+        "nombre": "Oslo",
+        "pais": "Noruega",
+        "continente": "Europa",
+        "emoji": "🇳🇴",
+        "lat": 59.9139,
+        "lng": 10.7522,
+        "imagen": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&q=80&w=800",
+        "lugares": [
+          {
+            "id": 1,
+            "nombre": "Museo Fram",
+            "tipo": "cultura",
+            "descripcion": "Museo dedicado a las expediciones polares noruegas.",
+            "actividades": [
+              {"titulo": "Exploración Vikinga", "descripcion": "Historia de los grandes navegantes.", "horario": "10:00 - 18:00"}
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "caribe-dream",
+    "nombre": "Caribe de Ensueño",
+    "region": "Caribe",
+    "imagen": "https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&fit=crop&q=80&w=800",
+    "emoji": "🏖️",
+    "ruta": [
+      {"lat": 25.7617, "lng": -80.1918, "nombre": "Miami"},
+      {"lat": 25.0480, "lng": -77.3554, "nombre": "Nassau"},
+      {"lat": 18.4655, "lng": -66.1057, "nombre": "San Juan"},
+      {"lat": 19.1265, "lng": -70.6865, "nombre": "Puerto Plata"}
+    ],
+    "paradas": [
+      {
+        "id": "stop-miami",
+        "nombre": "Miami",
+        "pais": "USA",
+        "continente": "América del Norte",
+        "emoji": "🇺🇸",
+        "lat": 25.7617,
+        "lng": -80.1918,
+        "imagen": "https://images.unsplash.com/photo-1533106497176-45ae19e68ba2?auto=format&fit=crop&q=80&w=800",
+        "lugares": [
+          {
+            "id": 1,
+            "nombre": "South Beach",
+            "tipo": "ocio",
+            "descripcion": "Famosa playa de estilo Art Déco.",
+            "actividades": [
+              {"titulo": "Paseo por Ocean Drive", "descripcion": "Arquitectura y vida nocturna.", "horario": "24h"}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

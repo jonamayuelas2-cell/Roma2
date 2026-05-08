@@ -47,8 +47,73 @@
       </div>
     </div>
     <div id="globeViz"></div>
+    </div>
     <div id="city-info-card" class="city-info-card" style="display: none;">
       <!-- Se llena al pasar el ratón o hacer click -->
+    </div>
+
+    <!-- Panel de Controles del Globo -->
+    <div class="globe-controls-panel">
+      <div class="control-group">
+        <h3>🌍 Continentes</h3>
+        <div class="filter-options" id="continent-filters">
+          <label class="custom-checkbox">
+            <input type="checkbox" value="Europa" checked>
+            <span class="checkmark"></span> Europa
+          </label>
+          <label class="custom-checkbox">
+            <input type="checkbox" value="Asia" checked>
+            <span class="checkmark"></span> Asia
+          </label>
+          <label class="custom-checkbox">
+            <input type="checkbox" value="África" checked>
+            <span class="checkmark"></span> África
+          </label>
+          <label class="custom-checkbox">
+            <input type="checkbox" value="América del Norte" checked>
+            <span class="checkmark"></span> N. América
+          </label>
+          <label class="custom-checkbox">
+            <input type="checkbox" value="América del Sur" checked>
+            <span class="checkmark"></span> S. América
+          </label>
+          <label class="custom-checkbox">
+            <input type="checkbox" value="Oceanía" checked>
+            <span class="checkmark"></span> Oceanía
+          </label>
+        </div>
+      </div>
+
+      <div class="control-divider"></div>
+
+      <div class="control-group">
+        <div class="cruise-header">
+          <h3>🛳️ Cruceros</h3>
+          <label class="toggle-switch">
+            <input type="checkbox" id="cruise-toggle">
+            <span class="slider round"></span>
+          </label>
+        </div>
+
+        <div id="cruise-regions" class="sub-options hidden">
+          <label class="custom-radio">
+            <input type="radio" name="cruise-region" value="Mediterraneo" checked>
+            <span class="radio-mark"></span> Mediterráneo
+          </label>
+          <label class="custom-radio">
+            <input type="radio" name="cruise-region" value="Paises Nordicos">
+            <span class="radio-mark"></span> Nórdicos
+          </label>
+          <label class="custom-radio">
+            <input type="radio" name="cruise-region" value="Caribe">
+            <span class="radio-mark"></span> Caribe
+          </label>
+          <label class="custom-radio">
+            <input type="radio" name="cruise-region" value="Otros">
+            <span class="radio-mark"></span> Otros
+          </label>
+        </div>
+      </div>
     </div>
   </section>
 

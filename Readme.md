@@ -1,39 +1,25 @@
-# 🚀 Actualización Premium: Estambul 🇹🇷 Finalizada
+# Registro de Cambios - TravelWorld PWA 🌍🛳️
 
-## 📝 Descripción del Cambio
-Hemos completado la elevación de Estambul al estándar "Premium" de la PWA. Estambul ahora cuenta con la misma profundidad de contenido y calidad visual que Roma.
+## [2026-05-08] - Panel de Control Global e Integración de Cruceros
 
-## 🛠️ Proceso Realizado
-- [x] **Imágenes de Alta Calidad**: Generadas 9 imágenes 8K realistas para los puntos de interés.
-- [x] **Sistema de Actividades**: Integradas 6 actividades detalladas por cada lugar en el JSON.
-- [x] **Consolidación de Datos**: `estambul.json` y `cities.json` sincronizados con el nuevo contenido.
-- [x] **Imágenes de Actividades**: Generadas imágenes específicas para las actividades de los 5 principales lugares.
-- [x] **Refactorización de app.js**:
-    - Actualizado `getTotalActivitiesCount` para incluir Estambul.
-    - Actualizado `getPlaceActivities` para leer directamente del JSON (soporte genérico Premium).
-    - Incrementada la versión de activos para forzar recarga de caché.
+### Añadido 🆕
+- **Panel de Control del Globo**: Nueva interfaz flotante (`globe-controls-panel`) con efecto glassmorphism para gestionar filtros.
+- **Filtros por Continente**: Checkboxes dinámicos para mostrar/ocultar ciudades según su continente.
+- **Modo Cruceros**: Toggle para activar la visualización de rutas marítimas y barcos.
+- **Dataset de Cruceros**: Creación de `cruises.json` con rutas para el Mediterráneo, Países Nórdicos, Caribe y otras regiones.
+- **Animación de Barcos**: Implementación de una capa personalizada en `Globe.gl` que simula el movimiento de barcos (`🚢`) entre puertos.
+- **Subpáginas de Cruceros**: Las paradas de los cruceros ahora son interactivas y abren la misma estructura de detalles (clima, lugares, actividades) que las ciudades principales.
 
-## 📁 Archivos Modificados
-- `cities.json`
-- `data/estambul.json`
-- `app.js`
-- `img/` (9 nuevas imágenes de lugares)
-- `img/estambul_activities/` (54 nuevas imágenes de actividades)
+### Modificado 🛠️
+- `index.html`: Inyectada la estructura del panel de controles.
+- `style.css`: Añadidos estilos para el panel, toggles premium y animaciones de barcos.
+- `app.js`: 
+    - Implementación de la lógica de filtrado reactivo.
+    - Centralización de la carga de datos (`loadCruises`).
+    - Mejora del sistema de renderizado del globo con `callGlobe` y `refreshData`.
+- `cities.json`: Asegurada la consistencia de datos para el filtrado por continente.
 
-## 🕒 Actualización 2026-05-07 17:55
-- [x] **Imagen Hero de Ciudad**: Cambiada la imagen de portada de Estambul por una vista cinematográfica del Bósforo.
-- [x] **Recuperación de Activos**: Integradas 5 imágenes reales de actividades rescatadas de artefactos previos.
-- [!] **Estado de Imágenes**: 49 imágenes de actividades pendientes por límite de cuota (se usarán las principales como fallback hasta el reset).
-- [x] **Sincronización Total**: `cities.json` y `data/estambul.json` completamente actualizados con el estándar de 9 lugares y 6 actividades.
-
-## 🕒 Actualización 2026-05-07 19:05
-- [x] **Rio de Janeiro Premium**: Integradas 54 actividades detalladas (6 por lugar) para los 9 puntos de interés. 🇧🇷
-- [x] **Estandarización**: Sincronizados `cities.json` y `data/rio.json` con el nuevo esquema de actividades.
-- [x] **Descripciones Mejoradas**: Actualizadas las descripciones de los lugares para un tono más evocador y profesional.
-- [x] **Artefactos**: Creado `artefactos/rio_activities.json` con el respaldo de los datos generados.
-
-## 🕒 Actualización 2026-05-08
-- [x] **Corrección 3D**: 2026-05-08: Corregido error de visibilidad de marcadores en el globo 3D. Se eliminaron filtros CSS conflictivos y se añadió un retardo en la inyección de datos para asegurar el renderizado correcto del motor Three.js.
-
----
-*Última actualización: 2026-05-08 - Correcciones en motor 3D* 🌍 🏁
+### Técnico ⚙️
+- Uso de `backdrop-filter: blur(12px)` para estética premium.
+- Lógica de interpolación lineal para la animación de barcos en tiempo real.
+- Sistema de "Z-index" ajustado para asegurar que los controles no interfieran con la interactividad del globo pero permanezcan accesibles.

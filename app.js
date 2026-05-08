@@ -5,11 +5,17 @@
 
 const state = {
     cities: [],
+    cruises: [],
+    activeFilters: {
+        continents: ["Europa", "Asia", "África", "América del Norte", "América del Sur", "Oceanía"],
+        showCruises: false,
+        cruiseRegion: "Mediterraneo"
+    },
     currentCity: null,
     places: [],
     filteredPlaces: [],
-    viewMode: 'cards', // 'cards', 'list', 'map'
-    activeTab: 'lugares', // 'lugares', 'meteo'
+    viewMode: 'cards',
+    activeTab: 'lugares',
     map: null,
     globe: null,
     markers: [],
@@ -44,15 +50,25 @@ function callGlobe(method, ...args) {
 
 document.addEventListener('DOMContentLoaded', () => {
     console.log('🚀 Iniciando TravelWorld PWA...');
-    loadCities().then(() => {
+    Promise.all([loadCities(), loadCruises()]).then(() => {
         ensureGlobeLibrary().then(() => {
             initGlobe();
             setupEventListeners();
+            setupGlobeFilters();
         });
     });
-    // Fronteras no bloqueantes
     loadCountryPolygons();
 });
+
+async function loadCruises() {
+    try {
+        const response = await fetch('cruises.json');
+        state.cruises = await response.json();
+        console.log('🛳️ Cruceros cargados');
+    } catch (error) {
+        console.warn('No se pudieron cargar los cruceros:', error);
+    }
+}
 
 // ══ CARGA DE DATOS ══════════════════════════════════════════
 
@@ -106,16 +122,10 @@ function updateSelectionStats() {
     if (activitiesEl) activitiesEl.textContent = `${totalActivities} actividades`;
 }
 
-function ensureGlobeLibrary() {
-    if (window.Globe) return Promise.resolve();
-
-    return new Promise(resolve => {
-        const script = document.createElement('script');
-        script.src = 'https://unpkg.com/globe.gl';
-        script.onload = resolve;
-        script.onerror = resolve;
-        document.head.appendChild(script);
-    });
+function callGlobe(method, ...args) {
+    if (state.globe && typeof state.globe[method] === 'function') {
+        state.globe[method](...args);
+    }
 }
 
 // ══ SELECTOR 3D (GLOBE) ══════════════════════════════════════
@@ -150,48 +160,86 @@ function initGlobe() {
 
     // Función para refrescar datos de forma segura
     const refreshData = () => {
-        if (!state.globe || state.cities.length === 0) return;
-        console.log('📍 Aplicando datos al globo...');
+        if (!state.globe) return;
         
-        callGlobe('pointsData', state.cities);
-        callGlobe('pointAltitude', 0.035);
-        callGlobe('pointRadius', 1.35);
-        callGlobe('pointColor', () => '#ffdf5d');
+        // Filtrar ciudades por continente
+        const filteredCities = state.cities.filter(c => 
+            state.activeFilters.continents.includes(c.continente)
+        );
 
-        callGlobe('labelsData', state.cities);
+        // Obtener cruceros activos
+        const activeCruises = state.activeFilters.showCruises 
+            ? state.cruises.filter(c => c.region === state.activeFilters.cruiseRegion).slice(0, 10)
+            : [];
+
+        // Combinar paradas de cruceros con ciudades (si activo)
+        let displayPoints = [...filteredCities];
+        if (state.activeFilters.showCruises) {
+            activeCruises.forEach(cruise => {
+                displayPoints = [...displayPoints, ...cruise.paradas];
+            });
+        }
+
+        console.log(`📍 Aplicando ${displayPoints.length} puntos al globo...`);
+        
+        callGlobe('pointsData', displayPoints);
+        callGlobe('pointAltitude', 0.035);
+        callGlobe('pointRadius', 1.5);
+        callGlobe('pointColor', d => d.id && d.id.toString().startsWith('stop-') ? '#38bdf8' : '#ffdf5d');
+        
+        callGlobe('labelsData', displayPoints);
         callGlobe('labelLat', d => d.lat);
         callGlobe('labelLng', d => d.lng);
         callGlobe('labelText', d => d.nombre);
-        callGlobe('labelSize', 2.0);
-        callGlobe('labelColor', () => '#ffffff');
+        callGlobe('labelSize', d => d.id && d.id.toString().startsWith('stop-') ? 1.5 : 2.0);
+        callGlobe('labelColor', d => d.id && d.id.toString().startsWith('stop-') ? '#38bdf8' : '#ffffff');
         callGlobe('labelAltitude', 0.05);
 
-        callGlobe('htmlLat', d => d.lat);
-        callGlobe('htmlLng', d => d.lng);
-        callGlobe('htmlAltitude', 0.06);
+        callGlobe('htmlElementsData', displayPoints);
         callGlobe('htmlElement', d => {
             const el = document.createElement('button');
             el.type = 'button';
-            el.className = 'globe-city-marker';
-            el.title = `${d.nombre}, ${d.pais}`;
-            el.setAttribute('aria-label', `Abrir ${d.nombre}, ${d.pais}`);
+            el.className = `globe-city-marker ${d.id && d.id.toString().startsWith('stop-') ? 'cruise-stop' : ''}`;
+            el.style.border = `3px solid ${d.id && d.id.toString().startsWith('stop-') ? '#38bdf8' : '#ffdf5d'}`;
             el.innerHTML = `
                 <span class="globe-thumb-container">
-                    <span class="globe-pin-core"></span>
                     <img src="${assetUrl(d.imagen)}" class="globe-thumb" onerror="this.style.display='none'">
                     <span class="globe-emoji">${d.emoji}</span>
-                    <span class="globe-preview-panel">
-                        <img src="${assetUrl(d.imagen)}" class="preview-img" alt="">
-                        <span class="preview-name">${d.nombre}</span>
-                        <span class="preview-country">${d.pais}</span>
-                    </span>
                 </span>
             `;
             el.onclick = (ev) => { ev.stopPropagation(); selectCity(d); };
             return el;
         });
-        callGlobe('htmlElementsData', state.cities);
+
+        // Dibujar rutas de cruceros (arcos)
+        const cruiseArcs = [];
+        activeCruises.forEach(cruise => {
+            for (let i = 0; i < cruise.ruta.length - 1; i++) {
+                cruiseArcs.push({
+                    startLat: cruise.ruta[i].lat,
+                    startLng: cruise.ruta[i].lng,
+                    endLat: cruise.ruta[i+1].lat,
+                    endLng: cruise.ruta[i+1].lng,
+                    color: '#38bdf8'
+                });
+            }
+        });
+
+        callGlobe('arcsData', cruiseArcs);
+        callGlobe('arcColor', 'color');
+        callGlobe('arcDashLength', 0.4);
+        callGlobe('arcDashGap', 1);
+        callGlobe('arcDashAnimateTime', 2000);
+
+        // Animación de barcos
+        if (state.activeFilters.showCruises) {
+            animateShips(activeCruises);
+        } else {
+            callGlobe('customLayerData', []);
+        }
     };
+
+    window.triggerRefresh = refreshData;
 
     // Inyectar datos con retardos progresivos para asegurar el renderizado
     setTimeout(refreshData, 100);
@@ -203,15 +251,86 @@ function initGlobe() {
 
 
 
-function buildGlobeArcs() {
-    return state.cities.map((city, index) => {
-        const nextCity = state.cities[(index + 1) % state.cities.length];
-        return {
-            startLat: city.lat,
-            startLng: city.lng,
-            endLat: nextCity.lat,
-            endLng: nextCity.lng
-        };
+function setupGlobeFilters() {
+    // Filtros de Continente
+    const continentChecks = document.querySelectorAll('#continent-filters input');
+    continentChecks.forEach(check => {
+        check.addEventListener('change', () => {
+            state.activeFilters.continents = Array.from(continentChecks)
+                .filter(c => c.checked)
+                .map(c => c.value);
+            window.refreshGlobe();
+        });
+    });
+
+    // Toggle de Cruceros
+    const cruiseToggle = document.getElementById('cruise-toggle');
+    const cruiseRegions = document.getElementById('cruise-regions');
+    cruiseToggle.addEventListener('change', () => {
+        state.activeFilters.showCruises = cruiseToggle.checked;
+        cruiseRegions.classList.toggle('hidden', !cruiseToggle.checked);
+        window.refreshGlobe();
+    });
+
+    // Filtro de Región de Crucero
+    const regionRadios = document.querySelectorAll('input[name="cruise-region"]');
+    regionRadios.forEach(radio => {
+        radio.addEventListener('change', () => {
+            state.activeFilters.cruiseRegion = radio.value;
+            window.refreshGlobe();
+        });
+    });
+
+    // Exponer refreshGlobe para el contexto
+    window.refreshGlobe = () => {
+        const refreshFunc = window.triggerRefresh;
+        if (refreshFunc) refreshFunc();
+    };
+}
+
+function animateShips(activeCruises) {
+    const ships = activeCruises.map(c => ({
+        lat: c.ruta[0].lat,
+        lng: c.ruta[0].lng,
+        cruise: c,
+        index: 0,
+        t: 0
+    }));
+
+    callGlobe('customLayerData', ships);
+    callGlobe('customLayerElement', d => {
+        const el = document.createElement('div');
+        el.innerHTML = '🚢';
+        el.style.fontSize = '24px';
+        el.style.filter = 'drop-shadow(0 0 5px rgba(56, 189, 248, 0.8))';
+        return el;
+    });
+
+    if (window.shipInterval) clearInterval(window.shipInterval);
+    window.shipInterval = setInterval(() => {
+        ships.forEach(s => {
+            s.t += 0.02;
+            if (s.t >= 1) {
+                s.t = 0;
+                s.index = (s.index + 1) % (s.cruise.ruta.length - 1);
+            }
+            const start = s.cruise.ruta[s.index];
+            const end = s.cruise.ruta[s.index + 1];
+            s.lat = start.lat + (end.lat - start.lat) * s.t;
+            s.lng = start.lng + (end.lng - start.lng) * s.t;
+        });
+        callGlobe('customLayerData', ships);
+    }, 100);
+}
+
+function ensureGlobeLibrary() {
+    if (window.Globe) return Promise.resolve();
+    return new Promise(resolve => {
+        const script = document.createElement('script');
+        script.src = 'https://unpkg.com/globe.gl';
+        script.onload = resolve;
+        script.onerror = resolve;
+        document.head.appendChild(script);
     });
 }
 
