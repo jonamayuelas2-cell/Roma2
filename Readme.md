@@ -23,7 +23,9 @@ Se ha implementado una experiencia de navegación jerárquica para los cruceros 
 ### 4. Sistema de Filtros Exclusivos 🛡️🆚
 - **Exclusividad Total**: Implementada lógica "Continentes vs Cruceros". Activar uno deshabilita completamente el otro para evitar ruido visual.
 - **Panel de Descubrimiento de Cruceros**: Nueva interfaz lateral que lista los mejores cruceros por zona (ordenados por puntuación), mostrando origen, destino, países visitados y reputación.
-- **Visualización Contextual**: Al seleccionar un crucero de la lista, el globo 3D se actualiza para mostrar sus escalas y la ruta marítima animada en **color amarillo**.
+- **Visualización Contextual**: Al seleccionar un crucero de la lista, el globo 3D se actualiza para mostrar sus escalas y la ruta marítima animada en **color amarillo**. Sin selección, el mapa permanece limpio.
+- **Scroll Infinito/Manual**: El panel lateral permite scroll suave para navegar entre los hasta 10 cruceros destacados.
+- **Botón de Detalle Dinámico**: El botón de "Ver Detalle" solo aparece en la tarjeta del crucero seleccionado actualmente.
 - **Control Manual Granular**: Las sub-opciones inician siempre deshabilitadas, requiriendo acción del usuario.
 - **Estado Inicial Limpio**: El mapamundi inicia vacío y con todas las opciones desmarcadas.
 - **Feedback Visual de Estado**: Uso de la clase `.disabled-group` para atenuar y bloquear interacciones en los filtros inactivos.

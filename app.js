@@ -183,11 +183,8 @@ function initGlobe() {
                 // Si hay uno seleccionado específicamente, solo ese
                 activeCruises = [state.currentCruise];
             } else {
-                // Si no, mostramos todos los de las regiones activas (o ninguno si prefieres)
-                // Según el usuario: "al pinchar en uno aparecerá...", así que mejor mostrar solo si hay selección
-                // Pero para dar feedback inicial, mostramos los barcos moviéndose pero sin ruta fija?
-                // Vamos a seguir el deseo del usuario: al pinchar aparecerá la ruta y ciudades.
-                activeCruises = state.cruises.filter(c => state.activeFilters.cruiseRegions.includes(c.region)).slice(0, 10);
+                // El usuario pide que no aparezca nada hasta pinchar en uno
+                activeCruises = [];
             }
         }
 
@@ -340,6 +337,7 @@ function setupGlobeFilters() {
             state.activeFilters.cruiseRegions = Array.from(regionChecks)
                 .filter(c => c.checked)
                 .map(c => c.value);
+            state.currentCruise = null; // Limpiar selección al cambiar filtros de zona
             updateCruiseList();
             window.refreshGlobe();
         });
@@ -375,8 +373,8 @@ function updateCruiseList() {
         const rating = cruise.puntuacion;
         const stopsCount = cruise.paradas.length;
         
-        // Obtener lista única de países visitados
-        const countries = [...new Set(cruise.paradas.map(p => p.pais))].join(', ');
+        // Obtener lista de ciudades visitadas
+        const cities = cruise.paradas.map(p => p.nombre).join(', ');
 
         const card = document.createElement('div');
         card.className = `cruise-card ${state.currentCruise?.id === cruise.id ? 'active' : ''}`;
@@ -388,10 +386,10 @@ function updateCruiseList() {
                     <span class="cruise-info-icon">📍</span>
                     <span>${origin} → ${destination}</span>
                 </div>
-                <div class="cruise-countries-list">${countries}</div>
+                <div class="cruise-itinerary-list">Itinerario: ${cities}</div>
                 <div class="cruise-info-row">
                     <span class="cruise-info-icon">🚢</span>
-                    <span>${stopsCount} escalas en total</span>
+                    <span>${stopsCount} ciudades visitadas</span>
                 </div>
                 <div class="cruise-rating-row">
                     <div class="cruise-rating">

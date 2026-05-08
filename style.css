@@ -288,6 +288,16 @@ body {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  flex-grow: 1; /* Para que ocupe el resto del panel */
+}
+
+.cruise-items-container::-webkit-scrollbar {
+  width: 6px;
+}
+
+.cruise-items-container::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
 }
 
 .cruise-card {
@@ -322,24 +332,30 @@ body {
 }
 
 .cruise-card-title {
+  font-family: 'Outfit', sans-serif;
   font-weight: 700;
-  font-size: 1.1rem;
-  margin-bottom: 8px;
+  font-size: 1.05rem;
   color: #fff;
+  margin-bottom: 8px;
 }
 
+.cruise-info-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.85rem;
+  color: #e2e8f0;
   margin-bottom: 6px;
 }
 
-.cruise-countries-list {
-  font-size: 0.75rem;
+.cruise-itinerary-list {
+  font-size: 0.72rem; /* Más pequeño según petición */
   color: #94a3b8;
   margin: 4px 0 10px 24px;
+  line-height: 1.4;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
   font-style: italic;
-  display: -webkit-box;
-  -webkit-line-clamp: 1;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
 }
 
 .cruise-info-icon {
@@ -362,6 +378,7 @@ body {
 }
 
 .cruise-detail-btn {
+  display: none; /* Oculto por defecto */
   background: #38bdf8;
   color: #000;
   border: none;
@@ -371,6 +388,11 @@ body {
   font-weight: 700;
   cursor: pointer;
   transition: all 0.2s ease;
+}
+
+.cruise-card.active .cruise-detail-btn {
+  display: block; /* Solo en la tarjeta activa */
+  animation: fadeIn 0.3s ease;
 }
 
 .cruise-detail-btn:hover {
