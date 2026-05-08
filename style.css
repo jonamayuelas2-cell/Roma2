@@ -320,6 +320,12 @@ input:checked + .slider:before { transform: translateX(20px); }
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.disabled-group {
+  opacity: 0.4;
+  pointer-events: none;
+  filter: grayscale(1);
+}
+
 .sub-options.hidden {
   max-height: 0;
   margin-top: 0;

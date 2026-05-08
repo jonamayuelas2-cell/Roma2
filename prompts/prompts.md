@@ -25,10 +25,14 @@
 ### Prompt 5: Exclusividad de Filtros (Ciudades vs Cruceros)
 **Usuario:** "vamos a poner un botón on/off en Continentes. Si está habilitado (por defecto) se dehabilita cruceros y si se habilita cruceros se deshabilita continentes. Pero si se deshabilita uno de ellos no se habilita el otro."
 
-**Objetivo:** Implementar una lógica de filtrado excluyente para evitar la saturación de elementos en el globo, dando prioridad a la intención del usuario.
+**Objetivo:** Implementar una lógica de filtrado excluyente para evitar la saturación de elementos en el globo.
+
+### Prompt 6: Visibilidad Persistente y Deshabilitación Visual
+**Usuario:** "si habilito continentes debo permitir habilitar cualquier continente y debo deshabilitar cruceros, además deben aparecer todas las zonas de los cruceros, pero se deshabilitarán también. Si habilito cruceros, se permitirá habilitar las zonas de los cruceros y deshabilitará continentes y cada uno de los continentes"
+
+**Objetivo:** Mantener todos los filtros visibles pero deshabilitar visualmente (`grayscale`, `opacity`) y funcionalmente (`disabled`) aquellos que no pertenezcan al grupo activo.
 
 ### Acciones Realizadas:
-1.  **UI**: Añadido interruptor principal (`#cities-toggle`) al grupo de Continentes.
-2.  **Lógica JS**: Sincronización de interruptores para que al encender uno se apague el otro.
-3.  **Visual**: Las sub-opciones se ocultan automáticamente cuando el interruptor de grupo está apagado.
-4.  **Refactor**: Actualizada la función `refreshData` para respetar el estado de `showCities`.
+1.  **Lógica JS**: Refactorizada la función `updateFilterVisuals` para aplicar el atributo `disabled` a todos los inputs del grupo inactivo.
+2.  **CSS**: Añadida la clase `.disabled-group` que aplica `grayscale(1)` y `opacity: 0.4` para un feedback visual claro.
+3.  **HTML**: Eliminadas las clases `hidden` para que las opciones estén siempre presentes.

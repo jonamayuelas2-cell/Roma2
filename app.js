@@ -268,28 +268,36 @@ function initGlobe() {
 
 
 
-    // Toggle de Ciudades (Continentes)
+function setupGlobeFilters() {
     const citiesToggle = document.getElementById('cities-toggle');
     const cruiseToggle = document.getElementById('cruise-toggle');
     const continentsSub = document.getElementById('continents-sub-options');
     const cruiseRegions = document.getElementById('cruise-regions');
+    const continentChecks = continentsSub.querySelectorAll('input');
+    const regionRadios = cruiseRegions.querySelectorAll('input');
+
+    const updateFilterVisuals = () => {
+        // Ciudades
+        continentsSub.classList.toggle('disabled-group', !citiesToggle.checked);
+        continentChecks.forEach(i => i.disabled = !citiesToggle.checked);
+        
+        // Cruceros
+        cruiseRegions.classList.toggle('disabled-group', !cruiseToggle.checked);
+        regionRadios.forEach(i => i.disabled = !cruiseToggle.checked);
+    };
 
     citiesToggle.addEventListener('change', () => {
         state.activeFilters.showCities = citiesToggle.checked;
-        continentsSub.classList.toggle('hidden', !citiesToggle.checked);
         
-        // Exclusividad: Si habilito ciudades, deshabilito cruceros
-        if (citiesToggle.checked && cruiseToggle.checked) {
+        if (citiesToggle.checked) {
             cruiseToggle.checked = false;
             state.activeFilters.showCruises = false;
-            cruiseRegions.classList.add('hidden');
         }
         
+        updateFilterVisuals();
         window.refreshGlobe();
     });
 
-    // Filtros de Continente individuales
-    const continentChecks = document.querySelectorAll('#continents-sub-options input');
     continentChecks.forEach(check => {
         check.addEventListener('change', () => {
             state.activeFilters.continents = Array.from(continentChecks)
@@ -299,29 +307,28 @@ function initGlobe() {
         });
     });
 
-    // Toggle de Cruceros
     cruiseToggle.addEventListener('change', () => {
         state.activeFilters.showCruises = cruiseToggle.checked;
-        cruiseRegions.classList.toggle('hidden', !cruiseToggle.checked);
         
-        // Exclusividad: Si habilito cruceros, deshabilito ciudades
-        if (cruiseToggle.checked && citiesToggle.checked) {
+        if (cruiseToggle.checked) {
             citiesToggle.checked = false;
             state.activeFilters.showCities = false;
-            continentsSub.classList.add('hidden');
         }
         
+        updateFilterVisuals();
         window.refreshGlobe();
     });
 
-    // Filtro de Región de Crucero
-    const regionRadios = document.querySelectorAll('input[name="cruise-region"]');
     regionRadios.forEach(radio => {
         radio.addEventListener('change', () => {
             state.activeFilters.cruiseRegion = radio.value;
             window.refreshGlobe();
         });
     });
+
+    // Estado inicial
+    updateFilterVisuals();
+}
 
     // Exponer refreshGlobe para el contexto
     window.refreshGlobe = () => {
