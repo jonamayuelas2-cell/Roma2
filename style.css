@@ -337,11 +337,12 @@ body {
   font-size: 1.05rem;
   color: #fff;
   margin-bottom: 8px;
+  line-height: 1.2;
 }
 
 .cruise-info-row {
   display: flex;
-  align-items: center;
+  align-items: flex-start; /* Cambiado a flex-start para mejor wrap */
   gap: 8px;
   font-size: 0.85rem;
   color: #e2e8f0;
@@ -349,7 +350,7 @@ body {
 }
 
 .cruise-itinerary-list {
-  font-size: 0.72rem; /* Más pequeño según petición */
+  font-size: 0.72rem;
   color: #94a3b8;
   margin: 4px 0 10px 24px;
   line-height: 1.4;
@@ -378,10 +379,10 @@ body {
 }
 
 .cruise-detail-btn {
-  display: none; /* Oculto por defecto */
-  background: #38bdf8;
-  color: #000;
-  border: none;
+  display: block; /* Siempre visible según "todos los datos/elementos" */
+  background: rgba(56, 189, 248, 0.1);
+  color: #38bdf8;
+  border: 1px solid #38bdf8;
   padding: 6px 12px;
   border-radius: 6px;
   font-size: 0.75rem;
@@ -391,8 +392,9 @@ body {
 }
 
 .cruise-card.active .cruise-detail-btn {
-  display: block; /* Solo en la tarjeta activa */
-  animation: fadeIn 0.3s ease;
+  background: #38bdf8;
+  color: #000;
+  box-shadow: 0 0 15px rgba(56, 189, 248, 0.4);
 }
 
 .cruise-detail-btn:hover {
