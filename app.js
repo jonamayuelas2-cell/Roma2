@@ -213,7 +213,7 @@ function initGlobe() {
     const refreshData = () => {
         if (!state.globe) return;
         
-        // Filtrar ciudades por continente (solo si showCities estÃ¡ activo)
+        // Filtrar ciudades por continente (solo si showCities está activo)
         const filteredCities = state.activeFilters.showCities 
             ? state.cities.filter(c => state.activeFilters.continents.includes(c.continente))
             : [];
@@ -484,14 +484,14 @@ function updateCruiseList() {
         const stopsCount = cruise.paradas.length;
         const shipInfo = getCruiseShipInfo(cruise);
         
-        // Obtener lista de ciudades visitadas
-        const cities = cruise.paradas.map(p => p.nombre).join(', ');
+        // Usar imagen de buque si existe, si no la del crucero, si no un placeholder premium
+        const displayImg = cruise.buque?.imagen || cruise.imagen || 'https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&fit=crop&q=80&w=800';
 
         const card = document.createElement('div');
         card.className = `cruise-card ${state.currentCruise?.id === cruise.id ? 'active' : ''}`;
         card.innerHTML = `
             <span class="cruise-rank-badge">${index + 1}</span>
-            <img src="${cruise.imagen}" class="cruise-card-img" alt="${cruise.nombre}">
+            <img src="${assetUrl(displayImg)}" class="cruise-card-img" alt="${cruise.nombre}">
             <div class="cruise-card-content">
                 <div class="cruise-card-title">${cruise.nombre}</div>
                 <div class="cruise-ship-meta">

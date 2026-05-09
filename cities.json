@@ -16902,19 +16902,10 @@
             "contacto": "slow@viena.local",
             "horario": "Atardecer",
             "web": "https://www.getyourguide.com/s/?q=Vienna",
-            "costeEstimado": "25-75 €"
-          },
-          {
-            "titulo": "Audioguia express",
-            "descripcion": "Formato breve para entender lo esencial de Prater con autonomia.",
-            "proveedor": "Audio Travel",
-            "contacto": "audio@travel.local",
-            "horario": "Durante apertura",
-            "web": "https://www.tiqets.com/en/search/?query=Vienna",
             "costeEstimado": "5-20 €"
           }
         ],
-        "web": "https://www.praterwien.com/en"
+        "web": "https://www.tiqets.com/en/search/?query=Vienna"
       },
       {
         "id": 9,
@@ -16952,42 +16943,6 @@
             "horario": "Atardecer",
             "web": "https://www.withlocals.com/search/?q=Vienna",
             "costeEstimado": "40-120 €"
-          },
-          {
-            "titulo": "Tour privado a medida",
-            "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
-            "proveedor": "Travel Designers Viena",
-            "contacto": "plan@vienatravel.local",
-            "horario": "Bajo reserva",
-            "web": "https://www.getyourguide.com/s/?q=Vienna",
-            "costeEstimado": "90-180 €"
-          },
-          {
-            "titulo": "Ruta familiar",
-            "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
-            "proveedor": "Familias Viajeras",
-            "contacto": "familias@viaje.local",
-            "horario": "11:00 - 12:30",
-            "web": "https://www.getyourguide.com/s/?q=Vienna",
-            "costeEstimado": "25-70 €"
-          },
-          {
-            "titulo": "Experiencia al atardecer",
-            "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
-            "proveedor": "Slow Travel Viena",
-            "contacto": "slow@viena.local",
-            "horario": "Atardecer",
-            "web": "https://www.getyourguide.com/s/?q=Vienna",
-            "costeEstimado": "25-75 €"
-          },
-          {
-            "titulo": "Audioguia express",
-            "descripcion": "Formato breve para entender lo esencial de Cafe Central con autonomia.",
-            "proveedor": "Audio Travel",
-            "contacto": "audio@travel.local",
-            "horario": "Durante apertura",
-            "web": "https://www.tiqets.com/en/search/?query=Vienna",
-            "costeEstimado": "5-20 €"
           }
         ],
         "web": "https://www.cafecentral.wien/en"
@@ -17002,7 +16957,7 @@
     "emoji": "🇺🇸",
     "lat": 25.7617,
     "lng": -80.1918,
-    "imagen": "miami_main_hero_1778349495230.png",
+    "imagen": "img/miami_main_hero_1778349495230.png",
     "theme": {
       "primary": "#00d4ff",
       "secondary": "#ff00d4",
@@ -17020,8 +16975,8 @@
         "horario": "Abierto 24h",
         "precio": "Gratis",
         "rating": 4.8,
-        "imagen": "miami_ocean_drive_1778349577630.png",
-        "imagenCard": "miami_ocean_drive_1778349577630.png",
+        "imagen": "img/miami_ocean_drive_1778349577630.png",
+        "imagenCard": "img/miami_ocean_drive_1778349577630.png",
         "tags": ["art deco", "playa", "neon"],
         "actividades": [
           {
@@ -17032,7 +16987,7 @@
             "horario": "10:00 - 12:00",
             "web": "https://www.miamidesigndistrict.net/",
             "costeEstimado": "30 €",
-            "imagen": "miami_art_deco_tour_4k_1778349831863.png"
+            "imagen": "img/miami_art_deco_tour_4k_1778349831863.png"
           },
           {
             "titulo": "Paseo al atardecer por la playa",
@@ -17056,8 +17011,8 @@
         "horario": "11:00 - 19:00",
         "precio": "12 €",
         "rating": 4.7,
-        "imagen": "miami_wynwood_walls_1778349523607.png",
-        "imagenCard": "miami_wynwood_walls_1778349523607.png",
+        "imagen": "img/miami_wynwood_walls_1778349523607.png",
+        "imagenCard": "img/miami_wynwood_walls_1778349523607.png",
         "tags": ["graffiti", "arte", "hípster"],
         "actividades": [
           {
@@ -17082,8 +17037,8 @@
         "horario": "Abierto 24h",
         "precio": "Gratis",
         "rating": 4.6,
-        "imagen": "miami_little_havana_1778349542244.png",
-        "imagenCard": "miami_little_havana_1778349542244.png",
+        "imagen": "img/miami_little_havana_1778349542244.png",
+        "imagenCard": "img/miami_little_havana_1778349542244.png",
         "tags": ["cuba", "cultura", "café"],
         "actividades": [
           {
@@ -17094,7 +17049,7 @@
             "horario": "12:00 - 14:00",
             "web": "https://www.miamiandbeaches.com/neighborhoods/little-havana",
             "costeEstimado": "35 €",
-            "imagen": "miami_cuban_food_4k_1778349861702.png"
+            "imagen": "img/miami_cuban_food_4k_1778349861702.png"
           }
         ]
       },
@@ -17109,8 +17064,8 @@
         "horario": "08:00 - 17:00",
         "precio": "30 € (Entrada parque + Airboat)",
         "rating": 4.9,
-        "imagen": "miami_everglades_1778349559790.png",
-        "imagenCard": "miami_everglades_1778349559790.png",
+        "imagen": "img/miami_everglades_1778349559790.png",
+        "imagenCard": "img/miami_everglades_1778349559790.png",
         "tags": ["aventura", "naturaleza", "fauna"],
         "actividades": [
           {
@@ -17121,7 +17076,7 @@
             "horario": "Varios turnos",
             "web": "https://www.nps.gov/ever/index.htm",
             "costeEstimado": "45 €",
-            "imagen": "miami_everglades_safari_4k_1778349845932.png"
+            "imagen": "img/miami_everglades_safari_4k_1778349845932.png"
           }
         ]
       },
@@ -17136,8 +17091,8 @@
         "horario": "09:30 - 16:30",
         "precio": "25 €",
         "rating": 4.8,
-        "imagen": "miami_vizcaya_gardens_1778349593591.png",
-        "imagenCard": "miami_vizcaya_gardens_1778349593591.png",
+        "imagen": "img/miami_vizcaya_gardens_1778349593591.png",
+        "imagenCard": "img/miami_vizcaya_gardens_1778349593591.png",
         "tags": ["historia", "arquitectura", "jardines"],
         "actividades": [
           {
@@ -17148,7 +17103,7 @@
             "horario": "11:00 - 13:00",
             "web": "https://vizcaya.org/",
             "costeEstimado": "10 € (Adicional)",
-            "imagen": "miami_vizcaya_gardens_detail_4k_1778349874903.png"
+            "imagen": "img/miami_vizcaya_gardens_detail_4k_1778349874903.png"
           }
         ]
       },
@@ -17163,8 +17118,8 @@
         "horario": "11:30 - 14:30, 17:00 - 22:00",
         "precio": "60-100 € (Precio medio)",
         "rating": 4.9,
-        "imagen": "miami_joes_stone_crab_1778349616347.png",
-        "imagenCard": "miami_joes_stone_crab_1778349616347.png",
+        "imagen": "img/miami_joes_stone_crab_1778349616347.png",
+        "imagenCard": "img/miami_joes_stone_crab_1778349616347.png",
         "tags": ["gastronomía", "marisco", "clásico"],
         "actividades": [
           {
@@ -17186,6 +17141,77 @@
         "descripcionCorta": "Compras y ocio frente al puerto de Miami.",
         "lat": 25.778,
         "lng": -80.187,
+        "horario": "10:00 - 22:00",
+        "precio": "Gratis",
+        "rating": 4.4,
+        "imagen": "img/miami_bayside_marketplace_4k_1778349782938.png",
+        "imagenCard": "img/miami_bayside_marketplace_4k_1778349782938.png",
+        "tags": ["compras", "ocio", "puerto"],
+        "actividades": [
+          {
+            "titulo": "Crucero por la Bahia de Biscayne",
+            "descripcion": "Navega por las islas de los famosos y disfruta del skyline de Miami desde el mar.",
+            "proveedor": "Island Queen Cruises",
+            "contacto": "info@islandqueen.local",
+            "horario": "Cada hora",
+            "web": "https://www.baysidemarketplace.com/",
+            "costeEstimado": "28 €"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "nombre": "Coconut Grove",
+        "tipo": "barrios",
+        "descripcion": "El barrio más antiguo y con más encanto de Miami. Conocido por sus calles arboladas, su ambiente bohemio, sus cafés al aire libre y su elegante puerto deportivo.",
+        "descripcionCorta": "Encanto bohemio y vegetacion tropical.",
+        "lat": 25.728,
+        "lng": -80.24,
+        "horario": "Abierto 24h",
+        "precio": "Gratis",
+        "rating": 4.5,
+        "imagen": "img/miami_coconut_grove_4k_1778349798005.png",
+        "imagenCard": "img/miami_coconut_grove_4k_1778349798005.png",
+        "tags": ["historia", "tranquilidad", "bohemio"],
+        "actividades": [
+          {
+            "titulo": "Paseo por Peacock Park",
+            "descripcion": "Disfruta de un paseo relajado por el parque y el paseo maritimo de Coconut Grove.",
+            "proveedor": "Coconut Grove Walks",
+            "contacto": "walks@thegrove.local",
+            "horario": "Todo el dia",
+            "web": "https://www.coconutgrove.com/",
+            "costeEstimado": "Gratis"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "nombre": "Design District",
+        "tipo": "cultura",
+        "descripcion": "Un barrio dedicado a la moda de lujo, el diseño de interiores moderno y las galerías de arte de vanguardia. La arquitectura de sus calles es una obra de arte en sí misma.",
+        "descripcionCorta": "Arquitectura moderna y lujo extremo.",
+        "lat": 25.813,
+        "lng": -80.192,
+        "horario": "11:00 - 20:00",
+        "precio": "Gratis",
+        "rating": 4.6,
+        "imagen": "img/miami_design_district_4k_1778349811817.png",
+        "imagenCard": "img/miami_design_district_4k_1778349811817.png",
+        "tags": ["diseño", "lujo", "arquitectura"],
+        "actividades": [
+          {
+            "titulo": "Ruta de Arte y Arquitectura",
+            "descripcion": "Recorrido por las instalaciones de arte publico y los edificios mas iconicos del distrito.",
+            "proveedor": "Design District Art",
+            "contacto": "info@miamidesigndistrict.local",
+            "horario": "11:00 - 13:00",
+            "web": "https://www.miamidesigndistrict.net/",
+            "costeEstimado": "Gratis"
+          }
+        ]
+      }
+    ]
         "horario": "10:00 - 22:00",
         "precio": "Gratis",
         "rating": 4.4,
