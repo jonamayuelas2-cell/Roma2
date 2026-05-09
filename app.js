@@ -543,6 +543,10 @@ function updateCruiseList() {
         const rating = cruise.puntuacion;
         const stopsCount = cruise.paradas.length;
         const shipInfo = getCruiseShipInfo(cruise);
+        const cities = (cruise.ruta || [])
+            .map(stop => stop.nombre)
+            .filter(Boolean)
+            .join(' → ');
         
         // Usar imagen de buque si existe, si no la del crucero, si no un placeholder premium
         const displayImg = cruise.buque?.imagen || cruise.imagen || 'https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&fit=crop&q=80&w=800';
@@ -551,22 +555,22 @@ function updateCruiseList() {
         card.className = `cruise-card ${state.currentCruise?.id === cruise.id ? 'active' : ''}`;
         card.innerHTML = `
             <span class="cruise-rank-badge">${index + 1}</span>
-            <img src="${assetUrl(displayImg)}" class="cruise-card-img" alt="${cruise.nombre}">
+            <img src="${assetUrl(displayImg)}" class="cruise-card-img" alt="${escapeHtml(cruise.nombre)}">
             <div class="cruise-card-content">
-                <div class="cruise-card-title">${cruise.nombre}</div>
+                <div class="cruise-card-title">${escapeHtml(cruise.nombre)}</div>
                 <div class="cruise-ship-meta">
-                    <span>${shipInfo.company}</span>
-                    <strong>${shipInfo.shipName}</strong>
+                    <span>${escapeHtml(shipInfo.company)}</span>
+                    <strong>${escapeHtml(shipInfo.shipName)}</strong>
                 </div>
                 <div class="cruise-info-row">
                     <span class="cruise-info-icon">Meses</span>
-                    <span>${cruise.temporada || 'Consultar temporada'}</span>
+                    <span>${escapeHtml(cruise.temporada || 'Consultar temporada')}</span>
                 </div>
                 <div class="cruise-info-row">
                     <span class="cruise-info-icon">Ruta</span>
-                    <span>${origin} - ${destination}</span>
+                    <span>${escapeHtml(origin)} - ${escapeHtml(destination)}</span>
                 </div>
-                <div class="cruise-itinerary-list">Itinerario: ${cities}</div>
+                <div class="cruise-itinerary-list">Itinerario: ${escapeHtml(cities)}</div>
                 <div class="cruise-info-row">
                     <span class="cruise-info-icon">Esc.</span>
                     <span>${stopsCount} ciudades visitadas</span>
