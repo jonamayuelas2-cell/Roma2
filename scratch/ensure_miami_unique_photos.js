@@ -24,6 +24,16 @@ for (const place of miami.lugares) {
   if (img) used.add(img);
 }
 
+for (const place of miami.lugares) {
+  for (const activity of place.actividades || []) {
+    const preferredImage = preferred[activity.titulo];
+    if (preferredImage && fs.existsSync(preferredImage)) {
+      activity.imagen = preferredImage;
+      used.add(preferredImage);
+    }
+  }
+}
+
 function scoreImage(activity, image) {
   const text = `${activity.titulo || ''} ${activity.descripcion || ''}`.toLowerCase();
   const name = image.toLowerCase();
@@ -55,6 +65,7 @@ function pickImage(activity) {
 
 for (const place of miami.lugares) {
   for (const activity of place.actividades || []) {
+    if (preferred[activity.titulo] && activity.imagen === preferred[activity.titulo]) continue;
     const picked = pickImage(activity);
     if (!picked) throw new Error(`No image available for ${activity.titulo}`);
     activity.imagen = picked;
