@@ -64,6 +64,34 @@ function normalizeContinentName(continent) {
     return names[continent] || continent;
 }
 
+function escapeHtml(value) {
+    return String(value ?? '').replace(/[&<>"']/g, char => ({
+        '&': '&amp;',
+        '<': '&lt;',
+        '>': '&gt;',
+        '"': '&quot;',
+        "'": '&#39;'
+    }[char]));
+}
+
+function getWebsiteUrl(value) {
+    const text = String(value || '').trim();
+    if (!text || text.includes('@')) return null;
+
+    const match = text.match(/^(https?:\/\/|www\.)?[a-z0-9][a-z0-9.-]*\.[a-z]{2,}(\/[^\s]*)?$/i);
+    if (!match) return null;
+
+    return /^https?:\/\//i.test(text) ? text : `https://${text.replace(/^www\./i, 'www.')}`;
+}
+
+function renderContactValue(value) {
+    const text = String(value || 'Consultar').trim();
+    const url = getWebsiteUrl(text);
+    if (!url) return escapeHtml(text);
+
+    return `<a class="external-contact-link" href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(text)}</a>`;
+}
+
 document.addEventListener('DOMContentLoaded', () => {
     console.log('🚀 Iniciando TravelWorld PWA...');
     Promise.all([loadCities(), loadCruises()]).then(() => {
@@ -1513,7 +1541,7 @@ function renderPlaceActivities(place) {
                 <p>${activity.description}</p>
                 <dl>
                     <div><dt>Empresa</dt><dd>${activity.provider}</dd></div>
-                    <div><dt>Contacto</dt><dd>${activity.contact}</dd></div>
+                    <div><dt>Contacto</dt><dd>${renderContactValue(activity.contact)}</dd></div>
                     <div><dt>Horario</dt><dd>${activity.schedule}</dd></div>
                 </dl>
             </div>
@@ -1532,6 +1560,7 @@ function showPlaceDetails(place) {
     document.getElementById('modal-place-price').textContent = `Precio: ${place.precio || 'Consultar'}`;
     document.getElementById('modal-place-hours').textContent = `Horario: ${place.horario || 'Consultar'}`;
     document.getElementById('modal-place-rating').textContent = `Valoracion: ${place.rating || '4.7'} / 5`;
+    document.getElementById('modal-place-contact').innerHTML = `Web: ${renderContactValue(place.web)}`;
     renderPlaceActivities(place);
     document.getElementById('modal-place-tags').innerHTML = (place.tags || [])
         .map(tag => `<span>${tag}</span>`)

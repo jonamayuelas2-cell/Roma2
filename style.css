@@ -1423,6 +1423,18 @@ header {
   margin: 0;
 }
 
+.external-contact-link {
+  color: #7dd3fc;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  overflow-wrap: anywhere;
+}
+
+.external-contact-link:hover {
+  color: #bae6fd;
+}
+
 /* ══ MAPA ════════════════════════════════════════════════ */
 #map {
   width: 100%;
