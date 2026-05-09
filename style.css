@@ -14,6 +14,97 @@
   --transition-smooth: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
+.port-info-panel {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    margin: 0 0 18px;
+    min-height: 360px;
+    color: #fff;
+    background-image: linear-gradient(135deg, rgba(5, 20, 34, 0.92), rgba(5, 20, 34, 0.55)), var(--port-bg-img);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 18px 45px rgba(0, 0, 0, 0.32);
+    padding: 24px;
+}
+
+.port-info-hero { max-width: 720px; margin-bottom: 20px; }
+
+.port-kicker {
+    display: inline-flex;
+    align-items: center;
+    min-height: 24px;
+    padding: 4px 9px;
+    border-radius: 6px;
+    background: rgba(14, 165, 233, 0.22);
+    color: #bae6fd;
+    font-size: 0.78rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0;
+}
+
+.port-info-hero h3 {
+    margin: 10px 0 4px;
+    font-size: clamp(2rem, 4vw, 3.6rem);
+    line-height: 1;
+}
+
+.port-info-hero p { margin: 0; color: #dbeafe; font-weight: 700; }
+
+.port-facts-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 10px;
+    margin-bottom: 18px;
+}
+
+.port-facts-grid div,
+.port-mini-list article {
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    background: rgba(2, 6, 23, 0.58);
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+}
+
+.port-facts-grid div { padding: 12px; min-width: 0; }
+
+.port-facts-grid span,
+.port-mini-list span {
+    display: block;
+    color: #93c5fd;
+    font-size: 0.76rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0;
+}
+
+.port-facts-grid strong {
+    display: block;
+    margin-top: 4px;
+    color: #fff;
+    font-size: 0.98rem;
+    overflow-wrap: anywhere;
+}
+
+.port-info-columns {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+}
+
+.port-info-columns h4 { margin: 0 0 10px; color: #fff; font-size: 1rem; }
+.port-mini-list { display: grid; gap: 8px; }
+.port-mini-list article { padding: 11px 12px; }
+.port-mini-list strong { display: block; color: #fff; margin-bottom: 4px; }
+.port-mini-list p { margin: 0; color: #dbeafe; font-size: 0.9rem; line-height: 1.35; }
+
+@media (max-width: 760px) {
+    .port-info-panel { padding: 16px; }
+    .port-facts-grid,
+    .port-info-columns { grid-template-columns: 1fr; }
+}
+
 /* ══ ANIMACIONES GLOBALES ═══════════════════════════════════ */
 .fade-in {
     animation: fadeIn 0.5s ease forwards;
@@ -823,6 +914,20 @@ input:checked + .slider:before { transform: translateX(20px); }
 }
 
 /* Previsualización Grande en Hover */
+.globe-iata {
+  width: 28px;
+  height: 18px;
+  border-radius: 999px;
+  right: -8px;
+  bottom: -4px;
+  color: #0f172a;
+  font-size: 0.58rem;
+  line-height: 1;
+  font-weight: 900;
+  letter-spacing: 0;
+  border: 1px solid rgba(15, 23, 42, 0.12);
+}
+
 .globe-thumb-container:hover .globe-preview-panel {
   opacity: 1;
   visibility: visible;
