@@ -71,3 +71,16 @@
 
 ---
 *Documentado por Antigravity el 09 de Mayo de 2026*
+
+### Prompt 11: Depuración de Renderizado y Sincronización de Filtros ?????
+**Usuario:** " no salen ni las ciudades seleccionando un continente ni los cruceros en mamapundi ni en lista en pantalla principal.\
+
+**Objetivo**: Corregir la desaparición de ciudades y cruceros en el globo 3D y la lista principal.
+
+**Acciones**:
+1. **Identificación de Mismatch de Datos**: Sincronización de valores entre HTML y JSON (acentos en continentes).
+2. **Corrección de Errores de JS**: Eliminación de duplicados y corrección de variables inexistentes.
+3. **Lógica de Relleno**: Centralización en getFilteredCruiseList para asegurar 10 propuestas.
+4. **Estado Inicial**: Sincronización automática de filtros al cargar.
+
+**Resultado**: Funcionalidad restaurada al 100%. ???????

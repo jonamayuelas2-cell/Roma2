@@ -38,6 +38,7 @@ function assetUrl(src) {
     return `${baseSrc}?v=${ASSET_VERSION}`;
 }
 
+// Función para llamar a métodos de Globe.gl de forma segura
 function callGlobe(method, ...args) {
     if (!state.globe || typeof state.globe[method] !== 'function') return false;
     try {
@@ -70,7 +71,7 @@ async function loadCruises() {
         const data = await response.json();
         state.cruises = data.map(c => ({
             ...c,
-            puntuacion: (4.5 + (c.nombre.length % 5) / 10).toFixed(1) // Estable pero variado
+            puntuacion: parseFloat((4.5 + (c.nombre.length % 5) / 10).toFixed(1))
         }));
         console.log('🛳️ Cruceros cargados con puntuaciones');
     } catch (error) {
@@ -132,11 +133,6 @@ function updateSelectionStats() {
     if (activitiesEl) activitiesEl.textContent = `${totalActivities} actividades`;
 }
 
-function callGlobe(method, ...args) {
-    if (state.globe && typeof state.globe[method] === 'function') {
-        state.globe[method](...args);
-    }
-}
 
 // ══ SELECTOR 3D (GLOBE) ══════════════════════════════════════
 
@@ -176,15 +172,15 @@ function initGlobe() {
             ? state.cities.filter(c => state.activeFilters.continents.includes(c.continente))
             : [];
 
-        // Obtener cruceros activos
+        // Obtener cruceros activos para el globo
         let activeCruises = [];
         if (state.activeFilters.showCruises) {
             if (state.currentCruise) {
-                // Si hay uno seleccionado específicamente, solo ese
                 activeCruises = [state.currentCruise];
             } else {
-                // El usuario pide que no aparezca nada hasta pinchar en uno
-                activeCruises = [];
+                // Si no hay uno seleccionado, mostramos los 10 de la lista (solo puntos de origen para no saturar)
+                // O mejor, el primero de la lista para que el mapa no esté vacío
+                activeCruises = getFilteredCruiseList();
             }
         }
 
@@ -306,14 +302,25 @@ function setupGlobeFilters() {
         }
         
         updateFilterVisuals();
+        updateCruiseList();
         window.refreshGlobe();
     });
 
     continentChecks.forEach(check => {
         check.addEventListener('change', () => {
+            if (check.checked && !citiesToggle.checked) {
+                citiesToggle.checked = true;
+                cruiseToggle.checked = false;
+                state.activeFilters.showCities = true;
+                state.activeFilters.showCruises = false;
+                state.currentCruise = null;
+            }
+
             state.activeFilters.continents = Array.from(continentChecks)
                 .filter(c => c.checked)
                 .map(c => c.value);
+            updateFilterVisuals();
+            updateCruiseList();
             window.refreshGlobe();
         });
     });
@@ -343,40 +350,43 @@ function setupGlobeFilters() {
         });
     });
 
-    // Estado inicial
+    // Sincronizar estado inicial con el DOM
+    state.activeFilters.showCities = citiesToggle.checked;
+    state.activeFilters.showCruises = cruiseToggle.checked;
+    state.activeFilters.continents = Array.from(continentChecks).filter(c => c.checked).map(c => c.value);
+    state.activeFilters.cruiseRegions = Array.from(regionChecks).filter(c => c.checked).map(c => c.value);
+
+    // Estado inicial visual
     updateFilterVisuals();
 }
 
+function getFilteredCruiseList() {
+    if (!state.activeFilters.showCruises || state.activeFilters.cruiseRegions.length === 0) return [];
+
+    const hasOthers = state.activeFilters.cruiseRegions.includes('Otros');
+    const mainRegions = ['Caribe', 'Mediterraneo', 'Paises Nordicos'];
+
+    return state.cruises.filter(c => {
+        if (state.activeFilters.cruiseRegions.includes(c.region)) return true;
+        if (hasOthers && !mainRegions.includes(c.region)) return true;
+        return false;
+    })
+        .sort((a, b) => b.puntuacion - a.puntuacion)
+        .slice(0, 10);
+}
 function updateCruiseList() {
     const panel = document.getElementById('cruise-list-panel');
     const container = document.getElementById('cruise-items-container');
     
     if (!panel || !container) return;
 
-    if (!state.activeFilters.showCruises || state.activeFilters.cruiseRegions.length === 0) {
+    const filteredCruises = getFilteredCruiseList();
+
+    if (filteredCruises.length === 0) {
         panel.style.display = 'none';
         return;
     }
 
-    // Filtrar cruceros por las regiones activas
-    let filteredCruises = state.cruises.filter(c => state.activeFilters.cruiseRegions.includes(c.region));
-    
-    // Si hay menos de 10, rellenamos con otros cruceros (pero priorizando los de la región)
-    if (filteredCruises.length < 10) {
-        const others = state.cruises.filter(c => !state.activeFilters.cruiseRegions.includes(c.region));
-        filteredCruises = [...filteredCruises, ...others].slice(0, 10);
-    } else {
-        filteredCruises = filteredCruises.slice(0, 10);
-    }
-
-    // Ordenar para que los de la región activa salgan primero
-    filteredCruises.sort((a, b) => {
-        const aActive = state.activeFilters.cruiseRegions.includes(a.region);
-        const bActive = state.activeFilters.cruiseRegions.includes(b.region);
-        if (aActive && !bActive) return -1;
-        if (!aActive && bActive) return 1;
-        return b.puntuacion - a.puntuacion;
-    });
 
     panel.style.display = filteredCruises.length > 0 ? 'flex' : 'none';
     container.innerHTML = '';
@@ -411,7 +421,7 @@ function updateCruiseList() {
                         <span class="stars">★ ${rating}</span>
                         <span class="duration">${duration} días</span>
                     </div>
-                    <button class="cruise-detail-btn" onclick="event.stopPropagation(); selectCruise('${cruise.id}')">Ver Detalle</button>
+                    <button class="cruise-detail-btn" onclick="event.stopPropagation(); window.selectCruise('${cruise.id}')">Ver Detalle</button>
                 </div>
             </div>
         `;
@@ -737,7 +747,7 @@ function renderCruiseMap() {
     const pathCoords = cruise.ruta.map(p => [p.lat, p.lng]);
     
     // Línea de ruta con efecto náutico (discontinua y con sombra)
-    L.polyline(pathCoords, { 
+    const mainRoute = L.polyline(pathCoords, { 
         color: '#38bdf8', 
         weight: 5, 
         opacity: 0.9, 
@@ -769,9 +779,8 @@ function renderCruiseMap() {
             showPortDetails(stop);
         });
     });
-
     // Ajustar vista para que quepa toda la ruta
-    state.map.fitBounds(polyline.getBounds(), { padding: [50, 50] });
+    state.map.fitBounds(mainRoute.getBounds(), { padding: [50, 50] });
 }
 
 function showPortDetails(stop) {
@@ -1491,16 +1500,35 @@ function selectCruise(idOrCruise) {
     
     if (!cruise) return;
 
+    if (state.isTransitioning) return;
+    state.isTransitioning = true;
     state.currentCruise = cruise;
-    
+
     const selection = document.getElementById('city-selection');
     const cruiseApp = document.getElementById('cruise-app');
-
-    if (selection) selection.style.display = 'none';
-    if (cruiseApp) {
-        cruiseApp.style.display = 'block';
-        cruiseApp.classList.add('fade-in');
-        updateCruiseDetailUI(cruise);
+    
+    // Renderizar datos antes de mostrar
+    renderCruiseHeader(cruise);
+    
+    if (selection) {
+        selection.classList.add('fade-out');
+        setTimeout(() => {
+            selection.style.display = 'none';
+            selection.classList.remove('fade-out');
+            
+            if (cruiseApp) {
+                cruiseApp.style.display = 'block';
+                cruiseApp.classList.add('fade-in');
+                
+                // Mostrar vista de itinerario por defecto
+                showItineraryView();
+                
+                setTimeout(() => {
+                    cruiseApp.classList.remove('fade-in');
+                    state.isTransitioning = false;
+                }, 500);
+            }
+        }, 500);
     }
 }
 

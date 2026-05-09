@@ -52,3 +52,17 @@ Se ha implementado una experiencia de navegación jerárquica para los cruceros 
 
 ---
 *Documentado por Antigravity el 09 de Mayo de 2026*
+
+## Actualización 09 de Mayo de 2026 (Parte 2) - Depuración y Sincronización 🛠️🌍
+
+### 1. Sincronización Total de Datos 🔄
+- **Filtros de Continente**: Corregida la discrepancia entre los valores de los filtros en el HTML ("Africa", "America") y la base de datos JSON ("África", "América"). Los acentos y nombres ahora coinciden al 100%, restaurando la visibilidad de todas las ciudades del mundo.
+- **Estado Inicial Inteligente**: Al cargar la aplicación, se han pre-activado **Europa** y el **Mediterráneo**. Esto asegura que el usuario vea un globo "vivo" desde el primer segundo, evitando la sensación de vacío.
+
+### 2. Estabilidad y Corrección de Errores (Bugfixes) 🧼🐞
+- **Crashes de Renderizado**: Eliminado el error que bloqueaba el globo 3D al intentar dibujar rutas de crucero (referencia a variable `polyline` inexistente).
+- **Unificación de Navegación**: Fusionadas las funciones de selección de crucero para garantizar que tanto el panel lateral como los marcadores del globo lleven a la misma experiencia fluida.
+- **Filtro "Otros"**: Optimizada la lógica de filtrado para que la opción "Otros" incluya correctamente todas las nuevas regiones globales (Alaska, Asia, Antártida, etc.) que no entran en las categorías principales.
+
+---
+*Desarrollado con ❤️ por el equipo de Antigravity — Mayo 2026*
