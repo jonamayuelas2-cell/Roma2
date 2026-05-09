@@ -245,6 +245,7 @@ body {
   top: 100px;
   left: 20px;
   width: 380px;
+  height: calc(100vh - 140px);
   max-height: calc(100vh - 140px);
   background: rgba(15, 23, 42, 0.75);
   backdrop-filter: blur(16px);
@@ -285,6 +286,7 @@ body {
 .cruise-items-container {
   padding: 16px;
   overflow-y: auto;
+  overscroll-behavior: contain;
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -307,7 +309,10 @@ body {
   overflow: hidden;
   cursor: pointer;
   transition: all 0.3s ease;
-  height: 440px; /* Altura fija para uniformidad */
+  height: 430px; /* Altura fija para uniformidad */
+  min-height: 430px;
+  max-height: 430px;
+  flex: 0 0 430px;
   display: flex;
   flex-direction: column;
 }
@@ -315,7 +320,6 @@ body {
 .cruise-card:hover {
   background: rgba(255, 255, 255, 0.08);
   border-color: #38bdf8;
-  transform: translateY(-4px);
 }
 
 .cruise-card.active {
@@ -333,6 +337,7 @@ body {
 .cruise-card-content {
   padding: 16px;
   flex-grow: 1;
+  min-height: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -345,6 +350,28 @@ body {
   color: #fff;
   margin-bottom: 8px;
   line-height: 1.2;
+}
+
+.cruise-ship-meta {
+  display: grid;
+  gap: 2px;
+  padding: 8px 10px;
+  margin-bottom: 10px;
+  background: rgba(56, 189, 248, 0.08);
+  border: 1px solid rgba(56, 189, 248, 0.16);
+  border-radius: 8px;
+}
+
+.cruise-ship-meta span {
+  color: #94a3b8;
+  font-size: 0.72rem;
+  line-height: 1.1;
+}
+
+.cruise-ship-meta strong {
+  color: #f8fafc;
+  font-size: 0.82rem;
+  line-height: 1.15;
 }
 
 .cruise-info-row {
@@ -364,6 +391,10 @@ body {
   word-wrap: break-word;
   overflow-wrap: break-word;
   font-style: italic;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .cruise-info-icon {
@@ -1950,4 +1981,3 @@ header {
         height: 350px;
     }
 }
-

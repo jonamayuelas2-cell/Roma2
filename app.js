@@ -299,6 +299,11 @@ function setupGlobeFilters() {
         if (citiesToggle.checked) {
             cruiseToggle.checked = false;
             state.activeFilters.showCruises = false;
+        } else {
+            continentChecks.forEach(check => {
+                check.checked = false;
+            });
+            state.activeFilters.continents = [];
         }
         
         updateFilterVisuals();
@@ -332,6 +337,12 @@ function setupGlobeFilters() {
             citiesToggle.checked = false;
             state.activeFilters.showCities = false;
             state.currentCruise = null; // Reset al cambiar de modo
+        } else {
+            regionChecks.forEach(check => {
+                check.checked = false;
+            });
+            state.activeFilters.cruiseRegions = [];
+            state.currentCruise = null;
         }
         
         updateFilterVisuals();
@@ -341,10 +352,18 @@ function setupGlobeFilters() {
 
     regionChecks.forEach(check => {
         check.addEventListener('change', () => {
+            if (check.checked && !cruiseToggle.checked) {
+                cruiseToggle.checked = true;
+                citiesToggle.checked = false;
+                state.activeFilters.showCruises = true;
+                state.activeFilters.showCities = false;
+            }
+
             state.activeFilters.cruiseRegions = Array.from(regionChecks)
                 .filter(c => c.checked)
                 .map(c => c.value);
             state.currentCruise = null; // Limpiar selección al cambiar filtros de zona
+            updateFilterVisuals();
             updateCruiseList();
             window.refreshGlobe();
         });
@@ -374,6 +393,26 @@ function getFilteredCruiseList() {
         .sort((a, b) => b.puntuacion - a.puntuacion)
         .slice(0, 10);
 }
+
+function getCruiseShipInfo(cruise) {
+    const companyByRegion = {
+        Caribe: 'Royal Caribbean',
+        Mediterraneo: 'MSC Cruceros',
+        'Paises Nordicos': 'Hurtigruten',
+        Alaska: 'Princess Cruises',
+        Pacifico: 'Paul Gauguin Cruises',
+        Antartida: 'Ponant',
+        Asia: 'Celebrity Cruises',
+        Sudamerica: 'Costa Cruceros',
+        'Oriente Medio': 'Celestyal Cruises'
+    };
+
+    return {
+        company: cruise.compania || cruise.naviera || cruise.buque?.compania || companyByRegion[cruise.region] || 'Naviera premium',
+        shipName: cruise.buque?.nombre || cruise.barco || `Buque ${cruise.nombre}`
+    };
+}
+
 function updateCruiseList() {
     const panel = document.getElementById('cruise-list-panel');
     const container = document.getElementById('cruise-items-container');
@@ -397,6 +436,7 @@ function updateCruiseList() {
         const duration = cruise.ruta.length + 2; 
         const rating = cruise.puntuacion;
         const stopsCount = cruise.paradas.length;
+        const shipInfo = getCruiseShipInfo(cruise);
         
         // Obtener lista de ciudades visitadas
         const cities = cruise.paradas.map(p => p.nombre).join(', ');
@@ -407,6 +447,10 @@ function updateCruiseList() {
             <img src="${cruise.imagen}" class="cruise-card-img" alt="${cruise.nombre}">
             <div class="cruise-card-content">
                 <div class="cruise-card-title">${cruise.nombre}</div>
+                <div class="cruise-ship-meta">
+                    <span>${shipInfo.company}</span>
+                    <strong>${shipInfo.shipName}</strong>
+                </div>
                 <div class="cruise-info-row">
                     <span class="cruise-info-icon">📍</span>
                     <span>${origin} → ${destination}</span>
