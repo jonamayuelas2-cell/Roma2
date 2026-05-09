@@ -24,7 +24,8 @@
         "proveedor": "Historia Viva Paris",
         "contacto": "reservas@historiaparis.local",
         "horario": "10:00 - 12:00",
-        "web": "https://www.getyourguide.com/s/?q=Paris"
+        "web": "https://www.getyourguide.com/s/?q=Paris",
+        "costeEstimado": "25-70 €"
       },
       {
         "titulo": "Acceso con contexto local",
@@ -32,7 +33,8 @@
         "proveedor": "Guias Locales Paris",
         "contacto": "hola@parislocal.local",
         "horario": "12:00 - 14:00",
-        "web": "https://www.getyourguide.com/s/?q=Paris"
+        "web": "https://www.getyourguide.com/s/?q=Paris",
+        "costeEstimado": "25-70 €"
       },
       {
         "titulo": "Paseo fotografico",
@@ -40,7 +42,8 @@
         "proveedor": "Photo Walk Paris",
         "contacto": "foto@pariswalk.local",
         "horario": "Atardecer",
-        "web": "https://www.withlocals.com/search/?q=Paris"
+        "web": "https://www.withlocals.com/search/?q=Paris",
+        "costeEstimado": "40-120 €"
       },
       {
         "titulo": "Ruta de leyendas",
@@ -48,7 +51,8 @@
         "proveedor": "Relatos de Paris",
         "contacto": "relatos@paris.local",
         "horario": "18:00 - 19:30",
-        "web": "https://www.civitatis.com/es/paris/"
+        "web": "https://www.civitatis.com/es/paris/",
+        "costeEstimado": "15-45 €"
       },
       {
         "titulo": "Visita familiar",
@@ -56,7 +60,8 @@
         "proveedor": "Familias Viajeras",
         "contacto": "familias@viaje.local",
         "horario": "11:00 - 12:30",
-        "web": "https://www.getyourguide.com/s/?q=Paris"
+        "web": "https://www.getyourguide.com/s/?q=Paris",
+        "costeEstimado": "25-70 €"
       },
       {
         "titulo": "Audioguia express",
@@ -64,7 +69,8 @@
         "proveedor": "Audio Travel",
         "contacto": "audio@travel.local",
         "horario": "Durante apertura",
-        "web": "https://www.tiqets.com/en/search/?query=Paris"
+        "web": "https://www.tiqets.com/en/search/?query=Paris",
+        "costeEstimado": "5-20 €"
       }
     ],
     "web": "https://www.toureiffel.paris"
@@ -94,7 +100,8 @@
         "proveedor": "Museo del Louvre Educacion",
         "contacto": "educacion@museodellouvre.local",
         "horario": "10:00 - 12:00",
-        "web": "https://www.louvre.fr"
+        "web": "https://www.louvre.fr",
+        "costeEstimado": "20-65 €"
       },
       {
         "titulo": "Ruta de obras imprescindibles",
@@ -102,7 +109,8 @@
         "proveedor": "Guias de Paris",
         "contacto": "reservas@paristours.local",
         "horario": "12:30 - 14:00",
-        "web": "https://www.louvre.fr"
+        "web": "https://www.louvre.fr",
+        "costeEstimado": "20-65 €"
       },
       {
         "titulo": "Taller creativo",
@@ -110,7 +118,8 @@
         "proveedor": "Atelier Paris",
         "contacto": "talleres@parisatelier.local",
         "horario": "16:00 - 18:00",
-        "web": "https://www.louvre.fr"
+        "web": "https://www.louvre.fr",
+        "costeEstimado": "45-95 €"
       },
       {
         "titulo": "Audioguia express",
@@ -118,7 +127,8 @@
         "proveedor": "Audio Travel",
         "contacto": "audio@travel.local",
         "horario": "Durante apertura",
-        "web": "https://www.tiqets.com/en/search/?query=Paris"
+        "web": "https://www.tiqets.com/en/search/?query=Paris",
+        "costeEstimado": "5-20 €"
       },
       {
         "titulo": "Encuentro con especialista",
@@ -126,7 +136,8 @@
         "proveedor": "Cultura Paris",
         "contacto": "info@culturaparis.local",
         "horario": "Consultar calendario",
-        "web": "https://www.louvre.fr"
+        "web": "https://www.louvre.fr",
+        "costeEstimado": "20-65 €"
       },
       {
         "titulo": "Paseo fotografico interior",
@@ -134,7 +145,8 @@
         "proveedor": "Photo Walk Paris",
         "contacto": "foto@pariswalk.local",
         "horario": "Ultima hora de apertura",
-        "web": "https://www.withlocals.com/search/?q=Paris"
+        "web": "https://www.withlocals.com/search/?q=Paris",
+        "costeEstimado": "40-120 €"
       }
     ],
     "web": "https://www.louvre.fr"
@@ -164,7 +176,8 @@
         "proveedor": "Historia Viva Paris",
         "contacto": "reservas@historiaparis.local",
         "horario": "10:00 - 12:00",
-        "web": "https://www.getyourguide.com/s/?q=Paris"
+        "web": "https://www.getyourguide.com/s/?q=Paris",
+        "costeEstimado": "25-70 €"
       },
       {
         "titulo": "Acceso con contexto local",
@@ -172,7 +185,8 @@
         "proveedor": "Guias Locales Paris",
         "contacto": "hola@parislocal.local",
         "horario": "12:00 - 14:00",
-        "web": "https://www.getyourguide.com/s/?q=Paris"
+        "web": "https://www.getyourguide.com/s/?q=Paris",
+        "costeEstimado": "25-70 €"
       },
       {
         "titulo": "Paseo fotografico",
@@ -180,7 +194,8 @@
         "proveedor": "Photo Walk Paris",
         "contacto": "foto@pariswalk.local",
         "horario": "Atardecer",
-        "web": "https://www.withlocals.com/search/?q=Paris"
+        "web": "https://www.withlocals.com/search/?q=Paris",
+        "costeEstimado": "40-120 €"
       },
       {
         "titulo": "Ruta de leyendas",
@@ -188,7 +203,8 @@
         "proveedor": "Relatos de Paris",
         "contacto": "relatos@paris.local",
         "horario": "18:00 - 19:30",
-        "web": "https://www.civitatis.com/es/paris/"
+        "web": "https://www.civitatis.com/es/paris/",
+        "costeEstimado": "15-45 €"
       },
       {
         "titulo": "Visita familiar",
@@ -196,7 +212,8 @@
         "proveedor": "Familias Viajeras",
         "contacto": "familias@viaje.local",
         "horario": "11:00 - 12:30",
-        "web": "https://www.getyourguide.com/s/?q=Paris"
+        "web": "https://www.getyourguide.com/s/?q=Paris",
+        "costeEstimado": "25-70 €"
       },
       {
         "titulo": "Audioguia express",
@@ -204,7 +221,8 @@
         "proveedor": "Audio Travel",
         "contacto": "audio@travel.local",
         "horario": "Durante apertura",
-        "web": "https://www.tiqets.com/en/search/?query=Paris"
+        "web": "https://www.tiqets.com/en/search/?query=Paris",
+        "costeEstimado": "5-20 €"
       }
     ],
     "web": "https://www.notredamedeparis.fr"
@@ -234,7 +252,8 @@
         "proveedor": "Walks Paris",
         "contacto": "walks@paris.local",
         "horario": "10:30 - 12:30",
-        "web": "https://www.civitatis.com/es/paris/"
+        "web": "https://www.civitatis.com/es/paris/",
+        "costeEstimado": "15-45 €"
       },
       {
         "titulo": "Ruta gastronomica local",
@@ -242,7 +261,8 @@
         "proveedor": "Sabores de Paris",
         "contacto": "sabores@paris.local",
         "horario": "13:00 - 15:00",
-        "web": "https://www.secretfoodtours.com/paris/"
+        "web": "https://www.secretfoodtours.com/paris/",
+        "costeEstimado": "35-90 €"
       },
       {
         "titulo": "Fotografia urbana",
@@ -250,7 +270,8 @@
         "proveedor": "Photo Walk Paris",
         "contacto": "foto@pariswalk.local",
         "horario": "Atardecer",
-        "web": "https://www.withlocals.com/search/?q=Paris"
+        "web": "https://www.withlocals.com/search/?q=Paris",
+        "costeEstimado": "40-120 €"
       },
       {
         "titulo": "Historias del vecindario",
@@ -258,7 +279,8 @@
         "proveedor": "Cronicas Paris",
         "contacto": "cronicas@paris.local",
         "horario": "17:00 - 18:30",
-        "web": "https://www.civitatis.com/es/paris/"
+        "web": "https://www.civitatis.com/es/paris/",
+        "costeEstimado": "15-45 €"
       },
       {
         "titulo": "Compras con guia local",
@@ -266,7 +288,8 @@
         "proveedor": "Local Shops Paris",
         "contacto": "shops@paris.local",
         "horario": "11:00 - 13:00",
-        "web": "https://www.getyourguide.com/s/?q=Paris"
+        "web": "https://www.getyourguide.com/s/?q=Paris",
+        "costeEstimado": "20-60 €"
       },
       {
         "titulo": "Noche de ambiente",
@@ -274,7 +297,8 @@
         "proveedor": "After Dark Paris",
         "contacto": "noche@paris.local",
         "horario": "20:00 - 22:00",
-        "web": "https://www.getyourguide.com/s/?q=Paris"
+        "web": "https://www.getyourguide.com/s/?q=Paris",
+        "costeEstimado": "25-75 €"
       }
     ],
     "web": "https://www.paris.fr/lieux/montmartre-1818"
@@ -304,7 +328,8 @@
         "proveedor": "Museo de Orsay Educacion",
         "contacto": "educacion@museodeorsay.local",
         "horario": "10:00 - 12:00",
-        "web": "https://www.musee-orsay.fr"
+        "web": "https://www.musee-orsay.fr",
+        "costeEstimado": "20-65 €"
       },
       {
         "titulo": "Ruta de obras imprescindibles",
@@ -312,7 +337,8 @@
         "proveedor": "Guias de Paris",
         "contacto": "reservas@paristours.local",
         "horario": "12:30 - 14:00",
-        "web": "https://www.musee-orsay.fr"
+        "web": "https://www.musee-orsay.fr",
+        "costeEstimado": "20-65 €"
       },
       {
         "titulo": "Taller creativo",
@@ -320,7 +346,8 @@
         "proveedor": "Atelier Paris",
         "contacto": "talleres@parisatelier.local",
         "horario": "16:00 - 18:00",
-        "web": "https://www.musee-orsay.fr"
+        "web": "https://www.musee-orsay.fr",
+        "costeEstimado": "45-95 €"
       },
       {
         "titulo": "Audioguia express",
@@ -328,7 +355,8 @@
         "proveedor": "Audio Travel",
         "contacto": "audio@travel.local",
         "horario": "Durante apertura",
-        "web": "https://www.tiqets.com/en/search/?query=Paris"
+        "web": "https://www.tiqets.com/en/search/?query=Paris",
+        "costeEstimado": "5-20 €"
       },
       {
         "titulo": "Encuentro con especialista",
@@ -336,7 +364,8 @@
         "proveedor": "Cultura Paris",
         "contacto": "info@culturaparis.local",
         "horario": "Consultar calendario",
-        "web": "https://www.musee-orsay.fr"
+        "web": "https://www.musee-orsay.fr",
+        "costeEstimado": "20-65 €"
       },
       {
         "titulo": "Paseo fotografico interior",
@@ -344,7 +373,8 @@
         "proveedor": "Photo Walk Paris",
         "contacto": "foto@pariswalk.local",
         "horario": "Ultima hora de apertura",
-        "web": "https://www.withlocals.com/search/?q=Paris"
+        "web": "https://www.withlocals.com/search/?q=Paris",
+        "costeEstimado": "40-120 €"
       }
     ],
     "web": "https://www.musee-orsay.fr"
@@ -374,7 +404,8 @@
         "proveedor": "Green Paris",
         "contacto": "green@paris.local",
         "horario": "10:00 - 11:30",
-        "web": "https://www.senat.fr/visite/jardin"
+        "web": "https://www.senat.fr/visite/jardin",
+        "costeEstimado": "15-50 €"
       },
       {
         "titulo": "Picnic con producto local",
@@ -382,7 +413,8 @@
         "proveedor": "Picnic Paris",
         "contacto": "picnic@paris.local",
         "horario": "13:00 - 15:00",
-        "web": "https://www.senat.fr/visite/jardin"
+        "web": "https://www.senat.fr/visite/jardin",
+        "costeEstimado": "15-50 €"
       },
       {
         "titulo": "Ruta fotografica natural",
@@ -390,7 +422,8 @@
         "proveedor": "Photo Walk Paris",
         "contacto": "foto@pariswalk.local",
         "horario": "Atardecer",
-        "web": "https://www.withlocals.com/search/?q=Paris"
+        "web": "https://www.withlocals.com/search/?q=Paris",
+        "costeEstimado": "40-120 €"
       },
       {
         "titulo": "Actividad familiar al aire libre",
@@ -398,7 +431,8 @@
         "proveedor": "Familias Viajeras",
         "contacto": "familias@viaje.local",
         "horario": "11:00 - 12:30",
-        "web": "https://www.getyourguide.com/s/?q=Paris"
+        "web": "https://www.getyourguide.com/s/?q=Paris",
+        "costeEstimado": "25-70 €"
       },
       {
         "titulo": "Bienestar y estiramientos",
@@ -406,7 +440,8 @@
         "proveedor": "Wellness Paris",
         "contacto": "wellness@paris.local",
         "horario": "08:30 - 09:30",
-        "web": "https://www.getyourguide.com/s/?q=Paris"
+        "web": "https://www.getyourguide.com/s/?q=Paris",
+        "costeEstimado": "15-50 €"
       },
       {
         "titulo": "Miradores y rincones tranquilos",
@@ -414,7 +449,8 @@
         "proveedor": "Slow Travel Paris",
         "contacto": "slow@paris.local",
         "horario": "16:30 - 18:00",
-        "web": "https://www.senat.fr/visite/jardin"
+        "web": "https://www.senat.fr/visite/jardin",
+        "costeEstimado": "15-50 €"
       }
     ],
     "web": "https://www.senat.fr/visite/jardin"
@@ -444,7 +480,8 @@
         "proveedor": "Walks Paris",
         "contacto": "walks@paris.local",
         "horario": "10:30 - 12:30",
-        "web": "https://www.civitatis.com/es/paris/"
+        "web": "https://www.civitatis.com/es/paris/",
+        "costeEstimado": "15-45 €"
       },
       {
         "titulo": "Ruta gastronomica local",
@@ -452,7 +489,8 @@
         "proveedor": "Sabores de Paris",
         "contacto": "sabores@paris.local",
         "horario": "13:00 - 15:00",
-        "web": "https://www.secretfoodtours.com/paris/"
+        "web": "https://www.secretfoodtours.com/paris/",
+        "costeEstimado": "35-90 €"
       },
       {
         "titulo": "Fotografia urbana",
@@ -460,7 +498,8 @@
         "proveedor": "Photo Walk Paris",
         "contacto": "foto@pariswalk.local",
         "horario": "Atardecer",
-        "web": "https://www.withlocals.com/search/?q=Paris"
+        "web": "https://www.withlocals.com/search/?q=Paris",
+        "costeEstimado": "40-120 €"
       },
       {
         "titulo": "Historias del vecindario",
@@ -468,7 +507,8 @@
         "proveedor": "Cronicas Paris",
         "contacto": "cronicas@paris.local",
         "horario": "17:00 - 18:30",
-        "web": "https://www.civitatis.com/es/paris/"
+        "web": "https://www.civitatis.com/es/paris/",
+        "costeEstimado": "15-45 €"
       },
       {
         "titulo": "Compras con guia local",
@@ -476,7 +516,8 @@
         "proveedor": "Local Shops Paris",
         "contacto": "shops@paris.local",
         "horario": "11:00 - 13:00",
-        "web": "https://www.getyourguide.com/s/?q=Paris"
+        "web": "https://www.getyourguide.com/s/?q=Paris",
+        "costeEstimado": "20-60 €"
       },
       {
         "titulo": "Noche de ambiente",
@@ -484,7 +525,8 @@
         "proveedor": "After Dark Paris",
         "contacto": "noche@paris.local",
         "horario": "20:00 - 22:00",
-        "web": "https://www.getyourguide.com/s/?q=Paris"
+        "web": "https://www.getyourguide.com/s/?q=Paris",
+        "costeEstimado": "25-75 €"
       }
     ],
     "web": "https://www.parisjetaime.com/eng/discovering-paris/the-marais-pc9"
@@ -514,7 +556,8 @@
         "proveedor": "Guias Locales Paris",
         "contacto": "hola@parislocal.local",
         "horario": "10:00 - 12:00",
-        "web": "https://www.getyourguide.com/s/?q=Paris"
+        "web": "https://www.getyourguide.com/s/?q=Paris",
+        "costeEstimado": "25-70 €"
       },
       {
         "titulo": "Paseo fotografico",
@@ -522,7 +565,8 @@
         "proveedor": "Photo Walk Paris",
         "contacto": "foto@pariswalk.local",
         "horario": "Atardecer",
-        "web": "https://www.withlocals.com/search/?q=Paris"
+        "web": "https://www.withlocals.com/search/?q=Paris",
+        "costeEstimado": "40-120 €"
       },
       {
         "titulo": "Tour privado a medida",
@@ -530,7 +574,8 @@
         "proveedor": "Travel Designers Paris",
         "contacto": "plan@paristravel.local",
         "horario": "Bajo reserva",
-        "web": "https://www.getyourguide.com/s/?q=Paris"
+        "web": "https://www.getyourguide.com/s/?q=Paris",
+        "costeEstimado": "90-180 €"
       },
       {
         "titulo": "Ruta familiar",
@@ -538,7 +583,8 @@
         "proveedor": "Familias Viajeras",
         "contacto": "familias@viaje.local",
         "horario": "11:00 - 12:30",
-        "web": "https://www.getyourguide.com/s/?q=Paris"
+        "web": "https://www.getyourguide.com/s/?q=Paris",
+        "costeEstimado": "25-70 €"
       },
       {
         "titulo": "Experiencia al atardecer",
@@ -546,7 +592,8 @@
         "proveedor": "Slow Travel Paris",
         "contacto": "slow@paris.local",
         "horario": "Atardecer",
-        "web": "https://www.getyourguide.com/s/?q=Paris"
+        "web": "https://www.getyourguide.com/s/?q=Paris",
+        "costeEstimado": "25-75 €"
       },
       {
         "titulo": "Audioguia express",
@@ -554,7 +601,8 @@
         "proveedor": "Audio Travel",
         "contacto": "audio@travel.local",
         "horario": "Durante apertura",
-        "web": "https://www.tiqets.com/en/search/?query=Paris"
+        "web": "https://www.tiqets.com/en/search/?query=Paris",
+        "costeEstimado": "5-20 €"
       }
     ],
     "web": "https://www.paris.fr/lieux/marche-des-enfants-rouges-5461"
@@ -584,7 +632,8 @@
         "proveedor": "Bistrot Paul Bert",
         "contacto": "reservas@bistrotpaulbert.local",
         "horario": "Comida y cena",
-        "web": "https://www.secretfoodtours.com/paris/"
+        "web": "https://www.secretfoodtours.com/paris/",
+        "costeEstimado": "45-120 €"
       },
       {
         "titulo": "Menu degustacion",
@@ -592,7 +641,8 @@
         "proveedor": "Sabores de Paris",
         "contacto": "sabores@paris.local",
         "horario": "Consultar servicio",
-        "web": "https://www.secretfoodtours.com/paris/"
+        "web": "https://www.secretfoodtours.com/paris/",
+        "costeEstimado": "80-160 €"
       },
       {
         "titulo": "Charla con cocina",
@@ -600,7 +650,8 @@
         "proveedor": "Food Stories Paris",
         "contacto": "food@paris.local",
         "horario": "Antes de comer",
-        "web": "https://www.secretfoodtours.com/paris/"
+        "web": "https://www.secretfoodtours.com/paris/",
+        "costeEstimado": "35-90 €"
       },
       {
         "titulo": "Maridaje local",
@@ -608,7 +659,8 @@
         "proveedor": "Catas Paris",
         "contacto": "catas@paris.local",
         "horario": "Cena",
-        "web": "https://www.secretfoodtours.com/paris/"
+        "web": "https://www.secretfoodtours.com/paris/",
+        "costeEstimado": "80-160 €"
       },
       {
         "titulo": "Ruta gastronomica cercana",
@@ -616,7 +668,8 @@
         "proveedor": "Food Walk Paris",
         "contacto": "foodwalk@paris.local",
         "horario": "12:00 - 14:00",
-        "web": "https://www.secretfoodtours.com/paris/"
+        "web": "https://www.secretfoodtours.com/paris/",
+        "costeEstimado": "35-90 €"
       },
       {
         "titulo": "Clase de sabor local",
@@ -624,7 +677,8 @@
         "proveedor": "Talleres Paris",
         "contacto": "talleres@paris.local",
         "horario": "Consultar calendario",
-        "web": "https://www.bistrotpaulbert.fr"
+        "web": "https://www.bistrotpaulbert.fr",
+        "costeEstimado": "45-95 €"
       }
     ],
     "web": "https://www.bistrotpaulbert.fr"

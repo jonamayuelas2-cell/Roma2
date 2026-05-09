@@ -1,6 +1,6 @@
-/*
+﻿/*
  * CIUDADES DEL MUNDO PWA - Global Travel Guide
-    * Dinámicamente carga datos de ciudades del mundo con un selector 3D(Globe.gl).
+    * DinÃ¡micamente carga datos de ciudades del mundo con un selector 3D(Globe.gl).
  */
 
 const state = {
@@ -38,7 +38,7 @@ function assetUrl(src) {
     return `${baseSrc}?v=${ASSET_VERSION}`;
 }
 
-// Función para llamar a métodos de Globe.gl de forma segura
+// FunciÃ³n para llamar a mÃ©todos de Globe.gl de forma segura
 function callGlobe(method, ...args) {
     if (!state.globe || typeof state.globe[method] !== 'function') return false;
     try {
@@ -51,13 +51,13 @@ function callGlobe(method, ...args) {
 }
 
 
-// ══ INICIALIZACIÓN ══════════════════════════════════════════
+// â•â• INICIALIZACIÃ“N â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 
 function normalizeContinentName(continent) {
     const names = {
-        Africa: 'África',
-        America: 'América',
-        Oceania: 'Oceanía',
+        Africa: '\u00c1frica',
+        America: 'Am\u00e9rica',
+        Oceania: 'Ocean\u00eda',
         'Europa/Asia': 'Europa'
     };
 
@@ -101,7 +101,7 @@ function renderWebValue(value) {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    console.log('🚀 Iniciando TravelWorld PWA...');
+    console.log('ðŸš€ Iniciando TravelWorld PWA...');
     Promise.all([loadCities(), loadCruises()]).then(() => {
         ensureGlobeLibrary().then(() => {
             initGlobe();
@@ -120,17 +120,17 @@ async function loadCruises() {
             ...c,
             puntuacion: parseFloat((4.5 + (c.nombre.length % 5) / 10).toFixed(1))
         }));
-        console.log('🛳️ Cruceros cargados con puntuaciones');
+        console.log('ðŸ›³ï¸ Cruceros cargados con puntuaciones');
     } catch (error) {
         console.warn('No se pudieron cargar los cruceros:', error);
     }
 }
 
-// ══ CARGA DE DATOS ══════════════════════════════════════════
+// â•â• CARGA DE DATOS â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 
 async function loadCities() {
     try {
-        console.log('📦 Solicitando cities.json...');
+        console.log('ðŸ“¦ Solicitando cities.json...');
         const response = await fetch(`cities.json?v=${Date.now()}`, { cache: 'no-store' });
         if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
         const data = await response.json();
@@ -140,7 +140,7 @@ async function loadCities() {
             lng: Number(c.lng),
             continente: normalizeContinentName(c.continente)
         }));
-        console.log('📍 Datos de ciudades obtenidos y normalizados');
+        console.log('ðŸ“ Datos de ciudades obtenidos y normalizados');
         updateSelectionStats();
     } catch (error) {
         console.error('Error cargando ciudades:', error);
@@ -180,19 +180,19 @@ function updateSelectionStats() {
 }
 
 
-// ══ SELECTOR 3D (GLOBE) ══════════════════════════════════════
+// â•â• SELECTOR 3D (GLOBE) â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 
 function initGlobe() {
     const globeContainer = document.getElementById('globeViz');
     if (!globeContainer) return;
 
     if (!window.Globe) {
-        console.warn('⚠️ Globe.gl no disponible, usando fallback');
+        console.warn('âš ï¸ Globe.gl no disponible, usando fallback');
         renderGlobeFallback(globeContainer);
         return;
     }
 
-    console.log('🌐 Inicializando globo 3D...');
+    console.log('ðŸŒ Inicializando globo 3D...');
     state.globe = Globe()
         (globeContainer)
         .globeImageUrl(GLOBE_TEXTURE_URL)
@@ -202,18 +202,18 @@ function initGlobe() {
         .atmosphereColor('#8ee8ff')
         .atmosphereAltitude(0.28);
 
-    // Configuración de controles inicial
+    // ConfiguraciÃ³n de controles inicial
     const controls = state.globe.controls();
     if (controls) {
         controls.autoRotate = false;
         controls.enableDamping = true;
     }
 
-    // Función para refrescar datos de forma segura
+    // FunciÃ³n para refrescar datos de forma segura
     const refreshData = () => {
         if (!state.globe) return;
         
-        // Filtrar ciudades por continente (solo si showCities está activo)
+        // Filtrar ciudades por continente (solo si showCities estÃ¡ activo)
         const filteredCities = state.activeFilters.showCities 
             ? state.cities.filter(c => state.activeFilters.continents.includes(c.continente))
             : [];
@@ -223,10 +223,6 @@ function initGlobe() {
         if (state.activeFilters.showCruises) {
             if (state.currentCruise) {
                 activeCruises = [state.currentCruise];
-            } else {
-                // Si no hay uno seleccionado, mostramos los 10 de la lista (solo puntos de origen para no saturar)
-                // O mejor, el primero de la lista para que el mapa no esté vacío
-                activeCruises = getFilteredCruiseList();
             }
         }
 
@@ -243,7 +239,7 @@ function initGlobe() {
             });
         }
 
-        console.log(`📍 Aplicando ${displayPoints.length} puntos al globo...`);
+        console.log(`ðŸ“ Aplicando ${displayPoints.length} puntos al globo...`);
         
         callGlobe('pointsData', displayPoints);
         callGlobe('pointAltitude', 0.035);
@@ -298,10 +294,10 @@ function initGlobe() {
         callGlobe('pathDashAnimateTime', 12000);
         callGlobe('pathStroke', 2);
         
-        // Limpiar arcos si existían
+        // Limpiar arcos si existÃ­an
         callGlobe('arcsData', []);
 
-        // Animación de barcos
+        // AnimaciÃ³n de barcos
         if (state.activeFilters.showCruises) {
             animateShips(activeCruises);
         } else {
@@ -408,7 +404,7 @@ function setupGlobeFilters() {
             state.activeFilters.cruiseRegions = Array.from(regionChecks)
                 .filter(c => c.checked)
                 .map(c => c.value);
-            state.currentCruise = null; // Limpiar selección al cambiar filtros de zona
+            state.currentCruise = null; // Limpiar selecciÃ³n al cambiar filtros de zona
             updateFilterVisuals();
             updateCruiseList();
             window.refreshGlobe();
@@ -426,18 +422,19 @@ function setupGlobeFilters() {
 }
 
 function getFilteredCruiseList() {
-    if (!state.activeFilters.showCruises || state.activeFilters.cruiseRegions.length === 0) return [];
+    if (!state.activeFilters.showCruises) return [];
 
     const hasOthers = state.activeFilters.cruiseRegions.includes('Otros');
     const mainRegions = ['Caribe', 'Mediterraneo', 'Paises Nordicos'];
 
-    return state.cruises.filter(c => {
+    const activeCruises = state.cruises.filter(c => {
         if (state.activeFilters.cruiseRegions.includes(c.region)) return true;
         if (hasOthers && !mainRegions.includes(c.region)) return true;
         return false;
     })
-        .sort((a, b) => b.puntuacion - a.puntuacion)
-        .slice(0, 10);
+        .sort((a, b) => b.puntuacion - a.puntuacion);
+
+    return activeCruises.slice(0, 10);
 }
 
 function getCruiseShipInfo(cruise) {
@@ -476,7 +473,7 @@ function updateCruiseList() {
     panel.style.display = filteredCruises.length > 0 ? 'flex' : 'none';
     container.innerHTML = '';
 
-    filteredCruises.forEach(cruise => {
+    filteredCruises.forEach((cruise, index) => {
         const origin = cruise.ruta[0]?.nombre || 'N/A';
         const destination = cruise.ruta[cruise.ruta.length - 1]?.nombre || 'N/A';
         const duration = cruise.ruta.length + 2; 
@@ -490,6 +487,7 @@ function updateCruiseList() {
         const card = document.createElement('div');
         card.className = `cruise-card ${state.currentCruise?.id === cruise.id ? 'active' : ''}`;
         card.innerHTML = `
+            <span class="cruise-rank-badge">${index + 1}</span>
             <img src="${cruise.imagen}" class="cruise-card-img" alt="${cruise.nombre}">
             <div class="cruise-card-content">
                 <div class="cruise-card-title">${cruise.nombre}</div>
@@ -498,18 +496,22 @@ function updateCruiseList() {
                     <strong>${shipInfo.shipName}</strong>
                 </div>
                 <div class="cruise-info-row">
-                    <span class="cruise-info-icon">📍</span>
-                    <span>${origin} → ${destination}</span>
+                    <span class="cruise-info-icon">Meses</span>
+                    <span>${cruise.temporada || 'Consultar temporada'}</span>
+                </div>
+                <div class="cruise-info-row">
+                    <span class="cruise-info-icon">Ruta</span>
+                    <span>${origin} - ${destination}</span>
                 </div>
                 <div class="cruise-itinerary-list">Itinerario: ${cities}</div>
                 <div class="cruise-info-row">
-                    <span class="cruise-info-icon">🚢</span>
+                    <span class="cruise-info-icon">Esc.</span>
                     <span>${stopsCount} ciudades visitadas</span>
                 </div>
                 <div class="cruise-rating-row">
                     <div class="cruise-rating">
                         <span class="stars">★ ${rating}</span>
-                        <span class="duration">${duration} días</span>
+                        <span class="duration">${duration} dias</span>
                     </div>
                     <button class="cruise-detail-btn" onclick="event.stopPropagation(); window.selectCruise('${cruise.id}')">Ver Detalle</button>
                 </div>
@@ -549,7 +551,7 @@ function animateShips(activeCruises) {
         
         const ship = document.createElement('div');
         ship.className = 'ship-icon';
-        ship.innerHTML = '🚢';
+        ship.innerHTML = 'ðŸš¢';
         
         const wake = document.createElement('div');
         wake.className = 'ship-wake';
@@ -562,7 +564,7 @@ function animateShips(activeCruises) {
     if (window.shipInterval) clearInterval(window.shipInterval);
     window.shipInterval = setInterval(() => {
         ships.forEach(s => {
-            // Velocidad variable según el tramo (opcional, aquí constante)
+            // Velocidad variable segÃºn el tramo (opcional, aquÃ­ constante)
             s.t += 0.008; 
             
             if (s.t >= 1) {
@@ -573,18 +575,18 @@ function animateShips(activeCruises) {
             const start = s.cruise.ruta[s.index];
             const end = s.cruise.ruta[s.index + 1];
             
-            // Interpolación esférica simplificada (Lerp en lat/lng es aceptable para distancias de crucero)
+            // InterpolaciÃ³n esfÃ©rica simplificada (Lerp en lat/lng es aceptable para distancias de crucero)
             s.lat = start.lat + (end.lat - start.lat) * s.t;
             s.lng = start.lng + (end.lng - start.lng) * s.t;
             
-            // Cálculo de rotación (rumbo)
+            // CÃ¡lculo de rotaciÃ³n (rumbo)
             const angle = Math.atan2(end.lat - start.lat, end.lng - start.lng) * (180 / Math.PI);
-            s.rotation = 90 - angle; // Ajustar según el emoji
+            s.rotation = 90 - angle; // Ajustar segÃºn el emoji
         });
         
         callGlobe('customLayerData', ships);
         
-        // Actualizar rotación en el DOM si es necesario (el customLayerElement se encarga de posicionar)
+        // Actualizar rotaciÃ³n en el DOM si es necesario (el customLayerElement se encarga de posicionar)
         const shipElements = document.querySelectorAll('.ship-icon');
         ships.forEach((s, i) => {
             if (shipElements[i]) {
@@ -605,7 +607,7 @@ function ensureGlobeLibrary() {
     });
 }
 
-// ══ NAVEGACIÓN Y ESTADO ══════════════════════════════════════
+// â•â• NAVEGACIÃ“N Y ESTADO â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 
 function renderGlobeFallback(container) {
     container.innerHTML = `
@@ -617,7 +619,7 @@ function renderGlobeFallback(container) {
 
 async function selectCity(city) {
     if (!city.lugares || city.lugares.length === 0) {
-        alert(`Lo sentimos, la información para ${city.nombre} aún no está disponible.`);
+        alert(`Lo sentimos, la informaciÃ³n para ${city.nombre} aÃºn no estÃ¡ disponible.`);
         return;
     }
 
@@ -628,7 +630,7 @@ async function selectCity(city) {
     applyTheme(city);
     updateUIForCity(city);
 
-    // Transición suave
+    // TransiciÃ³n suave
     if (state.isTransitioning) return;
     state.isTransitioning = true;
 
@@ -667,7 +669,7 @@ function applyTheme(city) {
 }
 
 function updateUIForCity(city) {
-    document.getElementById('app-title').innerHTML = `${city.nombre} <span class="logo-sub">Guía de Viaje · ${city.pais}</span>`;
+    document.getElementById('app-title').innerHTML = `${city.nombre} <span class="logo-sub">GuÃ­a de Viaje Â· ${city.pais}</span>`;
     document.getElementById('app-logo-icon').textContent = city.emoji;
 
     const heroTitle = document.getElementById('hero-title');
@@ -698,7 +700,7 @@ function backToSelection() {
         state.currentCity = null;
         cleanupMap();
 
-        // Si venimos de un crucero, volver al crucero en lugar de a la selección
+        // Si venimos de un crucero, volver al crucero en lugar de a la selecciÃ³n
         if (state.fromCruise) {
             state.fromCruise = false;
             app.style.display = 'none';
@@ -714,7 +716,7 @@ function backToSelection() {
     }, 500);
 }
 
-// ══ CRUCEROS LÓGICA ══════════════════════════════════════════
+// â•â• CRUCEROS LÃ“GICA â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 
 async function selectCruise(cruise) {
     if (state.isTransitioning) return;
@@ -747,6 +749,10 @@ async function selectCruise(cruise) {
 }
 
 function renderCruiseHeader(cruise) {
+    updateCruiseDetailUI(cruise);
+}
+
+function renderCruiseHeaderLegacy(cruise) {
     const ship = cruise.buque;
     const header = document.querySelector('.cruise-header-premium');
     
@@ -759,7 +765,7 @@ function renderCruiseHeader(cruise) {
     document.getElementById('ship-photo').src = assetUrl(ship.imagen);
     document.getElementById('ship-photo').alt = ship.nombre;
     
-    // Efecto parallax en la foto al mover el ratón
+    // Efecto parallax en la foto al mover el ratÃ³n
     const photoWrapper = document.querySelector('.ship-photo-wrapper');
     photoWrapper.onmousemove = (e) => {
         const { left, top, width, height } = photoWrapper.getBoundingClientRect();
@@ -777,7 +783,7 @@ function renderCruiseHeader(cruise) {
     document.getElementById('stat-eslora').textContent = ship.eslora;
     document.getElementById('stat-tripulacion').textContent = ship.tripulacion;
 
-    // Animación escalonada de las cajas de estadísticas
+    // AnimaciÃ³n escalonada de las cajas de estadÃ­sticas
     const statBoxes = document.querySelectorAll('.stat-box');
     statBoxes.forEach((box, i) => {
         box.style.opacity = '0';
@@ -798,10 +804,17 @@ function renderCruiseHeader(cruise) {
 }
 
 function showItineraryView() {
-    document.getElementById('cruise-itinerary-view').classList.remove('hidden');
-    document.getElementById('cruise-port-view').classList.add('hidden');
-    
-    // Renderizar mapa global de crucero
+    const itineraryView = document.getElementById('cruise-itinerary-view') || document.getElementById('cruise-itinerary-section');
+    const portView = document.getElementById('cruise-port-view') || document.getElementById('port-detail-section');
+    if (itineraryView) {
+        itineraryView.classList.remove('hidden');
+        itineraryView.style.display = '';
+    }
+    if (portView) {
+        portView.classList.add('hidden');
+        portView.style.display = 'none';
+    }
+
     setTimeout(renderCruiseMap, 100);
 }
 
@@ -825,7 +838,7 @@ function renderCruiseMap() {
 
     L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png').addTo(state.map);
 
-    // Zoom cinematográfico al cargar
+    // Zoom cinematogrÃ¡fico al cargar
     setTimeout(() => {
         state.map.flyTo([cruise.paradas[0].lat, cruise.paradas[0].lng], 5, {
             duration: 2,
@@ -836,7 +849,7 @@ function renderCruiseMap() {
     // Dibujar ruta con efecto premium
     const pathCoords = cruise.ruta.map(p => [p.lat, p.lng]);
     
-    // Línea de ruta con efecto náutico (discontinua y con sombra)
+    // LÃ­nea de ruta con efecto nÃ¡utico (discontinua y con sombra)
     const mainRoute = L.polyline(pathCoords, { 
         color: '#38bdf8', 
         weight: 5, 
@@ -845,7 +858,7 @@ function renderCruiseMap() {
         lineJoin: 'round'
     }).addTo(state.map);
 
-    // Añadir un brillo exterior a la línea
+    // AÃ±adir un brillo exterior a la lÃ­nea
     L.polyline(pathCoords, { 
         color: '#38bdf8', 
         weight: 12, 
@@ -853,7 +866,7 @@ function renderCruiseMap() {
         lineJoin: 'round'
     }).addTo(state.map);
 
-    // Añadir marcadores de escalas
+    // AÃ±adir marcadores de escalas
     cruise.paradas.forEach(stop => {
         const icon = L.divIcon({
             className: 'custom-div-icon',
@@ -871,17 +884,28 @@ function renderCruiseMap() {
     });
     // Ajustar vista para que quepa toda la ruta
     state.map.fitBounds(mainRoute.getBounds(), { padding: [50, 50] });
+    renderShipTrackingControl(cruise);
+    renderLiveShipPosition(cruise);
 }
 
 function showPortDetails(stop) {
     state.currentPort = stop;
-    document.getElementById('cruise-itinerary-view').classList.add('hidden');
-    document.getElementById('cruise-port-view').classList.remove('hidden');
-    
-    document.getElementById('port-title').textContent = stop.nombre;
-    document.getElementById('port-subtitle').textContent = `Escala técnica y turística · ${state.currentCruise.nombre}`;
-    
-    // Renderizar mapa del puerto/escala
+    const itineraryView = document.getElementById('cruise-itinerary-view') || document.getElementById('cruise-itinerary-section');
+    const portView = document.getElementById('cruise-port-view') || document.getElementById('port-detail-section');
+    if (itineraryView) {
+        itineraryView.classList.add('hidden');
+        itineraryView.style.display = 'none';
+    }
+    if (portView) {
+        portView.classList.remove('hidden');
+        portView.style.display = '';
+    }
+
+    const portTitle = document.getElementById('port-title') || document.getElementById('port-name');
+    const portSubtitle = document.getElementById('port-subtitle');
+    if (portTitle) portTitle.textContent = stop.nombre;
+    if (portSubtitle) portSubtitle.textContent = `Escala tecnica y turistica · ${state.currentCruise.nombre}`;
+
     setTimeout(() => renderPortMap(stop), 100);
 }
 
@@ -889,7 +913,7 @@ function renderPortMap(stop) {
     const container = document.getElementById('port-map');
     
     // Usamos state.portMap para el mapa secundario si queremos mantener ambos, 
-    // pero aquí limpiamos el principal para reusar lógica si es necesario
+    // pero aquÃ­ limpiamos el principal para reusar lÃ³gica si es necesario
     if (state.portMap) {
         state.portMap.remove();
     }
@@ -921,12 +945,12 @@ function renderPortMap(stop) {
 
             const marker = L.marker([city.lat, city.lng], { icon }).addTo(state.portMap);
             
-            // Popup con botón para ir a la ciudad
+            // Popup con botÃ³n para ir a la ciudad
             const popupContent = document.createElement('div');
             popupContent.className = 'port-popup';
             popupContent.innerHTML = `
                 <strong style="color:#000">${city.nombre}</strong><br>
-                <p style="color:#666; font-size:12px; margin:5px 0">${city.tipo || 'Punto de interés'}</p>
+                <p style="color:#666; font-size:12px; margin:5px 0">${city.tipo || 'Punto de interÃ©s'}</p>
                 <button class="back-btn small" style="width:100%; margin-top:5px">Ver Detalles</button>
             `;
             
@@ -937,7 +961,7 @@ function renderPortMap(stop) {
                     selectCity(fullCityData);
                     // Ocultar app de crucero para mostrar app de ciudad
                     document.getElementById('cruise-app').style.display = 'none';
-                    // Marcar que venimos de un crucero para el botón volver
+                    // Marcar que venimos de un crucero para el botÃ³n volver
                     state.fromCruise = true;
                 } else {
                     alert("Datos de la ciudad no encontrados");
@@ -954,8 +978,16 @@ function renderPortMap(stop) {
 }
 
 function backToItinerary() {
-    document.getElementById('cruise-port-view').classList.add('hidden');
-    document.getElementById('cruise-itinerary-view').classList.remove('hidden');
+    const itineraryView = document.getElementById('cruise-itinerary-view') || document.getElementById('cruise-itinerary-section');
+    const portView = document.getElementById('cruise-port-view') || document.getElementById('port-detail-section');
+    if (portView) {
+        portView.classList.add('hidden');
+        portView.style.display = 'none';
+    }
+    if (itineraryView) {
+        itineraryView.classList.remove('hidden');
+        itineraryView.style.display = '';
+    }
     if (state.portMap) {
         state.portMap.remove();
         state.portMap = null;
@@ -992,7 +1024,7 @@ function backFromCruise() {
     }, 500);
 }
 
-// ══ RENDERIZADO DE LUGARES ═══════════════════════════════════
+// â•â• RENDERIZADO DE LUGARES â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 
 function renderPlaces() {
     const container = document.getElementById('places-container');
@@ -1005,7 +1037,7 @@ function renderPlaces() {
     }
 
     if (state.filteredPlaces.length === 0) {
-        container.innerHTML = '<div class="no-results">🔍 No hay resultados.</div>';
+        container.innerHTML = '<div class="no-results">ðŸ” No hay resultados.</div>';
         return;
     }
 
@@ -1034,7 +1066,7 @@ function createPlaceCard(place) {
     return div;
 }
 
-// ══ MAPA ════════════════════════════════════════════════════
+// â•â• MAPA â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 
 function initMap() {
     cleanupMap();
@@ -1058,15 +1090,15 @@ function cleanupMap() {
     }
 }
 
-// ══ METEOROLOGÍA ════════════════════════════════════════════
+// â•â• METEOROLOGÃA â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 
-// ══ METEOROLOGÍA ════════════════════════════════════════════
+// â•â• METEOROLOGÃA â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 
 async function loadWeather() {
     const container = document.getElementById('weather-container');
     const { lat, lng, nombre } = state.currentCity;
 
-    container.innerHTML = '<div class="loading"><div class="spinner"></div> Consultando satélites...</div>';
+    container.innerHTML = '<div class="loading"><div class="spinner"></div> Consultando satÃ©lites...</div>';
 
     try {
         const url = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lng}&current_weather=true&hourly=relativehumidity_2m,apparent_temperature&daily=temperature_2m_max,temperature_2m_min,weathercode,uv_index_max,precipitation_probability_max&timezone=auto`;
@@ -1090,7 +1122,7 @@ async function loadWeather() {
                 </div>
                 
                 <div class="weather-main-info">
-                    <span class="temp-now">${Math.round(weather.temperature)}°</span>
+                    <span class="temp-now">${Math.round(weather.temperature)}Â°</span>
                     <div class="weather-condition">
                         <span class="weather-icon-big">${getWeatherIcon(weather.weathercode)}</span>
                         <span class="condition-text">${getWeatherDescription(weather.weathercode)}</span>
@@ -1099,8 +1131,8 @@ async function loadWeather() {
 
                 <div class="weather-stats-grid">
                     <div class="stat-item">
-                        <span class="stat-label">Sensación</span>
-                        <span class="stat-value">${Math.round(feelsLike)}°C</span>
+                        <span class="stat-label">SensaciÃ³n</span>
+                        <span class="stat-value">${Math.round(feelsLike)}Â°C</span>
                     </div>
                     <div class="stat-item">
                         <span class="stat-label">Humedad</span>
@@ -1111,7 +1143,7 @@ async function loadWeather() {
                         <span class="stat-value">${Math.round(weather.windspeed)} km/h</span>
                     </div>
                     <div class="stat-item">
-                        <span class="stat-label">Índice UV</span>
+                        <span class="stat-label">Ãndice UV</span>
                         <span class="stat-value">${daily.uv_index_max[0]}</span>
                     </div>
                     <div class="stat-item">
@@ -1121,15 +1153,15 @@ async function loadWeather() {
             </div>
 
             <div class="forecast-section">
-                <h3>Próximos días</h3>
+                <h3>PrÃ³ximos dÃ­as</h3>
                 <div class="forecast-grid">
                     ${daily.time.slice(1, 6).map((time, i) => `
                         <div class="forecast-item">
                             <span class="forecast-day">${new Date(time).toLocaleDateString('es-ES', { weekday: 'long' })}</span>
                             <span class="forecast-icon">${getWeatherIcon(daily.weathercode[i + 1])}</span>
                             <div class="forecast-temp">
-                                <span class="temp-max">${Math.round(daily.temperature_2m_max[i + 1])}°</span>
-                                <span class="temp-min">${Math.round(daily.temperature_2m_min[i + 1])}°</span>
+                                <span class="temp-max">${Math.round(daily.temperature_2m_max[i + 1])}Â°</span>
+                                <span class="temp-min">${Math.round(daily.temperature_2m_min[i + 1])}Â°</span>
                             </div>
                         </div>
                     `).join('')}
@@ -1138,7 +1170,7 @@ async function loadWeather() {
         `;
     } catch (error) {
         console.error(error);
-        container.innerHTML = '<div class="error">❌ No pudimos conectar con la estación meteorológica.</div>';
+        container.innerHTML = '<div class="error">âŒ No pudimos conectar con la estaciÃ³n meteorolÃ³gica.</div>';
     }
 }
 
@@ -1153,24 +1185,24 @@ function getWeatherDescription(code) {
         51: 'Llovizna ligera',
         53: 'Llovizna moderada',
         55: 'Llovizna densa',
-        61: 'Lluvia débil',
+        61: 'Lluvia dÃ©bil',
         63: 'Lluvia moderada',
         65: 'Lluvia fuerte',
-        71: 'Nieve débil',
+        71: 'Nieve dÃ©bil',
         73: 'Nieve moderada',
         75: 'Nieve fuerte',
         77: 'Granizo',
         80: 'Chubascos leves',
         81: 'Chubascos moderados',
         82: 'Chubascos violentos',
-        95: 'Tormenta eléctrica',
+        95: 'Tormenta elÃ©ctrica',
         96: 'Tormenta con granizo leve',
         99: 'Tormenta con granizo fuerte'
     };
     return descriptions[code] || 'Condiciones variables';
 }
 
-// ══ EVENT LISTENERS Y UTILIDADES ═════════════════════════════
+// â•â• EVENT LISTENERS Y UTILIDADES â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 
 function setupEventListeners() {
     document.getElementById('back-to-cities').onclick = backToSelection;
@@ -1232,21 +1264,21 @@ function filterPlaces(type, query) {
 }
 
 function getTypeLabel(type) {
-    const labels = { cultura: '🏛️ Cultura', museos: '🖼️ Museos', restaurantes: '🍝 Restaurantes', barrios: '🏘️ Barrios', parques: '🌿 Parques', mercados: '🛍️ Mercados', cafes: '☕ Cafés' };
+    const labels = { cultura: 'ðŸ›ï¸ Cultura', museos: 'ðŸ–¼ï¸ Museos', restaurantes: 'ðŸ Restaurantes', barrios: 'ðŸ˜ï¸ Barrios', parques: 'ðŸŒ¿ Parques', mercados: 'ðŸ›ï¸ Mercados', cafes: 'â˜• CafÃ©s' };
     return labels[type] || type;
 }
 
 function getWeatherIcon(code) {
-    if (code === 0) return '☀️'; // Despejado
-    if (code === 1 || code === 2) return '🌤️'; // Parcialmente
-    if (code === 3) return '☁️'; // Nublado
-    if (code === 45 || code === 48) return '🌫️'; // Niebla
-    if (code >= 51 && code <= 55) return '🌦️'; // Llovizna
-    if (code >= 61 && code <= 65) return '🌧️'; // Lluvia
-    if (code >= 71 && code <= 77) return '❄️'; // Nieve
-    if (code >= 80 && code <= 82) return '🌧️'; // Chubascos
-    if (code >= 95) return '⛈️'; // Tormenta
-    return '🌡️';
+    if (code === 0) return 'â˜€ï¸'; // Despejado
+    if (code === 1 || code === 2) return 'ðŸŒ¤ï¸'; // Parcialmente
+    if (code === 3) return 'â˜ï¸'; // Nublado
+    if (code === 45 || code === 48) return 'ðŸŒ«ï¸'; // Niebla
+    if (code >= 51 && code <= 55) return 'ðŸŒ¦ï¸'; // Llovizna
+    if (code >= 61 && code <= 65) return 'ðŸŒ§ï¸'; // Lluvia
+    if (code >= 71 && code <= 77) return 'â„ï¸'; // Nieve
+    if (code >= 80 && code <= 82) return 'ðŸŒ§ï¸'; // Chubascos
+    if (code >= 95) return 'â›ˆï¸'; // Tormenta
+    return 'ðŸŒ¡ï¸';
 }
 
 function getPlaceExtraInfo(place) {
@@ -1273,7 +1305,7 @@ function getRomeActivityProviders(place) {
         'Coliseo Romano': { name: 'Parco archeologico del Colosseo', contact: 'colosseo.it', schedule: place.horario },
         'Foro Romano': { name: 'Parco archeologico del Colosseo', contact: 'colosseo.it', schedule: place.horario },
         'Fontana di Trevi': { name: 'Turismo Roma', contact: 'turismoroma.it', schedule: 'Espacio abierto 24h' },
-        'Panteón de Agripa': { name: 'Pantheon Roma', contact: 'pantheonroma.com', schedule: place.horario },
+        'PanteÃ³n de Agripa': { name: 'Pantheon Roma', contact: 'pantheonroma.com', schedule: place.horario },
         'Museos Vaticanos': { name: 'Musei Vaticani', contact: 'museivaticani.va', schedule: place.horario },
         'Trastevere': { name: 'Eating Europe', contact: 'eatingeurope.com/rome', schedule: 'Tarde y noche, reserva online' },
         'Villa Borghese': { name: 'Galleria Borghese', contact: 'galleriaborghese.beniculturali.it', schedule: place.horario },
@@ -1310,7 +1342,7 @@ function getRomeActivityIdeas(place) {
             ['Helado y plazas cercanas', 'Experiencia ligera por heladerias artesanas y rincones proximos.'],
             ['Audioguia express', 'Visita breve con contexto artistico para entender la composicion barroca.']
         ],
-        'Panteón de Agripa': [
+        'PanteÃ³n de Agripa': [
             ['Visita guiada del oculo', 'Explicacion arquitectonica de la cupula, el oculo y la luz interior.'],
             ['Tour de templos antiguos', 'Ruta por el Panteon y restos romanos del Campo Marzio.'],
             ['Concierto o experiencia musical', 'Actividad cultural cuando hay programacion especial en el entorno.'],
@@ -1436,7 +1468,7 @@ function getIstanbulActivityIdeas(place) {
         ],
         'Torre de Galata': [
             ['Vistas 360 grados', 'Acceso al mirador para ver toda Estambul desde las alturas.'],
-            ['Barrio Genoves de Galata', 'Paseo por las calles empinadas, tiendas de diseño y musica.'],
+            ['Barrio Genoves de Galata', 'Paseo por las calles empinadas, tiendas de diseÃ±o y musica.'],
             ['Ruta de Cafes en Beyoglu', 'Exploracion de la vida social y bohemia de los alrededores.'],
             ['Atardecer sobre el Cuerno de Oro', 'Experiencia fotografica con la mejor luz del dia.'],
             ['Historia Medieval de la Torre', 'Contexto sobre la defensa de la ciudad y los genoveses.'],
@@ -1445,7 +1477,7 @@ function getIstanbulActivityIdeas(place) {
         'Crucero por el Bosforo': [
             ['Navegacion al Atardecer', 'Crucero publico o compartido para ver las siluetas de la ciudad.'],
             ['Crucero Privado de Lujo', 'Experiencia exclusiva para ver palacios y yalis de madera.'],
-            ['Desayuno en el Barco', 'Mañana relajada navegando entre Europa y Asia.'],
+            ['Desayuno en el Barco', 'MaÃ±ana relajada navegando entre Europa y Asia.'],
             ['Ruta de Palacios Costeros', 'Explicacion de Dolmabahce y Beylerbeyi desde el agua.'],
             ['Tour Nocturno con Cena', 'Espectaculo de danzas tradicionales y vistas iluminadas.'],
             ['Paseo por la Costa Asiatica', 'Parada en barrios como Kanlica o Kuzguncuk.']
@@ -1490,6 +1522,7 @@ function getPlaceActivities(place) {
             provider: act.proveedor || act.provider,
             contact: act.contacto || act.contact,
             web: act.web || act.website || act.url || (getWebsiteUrl(act.contacto || act.contact) ? (act.contacto || act.contact) : ''),
+            cost: act.costeEstimado || act.coste || act.cost || act.precio || act.price,
             schedule: act.horario || act.schedule
         }));
     }
@@ -1503,6 +1536,7 @@ function getPlaceActivities(place) {
             provider: providers[index].name,
             contact: providers[index].contact,
             web: getWebsiteUrl(providers[index].contact) ? providers[index].contact : '',
+            cost: '25-70 â‚¬',
             schedule: providers[index].schedule
         }));
     } else if (cityId === 'estambul') {
@@ -1514,6 +1548,7 @@ function getPlaceActivities(place) {
             provider: providers[index].name,
             contact: providers[index].contact,
             web: getWebsiteUrl(providers[index].contact) ? providers[index].contact : '',
+            cost: '25-70 â‚¬',
             schedule: providers[index].schedule
         }));
     }
@@ -1554,6 +1589,7 @@ function renderPlaceActivities(place) {
                     <div><dt>Empresa</dt><dd>${activity.provider}</dd></div>
                     ${!getWebsiteUrl(activity.contact) ? `<div><dt>Contacto</dt><dd>${renderContactValue(activity.contact)}</dd></div>` : ''}
                     ${activity.web ? `<div><dt>Web</dt><dd>${renderWebValue(activity.web)}</dd></div>` : ''}
+                    <div><dt>Coste</dt><dd>${escapeHtml(activity.cost || 'Consultar')}</dd></div>
                     <div><dt>Horario</dt><dd>${activity.schedule}</dd></div>
                 </dl>
             </div>
@@ -1634,33 +1670,144 @@ function updateCruiseDetailUI(cruise) {
     const shipImg = document.getElementById('ship-img');
     const shipName = document.getElementById('ship-name');
     const shipStats = document.getElementById('ship-stats');
-    
-    if (shipImg) shipImg.src = cruise.imagen;
-    if (shipName) shipName.textContent = cruise.nombre;
+    const shipInfo = getCruiseShipInfo(cruise);
+    const shipData = cruise.buque?.datos || {};
+    const duration = cruise.ruta.length + 2;
+    if (shipImg) {
+        shipImg.src = assetUrl(cruise.buque?.fotoBarco || cruise.buque?.imagen || cruise.imagen);
+        shipImg.alt = shipInfo.shipName;
+    }
+    const shipBadge = document.getElementById('ship-badge');
+    if (shipBadge) shipBadge.textContent = shipInfo.shipName;
+    if (shipName) shipName.textContent = `${cruise.nombre} · ${shipInfo.shipName}`;
     
     if (shipStats) {
         shipStats.innerHTML = `
             <div class="stat-item">
                 <span class="stat-value">${cruise.puntuacion}</span>
-                <span class="stat-label">Valoración</span>
+                <span class="stat-label">Valoracion</span>
+            </div>
+            <div class="stat-item stat-item-wide">
+                <span class="stat-value">${cruise.temporada || 'Consultar'}</span>
+                <span class="stat-label">Meses</span>
+            </div>
+            <div class="stat-item stat-item-wide">
+                <span class="stat-value">${shipInfo.company}</span>
+                <span class="stat-label">Compania</span>
             </div>
             <div class="stat-item">
-                <span class="stat-value">${cruise.paradas.length}</span>
-                <span class="stat-label">Escalas</span>
+                <span class="stat-value">${duration}</span>
+                <span class="stat-label">Dias</span>
             </div>
-            <div class="stat-item">
-                <span class="stat-value">${cruise.ruta.length + 2}</span>
-                <span class="stat-label">Días</span>
+            <div class="ship-summary-card">
+                <h3>Datos barco</h3>
+                <dl>
+                    <div><dt>Eslora</dt><dd>${shipData.eslora || 'Consultar'}</dd></div>
+                    <div><dt>Plantas</dt><dd>${shipData.cubiertas || 'Consultar'}</dd></div>
+                    <div><dt>Pasajeros</dt><dd>${shipData.pasajeros || 'Consultar'}</dd></div>
+                    <div><dt>Tripulacion</dt><dd>${shipData.tripulacion || 'Consultar'}</dd></div>
+                    <div><dt>Restaurantes</dt><dd>${shipData.restaurantes || 'Consultar'}</dd></div>
+                    <div class="ship-summary-wide"><dt>Actividades internas</dt><dd>${shipData.actividades || 'Consultar'}</dd></div>
+                </dl>
             </div>
         `;
     }
+    const progressBar = document.getElementById('voyage-progress-bar');
+    const status = document.getElementById('voyage-status');
+    if (progressBar) progressBar.style.width = `${Math.round((1 / cruise.paradas.length) * 100)}%`;
+    if (status) {
+        status.innerHTML = `
+            <span>Circuito ofertado entre ${cruise.temporada || 'temporada por confirmar'} · Inicio: ${cruise.ruta[0]?.nombre || 'Consultar'}</span>
+            ${cruise.buque?.trackingUrl ? `<a class="ship-tracking-link" href="${cruise.buque.trackingUrl}" target="_blank" rel="noopener noreferrer">Ver posicion actual del barco</a>` : ''}
+        `;
+    }
 
-    // Inicializar el mapa de itinerario si existe la función
+    renderLiveShipPosition(cruise);
+
     if (window.initCruiseItineraryMap) {
         window.initCruiseItineraryMap(cruise);
     }
 }
 
+async function getVesselFinderApiKey() {
+    return window.VESSELFINDER_API_KEY || localStorage.getItem('vesselfinder_api_key') || '';
+}
+
+async function fetchLiveShipPosition(cruise) {
+    const apiKey = await getVesselFinderApiKey();
+    const imo = cruise.buque?.imo;
+    if (!apiKey || !imo) return null;
+
+    const url = `https://api.vesselfinder.com/vessels?userkey=${encodeURIComponent(apiKey)}&imo=${encodeURIComponent(imo)}&format=json`;
+    const response = await fetch(url);
+    if (!response.ok) throw new Error(`VesselFinder ${response.status}`);
+    const data = await response.json();
+    const vessel = Array.isArray(data) ? data[0] : data?.AIS?.[0] || data?.[0] || data;
+    const lat = Number(vessel?.LATITUDE ?? vessel?.lat);
+    const lng = Number(vessel?.LONGITUDE ?? vessel?.lng ?? vessel?.lon);
+    if (!Number.isFinite(lat) || !Number.isFinite(lng)) return null;
+
+    return {
+        lat,
+        lng,
+        speed: vessel?.SPEED,
+        course: vessel?.COURSE,
+        timestamp: vessel?.TIMESTAMP,
+        destination: vessel?.DESTINATION
+    };
+}
+
+async function renderLiveShipPosition(cruise) {
+    try {
+        const position = await fetchLiveShipPosition(cruise);
+        if (!position || !state.map) return;
+
+        if (state.liveShipMarker) {
+            state.map.removeLayer(state.liveShipMarker);
+            state.liveShipMarker = null;
+        }
+
+        const icon = L.divIcon({
+            className: 'custom-div-icon',
+            html: `<div class="live-ship-marker"></div>`,
+            iconSize: [34, 34],
+            iconAnchor: [17, 17]
+        });
+
+        state.liveShipMarker = L.marker([position.lat, position.lng], { icon }).addTo(state.map);
+        state.liveShipMarker.bindTooltip(
+            `<span class="ais-tooltip-title">AIS EN VIVO</span><strong>${cruise.buque?.nombre || cruise.nombre}</strong>${position.destination ? `<br><small>Destino: ${position.destination}</small>` : ''}`,
+            { permanent: true, direction: 'top', offset: [0, -18], className: 'live-ship-tooltip' }
+        );
+        state.liveShipMarker.on('click', () => {
+            if (cruise.buque?.trackingUrl) {
+                window.open(cruise.buque.trackingUrl, '_blank', 'noopener,noreferrer');
+            }
+        });
+    } catch (error) {
+        console.warn('No se pudo obtener la posicion AIS del barco:', error);
+    }
+}
+
+function renderShipTrackingControl(cruise) {
+    const mapContainer = document.getElementById('cruise-map');
+    if (!mapContainer) return;
+
+    mapContainer.querySelector('.ship-tracking-map-link')?.remove();
+    if (!cruise.buque?.trackingUrl) return;
+
+    const link = document.createElement('a');
+    link.className = 'ship-tracking-map-link';
+    link.href = cruise.buque.trackingUrl;
+    link.target = '_blank';
+    link.rel = 'noopener noreferrer';
+    link.innerHTML = `
+        <span class="ship-tracking-map-kicker">AIS</span>
+        <strong>${cruise.buque?.nombre || cruise.nombre}</strong>
+        <span>Ver posicion actual</span>
+    `;
+    mapContainer.appendChild(link);
+}
 window.showPlaceDetailsById = (id) => {
     const place = state.places.find(p => p.id === id);
     if (place) showPlaceDetails(place);

@@ -39,7 +39,8 @@
           "contacto": "reservas@historiaauckland.local",
           "horario": "10:00 - 12:00",
           "imagen": "img/auckland_activities/skytower_1_tourhistoricoesencial.png",
-          "web": "https://www.getyourguide.com/s/?q=Auckland"
+          "web": "https://www.getyourguide.com/s/?q=Auckland",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Acceso con contexto local",
@@ -48,7 +49,8 @@
           "contacto": "hola@aucklandlocal.local",
           "horario": "12:00 - 14:00",
           "imagen": "img/auckland_activities/skytower_2_accesoconcontextolocal.png",
-          "web": "https://www.getyourguide.com/s/?q=Auckland"
+          "web": "https://www.getyourguide.com/s/?q=Auckland",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Paseo fotografico",
@@ -57,7 +59,8 @@
           "contacto": "foto@aucklandwalk.local",
           "horario": "Atardecer",
           "imagen": "img/auckland_activities/skytower_3_paseofotografico.png",
-          "web": "https://www.withlocals.com/search/?q=Auckland"
+          "web": "https://www.withlocals.com/search/?q=Auckland",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Ruta de leyendas",
@@ -66,7 +69,8 @@
           "contacto": "relatos@auckland.local",
           "horario": "18:00 - 19:30",
           "imagen": "img/auckland_activities/skytower_4_rutadeleyendas.png",
-          "web": "https://www.civitatis.com/es/auckland/"
+          "web": "https://www.civitatis.com/es/auckland/",
+          "costeEstimado": "15-45 €"
         },
         {
           "titulo": "Visita familiar",
@@ -75,7 +79,8 @@
           "contacto": "familias@viaje.local",
           "horario": "11:00 - 12:30",
           "imagen": "img/auckland_activities/skytower_5_visitafamiliar.png",
-          "web": "https://www.getyourguide.com/s/?q=Auckland"
+          "web": "https://www.getyourguide.com/s/?q=Auckland",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Audioguia express",
@@ -84,7 +89,8 @@
           "contacto": "audio@travel.local",
           "horario": "Durante apertura",
           "imagen": "img/auckland_activities/skytower_6_audioguiaexpress.png",
-          "web": "https://www.tiqets.com/en/search/?query=Auckland"
+          "web": "https://www.tiqets.com/en/search/?query=Auckland",
+          "costeEstimado": "5-20 €"
         }
       ],
       "web": "https://skycityauckland.co.nz/sky-tower"
@@ -115,7 +121,8 @@
           "contacto": "educacion@aucklandwarmemorialmuseum.local",
           "horario": "10:00 - 12:00",
           "imagen": "img/auckland_activities/aucklandwarmemorialmuseum_1_visitaguiadaalacoleccion.png",
-          "web": "https://www.aucklandmuseum.com"
+          "web": "https://www.aucklandmuseum.com",
+          "costeEstimado": "20-65 €"
         },
         {
           "titulo": "Ruta de obras imprescindibles",
@@ -124,7 +131,8 @@
           "contacto": "reservas@aucklandtours.local",
           "horario": "12:30 - 14:00",
           "imagen": "img/auckland_activities/aucklandwarmemorialmuseum_2_rutadeobrasimprescindibles.png",
-          "web": "https://www.aucklandmuseum.com"
+          "web": "https://www.aucklandmuseum.com",
+          "costeEstimado": "20-65 €"
         },
         {
           "titulo": "Taller creativo",
@@ -133,7 +141,8 @@
           "contacto": "talleres@aucklandatelier.local",
           "horario": "16:00 - 18:00",
           "imagen": "img/auckland_activities/aucklandwarmemorialmuseum_3_tallercreativo.png",
-          "web": "https://www.aucklandmuseum.com"
+          "web": "https://www.aucklandmuseum.com",
+          "costeEstimado": "45-95 €"
         },
         {
           "titulo": "Audioguia express",
@@ -142,7 +151,8 @@
           "contacto": "audio@travel.local",
           "horario": "Durante apertura",
           "imagen": "img/auckland_activities/aucklandwarmemorialmuseum_4_audioguiaexpress.png",
-          "web": "https://www.tiqets.com/en/search/?query=Auckland"
+          "web": "https://www.tiqets.com/en/search/?query=Auckland",
+          "costeEstimado": "5-20 €"
         },
         {
           "titulo": "Encuentro con especialista",
@@ -151,7 +161,8 @@
           "contacto": "info@culturaauckland.local",
           "horario": "Consultar calendario",
           "imagen": "img/auckland_activities/aucklandwarmemorialmuseum_5_encuentroconespecialista.png",
-          "web": "https://www.aucklandmuseum.com"
+          "web": "https://www.aucklandmuseum.com",
+          "costeEstimado": "20-65 €"
         },
         {
           "titulo": "Paseo fotografico interior",
@@ -160,7 +171,8 @@
           "contacto": "foto@aucklandwalk.local",
           "horario": "Ultima hora de apertura",
           "imagen": "img/auckland_activities/aucklandwarmemorialmuseum_6_paseofotograficointerior.png",
-          "web": "https://www.withlocals.com/search/?q=Auckland"
+          "web": "https://www.withlocals.com/search/?q=Auckland",
+          "costeEstimado": "40-120 €"
         }
       ],
       "web": "https://www.aucklandmuseum.com"
@@ -191,7 +203,8 @@
           "contacto": "green@auckland.local",
           "horario": "10:00 - 11:30",
           "imagen": "img/auckland_activities/waihekeisland_1_paseobotanico.png",
-          "web": "https://www.aucklandnz.com/visit/destinations/islands/waiheke-island"
+          "web": "https://www.aucklandnz.com/visit/destinations/islands/waiheke-island",
+          "costeEstimado": "15-50 €"
         },
         {
           "titulo": "Picnic con producto local",
@@ -200,7 +213,8 @@
           "contacto": "picnic@auckland.local",
           "horario": "13:00 - 15:00",
           "imagen": "img/auckland_activities/waihekeisland_2_picnicconproductolocal.png",
-          "web": "https://www.aucklandnz.com/visit/destinations/islands/waiheke-island"
+          "web": "https://www.aucklandnz.com/visit/destinations/islands/waiheke-island",
+          "costeEstimado": "15-50 €"
         },
         {
           "titulo": "Ruta fotografica natural",
@@ -209,7 +223,8 @@
           "contacto": "foto@aucklandwalk.local",
           "horario": "Atardecer",
           "imagen": "img/auckland_activities/waihekeisland_3_rutafotograficanatural.png",
-          "web": "https://www.withlocals.com/search/?q=Auckland"
+          "web": "https://www.withlocals.com/search/?q=Auckland",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Actividad familiar al aire libre",
@@ -218,7 +233,8 @@
           "contacto": "familias@viaje.local",
           "horario": "11:00 - 12:30",
           "imagen": "img/auckland_activities/waihekeisland_4_actividadfamiliaralairelibre.png",
-          "web": "https://www.getyourguide.com/s/?q=Auckland"
+          "web": "https://www.getyourguide.com/s/?q=Auckland",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Bienestar y estiramientos",
@@ -227,7 +243,8 @@
           "contacto": "wellness@auckland.local",
           "horario": "08:30 - 09:30",
           "imagen": "img/auckland_activities/waihekeisland_5_bienestaryestiramientos.png",
-          "web": "https://www.getyourguide.com/s/?q=Auckland"
+          "web": "https://www.getyourguide.com/s/?q=Auckland",
+          "costeEstimado": "15-50 €"
         },
         {
           "titulo": "Miradores y rincones tranquilos",
@@ -236,7 +253,8 @@
           "contacto": "slow@auckland.local",
           "horario": "16:30 - 18:00",
           "imagen": "img/auckland_activities/waihekeisland_6_miradoresyrinconestranquilos.png",
-          "web": "https://www.aucklandnz.com/visit/destinations/islands/waiheke-island"
+          "web": "https://www.aucklandnz.com/visit/destinations/islands/waiheke-island",
+          "costeEstimado": "15-50 €"
         }
       ],
       "web": "https://www.aucklandnz.com/visit/destinations/islands/waiheke-island"
@@ -267,7 +285,8 @@
           "contacto": "green@auckland.local",
           "horario": "10:00 - 11:30",
           "imagen": "img/auckland_activities/mounteden_1_paseobotanico.png",
-          "web": "https://www.aucklandcouncil.govt.nz/parks-recreation/Pages/park-details.aspx?Location=214"
+          "web": "https://www.aucklandcouncil.govt.nz/parks-recreation/Pages/park-details.aspx?Location=214",
+          "costeEstimado": "15-50 €"
         },
         {
           "titulo": "Picnic con producto local",
@@ -276,7 +295,8 @@
           "contacto": "picnic@auckland.local",
           "horario": "13:00 - 15:00",
           "imagen": "img/auckland_activities/mounteden_2_picnicconproductolocal.png",
-          "web": "https://www.aucklandcouncil.govt.nz/parks-recreation/Pages/park-details.aspx?Location=214"
+          "web": "https://www.aucklandcouncil.govt.nz/parks-recreation/Pages/park-details.aspx?Location=214",
+          "costeEstimado": "15-50 €"
         },
         {
           "titulo": "Ruta fotografica natural",
@@ -285,7 +305,8 @@
           "contacto": "foto@aucklandwalk.local",
           "horario": "Atardecer",
           "imagen": "img/auckland_activities/mounteden_3_rutafotograficanatural.png",
-          "web": "https://www.withlocals.com/search/?q=Auckland"
+          "web": "https://www.withlocals.com/search/?q=Auckland",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Actividad familiar al aire libre",
@@ -294,7 +315,8 @@
           "contacto": "familias@viaje.local",
           "horario": "11:00 - 12:30",
           "imagen": "img/auckland_activities/mounteden_4_actividadfamiliaralairelibre.png",
-          "web": "https://www.getyourguide.com/s/?q=Auckland"
+          "web": "https://www.getyourguide.com/s/?q=Auckland",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Bienestar y estiramientos",
@@ -303,7 +325,8 @@
           "contacto": "wellness@auckland.local",
           "horario": "08:30 - 09:30",
           "imagen": "img/auckland_activities/mounteden_5_bienestaryestiramientos.png",
-          "web": "https://www.getyourguide.com/s/?q=Auckland"
+          "web": "https://www.getyourguide.com/s/?q=Auckland",
+          "costeEstimado": "15-50 €"
         },
         {
           "titulo": "Miradores y rincones tranquilos",
@@ -312,7 +335,8 @@
           "contacto": "slow@auckland.local",
           "horario": "16:30 - 18:00",
           "imagen": "img/auckland_activities/mounteden_6_miradoresyrinconestranquilos.png",
-          "web": "https://www.aucklandcouncil.govt.nz/parks-recreation/Pages/park-details.aspx?Location=214"
+          "web": "https://www.aucklandcouncil.govt.nz/parks-recreation/Pages/park-details.aspx?Location=214",
+          "costeEstimado": "15-50 €"
         }
       ],
       "web": "https://www.aucklandcouncil.govt.nz/parks-recreation/Pages/park-details.aspx?Location=214"
@@ -343,7 +367,8 @@
           "contacto": "walks@auckland.local",
           "horario": "10:30 - 12:30",
           "imagen": "img/auckland_activities/viaductharbour_1_paseodebarrio.png",
-          "web": "https://www.civitatis.com/es/auckland/"
+          "web": "https://www.civitatis.com/es/auckland/",
+          "costeEstimado": "15-45 €"
         },
         {
           "titulo": "Ruta gastronomica local",
@@ -352,7 +377,8 @@
           "contacto": "sabores@auckland.local",
           "horario": "13:00 - 15:00",
           "imagen": "img/auckland_activities/viaductharbour_2_rutagastronomicalocal.png",
-          "web": "https://www.thebigfoody.com"
+          "web": "https://www.thebigfoody.com",
+          "costeEstimado": "35-90 €"
         },
         {
           "titulo": "Fotografia urbana",
@@ -361,7 +387,8 @@
           "contacto": "foto@aucklandwalk.local",
           "horario": "Atardecer",
           "imagen": "img/auckland_activities/viaductharbour_3_fotografiaurbana.png",
-          "web": "https://www.withlocals.com/search/?q=Auckland"
+          "web": "https://www.withlocals.com/search/?q=Auckland",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Historias del vecindario",
@@ -370,7 +397,8 @@
           "contacto": "cronicas@auckland.local",
           "horario": "17:00 - 18:30",
           "imagen": "img/auckland_activities/viaductharbour_4_historiasdelvecindario.png",
-          "web": "https://www.civitatis.com/es/auckland/"
+          "web": "https://www.civitatis.com/es/auckland/",
+          "costeEstimado": "15-45 €"
         },
         {
           "titulo": "Compras con guia local",
@@ -379,7 +407,8 @@
           "contacto": "shops@auckland.local",
           "horario": "11:00 - 13:00",
           "imagen": "img/auckland_activities/viaductharbour_5_comprasconguialocal.png",
-          "web": "https://www.getyourguide.com/s/?q=Auckland"
+          "web": "https://www.getyourguide.com/s/?q=Auckland",
+          "costeEstimado": "20-60 €"
         },
         {
           "titulo": "Noche de ambiente",
@@ -388,7 +417,8 @@
           "contacto": "noche@auckland.local",
           "horario": "20:00 - 22:00",
           "imagen": "img/auckland_activities/viaductharbour_6_nochedeambiente.png",
-          "web": "https://www.getyourguide.com/s/?q=Auckland"
+          "web": "https://www.getyourguide.com/s/?q=Auckland",
+          "costeEstimado": "25-75 €"
         }
       ],
       "web": "https://www.viaduct.co.nz"
@@ -419,7 +449,8 @@
           "contacto": "educacion@aucklandartgallery.local",
           "horario": "10:00 - 12:00",
           "imagen": "img/auckland_activities/aucklandartgallery_1_visitaguiadaalacoleccion.png",
-          "web": "https://www.aucklandartgallery.com"
+          "web": "https://www.aucklandartgallery.com",
+          "costeEstimado": "20-65 €"
         },
         {
           "titulo": "Ruta de obras imprescindibles",
@@ -428,7 +459,8 @@
           "contacto": "reservas@aucklandtours.local",
           "horario": "12:30 - 14:00",
           "imagen": "img/auckland_activities/aucklandartgallery_2_rutadeobrasimprescindibles.png",
-          "web": "https://www.aucklandartgallery.com"
+          "web": "https://www.aucklandartgallery.com",
+          "costeEstimado": "20-65 €"
         },
         {
           "titulo": "Taller creativo",
@@ -437,7 +469,8 @@
           "contacto": "talleres@aucklandatelier.local",
           "horario": "16:00 - 18:00",
           "imagen": "img/auckland_activities/aucklandartgallery_3_tallercreativo.png",
-          "web": "https://www.aucklandartgallery.com"
+          "web": "https://www.aucklandartgallery.com",
+          "costeEstimado": "45-95 €"
         },
         {
           "titulo": "Audioguia express",
@@ -446,7 +479,8 @@
           "contacto": "audio@travel.local",
           "horario": "Durante apertura",
           "imagen": "img/auckland_activities/aucklandartgallery_4_audioguiaexpress.png",
-          "web": "https://www.tiqets.com/en/search/?query=Auckland"
+          "web": "https://www.tiqets.com/en/search/?query=Auckland",
+          "costeEstimado": "5-20 €"
         },
         {
           "titulo": "Encuentro con especialista",
@@ -455,7 +489,8 @@
           "contacto": "info@culturaauckland.local",
           "horario": "Consultar calendario",
           "imagen": "img/auckland_activities/aucklandartgallery_5_encuentroconespecialista.png",
-          "web": "https://www.aucklandartgallery.com"
+          "web": "https://www.aucklandartgallery.com",
+          "costeEstimado": "20-65 €"
         },
         {
           "titulo": "Paseo fotografico interior",
@@ -464,7 +499,8 @@
           "contacto": "foto@aucklandwalk.local",
           "horario": "Ultima hora de apertura",
           "imagen": "img/auckland_activities/aucklandartgallery_6_paseofotograficointerior.png",
-          "web": "https://www.withlocals.com/search/?q=Auckland"
+          "web": "https://www.withlocals.com/search/?q=Auckland",
+          "costeEstimado": "40-120 €"
         }
       ],
       "web": "https://www.aucklandartgallery.com"
@@ -495,7 +531,8 @@
           "contacto": "walks@auckland.local",
           "horario": "10:30 - 12:30",
           "imagen": "img/auckland_activities/ponsonby_1_paseodebarrio.png",
-          "web": "https://www.civitatis.com/es/auckland/"
+          "web": "https://www.civitatis.com/es/auckland/",
+          "costeEstimado": "15-45 €"
         },
         {
           "titulo": "Ruta gastronomica local",
@@ -504,7 +541,8 @@
           "contacto": "sabores@auckland.local",
           "horario": "13:00 - 15:00",
           "imagen": "img/auckland_activities/ponsonby_2_rutagastronomicalocal.png",
-          "web": "https://www.thebigfoody.com"
+          "web": "https://www.thebigfoody.com",
+          "costeEstimado": "35-90 €"
         },
         {
           "titulo": "Fotografia urbana",
@@ -513,7 +551,8 @@
           "contacto": "foto@aucklandwalk.local",
           "horario": "Atardecer",
           "imagen": "img/auckland_activities/ponsonby_3_fotografiaurbana.png",
-          "web": "https://www.withlocals.com/search/?q=Auckland"
+          "web": "https://www.withlocals.com/search/?q=Auckland",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Historias del vecindario",
@@ -522,7 +561,8 @@
           "contacto": "cronicas@auckland.local",
           "horario": "17:00 - 18:30",
           "imagen": "img/auckland_activities/ponsonby_4_historiasdelvecindario.png",
-          "web": "https://www.civitatis.com/es/auckland/"
+          "web": "https://www.civitatis.com/es/auckland/",
+          "costeEstimado": "15-45 €"
         },
         {
           "titulo": "Compras con guia local",
@@ -531,7 +571,8 @@
           "contacto": "shops@auckland.local",
           "horario": "11:00 - 13:00",
           "imagen": "img/auckland_activities/ponsonby_5_comprasconguialocal.png",
-          "web": "https://www.getyourguide.com/s/?q=Auckland"
+          "web": "https://www.getyourguide.com/s/?q=Auckland",
+          "costeEstimado": "20-60 €"
         },
         {
           "titulo": "Noche de ambiente",
@@ -540,7 +581,8 @@
           "contacto": "noche@auckland.local",
           "horario": "20:00 - 22:00",
           "imagen": "img/auckland_activities/ponsonby_6_nochedeambiente.png",
-          "web": "https://www.getyourguide.com/s/?q=Auckland"
+          "web": "https://www.getyourguide.com/s/?q=Auckland",
+          "costeEstimado": "25-75 €"
         }
       ],
       "web": "https://www.iloveponsonby.co.nz"
@@ -571,7 +613,8 @@
           "contacto": "walks@auckland.local",
           "horario": "10:30 - 12:30",
           "imagen": "img/auckland_activities/britomart_1_paseodebarrio.png",
-          "web": "https://www.civitatis.com/es/auckland/"
+          "web": "https://www.civitatis.com/es/auckland/",
+          "costeEstimado": "15-45 €"
         },
         {
           "titulo": "Ruta gastronomica local",
@@ -580,7 +623,8 @@
           "contacto": "sabores@auckland.local",
           "horario": "13:00 - 15:00",
           "imagen": "img/auckland_activities/britomart_2_rutagastronomicalocal.png",
-          "web": "https://www.thebigfoody.com"
+          "web": "https://www.thebigfoody.com",
+          "costeEstimado": "35-90 €"
         },
         {
           "titulo": "Fotografia urbana",
@@ -589,7 +633,8 @@
           "contacto": "foto@aucklandwalk.local",
           "horario": "Atardecer",
           "imagen": "img/auckland_activities/britomart_3_fotografiaurbana.png",
-          "web": "https://www.withlocals.com/search/?q=Auckland"
+          "web": "https://www.withlocals.com/search/?q=Auckland",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Historias del vecindario",
@@ -598,7 +643,8 @@
           "contacto": "cronicas@auckland.local",
           "horario": "17:00 - 18:30",
           "imagen": "img/auckland_activities/britomart_4_historiasdelvecindario.png",
-          "web": "https://www.civitatis.com/es/auckland/"
+          "web": "https://www.civitatis.com/es/auckland/",
+          "costeEstimado": "15-45 €"
         },
         {
           "titulo": "Compras con guia local",
@@ -607,7 +653,8 @@
           "contacto": "shops@auckland.local",
           "horario": "11:00 - 13:00",
           "imagen": "img/auckland_activities/britomart_5_comprasconguialocal.png",
-          "web": "https://www.getyourguide.com/s/?q=Auckland"
+          "web": "https://www.getyourguide.com/s/?q=Auckland",
+          "costeEstimado": "20-60 €"
         },
         {
           "titulo": "Noche de ambiente",
@@ -616,7 +663,8 @@
           "contacto": "noche@auckland.local",
           "horario": "20:00 - 22:00",
           "imagen": "img/auckland_activities/britomart_6_nochedeambiente.png",
-          "web": "https://www.getyourguide.com/s/?q=Auckland"
+          "web": "https://www.getyourguide.com/s/?q=Auckland",
+          "costeEstimado": "25-75 €"
         }
       ],
       "web": "https://britomart.org"
@@ -647,7 +695,8 @@
           "contacto": "green@auckland.local",
           "horario": "10:00 - 11:30",
           "imagen": "img/auckland_activities/onetreehill_1_paseobotanico.png",
-          "web": "https://www.aucklandcouncil.govt.nz/parks-recreation/Pages/park-details.aspx?Location=219"
+          "web": "https://www.aucklandcouncil.govt.nz/parks-recreation/Pages/park-details.aspx?Location=219",
+          "costeEstimado": "15-50 €"
         },
         {
           "titulo": "Picnic con producto local",
@@ -656,7 +705,8 @@
           "contacto": "picnic@auckland.local",
           "horario": "13:00 - 15:00",
           "imagen": "img/auckland_activities/onetreehill_2_picnicconproductolocal.png",
-          "web": "https://www.aucklandcouncil.govt.nz/parks-recreation/Pages/park-details.aspx?Location=219"
+          "web": "https://www.aucklandcouncil.govt.nz/parks-recreation/Pages/park-details.aspx?Location=219",
+          "costeEstimado": "15-50 €"
         },
         {
           "titulo": "Ruta fotografica natural",
@@ -665,7 +715,8 @@
           "contacto": "foto@aucklandwalk.local",
           "horario": "Atardecer",
           "imagen": "img/auckland_activities/onetreehill_3_rutafotograficanatural.png",
-          "web": "https://www.withlocals.com/search/?q=Auckland"
+          "web": "https://www.withlocals.com/search/?q=Auckland",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Actividad familiar al aire libre",
@@ -674,7 +725,8 @@
           "contacto": "familias@viaje.local",
           "horario": "11:00 - 12:30",
           "imagen": "img/auckland_activities/onetreehill_4_actividadfamiliaralairelibre.png",
-          "web": "https://www.getyourguide.com/s/?q=Auckland"
+          "web": "https://www.getyourguide.com/s/?q=Auckland",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Bienestar y estiramientos",
@@ -683,7 +735,8 @@
           "contacto": "wellness@auckland.local",
           "horario": "08:30 - 09:30",
           "imagen": "img/auckland_activities/onetreehill_5_bienestaryestiramientos.png",
-          "web": "https://www.getyourguide.com/s/?q=Auckland"
+          "web": "https://www.getyourguide.com/s/?q=Auckland",
+          "costeEstimado": "15-50 €"
         },
         {
           "titulo": "Miradores y rincones tranquilos",
@@ -692,7 +745,8 @@
           "contacto": "slow@auckland.local",
           "horario": "16:30 - 18:00",
           "imagen": "img/auckland_activities/onetreehill_6_miradoresyrinconestranquilos.png",
-          "web": "https://www.aucklandcouncil.govt.nz/parks-recreation/Pages/park-details.aspx?Location=219"
+          "web": "https://www.aucklandcouncil.govt.nz/parks-recreation/Pages/park-details.aspx?Location=219",
+          "costeEstimado": "15-50 €"
         }
       ],
       "web": "https://www.aucklandcouncil.govt.nz/parks-recreation/Pages/park-details.aspx?Location=219"

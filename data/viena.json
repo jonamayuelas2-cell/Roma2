@@ -38,7 +38,8 @@
           "proveedor": "Historia Viva Viena",
           "contacto": "reservas@historiaviena.local",
           "horario": "10:00 - 12:00",
-          "web": "https://www.getyourguide.com/s/?q=Vienna"
+          "web": "https://www.getyourguide.com/s/?q=Vienna",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Acceso con contexto local",
@@ -46,7 +47,8 @@
           "proveedor": "Guias Locales Viena",
           "contacto": "hola@vienalocal.local",
           "horario": "12:00 - 14:00",
-          "web": "https://www.getyourguide.com/s/?q=Vienna"
+          "web": "https://www.getyourguide.com/s/?q=Vienna",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Paseo fotografico",
@@ -54,7 +56,8 @@
           "proveedor": "Photo Walk Viena",
           "contacto": "foto@vienawalk.local",
           "horario": "Atardecer",
-          "web": "https://www.withlocals.com/search/?q=Vienna"
+          "web": "https://www.withlocals.com/search/?q=Vienna",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Ruta de leyendas",
@@ -62,7 +65,8 @@
           "proveedor": "Relatos de Viena",
           "contacto": "relatos@viena.local",
           "horario": "18:00 - 19:30",
-          "web": "https://www.civitatis.com/es/viena/"
+          "web": "https://www.civitatis.com/es/viena/",
+          "costeEstimado": "15-45 €"
         },
         {
           "titulo": "Visita familiar",
@@ -70,7 +74,8 @@
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
           "horario": "11:00 - 12:30",
-          "web": "https://www.getyourguide.com/s/?q=Vienna"
+          "web": "https://www.getyourguide.com/s/?q=Vienna",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Audioguia express",
@@ -78,7 +83,8 @@
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
           "horario": "Durante apertura",
-          "web": "https://www.tiqets.com/en/search/?query=Vienna"
+          "web": "https://www.tiqets.com/en/search/?query=Vienna",
+          "costeEstimado": "5-20 €"
         }
       ],
       "web": "https://www.schoenbrunn.at/en"
@@ -108,7 +114,8 @@
           "proveedor": "Historia Viva Viena",
           "contacto": "reservas@historiaviena.local",
           "horario": "10:00 - 12:00",
-          "web": "https://www.getyourguide.com/s/?q=Vienna"
+          "web": "https://www.getyourguide.com/s/?q=Vienna",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Acceso con contexto local",
@@ -116,7 +123,8 @@
           "proveedor": "Guias Locales Viena",
           "contacto": "hola@vienalocal.local",
           "horario": "12:00 - 14:00",
-          "web": "https://www.getyourguide.com/s/?q=Vienna"
+          "web": "https://www.getyourguide.com/s/?q=Vienna",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Paseo fotografico",
@@ -124,7 +132,8 @@
           "proveedor": "Photo Walk Viena",
           "contacto": "foto@vienawalk.local",
           "horario": "Atardecer",
-          "web": "https://www.withlocals.com/search/?q=Vienna"
+          "web": "https://www.withlocals.com/search/?q=Vienna",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Ruta de leyendas",
@@ -132,7 +141,8 @@
           "proveedor": "Relatos de Viena",
           "contacto": "relatos@viena.local",
           "horario": "18:00 - 19:30",
-          "web": "https://www.civitatis.com/es/viena/"
+          "web": "https://www.civitatis.com/es/viena/",
+          "costeEstimado": "15-45 €"
         },
         {
           "titulo": "Visita familiar",
@@ -140,7 +150,8 @@
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
           "horario": "11:00 - 12:30",
-          "web": "https://www.getyourguide.com/s/?q=Vienna"
+          "web": "https://www.getyourguide.com/s/?q=Vienna",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Audioguia express",
@@ -148,7 +159,8 @@
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
           "horario": "Durante apertura",
-          "web": "https://www.tiqets.com/en/search/?query=Vienna"
+          "web": "https://www.tiqets.com/en/search/?query=Vienna",
+          "costeEstimado": "5-20 €"
         }
       ],
       "web": "https://www.stephanskirche.at"
@@ -178,7 +190,8 @@
           "proveedor": "Palacio Belvedere Educacion",
           "contacto": "educacion@viena.local",
           "horario": "10:00 - 12:00",
-          "web": "https://www.belvedere.at/en"
+          "web": "https://www.belvedere.at/en",
+          "costeEstimado": "20-65 €"
         },
         {
           "titulo": "Paseo fotografico",
@@ -186,7 +199,8 @@
           "proveedor": "Photo Walk Viena",
           "contacto": "foto@vienawalk.local",
           "horario": "Atardecer",
-          "web": "https://www.withlocals.com/search/?q=Vienna"
+          "web": "https://www.withlocals.com/search/?q=Vienna",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Tour privado a medida",
@@ -194,7 +208,8 @@
           "proveedor": "Travel Designers Viena",
           "contacto": "plan@vienatravel.local",
           "horario": "Bajo reserva",
-          "web": "https://www.getyourguide.com/s/?q=Vienna"
+          "web": "https://www.getyourguide.com/s/?q=Vienna",
+          "costeEstimado": "90-180 €"
         },
         {
           "titulo": "Ruta familiar",
@@ -202,7 +217,8 @@
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
           "horario": "11:00 - 12:30",
-          "web": "https://www.getyourguide.com/s/?q=Vienna"
+          "web": "https://www.getyourguide.com/s/?q=Vienna",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Experiencia al atardecer",
@@ -210,7 +226,8 @@
           "proveedor": "Slow Travel Viena",
           "contacto": "slow@viena.local",
           "horario": "Atardecer",
-          "web": "https://www.getyourguide.com/s/?q=Vienna"
+          "web": "https://www.getyourguide.com/s/?q=Vienna",
+          "costeEstimado": "25-75 €"
         },
         {
           "titulo": "Audioguia express",
@@ -218,7 +235,8 @@
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
           "horario": "Durante apertura",
-          "web": "https://www.tiqets.com/en/search/?query=Vienna"
+          "web": "https://www.tiqets.com/en/search/?query=Vienna",
+          "costeEstimado": "5-20 €"
         }
       ],
       "web": "https://www.belvedere.at/en"
@@ -248,7 +266,8 @@
           "proveedor": "Guias Locales Viena",
           "contacto": "hola@viena.local",
           "horario": "10:00 - 12:00",
-          "web": "https://www.getyourguide.com/s/?q=Vienna"
+          "web": "https://www.getyourguide.com/s/?q=Vienna",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Paseo fotografico",
@@ -256,7 +275,8 @@
           "proveedor": "Photo Walk Viena",
           "contacto": "foto@vienawalk.local",
           "horario": "Atardecer",
-          "web": "https://www.withlocals.com/search/?q=Vienna"
+          "web": "https://www.withlocals.com/search/?q=Vienna",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Tour privado a medida",
@@ -264,7 +284,8 @@
           "proveedor": "Travel Designers Viena",
           "contacto": "plan@vienatravel.local",
           "horario": "Bajo reserva",
-          "web": "https://www.getyourguide.com/s/?q=Vienna"
+          "web": "https://www.getyourguide.com/s/?q=Vienna",
+          "costeEstimado": "90-180 €"
         },
         {
           "titulo": "Ruta familiar",
@@ -272,7 +293,8 @@
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
           "horario": "11:00 - 12:30",
-          "web": "https://www.getyourguide.com/s/?q=Vienna"
+          "web": "https://www.getyourguide.com/s/?q=Vienna",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Experiencia al atardecer",
@@ -280,7 +302,8 @@
           "proveedor": "Slow Travel Viena",
           "contacto": "slow@viena.local",
           "horario": "Atardecer",
-          "web": "https://www.getyourguide.com/s/?q=Vienna"
+          "web": "https://www.getyourguide.com/s/?q=Vienna",
+          "costeEstimado": "25-75 €"
         },
         {
           "titulo": "Audioguia express",
@@ -288,7 +311,8 @@
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
           "horario": "Durante apertura",
-          "web": "https://www.tiqets.com/en/search/?query=Vienna"
+          "web": "https://www.tiqets.com/en/search/?query=Vienna",
+          "costeEstimado": "5-20 €"
         }
       ],
       "web": "https://www.wiener-staatsoper.at/en"
@@ -318,7 +342,8 @@
           "proveedor": "Guias Locales Viena",
           "contacto": "hola@viena.local",
           "horario": "10:00 - 12:00",
-          "web": "https://www.getyourguide.com/s/?q=Vienna"
+          "web": "https://www.getyourguide.com/s/?q=Vienna",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Paseo fotografico",
@@ -326,7 +351,8 @@
           "proveedor": "Photo Walk Viena",
           "contacto": "foto@vienawalk.local",
           "horario": "Atardecer",
-          "web": "https://www.withlocals.com/search/?q=Vienna"
+          "web": "https://www.withlocals.com/search/?q=Vienna",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Tour privado a medida",
@@ -334,7 +360,8 @@
           "proveedor": "Travel Designers Viena",
           "contacto": "plan@vienatravel.local",
           "horario": "Bajo reserva",
-          "web": "https://www.getyourguide.com/s/?q=Vienna"
+          "web": "https://www.getyourguide.com/s/?q=Vienna",
+          "costeEstimado": "90-180 €"
         },
         {
           "titulo": "Ruta familiar",
@@ -342,7 +369,8 @@
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
           "horario": "11:00 - 12:30",
-          "web": "https://www.getyourguide.com/s/?q=Vienna"
+          "web": "https://www.getyourguide.com/s/?q=Vienna",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Experiencia al atardecer",
@@ -350,7 +378,8 @@
           "proveedor": "Slow Travel Viena",
           "contacto": "slow@viena.local",
           "horario": "Atardecer",
-          "web": "https://www.getyourguide.com/s/?q=Vienna"
+          "web": "https://www.getyourguide.com/s/?q=Vienna",
+          "costeEstimado": "25-75 €"
         },
         {
           "titulo": "Audioguia express",
@@ -358,7 +387,8 @@
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
           "horario": "Durante apertura",
-          "web": "https://www.tiqets.com/en/search/?query=Vienna"
+          "web": "https://www.tiqets.com/en/search/?query=Vienna",
+          "costeEstimado": "5-20 €"
         }
       ],
       "web": "https://www.hofburg-wien.at/en"
@@ -388,7 +418,8 @@
           "proveedor": "MuseumsQuartier Educacion",
           "contacto": "educacion@viena.local",
           "horario": "10:00 - 12:00",
-          "web": "https://www.mqw.at/en"
+          "web": "https://www.mqw.at/en",
+          "costeEstimado": "20-65 €"
         },
         {
           "titulo": "Paseo fotografico",
@@ -396,7 +427,8 @@
           "proveedor": "Photo Walk Viena",
           "contacto": "foto@vienawalk.local",
           "horario": "Atardecer",
-          "web": "https://www.withlocals.com/search/?q=Vienna"
+          "web": "https://www.withlocals.com/search/?q=Vienna",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Tour privado a medida",
@@ -404,7 +436,8 @@
           "proveedor": "Travel Designers Viena",
           "contacto": "plan@vienatravel.local",
           "horario": "Bajo reserva",
-          "web": "https://www.getyourguide.com/s/?q=Vienna"
+          "web": "https://www.getyourguide.com/s/?q=Vienna",
+          "costeEstimado": "90-180 €"
         },
         {
           "titulo": "Ruta familiar",
@@ -412,7 +445,8 @@
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
           "horario": "11:00 - 12:30",
-          "web": "https://www.getyourguide.com/s/?q=Vienna"
+          "web": "https://www.getyourguide.com/s/?q=Vienna",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Experiencia al atardecer",
@@ -420,7 +454,8 @@
           "proveedor": "Slow Travel Viena",
           "contacto": "slow@viena.local",
           "horario": "Atardecer",
-          "web": "https://www.getyourguide.com/s/?q=Vienna"
+          "web": "https://www.getyourguide.com/s/?q=Vienna",
+          "costeEstimado": "25-75 €"
         },
         {
           "titulo": "Audioguia express",
@@ -428,7 +463,8 @@
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
           "horario": "Durante apertura",
-          "web": "https://www.tiqets.com/en/search/?query=Vienna"
+          "web": "https://www.tiqets.com/en/search/?query=Vienna",
+          "costeEstimado": "5-20 €"
         }
       ],
       "web": "https://www.mqw.at/en"
@@ -458,7 +494,8 @@
           "proveedor": "Sabores de Viena",
           "contacto": "sabores@viena.local",
           "horario": "12:00 - 14:00",
-          "web": "https://www.secretfoodtours.com/vienna/"
+          "web": "https://www.secretfoodtours.com/vienna/",
+          "costeEstimado": "35-90 €"
         },
         {
           "titulo": "Paseo fotografico",
@@ -466,7 +503,8 @@
           "proveedor": "Photo Walk Viena",
           "contacto": "foto@vienawalk.local",
           "horario": "Atardecer",
-          "web": "https://www.withlocals.com/search/?q=Vienna"
+          "web": "https://www.withlocals.com/search/?q=Vienna",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Tour privado a medida",
@@ -474,7 +512,8 @@
           "proveedor": "Travel Designers Viena",
           "contacto": "plan@vienatravel.local",
           "horario": "Bajo reserva",
-          "web": "https://www.getyourguide.com/s/?q=Vienna"
+          "web": "https://www.getyourguide.com/s/?q=Vienna",
+          "costeEstimado": "90-180 €"
         },
         {
           "titulo": "Ruta familiar",
@@ -482,7 +521,8 @@
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
           "horario": "11:00 - 12:30",
-          "web": "https://www.getyourguide.com/s/?q=Vienna"
+          "web": "https://www.getyourguide.com/s/?q=Vienna",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Experiencia al atardecer",
@@ -490,7 +530,8 @@
           "proveedor": "Slow Travel Viena",
           "contacto": "slow@viena.local",
           "horario": "Atardecer",
-          "web": "https://www.getyourguide.com/s/?q=Vienna"
+          "web": "https://www.getyourguide.com/s/?q=Vienna",
+          "costeEstimado": "25-75 €"
         },
         {
           "titulo": "Audioguia express",
@@ -498,7 +539,8 @@
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
           "horario": "Durante apertura",
-          "web": "https://www.tiqets.com/en/search/?query=Vienna"
+          "web": "https://www.tiqets.com/en/search/?query=Vienna",
+          "costeEstimado": "5-20 €"
         }
       ],
       "web": "https://www.wien.info/en/shopping-wining-dining/markets/naschmarkt-352672"
@@ -528,7 +570,8 @@
           "proveedor": "Walks Viena",
           "contacto": "walks@viena.local",
           "horario": "10:30 - 12:30",
-          "web": "https://www.praterwien.com/en"
+          "web": "https://www.praterwien.com/en",
+          "costeEstimado": "15-50 €"
         },
         {
           "titulo": "Paseo fotografico",
@@ -536,7 +579,8 @@
           "proveedor": "Photo Walk Viena",
           "contacto": "foto@vienawalk.local",
           "horario": "Atardecer",
-          "web": "https://www.withlocals.com/search/?q=Vienna"
+          "web": "https://www.withlocals.com/search/?q=Vienna",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Tour privado a medida",
@@ -544,7 +588,8 @@
           "proveedor": "Travel Designers Viena",
           "contacto": "plan@vienatravel.local",
           "horario": "Bajo reserva",
-          "web": "https://www.getyourguide.com/s/?q=Vienna"
+          "web": "https://www.getyourguide.com/s/?q=Vienna",
+          "costeEstimado": "90-180 €"
         },
         {
           "titulo": "Ruta familiar",
@@ -552,7 +597,8 @@
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
           "horario": "11:00 - 12:30",
-          "web": "https://www.getyourguide.com/s/?q=Vienna"
+          "web": "https://www.getyourguide.com/s/?q=Vienna",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Experiencia al atardecer",
@@ -560,7 +606,8 @@
           "proveedor": "Slow Travel Viena",
           "contacto": "slow@viena.local",
           "horario": "Atardecer",
-          "web": "https://www.getyourguide.com/s/?q=Vienna"
+          "web": "https://www.getyourguide.com/s/?q=Vienna",
+          "costeEstimado": "25-75 €"
         },
         {
           "titulo": "Audioguia express",
@@ -568,7 +615,8 @@
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
           "horario": "Durante apertura",
-          "web": "https://www.tiqets.com/en/search/?query=Vienna"
+          "web": "https://www.tiqets.com/en/search/?query=Vienna",
+          "costeEstimado": "5-20 €"
         }
       ],
       "web": "https://www.praterwien.com/en"
@@ -598,7 +646,8 @@
           "proveedor": "Guias Locales Viena",
           "contacto": "hola@viena.local",
           "horario": "10:00 - 12:00",
-          "web": "https://www.getyourguide.com/s/?q=Vienna"
+          "web": "https://www.getyourguide.com/s/?q=Vienna",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Paseo fotografico",
@@ -606,7 +655,8 @@
           "proveedor": "Photo Walk Viena",
           "contacto": "foto@vienawalk.local",
           "horario": "Atardecer",
-          "web": "https://www.withlocals.com/search/?q=Vienna"
+          "web": "https://www.withlocals.com/search/?q=Vienna",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Tour privado a medida",
@@ -614,7 +664,8 @@
           "proveedor": "Travel Designers Viena",
           "contacto": "plan@vienatravel.local",
           "horario": "Bajo reserva",
-          "web": "https://www.getyourguide.com/s/?q=Vienna"
+          "web": "https://www.getyourguide.com/s/?q=Vienna",
+          "costeEstimado": "90-180 €"
         },
         {
           "titulo": "Ruta familiar",
@@ -622,7 +673,8 @@
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
           "horario": "11:00 - 12:30",
-          "web": "https://www.getyourguide.com/s/?q=Vienna"
+          "web": "https://www.getyourguide.com/s/?q=Vienna",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Experiencia al atardecer",
@@ -630,7 +682,8 @@
           "proveedor": "Slow Travel Viena",
           "contacto": "slow@viena.local",
           "horario": "Atardecer",
-          "web": "https://www.getyourguide.com/s/?q=Vienna"
+          "web": "https://www.getyourguide.com/s/?q=Vienna",
+          "costeEstimado": "25-75 €"
         },
         {
           "titulo": "Audioguia express",
@@ -638,7 +691,8 @@
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
           "horario": "Durante apertura",
-          "web": "https://www.tiqets.com/en/search/?query=Vienna"
+          "web": "https://www.tiqets.com/en/search/?query=Vienna",
+          "costeEstimado": "5-20 €"
         }
       ],
       "web": "https://www.cafecentral.wien/en"

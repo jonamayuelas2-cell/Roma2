@@ -24,7 +24,8 @@
         "proveedor": "Historia Viva Roma",
         "contacto": "reservas@historiaroma.local",
         "horario": "10:00 - 12:00",
-        "web": "https://www.walksofitaly.com/rome-tours/"
+        "web": "https://www.walksofitaly.com/rome-tours/",
+        "costeEstimado": "25-70 €"
       },
       {
         "titulo": "Acceso con contexto local",
@@ -32,7 +33,8 @@
         "proveedor": "Guias Locales Roma",
         "contacto": "hola@romalocal.local",
         "horario": "12:00 - 14:00",
-        "web": "https://www.getyourguide.com/rome-l33/"
+        "web": "https://www.getyourguide.com/rome-l33/",
+        "costeEstimado": "25-70 €"
       },
       {
         "titulo": "Paseo fotografico",
@@ -40,7 +42,8 @@
         "proveedor": "Photo Walk Roma",
         "contacto": "foto@romawalk.local",
         "horario": "Atardecer",
-        "web": "https://www.withlocals.com/experiences/italy/rome/"
+        "web": "https://www.withlocals.com/experiences/italy/rome/",
+        "costeEstimado": "40-120 €"
       },
       {
         "titulo": "Ruta de leyendas",
@@ -48,7 +51,8 @@
         "proveedor": "Relatos de Roma",
         "contacto": "relatos@roma.local",
         "horario": "18:00 - 19:30",
-        "web": "https://www.civitatis.com/es/roma/"
+        "web": "https://www.civitatis.com/es/roma/",
+        "costeEstimado": "15-45 €"
       },
       {
         "titulo": "Visita familiar",
@@ -56,7 +60,8 @@
         "proveedor": "Familias Viajeras",
         "contacto": "familias@viaje.local",
         "horario": "11:00 - 12:30",
-        "web": "https://www.getyourguide.com/rome-l33/family-friendly-activities-tc1094/"
+        "web": "https://www.getyourguide.com/rome-l33/family-friendly-activities-tc1094/",
+        "costeEstimado": "25-70 €"
       },
       {
         "titulo": "Audioguia express",
@@ -64,7 +69,8 @@
         "proveedor": "Audio Travel",
         "contacto": "audio@travel.local",
         "horario": "Durante apertura",
-        "web": "https://www.tiqets.com/en/rome-attractions-c71631/"
+        "web": "https://www.tiqets.com/en/rome-attractions-c71631/",
+        "costeEstimado": "5-20 €"
       }
     ],
     "web": "https://colosseo.it/en/area/the-colosseum/"
@@ -94,7 +100,8 @@
         "proveedor": "Historia Viva Roma",
         "contacto": "reservas@historiaroma.local",
         "horario": "10:00 - 12:00",
-        "web": "https://www.walksofitaly.com/rome-tours/"
+        "web": "https://www.walksofitaly.com/rome-tours/",
+        "costeEstimado": "25-70 €"
       },
       {
         "titulo": "Acceso con contexto local",
@@ -102,7 +109,8 @@
         "proveedor": "Guias Locales Roma",
         "contacto": "hola@romalocal.local",
         "horario": "12:00 - 14:00",
-        "web": "https://www.getyourguide.com/rome-l33/"
+        "web": "https://www.getyourguide.com/rome-l33/",
+        "costeEstimado": "25-70 €"
       },
       {
         "titulo": "Paseo fotografico",
@@ -110,7 +118,8 @@
         "proveedor": "Photo Walk Roma",
         "contacto": "foto@romawalk.local",
         "horario": "Atardecer",
-        "web": "https://www.withlocals.com/experiences/italy/rome/"
+        "web": "https://www.withlocals.com/experiences/italy/rome/",
+        "costeEstimado": "40-120 €"
       },
       {
         "titulo": "Ruta de leyendas",
@@ -118,7 +127,8 @@
         "proveedor": "Relatos de Roma",
         "contacto": "relatos@roma.local",
         "horario": "18:00 - 19:30",
-        "web": "https://www.civitatis.com/es/roma/"
+        "web": "https://www.civitatis.com/es/roma/",
+        "costeEstimado": "15-45 €"
       },
       {
         "titulo": "Visita familiar",
@@ -126,7 +136,8 @@
         "proveedor": "Familias Viajeras",
         "contacto": "familias@viaje.local",
         "horario": "11:00 - 12:30",
-        "web": "https://www.getyourguide.com/rome-l33/family-friendly-activities-tc1094/"
+        "web": "https://www.getyourguide.com/rome-l33/family-friendly-activities-tc1094/",
+        "costeEstimado": "25-70 €"
       },
       {
         "titulo": "Audioguia express",
@@ -134,7 +145,8 @@
         "proveedor": "Audio Travel",
         "contacto": "audio@travel.local",
         "horario": "Durante apertura",
-        "web": "https://www.tiqets.com/en/rome-attractions-c71631/"
+        "web": "https://www.tiqets.com/en/rome-attractions-c71631/",
+        "costeEstimado": "5-20 €"
       }
     ],
     "web": "https://colosseo.it/en/area/roman-forum/"
@@ -164,7 +176,8 @@
         "proveedor": "Historia Viva Roma",
         "contacto": "reservas@historiaroma.local",
         "horario": "10:00 - 12:00",
-        "web": "https://www.walksofitaly.com/rome-tours/"
+        "web": "https://www.walksofitaly.com/rome-tours/",
+        "costeEstimado": "25-70 €"
       },
       {
         "titulo": "Acceso con contexto local",
@@ -172,7 +185,8 @@
         "proveedor": "Guias Locales Roma",
         "contacto": "hola@romalocal.local",
         "horario": "12:00 - 14:00",
-        "web": "https://www.getyourguide.com/rome-l33/"
+        "web": "https://www.getyourguide.com/rome-l33/",
+        "costeEstimado": "25-70 €"
       },
       {
         "titulo": "Paseo fotografico",
@@ -180,7 +194,8 @@
         "proveedor": "Photo Walk Roma",
         "contacto": "foto@romawalk.local",
         "horario": "Atardecer",
-        "web": "https://www.withlocals.com/experiences/italy/rome/"
+        "web": "https://www.withlocals.com/experiences/italy/rome/",
+        "costeEstimado": "40-120 €"
       },
       {
         "titulo": "Ruta de leyendas",
@@ -188,7 +203,8 @@
         "proveedor": "Relatos de Roma",
         "contacto": "relatos@roma.local",
         "horario": "18:00 - 19:30",
-        "web": "https://www.civitatis.com/es/roma/"
+        "web": "https://www.civitatis.com/es/roma/",
+        "costeEstimado": "15-45 €"
       },
       {
         "titulo": "Visita familiar",
@@ -196,7 +212,8 @@
         "proveedor": "Familias Viajeras",
         "contacto": "familias@viaje.local",
         "horario": "11:00 - 12:30",
-        "web": "https://www.getyourguide.com/rome-l33/family-friendly-activities-tc1094/"
+        "web": "https://www.getyourguide.com/rome-l33/family-friendly-activities-tc1094/",
+        "costeEstimado": "25-70 €"
       },
       {
         "titulo": "Audioguia express",
@@ -204,7 +221,8 @@
         "proveedor": "Audio Travel",
         "contacto": "audio@travel.local",
         "horario": "Durante apertura",
-        "web": "https://www.tiqets.com/en/rome-attractions-c71631/"
+        "web": "https://www.tiqets.com/en/rome-attractions-c71631/",
+        "costeEstimado": "5-20 €"
       }
     ],
     "web": "https://www.turismoroma.it/en/places/trevi-fountain"
@@ -234,7 +252,8 @@
         "proveedor": "Historia Viva Roma",
         "contacto": "reservas@historiaroma.local",
         "horario": "10:00 - 12:00",
-        "web": "https://www.walksofitaly.com/rome-tours/"
+        "web": "https://www.walksofitaly.com/rome-tours/",
+        "costeEstimado": "25-70 €"
       },
       {
         "titulo": "Acceso con contexto local",
@@ -242,7 +261,8 @@
         "proveedor": "Guias Locales Roma",
         "contacto": "hola@romalocal.local",
         "horario": "12:00 - 14:00",
-        "web": "https://www.getyourguide.com/rome-l33/"
+        "web": "https://www.getyourguide.com/rome-l33/",
+        "costeEstimado": "25-70 €"
       },
       {
         "titulo": "Paseo fotografico",
@@ -250,7 +270,8 @@
         "proveedor": "Photo Walk Roma",
         "contacto": "foto@romawalk.local",
         "horario": "Atardecer",
-        "web": "https://www.withlocals.com/experiences/italy/rome/"
+        "web": "https://www.withlocals.com/experiences/italy/rome/",
+        "costeEstimado": "40-120 €"
       },
       {
         "titulo": "Ruta de leyendas",
@@ -258,7 +279,8 @@
         "proveedor": "Relatos de Roma",
         "contacto": "relatos@roma.local",
         "horario": "18:00 - 19:30",
-        "web": "https://www.civitatis.com/es/roma/"
+        "web": "https://www.civitatis.com/es/roma/",
+        "costeEstimado": "15-45 €"
       },
       {
         "titulo": "Visita familiar",
@@ -266,7 +288,8 @@
         "proveedor": "Familias Viajeras",
         "contacto": "familias@viaje.local",
         "horario": "11:00 - 12:30",
-        "web": "https://www.getyourguide.com/rome-l33/family-friendly-activities-tc1094/"
+        "web": "https://www.getyourguide.com/rome-l33/family-friendly-activities-tc1094/",
+        "costeEstimado": "25-70 €"
       },
       {
         "titulo": "Audioguia express",
@@ -274,7 +297,8 @@
         "proveedor": "Audio Travel",
         "contacto": "audio@travel.local",
         "horario": "Durante apertura",
-        "web": "https://www.tiqets.com/en/rome-attractions-c71631/"
+        "web": "https://www.tiqets.com/en/rome-attractions-c71631/",
+        "costeEstimado": "5-20 €"
       }
     ],
     "web": "https://www.pantheonroma.com"
@@ -304,7 +328,8 @@
         "proveedor": "Museos Vaticanos Educacion",
         "contacto": "educacion@museosvaticanos.local",
         "horario": "10:00 - 12:00",
-        "web": "https://www.museivaticani.va/content/museivaticani/en/visita-i-musei/scegli-la-visita.html"
+        "web": "https://www.museivaticani.va/content/museivaticani/en/visita-i-musei/scegli-la-visita.html",
+        "costeEstimado": "20-65 €"
       },
       {
         "titulo": "Ruta de obras imprescindibles",
@@ -312,7 +337,8 @@
         "proveedor": "Guias de Roma",
         "contacto": "reservas@romatours.local",
         "horario": "12:30 - 14:00",
-        "web": "https://www.walksofitaly.com/vatican-tours/"
+        "web": "https://www.walksofitaly.com/vatican-tours/",
+        "costeEstimado": "20-65 €"
       },
       {
         "titulo": "Taller creativo",
@@ -320,7 +346,8 @@
         "proveedor": "Atelier Roma",
         "contacto": "talleres@romaatelier.local",
         "horario": "16:00 - 18:00",
-        "web": "https://www.museivaticani.va/content/museivaticani/en/eventi-e-novita/iniziative/Eventi-in-corso.html"
+        "web": "https://www.museivaticani.va/content/museivaticani/en/eventi-e-novita/iniziative/Eventi-in-corso.html",
+        "costeEstimado": "45-95 €"
       },
       {
         "titulo": "Audioguia express",
@@ -328,7 +355,8 @@
         "proveedor": "Audio Travel",
         "contacto": "audio@travel.local",
         "horario": "Durante apertura",
-        "web": "https://www.tiqets.com/en/rome-attractions-c71631/"
+        "web": "https://www.tiqets.com/en/rome-attractions-c71631/",
+        "costeEstimado": "5-20 €"
       },
       {
         "titulo": "Encuentro con especialista",
@@ -336,7 +364,8 @@
         "proveedor": "Cultura Roma",
         "contacto": "info@culturaroma.local",
         "horario": "Consultar calendario",
-        "web": "https://www.museivaticani.va/content/museivaticani/en/visita-i-musei/scegli-la-visita.html"
+        "web": "https://www.museivaticani.va/content/museivaticani/en/visita-i-musei/scegli-la-visita.html",
+        "costeEstimado": "20-65 €"
       },
       {
         "titulo": "Paseo fotografico interior",
@@ -344,7 +373,8 @@
         "proveedor": "Photo Walk Roma",
         "contacto": "foto@romawalk.local",
         "horario": "Ultima hora de apertura",
-        "web": "https://www.museivaticani.va/content/museivaticani/en/visita-i-musei.html"
+        "web": "https://www.museivaticani.va/content/museivaticani/en/visita-i-musei.html",
+        "costeEstimado": "40-120 €"
       }
     ],
     "web": "https://www.museivaticani.va"
@@ -374,7 +404,8 @@
         "proveedor": "Walks Roma",
         "contacto": "walks@roma.local",
         "horario": "10:30 - 12:30",
-        "web": "https://www.withlocals.com/experiences/italy/rome/"
+        "web": "https://www.withlocals.com/experiences/italy/rome/",
+        "costeEstimado": "15-45 €"
       },
       {
         "titulo": "Ruta gastronomica local",
@@ -382,7 +413,8 @@
         "proveedor": "Sabores de Roma",
         "contacto": "sabores@roma.local",
         "horario": "13:00 - 15:00",
-        "web": "https://www.eatingeurope.com/rome/"
+        "web": "https://www.eatingeurope.com/rome/",
+        "costeEstimado": "35-90 €"
       },
       {
         "titulo": "Fotografia urbana",
@@ -390,7 +422,8 @@
         "proveedor": "Photo Walk Roma",
         "contacto": "foto@romawalk.local",
         "horario": "Atardecer",
-        "web": "https://www.withlocals.com/experiences/italy/rome/"
+        "web": "https://www.withlocals.com/experiences/italy/rome/",
+        "costeEstimado": "40-120 €"
       },
       {
         "titulo": "Historias del vecindario",
@@ -398,7 +431,8 @@
         "proveedor": "Cronicas Roma",
         "contacto": "cronicas@roma.local",
         "horario": "17:00 - 18:30",
-        "web": "https://www.civitatis.com/es/roma/"
+        "web": "https://www.civitatis.com/es/roma/",
+        "costeEstimado": "15-45 €"
       },
       {
         "titulo": "Compras con guia local",
@@ -406,7 +440,8 @@
         "proveedor": "Local Shops Roma",
         "contacto": "shops@roma.local",
         "horario": "11:00 - 13:00",
-        "web": "https://www.getyourguide.com/rome-l33/shopping-tours-tc20/"
+        "web": "https://www.getyourguide.com/rome-l33/shopping-tours-tc20/",
+        "costeEstimado": "20-60 €"
       },
       {
         "titulo": "Noche de ambiente",
@@ -414,7 +449,8 @@
         "proveedor": "After Dark Roma",
         "contacto": "noche@roma.local",
         "horario": "20:00 - 22:00",
-        "web": "https://www.getyourguide.com/rome-l33/night-tours-tc10/"
+        "web": "https://www.getyourguide.com/rome-l33/night-tours-tc10/",
+        "costeEstimado": "25-75 €"
       }
     ],
     "web": "https://www.turismoroma.it/en/places/trastevere"
@@ -444,7 +480,8 @@
         "proveedor": "Green Roma",
         "contacto": "green@roma.local",
         "horario": "10:00 - 11:30",
-        "web": "https://www.sovrintendenzaroma.it/i_luoghi/ville_e_parchi_storici/ville_dei_nobili/villa_borghese"
+        "web": "https://www.sovrintendenzaroma.it/i_luoghi/ville_e_parchi_storici/ville_dei_nobili/villa_borghese",
+        "costeEstimado": "15-50 €"
       },
       {
         "titulo": "Picnic con producto local",
@@ -452,7 +489,8 @@
         "proveedor": "Picnic Roma",
         "contacto": "picnic@roma.local",
         "horario": "13:00 - 15:00",
-        "web": "https://www.withlocals.com/experiences/italy/rome/"
+        "web": "https://www.withlocals.com/experiences/italy/rome/",
+        "costeEstimado": "15-50 €"
       },
       {
         "titulo": "Ruta fotografica natural",
@@ -460,7 +498,8 @@
         "proveedor": "Photo Walk Roma",
         "contacto": "foto@romawalk.local",
         "horario": "Atardecer",
-        "web": "https://www.withlocals.com/experiences/italy/rome/"
+        "web": "https://www.withlocals.com/experiences/italy/rome/",
+        "costeEstimado": "40-120 €"
       },
       {
         "titulo": "Actividad familiar al aire libre",
@@ -468,7 +507,8 @@
         "proveedor": "Familias Viajeras",
         "contacto": "familias@viaje.local",
         "horario": "11:00 - 12:30",
-        "web": "https://www.getyourguide.com/rome-l33/family-friendly-activities-tc1094/"
+        "web": "https://www.getyourguide.com/rome-l33/family-friendly-activities-tc1094/",
+        "costeEstimado": "25-70 €"
       },
       {
         "titulo": "Bienestar y estiramientos",
@@ -476,7 +516,8 @@
         "proveedor": "Wellness Roma",
         "contacto": "wellness@roma.local",
         "horario": "08:30 - 09:30",
-        "web": "https://www.getyourguide.com/rome-l33/wellness-spas-tc92/"
+        "web": "https://www.getyourguide.com/rome-l33/wellness-spas-tc92/",
+        "costeEstimado": "15-50 €"
       },
       {
         "titulo": "Miradores y rincones tranquilos",
@@ -484,7 +525,8 @@
         "proveedor": "Slow Travel Roma",
         "contacto": "slow@roma.local",
         "horario": "16:30 - 18:00",
-        "web": "https://www.turismoroma.it/en"
+        "web": "https://www.turismoroma.it/en",
+        "costeEstimado": "15-50 €"
       }
     ],
     "web": "https://www.sovrintendenzaroma.it/i_luoghi/ville_e_parchi_storici/ville_dei_nobili/villa_borghese"
@@ -514,7 +556,8 @@
         "proveedor": "Guias Locales Roma",
         "contacto": "hola@romalocal.local",
         "horario": "10:00 - 12:00",
-        "web": "https://www.civitatis.com/es/roma/"
+        "web": "https://www.civitatis.com/es/roma/",
+        "costeEstimado": "25-70 €"
       },
       {
         "titulo": "Paseo fotografico",
@@ -522,7 +565,8 @@
         "proveedor": "Photo Walk Roma",
         "contacto": "foto@romawalk.local",
         "horario": "Atardecer",
-        "web": "https://www.withlocals.com/experiences/italy/rome/"
+        "web": "https://www.withlocals.com/experiences/italy/rome/",
+        "costeEstimado": "40-120 €"
       },
       {
         "titulo": "Tour privado a medida",
@@ -530,7 +574,8 @@
         "proveedor": "Travel Designers Roma",
         "contacto": "plan@romatravel.local",
         "horario": "Bajo reserva",
-        "web": "https://www.withlocals.com/experiences/italy/rome/"
+        "web": "https://www.withlocals.com/experiences/italy/rome/",
+        "costeEstimado": "90-180 €"
       },
       {
         "titulo": "Ruta familiar",
@@ -538,7 +583,8 @@
         "proveedor": "Familias Viajeras",
         "contacto": "familias@viaje.local",
         "horario": "11:00 - 12:30",
-        "web": "https://www.getyourguide.com/rome-l33/family-friendly-activities-tc1094/"
+        "web": "https://www.getyourguide.com/rome-l33/family-friendly-activities-tc1094/",
+        "costeEstimado": "25-70 €"
       },
       {
         "titulo": "Experiencia al atardecer",
@@ -546,7 +592,8 @@
         "proveedor": "Slow Travel Roma",
         "contacto": "slow@roma.local",
         "horario": "Atardecer",
-        "web": "https://www.getyourguide.com/rome-l33/sunset-tours-tc306/"
+        "web": "https://www.getyourguide.com/rome-l33/sunset-tours-tc306/",
+        "costeEstimado": "25-75 €"
       },
       {
         "titulo": "Audioguia express",
@@ -554,7 +601,8 @@
         "proveedor": "Audio Travel",
         "contacto": "audio@travel.local",
         "horario": "Durante apertura",
-        "web": "https://www.tiqets.com/en/rome-attractions-c71631/"
+        "web": "https://www.tiqets.com/en/rome-attractions-c71631/",
+        "costeEstimado": "5-20 €"
       }
     ],
     "web": "https://www.turismoroma.it/en/places/campo-de-fiori"
@@ -584,7 +632,8 @@
         "proveedor": "Salumeria Roscioli",
         "contacto": "reservas@salumeriaroscioli.local",
         "horario": "Comida y cena",
-        "web": "https://www.roscioli.com/salumeria"
+        "web": "https://www.roscioli.com/salumeria",
+        "costeEstimado": "45-120 €"
       },
       {
         "titulo": "Menu degustacion",
@@ -592,7 +641,8 @@
         "proveedor": "Sabores de Roma",
         "contacto": "sabores@roma.local",
         "horario": "Consultar servicio",
-        "web": "https://www.roscioli.com/salumeria"
+        "web": "https://www.roscioli.com/salumeria",
+        "costeEstimado": "80-160 €"
       },
       {
         "titulo": "Charla con cocina",
@@ -600,7 +650,8 @@
         "proveedor": "Food Stories Roma",
         "contacto": "food@roma.local",
         "horario": "Antes de comer",
-        "web": "https://www.roscioli.com/salumeria"
+        "web": "https://www.roscioli.com/salumeria",
+        "costeEstimado": "35-90 €"
       },
       {
         "titulo": "Maridaje local",
@@ -608,7 +659,8 @@
         "proveedor": "Catas Roma",
         "contacto": "catas@roma.local",
         "horario": "Cena",
-        "web": "https://www.roscioli.com/wine-club"
+        "web": "https://www.roscioli.com/wine-club",
+        "costeEstimado": "80-160 €"
       },
       {
         "titulo": "Ruta gastronomica cercana",
@@ -616,7 +668,8 @@
         "proveedor": "Food Walk Roma",
         "contacto": "foodwalk@roma.local",
         "horario": "12:00 - 14:00",
-        "web": "https://www.eatingeurope.com/rome/"
+        "web": "https://www.eatingeurope.com/rome/",
+        "costeEstimado": "35-90 €"
       },
       {
         "titulo": "Clase de sabor local",
@@ -624,7 +677,8 @@
         "proveedor": "Talleres Roma",
         "contacto": "talleres@roma.local",
         "horario": "Consultar calendario",
-        "web": "https://www.roscioli.com/cooking-classes"
+        "web": "https://www.roscioli.com/cooking-classes",
+        "costeEstimado": "45-95 €"
       }
     ],
     "web": "https://www.roscioli.com/salumeria"

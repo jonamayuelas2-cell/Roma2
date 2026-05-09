@@ -38,7 +38,8 @@
           "proveedor": "Green Ciudad del Cabo",
           "contacto": "green@ciudaddelcabo.local",
           "horario": "10:00 - 11:30",
-          "web": "https://www.tablemountain.net"
+          "web": "https://www.tablemountain.net",
+          "costeEstimado": "15-50 €"
         },
         {
           "titulo": "Picnic con producto local",
@@ -46,7 +47,8 @@
           "proveedor": "Picnic Ciudad del Cabo",
           "contacto": "picnic@ciudaddelcabo.local",
           "horario": "13:00 - 15:00",
-          "web": "https://www.tablemountain.net"
+          "web": "https://www.tablemountain.net",
+          "costeEstimado": "15-50 €"
         },
         {
           "titulo": "Ruta fotografica natural",
@@ -54,7 +56,8 @@
           "proveedor": "Photo Walk Ciudad del Cabo",
           "contacto": "foto@ciudaddelcabowalk.local",
           "horario": "Atardecer",
-          "web": "https://www.withlocals.com/search/?q=Cape%20Town"
+          "web": "https://www.withlocals.com/search/?q=Cape%20Town",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Actividad familiar al aire libre",
@@ -62,7 +65,8 @@
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
           "horario": "11:00 - 12:30",
-          "web": "https://www.getyourguide.com/s/?q=Cape%20Town"
+          "web": "https://www.getyourguide.com/s/?q=Cape%20Town",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Bienestar y estiramientos",
@@ -70,7 +74,8 @@
           "proveedor": "Wellness Ciudad del Cabo",
           "contacto": "wellness@ciudaddelcabo.local",
           "horario": "08:30 - 09:30",
-          "web": "https://www.getyourguide.com/s/?q=Cape%20Town"
+          "web": "https://www.getyourguide.com/s/?q=Cape%20Town",
+          "costeEstimado": "15-50 €"
         },
         {
           "titulo": "Miradores y rincones tranquilos",
@@ -78,7 +83,8 @@
           "proveedor": "Slow Travel Ciudad del Cabo",
           "contacto": "slow@ciudaddelcabo.local",
           "horario": "16:30 - 18:00",
-          "web": "https://www.tablemountain.net"
+          "web": "https://www.tablemountain.net",
+          "costeEstimado": "15-50 €"
         }
       ],
       "web": "https://www.tablemountain.net"
@@ -108,7 +114,8 @@
           "proveedor": "Walks Ciudad del Cabo",
           "contacto": "walks@ciudaddelcabo.local",
           "horario": "10:30 - 12:30",
-          "web": "https://www.civitatis.com/es/ciudad-del-cabo/"
+          "web": "https://www.civitatis.com/es/ciudad-del-cabo/",
+          "costeEstimado": "15-45 €"
         },
         {
           "titulo": "Ruta gastronomica local",
@@ -116,7 +123,8 @@
           "proveedor": "Sabores de Ciudad del Cabo",
           "contacto": "sabores@ciudaddelcabo.local",
           "horario": "13:00 - 15:00",
-          "web": "https://www.eatingeurope.com/cape-town/"
+          "web": "https://www.eatingeurope.com/cape-town/",
+          "costeEstimado": "35-90 €"
         },
         {
           "titulo": "Fotografia urbana",
@@ -124,7 +132,8 @@
           "proveedor": "Photo Walk Ciudad del Cabo",
           "contacto": "foto@ciudaddelcabowalk.local",
           "horario": "Atardecer",
-          "web": "https://www.withlocals.com/search/?q=Cape%20Town"
+          "web": "https://www.withlocals.com/search/?q=Cape%20Town",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Historias del vecindario",
@@ -132,7 +141,8 @@
           "proveedor": "Cronicas Ciudad del Cabo",
           "contacto": "cronicas@ciudaddelcabo.local",
           "horario": "17:00 - 18:30",
-          "web": "https://www.civitatis.com/es/ciudad-del-cabo/"
+          "web": "https://www.civitatis.com/es/ciudad-del-cabo/",
+          "costeEstimado": "15-45 €"
         },
         {
           "titulo": "Compras con guia local",
@@ -140,7 +150,8 @@
           "proveedor": "Local Shops Ciudad del Cabo",
           "contacto": "shops@ciudaddelcabo.local",
           "horario": "11:00 - 13:00",
-          "web": "https://www.getyourguide.com/s/?q=Cape%20Town"
+          "web": "https://www.getyourguide.com/s/?q=Cape%20Town",
+          "costeEstimado": "20-60 €"
         },
         {
           "titulo": "Noche de ambiente",
@@ -148,7 +159,8 @@
           "proveedor": "After Dark Ciudad del Cabo",
           "contacto": "noche@ciudaddelcabo.local",
           "horario": "20:00 - 22:00",
-          "web": "https://www.getyourguide.com/s/?q=Cape%20Town"
+          "web": "https://www.getyourguide.com/s/?q=Cape%20Town",
+          "costeEstimado": "25-75 €"
         }
       ],
       "web": "https://www.waterfront.co.za"
@@ -178,7 +190,8 @@
           "proveedor": "Robben Island Educacion",
           "contacto": "educacion@robbenisland.local",
           "horario": "10:00 - 12:00",
-          "web": "https://www.robben-island.org.za"
+          "web": "https://www.robben-island.org.za",
+          "costeEstimado": "20-65 €"
         },
         {
           "titulo": "Ruta de obras imprescindibles",
@@ -186,7 +199,8 @@
           "proveedor": "Guias de Ciudad del Cabo",
           "contacto": "reservas@ciudaddelcabotours.local",
           "horario": "12:30 - 14:00",
-          "web": "https://www.robben-island.org.za"
+          "web": "https://www.robben-island.org.za",
+          "costeEstimado": "20-65 €"
         },
         {
           "titulo": "Taller creativo",
@@ -194,7 +208,8 @@
           "proveedor": "Atelier Ciudad del Cabo",
           "contacto": "talleres@ciudaddelcaboatelier.local",
           "horario": "16:00 - 18:00",
-          "web": "https://www.robben-island.org.za"
+          "web": "https://www.robben-island.org.za",
+          "costeEstimado": "45-95 €"
         },
         {
           "titulo": "Audioguia express",
@@ -202,7 +217,8 @@
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
           "horario": "Durante apertura",
-          "web": "https://www.tiqets.com/en/search/?query=Cape%20Town"
+          "web": "https://www.tiqets.com/en/search/?query=Cape%20Town",
+          "costeEstimado": "5-20 €"
         },
         {
           "titulo": "Encuentro con especialista",
@@ -210,7 +226,8 @@
           "proveedor": "Cultura Ciudad del Cabo",
           "contacto": "info@culturaciudaddelcabo.local",
           "horario": "Consultar calendario",
-          "web": "https://www.robben-island.org.za"
+          "web": "https://www.robben-island.org.za",
+          "costeEstimado": "20-65 €"
         },
         {
           "titulo": "Paseo fotografico interior",
@@ -218,7 +235,8 @@
           "proveedor": "Photo Walk Ciudad del Cabo",
           "contacto": "foto@ciudaddelcabowalk.local",
           "horario": "Ultima hora de apertura",
-          "web": "https://www.withlocals.com/search/?q=Cape%20Town"
+          "web": "https://www.withlocals.com/search/?q=Cape%20Town",
+          "costeEstimado": "40-120 €"
         }
       ],
       "web": "https://www.robben-island.org.za"
@@ -248,7 +266,8 @@
           "proveedor": "Walks Ciudad del Cabo",
           "contacto": "walks@ciudaddelcabo.local",
           "horario": "10:30 - 12:30",
-          "web": "https://www.civitatis.com/es/ciudad-del-cabo/"
+          "web": "https://www.civitatis.com/es/ciudad-del-cabo/",
+          "costeEstimado": "15-45 €"
         },
         {
           "titulo": "Ruta gastronomica local",
@@ -256,7 +275,8 @@
           "proveedor": "Sabores de Ciudad del Cabo",
           "contacto": "sabores@ciudaddelcabo.local",
           "horario": "13:00 - 15:00",
-          "web": "https://www.eatingeurope.com/cape-town/"
+          "web": "https://www.eatingeurope.com/cape-town/",
+          "costeEstimado": "35-90 €"
         },
         {
           "titulo": "Fotografia urbana",
@@ -264,7 +284,8 @@
           "proveedor": "Photo Walk Ciudad del Cabo",
           "contacto": "foto@ciudaddelcabowalk.local",
           "horario": "Atardecer",
-          "web": "https://www.withlocals.com/search/?q=Cape%20Town"
+          "web": "https://www.withlocals.com/search/?q=Cape%20Town",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Historias del vecindario",
@@ -272,7 +293,8 @@
           "proveedor": "Cronicas Ciudad del Cabo",
           "contacto": "cronicas@ciudaddelcabo.local",
           "horario": "17:00 - 18:30",
-          "web": "https://www.civitatis.com/es/ciudad-del-cabo/"
+          "web": "https://www.civitatis.com/es/ciudad-del-cabo/",
+          "costeEstimado": "15-45 €"
         },
         {
           "titulo": "Compras con guia local",
@@ -280,7 +302,8 @@
           "proveedor": "Local Shops Ciudad del Cabo",
           "contacto": "shops@ciudaddelcabo.local",
           "horario": "11:00 - 13:00",
-          "web": "https://www.getyourguide.com/s/?q=Cape%20Town"
+          "web": "https://www.getyourguide.com/s/?q=Cape%20Town",
+          "costeEstimado": "20-60 €"
         },
         {
           "titulo": "Noche de ambiente",
@@ -288,7 +311,8 @@
           "proveedor": "After Dark Ciudad del Cabo",
           "contacto": "noche@ciudaddelcabo.local",
           "horario": "20:00 - 22:00",
-          "web": "https://www.getyourguide.com/s/?q=Cape%20Town"
+          "web": "https://www.getyourguide.com/s/?q=Cape%20Town",
+          "costeEstimado": "25-75 €"
         }
       ],
       "web": "https://www.capetown.travel/bo-kaap"
@@ -318,7 +342,8 @@
           "proveedor": "Green Ciudad del Cabo",
           "contacto": "green@ciudaddelcabo.local",
           "horario": "10:00 - 11:30",
-          "web": "https://www.sanbi.org/gardens/kirstenbosch"
+          "web": "https://www.sanbi.org/gardens/kirstenbosch",
+          "costeEstimado": "15-50 €"
         },
         {
           "titulo": "Picnic con producto local",
@@ -326,7 +351,8 @@
           "proveedor": "Picnic Ciudad del Cabo",
           "contacto": "picnic@ciudaddelcabo.local",
           "horario": "13:00 - 15:00",
-          "web": "https://www.sanbi.org/gardens/kirstenbosch"
+          "web": "https://www.sanbi.org/gardens/kirstenbosch",
+          "costeEstimado": "15-50 €"
         },
         {
           "titulo": "Ruta fotografica natural",
@@ -334,7 +360,8 @@
           "proveedor": "Photo Walk Ciudad del Cabo",
           "contacto": "foto@ciudaddelcabowalk.local",
           "horario": "Atardecer",
-          "web": "https://www.withlocals.com/search/?q=Cape%20Town"
+          "web": "https://www.withlocals.com/search/?q=Cape%20Town",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Actividad familiar al aire libre",
@@ -342,7 +369,8 @@
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
           "horario": "11:00 - 12:30",
-          "web": "https://www.getyourguide.com/s/?q=Cape%20Town"
+          "web": "https://www.getyourguide.com/s/?q=Cape%20Town",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Bienestar y estiramientos",
@@ -350,7 +378,8 @@
           "proveedor": "Wellness Ciudad del Cabo",
           "contacto": "wellness@ciudaddelcabo.local",
           "horario": "08:30 - 09:30",
-          "web": "https://www.getyourguide.com/s/?q=Cape%20Town"
+          "web": "https://www.getyourguide.com/s/?q=Cape%20Town",
+          "costeEstimado": "15-50 €"
         },
         {
           "titulo": "Miradores y rincones tranquilos",
@@ -358,7 +387,8 @@
           "proveedor": "Slow Travel Ciudad del Cabo",
           "contacto": "slow@ciudaddelcabo.local",
           "horario": "16:30 - 18:00",
-          "web": "https://www.sanbi.org/gardens/kirstenbosch"
+          "web": "https://www.sanbi.org/gardens/kirstenbosch",
+          "costeEstimado": "15-50 €"
         }
       ],
       "web": "https://www.sanbi.org/gardens/kirstenbosch"
@@ -388,7 +418,8 @@
           "proveedor": "Green Ciudad del Cabo",
           "contacto": "green@ciudaddelcabo.local",
           "horario": "10:00 - 11:30",
-          "web": "https://www.capetown.travel/camps-bay"
+          "web": "https://www.capetown.travel/camps-bay",
+          "costeEstimado": "15-50 €"
         },
         {
           "titulo": "Picnic con producto local",
@@ -396,7 +427,8 @@
           "proveedor": "Picnic Ciudad del Cabo",
           "contacto": "picnic@ciudaddelcabo.local",
           "horario": "13:00 - 15:00",
-          "web": "https://www.capetown.travel/camps-bay"
+          "web": "https://www.capetown.travel/camps-bay",
+          "costeEstimado": "15-50 €"
         },
         {
           "titulo": "Ruta fotografica natural",
@@ -404,7 +436,8 @@
           "proveedor": "Photo Walk Ciudad del Cabo",
           "contacto": "foto@ciudaddelcabowalk.local",
           "horario": "Atardecer",
-          "web": "https://www.withlocals.com/search/?q=Cape%20Town"
+          "web": "https://www.withlocals.com/search/?q=Cape%20Town",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Actividad familiar al aire libre",
@@ -412,7 +445,8 @@
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
           "horario": "11:00 - 12:30",
-          "web": "https://www.getyourguide.com/s/?q=Cape%20Town"
+          "web": "https://www.getyourguide.com/s/?q=Cape%20Town",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Bienestar y estiramientos",
@@ -420,7 +454,8 @@
           "proveedor": "Wellness Ciudad del Cabo",
           "contacto": "wellness@ciudaddelcabo.local",
           "horario": "08:30 - 09:30",
-          "web": "https://www.getyourguide.com/s/?q=Cape%20Town"
+          "web": "https://www.getyourguide.com/s/?q=Cape%20Town",
+          "costeEstimado": "15-50 €"
         },
         {
           "titulo": "Miradores y rincones tranquilos",
@@ -428,7 +463,8 @@
           "proveedor": "Slow Travel Ciudad del Cabo",
           "contacto": "slow@ciudaddelcabo.local",
           "horario": "16:30 - 18:00",
-          "web": "https://www.capetown.travel/camps-bay"
+          "web": "https://www.capetown.travel/camps-bay",
+          "costeEstimado": "15-50 €"
         }
       ],
       "web": "https://www.capetown.travel/camps-bay"
@@ -458,7 +494,8 @@
           "proveedor": "District Six Museum Educacion",
           "contacto": "educacion@districtsixmuseum.local",
           "horario": "10:00 - 12:00",
-          "web": "https://www.districtsix.co.za"
+          "web": "https://www.districtsix.co.za",
+          "costeEstimado": "20-65 €"
         },
         {
           "titulo": "Ruta de obras imprescindibles",
@@ -466,7 +503,8 @@
           "proveedor": "Guias de Ciudad del Cabo",
           "contacto": "reservas@ciudaddelcabotours.local",
           "horario": "12:30 - 14:00",
-          "web": "https://www.districtsix.co.za"
+          "web": "https://www.districtsix.co.za",
+          "costeEstimado": "20-65 €"
         },
         {
           "titulo": "Taller creativo",
@@ -474,7 +512,8 @@
           "proveedor": "Atelier Ciudad del Cabo",
           "contacto": "talleres@ciudaddelcaboatelier.local",
           "horario": "16:00 - 18:00",
-          "web": "https://www.districtsix.co.za"
+          "web": "https://www.districtsix.co.za",
+          "costeEstimado": "45-95 €"
         },
         {
           "titulo": "Audioguia express",
@@ -482,7 +521,8 @@
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
           "horario": "Durante apertura",
-          "web": "https://www.tiqets.com/en/search/?query=Cape%20Town"
+          "web": "https://www.tiqets.com/en/search/?query=Cape%20Town",
+          "costeEstimado": "5-20 €"
         },
         {
           "titulo": "Encuentro con especialista",
@@ -490,7 +530,8 @@
           "proveedor": "Cultura Ciudad del Cabo",
           "contacto": "info@culturaciudaddelcabo.local",
           "horario": "Consultar calendario",
-          "web": "https://www.districtsix.co.za"
+          "web": "https://www.districtsix.co.za",
+          "costeEstimado": "20-65 €"
         },
         {
           "titulo": "Paseo fotografico interior",
@@ -498,7 +539,8 @@
           "proveedor": "Photo Walk Ciudad del Cabo",
           "contacto": "foto@ciudaddelcabowalk.local",
           "horario": "Ultima hora de apertura",
-          "web": "https://www.withlocals.com/search/?q=Cape%20Town"
+          "web": "https://www.withlocals.com/search/?q=Cape%20Town",
+          "costeEstimado": "40-120 €"
         }
       ],
       "web": "https://www.districtsix.co.za"
@@ -528,7 +570,8 @@
           "proveedor": "Guias Locales Ciudad del Cabo",
           "contacto": "hola@ciudaddelcabolocal.local",
           "horario": "10:00 - 12:00",
-          "web": "https://www.getyourguide.com/s/?q=Cape%20Town"
+          "web": "https://www.getyourguide.com/s/?q=Cape%20Town",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Paseo fotografico",
@@ -536,7 +579,8 @@
           "proveedor": "Photo Walk Ciudad del Cabo",
           "contacto": "foto@ciudaddelcabowalk.local",
           "horario": "Atardecer",
-          "web": "https://www.withlocals.com/search/?q=Cape%20Town"
+          "web": "https://www.withlocals.com/search/?q=Cape%20Town",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Tour privado a medida",
@@ -544,7 +588,8 @@
           "proveedor": "Travel Designers Ciudad del Cabo",
           "contacto": "plan@ciudaddelcabotravel.local",
           "horario": "Bajo reserva",
-          "web": "https://www.getyourguide.com/s/?q=Cape%20Town"
+          "web": "https://www.getyourguide.com/s/?q=Cape%20Town",
+          "costeEstimado": "90-180 €"
         },
         {
           "titulo": "Ruta familiar",
@@ -552,7 +597,8 @@
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
           "horario": "11:00 - 12:30",
-          "web": "https://www.getyourguide.com/s/?q=Cape%20Town"
+          "web": "https://www.getyourguide.com/s/?q=Cape%20Town",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Experiencia al atardecer",
@@ -560,7 +606,8 @@
           "proveedor": "Slow Travel Ciudad del Cabo",
           "contacto": "slow@ciudaddelcabo.local",
           "horario": "Atardecer",
-          "web": "https://www.getyourguide.com/s/?q=Cape%20Town"
+          "web": "https://www.getyourguide.com/s/?q=Cape%20Town",
+          "costeEstimado": "25-75 €"
         },
         {
           "titulo": "Audioguia express",
@@ -568,7 +615,8 @@
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
           "horario": "Durante apertura",
-          "web": "https://www.tiqets.com/en/search/?query=Cape%20Town"
+          "web": "https://www.tiqets.com/en/search/?query=Cape%20Town",
+          "costeEstimado": "5-20 €"
         }
       ],
       "web": "https://theoldbiscuitmill.co.za"
@@ -598,7 +646,8 @@
           "proveedor": "Green Ciudad del Cabo",
           "contacto": "green@ciudaddelcabo.local",
           "horario": "10:00 - 11:30",
-          "web": "https://www.sanparks.org/parks/table-mountain/what-to-do/attractions/boulders-penguin-colony"
+          "web": "https://www.sanparks.org/parks/table-mountain/what-to-do/attractions/boulders-penguin-colony",
+          "costeEstimado": "15-50 €"
         },
         {
           "titulo": "Picnic con producto local",
@@ -606,7 +655,8 @@
           "proveedor": "Picnic Ciudad del Cabo",
           "contacto": "picnic@ciudaddelcabo.local",
           "horario": "13:00 - 15:00",
-          "web": "https://www.sanparks.org/parks/table-mountain/what-to-do/attractions/boulders-penguin-colony"
+          "web": "https://www.sanparks.org/parks/table-mountain/what-to-do/attractions/boulders-penguin-colony",
+          "costeEstimado": "15-50 €"
         },
         {
           "titulo": "Ruta fotografica natural",
@@ -614,7 +664,8 @@
           "proveedor": "Photo Walk Ciudad del Cabo",
           "contacto": "foto@ciudaddelcabowalk.local",
           "horario": "Atardecer",
-          "web": "https://www.withlocals.com/search/?q=Cape%20Town"
+          "web": "https://www.withlocals.com/search/?q=Cape%20Town",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Actividad familiar al aire libre",
@@ -622,7 +673,8 @@
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
           "horario": "11:00 - 12:30",
-          "web": "https://www.getyourguide.com/s/?q=Cape%20Town"
+          "web": "https://www.getyourguide.com/s/?q=Cape%20Town",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Bienestar y estiramientos",
@@ -630,7 +682,8 @@
           "proveedor": "Wellness Ciudad del Cabo",
           "contacto": "wellness@ciudaddelcabo.local",
           "horario": "08:30 - 09:30",
-          "web": "https://www.getyourguide.com/s/?q=Cape%20Town"
+          "web": "https://www.getyourguide.com/s/?q=Cape%20Town",
+          "costeEstimado": "15-50 €"
         },
         {
           "titulo": "Miradores y rincones tranquilos",
@@ -638,7 +691,8 @@
           "proveedor": "Slow Travel Ciudad del Cabo",
           "contacto": "slow@ciudaddelcabo.local",
           "horario": "16:30 - 18:00",
-          "web": "https://www.sanparks.org/parks/table-mountain/what-to-do/attractions/boulders-penguin-colony"
+          "web": "https://www.sanparks.org/parks/table-mountain/what-to-do/attractions/boulders-penguin-colony",
+          "costeEstimado": "15-50 €"
         }
       ],
       "web": "https://www.sanparks.org/parks/table-mountain/what-to-do/attractions/boulders-penguin-colony"

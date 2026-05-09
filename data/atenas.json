@@ -38,7 +38,8 @@
           "proveedor": "Historia Viva Atenas",
           "contacto": "reservas@historiaatenas.local",
           "horario": "10:00 - 12:00",
-          "web": "https://www.getyourguide.com/s/?q=Athens"
+          "web": "https://www.getyourguide.com/s/?q=Athens",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Acceso con contexto local",
@@ -46,7 +47,8 @@
           "proveedor": "Guias Locales Atenas",
           "contacto": "hola@atenaslocal.local",
           "horario": "12:00 - 14:00",
-          "web": "https://www.getyourguide.com/s/?q=Athens"
+          "web": "https://www.getyourguide.com/s/?q=Athens",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Paseo fotografico",
@@ -54,7 +56,8 @@
           "proveedor": "Photo Walk Atenas",
           "contacto": "foto@atenaswalk.local",
           "horario": "Atardecer",
-          "web": "https://www.withlocals.com/search/?q=Athens"
+          "web": "https://www.withlocals.com/search/?q=Athens",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Ruta de leyendas",
@@ -62,7 +65,8 @@
           "proveedor": "Relatos de Atenas",
           "contacto": "relatos@atenas.local",
           "horario": "18:00 - 19:30",
-          "web": "https://www.civitatis.com/es/atenas/"
+          "web": "https://www.civitatis.com/es/atenas/",
+          "costeEstimado": "15-45 €"
         },
         {
           "titulo": "Visita familiar",
@@ -70,7 +74,8 @@
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
           "horario": "11:00 - 12:30",
-          "web": "https://www.getyourguide.com/s/?q=Athens"
+          "web": "https://www.getyourguide.com/s/?q=Athens",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Audioguia express",
@@ -78,7 +83,8 @@
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
           "horario": "Durante apertura",
-          "web": "https://www.tiqets.com/en/search/?query=Athens"
+          "web": "https://www.tiqets.com/en/search/?query=Athens",
+          "costeEstimado": "5-20 €"
         }
       ],
       "web": "https://etickets.tap.gr/webengines/tap_b2c/english/tap.exe?PM=P1N"
@@ -108,7 +114,8 @@
           "proveedor": "Historia Viva Atenas",
           "contacto": "reservas@historiaatenas.local",
           "horario": "10:00 - 12:00",
-          "web": "https://www.getyourguide.com/s/?q=Athens"
+          "web": "https://www.getyourguide.com/s/?q=Athens",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Acceso con contexto local",
@@ -116,7 +123,8 @@
           "proveedor": "Guias Locales Atenas",
           "contacto": "hola@atenaslocal.local",
           "horario": "12:00 - 14:00",
-          "web": "https://www.getyourguide.com/s/?q=Athens"
+          "web": "https://www.getyourguide.com/s/?q=Athens",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Paseo fotografico",
@@ -124,7 +132,8 @@
           "proveedor": "Photo Walk Atenas",
           "contacto": "foto@atenaswalk.local",
           "horario": "Atardecer",
-          "web": "https://www.withlocals.com/search/?q=Athens"
+          "web": "https://www.withlocals.com/search/?q=Athens",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Ruta de leyendas",
@@ -132,7 +141,8 @@
           "proveedor": "Relatos de Atenas",
           "contacto": "relatos@atenas.local",
           "horario": "18:00 - 19:30",
-          "web": "https://www.civitatis.com/es/atenas/"
+          "web": "https://www.civitatis.com/es/atenas/",
+          "costeEstimado": "15-45 €"
         },
         {
           "titulo": "Visita familiar",
@@ -140,7 +150,8 @@
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
           "horario": "11:00 - 12:30",
-          "web": "https://www.getyourguide.com/s/?q=Athens"
+          "web": "https://www.getyourguide.com/s/?q=Athens",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Audioguia express",
@@ -148,7 +159,8 @@
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
           "horario": "Durante apertura",
-          "web": "https://www.tiqets.com/en/search/?query=Athens"
+          "web": "https://www.tiqets.com/en/search/?query=Athens",
+          "costeEstimado": "5-20 €"
         }
       ],
       "web": "https://odysseus.culture.gr/h/3/eh351.jsp?obj_id=2384"
@@ -178,7 +190,8 @@
           "proveedor": "Walks Atenas",
           "contacto": "walks@atenas.local",
           "horario": "10:30 - 12:30",
-          "web": "https://www.civitatis.com/es/atenas/"
+          "web": "https://www.civitatis.com/es/atenas/",
+          "costeEstimado": "15-45 €"
         },
         {
           "titulo": "Ruta gastronomica local",
@@ -186,7 +199,8 @@
           "proveedor": "Sabores de Atenas",
           "contacto": "sabores@atenas.local",
           "horario": "13:00 - 15:00",
-          "web": "https://www.athensfoodonfoot.com"
+          "web": "https://www.athensfoodonfoot.com",
+          "costeEstimado": "35-90 €"
         },
         {
           "titulo": "Fotografia urbana",
@@ -194,7 +208,8 @@
           "proveedor": "Photo Walk Atenas",
           "contacto": "foto@atenaswalk.local",
           "horario": "Atardecer",
-          "web": "https://www.withlocals.com/search/?q=Athens"
+          "web": "https://www.withlocals.com/search/?q=Athens",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Historias del vecindario",
@@ -202,7 +217,8 @@
           "proveedor": "Cronicas Atenas",
           "contacto": "cronicas@atenas.local",
           "horario": "17:00 - 18:30",
-          "web": "https://www.civitatis.com/es/atenas/"
+          "web": "https://www.civitatis.com/es/atenas/",
+          "costeEstimado": "15-45 €"
         },
         {
           "titulo": "Compras con guia local",
@@ -210,7 +226,8 @@
           "proveedor": "Local Shops Atenas",
           "contacto": "shops@atenas.local",
           "horario": "11:00 - 13:00",
-          "web": "https://www.getyourguide.com/s/?q=Athens"
+          "web": "https://www.getyourguide.com/s/?q=Athens",
+          "costeEstimado": "20-60 €"
         },
         {
           "titulo": "Noche de ambiente",
@@ -218,7 +235,8 @@
           "proveedor": "After Dark Atenas",
           "contacto": "noche@atenas.local",
           "horario": "20:00 - 22:00",
-          "web": "https://www.getyourguide.com/s/?q=Athens"
+          "web": "https://www.getyourguide.com/s/?q=Athens",
+          "costeEstimado": "25-75 €"
         }
       ],
       "web": "https://www.thisisathens.org/neighbourhoods/plaka"
@@ -248,7 +266,8 @@
           "proveedor": "Museo de la Acropolis Educacion",
           "contacto": "educacion@museodelaacropolis.local",
           "horario": "10:00 - 12:00",
-          "web": "https://www.theacropolismuseum.gr"
+          "web": "https://www.theacropolismuseum.gr",
+          "costeEstimado": "20-65 €"
         },
         {
           "titulo": "Ruta de obras imprescindibles",
@@ -256,7 +275,8 @@
           "proveedor": "Guias de Atenas",
           "contacto": "reservas@atenastours.local",
           "horario": "12:30 - 14:00",
-          "web": "https://www.theacropolismuseum.gr"
+          "web": "https://www.theacropolismuseum.gr",
+          "costeEstimado": "20-65 €"
         },
         {
           "titulo": "Taller creativo",
@@ -264,7 +284,8 @@
           "proveedor": "Atelier Atenas",
           "contacto": "talleres@atenasatelier.local",
           "horario": "16:00 - 18:00",
-          "web": "https://www.theacropolismuseum.gr"
+          "web": "https://www.theacropolismuseum.gr",
+          "costeEstimado": "45-95 €"
         },
         {
           "titulo": "Audioguia express",
@@ -272,7 +293,8 @@
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
           "horario": "Durante apertura",
-          "web": "https://www.tiqets.com/en/search/?query=Athens"
+          "web": "https://www.tiqets.com/en/search/?query=Athens",
+          "costeEstimado": "5-20 €"
         },
         {
           "titulo": "Encuentro con especialista",
@@ -280,7 +302,8 @@
           "proveedor": "Cultura Atenas",
           "contacto": "info@culturaatenas.local",
           "horario": "Consultar calendario",
-          "web": "https://www.theacropolismuseum.gr"
+          "web": "https://www.theacropolismuseum.gr",
+          "costeEstimado": "20-65 €"
         },
         {
           "titulo": "Paseo fotografico interior",
@@ -288,7 +311,8 @@
           "proveedor": "Photo Walk Atenas",
           "contacto": "foto@atenaswalk.local",
           "horario": "Ultima hora de apertura",
-          "web": "https://www.withlocals.com/search/?q=Athens"
+          "web": "https://www.withlocals.com/search/?q=Athens",
+          "costeEstimado": "40-120 €"
         }
       ],
       "web": "https://www.theacropolismuseum.gr"
@@ -318,7 +342,8 @@
           "proveedor": "Historia Viva Atenas",
           "contacto": "reservas@historiaatenas.local",
           "horario": "10:00 - 12:00",
-          "web": "https://www.getyourguide.com/s/?q=Athens"
+          "web": "https://www.getyourguide.com/s/?q=Athens",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Acceso con contexto local",
@@ -326,7 +351,8 @@
           "proveedor": "Guias Locales Atenas",
           "contacto": "hola@atenaslocal.local",
           "horario": "12:00 - 14:00",
-          "web": "https://www.getyourguide.com/s/?q=Athens"
+          "web": "https://www.getyourguide.com/s/?q=Athens",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Paseo fotografico",
@@ -334,7 +360,8 @@
           "proveedor": "Photo Walk Atenas",
           "contacto": "foto@atenaswalk.local",
           "horario": "Atardecer",
-          "web": "https://www.withlocals.com/search/?q=Athens"
+          "web": "https://www.withlocals.com/search/?q=Athens",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Ruta de leyendas",
@@ -342,7 +369,8 @@
           "proveedor": "Relatos de Atenas",
           "contacto": "relatos@atenas.local",
           "horario": "18:00 - 19:30",
-          "web": "https://www.civitatis.com/es/atenas/"
+          "web": "https://www.civitatis.com/es/atenas/",
+          "costeEstimado": "15-45 €"
         },
         {
           "titulo": "Visita familiar",
@@ -350,7 +378,8 @@
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
           "horario": "11:00 - 12:30",
-          "web": "https://www.getyourguide.com/s/?q=Athens"
+          "web": "https://www.getyourguide.com/s/?q=Athens",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Audioguia express",
@@ -358,7 +387,8 @@
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
           "horario": "Durante apertura",
-          "web": "https://www.tiqets.com/en/search/?query=Athens"
+          "web": "https://www.tiqets.com/en/search/?query=Athens",
+          "costeEstimado": "5-20 €"
         }
       ],
       "web": "https://odysseus.culture.gr/h/3/eh351.jsp?obj_id=2485"
@@ -388,7 +418,8 @@
           "proveedor": "Guias Locales Atenas",
           "contacto": "hola@atenaslocal.local",
           "horario": "10:00 - 12:00",
-          "web": "https://www.getyourguide.com/s/?q=Athens"
+          "web": "https://www.getyourguide.com/s/?q=Athens",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Paseo fotografico",
@@ -396,7 +427,8 @@
           "proveedor": "Photo Walk Atenas",
           "contacto": "foto@atenaswalk.local",
           "horario": "Atardecer",
-          "web": "https://www.withlocals.com/search/?q=Athens"
+          "web": "https://www.withlocals.com/search/?q=Athens",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Tour privado a medida",
@@ -404,7 +436,8 @@
           "proveedor": "Travel Designers Atenas",
           "contacto": "plan@atenastravel.local",
           "horario": "Bajo reserva",
-          "web": "https://www.getyourguide.com/s/?q=Athens"
+          "web": "https://www.getyourguide.com/s/?q=Athens",
+          "costeEstimado": "90-180 €"
         },
         {
           "titulo": "Ruta familiar",
@@ -412,7 +445,8 @@
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
           "horario": "11:00 - 12:30",
-          "web": "https://www.getyourguide.com/s/?q=Athens"
+          "web": "https://www.getyourguide.com/s/?q=Athens",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Experiencia al atardecer",
@@ -420,7 +454,8 @@
           "proveedor": "Slow Travel Atenas",
           "contacto": "slow@atenas.local",
           "horario": "Atardecer",
-          "web": "https://www.getyourguide.com/s/?q=Athens"
+          "web": "https://www.getyourguide.com/s/?q=Athens",
+          "costeEstimado": "25-75 €"
         },
         {
           "titulo": "Audioguia express",
@@ -428,7 +463,8 @@
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
           "horario": "Durante apertura",
-          "web": "https://www.tiqets.com/en/search/?query=Athens"
+          "web": "https://www.tiqets.com/en/search/?query=Athens",
+          "costeEstimado": "5-20 €"
         }
       ],
       "web": "https://www.thisisathens.org/explore/venues/lycabettus-hill"
@@ -458,7 +494,8 @@
           "proveedor": "Walks Atenas",
           "contacto": "walks@atenas.local",
           "horario": "10:30 - 12:30",
-          "web": "https://www.civitatis.com/es/atenas/"
+          "web": "https://www.civitatis.com/es/atenas/",
+          "costeEstimado": "15-45 €"
         },
         {
           "titulo": "Ruta gastronomica local",
@@ -466,7 +503,8 @@
           "proveedor": "Sabores de Atenas",
           "contacto": "sabores@atenas.local",
           "horario": "13:00 - 15:00",
-          "web": "https://www.athensfoodonfoot.com"
+          "web": "https://www.athensfoodonfoot.com",
+          "costeEstimado": "35-90 €"
         },
         {
           "titulo": "Fotografia urbana",
@@ -474,7 +512,8 @@
           "proveedor": "Photo Walk Atenas",
           "contacto": "foto@atenaswalk.local",
           "horario": "Atardecer",
-          "web": "https://www.withlocals.com/search/?q=Athens"
+          "web": "https://www.withlocals.com/search/?q=Athens",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Historias del vecindario",
@@ -482,7 +521,8 @@
           "proveedor": "Cronicas Atenas",
           "contacto": "cronicas@atenas.local",
           "horario": "17:00 - 18:30",
-          "web": "https://www.civitatis.com/es/atenas/"
+          "web": "https://www.civitatis.com/es/atenas/",
+          "costeEstimado": "15-45 €"
         },
         {
           "titulo": "Compras con guia local",
@@ -490,7 +530,8 @@
           "proveedor": "Local Shops Atenas",
           "contacto": "shops@atenas.local",
           "horario": "11:00 - 13:00",
-          "web": "https://www.getyourguide.com/s/?q=Athens"
+          "web": "https://www.getyourguide.com/s/?q=Athens",
+          "costeEstimado": "20-60 €"
         },
         {
           "titulo": "Noche de ambiente",
@@ -498,7 +539,8 @@
           "proveedor": "After Dark Atenas",
           "contacto": "noche@atenas.local",
           "horario": "20:00 - 22:00",
-          "web": "https://www.getyourguide.com/s/?q=Athens"
+          "web": "https://www.getyourguide.com/s/?q=Athens",
+          "costeEstimado": "25-75 €"
         }
       ],
       "web": "https://www.thisisathens.org/neighbourhoods/monastiraki"
@@ -528,7 +570,8 @@
           "proveedor": "Historia Viva Atenas",
           "contacto": "reservas@historiaatenas.local",
           "horario": "10:00 - 12:00",
-          "web": "https://www.getyourguide.com/s/?q=Athens"
+          "web": "https://www.getyourguide.com/s/?q=Athens",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Acceso con contexto local",
@@ -536,7 +579,8 @@
           "proveedor": "Guias Locales Atenas",
           "contacto": "hola@atenaslocal.local",
           "horario": "12:00 - 14:00",
-          "web": "https://www.getyourguide.com/s/?q=Athens"
+          "web": "https://www.getyourguide.com/s/?q=Athens",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Paseo fotografico",
@@ -544,7 +588,8 @@
           "proveedor": "Photo Walk Atenas",
           "contacto": "foto@atenaswalk.local",
           "horario": "Atardecer",
-          "web": "https://www.withlocals.com/search/?q=Athens"
+          "web": "https://www.withlocals.com/search/?q=Athens",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Ruta de leyendas",
@@ -552,7 +597,8 @@
           "proveedor": "Relatos de Atenas",
           "contacto": "relatos@atenas.local",
           "horario": "18:00 - 19:30",
-          "web": "https://www.civitatis.com/es/atenas/"
+          "web": "https://www.civitatis.com/es/atenas/",
+          "costeEstimado": "15-45 €"
         },
         {
           "titulo": "Visita familiar",
@@ -560,7 +606,8 @@
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
           "horario": "11:00 - 12:30",
-          "web": "https://www.getyourguide.com/s/?q=Athens"
+          "web": "https://www.getyourguide.com/s/?q=Athens",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Audioguia express",
@@ -568,7 +615,8 @@
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
           "horario": "Durante apertura",
-          "web": "https://www.tiqets.com/en/search/?query=Athens"
+          "web": "https://www.tiqets.com/en/search/?query=Athens",
+          "costeEstimado": "5-20 €"
         }
       ],
       "web": "https://www.panathenaicstadium.gr"
@@ -598,7 +646,8 @@
           "proveedor": "Walks Atenas",
           "contacto": "walks@atenas.local",
           "horario": "10:30 - 12:30",
-          "web": "https://www.civitatis.com/es/atenas/"
+          "web": "https://www.civitatis.com/es/atenas/",
+          "costeEstimado": "15-45 €"
         },
         {
           "titulo": "Ruta gastronomica local",
@@ -606,7 +655,8 @@
           "proveedor": "Sabores de Atenas",
           "contacto": "sabores@atenas.local",
           "horario": "13:00 - 15:00",
-          "web": "https://www.athensfoodonfoot.com"
+          "web": "https://www.athensfoodonfoot.com",
+          "costeEstimado": "35-90 €"
         },
         {
           "titulo": "Fotografia urbana",
@@ -614,7 +664,8 @@
           "proveedor": "Photo Walk Atenas",
           "contacto": "foto@atenaswalk.local",
           "horario": "Atardecer",
-          "web": "https://www.withlocals.com/search/?q=Athens"
+          "web": "https://www.withlocals.com/search/?q=Athens",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Historias del vecindario",
@@ -622,7 +673,8 @@
           "proveedor": "Cronicas Atenas",
           "contacto": "cronicas@atenas.local",
           "horario": "17:00 - 18:30",
-          "web": "https://www.civitatis.com/es/atenas/"
+          "web": "https://www.civitatis.com/es/atenas/",
+          "costeEstimado": "15-45 €"
         },
         {
           "titulo": "Compras con guia local",
@@ -630,7 +682,8 @@
           "proveedor": "Local Shops Atenas",
           "contacto": "shops@atenas.local",
           "horario": "11:00 - 13:00",
-          "web": "https://www.getyourguide.com/s/?q=Athens"
+          "web": "https://www.getyourguide.com/s/?q=Athens",
+          "costeEstimado": "20-60 €"
         },
         {
           "titulo": "Noche de ambiente",
@@ -638,7 +691,8 @@
           "proveedor": "After Dark Atenas",
           "contacto": "noche@atenas.local",
           "horario": "20:00 - 22:00",
-          "web": "https://www.getyourguide.com/s/?q=Athens"
+          "web": "https://www.getyourguide.com/s/?q=Athens",
+          "costeEstimado": "25-75 €"
         }
       ],
       "web": "https://www.thisisathens.org/neighbourhoods/anafiotika"

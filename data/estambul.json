@@ -38,7 +38,8 @@
           "proveedor": "Ayasofya-i Kebir Cami",
           "contacto": "muze.gen.tr",
           "horario": "9:00 - 19:00",
-          "web": "muze.gen.tr"
+          "web": "muze.gen.tr",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Acceso prioritario y guia",
@@ -46,7 +47,8 @@
           "proveedor": "Istanbul Welcome Card",
           "contacto": "istanbulwelcomecard.com",
           "horario": "Diario",
-          "web": "istanbulwelcomecard.com"
+          "web": "istanbulwelcomecard.com",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Paseo por Sultanahmet",
@@ -54,7 +56,8 @@
           "proveedor": "GetYourGuide Istanbul",
           "contacto": "getyourguide.com/istanbul",
           "horario": "Mañana y tarde",
-          "web": "getyourguide.com/istanbul"
+          "web": "getyourguide.com/istanbul",
+          "costeEstimado": "15-45 €"
         },
         {
           "titulo": "Sesion de fotos exteriores",
@@ -62,7 +65,8 @@
           "proveedor": "Civitatis Estambul",
           "contacto": "civitatis.com/estambul",
           "horario": "Al atardecer",
-          "web": "civitatis.com/estambul"
+          "web": "civitatis.com/estambul",
+          "costeEstimado": "20-60 €"
         },
         {
           "titulo": "Audioguia interactiva",
@@ -70,7 +74,8 @@
           "proveedor": "Tiqets Istanbul",
           "contacto": "tiqets.com/istanbul",
           "horario": "Cualquier momento",
-          "web": "tiqets.com/istanbul"
+          "web": "tiqets.com/istanbul",
+          "costeEstimado": "5-20 €"
         },
         {
           "titulo": "Charla de arquitectura",
@@ -78,7 +83,8 @@
           "proveedor": "Withlocals Istanbul",
           "contacto": "withlocals.com/istanbul",
           "horario": "Bajo reserva",
-          "web": "withlocals.com/istanbul"
+          "web": "withlocals.com/istanbul",
+          "costeEstimado": "20-60 €"
         }
       ],
       "web": "https://muze.gen.tr/muze-detay/ayasofya"
@@ -108,7 +114,8 @@
           "proveedor": "Sultanahmet Camii",
           "contacto": "sultanahmetcamii.org",
           "horario": "Fuera de horas de rezo",
-          "web": "sultanahmetcamii.org"
+          "web": "sultanahmetcamii.org",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Ruta de mezquitas imperiales",
@@ -116,7 +123,8 @@
           "proveedor": "Istanbul Welcome Card",
           "contacto": "istanbulwelcomecard.com",
           "horario": "Diario",
-          "web": "istanbulwelcomecard.com"
+          "web": "istanbulwelcomecard.com",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Fotografia de minaretes",
@@ -124,7 +132,8 @@
           "proveedor": "GetYourGuide Istanbul",
           "contacto": "getyourguide.com/istanbul",
           "horario": "Cualquier momento",
-          "web": "getyourguide.com/istanbul"
+          "web": "getyourguide.com/istanbul",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Tour por el Hipodromo",
@@ -132,7 +141,8 @@
           "proveedor": "Civitatis Estambul",
           "contacto": "civitatis.com/estambul",
           "horario": "Diario",
-          "web": "civitatis.com/estambul"
+          "web": "civitatis.com/estambul",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Visita nocturna iluminada",
@@ -140,7 +150,8 @@
           "proveedor": "Tiqets Istanbul",
           "contacto": "tiqets.com/istanbul",
           "horario": "Noche",
-          "web": "tiqets.com/istanbul"
+          "web": "tiqets.com/istanbul",
+          "costeEstimado": "25-75 €"
         },
         {
           "titulo": "Charla sobre artesania turca",
@@ -148,7 +159,8 @@
           "proveedor": "Withlocals Istanbul",
           "contacto": "withlocals.com/istanbul",
           "horario": "Privado",
-          "web": "withlocals.com/istanbul"
+          "web": "withlocals.com/istanbul",
+          "costeEstimado": "20-60 €"
         }
       ],
       "web": "https://www.sultanahmetcamii.org"
@@ -178,7 +190,8 @@
           "proveedor": "Topkapi Sarayi",
           "contacto": "millisaraylar.gov.tr",
           "horario": "9:00 - 18:00",
-          "web": "millisaraylar.gov.tr"
+          "web": "millisaraylar.gov.tr",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Tesoro y Vistas del Bosforo",
@@ -186,7 +199,8 @@
           "proveedor": "Istanbul Welcome Card",
           "contacto": "istanbulwelcomecard.com",
           "horario": "Diario",
-          "web": "istanbulwelcomecard.com"
+          "web": "istanbulwelcomecard.com",
+          "costeEstimado": "20-60 €"
         },
         {
           "titulo": "Jardines del Cuarto Patio",
@@ -194,7 +208,8 @@
           "proveedor": "GetYourGuide Istanbul",
           "contacto": "getyourguide.com/istanbul",
           "horario": "Libre",
-          "web": "getyourguide.com/istanbul"
+          "web": "getyourguide.com/istanbul",
+          "costeEstimado": "20-60 €"
         },
         {
           "titulo": "Tour de Reliquias Sagradas",
@@ -202,7 +217,8 @@
           "proveedor": "Civitatis Estambul",
           "contacto": "civitatis.com/estambul",
           "horario": "Mañana",
-          "web": "civitatis.com/estambul"
+          "web": "civitatis.com/estambul",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Visita a las Cocinas Reales",
@@ -210,7 +226,8 @@
           "proveedor": "Tiqets Istanbul",
           "contacto": "tiqets.com/istanbul",
           "horario": "Diario",
-          "web": "tiqets.com/istanbul"
+          "web": "tiqets.com/istanbul",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Historia del Imperio Otomano",
@@ -218,7 +235,8 @@
           "proveedor": "Withlocals Istanbul",
           "contacto": "withlocals.com/istanbul",
           "horario": "Privado",
-          "web": "withlocals.com/istanbul"
+          "web": "withlocals.com/istanbul",
+          "costeEstimado": "20-60 €"
         }
       ],
       "web": "https://www.millisaraylar.gov.tr/en/palaces/topkapi-palace"
@@ -248,7 +266,8 @@
           "proveedor": "Kapalicarsi Management",
           "contacto": "kapalicarsi.com.tr",
           "horario": "9:00 - 19:00",
-          "web": "kapalicarsi.com.tr"
+          "web": "kapalicarsi.com.tr",
+          "costeEstimado": "20-60 €"
         },
         {
           "titulo": "Ruta de artesanos ocultos",
@@ -256,7 +275,8 @@
           "proveedor": "Istanbul Welcome Card",
           "contacto": "istanbulwelcomecard.com",
           "horario": "Mañana",
-          "web": "istanbulwelcomecard.com"
+          "web": "istanbulwelcomecard.com",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Paseo por los Hanes",
@@ -264,7 +284,8 @@
           "proveedor": "GetYourGuide Istanbul",
           "contacto": "getyourguide.com/istanbul",
           "horario": "Diario",
-          "web": "getyourguide.com/istanbul"
+          "web": "getyourguide.com/istanbul",
+          "costeEstimado": "15-45 €"
         },
         {
           "titulo": "Degustacion de Cafe Turco",
@@ -272,7 +293,8 @@
           "proveedor": "Civitatis Estambul",
           "contacto": "civitatis.com/estambul",
           "horario": "Tarde",
-          "web": "civitatis.com/estambul"
+          "web": "civitatis.com/estambul",
+          "costeEstimado": "35-90 €"
         },
         {
           "titulo": "Fotografia de lamparas",
@@ -280,7 +302,8 @@
           "proveedor": "Tiqets Istanbul",
           "contacto": "tiqets.com/istanbul",
           "horario": "Libre",
-          "web": "tiqets.com/istanbul"
+          "web": "tiqets.com/istanbul",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Historia de la Ruta de la Seda",
@@ -288,7 +311,8 @@
           "proveedor": "Withlocals Istanbul",
           "contacto": "withlocals.com/istanbul",
           "horario": "Privado",
-          "web": "withlocals.com/istanbul"
+          "web": "withlocals.com/istanbul",
+          "costeEstimado": "25-70 €"
         }
       ],
       "web": "https://www.kapalicarsi.com.tr"
@@ -318,7 +342,8 @@
           "proveedor": "Istanbul Welcome Card",
           "contacto": "istanbulwelcomecard.com",
           "horario": "9:00 - 19:00",
-          "web": "istanbulwelcomecard.com"
+          "web": "istanbulwelcomecard.com",
+          "costeEstimado": "35-90 €"
         },
         {
           "titulo": "Taller de Lokum (Turkish Delight)",
@@ -326,7 +351,8 @@
           "proveedor": "GetYourGuide Istanbul",
           "contacto": "getyourguide.com/istanbul",
           "horario": "Tarde",
-          "web": "getyourguide.com/istanbul"
+          "web": "getyourguide.com/istanbul",
+          "costeEstimado": "45-95 €"
         },
         {
           "titulo": "Compra de Te Guiada",
@@ -334,7 +360,8 @@
           "proveedor": "Civitatis Estambul",
           "contacto": "civitatis.com/estambul",
           "horario": "Mañana",
-          "web": "civitatis.com/estambul"
+          "web": "civitatis.com/estambul",
+          "costeEstimado": "20-60 €"
         },
         {
           "titulo": "Mercado de Eminonu",
@@ -342,7 +369,8 @@
           "proveedor": "Tiqets Istanbul",
           "contacto": "tiqets.com/istanbul",
           "horario": "Libre",
-          "web": "tiqets.com/istanbul"
+          "web": "tiqets.com/istanbul",
+          "costeEstimado": "20-60 €"
         },
         {
           "titulo": "Fotografia de Montanas de Especias",
@@ -350,7 +378,8 @@
           "proveedor": "Withlocals Istanbul",
           "contacto": "withlocals.com/istanbul",
           "horario": "Libre",
-          "web": "withlocals.com/istanbul"
+          "web": "withlocals.com/istanbul",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Degustacion de Quesos y Olivas",
@@ -358,7 +387,8 @@
           "proveedor": "Turkish Heritage",
           "contacto": "turkishheritagetravel.com",
           "horario": "Mañana",
-          "web": "turkishheritagetravel.com"
+          "web": "turkishheritagetravel.com",
+          "costeEstimado": "35-90 €"
         }
       ],
       "web": "https://www.misircarsisi.org"
@@ -388,7 +418,8 @@
           "proveedor": "Galata Kulesi Muze",
           "contacto": "muze.gen.tr",
           "horario": "8:30 - 23:00",
-          "web": "muze.gen.tr"
+          "web": "muze.gen.tr",
+          "costeEstimado": "20-60 €"
         },
         {
           "titulo": "Barrio Genoves de Galata",
@@ -396,7 +427,8 @@
           "proveedor": "Istanbul Welcome Card",
           "contacto": "istanbulwelcomecard.com",
           "horario": "Tarde",
-          "web": "istanbulwelcomecard.com"
+          "web": "istanbulwelcomecard.com",
+          "costeEstimado": "15-45 €"
         },
         {
           "titulo": "Ruta de Cafes en Beyoglu",
@@ -404,7 +436,8 @@
           "proveedor": "GetYourGuide Istanbul",
           "contacto": "getyourguide.com/istanbul",
           "horario": "Tarde/Noche",
-          "web": "getyourguide.com/istanbul"
+          "web": "getyourguide.com/istanbul",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Atardecer sobre el Cuerno de Oro",
@@ -412,7 +445,8 @@
           "proveedor": "Civitatis Estambul",
           "contacto": "civitatis.com/estambul",
           "horario": "Atardecer",
-          "web": "civitatis.com/estambul"
+          "web": "civitatis.com/estambul",
+          "costeEstimado": "25-75 €"
         },
         {
           "titulo": "Historia Medieval de la Torre",
@@ -420,7 +454,8 @@
           "proveedor": "Tiqets Istanbul",
           "contacto": "tiqets.com/istanbul",
           "horario": "Mañana",
-          "web": "tiqets.com/istanbul"
+          "web": "tiqets.com/istanbul",
+          "costeEstimado": "20-60 €"
         },
         {
           "titulo": "Paseo hasta el Puente de Galata",
@@ -428,7 +463,8 @@
           "proveedor": "Withlocals Istanbul",
           "contacto": "withlocals.com/istanbul",
           "horario": "Mañana",
-          "web": "withlocals.com/istanbul"
+          "web": "withlocals.com/istanbul",
+          "costeEstimado": "15-45 €"
         }
       ],
       "web": "https://muze.gen.tr/muze-detay/galatakulesi"
@@ -458,7 +494,8 @@
           "proveedor": "Istanbul Welcome Card",
           "contacto": "istanbulwelcomecard.com",
           "horario": "Atardecer",
-          "web": "istanbulwelcomecard.com"
+          "web": "istanbulwelcomecard.com",
+          "costeEstimado": "25-75 €"
         },
         {
           "titulo": "Crucero Privado de Lujo",
@@ -466,7 +503,8 @@
           "proveedor": "Turkish Heritage",
           "contacto": "turkishheritagetravel.com",
           "horario": "Bajo reserva",
-          "web": "turkishheritagetravel.com"
+          "web": "turkishheritagetravel.com",
+          "costeEstimado": "90-180 €"
         },
         {
           "titulo": "Desayuno en el Barco",
@@ -474,7 +512,8 @@
           "proveedor": "GetYourGuide Istanbul",
           "contacto": "getyourguide.com/istanbul",
           "horario": "Mañana",
-          "web": "getyourguide.com/istanbul"
+          "web": "getyourguide.com/istanbul",
+          "costeEstimado": "20-60 €"
         },
         {
           "titulo": "Ruta de Palacios Costeros",
@@ -482,7 +521,8 @@
           "proveedor": "Civitatis Estambul",
           "contacto": "civitatis.com/estambul",
           "horario": "Diario",
-          "web": "civitatis.com/estambul"
+          "web": "civitatis.com/estambul",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Tour Nocturno con Cena",
@@ -490,7 +530,8 @@
           "proveedor": "Tiqets Istanbul",
           "contacto": "tiqets.com/istanbul",
           "horario": "Noche",
-          "web": "tiqets.com/istanbul"
+          "web": "tiqets.com/istanbul",
+          "costeEstimado": "45-120 €"
         },
         {
           "titulo": "Paseo por la Costa Asiatica",
@@ -498,7 +539,8 @@
           "proveedor": "Withlocals Istanbul",
           "contacto": "withlocals.com/istanbul",
           "horario": "Diario",
-          "web": "withlocals.com/istanbul"
+          "web": "withlocals.com/istanbul",
+          "costeEstimado": "15-45 €"
         }
       ],
       "web": "https://www.sehirhatlari.istanbul/en"
@@ -528,7 +570,8 @@
           "proveedor": "Yerebatan Sarnici",
           "contacto": "yerebatan.com",
           "horario": "9:00 - 22:00",
-          "web": "yerebatan.com"
+          "web": "yerebatan.com",
+          "costeEstimado": "20-60 €"
         },
         {
           "titulo": "Leyendas de Bizancio",
@@ -536,7 +579,8 @@
           "proveedor": "Istanbul Welcome Card",
           "contacto": "istanbulwelcomecard.com",
           "horario": "Diario",
-          "web": "istanbulwelcomecard.com"
+          "web": "istanbulwelcomecard.com",
+          "costeEstimado": "15-45 €"
         },
         {
           "titulo": "Experiencia Sonora y Eco",
@@ -544,7 +588,8 @@
           "proveedor": "GetYourGuide Istanbul",
           "contacto": "getyourguide.com/istanbul",
           "horario": "Libre",
-          "web": "getyourguide.com/istanbul"
+          "web": "getyourguide.com/istanbul",
+          "costeEstimado": "20-60 €"
         },
         {
           "titulo": "Fotografia de Reflejos",
@@ -552,7 +597,8 @@
           "proveedor": "Civitatis Estambul",
           "contacto": "civitatis.com/estambul",
           "horario": "Libre",
-          "web": "civitatis.com/estambul"
+          "web": "civitatis.com/estambul",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Ingenieria Hidraulica Romana",
@@ -560,7 +606,8 @@
           "proveedor": "Tiqets Istanbul",
           "contacto": "tiqets.com/istanbul",
           "horario": "Tarde",
-          "web": "tiqets.com/istanbul"
+          "web": "tiqets.com/istanbul",
+          "costeEstimado": "20-60 €"
         },
         {
           "titulo": "Visita Privada Nocturna",
@@ -568,7 +615,8 @@
           "proveedor": "Withlocals Istanbul",
           "contacto": "withlocals.com/istanbul",
           "horario": "Noche",
-          "web": "withlocals.com/istanbul"
+          "web": "withlocals.com/istanbul",
+          "costeEstimado": "25-75 €"
         }
       ],
       "web": "https://www.yerebatan.com"
@@ -598,7 +646,8 @@
           "proveedor": "Istanbul Welcome Card",
           "contacto": "istanbulwelcomecard.com",
           "horario": "9:00 - 17:30",
-          "web": "istanbulwelcomecard.com"
+          "web": "istanbulwelcomecard.com",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Jardines Imperiales",
@@ -606,7 +655,8 @@
           "proveedor": "GetYourGuide Istanbul",
           "contacto": "getyourguide.com/istanbul",
           "horario": "Libre",
-          "web": "getyourguide.com/istanbul"
+          "web": "getyourguide.com/istanbul",
+          "costeEstimado": "20-60 €"
         },
         {
           "titulo": "Estancias de Ataturk",
@@ -614,7 +664,8 @@
           "proveedor": "Civitatis Estambul",
           "contacto": "civitatis.com/estambul",
           "horario": "Diario",
-          "web": "civitatis.com/estambul"
+          "web": "civitatis.com/estambul",
+          "costeEstimado": "20-60 €"
         },
         {
           "titulo": "Ruta de Pintura y Arte",
@@ -622,7 +673,8 @@
           "proveedor": "Tiqets Istanbul",
           "contacto": "tiqets.com/istanbul",
           "horario": "Diario",
-          "web": "tiqets.com/istanbul"
+          "web": "tiqets.com/istanbul",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Arquitectura del Siglo XIX",
@@ -630,7 +682,8 @@
           "proveedor": "Withlocals Istanbul",
           "contacto": "withlocals.com/istanbul",
           "horario": "Privado",
-          "web": "withlocals.com/istanbul"
+          "web": "withlocals.com/istanbul",
+          "costeEstimado": "20-60 €"
         },
         {
           "titulo": "Fotografia de Puertas Imperiales",
@@ -638,7 +691,8 @@
           "proveedor": "Turkish Heritage",
           "contacto": "turkishheritagetravel.com",
           "horario": "Libre",
-          "web": "turkishheritagetravel.com"
+          "web": "turkishheritagetravel.com",
+          "costeEstimado": "40-120 €"
         }
       ],
       "web": "https://www.millisaraylar.gov.tr/en/palaces/dolmabahce-palace"

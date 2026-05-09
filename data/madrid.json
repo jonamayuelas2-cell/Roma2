@@ -26,7 +26,8 @@
         "proveedor": "Museo del Prado Educacion",
         "contacto": "educacion@museodelprado.local",
         "horario": "10:00 - 12:00",
-        "web": "https://museodelprado.es"
+        "web": "https://museodelprado.es",
+        "costeEstimado": "20-65 €"
       },
       {
         "titulo": "Ruta de obras imprescindibles",
@@ -34,7 +35,8 @@
         "proveedor": "Guias de Madrid",
         "contacto": "reservas@madridtours.local",
         "horario": "12:30 - 14:00",
-        "web": "https://museodelprado.es"
+        "web": "https://museodelprado.es",
+        "costeEstimado": "20-65 €"
       },
       {
         "titulo": "Taller creativo",
@@ -42,7 +44,8 @@
         "proveedor": "Atelier Madrid",
         "contacto": "talleres@madridatelier.local",
         "horario": "16:00 - 18:00",
-        "web": "https://museodelprado.es"
+        "web": "https://museodelprado.es",
+        "costeEstimado": "45-95 €"
       },
       {
         "titulo": "Audioguia express",
@@ -50,7 +53,8 @@
         "proveedor": "Audio Travel",
         "contacto": "audio@travel.local",
         "horario": "Durante apertura",
-        "web": "https://www.tiqets.com/en/search/?query=Madrid"
+        "web": "https://www.tiqets.com/en/search/?query=Madrid",
+        "costeEstimado": "5-20 €"
       },
       {
         "titulo": "Encuentro con especialista",
@@ -58,7 +62,8 @@
         "proveedor": "Cultura Madrid",
         "contacto": "info@culturamadrid.local",
         "horario": "Consultar calendario",
-        "web": "https://museodelprado.es"
+        "web": "https://museodelprado.es",
+        "costeEstimado": "20-65 €"
       },
       {
         "titulo": "Paseo fotografico interior",
@@ -66,7 +71,8 @@
         "proveedor": "Photo Walk Madrid",
         "contacto": "foto@madridwalk.local",
         "horario": "Ultima hora de apertura",
-        "web": "https://www.withlocals.com/search/?q=Madrid"
+        "web": "https://www.withlocals.com/search/?q=Madrid",
+        "costeEstimado": "40-120 €"
       }
     ]
   },
@@ -96,7 +102,8 @@
         "proveedor": "Green Madrid",
         "contacto": "green@madrid.local",
         "horario": "10:00 - 11:30",
-        "web": "https://www.esmadrid.com/informacion-turistica/parque-del-retiro"
+        "web": "https://www.esmadrid.com/informacion-turistica/parque-del-retiro",
+        "costeEstimado": "15-50 €"
       },
       {
         "titulo": "Picnic con producto local",
@@ -104,7 +111,8 @@
         "proveedor": "Picnic Madrid",
         "contacto": "picnic@madrid.local",
         "horario": "13:00 - 15:00",
-        "web": "https://www.esmadrid.com/informacion-turistica/parque-del-retiro"
+        "web": "https://www.esmadrid.com/informacion-turistica/parque-del-retiro",
+        "costeEstimado": "15-50 €"
       },
       {
         "titulo": "Ruta fotografica natural",
@@ -112,7 +120,8 @@
         "proveedor": "Photo Walk Madrid",
         "contacto": "foto@madridwalk.local",
         "horario": "Atardecer",
-        "web": "https://www.withlocals.com/search/?q=Madrid"
+        "web": "https://www.withlocals.com/search/?q=Madrid",
+        "costeEstimado": "40-120 €"
       },
       {
         "titulo": "Actividad familiar al aire libre",
@@ -120,7 +129,8 @@
         "proveedor": "Familias Viajeras",
         "contacto": "familias@viaje.local",
         "horario": "11:00 - 12:30",
-        "web": "https://www.getyourguide.com/s/?q=Madrid"
+        "web": "https://www.getyourguide.com/s/?q=Madrid",
+        "costeEstimado": "25-70 €"
       },
       {
         "titulo": "Bienestar y estiramientos",
@@ -128,7 +138,8 @@
         "proveedor": "Wellness Madrid",
         "contacto": "wellness@madrid.local",
         "horario": "08:30 - 09:30",
-        "web": "https://www.getyourguide.com/s/?q=Madrid"
+        "web": "https://www.getyourguide.com/s/?q=Madrid",
+        "costeEstimado": "15-50 €"
       },
       {
         "titulo": "Miradores y rincones tranquilos",
@@ -136,7 +147,8 @@
         "proveedor": "Slow Travel Madrid",
         "contacto": "slow@madrid.local",
         "horario": "16:30 - 18:00",
-        "web": "https://www.esmadrid.com/informacion-turistica/parque-del-retiro"
+        "web": "https://www.esmadrid.com/informacion-turistica/parque-del-retiro",
+        "costeEstimado": "15-50 €"
       }
     ],
     "web": "https://www.esmadrid.com/informacion-turistica/parque-del-retiro"
@@ -167,7 +179,8 @@
         "proveedor": "Historia Viva Madrid",
         "contacto": "reservas@historiamadrid.local",
         "horario": "10:00 - 12:00",
-        "web": "https://www.getyourguide.com/s/?q=Madrid"
+        "web": "https://www.getyourguide.com/s/?q=Madrid",
+        "costeEstimado": "25-70 €"
       },
       {
         "titulo": "Acceso con contexto local",
@@ -175,7 +188,8 @@
         "proveedor": "Guias Locales Madrid",
         "contacto": "hola@madridlocal.local",
         "horario": "12:00 - 14:00",
-        "web": "https://www.getyourguide.com/s/?q=Madrid"
+        "web": "https://www.getyourguide.com/s/?q=Madrid",
+        "costeEstimado": "25-70 €"
       },
       {
         "titulo": "Paseo fotografico",
@@ -183,7 +197,8 @@
         "proveedor": "Photo Walk Madrid",
         "contacto": "foto@madridwalk.local",
         "horario": "Atardecer",
-        "web": "https://www.withlocals.com/search/?q=Madrid"
+        "web": "https://www.withlocals.com/search/?q=Madrid",
+        "costeEstimado": "40-120 €"
       },
       {
         "titulo": "Ruta de leyendas",
@@ -191,7 +206,8 @@
         "proveedor": "Relatos de Madrid",
         "contacto": "relatos@madrid.local",
         "horario": "18:00 - 19:30",
-        "web": "https://www.civitatis.com/es/madrid/"
+        "web": "https://www.civitatis.com/es/madrid/",
+        "costeEstimado": "15-45 €"
       },
       {
         "titulo": "Visita familiar",
@@ -199,7 +215,8 @@
         "proveedor": "Familias Viajeras",
         "contacto": "familias@viaje.local",
         "horario": "11:00 - 12:30",
-        "web": "https://www.getyourguide.com/s/?q=Madrid"
+        "web": "https://www.getyourguide.com/s/?q=Madrid",
+        "costeEstimado": "25-70 €"
       },
       {
         "titulo": "Audioguia express",
@@ -207,7 +224,8 @@
         "proveedor": "Audio Travel",
         "contacto": "audio@travel.local",
         "horario": "Durante apertura",
-        "web": "https://www.tiqets.com/en/search/?query=Madrid"
+        "web": "https://www.tiqets.com/en/search/?query=Madrid",
+        "costeEstimado": "5-20 €"
       }
     ],
     "web": "https://www.patrimonionacional.es/visita/palacio-real-de-madrid"
@@ -239,7 +257,8 @@
         "proveedor": "Historia Viva Madrid",
         "contacto": "reservas@historiamadrid.local",
         "horario": "10:00 - 12:00",
-        "web": "https://www.getyourguide.com/s/?q=Madrid"
+        "web": "https://www.getyourguide.com/s/?q=Madrid",
+        "costeEstimado": "25-70 €"
       },
       {
         "titulo": "Acceso con contexto local",
@@ -247,7 +266,8 @@
         "proveedor": "Guias Locales Madrid",
         "contacto": "hola@madridlocal.local",
         "horario": "12:00 - 14:00",
-        "web": "https://www.getyourguide.com/s/?q=Madrid"
+        "web": "https://www.getyourguide.com/s/?q=Madrid",
+        "costeEstimado": "25-70 €"
       },
       {
         "titulo": "Paseo fotografico",
@@ -255,7 +275,8 @@
         "proveedor": "Photo Walk Madrid",
         "contacto": "foto@madridwalk.local",
         "horario": "Atardecer",
-        "web": "https://www.withlocals.com/search/?q=Madrid"
+        "web": "https://www.withlocals.com/search/?q=Madrid",
+        "costeEstimado": "40-120 €"
       },
       {
         "titulo": "Ruta de leyendas",
@@ -263,7 +284,8 @@
         "proveedor": "Relatos de Madrid",
         "contacto": "relatos@madrid.local",
         "horario": "18:00 - 19:30",
-        "web": "https://www.civitatis.com/es/madrid/"
+        "web": "https://www.civitatis.com/es/madrid/",
+        "costeEstimado": "15-45 €"
       },
       {
         "titulo": "Visita familiar",
@@ -271,7 +293,8 @@
         "proveedor": "Familias Viajeras",
         "contacto": "familias@viaje.local",
         "horario": "11:00 - 12:30",
-        "web": "https://www.getyourguide.com/s/?q=Madrid"
+        "web": "https://www.getyourguide.com/s/?q=Madrid",
+        "costeEstimado": "25-70 €"
       },
       {
         "titulo": "Audioguia express",
@@ -279,7 +302,8 @@
         "proveedor": "Audio Travel",
         "contacto": "audio@travel.local",
         "horario": "Durante apertura",
-        "web": "https://www.tiqets.com/en/search/?query=Madrid"
+        "web": "https://www.tiqets.com/en/search/?query=Madrid",
+        "costeEstimado": "5-20 €"
       }
     ]
   },
@@ -309,7 +333,8 @@
         "proveedor": "Walks Madrid",
         "contacto": "walks@madrid.local",
         "horario": "10:30 - 12:30",
-        "web": "https://www.civitatis.com/es/madrid/"
+        "web": "https://www.civitatis.com/es/madrid/",
+        "costeEstimado": "15-45 €"
       },
       {
         "titulo": "Ruta gastronomica local",
@@ -317,7 +342,8 @@
         "proveedor": "Sabores de Madrid",
         "contacto": "sabores@madrid.local",
         "horario": "13:00 - 15:00",
-        "web": "https://madridfoodtour.com"
+        "web": "https://madridfoodtour.com",
+        "costeEstimado": "35-90 €"
       },
       {
         "titulo": "Fotografia urbana",
@@ -325,7 +351,8 @@
         "proveedor": "Photo Walk Madrid",
         "contacto": "foto@madridwalk.local",
         "horario": "Atardecer",
-        "web": "https://www.withlocals.com/search/?q=Madrid"
+        "web": "https://www.withlocals.com/search/?q=Madrid",
+        "costeEstimado": "40-120 €"
       },
       {
         "titulo": "Historias del vecindario",
@@ -333,7 +360,8 @@
         "proveedor": "Cronicas Madrid",
         "contacto": "cronicas@madrid.local",
         "horario": "17:00 - 18:30",
-        "web": "https://www.civitatis.com/es/madrid/"
+        "web": "https://www.civitatis.com/es/madrid/",
+        "costeEstimado": "15-45 €"
       },
       {
         "titulo": "Compras con guia local",
@@ -341,7 +369,8 @@
         "proveedor": "Local Shops Madrid",
         "contacto": "shops@madrid.local",
         "horario": "11:00 - 13:00",
-        "web": "https://www.getyourguide.com/s/?q=Madrid"
+        "web": "https://www.getyourguide.com/s/?q=Madrid",
+        "costeEstimado": "20-60 €"
       },
       {
         "titulo": "Noche de ambiente",
@@ -349,7 +378,8 @@
         "proveedor": "After Dark Madrid",
         "contacto": "noche@madrid.local",
         "horario": "20:00 - 22:00",
-        "web": "https://www.getyourguide.com/s/?q=Madrid"
+        "web": "https://www.getyourguide.com/s/?q=Madrid",
+        "costeEstimado": "25-75 €"
       }
     ],
     "web": "https://www.esmadrid.com/informacion-turistica/gran-via"
@@ -380,7 +410,8 @@
         "proveedor": "Historia Viva Madrid",
         "contacto": "reservas@historiamadrid.local",
         "horario": "10:00 - 12:00",
-        "web": "https://www.getyourguide.com/s/?q=Madrid"
+        "web": "https://www.getyourguide.com/s/?q=Madrid",
+        "costeEstimado": "25-70 €"
       },
       {
         "titulo": "Acceso con contexto local",
@@ -388,7 +419,8 @@
         "proveedor": "Guias Locales Madrid",
         "contacto": "hola@madridlocal.local",
         "horario": "12:00 - 14:00",
-        "web": "https://www.getyourguide.com/s/?q=Madrid"
+        "web": "https://www.getyourguide.com/s/?q=Madrid",
+        "costeEstimado": "25-70 €"
       },
       {
         "titulo": "Paseo fotografico",
@@ -396,7 +428,8 @@
         "proveedor": "Photo Walk Madrid",
         "contacto": "foto@madridwalk.local",
         "horario": "Atardecer",
-        "web": "https://www.withlocals.com/search/?q=Madrid"
+        "web": "https://www.withlocals.com/search/?q=Madrid",
+        "costeEstimado": "40-120 €"
       },
       {
         "titulo": "Ruta de leyendas",
@@ -404,7 +437,8 @@
         "proveedor": "Relatos de Madrid",
         "contacto": "relatos@madrid.local",
         "horario": "18:00 - 19:30",
-        "web": "https://www.civitatis.com/es/madrid/"
+        "web": "https://www.civitatis.com/es/madrid/",
+        "costeEstimado": "15-45 €"
       },
       {
         "titulo": "Visita familiar",
@@ -412,7 +446,8 @@
         "proveedor": "Familias Viajeras",
         "contacto": "familias@viaje.local",
         "horario": "11:00 - 12:30",
-        "web": "https://www.getyourguide.com/s/?q=Madrid"
+        "web": "https://www.getyourguide.com/s/?q=Madrid",
+        "costeEstimado": "25-70 €"
       },
       {
         "titulo": "Audioguia express",
@@ -420,7 +455,8 @@
         "proveedor": "Audio Travel",
         "contacto": "audio@travel.local",
         "horario": "Durante apertura",
-        "web": "https://www.tiqets.com/en/search/?query=Madrid"
+        "web": "https://www.tiqets.com/en/search/?query=Madrid",
+        "costeEstimado": "5-20 €"
       }
     ],
     "web": "https://www.munlima.gob.pe"
@@ -452,7 +488,8 @@
         "proveedor": "Mercado de San Miguel",
         "contacto": "reservas@mercadodesanmiguel.local",
         "horario": "Comida y cena",
-        "web": "https://madridfoodtour.com"
+        "web": "https://madridfoodtour.com",
+        "costeEstimado": "45-120 €"
       },
       {
         "titulo": "Menu degustacion",
@@ -460,7 +497,8 @@
         "proveedor": "Sabores de Madrid",
         "contacto": "sabores@madrid.local",
         "horario": "Consultar servicio",
-        "web": "https://madridfoodtour.com"
+        "web": "https://madridfoodtour.com",
+        "costeEstimado": "80-160 €"
       },
       {
         "titulo": "Charla con cocina",
@@ -468,7 +506,8 @@
         "proveedor": "Food Stories Madrid",
         "contacto": "food@madrid.local",
         "horario": "Antes de comer",
-        "web": "https://madridfoodtour.com"
+        "web": "https://madridfoodtour.com",
+        "costeEstimado": "35-90 €"
       },
       {
         "titulo": "Maridaje local",
@@ -476,7 +515,8 @@
         "proveedor": "Catas Madrid",
         "contacto": "catas@madrid.local",
         "horario": "Cena",
-        "web": "https://madridfoodtour.com"
+        "web": "https://madridfoodtour.com",
+        "costeEstimado": "80-160 €"
       },
       {
         "titulo": "Ruta gastronomica cercana",
@@ -484,7 +524,8 @@
         "proveedor": "Food Walk Madrid",
         "contacto": "foodwalk@madrid.local",
         "horario": "12:00 - 14:00",
-        "web": "https://madridfoodtour.com"
+        "web": "https://madridfoodtour.com",
+        "costeEstimado": "35-90 €"
       },
       {
         "titulo": "Clase de sabor local",
@@ -492,7 +533,8 @@
         "proveedor": "Talleres Madrid",
         "contacto": "talleres@madrid.local",
         "horario": "Consultar calendario",
-        "web": "https://mercadodesanmiguel.es"
+        "web": "https://mercadodesanmiguel.es",
+        "costeEstimado": "45-95 €"
       }
     ]
   },
@@ -522,7 +564,8 @@
         "proveedor": "Historia Viva Madrid",
         "contacto": "reservas@historiamadrid.local",
         "horario": "10:00 - 12:00",
-        "web": "https://www.getyourguide.com/s/?q=Madrid"
+        "web": "https://www.getyourguide.com/s/?q=Madrid",
+        "costeEstimado": "25-70 €"
       },
       {
         "titulo": "Acceso con contexto local",
@@ -530,7 +573,8 @@
         "proveedor": "Guias Locales Madrid",
         "contacto": "hola@madridlocal.local",
         "horario": "12:00 - 14:00",
-        "web": "https://www.getyourguide.com/s/?q=Madrid"
+        "web": "https://www.getyourguide.com/s/?q=Madrid",
+        "costeEstimado": "25-70 €"
       },
       {
         "titulo": "Paseo fotografico",
@@ -538,7 +582,8 @@
         "proveedor": "Photo Walk Madrid",
         "contacto": "foto@madridwalk.local",
         "horario": "Atardecer",
-        "web": "https://www.withlocals.com/search/?q=Madrid"
+        "web": "https://www.withlocals.com/search/?q=Madrid",
+        "costeEstimado": "40-120 €"
       },
       {
         "titulo": "Ruta de leyendas",
@@ -546,7 +591,8 @@
         "proveedor": "Relatos de Madrid",
         "contacto": "relatos@madrid.local",
         "horario": "18:00 - 19:30",
-        "web": "https://www.civitatis.com/es/madrid/"
+        "web": "https://www.civitatis.com/es/madrid/",
+        "costeEstimado": "15-45 €"
       },
       {
         "titulo": "Visita familiar",
@@ -554,7 +600,8 @@
         "proveedor": "Familias Viajeras",
         "contacto": "familias@viaje.local",
         "horario": "11:00 - 12:30",
-        "web": "https://www.getyourguide.com/s/?q=Madrid"
+        "web": "https://www.getyourguide.com/s/?q=Madrid",
+        "costeEstimado": "25-70 €"
       },
       {
         "titulo": "Audioguia express",
@@ -562,7 +609,8 @@
         "proveedor": "Audio Travel",
         "contacto": "audio@travel.local",
         "horario": "Durante apertura",
-        "web": "https://www.tiqets.com/en/search/?query=Madrid"
+        "web": "https://www.tiqets.com/en/search/?query=Madrid",
+        "costeEstimado": "5-20 €"
       }
     ],
     "web": "https://www.esmadrid.com/informacion-turistica/puerta-del-sol"
@@ -594,7 +642,8 @@
         "proveedor": "Chocolateria San Gines",
         "contacto": "reservas@chocolateriasangines.local",
         "horario": "Comida y cena",
-        "web": "https://madridfoodtour.com"
+        "web": "https://madridfoodtour.com",
+        "costeEstimado": "45-120 €"
       },
       {
         "titulo": "Menu degustacion",
@@ -602,7 +651,8 @@
         "proveedor": "Sabores de Madrid",
         "contacto": "sabores@madrid.local",
         "horario": "Consultar servicio",
-        "web": "https://madridfoodtour.com"
+        "web": "https://madridfoodtour.com",
+        "costeEstimado": "80-160 €"
       },
       {
         "titulo": "Charla con cocina",
@@ -610,7 +660,8 @@
         "proveedor": "Food Stories Madrid",
         "contacto": "food@madrid.local",
         "horario": "Antes de comer",
-        "web": "https://madridfoodtour.com"
+        "web": "https://madridfoodtour.com",
+        "costeEstimado": "35-90 €"
       },
       {
         "titulo": "Maridaje local",
@@ -618,7 +669,8 @@
         "proveedor": "Catas Madrid",
         "contacto": "catas@madrid.local",
         "horario": "Cena",
-        "web": "https://madridfoodtour.com"
+        "web": "https://madridfoodtour.com",
+        "costeEstimado": "80-160 €"
       },
       {
         "titulo": "Ruta gastronomica cercana",
@@ -626,7 +678,8 @@
         "proveedor": "Food Walk Madrid",
         "contacto": "foodwalk@madrid.local",
         "horario": "12:00 - 14:00",
-        "web": "https://madridfoodtour.com"
+        "web": "https://madridfoodtour.com",
+        "costeEstimado": "35-90 €"
       },
       {
         "titulo": "Clase de sabor local",
@@ -634,7 +687,8 @@
         "proveedor": "Talleres Madrid",
         "contacto": "talleres@madrid.local",
         "horario": "Consultar calendario",
-        "web": "https://chocolateriasangines.com"
+        "web": "https://chocolateriasangines.com",
+        "costeEstimado": "45-95 €"
       }
     ]
   }

@@ -24,7 +24,8 @@
         "proveedor": "Historia Viva Sidney",
         "contacto": "reservas@historiasidney.local",
         "horario": "10:00 - 12:00",
-        "web": "https://www.getyourguide.com/s/?q=Sydney"
+        "web": "https://www.getyourguide.com/s/?q=Sydney",
+        "costeEstimado": "25-70 €"
       },
       {
         "titulo": "Acceso con contexto local",
@@ -32,7 +33,8 @@
         "proveedor": "Guias Locales Sidney",
         "contacto": "hola@sidneylocal.local",
         "horario": "12:00 - 14:00",
-        "web": "https://www.getyourguide.com/s/?q=Sydney"
+        "web": "https://www.getyourguide.com/s/?q=Sydney",
+        "costeEstimado": "25-70 €"
       },
       {
         "titulo": "Paseo fotografico",
@@ -40,7 +42,8 @@
         "proveedor": "Photo Walk Sidney",
         "contacto": "foto@sidneywalk.local",
         "horario": "Atardecer",
-        "web": "https://www.withlocals.com/search/?q=Sydney"
+        "web": "https://www.withlocals.com/search/?q=Sydney",
+        "costeEstimado": "40-120 €"
       },
       {
         "titulo": "Ruta de leyendas",
@@ -48,7 +51,8 @@
         "proveedor": "Relatos de Sidney",
         "contacto": "relatos@sidney.local",
         "horario": "18:00 - 19:30",
-        "web": "https://www.civitatis.com/es/sidney/"
+        "web": "https://www.civitatis.com/es/sidney/",
+        "costeEstimado": "15-45 €"
       },
       {
         "titulo": "Visita familiar",
@@ -56,7 +60,8 @@
         "proveedor": "Familias Viajeras",
         "contacto": "familias@viaje.local",
         "horario": "11:00 - 12:30",
-        "web": "https://www.getyourguide.com/s/?q=Sydney"
+        "web": "https://www.getyourguide.com/s/?q=Sydney",
+        "costeEstimado": "25-70 €"
       },
       {
         "titulo": "Audioguia express",
@@ -64,7 +69,8 @@
         "proveedor": "Audio Travel",
         "contacto": "audio@travel.local",
         "horario": "Durante apertura",
-        "web": "https://www.tiqets.com/en/search/?query=Sydney"
+        "web": "https://www.tiqets.com/en/search/?query=Sydney",
+        "costeEstimado": "5-20 €"
       }
     ],
     "web": "https://www.sydneyoperahouse.com"
@@ -94,7 +100,8 @@
         "proveedor": "Historia Viva Sidney",
         "contacto": "reservas@historiasidney.local",
         "horario": "10:00 - 12:00",
-        "web": "https://www.getyourguide.com/s/?q=Sydney"
+        "web": "https://www.getyourguide.com/s/?q=Sydney",
+        "costeEstimado": "25-70 €"
       },
       {
         "titulo": "Acceso con contexto local",
@@ -102,7 +109,8 @@
         "proveedor": "Guias Locales Sidney",
         "contacto": "hola@sidneylocal.local",
         "horario": "12:00 - 14:00",
-        "web": "https://www.getyourguide.com/s/?q=Sydney"
+        "web": "https://www.getyourguide.com/s/?q=Sydney",
+        "costeEstimado": "25-70 €"
       },
       {
         "titulo": "Paseo fotografico",
@@ -110,7 +118,8 @@
         "proveedor": "Photo Walk Sidney",
         "contacto": "foto@sidneywalk.local",
         "horario": "Atardecer",
-        "web": "https://www.withlocals.com/search/?q=Sydney"
+        "web": "https://www.withlocals.com/search/?q=Sydney",
+        "costeEstimado": "40-120 €"
       },
       {
         "titulo": "Ruta de leyendas",
@@ -118,7 +127,8 @@
         "proveedor": "Relatos de Sidney",
         "contacto": "relatos@sidney.local",
         "horario": "18:00 - 19:30",
-        "web": "https://www.civitatis.com/es/sidney/"
+        "web": "https://www.civitatis.com/es/sidney/",
+        "costeEstimado": "15-45 €"
       },
       {
         "titulo": "Visita familiar",
@@ -126,7 +136,8 @@
         "proveedor": "Familias Viajeras",
         "contacto": "familias@viaje.local",
         "horario": "11:00 - 12:30",
-        "web": "https://www.getyourguide.com/s/?q=Sydney"
+        "web": "https://www.getyourguide.com/s/?q=Sydney",
+        "costeEstimado": "25-70 €"
       },
       {
         "titulo": "Audioguia express",
@@ -134,7 +145,8 @@
         "proveedor": "Audio Travel",
         "contacto": "audio@travel.local",
         "horario": "Durante apertura",
-        "web": "https://www.tiqets.com/en/search/?query=Sydney"
+        "web": "https://www.tiqets.com/en/search/?query=Sydney",
+        "costeEstimado": "5-20 €"
       }
     ],
     "web": "https://www.bridgeclimb.com"
@@ -164,7 +176,8 @@
         "proveedor": "Green Sidney",
         "contacto": "green@sidney.local",
         "horario": "10:00 - 11:30",
-        "web": "https://www.sydney.com/destinations/sydney/sydney-east/bondi/attractions/bondi-beach"
+        "web": "https://www.sydney.com/destinations/sydney/sydney-east/bondi/attractions/bondi-beach",
+        "costeEstimado": "15-50 €"
       },
       {
         "titulo": "Picnic con producto local",
@@ -172,7 +185,8 @@
         "proveedor": "Picnic Sidney",
         "contacto": "picnic@sidney.local",
         "horario": "13:00 - 15:00",
-        "web": "https://www.sydney.com/destinations/sydney/sydney-east/bondi/attractions/bondi-beach"
+        "web": "https://www.sydney.com/destinations/sydney/sydney-east/bondi/attractions/bondi-beach",
+        "costeEstimado": "15-50 €"
       },
       {
         "titulo": "Ruta fotografica natural",
@@ -180,7 +194,8 @@
         "proveedor": "Photo Walk Sidney",
         "contacto": "foto@sidneywalk.local",
         "horario": "Atardecer",
-        "web": "https://www.withlocals.com/search/?q=Sydney"
+        "web": "https://www.withlocals.com/search/?q=Sydney",
+        "costeEstimado": "40-120 €"
       },
       {
         "titulo": "Actividad familiar al aire libre",
@@ -188,7 +203,8 @@
         "proveedor": "Familias Viajeras",
         "contacto": "familias@viaje.local",
         "horario": "11:00 - 12:30",
-        "web": "https://www.getyourguide.com/s/?q=Sydney"
+        "web": "https://www.getyourguide.com/s/?q=Sydney",
+        "costeEstimado": "25-70 €"
       },
       {
         "titulo": "Bienestar y estiramientos",
@@ -196,7 +212,8 @@
         "proveedor": "Wellness Sidney",
         "contacto": "wellness@sidney.local",
         "horario": "08:30 - 09:30",
-        "web": "https://www.getyourguide.com/s/?q=Sydney"
+        "web": "https://www.getyourguide.com/s/?q=Sydney",
+        "costeEstimado": "15-50 €"
       },
       {
         "titulo": "Miradores y rincones tranquilos",
@@ -204,7 +221,8 @@
         "proveedor": "Slow Travel Sidney",
         "contacto": "slow@sidney.local",
         "horario": "16:30 - 18:00",
-        "web": "https://www.sydney.com/destinations/sydney/sydney-east/bondi/attractions/bondi-beach"
+        "web": "https://www.sydney.com/destinations/sydney/sydney-east/bondi/attractions/bondi-beach",
+        "costeEstimado": "15-50 €"
       }
     ],
     "web": "https://www.sydney.com/destinations/sydney/sydney-east/bondi/attractions/bondi-beach"
@@ -234,7 +252,8 @@
         "proveedor": "Walks Sidney",
         "contacto": "walks@sidney.local",
         "horario": "10:30 - 12:30",
-        "web": "https://www.civitatis.com/es/sidney/"
+        "web": "https://www.civitatis.com/es/sidney/",
+        "costeEstimado": "15-45 €"
       },
       {
         "titulo": "Ruta gastronomica local",
@@ -242,7 +261,8 @@
         "proveedor": "Sabores de Sidney",
         "contacto": "sabores@sidney.local",
         "horario": "13:00 - 15:00",
-        "web": "https://www.sydneyfoodtours.com.au"
+        "web": "https://www.sydneyfoodtours.com.au",
+        "costeEstimado": "35-90 €"
       },
       {
         "titulo": "Fotografia urbana",
@@ -250,7 +270,8 @@
         "proveedor": "Photo Walk Sidney",
         "contacto": "foto@sidneywalk.local",
         "horario": "Atardecer",
-        "web": "https://www.withlocals.com/search/?q=Sydney"
+        "web": "https://www.withlocals.com/search/?q=Sydney",
+        "costeEstimado": "40-120 €"
       },
       {
         "titulo": "Historias del vecindario",
@@ -258,7 +279,8 @@
         "proveedor": "Cronicas Sidney",
         "contacto": "cronicas@sidney.local",
         "horario": "17:00 - 18:30",
-        "web": "https://www.civitatis.com/es/sidney/"
+        "web": "https://www.civitatis.com/es/sidney/",
+        "costeEstimado": "15-45 €"
       },
       {
         "titulo": "Compras con guia local",
@@ -266,7 +288,8 @@
         "proveedor": "Local Shops Sidney",
         "contacto": "shops@sidney.local",
         "horario": "11:00 - 13:00",
-        "web": "https://www.getyourguide.com/s/?q=Sydney"
+        "web": "https://www.getyourguide.com/s/?q=Sydney",
+        "costeEstimado": "20-60 €"
       },
       {
         "titulo": "Noche de ambiente",
@@ -274,7 +297,8 @@
         "proveedor": "After Dark Sidney",
         "contacto": "noche@sidney.local",
         "horario": "20:00 - 22:00",
-        "web": "https://www.getyourguide.com/s/?q=Sydney"
+        "web": "https://www.getyourguide.com/s/?q=Sydney",
+        "costeEstimado": "25-75 €"
       }
     ],
     "web": "https://www.therocks.com"
@@ -304,7 +328,8 @@
         "proveedor": "Green Sidney",
         "contacto": "green@sidney.local",
         "horario": "10:00 - 11:30",
-        "web": "https://www.botanicgardens.org.au/royal-botanic-garden-sydney"
+        "web": "https://www.botanicgardens.org.au/royal-botanic-garden-sydney",
+        "costeEstimado": "15-50 €"
       },
       {
         "titulo": "Picnic con producto local",
@@ -312,7 +337,8 @@
         "proveedor": "Picnic Sidney",
         "contacto": "picnic@sidney.local",
         "horario": "13:00 - 15:00",
-        "web": "https://www.botanicgardens.org.au/royal-botanic-garden-sydney"
+        "web": "https://www.botanicgardens.org.au/royal-botanic-garden-sydney",
+        "costeEstimado": "15-50 €"
       },
       {
         "titulo": "Ruta fotografica natural",
@@ -320,7 +346,8 @@
         "proveedor": "Photo Walk Sidney",
         "contacto": "foto@sidneywalk.local",
         "horario": "Atardecer",
-        "web": "https://www.withlocals.com/search/?q=Sydney"
+        "web": "https://www.withlocals.com/search/?q=Sydney",
+        "costeEstimado": "40-120 €"
       },
       {
         "titulo": "Actividad familiar al aire libre",
@@ -328,7 +355,8 @@
         "proveedor": "Familias Viajeras",
         "contacto": "familias@viaje.local",
         "horario": "11:00 - 12:30",
-        "web": "https://www.getyourguide.com/s/?q=Sydney"
+        "web": "https://www.getyourguide.com/s/?q=Sydney",
+        "costeEstimado": "25-70 €"
       },
       {
         "titulo": "Bienestar y estiramientos",
@@ -336,7 +364,8 @@
         "proveedor": "Wellness Sidney",
         "contacto": "wellness@sidney.local",
         "horario": "08:30 - 09:30",
-        "web": "https://www.getyourguide.com/s/?q=Sydney"
+        "web": "https://www.getyourguide.com/s/?q=Sydney",
+        "costeEstimado": "15-50 €"
       },
       {
         "titulo": "Miradores y rincones tranquilos",
@@ -344,7 +373,8 @@
         "proveedor": "Slow Travel Sidney",
         "contacto": "slow@sidney.local",
         "horario": "16:30 - 18:00",
-        "web": "https://www.botanicgardens.org.au/royal-botanic-garden-sydney"
+        "web": "https://www.botanicgardens.org.au/royal-botanic-garden-sydney",
+        "costeEstimado": "15-50 €"
       }
     ],
     "web": "https://www.botanicgardens.org.au/royal-botanic-garden-sydney"
@@ -374,7 +404,8 @@
         "proveedor": "Art Gallery of NSW Educacion",
         "contacto": "educacion@artgalleryofnsw.local",
         "horario": "10:00 - 12:00",
-        "web": "https://www.artgallery.nsw.gov.au"
+        "web": "https://www.artgallery.nsw.gov.au",
+        "costeEstimado": "20-65 €"
       },
       {
         "titulo": "Ruta de obras imprescindibles",
@@ -382,7 +413,8 @@
         "proveedor": "Guias de Sidney",
         "contacto": "reservas@sidneytours.local",
         "horario": "12:30 - 14:00",
-        "web": "https://www.artgallery.nsw.gov.au"
+        "web": "https://www.artgallery.nsw.gov.au",
+        "costeEstimado": "20-65 €"
       },
       {
         "titulo": "Taller creativo",
@@ -390,7 +422,8 @@
         "proveedor": "Atelier Sidney",
         "contacto": "talleres@sidneyatelier.local",
         "horario": "16:00 - 18:00",
-        "web": "https://www.artgallery.nsw.gov.au"
+        "web": "https://www.artgallery.nsw.gov.au",
+        "costeEstimado": "45-95 €"
       },
       {
         "titulo": "Audioguia express",
@@ -398,7 +431,8 @@
         "proveedor": "Audio Travel",
         "contacto": "audio@travel.local",
         "horario": "Durante apertura",
-        "web": "https://www.tiqets.com/en/search/?query=Sydney"
+        "web": "https://www.tiqets.com/en/search/?query=Sydney",
+        "costeEstimado": "5-20 €"
       },
       {
         "titulo": "Encuentro con especialista",
@@ -406,7 +440,8 @@
         "proveedor": "Cultura Sidney",
         "contacto": "info@culturasidney.local",
         "horario": "Consultar calendario",
-        "web": "https://www.artgallery.nsw.gov.au"
+        "web": "https://www.artgallery.nsw.gov.au",
+        "costeEstimado": "20-65 €"
       },
       {
         "titulo": "Paseo fotografico interior",
@@ -414,7 +449,8 @@
         "proveedor": "Photo Walk Sidney",
         "contacto": "foto@sidneywalk.local",
         "horario": "Ultima hora de apertura",
-        "web": "https://www.withlocals.com/search/?q=Sydney"
+        "web": "https://www.withlocals.com/search/?q=Sydney",
+        "costeEstimado": "40-120 €"
       }
     ],
     "web": "https://www.artgallery.nsw.gov.au"
@@ -444,7 +480,8 @@
         "proveedor": "Walks Sidney",
         "contacto": "walks@sidney.local",
         "horario": "10:30 - 12:30",
-        "web": "https://www.civitatis.com/es/sidney/"
+        "web": "https://www.civitatis.com/es/sidney/",
+        "costeEstimado": "15-45 €"
       },
       {
         "titulo": "Ruta gastronomica local",
@@ -452,7 +489,8 @@
         "proveedor": "Sabores de Sidney",
         "contacto": "sabores@sidney.local",
         "horario": "13:00 - 15:00",
-        "web": "https://www.sydneyfoodtours.com.au"
+        "web": "https://www.sydneyfoodtours.com.au",
+        "costeEstimado": "35-90 €"
       },
       {
         "titulo": "Fotografia urbana",
@@ -460,7 +498,8 @@
         "proveedor": "Photo Walk Sidney",
         "contacto": "foto@sidneywalk.local",
         "horario": "Atardecer",
-        "web": "https://www.withlocals.com/search/?q=Sydney"
+        "web": "https://www.withlocals.com/search/?q=Sydney",
+        "costeEstimado": "40-120 €"
       },
       {
         "titulo": "Historias del vecindario",
@@ -468,7 +507,8 @@
         "proveedor": "Cronicas Sidney",
         "contacto": "cronicas@sidney.local",
         "horario": "17:00 - 18:30",
-        "web": "https://www.civitatis.com/es/sidney/"
+        "web": "https://www.civitatis.com/es/sidney/",
+        "costeEstimado": "15-45 €"
       },
       {
         "titulo": "Compras con guia local",
@@ -476,7 +516,8 @@
         "proveedor": "Local Shops Sidney",
         "contacto": "shops@sidney.local",
         "horario": "11:00 - 13:00",
-        "web": "https://www.getyourguide.com/s/?q=Sydney"
+        "web": "https://www.getyourguide.com/s/?q=Sydney",
+        "costeEstimado": "20-60 €"
       },
       {
         "titulo": "Noche de ambiente",
@@ -484,7 +525,8 @@
         "proveedor": "After Dark Sidney",
         "contacto": "noche@sidney.local",
         "horario": "20:00 - 22:00",
-        "web": "https://www.getyourguide.com/s/?q=Sydney"
+        "web": "https://www.getyourguide.com/s/?q=Sydney",
+        "costeEstimado": "25-75 €"
       }
     ],
     "web": "https://www.darlingharbour.com"
@@ -514,7 +556,8 @@
         "proveedor": "Guias Locales Sidney",
         "contacto": "hola@sidneylocal.local",
         "horario": "10:00 - 12:00",
-        "web": "https://www.getyourguide.com/s/?q=Sydney"
+        "web": "https://www.getyourguide.com/s/?q=Sydney",
+        "costeEstimado": "25-70 €"
       },
       {
         "titulo": "Paseo fotografico",
@@ -522,7 +565,8 @@
         "proveedor": "Photo Walk Sidney",
         "contacto": "foto@sidneywalk.local",
         "horario": "Atardecer",
-        "web": "https://www.withlocals.com/search/?q=Sydney"
+        "web": "https://www.withlocals.com/search/?q=Sydney",
+        "costeEstimado": "40-120 €"
       },
       {
         "titulo": "Tour privado a medida",
@@ -530,7 +574,8 @@
         "proveedor": "Travel Designers Sidney",
         "contacto": "plan@sidneytravel.local",
         "horario": "Bajo reserva",
-        "web": "https://www.getyourguide.com/s/?q=Sydney"
+        "web": "https://www.getyourguide.com/s/?q=Sydney",
+        "costeEstimado": "90-180 €"
       },
       {
         "titulo": "Ruta familiar",
@@ -538,7 +583,8 @@
         "proveedor": "Familias Viajeras",
         "contacto": "familias@viaje.local",
         "horario": "11:00 - 12:30",
-        "web": "https://www.getyourguide.com/s/?q=Sydney"
+        "web": "https://www.getyourguide.com/s/?q=Sydney",
+        "costeEstimado": "25-70 €"
       },
       {
         "titulo": "Experiencia al atardecer",
@@ -546,7 +592,8 @@
         "proveedor": "Slow Travel Sidney",
         "contacto": "slow@sidney.local",
         "horario": "Atardecer",
-        "web": "https://www.getyourguide.com/s/?q=Sydney"
+        "web": "https://www.getyourguide.com/s/?q=Sydney",
+        "costeEstimado": "25-75 €"
       },
       {
         "titulo": "Audioguia express",
@@ -554,7 +601,8 @@
         "proveedor": "Audio Travel",
         "contacto": "audio@travel.local",
         "horario": "Durante apertura",
-        "web": "https://www.tiqets.com/en/search/?query=Sydney"
+        "web": "https://www.tiqets.com/en/search/?query=Sydney",
+        "costeEstimado": "5-20 €"
       }
     ],
     "web": "https://www.sydneyfishmarket.com.au"
@@ -584,7 +632,8 @@
         "proveedor": "Historia Viva Sidney",
         "contacto": "reservas@historiasidney.local",
         "horario": "10:00 - 12:00",
-        "web": "https://www.getyourguide.com/s/?q=Sydney"
+        "web": "https://www.getyourguide.com/s/?q=Sydney",
+        "costeEstimado": "25-70 €"
       },
       {
         "titulo": "Acceso con contexto local",
@@ -592,7 +641,8 @@
         "proveedor": "Guias Locales Sidney",
         "contacto": "hola@sidneylocal.local",
         "horario": "12:00 - 14:00",
-        "web": "https://www.getyourguide.com/s/?q=Sydney"
+        "web": "https://www.getyourguide.com/s/?q=Sydney",
+        "costeEstimado": "25-70 €"
       },
       {
         "titulo": "Paseo fotografico",
@@ -600,7 +650,8 @@
         "proveedor": "Photo Walk Sidney",
         "contacto": "foto@sidneywalk.local",
         "horario": "Atardecer",
-        "web": "https://www.withlocals.com/search/?q=Sydney"
+        "web": "https://www.withlocals.com/search/?q=Sydney",
+        "costeEstimado": "40-120 €"
       },
       {
         "titulo": "Ruta de leyendas",
@@ -608,7 +659,8 @@
         "proveedor": "Relatos de Sidney",
         "contacto": "relatos@sidney.local",
         "horario": "18:00 - 19:30",
-        "web": "https://www.civitatis.com/es/sidney/"
+        "web": "https://www.civitatis.com/es/sidney/",
+        "costeEstimado": "15-45 €"
       },
       {
         "titulo": "Visita familiar",
@@ -616,7 +668,8 @@
         "proveedor": "Familias Viajeras",
         "contacto": "familias@viaje.local",
         "horario": "11:00 - 12:30",
-        "web": "https://www.getyourguide.com/s/?q=Sydney"
+        "web": "https://www.getyourguide.com/s/?q=Sydney",
+        "costeEstimado": "25-70 €"
       },
       {
         "titulo": "Audioguia express",
@@ -624,7 +677,8 @@
         "proveedor": "Audio Travel",
         "contacto": "audio@travel.local",
         "horario": "Durante apertura",
-        "web": "https://www.tiqets.com/en/search/?query=Sydney"
+        "web": "https://www.tiqets.com/en/search/?query=Sydney",
+        "costeEstimado": "5-20 €"
       }
     ],
     "web": "https://transportnsw.info/routes/details/sydney-ferries/f1/090F1"

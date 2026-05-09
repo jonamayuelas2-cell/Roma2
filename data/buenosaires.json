@@ -39,7 +39,8 @@
           "contacto": "reservas@historiabuenosaires.local",
           "horario": "10:00 - 12:00",
           "imagen": "img/buenosaires_activities/teatrocolon_1_tourhistoricoesencial.png",
-          "web": "https://www.getyourguide.com/s/?q=Buenos%20Aires"
+          "web": "https://www.getyourguide.com/s/?q=Buenos%20Aires",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Acceso con contexto local",
@@ -48,7 +49,8 @@
           "contacto": "hola@buenosaireslocal.local",
           "horario": "12:00 - 14:00",
           "imagen": "img/buenosaires_activities/teatrocolon_2_accesoconcontextolocal.png",
-          "web": "https://www.getyourguide.com/s/?q=Buenos%20Aires"
+          "web": "https://www.getyourguide.com/s/?q=Buenos%20Aires",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Paseo fotografico",
@@ -57,7 +59,8 @@
           "contacto": "foto@buenosaireswalk.local",
           "horario": "Atardecer",
           "imagen": "img/buenosaires_activities/teatrocolon_3_paseofotografico.png",
-          "web": "https://www.withlocals.com/search/?q=Buenos%20Aires"
+          "web": "https://www.withlocals.com/search/?q=Buenos%20Aires",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Ruta de leyendas",
@@ -66,7 +69,8 @@
           "contacto": "relatos@buenosaires.local",
           "horario": "18:00 - 19:30",
           "imagen": "img/buenosaires_activities/teatrocolon_4_rutadeleyendas.png",
-          "web": "https://www.civitatis.com/es/buenos-aires/"
+          "web": "https://www.civitatis.com/es/buenos-aires/",
+          "costeEstimado": "15-45 €"
         },
         {
           "titulo": "Visita familiar",
@@ -75,7 +79,8 @@
           "contacto": "familias@viaje.local",
           "horario": "11:00 - 12:30",
           "imagen": "img/buenosaires_activities/teatrocolon_5_visitafamiliar.png",
-          "web": "https://www.getyourguide.com/s/?q=Buenos%20Aires"
+          "web": "https://www.getyourguide.com/s/?q=Buenos%20Aires",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Audioguia express",
@@ -84,7 +89,8 @@
           "contacto": "audio@travel.local",
           "horario": "Durante apertura",
           "imagen": "img/buenosaires_activities/teatrocolon_6_audioguiaexpress.png",
-          "web": "https://www.tiqets.com/en/search/?query=Buenos%20Aires"
+          "web": "https://www.tiqets.com/en/search/?query=Buenos%20Aires",
+          "costeEstimado": "5-20 €"
         }
       ],
       "web": "https://teatrocolon.org.ar"
@@ -115,7 +121,8 @@
           "contacto": "walks@buenosaires.local",
           "horario": "10:30 - 12:30",
           "imagen": "img/buenosaires_activities/caminito_1_paseodebarrio.png",
-          "web": "https://www.civitatis.com/es/buenos-aires/"
+          "web": "https://www.civitatis.com/es/buenos-aires/",
+          "costeEstimado": "15-45 €"
         },
         {
           "titulo": "Ruta gastronomica local",
@@ -124,7 +131,8 @@
           "contacto": "sabores@buenosaires.local",
           "horario": "13:00 - 15:00",
           "imagen": "img/buenosaires_activities/caminito_2_rutagastronomicalocal.png",
-          "web": "https://sherpafoodtours.com"
+          "web": "https://sherpafoodtours.com",
+          "costeEstimado": "35-90 €"
         },
         {
           "titulo": "Fotografia urbana",
@@ -133,7 +141,8 @@
           "contacto": "foto@buenosaireswalk.local",
           "horario": "Atardecer",
           "imagen": "img/buenosaires_activities/caminito_3_fotografiaurbana.png",
-          "web": "https://www.withlocals.com/search/?q=Buenos%20Aires"
+          "web": "https://www.withlocals.com/search/?q=Buenos%20Aires",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Historias del vecindario",
@@ -142,7 +151,8 @@
           "contacto": "cronicas@buenosaires.local",
           "horario": "17:00 - 18:30",
           "imagen": "img/buenosaires_activities/caminito_4_historiasdelvecindario.png",
-          "web": "https://www.civitatis.com/es/buenos-aires/"
+          "web": "https://www.civitatis.com/es/buenos-aires/",
+          "costeEstimado": "15-45 €"
         },
         {
           "titulo": "Compras con guia local",
@@ -151,7 +161,8 @@
           "contacto": "shops@buenosaires.local",
           "horario": "11:00 - 13:00",
           "imagen": "img/buenosaires_activities/caminito_5_comprasconguialocal.png",
-          "web": "https://www.getyourguide.com/s/?q=Buenos%20Aires"
+          "web": "https://www.getyourguide.com/s/?q=Buenos%20Aires",
+          "costeEstimado": "20-60 €"
         },
         {
           "titulo": "Noche de ambiente",
@@ -160,7 +171,8 @@
           "contacto": "noche@buenosaires.local",
           "horario": "20:00 - 22:00",
           "imagen": "img/buenosaires_activities/caminito_6_nochedeambiente.png",
-          "web": "https://www.getyourguide.com/s/?q=Buenos%20Aires"
+          "web": "https://www.getyourguide.com/s/?q=Buenos%20Aires",
+          "costeEstimado": "25-75 €"
         }
       ],
       "web": "https://turismo.buenosaires.gob.ar/en/atractivo/caminito"
@@ -191,7 +203,8 @@
           "contacto": "walks@buenosaires.local",
           "horario": "10:30 - 12:30",
           "imagen": "img/buenosaires_activities/recoleta_1_paseodebarrio.png",
-          "web": "https://www.civitatis.com/es/buenos-aires/"
+          "web": "https://www.civitatis.com/es/buenos-aires/",
+          "costeEstimado": "15-45 €"
         },
         {
           "titulo": "Ruta gastronomica local",
@@ -200,7 +213,8 @@
           "contacto": "sabores@buenosaires.local",
           "horario": "13:00 - 15:00",
           "imagen": "img/buenosaires_activities/recoleta_2_rutagastronomicalocal.png",
-          "web": "https://sherpafoodtours.com"
+          "web": "https://sherpafoodtours.com",
+          "costeEstimado": "35-90 €"
         },
         {
           "titulo": "Fotografia urbana",
@@ -209,7 +223,8 @@
           "contacto": "foto@buenosaireswalk.local",
           "horario": "Atardecer",
           "imagen": "img/buenosaires_activities/recoleta_3_fotografiaurbana.png",
-          "web": "https://www.withlocals.com/search/?q=Buenos%20Aires"
+          "web": "https://www.withlocals.com/search/?q=Buenos%20Aires",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Historias del vecindario",
@@ -218,7 +233,8 @@
           "contacto": "cronicas@buenosaires.local",
           "horario": "17:00 - 18:30",
           "imagen": "img/buenosaires_activities/recoleta_4_historiasdelvecindario.png",
-          "web": "https://www.civitatis.com/es/buenos-aires/"
+          "web": "https://www.civitatis.com/es/buenos-aires/",
+          "costeEstimado": "15-45 €"
         },
         {
           "titulo": "Compras con guia local",
@@ -227,7 +243,8 @@
           "contacto": "shops@buenosaires.local",
           "horario": "11:00 - 13:00",
           "imagen": "img/buenosaires_activities/recoleta_5_comprasconguialocal.png",
-          "web": "https://www.getyourguide.com/s/?q=Buenos%20Aires"
+          "web": "https://www.getyourguide.com/s/?q=Buenos%20Aires",
+          "costeEstimado": "20-60 €"
         },
         {
           "titulo": "Noche de ambiente",
@@ -236,7 +253,8 @@
           "contacto": "noche@buenosaires.local",
           "horario": "20:00 - 22:00",
           "imagen": "img/buenosaires_activities/recoleta_6_nochedeambiente.png",
-          "web": "https://www.getyourguide.com/s/?q=Buenos%20Aires"
+          "web": "https://www.getyourguide.com/s/?q=Buenos%20Aires",
+          "costeEstimado": "25-75 €"
         }
       ],
       "web": "https://turismo.buenosaires.gob.ar/en/atractivo/recoleta"
@@ -267,7 +285,8 @@
           "contacto": "reservas@historiabuenosaires.local",
           "horario": "10:00 - 12:00",
           "imagen": "img/buenosaires_activities/avenida9dejulio_1_tourhistoricoesencial.png",
-          "web": "https://www.getyourguide.com/s/?q=Buenos%20Aires"
+          "web": "https://www.getyourguide.com/s/?q=Buenos%20Aires",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Acceso con contexto local",
@@ -276,7 +295,8 @@
           "contacto": "hola@buenosaireslocal.local",
           "horario": "12:00 - 14:00",
           "imagen": "img/buenosaires_activities/avenida9dejulio_2_accesoconcontextolocal.png",
-          "web": "https://www.getyourguide.com/s/?q=Buenos%20Aires"
+          "web": "https://www.getyourguide.com/s/?q=Buenos%20Aires",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Paseo fotografico",
@@ -285,7 +305,8 @@
           "contacto": "foto@buenosaireswalk.local",
           "horario": "Atardecer",
           "imagen": "img/buenosaires_activities/avenida9dejulio_3_paseofotografico.png",
-          "web": "https://www.withlocals.com/search/?q=Buenos%20Aires"
+          "web": "https://www.withlocals.com/search/?q=Buenos%20Aires",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Ruta de leyendas",
@@ -294,7 +315,8 @@
           "contacto": "relatos@buenosaires.local",
           "horario": "18:00 - 19:30",
           "imagen": "img/buenosaires_activities/avenida9dejulio_4_rutadeleyendas.png",
-          "web": "https://www.civitatis.com/es/buenos-aires/"
+          "web": "https://www.civitatis.com/es/buenos-aires/",
+          "costeEstimado": "15-45 €"
         },
         {
           "titulo": "Visita familiar",
@@ -303,7 +325,8 @@
           "contacto": "familias@viaje.local",
           "horario": "11:00 - 12:30",
           "imagen": "img/buenosaires_activities/avenida9dejulio_5_visitafamiliar.png",
-          "web": "https://www.getyourguide.com/s/?q=Buenos%20Aires"
+          "web": "https://www.getyourguide.com/s/?q=Buenos%20Aires",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Audioguia express",
@@ -312,7 +335,8 @@
           "contacto": "audio@travel.local",
           "horario": "Durante apertura",
           "imagen": "img/buenosaires_activities/avenida9dejulio_6_audioguiaexpress.png",
-          "web": "https://www.tiqets.com/en/search/?query=Buenos%20Aires"
+          "web": "https://www.tiqets.com/en/search/?query=Buenos%20Aires",
+          "costeEstimado": "5-20 €"
         }
       ],
       "web": "https://turismo.buenosaires.gob.ar/en/atractivo/avenida-9-de-julio"
@@ -343,7 +367,8 @@
           "contacto": "walks@buenosaires.local",
           "horario": "10:30 - 12:30",
           "imagen": "img/buenosaires_activities/puertomadero_1_paseodebarrio.png",
-          "web": "https://www.civitatis.com/es/buenos-aires/"
+          "web": "https://www.civitatis.com/es/buenos-aires/",
+          "costeEstimado": "15-45 €"
         },
         {
           "titulo": "Ruta gastronomica local",
@@ -352,7 +377,8 @@
           "contacto": "sabores@buenosaires.local",
           "horario": "13:00 - 15:00",
           "imagen": "img/buenosaires_activities/puertomadero_2_rutagastronomicalocal.png",
-          "web": "https://sherpafoodtours.com"
+          "web": "https://sherpafoodtours.com",
+          "costeEstimado": "35-90 €"
         },
         {
           "titulo": "Fotografia urbana",
@@ -361,7 +387,8 @@
           "contacto": "foto@buenosaireswalk.local",
           "horario": "Atardecer",
           "imagen": "img/buenosaires_activities/puertomadero_3_fotografiaurbana.png",
-          "web": "https://www.withlocals.com/search/?q=Buenos%20Aires"
+          "web": "https://www.withlocals.com/search/?q=Buenos%20Aires",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Historias del vecindario",
@@ -370,7 +397,8 @@
           "contacto": "cronicas@buenosaires.local",
           "horario": "17:00 - 18:30",
           "imagen": "img/buenosaires_activities/puertomadero_4_historiasdelvecindario.png",
-          "web": "https://www.civitatis.com/es/buenos-aires/"
+          "web": "https://www.civitatis.com/es/buenos-aires/",
+          "costeEstimado": "15-45 €"
         },
         {
           "titulo": "Compras con guia local",
@@ -379,7 +407,8 @@
           "contacto": "shops@buenosaires.local",
           "horario": "11:00 - 13:00",
           "imagen": "img/buenosaires_activities/puertomadero_5_comprasconguialocal.png",
-          "web": "https://www.getyourguide.com/s/?q=Buenos%20Aires"
+          "web": "https://www.getyourguide.com/s/?q=Buenos%20Aires",
+          "costeEstimado": "20-60 €"
         },
         {
           "titulo": "Noche de ambiente",
@@ -388,7 +417,8 @@
           "contacto": "noche@buenosaires.local",
           "horario": "20:00 - 22:00",
           "imagen": "img/buenosaires_activities/puertomadero_6_nochedeambiente.png",
-          "web": "https://www.getyourguide.com/s/?q=Buenos%20Aires"
+          "web": "https://www.getyourguide.com/s/?q=Buenos%20Aires",
+          "costeEstimado": "25-75 €"
         }
       ],
       "web": "https://turismo.buenosaires.gob.ar/en/atractivo/puerto-madero"
@@ -419,7 +449,8 @@
           "contacto": "reservas@historiabuenosaires.local",
           "horario": "10:00 - 12:00",
           "imagen": "img/buenosaires_activities/elateneograndsplendid_1_tourhistoricoesencial.png",
-          "web": "https://www.getyourguide.com/s/?q=Buenos%20Aires"
+          "web": "https://www.getyourguide.com/s/?q=Buenos%20Aires",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Acceso con contexto local",
@@ -428,7 +459,8 @@
           "contacto": "hola@buenosaireslocal.local",
           "horario": "12:00 - 14:00",
           "imagen": "img/buenosaires_activities/elateneograndsplendid_2_accesoconcontextolocal.png",
-          "web": "https://www.getyourguide.com/s/?q=Buenos%20Aires"
+          "web": "https://www.getyourguide.com/s/?q=Buenos%20Aires",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Paseo fotografico",
@@ -437,7 +469,8 @@
           "contacto": "foto@buenosaireswalk.local",
           "horario": "Atardecer",
           "imagen": "img/buenosaires_activities/elateneograndsplendid_3_paseofotografico.png",
-          "web": "https://www.withlocals.com/search/?q=Buenos%20Aires"
+          "web": "https://www.withlocals.com/search/?q=Buenos%20Aires",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Ruta de leyendas",
@@ -446,7 +479,8 @@
           "contacto": "relatos@buenosaires.local",
           "horario": "18:00 - 19:30",
           "imagen": "img/buenosaires_activities/elateneograndsplendid_4_rutadeleyendas.png",
-          "web": "https://www.civitatis.com/es/buenos-aires/"
+          "web": "https://www.civitatis.com/es/buenos-aires/",
+          "costeEstimado": "15-45 €"
         },
         {
           "titulo": "Visita familiar",
@@ -455,7 +489,8 @@
           "contacto": "familias@viaje.local",
           "horario": "11:00 - 12:30",
           "imagen": "img/buenosaires_activities/elateneograndsplendid_5_visitafamiliar.png",
-          "web": "https://www.getyourguide.com/s/?q=Buenos%20Aires"
+          "web": "https://www.getyourguide.com/s/?q=Buenos%20Aires",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Audioguia express",
@@ -464,7 +499,8 @@
           "contacto": "audio@travel.local",
           "horario": "Durante apertura",
           "imagen": "img/buenosaires_activities/elateneograndsplendid_6_audioguiaexpress.png",
-          "web": "https://www.tiqets.com/en/search/?query=Buenos%20Aires"
+          "web": "https://www.tiqets.com/en/search/?query=Buenos%20Aires",
+          "costeEstimado": "5-20 €"
         }
       ],
       "web": "https://www.yenny-elateneo.com"
@@ -495,7 +531,8 @@
           "contacto": "walks@buenosaires.local",
           "horario": "10:30 - 12:30",
           "imagen": "img/buenosaires_activities/santelmo_1_paseodebarrio.png",
-          "web": "https://www.civitatis.com/es/buenos-aires/"
+          "web": "https://www.civitatis.com/es/buenos-aires/",
+          "costeEstimado": "15-45 €"
         },
         {
           "titulo": "Ruta gastronomica local",
@@ -504,7 +541,8 @@
           "contacto": "sabores@buenosaires.local",
           "horario": "13:00 - 15:00",
           "imagen": "img/buenosaires_activities/santelmo_2_rutagastronomicalocal.png",
-          "web": "https://sherpafoodtours.com"
+          "web": "https://sherpafoodtours.com",
+          "costeEstimado": "35-90 €"
         },
         {
           "titulo": "Fotografia urbana",
@@ -513,7 +551,8 @@
           "contacto": "foto@buenosaireswalk.local",
           "horario": "Atardecer",
           "imagen": "img/buenosaires_activities/santelmo_3_fotografiaurbana.png",
-          "web": "https://www.withlocals.com/search/?q=Buenos%20Aires"
+          "web": "https://www.withlocals.com/search/?q=Buenos%20Aires",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Historias del vecindario",
@@ -522,7 +561,8 @@
           "contacto": "cronicas@buenosaires.local",
           "horario": "17:00 - 18:30",
           "imagen": "img/buenosaires_activities/santelmo_4_historiasdelvecindario.png",
-          "web": "https://www.civitatis.com/es/buenos-aires/"
+          "web": "https://www.civitatis.com/es/buenos-aires/",
+          "costeEstimado": "15-45 €"
         },
         {
           "titulo": "Compras con guia local",
@@ -531,7 +571,8 @@
           "contacto": "shops@buenosaires.local",
           "horario": "11:00 - 13:00",
           "imagen": "img/buenosaires_activities/santelmo_5_comprasconguialocal.png",
-          "web": "https://www.getyourguide.com/s/?q=Buenos%20Aires"
+          "web": "https://www.getyourguide.com/s/?q=Buenos%20Aires",
+          "costeEstimado": "20-60 €"
         },
         {
           "titulo": "Noche de ambiente",
@@ -540,7 +581,8 @@
           "contacto": "noche@buenosaires.local",
           "horario": "20:00 - 22:00",
           "imagen": "img/buenosaires_activities/santelmo_6_nochedeambiente.png",
-          "web": "https://www.getyourguide.com/s/?q=Buenos%20Aires"
+          "web": "https://www.getyourguide.com/s/?q=Buenos%20Aires",
+          "costeEstimado": "25-75 €"
         }
       ],
       "web": "https://turismo.buenosaires.gob.ar/en/atractivo/san-telmo"
@@ -571,7 +613,8 @@
           "contacto": "walks@buenosaires.local",
           "horario": "10:30 - 12:30",
           "imagen": "img/buenosaires_activities/palermo_1_paseodebarrio.png",
-          "web": "https://www.civitatis.com/es/buenos-aires/"
+          "web": "https://www.civitatis.com/es/buenos-aires/",
+          "costeEstimado": "15-45 €"
         },
         {
           "titulo": "Ruta gastronomica local",
@@ -580,7 +623,8 @@
           "contacto": "sabores@buenosaires.local",
           "horario": "13:00 - 15:00",
           "imagen": "img/buenosaires_activities/palermo_2_rutagastronomicalocal.png",
-          "web": "https://sherpafoodtours.com"
+          "web": "https://sherpafoodtours.com",
+          "costeEstimado": "35-90 €"
         },
         {
           "titulo": "Fotografia urbana",
@@ -589,7 +633,8 @@
           "contacto": "foto@buenosaireswalk.local",
           "horario": "Atardecer",
           "imagen": "img/buenosaires_activities/palermo_3_fotografiaurbana.png",
-          "web": "https://www.withlocals.com/search/?q=Buenos%20Aires"
+          "web": "https://www.withlocals.com/search/?q=Buenos%20Aires",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Historias del vecindario",
@@ -598,7 +643,8 @@
           "contacto": "cronicas@buenosaires.local",
           "horario": "17:00 - 18:30",
           "imagen": "img/buenosaires_activities/palermo_4_historiasdelvecindario.png",
-          "web": "https://www.civitatis.com/es/buenos-aires/"
+          "web": "https://www.civitatis.com/es/buenos-aires/",
+          "costeEstimado": "15-45 €"
         },
         {
           "titulo": "Compras con guia local",
@@ -607,7 +653,8 @@
           "contacto": "shops@buenosaires.local",
           "horario": "11:00 - 13:00",
           "imagen": "img/buenosaires_activities/palermo_5_comprasconguialocal.png",
-          "web": "https://www.getyourguide.com/s/?q=Buenos%20Aires"
+          "web": "https://www.getyourguide.com/s/?q=Buenos%20Aires",
+          "costeEstimado": "20-60 €"
         },
         {
           "titulo": "Noche de ambiente",
@@ -616,7 +663,8 @@
           "contacto": "noche@buenosaires.local",
           "horario": "20:00 - 22:00",
           "imagen": "img/buenosaires_activities/palermo_6_nochedeambiente.png",
-          "web": "https://www.getyourguide.com/s/?q=Buenos%20Aires"
+          "web": "https://www.getyourguide.com/s/?q=Buenos%20Aires",
+          "costeEstimado": "25-75 €"
         }
       ],
       "web": "https://turismo.buenosaires.gob.ar/en/atractivo/palermo"
@@ -647,7 +695,8 @@
           "contacto": "reservas@historiabuenosaires.local",
           "horario": "10:00 - 12:00",
           "imagen": "img/buenosaires_activities/floralisgenerica_1_tourhistoricoesencial.png",
-          "web": "https://www.getyourguide.com/s/?q=Buenos%20Aires"
+          "web": "https://www.getyourguide.com/s/?q=Buenos%20Aires",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Acceso con contexto local",
@@ -656,7 +705,8 @@
           "contacto": "hola@buenosaireslocal.local",
           "horario": "12:00 - 14:00",
           "imagen": "img/buenosaires_activities/floralisgenerica_2_accesoconcontextolocal.png",
-          "web": "https://www.getyourguide.com/s/?q=Buenos%20Aires"
+          "web": "https://www.getyourguide.com/s/?q=Buenos%20Aires",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Paseo fotografico",
@@ -665,7 +715,8 @@
           "contacto": "foto@buenosaireswalk.local",
           "horario": "Atardecer",
           "imagen": "img/buenosaires_activities/floralisgenerica_3_paseofotografico.png",
-          "web": "https://www.withlocals.com/search/?q=Buenos%20Aires"
+          "web": "https://www.withlocals.com/search/?q=Buenos%20Aires",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Ruta de leyendas",
@@ -674,7 +725,8 @@
           "contacto": "relatos@buenosaires.local",
           "horario": "18:00 - 19:30",
           "imagen": "img/buenosaires_activities/floralisgenerica_4_rutadeleyendas.png",
-          "web": "https://www.civitatis.com/es/buenos-aires/"
+          "web": "https://www.civitatis.com/es/buenos-aires/",
+          "costeEstimado": "15-45 €"
         },
         {
           "titulo": "Visita familiar",
@@ -683,7 +735,8 @@
           "contacto": "familias@viaje.local",
           "horario": "11:00 - 12:30",
           "imagen": "img/buenosaires_activities/floralisgenerica_5_visitafamiliar.png",
-          "web": "https://www.getyourguide.com/s/?q=Buenos%20Aires"
+          "web": "https://www.getyourguide.com/s/?q=Buenos%20Aires",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Audioguia express",
@@ -692,7 +745,8 @@
           "contacto": "audio@travel.local",
           "horario": "Durante apertura",
           "imagen": "img/buenosaires_activities/floralisgenerica_6_audioguiaexpress.png",
-          "web": "https://www.tiqets.com/en/search/?query=Buenos%20Aires"
+          "web": "https://www.tiqets.com/en/search/?query=Buenos%20Aires",
+          "costeEstimado": "5-20 €"
         }
       ],
       "web": "https://turismo.buenosaires.gob.ar/en/atractivo/floralis-generica"

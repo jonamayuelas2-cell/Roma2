@@ -38,7 +38,8 @@
           "proveedor": "Historia Viva Berlin",
           "contacto": "reservas@historiaberlin.local",
           "horario": "10:00 - 12:00",
-          "web": "https://www.getyourguide.com/s/?q=Berlin"
+          "web": "https://www.getyourguide.com/s/?q=Berlin",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Acceso con contexto local",
@@ -46,7 +47,8 @@
           "proveedor": "Guias Locales Berlin",
           "contacto": "hola@berlinlocal.local",
           "horario": "12:00 - 14:00",
-          "web": "https://www.getyourguide.com/s/?q=Berlin"
+          "web": "https://www.getyourguide.com/s/?q=Berlin",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Paseo fotografico",
@@ -54,7 +56,8 @@
           "proveedor": "Photo Walk Berlin",
           "contacto": "foto@berlinwalk.local",
           "horario": "Atardecer",
-          "web": "https://www.withlocals.com/search/?q=Berlin"
+          "web": "https://www.withlocals.com/search/?q=Berlin",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Ruta de leyendas",
@@ -62,7 +65,8 @@
           "proveedor": "Relatos de Berlin",
           "contacto": "relatos@berlin.local",
           "horario": "18:00 - 19:30",
-          "web": "https://www.civitatis.com/es/berlin/"
+          "web": "https://www.civitatis.com/es/berlin/",
+          "costeEstimado": "15-45 €"
         },
         {
           "titulo": "Visita familiar",
@@ -70,7 +74,8 @@
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
           "horario": "11:00 - 12:30",
-          "web": "https://www.getyourguide.com/s/?q=Berlin"
+          "web": "https://www.getyourguide.com/s/?q=Berlin",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Audioguia express",
@@ -78,7 +83,8 @@
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
           "horario": "Durante apertura",
-          "web": "https://www.tiqets.com/en/search/?query=Berlin"
+          "web": "https://www.tiqets.com/en/search/?query=Berlin",
+          "costeEstimado": "5-20 €"
         }
       ],
       "web": "https://www.visitberlin.de/en/brandenburg-gate"
@@ -108,7 +114,8 @@
           "proveedor": "Historia Viva Berlin",
           "contacto": "reservas@historiaberlin.local",
           "horario": "10:00 - 12:00",
-          "web": "https://www.getyourguide.com/s/?q=Berlin"
+          "web": "https://www.getyourguide.com/s/?q=Berlin",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Acceso con contexto local",
@@ -116,7 +123,8 @@
           "proveedor": "Guias Locales Berlin",
           "contacto": "hola@berlinlocal.local",
           "horario": "12:00 - 14:00",
-          "web": "https://www.getyourguide.com/s/?q=Berlin"
+          "web": "https://www.getyourguide.com/s/?q=Berlin",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Paseo fotografico",
@@ -124,7 +132,8 @@
           "proveedor": "Photo Walk Berlin",
           "contacto": "foto@berlinwalk.local",
           "horario": "Atardecer",
-          "web": "https://www.withlocals.com/search/?q=Berlin"
+          "web": "https://www.withlocals.com/search/?q=Berlin",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Ruta de leyendas",
@@ -132,7 +141,8 @@
           "proveedor": "Relatos de Berlin",
           "contacto": "relatos@berlin.local",
           "horario": "18:00 - 19:30",
-          "web": "https://www.civitatis.com/es/berlin/"
+          "web": "https://www.civitatis.com/es/berlin/",
+          "costeEstimado": "15-45 €"
         },
         {
           "titulo": "Visita familiar",
@@ -140,7 +150,8 @@
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
           "horario": "11:00 - 12:30",
-          "web": "https://www.getyourguide.com/s/?q=Berlin"
+          "web": "https://www.getyourguide.com/s/?q=Berlin",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Audioguia express",
@@ -148,7 +159,8 @@
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
           "horario": "Durante apertura",
-          "web": "https://www.tiqets.com/en/search/?query=Berlin"
+          "web": "https://www.tiqets.com/en/search/?query=Berlin",
+          "costeEstimado": "5-20 €"
         }
       ],
       "web": "https://www.visitberlin.de/en/east-side-gallery"
@@ -178,7 +190,8 @@
           "proveedor": "Isla de los Museos Educacion",
           "contacto": "educacion@isladelosmuseos.local",
           "horario": "10:00 - 12:00",
-          "web": "https://www.museumsinsel-berlin.de/en"
+          "web": "https://www.museumsinsel-berlin.de/en",
+          "costeEstimado": "20-65 €"
         },
         {
           "titulo": "Ruta de obras imprescindibles",
@@ -186,7 +199,8 @@
           "proveedor": "Guias de Berlin",
           "contacto": "reservas@berlintours.local",
           "horario": "12:30 - 14:00",
-          "web": "https://www.museumsinsel-berlin.de/en"
+          "web": "https://www.museumsinsel-berlin.de/en",
+          "costeEstimado": "20-65 €"
         },
         {
           "titulo": "Taller creativo",
@@ -194,7 +208,8 @@
           "proveedor": "Atelier Berlin",
           "contacto": "talleres@berlinatelier.local",
           "horario": "16:00 - 18:00",
-          "web": "https://www.museumsinsel-berlin.de/en"
+          "web": "https://www.museumsinsel-berlin.de/en",
+          "costeEstimado": "45-95 €"
         },
         {
           "titulo": "Audioguia express",
@@ -202,7 +217,8 @@
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
           "horario": "Durante apertura",
-          "web": "https://www.tiqets.com/en/search/?query=Berlin"
+          "web": "https://www.tiqets.com/en/search/?query=Berlin",
+          "costeEstimado": "5-20 €"
         },
         {
           "titulo": "Encuentro con especialista",
@@ -210,7 +226,8 @@
           "proveedor": "Cultura Berlin",
           "contacto": "info@culturaberlin.local",
           "horario": "Consultar calendario",
-          "web": "https://www.museumsinsel-berlin.de/en"
+          "web": "https://www.museumsinsel-berlin.de/en",
+          "costeEstimado": "20-65 €"
         },
         {
           "titulo": "Paseo fotografico interior",
@@ -218,7 +235,8 @@
           "proveedor": "Photo Walk Berlin",
           "contacto": "foto@berlinwalk.local",
           "horario": "Ultima hora de apertura",
-          "web": "https://www.withlocals.com/search/?q=Berlin"
+          "web": "https://www.withlocals.com/search/?q=Berlin",
+          "costeEstimado": "40-120 €"
         }
       ],
       "web": "https://www.museumsinsel-berlin.de/en"
@@ -248,7 +266,8 @@
           "proveedor": "Historia Viva Berlin",
           "contacto": "reservas@historiaberlin.local",
           "horario": "10:00 - 12:00",
-          "web": "https://www.getyourguide.com/s/?q=Berlin"
+          "web": "https://www.getyourguide.com/s/?q=Berlin",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Acceso con contexto local",
@@ -256,7 +275,8 @@
           "proveedor": "Guias Locales Berlin",
           "contacto": "hola@berlinlocal.local",
           "horario": "12:00 - 14:00",
-          "web": "https://www.getyourguide.com/s/?q=Berlin"
+          "web": "https://www.getyourguide.com/s/?q=Berlin",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Paseo fotografico",
@@ -264,7 +284,8 @@
           "proveedor": "Photo Walk Berlin",
           "contacto": "foto@berlinwalk.local",
           "horario": "Atardecer",
-          "web": "https://www.withlocals.com/search/?q=Berlin"
+          "web": "https://www.withlocals.com/search/?q=Berlin",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Ruta de leyendas",
@@ -272,7 +293,8 @@
           "proveedor": "Relatos de Berlin",
           "contacto": "relatos@berlin.local",
           "horario": "18:00 - 19:30",
-          "web": "https://www.civitatis.com/es/berlin/"
+          "web": "https://www.civitatis.com/es/berlin/",
+          "costeEstimado": "15-45 €"
         },
         {
           "titulo": "Visita familiar",
@@ -280,7 +302,8 @@
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
           "horario": "11:00 - 12:30",
-          "web": "https://www.getyourguide.com/s/?q=Berlin"
+          "web": "https://www.getyourguide.com/s/?q=Berlin",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Audioguia express",
@@ -288,7 +311,8 @@
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
           "horario": "Durante apertura",
-          "web": "https://www.tiqets.com/en/search/?query=Berlin"
+          "web": "https://www.tiqets.com/en/search/?query=Berlin",
+          "costeEstimado": "5-20 €"
         }
       ],
       "web": "https://www.bundestag.de/en/visittheBundestag"
@@ -318,7 +342,8 @@
           "proveedor": "Historia Viva Berlin",
           "contacto": "reservas@historiaberlin.local",
           "horario": "10:00 - 12:00",
-          "web": "https://www.getyourguide.com/s/?q=Berlin"
+          "web": "https://www.getyourguide.com/s/?q=Berlin",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Acceso con contexto local",
@@ -326,7 +351,8 @@
           "proveedor": "Guias Locales Berlin",
           "contacto": "hola@berlinlocal.local",
           "horario": "12:00 - 14:00",
-          "web": "https://www.getyourguide.com/s/?q=Berlin"
+          "web": "https://www.getyourguide.com/s/?q=Berlin",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Paseo fotografico",
@@ -334,7 +360,8 @@
           "proveedor": "Photo Walk Berlin",
           "contacto": "foto@berlinwalk.local",
           "horario": "Atardecer",
-          "web": "https://www.withlocals.com/search/?q=Berlin"
+          "web": "https://www.withlocals.com/search/?q=Berlin",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Ruta de leyendas",
@@ -342,7 +369,8 @@
           "proveedor": "Relatos de Berlin",
           "contacto": "relatos@berlin.local",
           "horario": "18:00 - 19:30",
-          "web": "https://www.civitatis.com/es/berlin/"
+          "web": "https://www.civitatis.com/es/berlin/",
+          "costeEstimado": "15-45 €"
         },
         {
           "titulo": "Visita familiar",
@@ -350,7 +378,8 @@
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
           "horario": "11:00 - 12:30",
-          "web": "https://www.getyourguide.com/s/?q=Berlin"
+          "web": "https://www.getyourguide.com/s/?q=Berlin",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Audioguia express",
@@ -358,7 +387,8 @@
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
           "horario": "Durante apertura",
-          "web": "https://www.tiqets.com/en/search/?query=Berlin"
+          "web": "https://www.tiqets.com/en/search/?query=Berlin",
+          "costeEstimado": "5-20 €"
         }
       ],
       "web": "https://www.visitberlin.de/en/checkpoint-charlie"
@@ -388,7 +418,8 @@
           "proveedor": "Green Berlin",
           "contacto": "green@berlin.local",
           "horario": "10:00 - 11:30",
-          "web": "https://www.visitberlin.de/en/tiergarten"
+          "web": "https://www.visitberlin.de/en/tiergarten",
+          "costeEstimado": "15-50 €"
         },
         {
           "titulo": "Picnic con producto local",
@@ -396,7 +427,8 @@
           "proveedor": "Picnic Berlin",
           "contacto": "picnic@berlin.local",
           "horario": "13:00 - 15:00",
-          "web": "https://www.visitberlin.de/en/tiergarten"
+          "web": "https://www.visitberlin.de/en/tiergarten",
+          "costeEstimado": "15-50 €"
         },
         {
           "titulo": "Ruta fotografica natural",
@@ -404,7 +436,8 @@
           "proveedor": "Photo Walk Berlin",
           "contacto": "foto@berlinwalk.local",
           "horario": "Atardecer",
-          "web": "https://www.withlocals.com/search/?q=Berlin"
+          "web": "https://www.withlocals.com/search/?q=Berlin",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Actividad familiar al aire libre",
@@ -412,7 +445,8 @@
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
           "horario": "11:00 - 12:30",
-          "web": "https://www.getyourguide.com/s/?q=Berlin"
+          "web": "https://www.getyourguide.com/s/?q=Berlin",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Bienestar y estiramientos",
@@ -420,7 +454,8 @@
           "proveedor": "Wellness Berlin",
           "contacto": "wellness@berlin.local",
           "horario": "08:30 - 09:30",
-          "web": "https://www.getyourguide.com/s/?q=Berlin"
+          "web": "https://www.getyourguide.com/s/?q=Berlin",
+          "costeEstimado": "15-50 €"
         },
         {
           "titulo": "Miradores y rincones tranquilos",
@@ -428,7 +463,8 @@
           "proveedor": "Slow Travel Berlin",
           "contacto": "slow@berlin.local",
           "horario": "16:30 - 18:00",
-          "web": "https://www.visitberlin.de/en/tiergarten"
+          "web": "https://www.visitberlin.de/en/tiergarten",
+          "costeEstimado": "15-50 €"
         }
       ],
       "web": "https://www.visitberlin.de/en/tiergarten"
@@ -458,7 +494,8 @@
           "proveedor": "Walks Berlin",
           "contacto": "walks@berlin.local",
           "horario": "10:30 - 12:30",
-          "web": "https://www.civitatis.com/es/berlin/"
+          "web": "https://www.civitatis.com/es/berlin/",
+          "costeEstimado": "15-45 €"
         },
         {
           "titulo": "Ruta gastronomica local",
@@ -466,7 +503,8 @@
           "proveedor": "Sabores de Berlin",
           "contacto": "sabores@berlin.local",
           "horario": "13:00 - 15:00",
-          "web": "https://www.secretfoodtours.com/berlin/"
+          "web": "https://www.secretfoodtours.com/berlin/",
+          "costeEstimado": "35-90 €"
         },
         {
           "titulo": "Fotografia urbana",
@@ -474,7 +512,8 @@
           "proveedor": "Photo Walk Berlin",
           "contacto": "foto@berlinwalk.local",
           "horario": "Atardecer",
-          "web": "https://www.withlocals.com/search/?q=Berlin"
+          "web": "https://www.withlocals.com/search/?q=Berlin",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Historias del vecindario",
@@ -482,7 +521,8 @@
           "proveedor": "Cronicas Berlin",
           "contacto": "cronicas@berlin.local",
           "horario": "17:00 - 18:30",
-          "web": "https://www.civitatis.com/es/berlin/"
+          "web": "https://www.civitatis.com/es/berlin/",
+          "costeEstimado": "15-45 €"
         },
         {
           "titulo": "Compras con guia local",
@@ -490,7 +530,8 @@
           "proveedor": "Local Shops Berlin",
           "contacto": "shops@berlin.local",
           "horario": "11:00 - 13:00",
-          "web": "https://www.getyourguide.com/s/?q=Berlin"
+          "web": "https://www.getyourguide.com/s/?q=Berlin",
+          "costeEstimado": "20-60 €"
         },
         {
           "titulo": "Noche de ambiente",
@@ -498,7 +539,8 @@
           "proveedor": "After Dark Berlin",
           "contacto": "noche@berlin.local",
           "horario": "20:00 - 22:00",
-          "web": "https://www.getyourguide.com/s/?q=Berlin"
+          "web": "https://www.getyourguide.com/s/?q=Berlin",
+          "costeEstimado": "25-75 €"
         }
       ],
       "web": "https://www.visitberlin.de/en/alexanderplatz"
@@ -528,7 +570,8 @@
           "proveedor": "Historia Viva Berlin",
           "contacto": "reservas@historiaberlin.local",
           "horario": "10:00 - 12:00",
-          "web": "https://www.getyourguide.com/s/?q=Berlin"
+          "web": "https://www.getyourguide.com/s/?q=Berlin",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Acceso con contexto local",
@@ -536,7 +579,8 @@
           "proveedor": "Guias Locales Berlin",
           "contacto": "hola@berlinlocal.local",
           "horario": "12:00 - 14:00",
-          "web": "https://www.getyourguide.com/s/?q=Berlin"
+          "web": "https://www.getyourguide.com/s/?q=Berlin",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Paseo fotografico",
@@ -544,7 +588,8 @@
           "proveedor": "Photo Walk Berlin",
           "contacto": "foto@berlinwalk.local",
           "horario": "Atardecer",
-          "web": "https://www.withlocals.com/search/?q=Berlin"
+          "web": "https://www.withlocals.com/search/?q=Berlin",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Ruta de leyendas",
@@ -552,7 +597,8 @@
           "proveedor": "Relatos de Berlin",
           "contacto": "relatos@berlin.local",
           "horario": "18:00 - 19:30",
-          "web": "https://www.civitatis.com/es/berlin/"
+          "web": "https://www.civitatis.com/es/berlin/",
+          "costeEstimado": "15-45 €"
         },
         {
           "titulo": "Visita familiar",
@@ -560,7 +606,8 @@
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
           "horario": "11:00 - 12:30",
-          "web": "https://www.getyourguide.com/s/?q=Berlin"
+          "web": "https://www.getyourguide.com/s/?q=Berlin",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Audioguia express",
@@ -568,7 +615,8 @@
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
           "horario": "Durante apertura",
-          "web": "https://www.tiqets.com/en/search/?query=Berlin"
+          "web": "https://www.tiqets.com/en/search/?query=Berlin",
+          "costeEstimado": "5-20 €"
         }
       ],
       "web": "https://www.stiftung-denkmal.de/en/memorials/memorial-to-the-murdered-jews-of-europe"
@@ -598,7 +646,8 @@
           "proveedor": "Walks Berlin",
           "contacto": "walks@berlin.local",
           "horario": "10:30 - 12:30",
-          "web": "https://www.civitatis.com/es/berlin/"
+          "web": "https://www.civitatis.com/es/berlin/",
+          "costeEstimado": "15-45 €"
         },
         {
           "titulo": "Ruta gastronomica local",
@@ -606,7 +655,8 @@
           "proveedor": "Sabores de Berlin",
           "contacto": "sabores@berlin.local",
           "horario": "13:00 - 15:00",
-          "web": "https://www.secretfoodtours.com/berlin/"
+          "web": "https://www.secretfoodtours.com/berlin/",
+          "costeEstimado": "35-90 €"
         },
         {
           "titulo": "Fotografia urbana",
@@ -614,7 +664,8 @@
           "proveedor": "Photo Walk Berlin",
           "contacto": "foto@berlinwalk.local",
           "horario": "Atardecer",
-          "web": "https://www.withlocals.com/search/?q=Berlin"
+          "web": "https://www.withlocals.com/search/?q=Berlin",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Historias del vecindario",
@@ -622,7 +673,8 @@
           "proveedor": "Cronicas Berlin",
           "contacto": "cronicas@berlin.local",
           "horario": "17:00 - 18:30",
-          "web": "https://www.civitatis.com/es/berlin/"
+          "web": "https://www.civitatis.com/es/berlin/",
+          "costeEstimado": "15-45 €"
         },
         {
           "titulo": "Compras con guia local",
@@ -630,7 +682,8 @@
           "proveedor": "Local Shops Berlin",
           "contacto": "shops@berlin.local",
           "horario": "11:00 - 13:00",
-          "web": "https://www.getyourguide.com/s/?q=Berlin"
+          "web": "https://www.getyourguide.com/s/?q=Berlin",
+          "costeEstimado": "20-60 €"
         },
         {
           "titulo": "Noche de ambiente",
@@ -638,7 +691,8 @@
           "proveedor": "After Dark Berlin",
           "contacto": "noche@berlin.local",
           "horario": "20:00 - 22:00",
-          "web": "https://www.getyourguide.com/s/?q=Berlin"
+          "web": "https://www.getyourguide.com/s/?q=Berlin",
+          "costeEstimado": "25-75 €"
         }
       ],
       "web": "https://www.visitberlin.de/en/kreuzberg"

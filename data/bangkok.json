@@ -38,7 +38,8 @@
           "proveedor": "Gran Palacio Educacion",
           "contacto": "educacion@granpalacio.local",
           "horario": "10:00 - 12:00",
-          "web": "https://www.royalgrandpalace.th/en/home"
+          "web": "https://www.royalgrandpalace.th/en/home",
+          "costeEstimado": "20-65 €"
         },
         {
           "titulo": "Ruta de obras imprescindibles",
@@ -46,7 +47,8 @@
           "proveedor": "Guias de Bangkok",
           "contacto": "reservas@bangkoktours.local",
           "horario": "12:30 - 14:00",
-          "web": "https://www.royalgrandpalace.th/en/home"
+          "web": "https://www.royalgrandpalace.th/en/home",
+          "costeEstimado": "20-65 €"
         },
         {
           "titulo": "Taller creativo",
@@ -54,7 +56,8 @@
           "proveedor": "Atelier Bangkok",
           "contacto": "talleres@bangkokatelier.local",
           "horario": "16:00 - 18:00",
-          "web": "https://www.royalgrandpalace.th/en/home"
+          "web": "https://www.royalgrandpalace.th/en/home",
+          "costeEstimado": "45-95 €"
         },
         {
           "titulo": "Audioguia express",
@@ -62,7 +65,8 @@
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
           "horario": "Durante apertura",
-          "web": "https://www.tiqets.com/en/search/?query=Bangkok"
+          "web": "https://www.tiqets.com/en/search/?query=Bangkok",
+          "costeEstimado": "5-20 €"
         },
         {
           "titulo": "Encuentro con especialista",
@@ -70,7 +74,8 @@
           "proveedor": "Cultura Bangkok",
           "contacto": "info@culturabangkok.local",
           "horario": "Consultar calendario",
-          "web": "https://www.royalgrandpalace.th/en/home"
+          "web": "https://www.royalgrandpalace.th/en/home",
+          "costeEstimado": "20-65 €"
         },
         {
           "titulo": "Paseo fotografico interior",
@@ -78,7 +83,8 @@
           "proveedor": "Photo Walk Bangkok",
           "contacto": "foto@bangkokwalk.local",
           "horario": "Ultima hora de apertura",
-          "web": "https://www.withlocals.com/search/?q=Bangkok"
+          "web": "https://www.withlocals.com/search/?q=Bangkok",
+          "costeEstimado": "40-120 €"
         }
       ],
       "web": "https://www.royalgrandpalace.th/en/home"
@@ -108,7 +114,8 @@
           "proveedor": "Wat Pho Educacion",
           "contacto": "educacion@watpho.local",
           "horario": "10:00 - 12:00",
-          "web": "https://www.watpho.com/en"
+          "web": "https://www.watpho.com/en",
+          "costeEstimado": "20-65 €"
         },
         {
           "titulo": "Ruta de obras imprescindibles",
@@ -116,7 +123,8 @@
           "proveedor": "Guias de Bangkok",
           "contacto": "reservas@bangkoktours.local",
           "horario": "12:30 - 14:00",
-          "web": "https://www.watpho.com/en"
+          "web": "https://www.watpho.com/en",
+          "costeEstimado": "20-65 €"
         },
         {
           "titulo": "Taller creativo",
@@ -124,7 +132,8 @@
           "proveedor": "Atelier Bangkok",
           "contacto": "talleres@bangkokatelier.local",
           "horario": "16:00 - 18:00",
-          "web": "https://www.watpho.com/en"
+          "web": "https://www.watpho.com/en",
+          "costeEstimado": "45-95 €"
         },
         {
           "titulo": "Audioguia express",
@@ -132,7 +141,8 @@
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
           "horario": "Durante apertura",
-          "web": "https://www.tiqets.com/en/search/?query=Bangkok"
+          "web": "https://www.tiqets.com/en/search/?query=Bangkok",
+          "costeEstimado": "5-20 €"
         },
         {
           "titulo": "Encuentro con especialista",
@@ -140,7 +150,8 @@
           "proveedor": "Cultura Bangkok",
           "contacto": "info@culturabangkok.local",
           "horario": "Consultar calendario",
-          "web": "https://www.watpho.com/en"
+          "web": "https://www.watpho.com/en",
+          "costeEstimado": "20-65 €"
         },
         {
           "titulo": "Paseo fotografico interior",
@@ -148,7 +159,8 @@
           "proveedor": "Photo Walk Bangkok",
           "contacto": "foto@bangkokwalk.local",
           "horario": "Ultima hora de apertura",
-          "web": "https://www.withlocals.com/search/?q=Bangkok"
+          "web": "https://www.withlocals.com/search/?q=Bangkok",
+          "costeEstimado": "40-120 €"
         }
       ],
       "web": "https://www.watpho.com/en"
@@ -178,7 +190,8 @@
           "proveedor": "Historia Viva Bangkok",
           "contacto": "reservas@historiabangkok.local",
           "horario": "10:00 - 12:00",
-          "web": "https://www.getyourguide.com/s/?q=Bangkok"
+          "web": "https://www.getyourguide.com/s/?q=Bangkok",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Acceso con contexto local",
@@ -186,7 +199,8 @@
           "proveedor": "Guias Locales Bangkok",
           "contacto": "hola@bangkoklocal.local",
           "horario": "12:00 - 14:00",
-          "web": "https://www.getyourguide.com/s/?q=Bangkok"
+          "web": "https://www.getyourguide.com/s/?q=Bangkok",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Paseo fotografico",
@@ -194,7 +208,8 @@
           "proveedor": "Photo Walk Bangkok",
           "contacto": "foto@bangkokwalk.local",
           "horario": "Atardecer",
-          "web": "https://www.withlocals.com/search/?q=Bangkok"
+          "web": "https://www.withlocals.com/search/?q=Bangkok",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Ruta de leyendas",
@@ -202,7 +217,8 @@
           "proveedor": "Relatos de Bangkok",
           "contacto": "relatos@bangkok.local",
           "horario": "18:00 - 19:30",
-          "web": "https://www.civitatis.com/es/bangkok/"
+          "web": "https://www.civitatis.com/es/bangkok/",
+          "costeEstimado": "15-45 €"
         },
         {
           "titulo": "Visita familiar",
@@ -210,7 +226,8 @@
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
           "horario": "11:00 - 12:30",
-          "web": "https://www.getyourguide.com/s/?q=Bangkok"
+          "web": "https://www.getyourguide.com/s/?q=Bangkok",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Audioguia express",
@@ -218,7 +235,8 @@
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
           "horario": "Durante apertura",
-          "web": "https://www.tiqets.com/en/search/?query=Bangkok"
+          "web": "https://www.tiqets.com/en/search/?query=Bangkok",
+          "costeEstimado": "5-20 €"
         }
       ],
       "web": "https://www.watarun1.com/en"
@@ -248,7 +266,8 @@
           "proveedor": "Guias Locales Bangkok",
           "contacto": "hola@bangkoklocal.local",
           "horario": "10:00 - 12:00",
-          "web": "https://www.getyourguide.com/s/?q=Bangkok"
+          "web": "https://www.getyourguide.com/s/?q=Bangkok",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Paseo fotografico",
@@ -256,7 +275,8 @@
           "proveedor": "Photo Walk Bangkok",
           "contacto": "foto@bangkokwalk.local",
           "horario": "Atardecer",
-          "web": "https://www.withlocals.com/search/?q=Bangkok"
+          "web": "https://www.withlocals.com/search/?q=Bangkok",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Tour privado a medida",
@@ -264,7 +284,8 @@
           "proveedor": "Travel Designers Bangkok",
           "contacto": "plan@bangkoktravel.local",
           "horario": "Bajo reserva",
-          "web": "https://www.getyourguide.com/s/?q=Bangkok"
+          "web": "https://www.getyourguide.com/s/?q=Bangkok",
+          "costeEstimado": "90-180 €"
         },
         {
           "titulo": "Ruta familiar",
@@ -272,7 +293,8 @@
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
           "horario": "11:00 - 12:30",
-          "web": "https://www.getyourguide.com/s/?q=Bangkok"
+          "web": "https://www.getyourguide.com/s/?q=Bangkok",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Experiencia al atardecer",
@@ -280,7 +302,8 @@
           "proveedor": "Slow Travel Bangkok",
           "contacto": "slow@bangkok.local",
           "horario": "Atardecer",
-          "web": "https://www.getyourguide.com/s/?q=Bangkok"
+          "web": "https://www.getyourguide.com/s/?q=Bangkok",
+          "costeEstimado": "25-75 €"
         },
         {
           "titulo": "Audioguia express",
@@ -288,7 +311,8 @@
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
           "horario": "Durante apertura",
-          "web": "https://www.tiqets.com/en/search/?query=Bangkok"
+          "web": "https://www.tiqets.com/en/search/?query=Bangkok",
+          "costeEstimado": "5-20 €"
         }
       ],
       "web": "https://www.chatuchakmarket.org"
@@ -318,7 +342,8 @@
           "proveedor": "Jim Thompson House Educacion",
           "contacto": "educacion@jimthompsonhouse.local",
           "horario": "10:00 - 12:00",
-          "web": "https://jimthompsonhouse.org"
+          "web": "https://jimthompsonhouse.org",
+          "costeEstimado": "20-65 €"
         },
         {
           "titulo": "Ruta de obras imprescindibles",
@@ -326,7 +351,8 @@
           "proveedor": "Guias de Bangkok",
           "contacto": "reservas@bangkoktours.local",
           "horario": "12:30 - 14:00",
-          "web": "https://jimthompsonhouse.org"
+          "web": "https://jimthompsonhouse.org",
+          "costeEstimado": "20-65 €"
         },
         {
           "titulo": "Taller creativo",
@@ -334,7 +360,8 @@
           "proveedor": "Atelier Bangkok",
           "contacto": "talleres@bangkokatelier.local",
           "horario": "16:00 - 18:00",
-          "web": "https://jimthompsonhouse.org"
+          "web": "https://jimthompsonhouse.org",
+          "costeEstimado": "45-95 €"
         },
         {
           "titulo": "Audioguia express",
@@ -342,7 +369,8 @@
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
           "horario": "Durante apertura",
-          "web": "https://www.tiqets.com/en/search/?query=Bangkok"
+          "web": "https://www.tiqets.com/en/search/?query=Bangkok",
+          "costeEstimado": "5-20 €"
         },
         {
           "titulo": "Encuentro con especialista",
@@ -350,7 +378,8 @@
           "proveedor": "Cultura Bangkok",
           "contacto": "info@culturabangkok.local",
           "horario": "Consultar calendario",
-          "web": "https://jimthompsonhouse.org"
+          "web": "https://jimthompsonhouse.org",
+          "costeEstimado": "20-65 €"
         },
         {
           "titulo": "Paseo fotografico interior",
@@ -358,7 +387,8 @@
           "proveedor": "Photo Walk Bangkok",
           "contacto": "foto@bangkokwalk.local",
           "horario": "Ultima hora de apertura",
-          "web": "https://www.withlocals.com/search/?q=Bangkok"
+          "web": "https://www.withlocals.com/search/?q=Bangkok",
+          "costeEstimado": "40-120 €"
         }
       ],
       "web": "https://jimthompsonhouse.org"
@@ -388,7 +418,8 @@
           "proveedor": "Walks Bangkok",
           "contacto": "walks@bangkok.local",
           "horario": "10:30 - 12:30",
-          "web": "https://www.civitatis.com/es/bangkok/"
+          "web": "https://www.civitatis.com/es/bangkok/",
+          "costeEstimado": "15-45 €"
         },
         {
           "titulo": "Ruta gastronomica local",
@@ -396,7 +427,8 @@
           "proveedor": "Sabores de Bangkok",
           "contacto": "sabores@bangkok.local",
           "horario": "13:00 - 15:00",
-          "web": "https://achefstour.com/tour/bangkok-food-tour"
+          "web": "https://achefstour.com/tour/bangkok-food-tour",
+          "costeEstimado": "35-90 €"
         },
         {
           "titulo": "Fotografia urbana",
@@ -404,7 +436,8 @@
           "proveedor": "Photo Walk Bangkok",
           "contacto": "foto@bangkokwalk.local",
           "horario": "Atardecer",
-          "web": "https://www.withlocals.com/search/?q=Bangkok"
+          "web": "https://www.withlocals.com/search/?q=Bangkok",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Historias del vecindario",
@@ -412,7 +445,8 @@
           "proveedor": "Cronicas Bangkok",
           "contacto": "cronicas@bangkok.local",
           "horario": "17:00 - 18:30",
-          "web": "https://www.civitatis.com/es/bangkok/"
+          "web": "https://www.civitatis.com/es/bangkok/",
+          "costeEstimado": "15-45 €"
         },
         {
           "titulo": "Compras con guia local",
@@ -420,7 +454,8 @@
           "proveedor": "Local Shops Bangkok",
           "contacto": "shops@bangkok.local",
           "horario": "11:00 - 13:00",
-          "web": "https://www.getyourguide.com/s/?q=Bangkok"
+          "web": "https://www.getyourguide.com/s/?q=Bangkok",
+          "costeEstimado": "20-60 €"
         },
         {
           "titulo": "Noche de ambiente",
@@ -428,7 +463,8 @@
           "proveedor": "After Dark Bangkok",
           "contacto": "noche@bangkok.local",
           "horario": "20:00 - 22:00",
-          "web": "https://www.getyourguide.com/s/?q=Bangkok"
+          "web": "https://www.getyourguide.com/s/?q=Bangkok",
+          "costeEstimado": "25-75 €"
         }
       ],
       "web": "https://www.tourismthailand.org/Attraction/yaowarat-road"
@@ -458,7 +494,8 @@
           "proveedor": "Green Bangkok",
           "contacto": "green@bangkok.local",
           "horario": "10:00 - 11:30",
-          "web": "https://www.bangkok.go.th/publicpark"
+          "web": "https://www.bangkok.go.th/publicpark",
+          "costeEstimado": "15-50 €"
         },
         {
           "titulo": "Picnic con producto local",
@@ -466,7 +503,8 @@
           "proveedor": "Picnic Bangkok",
           "contacto": "picnic@bangkok.local",
           "horario": "13:00 - 15:00",
-          "web": "https://www.bangkok.go.th/publicpark"
+          "web": "https://www.bangkok.go.th/publicpark",
+          "costeEstimado": "15-50 €"
         },
         {
           "titulo": "Ruta fotografica natural",
@@ -474,7 +512,8 @@
           "proveedor": "Photo Walk Bangkok",
           "contacto": "foto@bangkokwalk.local",
           "horario": "Atardecer",
-          "web": "https://www.withlocals.com/search/?q=Bangkok"
+          "web": "https://www.withlocals.com/search/?q=Bangkok",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Actividad familiar al aire libre",
@@ -482,7 +521,8 @@
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
           "horario": "11:00 - 12:30",
-          "web": "https://www.getyourguide.com/s/?q=Bangkok"
+          "web": "https://www.getyourguide.com/s/?q=Bangkok",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Bienestar y estiramientos",
@@ -490,7 +530,8 @@
           "proveedor": "Wellness Bangkok",
           "contacto": "wellness@bangkok.local",
           "horario": "08:30 - 09:30",
-          "web": "https://www.getyourguide.com/s/?q=Bangkok"
+          "web": "https://www.getyourguide.com/s/?q=Bangkok",
+          "costeEstimado": "15-50 €"
         },
         {
           "titulo": "Miradores y rincones tranquilos",
@@ -498,7 +539,8 @@
           "proveedor": "Slow Travel Bangkok",
           "contacto": "slow@bangkok.local",
           "horario": "16:30 - 18:00",
-          "web": "https://www.bangkok.go.th/publicpark"
+          "web": "https://www.bangkok.go.th/publicpark",
+          "costeEstimado": "15-50 €"
         }
       ],
       "web": "https://www.bangkok.go.th/publicpark"
@@ -528,7 +570,8 @@
           "proveedor": "Guias Locales Bangkok",
           "contacto": "hola@bangkoklocal.local",
           "horario": "10:00 - 12:00",
-          "web": "https://www.getyourguide.com/s/?q=Bangkok"
+          "web": "https://www.getyourguide.com/s/?q=Bangkok",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Paseo fotografico",
@@ -536,7 +579,8 @@
           "proveedor": "Photo Walk Bangkok",
           "contacto": "foto@bangkokwalk.local",
           "horario": "Atardecer",
-          "web": "https://www.withlocals.com/search/?q=Bangkok"
+          "web": "https://www.withlocals.com/search/?q=Bangkok",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Tour privado a medida",
@@ -544,7 +588,8 @@
           "proveedor": "Travel Designers Bangkok",
           "contacto": "plan@bangkoktravel.local",
           "horario": "Bajo reserva",
-          "web": "https://www.getyourguide.com/s/?q=Bangkok"
+          "web": "https://www.getyourguide.com/s/?q=Bangkok",
+          "costeEstimado": "90-180 €"
         },
         {
           "titulo": "Ruta familiar",
@@ -552,7 +597,8 @@
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
           "horario": "11:00 - 12:30",
-          "web": "https://www.getyourguide.com/s/?q=Bangkok"
+          "web": "https://www.getyourguide.com/s/?q=Bangkok",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Experiencia al atardecer",
@@ -560,7 +606,8 @@
           "proveedor": "Slow Travel Bangkok",
           "contacto": "slow@bangkok.local",
           "horario": "Atardecer",
-          "web": "https://www.getyourguide.com/s/?q=Bangkok"
+          "web": "https://www.getyourguide.com/s/?q=Bangkok",
+          "costeEstimado": "25-75 €"
         },
         {
           "titulo": "Audioguia express",
@@ -568,7 +615,8 @@
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
           "horario": "Durante apertura",
-          "web": "https://www.tiqets.com/en/search/?query=Bangkok"
+          "web": "https://www.tiqets.com/en/search/?query=Bangkok",
+          "costeEstimado": "5-20 €"
         }
       ],
       "web": "https://www.tourismthailand.org/Attraction/khlong-lat-mayom-floating-market"
@@ -598,7 +646,8 @@
           "proveedor": "Jay Fai",
           "contacto": "reservas@jayfai.local",
           "horario": "Comida y cena",
-          "web": "https://achefstour.com/tour/bangkok-food-tour"
+          "web": "https://achefstour.com/tour/bangkok-food-tour",
+          "costeEstimado": "45-120 €"
         },
         {
           "titulo": "Menu degustacion",
@@ -606,7 +655,8 @@
           "proveedor": "Sabores de Bangkok",
           "contacto": "sabores@bangkok.local",
           "horario": "Consultar servicio",
-          "web": "https://achefstour.com/tour/bangkok-food-tour"
+          "web": "https://achefstour.com/tour/bangkok-food-tour",
+          "costeEstimado": "80-160 €"
         },
         {
           "titulo": "Charla con cocina",
@@ -614,7 +664,8 @@
           "proveedor": "Food Stories Bangkok",
           "contacto": "food@bangkok.local",
           "horario": "Antes de comer",
-          "web": "https://achefstour.com/tour/bangkok-food-tour"
+          "web": "https://achefstour.com/tour/bangkok-food-tour",
+          "costeEstimado": "35-90 €"
         },
         {
           "titulo": "Maridaje local",
@@ -622,7 +673,8 @@
           "proveedor": "Catas Bangkok",
           "contacto": "catas@bangkok.local",
           "horario": "Cena",
-          "web": "https://achefstour.com/tour/bangkok-food-tour"
+          "web": "https://achefstour.com/tour/bangkok-food-tour",
+          "costeEstimado": "80-160 €"
         },
         {
           "titulo": "Ruta gastronomica cercana",
@@ -630,7 +682,8 @@
           "proveedor": "Food Walk Bangkok",
           "contacto": "foodwalk@bangkok.local",
           "horario": "12:00 - 14:00",
-          "web": "https://achefstour.com/tour/bangkok-food-tour"
+          "web": "https://achefstour.com/tour/bangkok-food-tour",
+          "costeEstimado": "35-90 €"
         },
         {
           "titulo": "Clase de sabor local",
@@ -638,7 +691,8 @@
           "proveedor": "Talleres Bangkok",
           "contacto": "talleres@bangkok.local",
           "horario": "Consultar calendario",
-          "web": "https://guide.michelin.com/en/bangkok-region/bangkok/restaurant/jay-fai"
+          "web": "https://guide.michelin.com/en/bangkok-region/bangkok/restaurant/jay-fai",
+          "costeEstimado": "45-95 €"
         }
       ],
       "web": "https://guide.michelin.com/en/bangkok-region/bangkok/restaurant/jay-fai"

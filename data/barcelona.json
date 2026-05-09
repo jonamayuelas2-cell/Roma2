@@ -38,7 +38,8 @@
           "proveedor": "Basílica Sagrada Família",
           "contacto": "sagradafamilia.org",
           "horario": "9:00 - 18:00",
-          "web": "sagradafamilia.org"
+          "web": "sagradafamilia.org",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Subida a las Torres",
@@ -46,7 +47,8 @@
           "proveedor": "Basílica Sagrada Família",
           "contacto": "sagradafamilia.org",
           "horario": "Mañanas",
-          "web": "sagradafamilia.org"
+          "web": "sagradafamilia.org",
+          "costeEstimado": "20-60 €"
         },
         {
           "titulo": "Concierto de Organo",
@@ -54,7 +56,8 @@
           "proveedor": "Cultura BCN",
           "contacto": "barcelona.cat/cultura",
           "horario": "Eventos especiales",
-          "web": "barcelona.cat/cultura"
+          "web": "barcelona.cat/cultura",
+          "costeEstimado": "20-60 €"
         },
         {
           "titulo": "Taller de Mosaicos",
@@ -62,7 +65,8 @@
           "proveedor": "Gaudi Experience",
           "contacto": "gaudiexperience.com",
           "horario": "11:00 - 13:00",
-          "web": "gaudiexperience.com"
+          "web": "gaudiexperience.com",
+          "costeEstimado": "45-95 €"
         },
         {
           "titulo": "Fotografia Nocturna",
@@ -70,7 +74,8 @@
           "proveedor": "BCN Photo Tour",
           "contacto": "bcnphototour.com",
           "horario": "21:00",
-          "web": "bcnphototour.com"
+          "web": "bcnphototour.com",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Misa Internacional",
@@ -78,7 +83,8 @@
           "proveedor": "Arquebisbat de Barcelona",
           "contacto": "esglesiabarcelona.cat",
           "horario": "Domingos 9:00",
-          "web": "esglesiabarcelona.cat"
+          "web": "esglesiabarcelona.cat",
+          "costeEstimado": "20-60 €"
         }
       ],
       "web": "https://sagradafamilia.org"
@@ -108,7 +114,8 @@
           "proveedor": "Park Güell Oficial",
           "contacto": "parkguell.barcelona",
           "horario": "10:00 - 19:00",
-          "web": "parkguell.barcelona"
+          "web": "parkguell.barcelona",
+          "costeEstimado": "20-60 €"
         },
         {
           "titulo": "Picnic en los Jardines",
@@ -116,7 +123,8 @@
           "proveedor": "Parcs i Jardins BCN",
           "contacto": "barcelona.cat/parcs",
           "horario": "Todo el día",
-          "web": "barcelona.cat/parcs"
+          "web": "barcelona.cat/parcs",
+          "costeEstimado": "15-50 €"
         },
         {
           "titulo": "Taller de Trencadis",
@@ -124,7 +132,8 @@
           "proveedor": "Mosaiccos BCN",
           "contacto": "mosaiccos.com",
           "horario": "12:00",
-          "web": "mosaiccos.com"
+          "web": "mosaiccos.com",
+          "costeEstimado": "45-95 €"
         },
         {
           "titulo": "Ruta Botanica",
@@ -132,7 +141,8 @@
           "proveedor": "Barcelona Green",
           "contacto": "bcn-green.com",
           "horario": "Bajo reserva",
-          "web": "bcn-green.com"
+          "web": "bcn-green.com",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Puesta de Sol",
@@ -140,7 +150,8 @@
           "proveedor": "Libre",
           "contacto": "N/A",
           "horario": "Atardecer",
-          "web": "https://parkguell.barcelona"
+          "web": "https://parkguell.barcelona",
+          "costeEstimado": "20-60 €"
         },
         {
           "titulo": "Casa-Museu Gaudi",
@@ -148,7 +159,8 @@
           "proveedor": "Fundació Sagrada Família",
           "contacto": "casamuseugaudi.org",
           "horario": "10:00 - 18:00",
-          "web": "casamuseugaudi.org"
+          "web": "casamuseugaudi.org",
+          "costeEstimado": "20-60 €"
         }
       ],
       "web": "https://parkguell.barcelona"
@@ -178,7 +190,8 @@
           "proveedor": "Icono Serveis",
           "contacto": "iconoserveis.com",
           "horario": "20:00",
-          "web": "iconoserveis.com"
+          "web": "iconoserveis.com",
+          "costeEstimado": "15-45 €"
         },
         {
           "titulo": "Tapas Historicas",
@@ -186,7 +199,8 @@
           "proveedor": "Devour Tours",
           "contacto": "devourtours.com",
           "horario": "19:00",
-          "web": "devourtours.com"
+          "web": "devourtours.com",
+          "costeEstimado": "20-60 €"
         },
         {
           "titulo": "Guitarra Española",
@@ -194,7 +208,8 @@
           "proveedor": "Maestros de la Guitarra",
           "contacto": "maestrosdelaguitarra.com",
           "horario": "21:00",
-          "web": "maestrosdelaguitarra.com"
+          "web": "maestrosdelaguitarra.com",
+          "costeEstimado": "20-60 €"
         },
         {
           "titulo": "Barcelona Romana",
@@ -202,7 +217,8 @@
           "proveedor": "MUHBA",
           "contacto": "barcelona.cat/museuhistoria",
           "horario": "10:00 - 19:00",
-          "web": "barcelona.cat/museuhistoria"
+          "web": "barcelona.cat/museuhistoria",
+          "costeEstimado": "20-60 €"
         },
         {
           "titulo": "Caligrafia Medieval",
@@ -210,7 +226,8 @@
           "proveedor": "Arts Medievals",
           "contacto": "artsmedievals.com",
           "horario": "Sabados",
-          "web": "artsmedievals.com"
+          "web": "artsmedievals.com",
+          "costeEstimado": "20-60 €"
         },
         {
           "titulo": "Patios Escondidos",
@@ -218,7 +235,8 @@
           "proveedor": "Cases Singulars",
           "contacto": "casessingulars.com",
           "horario": "Bajo reserva",
-          "web": "casessingulars.com"
+          "web": "casessingulars.com",
+          "costeEstimado": "20-60 €"
         }
       ],
       "web": "https://www.barcelonaturisme.com/wv3/en/page/380/the-gothic-quarter.html"
@@ -248,7 +266,8 @@
           "proveedor": "Casa Batlló",
           "contacto": "casabatllo.es",
           "horario": "18:00",
-          "web": "casabatllo.es"
+          "web": "casabatllo.es",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Noches Magicas",
@@ -256,7 +275,8 @@
           "proveedor": "Casa Batlló",
           "contacto": "casabatllo.es",
           "horario": "20:00",
-          "web": "casabatllo.es"
+          "web": "casabatllo.es",
+          "costeEstimado": "25-75 €"
         },
         {
           "titulo": "Experiencia 10D",
@@ -264,7 +284,8 @@
           "proveedor": "Casa Batlló",
           "contacto": "casabatllo.es",
           "horario": "9:00 - 20:00",
-          "web": "casabatllo.es"
+          "web": "casabatllo.es",
+          "costeEstimado": "20-60 €"
         },
         {
           "titulo": "Desayuno en el Tejado",
@@ -272,7 +293,8 @@
           "proveedor": "Casa Batlló",
           "contacto": "casabatllo.es",
           "horario": "8:30",
-          "web": "casabatllo.es"
+          "web": "casabatllo.es",
+          "costeEstimado": "20-60 €"
         },
         {
           "titulo": "Taller de Vidrieras",
@@ -280,7 +302,8 @@
           "proveedor": "Artesania BCN",
           "contacto": "artesaniabcn.cat",
           "horario": "Mensual",
-          "web": "artesaniabcn.cat"
+          "web": "artesaniabcn.cat",
+          "costeEstimado": "45-95 €"
         },
         {
           "titulo": "Sesion Fotografica",
@@ -288,7 +311,8 @@
           "proveedor": "Photo Experience",
           "contacto": "photo-exp.com",
           "horario": "Previa cita",
-          "web": "photo-exp.com"
+          "web": "photo-exp.com",
+          "costeEstimado": "40-120 €"
         }
       ],
       "web": "https://www.casabatllo.es"
@@ -318,7 +342,8 @@
           "proveedor": "Barcelona Turisme",
           "contacto": "barcelonaturisme.com",
           "horario": "Cualquier hora",
-          "web": "barcelonaturisme.com"
+          "web": "barcelonaturisme.com",
+          "costeEstimado": "15-45 €"
         },
         {
           "titulo": "Flamenco en el Tablao",
@@ -326,7 +351,8 @@
           "proveedor": "Tablao Cordobes",
           "contacto": "tablaocordobes.es",
           "horario": "Varios pases",
-          "web": "tablaocordobes.es"
+          "web": "tablaocordobes.es",
+          "costeEstimado": "20-60 €"
         },
         {
           "titulo": "Opera en el Liceu",
@@ -334,7 +360,8 @@
           "proveedor": "Gran Teatre del Liceu",
           "contacto": "liceubarcelona.cat",
           "horario": "10:00 - 18:00",
-          "web": "liceubarcelona.cat"
+          "web": "liceubarcelona.cat",
+          "costeEstimado": "20-60 €"
         },
         {
           "titulo": "Cocteleria Boadas",
@@ -342,7 +369,8 @@
           "proveedor": "Boadas Cocktails",
           "contacto": "boadascocktails.com",
           "horario": "Tarde/Noche",
-          "web": "boadascocktails.com"
+          "web": "boadascocktails.com",
+          "costeEstimado": "20-60 €"
         },
         {
           "titulo": "Ruta de Estatuas",
@@ -350,7 +378,8 @@
           "proveedor": "Rambla Artistas",
           "contacto": "laramblabcn.com",
           "horario": "Mañana",
-          "web": "laramblabcn.com"
+          "web": "laramblabcn.com",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Cena en Terraza",
@@ -358,7 +387,8 @@
           "proveedor": "Restaurante Glaciar",
           "contacto": "glaciarbcn.com",
           "horario": "20:00",
-          "web": "glaciarbcn.com"
+          "web": "glaciarbcn.com",
+          "costeEstimado": "45-120 €"
         }
       ],
       "web": "https://www.barcelonaturisme.com/wv3/en/page/163/la-rambla.html"
@@ -388,7 +418,8 @@
           "proveedor": "Boqueria Food Tours",
           "contacto": "boqueria.barcelona",
           "horario": "10:00",
-          "web": "boqueria.barcelona"
+          "web": "boqueria.barcelona",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Taller de Cocina",
@@ -396,7 +427,8 @@
           "proveedor": "Barcelona Cooking",
           "contacto": "barcelonacooking.net",
           "horario": "11:00",
-          "web": "barcelonacooking.net"
+          "web": "barcelonacooking.net",
+          "costeEstimado": "45-95 €"
         },
         {
           "titulo": "Ostras y Cava",
@@ -404,7 +436,8 @@
           "proveedor": "Peixateries Joana",
           "contacto": "laboqueria.es",
           "horario": "Mañana",
-          "web": "laboqueria.es"
+          "web": "laboqueria.es",
+          "costeEstimado": "20-60 €"
         },
         {
           "titulo": "Puestos Historicos",
@@ -412,7 +445,8 @@
           "proveedor": "Amics de la Boqueria",
           "contacto": "boqueria.info",
           "horario": "12:00",
-          "web": "boqueria.info"
+          "web": "boqueria.info",
+          "costeEstimado": "20-60 €"
         },
         {
           "titulo": "Desayuno de Tenedor",
@@ -420,7 +454,8 @@
           "proveedor": "El Quim de la Boqueria",
           "contacto": "elquimdelaboqueria.com",
           "horario": "8:00 - 11:00",
-          "web": "elquimdelaboqueria.com"
+          "web": "elquimdelaboqueria.com",
+          "costeEstimado": "20-60 €"
         },
         {
           "titulo": "Corte de Jamon",
@@ -428,7 +463,8 @@
           "proveedor": "Reserva Iberica",
           "contacto": "reservaiberica.com",
           "horario": "16:00",
-          "web": "reservaiberica.com"
+          "web": "reservaiberica.com",
+          "costeEstimado": "20-60 €"
         }
       ],
       "web": "https://www.boqueria.barcelona"
@@ -458,7 +494,8 @@
           "proveedor": "TMB",
           "contacto": "telefericdemontjuic.cat",
           "horario": "10:00 - 19:00",
-          "web": "telefericdemontjuic.cat"
+          "web": "telefericdemontjuic.cat",
+          "costeEstimado": "20-60 €"
         },
         {
           "titulo": "Font Magica",
@@ -466,7 +503,8 @@
           "proveedor": "Ayuntamiento BCN",
           "contacto": "barcelona.cat/fontmagica",
           "horario": "Noche (Consultar dias)",
-          "web": "barcelona.cat/fontmagica"
+          "web": "barcelona.cat/fontmagica",
+          "costeEstimado": "20-60 €"
         },
         {
           "titulo": "Castell de Montjuic",
@@ -474,7 +512,8 @@
           "proveedor": "Castell Montjuic",
           "contacto": "barcelona.cat/castellmontjuic",
           "horario": "10:00 - 20:00",
-          "web": "barcelona.cat/castellmontjuic"
+          "web": "barcelona.cat/castellmontjuic",
+          "costeEstimado": "20-60 €"
         },
         {
           "titulo": "Jardines de Brossa",
@@ -482,7 +521,8 @@
           "proveedor": "Parcs BCN",
           "contacto": "barcelona.cat/parcs",
           "horario": "Todo el día",
-          "web": "barcelona.cat/parcs"
+          "web": "barcelona.cat/parcs",
+          "costeEstimado": "20-60 €"
         },
         {
           "titulo": "MNAC Experience",
@@ -490,7 +530,8 @@
           "proveedor": "Museu Nacional",
           "contacto": "museunacional.cat",
           "horario": "10:00 - 18:00",
-          "web": "museunacional.cat"
+          "web": "museunacional.cat",
+          "costeEstimado": "20-60 €"
         },
         {
           "titulo": "Piscina Olimpica",
@@ -498,7 +539,8 @@
           "proveedor": "CEM Montjuic",
           "contacto": "picornell.cat",
           "horario": "Verano",
-          "web": "picornell.cat"
+          "web": "picornell.cat",
+          "costeEstimado": "20-60 €"
         }
       ],
       "web": "https://www.barcelonaturisme.com/wv3/en/page/397/montjuic.html"
@@ -528,7 +570,8 @@
           "proveedor": "Manihi Surf",
           "contacto": "manihisurf.com",
           "horario": "6:30",
-          "web": "manihisurf.com"
+          "web": "manihisurf.com",
+          "costeEstimado": "25-80 €"
         },
         {
           "titulo": "Arroz Marinero",
@@ -536,7 +579,8 @@
           "proveedor": "Can Solé",
           "contacto": "restaurantcansole.com",
           "horario": "14:00",
-          "web": "restaurantcansole.com"
+          "web": "restaurantcansole.com",
+          "costeEstimado": "20-60 €"
         },
         {
           "titulo": "Pesca Tradicional",
@@ -544,7 +588,8 @@
           "proveedor": "Cap a Mar",
           "contacto": "capamar.cat",
           "horario": "Mañanas",
-          "web": "capamar.cat"
+          "web": "capamar.cat",
+          "costeEstimado": "20-60 €"
         },
         {
           "titulo": "Bicicletas por el Mar",
@@ -552,7 +597,8 @@
           "proveedor": "BCN Bike Rent",
           "contacto": "barcelonabikerent.com",
           "horario": "Diario",
-          "web": "barcelonabikerent.com"
+          "web": "barcelonabikerent.com",
+          "costeEstimado": "20-60 €"
         },
         {
           "titulo": "Museo de Historia",
@@ -560,7 +606,8 @@
           "proveedor": "MHCat",
           "contacto": "mhcat.cat",
           "horario": "10:00 - 19:00",
-          "web": "mhcat.cat"
+          "web": "mhcat.cat",
+          "costeEstimado": "20-65 €"
         },
         {
           "titulo": "Cena con Brisa",
@@ -568,7 +615,8 @@
           "proveedor": "Restaurante Barceloneta",
           "contacto": "restaurantbarceloneta.com",
           "horario": "21:00",
-          "web": "restaurantbarceloneta.com"
+          "web": "restaurantbarceloneta.com",
+          "costeEstimado": "45-120 €"
         }
       ],
       "web": "https://www.barcelonaturisme.com/wv3/en/page/161/la-barceloneta.html"
@@ -598,7 +646,8 @@
           "proveedor": "Palau de la Música",
           "contacto": "palaumusica.cat",
           "horario": "10:00 - 15:30",
-          "web": "palaumusica.cat"
+          "web": "palaumusica.cat",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Ensayo Abierto",
@@ -606,7 +655,8 @@
           "proveedor": "Palau de la Música",
           "contacto": "palaumusica.cat",
           "horario": "Segun calendario",
-          "web": "palaumusica.cat"
+          "web": "palaumusica.cat",
+          "costeEstimado": "20-60 €"
         },
         {
           "titulo": "Opera y Flamenco",
@@ -614,7 +664,8 @@
           "proveedor": "Barcelona Flamenco",
           "contacto": "operaflamenco.com",
           "horario": "20:00",
-          "web": "operaflamenco.com"
+          "web": "operaflamenco.com",
+          "costeEstimado": "20-60 €"
         },
         {
           "titulo": "Escultura Modernista",
@@ -622,7 +673,8 @@
           "proveedor": "Arts Modernistes",
           "contacto": "modernisme.cat",
           "horario": "Bajo reserva",
-          "web": "modernisme.cat"
+          "web": "modernisme.cat",
+          "costeEstimado": "20-60 €"
         },
         {
           "titulo": "Te en el Balcon",
@@ -630,7 +682,8 @@
           "proveedor": "Café del Palau",
           "contacto": "palaumusica.cat",
           "horario": "Tarde",
-          "web": "palaumusica.cat"
+          "web": "palaumusica.cat",
+          "costeEstimado": "20-60 €"
         },
         {
           "titulo": "Recital de Piano",
@@ -638,7 +691,8 @@
           "proveedor": "Candlelight BCN",
           "contacto": "feverup.com",
           "horario": "21:30",
-          "web": "feverup.com"
+          "web": "feverup.com",
+          "costeEstimado": "20-60 €"
         }
       ],
       "web": "https://www.palaumusica.cat"

@@ -38,7 +38,8 @@
           "proveedor": "Historia Viva Lisboa",
           "contacto": "reservas@historialisboa.local",
           "horario": "10:00 - 12:00",
-          "web": "https://www.getyourguide.com/s/?q=Lisbon"
+          "web": "https://www.getyourguide.com/s/?q=Lisbon",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Acceso con contexto local",
@@ -46,7 +47,8 @@
           "proveedor": "Guias Locales Lisboa",
           "contacto": "hola@lisboalocal.local",
           "horario": "12:00 - 14:00",
-          "web": "https://www.getyourguide.com/s/?q=Lisbon"
+          "web": "https://www.getyourguide.com/s/?q=Lisbon",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Paseo fotografico",
@@ -54,7 +56,8 @@
           "proveedor": "Photo Walk Lisboa",
           "contacto": "foto@lisboawalk.local",
           "horario": "Atardecer",
-          "web": "https://www.withlocals.com/search/?q=Lisbon"
+          "web": "https://www.withlocals.com/search/?q=Lisbon",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Ruta de leyendas",
@@ -62,7 +65,8 @@
           "proveedor": "Relatos de Lisboa",
           "contacto": "relatos@lisboa.local",
           "horario": "18:00 - 19:30",
-          "web": "https://www.civitatis.com/es/lisboa/"
+          "web": "https://www.civitatis.com/es/lisboa/",
+          "costeEstimado": "15-45 €"
         },
         {
           "titulo": "Visita familiar",
@@ -70,7 +74,8 @@
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
           "horario": "11:00 - 12:30",
-          "web": "https://www.getyourguide.com/s/?q=Lisbon"
+          "web": "https://www.getyourguide.com/s/?q=Lisbon",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Audioguia express",
@@ -78,7 +83,8 @@
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
           "horario": "Durante apertura",
-          "web": "https://www.tiqets.com/en/search/?query=Lisbon"
+          "web": "https://www.tiqets.com/en/search/?query=Lisbon",
+          "costeEstimado": "5-20 €"
         }
       ],
       "web": "https://www.patrimoniocultural.gov.pt/pt/museus-e-monumentos/dgpc/m/torre-de-belem"
@@ -108,7 +114,8 @@
           "proveedor": "Walks Lisboa",
           "contacto": "walks@lisboa.local",
           "horario": "10:30 - 12:30",
-          "web": "https://www.civitatis.com/es/lisboa/"
+          "web": "https://www.civitatis.com/es/lisboa/",
+          "costeEstimado": "15-45 €"
         },
         {
           "titulo": "Ruta gastronomica local",
@@ -116,7 +123,8 @@
           "proveedor": "Sabores de Lisboa",
           "contacto": "sabores@lisboa.local",
           "horario": "13:00 - 15:00",
-          "web": "https://www.tasteoflisboa.com"
+          "web": "https://www.tasteoflisboa.com",
+          "costeEstimado": "35-90 €"
         },
         {
           "titulo": "Fotografia urbana",
@@ -124,7 +132,8 @@
           "proveedor": "Photo Walk Lisboa",
           "contacto": "foto@lisboawalk.local",
           "horario": "Atardecer",
-          "web": "https://www.withlocals.com/search/?q=Lisbon"
+          "web": "https://www.withlocals.com/search/?q=Lisbon",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Historias del vecindario",
@@ -132,7 +141,8 @@
           "proveedor": "Cronicas Lisboa",
           "contacto": "cronicas@lisboa.local",
           "horario": "17:00 - 18:30",
-          "web": "https://www.civitatis.com/es/lisboa/"
+          "web": "https://www.civitatis.com/es/lisboa/",
+          "costeEstimado": "15-45 €"
         },
         {
           "titulo": "Compras con guia local",
@@ -140,7 +150,8 @@
           "proveedor": "Local Shops Lisboa",
           "contacto": "shops@lisboa.local",
           "horario": "11:00 - 13:00",
-          "web": "https://www.getyourguide.com/s/?q=Lisbon"
+          "web": "https://www.getyourguide.com/s/?q=Lisbon",
+          "costeEstimado": "20-60 €"
         },
         {
           "titulo": "Noche de ambiente",
@@ -148,7 +159,8 @@
           "proveedor": "After Dark Lisboa",
           "contacto": "noche@lisboa.local",
           "horario": "20:00 - 22:00",
-          "web": "https://www.getyourguide.com/s/?q=Lisbon"
+          "web": "https://www.getyourguide.com/s/?q=Lisbon",
+          "costeEstimado": "25-75 €"
         }
       ],
       "web": "https://www.visitlisboa.com/en/places/alfama"
@@ -178,7 +190,8 @@
           "proveedor": "Guias Locales Lisboa",
           "contacto": "hola@lisboa.local",
           "horario": "10:00 - 12:00",
-          "web": "https://www.getyourguide.com/s/?q=Lisbon"
+          "web": "https://www.getyourguide.com/s/?q=Lisbon",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Paseo fotografico",
@@ -186,7 +199,8 @@
           "proveedor": "Photo Walk Lisboa",
           "contacto": "foto@lisboawalk.local",
           "horario": "Atardecer",
-          "web": "https://www.withlocals.com/search/?q=Lisbon"
+          "web": "https://www.withlocals.com/search/?q=Lisbon",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Tour privado a medida",
@@ -194,7 +208,8 @@
           "proveedor": "Travel Designers Lisboa",
           "contacto": "plan@lisboatravel.local",
           "horario": "Bajo reserva",
-          "web": "https://www.getyourguide.com/s/?q=Lisbon"
+          "web": "https://www.getyourguide.com/s/?q=Lisbon",
+          "costeEstimado": "90-180 €"
         },
         {
           "titulo": "Ruta familiar",
@@ -202,7 +217,8 @@
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
           "horario": "11:00 - 12:30",
-          "web": "https://www.getyourguide.com/s/?q=Lisbon"
+          "web": "https://www.getyourguide.com/s/?q=Lisbon",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Experiencia al atardecer",
@@ -210,7 +226,8 @@
           "proveedor": "Slow Travel Lisboa",
           "contacto": "slow@lisboa.local",
           "horario": "Atardecer",
-          "web": "https://www.getyourguide.com/s/?q=Lisbon"
+          "web": "https://www.getyourguide.com/s/?q=Lisbon",
+          "costeEstimado": "25-75 €"
         },
         {
           "titulo": "Audioguia express",
@@ -218,7 +235,8 @@
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
           "horario": "Durante apertura",
-          "web": "https://www.tiqets.com/en/search/?query=Lisbon"
+          "web": "https://www.tiqets.com/en/search/?query=Lisbon",
+          "costeEstimado": "5-20 €"
         }
       ],
       "web": "https://www.patrimoniocultural.gov.pt/pt/museus-e-monumentos/dgpc/m/mosteiro-dos-jeronimos"
@@ -248,7 +266,8 @@
           "proveedor": "Guias Locales Lisboa",
           "contacto": "hola@lisboa.local",
           "horario": "10:00 - 12:00",
-          "web": "https://www.getyourguide.com/s/?q=Lisbon"
+          "web": "https://www.getyourguide.com/s/?q=Lisbon",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Paseo fotografico",
@@ -256,7 +275,8 @@
           "proveedor": "Photo Walk Lisboa",
           "contacto": "foto@lisboawalk.local",
           "horario": "Atardecer",
-          "web": "https://www.withlocals.com/search/?q=Lisbon"
+          "web": "https://www.withlocals.com/search/?q=Lisbon",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Tour privado a medida",
@@ -264,7 +284,8 @@
           "proveedor": "Travel Designers Lisboa",
           "contacto": "plan@lisboatravel.local",
           "horario": "Bajo reserva",
-          "web": "https://www.getyourguide.com/s/?q=Lisbon"
+          "web": "https://www.getyourguide.com/s/?q=Lisbon",
+          "costeEstimado": "90-180 €"
         },
         {
           "titulo": "Ruta familiar",
@@ -272,7 +293,8 @@
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
           "horario": "11:00 - 12:30",
-          "web": "https://www.getyourguide.com/s/?q=Lisbon"
+          "web": "https://www.getyourguide.com/s/?q=Lisbon",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Experiencia al atardecer",
@@ -280,7 +302,8 @@
           "proveedor": "Slow Travel Lisboa",
           "contacto": "slow@lisboa.local",
           "horario": "Atardecer",
-          "web": "https://www.getyourguide.com/s/?q=Lisbon"
+          "web": "https://www.getyourguide.com/s/?q=Lisbon",
+          "costeEstimado": "25-75 €"
         },
         {
           "titulo": "Audioguia express",
@@ -288,7 +311,8 @@
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
           "horario": "Durante apertura",
-          "web": "https://www.tiqets.com/en/search/?query=Lisbon"
+          "web": "https://www.tiqets.com/en/search/?query=Lisbon",
+          "costeEstimado": "5-20 €"
         }
       ],
       "web": "https://www.visitlisboa.com/en/places/miradouro-de-santa-luzia"
@@ -318,7 +342,8 @@
           "proveedor": "Guias Locales Lisboa",
           "contacto": "hola@lisboa.local",
           "horario": "10:00 - 12:00",
-          "web": "https://www.getyourguide.com/s/?q=Lisbon"
+          "web": "https://www.getyourguide.com/s/?q=Lisbon",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Paseo fotografico",
@@ -326,7 +351,8 @@
           "proveedor": "Photo Walk Lisboa",
           "contacto": "foto@lisboawalk.local",
           "horario": "Atardecer",
-          "web": "https://www.withlocals.com/search/?q=Lisbon"
+          "web": "https://www.withlocals.com/search/?q=Lisbon",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Tour privado a medida",
@@ -334,7 +360,8 @@
           "proveedor": "Travel Designers Lisboa",
           "contacto": "plan@lisboatravel.local",
           "horario": "Bajo reserva",
-          "web": "https://www.getyourguide.com/s/?q=Lisbon"
+          "web": "https://www.getyourguide.com/s/?q=Lisbon",
+          "costeEstimado": "90-180 €"
         },
         {
           "titulo": "Ruta familiar",
@@ -342,7 +369,8 @@
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
           "horario": "11:00 - 12:30",
-          "web": "https://www.getyourguide.com/s/?q=Lisbon"
+          "web": "https://www.getyourguide.com/s/?q=Lisbon",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Experiencia al atardecer",
@@ -350,7 +378,8 @@
           "proveedor": "Slow Travel Lisboa",
           "contacto": "slow@lisboa.local",
           "horario": "Atardecer",
-          "web": "https://www.getyourguide.com/s/?q=Lisbon"
+          "web": "https://www.getyourguide.com/s/?q=Lisbon",
+          "costeEstimado": "25-75 €"
         },
         {
           "titulo": "Audioguia express",
@@ -358,7 +387,8 @@
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
           "horario": "Durante apertura",
-          "web": "https://www.tiqets.com/en/search/?query=Lisbon"
+          "web": "https://www.tiqets.com/en/search/?query=Lisbon",
+          "costeEstimado": "5-20 €"
         }
       ],
       "web": "https://www.carris.pt/en/travel/elevators-and-funiculars/santa-justa-lift"
@@ -388,7 +418,8 @@
           "proveedor": "Walks Lisboa",
           "contacto": "walks@lisboa.local",
           "horario": "10:30 - 12:30",
-          "web": "https://www.civitatis.com/es/lisboa/"
+          "web": "https://www.civitatis.com/es/lisboa/",
+          "costeEstimado": "15-45 €"
         },
         {
           "titulo": "Paseo fotografico",
@@ -396,7 +427,8 @@
           "proveedor": "Photo Walk Lisboa",
           "contacto": "foto@lisboawalk.local",
           "horario": "Atardecer",
-          "web": "https://www.withlocals.com/search/?q=Lisbon"
+          "web": "https://www.withlocals.com/search/?q=Lisbon",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Tour privado a medida",
@@ -404,7 +436,8 @@
           "proveedor": "Travel Designers Lisboa",
           "contacto": "plan@lisboatravel.local",
           "horario": "Bajo reserva",
-          "web": "https://www.getyourguide.com/s/?q=Lisbon"
+          "web": "https://www.getyourguide.com/s/?q=Lisbon",
+          "costeEstimado": "90-180 €"
         },
         {
           "titulo": "Ruta familiar",
@@ -412,7 +445,8 @@
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
           "horario": "11:00 - 12:30",
-          "web": "https://www.getyourguide.com/s/?q=Lisbon"
+          "web": "https://www.getyourguide.com/s/?q=Lisbon",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Experiencia al atardecer",
@@ -420,7 +454,8 @@
           "proveedor": "Slow Travel Lisboa",
           "contacto": "slow@lisboa.local",
           "horario": "Atardecer",
-          "web": "https://www.getyourguide.com/s/?q=Lisbon"
+          "web": "https://www.getyourguide.com/s/?q=Lisbon",
+          "costeEstimado": "25-75 €"
         },
         {
           "titulo": "Audioguia express",
@@ -428,7 +463,8 @@
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
           "horario": "Durante apertura",
-          "web": "https://www.tiqets.com/en/search/?query=Lisbon"
+          "web": "https://www.tiqets.com/en/search/?query=Lisbon",
+          "costeEstimado": "5-20 €"
         }
       ],
       "web": "https://lxfactory.com"
@@ -458,7 +494,8 @@
           "proveedor": "Sabores de Lisboa",
           "contacto": "sabores@lisboa.local",
           "horario": "12:00 - 14:00",
-          "web": "https://www.tasteoflisboa.com"
+          "web": "https://www.tasteoflisboa.com",
+          "costeEstimado": "35-90 €"
         },
         {
           "titulo": "Paseo fotografico",
@@ -466,7 +503,8 @@
           "proveedor": "Photo Walk Lisboa",
           "contacto": "foto@lisboawalk.local",
           "horario": "Atardecer",
-          "web": "https://www.withlocals.com/search/?q=Lisbon"
+          "web": "https://www.withlocals.com/search/?q=Lisbon",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Tour privado a medida",
@@ -474,7 +512,8 @@
           "proveedor": "Travel Designers Lisboa",
           "contacto": "plan@lisboatravel.local",
           "horario": "Bajo reserva",
-          "web": "https://www.getyourguide.com/s/?q=Lisbon"
+          "web": "https://www.getyourguide.com/s/?q=Lisbon",
+          "costeEstimado": "90-180 €"
         },
         {
           "titulo": "Ruta familiar",
@@ -482,7 +521,8 @@
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
           "horario": "11:00 - 12:30",
-          "web": "https://www.getyourguide.com/s/?q=Lisbon"
+          "web": "https://www.getyourguide.com/s/?q=Lisbon",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Experiencia al atardecer",
@@ -490,7 +530,8 @@
           "proveedor": "Slow Travel Lisboa",
           "contacto": "slow@lisboa.local",
           "horario": "Atardecer",
-          "web": "https://www.getyourguide.com/s/?q=Lisbon"
+          "web": "https://www.getyourguide.com/s/?q=Lisbon",
+          "costeEstimado": "25-75 €"
         },
         {
           "titulo": "Audioguia express",
@@ -498,7 +539,8 @@
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
           "horario": "Durante apertura",
-          "web": "https://www.tiqets.com/en/search/?query=Lisbon"
+          "web": "https://www.tiqets.com/en/search/?query=Lisbon",
+          "costeEstimado": "5-20 €"
         }
       ],
       "web": "https://www.timeoutmarket.com/lisboa"
@@ -528,7 +570,8 @@
           "proveedor": "Museo Nacional del Azulejo Educacion",
           "contacto": "educacion@lisboa.local",
           "horario": "10:00 - 12:00",
-          "web": "https://www.museudoazulejo.gov.pt"
+          "web": "https://www.museudoazulejo.gov.pt",
+          "costeEstimado": "20-65 €"
         },
         {
           "titulo": "Paseo fotografico",
@@ -536,7 +579,8 @@
           "proveedor": "Photo Walk Lisboa",
           "contacto": "foto@lisboawalk.local",
           "horario": "Atardecer",
-          "web": "https://www.withlocals.com/search/?q=Lisbon"
+          "web": "https://www.withlocals.com/search/?q=Lisbon",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Tour privado a medida",
@@ -544,7 +588,8 @@
           "proveedor": "Travel Designers Lisboa",
           "contacto": "plan@lisboatravel.local",
           "horario": "Bajo reserva",
-          "web": "https://www.getyourguide.com/s/?q=Lisbon"
+          "web": "https://www.getyourguide.com/s/?q=Lisbon",
+          "costeEstimado": "90-180 €"
         },
         {
           "titulo": "Ruta familiar",
@@ -552,7 +597,8 @@
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
           "horario": "11:00 - 12:30",
-          "web": "https://www.getyourguide.com/s/?q=Lisbon"
+          "web": "https://www.getyourguide.com/s/?q=Lisbon",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Experiencia al atardecer",
@@ -560,7 +606,8 @@
           "proveedor": "Slow Travel Lisboa",
           "contacto": "slow@lisboa.local",
           "horario": "Atardecer",
-          "web": "https://www.getyourguide.com/s/?q=Lisbon"
+          "web": "https://www.getyourguide.com/s/?q=Lisbon",
+          "costeEstimado": "25-75 €"
         },
         {
           "titulo": "Audioguia express",
@@ -568,7 +615,8 @@
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
           "horario": "Durante apertura",
-          "web": "https://www.tiqets.com/en/search/?query=Lisbon"
+          "web": "https://www.tiqets.com/en/search/?query=Lisbon",
+          "costeEstimado": "5-20 €"
         }
       ],
       "web": "https://www.museudoazulejo.gov.pt"
@@ -598,7 +646,8 @@
           "proveedor": "Walks Lisboa",
           "contacto": "walks@lisboa.local",
           "horario": "10:30 - 12:30",
-          "web": "https://www.visitlisboa.com/en/places/parque-eduardo-vii"
+          "web": "https://www.visitlisboa.com/en/places/parque-eduardo-vii",
+          "costeEstimado": "15-50 €"
         },
         {
           "titulo": "Paseo fotografico",
@@ -606,7 +655,8 @@
           "proveedor": "Photo Walk Lisboa",
           "contacto": "foto@lisboawalk.local",
           "horario": "Atardecer",
-          "web": "https://www.withlocals.com/search/?q=Lisbon"
+          "web": "https://www.withlocals.com/search/?q=Lisbon",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Tour privado a medida",
@@ -614,7 +664,8 @@
           "proveedor": "Travel Designers Lisboa",
           "contacto": "plan@lisboatravel.local",
           "horario": "Bajo reserva",
-          "web": "https://www.getyourguide.com/s/?q=Lisbon"
+          "web": "https://www.getyourguide.com/s/?q=Lisbon",
+          "costeEstimado": "90-180 €"
         },
         {
           "titulo": "Ruta familiar",
@@ -622,7 +673,8 @@
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
           "horario": "11:00 - 12:30",
-          "web": "https://www.getyourguide.com/s/?q=Lisbon"
+          "web": "https://www.getyourguide.com/s/?q=Lisbon",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Experiencia al atardecer",
@@ -630,7 +682,8 @@
           "proveedor": "Slow Travel Lisboa",
           "contacto": "slow@lisboa.local",
           "horario": "Atardecer",
-          "web": "https://www.getyourguide.com/s/?q=Lisbon"
+          "web": "https://www.getyourguide.com/s/?q=Lisbon",
+          "costeEstimado": "25-75 €"
         },
         {
           "titulo": "Audioguia express",
@@ -638,7 +691,8 @@
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
           "horario": "Durante apertura",
-          "web": "https://www.tiqets.com/en/search/?query=Lisbon"
+          "web": "https://www.tiqets.com/en/search/?query=Lisbon",
+          "costeEstimado": "5-20 €"
         }
       ],
       "web": "https://www.visitlisboa.com/en/places/parque-eduardo-vii"

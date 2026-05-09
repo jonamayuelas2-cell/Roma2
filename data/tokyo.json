@@ -24,7 +24,8 @@
         "proveedor": "Walks Tokio",
         "contacto": "walks@tokio.local",
         "horario": "10:30 - 12:30",
-        "web": "https://www.civitatis.com/es/tokio/"
+        "web": "https://www.civitatis.com/es/tokio/",
+        "costeEstimado": "15-45 €"
       },
       {
         "titulo": "Ruta gastronomica local",
@@ -32,7 +33,8 @@
         "proveedor": "Sabores de Tokio",
         "contacto": "sabores@tokio.local",
         "horario": "13:00 - 15:00",
-        "web": "https://www.byfood.com/food-tours/tokyo"
+        "web": "https://www.byfood.com/food-tours/tokyo",
+        "costeEstimado": "35-90 €"
       },
       {
         "titulo": "Fotografia urbana",
@@ -40,7 +42,8 @@
         "proveedor": "Photo Walk Tokio",
         "contacto": "foto@tokiowalk.local",
         "horario": "Atardecer",
-        "web": "https://www.withlocals.com/search/?q=Tokyo"
+        "web": "https://www.withlocals.com/search/?q=Tokyo",
+        "costeEstimado": "40-120 €"
       },
       {
         "titulo": "Historias del vecindario",
@@ -48,7 +51,8 @@
         "proveedor": "Cronicas Tokio",
         "contacto": "cronicas@tokio.local",
         "horario": "17:00 - 18:30",
-        "web": "https://www.civitatis.com/es/tokio/"
+        "web": "https://www.civitatis.com/es/tokio/",
+        "costeEstimado": "15-45 €"
       },
       {
         "titulo": "Compras con guia local",
@@ -56,7 +60,8 @@
         "proveedor": "Local Shops Tokio",
         "contacto": "shops@tokio.local",
         "horario": "11:00 - 13:00",
-        "web": "https://www.getyourguide.com/s/?q=Tokyo"
+        "web": "https://www.getyourguide.com/s/?q=Tokyo",
+        "costeEstimado": "20-60 €"
       },
       {
         "titulo": "Noche de ambiente",
@@ -64,7 +69,8 @@
         "proveedor": "After Dark Tokio",
         "contacto": "noche@tokio.local",
         "horario": "20:00 - 22:00",
-        "web": "https://www.getyourguide.com/s/?q=Tokyo"
+        "web": "https://www.getyourguide.com/s/?q=Tokyo",
+        "costeEstimado": "25-75 €"
       }
     ],
     "web": "https://www.gotokyo.org/en/spot/52/index.html"
@@ -94,7 +100,8 @@
         "proveedor": "Historia Viva Tokio",
         "contacto": "reservas@historiatokio.local",
         "horario": "10:00 - 12:00",
-        "web": "https://www.getyourguide.com/s/?q=Tokyo"
+        "web": "https://www.getyourguide.com/s/?q=Tokyo",
+        "costeEstimado": "25-70 €"
       },
       {
         "titulo": "Acceso con contexto local",
@@ -102,7 +109,8 @@
         "proveedor": "Guias Locales Tokio",
         "contacto": "hola@tokiolocal.local",
         "horario": "12:00 - 14:00",
-        "web": "https://www.getyourguide.com/s/?q=Tokyo"
+        "web": "https://www.getyourguide.com/s/?q=Tokyo",
+        "costeEstimado": "25-70 €"
       },
       {
         "titulo": "Paseo fotografico",
@@ -110,7 +118,8 @@
         "proveedor": "Photo Walk Tokio",
         "contacto": "foto@tokiowalk.local",
         "horario": "Atardecer",
-        "web": "https://www.withlocals.com/search/?q=Tokyo"
+        "web": "https://www.withlocals.com/search/?q=Tokyo",
+        "costeEstimado": "40-120 €"
       },
       {
         "titulo": "Ruta de leyendas",
@@ -118,7 +127,8 @@
         "proveedor": "Relatos de Tokio",
         "contacto": "relatos@tokio.local",
         "horario": "18:00 - 19:30",
-        "web": "https://www.civitatis.com/es/tokio/"
+        "web": "https://www.civitatis.com/es/tokio/",
+        "costeEstimado": "15-45 €"
       },
       {
         "titulo": "Visita familiar",
@@ -126,7 +136,8 @@
         "proveedor": "Familias Viajeras",
         "contacto": "familias@viaje.local",
         "horario": "11:00 - 12:30",
-        "web": "https://www.getyourguide.com/s/?q=Tokyo"
+        "web": "https://www.getyourguide.com/s/?q=Tokyo",
+        "costeEstimado": "25-70 €"
       },
       {
         "titulo": "Audioguia express",
@@ -134,7 +145,8 @@
         "proveedor": "Audio Travel",
         "contacto": "audio@travel.local",
         "horario": "Durante apertura",
-        "web": "https://www.tiqets.com/en/search/?query=Tokyo"
+        "web": "https://www.tiqets.com/en/search/?query=Tokyo",
+        "costeEstimado": "5-20 €"
       }
     ],
     "web": "https://www.senso-ji.jp"
@@ -164,7 +176,8 @@
         "proveedor": "Historia Viva Tokio",
         "contacto": "reservas@historiatokio.local",
         "horario": "10:00 - 12:00",
-        "web": "https://www.getyourguide.com/s/?q=Tokyo"
+        "web": "https://www.getyourguide.com/s/?q=Tokyo",
+        "costeEstimado": "25-70 €"
       },
       {
         "titulo": "Acceso con contexto local",
@@ -172,7 +185,8 @@
         "proveedor": "Guias Locales Tokio",
         "contacto": "hola@tokiolocal.local",
         "horario": "12:00 - 14:00",
-        "web": "https://www.getyourguide.com/s/?q=Tokyo"
+        "web": "https://www.getyourguide.com/s/?q=Tokyo",
+        "costeEstimado": "25-70 €"
       },
       {
         "titulo": "Paseo fotografico",
@@ -180,7 +194,8 @@
         "proveedor": "Photo Walk Tokio",
         "contacto": "foto@tokiowalk.local",
         "horario": "Atardecer",
-        "web": "https://www.withlocals.com/search/?q=Tokyo"
+        "web": "https://www.withlocals.com/search/?q=Tokyo",
+        "costeEstimado": "40-120 €"
       },
       {
         "titulo": "Ruta de leyendas",
@@ -188,7 +203,8 @@
         "proveedor": "Relatos de Tokio",
         "contacto": "relatos@tokio.local",
         "horario": "18:00 - 19:30",
-        "web": "https://www.civitatis.com/es/tokio/"
+        "web": "https://www.civitatis.com/es/tokio/",
+        "costeEstimado": "15-45 €"
       },
       {
         "titulo": "Visita familiar",
@@ -196,7 +212,8 @@
         "proveedor": "Familias Viajeras",
         "contacto": "familias@viaje.local",
         "horario": "11:00 - 12:30",
-        "web": "https://www.getyourguide.com/s/?q=Tokyo"
+        "web": "https://www.getyourguide.com/s/?q=Tokyo",
+        "costeEstimado": "25-70 €"
       },
       {
         "titulo": "Audioguia express",
@@ -204,7 +221,8 @@
         "proveedor": "Audio Travel",
         "contacto": "audio@travel.local",
         "horario": "Durante apertura",
-        "web": "https://www.tiqets.com/en/search/?query=Tokyo"
+        "web": "https://www.tiqets.com/en/search/?query=Tokyo",
+        "costeEstimado": "5-20 €"
       }
     ],
     "web": "https://www.meijijingu.or.jp/en"
@@ -234,7 +252,8 @@
         "proveedor": "TeamLab Planets Educacion",
         "contacto": "educacion@teamlabplanets.local",
         "horario": "10:00 - 12:00",
-        "web": "https://www.teamlab.art/e/planets"
+        "web": "https://www.teamlab.art/e/planets",
+        "costeEstimado": "20-65 €"
       },
       {
         "titulo": "Ruta de obras imprescindibles",
@@ -242,7 +261,8 @@
         "proveedor": "Guias de Tokio",
         "contacto": "reservas@tokiotours.local",
         "horario": "12:30 - 14:00",
-        "web": "https://www.teamlab.art/e/planets"
+        "web": "https://www.teamlab.art/e/planets",
+        "costeEstimado": "20-65 €"
       },
       {
         "titulo": "Taller creativo",
@@ -250,7 +270,8 @@
         "proveedor": "Atelier Tokio",
         "contacto": "talleres@tokioatelier.local",
         "horario": "16:00 - 18:00",
-        "web": "https://www.teamlab.art/e/planets"
+        "web": "https://www.teamlab.art/e/planets",
+        "costeEstimado": "45-95 €"
       },
       {
         "titulo": "Audioguia express",
@@ -258,7 +279,8 @@
         "proveedor": "Audio Travel",
         "contacto": "audio@travel.local",
         "horario": "Durante apertura",
-        "web": "https://www.tiqets.com/en/search/?query=Tokyo"
+        "web": "https://www.tiqets.com/en/search/?query=Tokyo",
+        "costeEstimado": "5-20 €"
       },
       {
         "titulo": "Encuentro con especialista",
@@ -266,7 +288,8 @@
         "proveedor": "Cultura Tokio",
         "contacto": "info@culturatokio.local",
         "horario": "Consultar calendario",
-        "web": "https://www.teamlab.art/e/planets"
+        "web": "https://www.teamlab.art/e/planets",
+        "costeEstimado": "20-65 €"
       },
       {
         "titulo": "Paseo fotografico interior",
@@ -274,7 +297,8 @@
         "proveedor": "Photo Walk Tokio",
         "contacto": "foto@tokiowalk.local",
         "horario": "Ultima hora de apertura",
-        "web": "https://www.withlocals.com/search/?q=Tokyo"
+        "web": "https://www.withlocals.com/search/?q=Tokyo",
+        "costeEstimado": "40-120 €"
       }
     ],
     "web": "https://www.teamlab.art/e/planets"
@@ -304,7 +328,8 @@
         "proveedor": "Guias Locales Tokio",
         "contacto": "hola@tokiolocal.local",
         "horario": "10:00 - 12:00",
-        "web": "https://www.getyourguide.com/s/?q=Tokyo"
+        "web": "https://www.getyourguide.com/s/?q=Tokyo",
+        "costeEstimado": "25-70 €"
       },
       {
         "titulo": "Paseo fotografico",
@@ -312,7 +337,8 @@
         "proveedor": "Photo Walk Tokio",
         "contacto": "foto@tokiowalk.local",
         "horario": "Atardecer",
-        "web": "https://www.withlocals.com/search/?q=Tokyo"
+        "web": "https://www.withlocals.com/search/?q=Tokyo",
+        "costeEstimado": "40-120 €"
       },
       {
         "titulo": "Tour privado a medida",
@@ -320,7 +346,8 @@
         "proveedor": "Travel Designers Tokio",
         "contacto": "plan@tokiotravel.local",
         "horario": "Bajo reserva",
-        "web": "https://www.getyourguide.com/s/?q=Tokyo"
+        "web": "https://www.getyourguide.com/s/?q=Tokyo",
+        "costeEstimado": "90-180 €"
       },
       {
         "titulo": "Ruta familiar",
@@ -328,7 +355,8 @@
         "proveedor": "Familias Viajeras",
         "contacto": "familias@viaje.local",
         "horario": "11:00 - 12:30",
-        "web": "https://www.getyourguide.com/s/?q=Tokyo"
+        "web": "https://www.getyourguide.com/s/?q=Tokyo",
+        "costeEstimado": "25-70 €"
       },
       {
         "titulo": "Experiencia al atardecer",
@@ -336,7 +364,8 @@
         "proveedor": "Slow Travel Tokio",
         "contacto": "slow@tokio.local",
         "horario": "Atardecer",
-        "web": "https://www.getyourguide.com/s/?q=Tokyo"
+        "web": "https://www.getyourguide.com/s/?q=Tokyo",
+        "costeEstimado": "25-75 €"
       },
       {
         "titulo": "Audioguia express",
@@ -344,7 +373,8 @@
         "proveedor": "Audio Travel",
         "contacto": "audio@travel.local",
         "horario": "Durante apertura",
-        "web": "https://www.tiqets.com/en/search/?query=Tokyo"
+        "web": "https://www.tiqets.com/en/search/?query=Tokyo",
+        "costeEstimado": "5-20 €"
       }
     ],
     "web": "https://www.tsukiji.or.jp/english"
@@ -374,7 +404,8 @@
         "proveedor": "Walks Tokio",
         "contacto": "walks@tokio.local",
         "horario": "10:30 - 12:30",
-        "web": "https://www.civitatis.com/es/tokio/"
+        "web": "https://www.civitatis.com/es/tokio/",
+        "costeEstimado": "15-45 €"
       },
       {
         "titulo": "Ruta gastronomica local",
@@ -382,7 +413,8 @@
         "proveedor": "Sabores de Tokio",
         "contacto": "sabores@tokio.local",
         "horario": "13:00 - 15:00",
-        "web": "https://www.byfood.com/food-tours/tokyo"
+        "web": "https://www.byfood.com/food-tours/tokyo",
+        "costeEstimado": "35-90 €"
       },
       {
         "titulo": "Fotografia urbana",
@@ -390,7 +422,8 @@
         "proveedor": "Photo Walk Tokio",
         "contacto": "foto@tokiowalk.local",
         "horario": "Atardecer",
-        "web": "https://www.withlocals.com/search/?q=Tokyo"
+        "web": "https://www.withlocals.com/search/?q=Tokyo",
+        "costeEstimado": "40-120 €"
       },
       {
         "titulo": "Historias del vecindario",
@@ -398,7 +431,8 @@
         "proveedor": "Cronicas Tokio",
         "contacto": "cronicas@tokio.local",
         "horario": "17:00 - 18:30",
-        "web": "https://www.civitatis.com/es/tokio/"
+        "web": "https://www.civitatis.com/es/tokio/",
+        "costeEstimado": "15-45 €"
       },
       {
         "titulo": "Compras con guia local",
@@ -406,7 +440,8 @@
         "proveedor": "Local Shops Tokio",
         "contacto": "shops@tokio.local",
         "horario": "11:00 - 13:00",
-        "web": "https://www.getyourguide.com/s/?q=Tokyo"
+        "web": "https://www.getyourguide.com/s/?q=Tokyo",
+        "costeEstimado": "20-60 €"
       },
       {
         "titulo": "Noche de ambiente",
@@ -414,7 +449,8 @@
         "proveedor": "After Dark Tokio",
         "contacto": "noche@tokio.local",
         "horario": "20:00 - 22:00",
-        "web": "https://www.getyourguide.com/s/?q=Tokyo"
+        "web": "https://www.getyourguide.com/s/?q=Tokyo",
+        "costeEstimado": "25-75 €"
       }
     ],
     "web": "https://www.gotokyo.org/en/destinations/central-tokyo/akihabara/index.html"
@@ -444,7 +480,8 @@
         "proveedor": "Green Tokio",
         "contacto": "green@tokio.local",
         "horario": "10:00 - 11:30",
-        "web": "https://www.kensetsu.metro.tokyo.lg.jp/jimusho/toubuk/ueno/en_index.html"
+        "web": "https://www.kensetsu.metro.tokyo.lg.jp/jimusho/toubuk/ueno/en_index.html",
+        "costeEstimado": "15-50 €"
       },
       {
         "titulo": "Picnic con producto local",
@@ -452,7 +489,8 @@
         "proveedor": "Picnic Tokio",
         "contacto": "picnic@tokio.local",
         "horario": "13:00 - 15:00",
-        "web": "https://www.kensetsu.metro.tokyo.lg.jp/jimusho/toubuk/ueno/en_index.html"
+        "web": "https://www.kensetsu.metro.tokyo.lg.jp/jimusho/toubuk/ueno/en_index.html",
+        "costeEstimado": "15-50 €"
       },
       {
         "titulo": "Ruta fotografica natural",
@@ -460,7 +498,8 @@
         "proveedor": "Photo Walk Tokio",
         "contacto": "foto@tokiowalk.local",
         "horario": "Atardecer",
-        "web": "https://www.withlocals.com/search/?q=Tokyo"
+        "web": "https://www.withlocals.com/search/?q=Tokyo",
+        "costeEstimado": "40-120 €"
       },
       {
         "titulo": "Actividad familiar al aire libre",
@@ -468,7 +507,8 @@
         "proveedor": "Familias Viajeras",
         "contacto": "familias@viaje.local",
         "horario": "11:00 - 12:30",
-        "web": "https://www.getyourguide.com/s/?q=Tokyo"
+        "web": "https://www.getyourguide.com/s/?q=Tokyo",
+        "costeEstimado": "25-70 €"
       },
       {
         "titulo": "Bienestar y estiramientos",
@@ -476,7 +516,8 @@
         "proveedor": "Wellness Tokio",
         "contacto": "wellness@tokio.local",
         "horario": "08:30 - 09:30",
-        "web": "https://www.getyourguide.com/s/?q=Tokyo"
+        "web": "https://www.getyourguide.com/s/?q=Tokyo",
+        "costeEstimado": "15-50 €"
       },
       {
         "titulo": "Miradores y rincones tranquilos",
@@ -484,7 +525,8 @@
         "proveedor": "Slow Travel Tokio",
         "contacto": "slow@tokio.local",
         "horario": "16:30 - 18:00",
-        "web": "https://www.kensetsu.metro.tokyo.lg.jp/jimusho/toubuk/ueno/en_index.html"
+        "web": "https://www.kensetsu.metro.tokyo.lg.jp/jimusho/toubuk/ueno/en_index.html",
+        "costeEstimado": "15-50 €"
       }
     ],
     "web": "https://www.kensetsu.metro.tokyo.lg.jp/jimusho/toubuk/ueno/en_index.html"
@@ -514,7 +556,8 @@
         "proveedor": "Historia Viva Tokio",
         "contacto": "reservas@historiatokio.local",
         "horario": "10:00 - 12:00",
-        "web": "https://www.getyourguide.com/s/?q=Tokyo"
+        "web": "https://www.getyourguide.com/s/?q=Tokyo",
+        "costeEstimado": "25-70 €"
       },
       {
         "titulo": "Acceso con contexto local",
@@ -522,7 +565,8 @@
         "proveedor": "Guias Locales Tokio",
         "contacto": "hola@tokiolocal.local",
         "horario": "12:00 - 14:00",
-        "web": "https://www.getyourguide.com/s/?q=Tokyo"
+        "web": "https://www.getyourguide.com/s/?q=Tokyo",
+        "costeEstimado": "25-70 €"
       },
       {
         "titulo": "Paseo fotografico",
@@ -530,7 +574,8 @@
         "proveedor": "Photo Walk Tokio",
         "contacto": "foto@tokiowalk.local",
         "horario": "Atardecer",
-        "web": "https://www.withlocals.com/search/?q=Tokyo"
+        "web": "https://www.withlocals.com/search/?q=Tokyo",
+        "costeEstimado": "40-120 €"
       },
       {
         "titulo": "Ruta de leyendas",
@@ -538,7 +583,8 @@
         "proveedor": "Relatos de Tokio",
         "contacto": "relatos@tokio.local",
         "horario": "18:00 - 19:30",
-        "web": "https://www.civitatis.com/es/tokio/"
+        "web": "https://www.civitatis.com/es/tokio/",
+        "costeEstimado": "15-45 €"
       },
       {
         "titulo": "Visita familiar",
@@ -546,7 +592,8 @@
         "proveedor": "Familias Viajeras",
         "contacto": "familias@viaje.local",
         "horario": "11:00 - 12:30",
-        "web": "https://www.getyourguide.com/s/?q=Tokyo"
+        "web": "https://www.getyourguide.com/s/?q=Tokyo",
+        "costeEstimado": "25-70 €"
       },
       {
         "titulo": "Audioguia express",
@@ -554,7 +601,8 @@
         "proveedor": "Audio Travel",
         "contacto": "audio@travel.local",
         "horario": "Durante apertura",
-        "web": "https://www.tiqets.com/en/search/?query=Tokyo"
+        "web": "https://www.tiqets.com/en/search/?query=Tokyo",
+        "costeEstimado": "5-20 €"
       }
     ],
     "web": "https://www.tokyo-skytree.jp/en"
@@ -584,7 +632,8 @@
         "proveedor": "Walks Tokio",
         "contacto": "walks@tokio.local",
         "horario": "10:30 - 12:30",
-        "web": "https://www.civitatis.com/es/tokio/"
+        "web": "https://www.civitatis.com/es/tokio/",
+        "costeEstimado": "15-45 €"
       },
       {
         "titulo": "Ruta gastronomica local",
@@ -592,7 +641,8 @@
         "proveedor": "Sabores de Tokio",
         "contacto": "sabores@tokio.local",
         "horario": "13:00 - 15:00",
-        "web": "https://www.byfood.com/food-tours/tokyo"
+        "web": "https://www.byfood.com/food-tours/tokyo",
+        "costeEstimado": "35-90 €"
       },
       {
         "titulo": "Fotografia urbana",
@@ -600,7 +650,8 @@
         "proveedor": "Photo Walk Tokio",
         "contacto": "foto@tokiowalk.local",
         "horario": "Atardecer",
-        "web": "https://www.withlocals.com/search/?q=Tokyo"
+        "web": "https://www.withlocals.com/search/?q=Tokyo",
+        "costeEstimado": "40-120 €"
       },
       {
         "titulo": "Historias del vecindario",
@@ -608,7 +659,8 @@
         "proveedor": "Cronicas Tokio",
         "contacto": "cronicas@tokio.local",
         "horario": "17:00 - 18:30",
-        "web": "https://www.civitatis.com/es/tokio/"
+        "web": "https://www.civitatis.com/es/tokio/",
+        "costeEstimado": "15-45 €"
       },
       {
         "titulo": "Compras con guia local",
@@ -616,7 +668,8 @@
         "proveedor": "Local Shops Tokio",
         "contacto": "shops@tokio.local",
         "horario": "11:00 - 13:00",
-        "web": "https://www.getyourguide.com/s/?q=Tokyo"
+        "web": "https://www.getyourguide.com/s/?q=Tokyo",
+        "costeEstimado": "20-60 €"
       },
       {
         "titulo": "Noche de ambiente",
@@ -624,7 +677,8 @@
         "proveedor": "After Dark Tokio",
         "contacto": "noche@tokio.local",
         "horario": "20:00 - 22:00",
-        "web": "https://www.getyourguide.com/s/?q=Tokyo"
+        "web": "https://www.getyourguide.com/s/?q=Tokyo",
+        "costeEstimado": "25-75 €"
       }
     ],
     "web": "https://www.gotokyo.org/en/spot/463/index.html"

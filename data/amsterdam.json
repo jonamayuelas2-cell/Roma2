@@ -38,7 +38,8 @@
           "proveedor": "Casa de Ana Frank Educacion",
           "contacto": "educacion@casadeanafrank.local",
           "horario": "10:00 - 12:00",
-          "web": "https://www.annefrank.org"
+          "web": "https://www.annefrank.org",
+          "costeEstimado": "20-65 €"
         },
         {
           "titulo": "Ruta de obras imprescindibles",
@@ -46,7 +47,8 @@
           "proveedor": "Guias de Amsterdam",
           "contacto": "reservas@amsterdamtours.local",
           "horario": "12:30 - 14:00",
-          "web": "https://www.annefrank.org"
+          "web": "https://www.annefrank.org",
+          "costeEstimado": "20-65 €"
         },
         {
           "titulo": "Taller creativo",
@@ -54,7 +56,8 @@
           "proveedor": "Atelier Amsterdam",
           "contacto": "talleres@amsterdamatelier.local",
           "horario": "16:00 - 18:00",
-          "web": "https://www.annefrank.org"
+          "web": "https://www.annefrank.org",
+          "costeEstimado": "45-95 €"
         },
         {
           "titulo": "Audioguia express",
@@ -62,7 +65,8 @@
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
           "horario": "Durante apertura",
-          "web": "https://www.tiqets.com/en/search/?query=Amsterdam"
+          "web": "https://www.tiqets.com/en/search/?query=Amsterdam",
+          "costeEstimado": "5-20 €"
         },
         {
           "titulo": "Encuentro con especialista",
@@ -70,7 +74,8 @@
           "proveedor": "Cultura Amsterdam",
           "contacto": "info@culturaamsterdam.local",
           "horario": "Consultar calendario",
-          "web": "https://www.annefrank.org"
+          "web": "https://www.annefrank.org",
+          "costeEstimado": "20-65 €"
         },
         {
           "titulo": "Paseo fotografico interior",
@@ -78,7 +83,8 @@
           "proveedor": "Photo Walk Amsterdam",
           "contacto": "foto@amsterdamwalk.local",
           "horario": "Ultima hora de apertura",
-          "web": "https://www.withlocals.com/search/?q=Amsterdam"
+          "web": "https://www.withlocals.com/search/?q=Amsterdam",
+          "costeEstimado": "40-120 €"
         }
       ],
       "web": "https://www.annefrank.org"
@@ -108,7 +114,8 @@
           "proveedor": "Rijksmuseum Educacion",
           "contacto": "educacion@rijksmuseum.local",
           "horario": "10:00 - 12:00",
-          "web": "https://www.rijksmuseum.nl"
+          "web": "https://www.rijksmuseum.nl",
+          "costeEstimado": "20-65 €"
         },
         {
           "titulo": "Ruta de obras imprescindibles",
@@ -116,7 +123,8 @@
           "proveedor": "Guias de Amsterdam",
           "contacto": "reservas@amsterdamtours.local",
           "horario": "12:30 - 14:00",
-          "web": "https://www.rijksmuseum.nl"
+          "web": "https://www.rijksmuseum.nl",
+          "costeEstimado": "20-65 €"
         },
         {
           "titulo": "Taller creativo",
@@ -124,7 +132,8 @@
           "proveedor": "Atelier Amsterdam",
           "contacto": "talleres@amsterdamatelier.local",
           "horario": "16:00 - 18:00",
-          "web": "https://www.rijksmuseum.nl"
+          "web": "https://www.rijksmuseum.nl",
+          "costeEstimado": "45-95 €"
         },
         {
           "titulo": "Audioguia express",
@@ -132,7 +141,8 @@
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
           "horario": "Durante apertura",
-          "web": "https://www.tiqets.com/en/search/?query=Amsterdam"
+          "web": "https://www.tiqets.com/en/search/?query=Amsterdam",
+          "costeEstimado": "5-20 €"
         },
         {
           "titulo": "Encuentro con especialista",
@@ -140,7 +150,8 @@
           "proveedor": "Cultura Amsterdam",
           "contacto": "info@culturaamsterdam.local",
           "horario": "Consultar calendario",
-          "web": "https://www.rijksmuseum.nl"
+          "web": "https://www.rijksmuseum.nl",
+          "costeEstimado": "20-65 €"
         },
         {
           "titulo": "Paseo fotografico interior",
@@ -148,7 +159,8 @@
           "proveedor": "Photo Walk Amsterdam",
           "contacto": "foto@amsterdamwalk.local",
           "horario": "Ultima hora de apertura",
-          "web": "https://www.withlocals.com/search/?q=Amsterdam"
+          "web": "https://www.withlocals.com/search/?q=Amsterdam",
+          "costeEstimado": "40-120 €"
         }
       ],
       "web": "https://www.rijksmuseum.nl"
@@ -178,7 +190,8 @@
           "proveedor": "Museo Van Gogh Educacion",
           "contacto": "educacion@museovangogh.local",
           "horario": "10:00 - 12:00",
-          "web": "https://www.vangoghmuseum.nl"
+          "web": "https://www.vangoghmuseum.nl",
+          "costeEstimado": "20-65 €"
         },
         {
           "titulo": "Ruta de obras imprescindibles",
@@ -186,7 +199,8 @@
           "proveedor": "Guias de Amsterdam",
           "contacto": "reservas@amsterdamtours.local",
           "horario": "12:30 - 14:00",
-          "web": "https://www.vangoghmuseum.nl"
+          "web": "https://www.vangoghmuseum.nl",
+          "costeEstimado": "20-65 €"
         },
         {
           "titulo": "Taller creativo",
@@ -194,7 +208,8 @@
           "proveedor": "Atelier Amsterdam",
           "contacto": "talleres@amsterdamatelier.local",
           "horario": "16:00 - 18:00",
-          "web": "https://www.vangoghmuseum.nl"
+          "web": "https://www.vangoghmuseum.nl",
+          "costeEstimado": "45-95 €"
         },
         {
           "titulo": "Audioguia express",
@@ -202,7 +217,8 @@
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
           "horario": "Durante apertura",
-          "web": "https://www.tiqets.com/en/search/?query=Amsterdam"
+          "web": "https://www.tiqets.com/en/search/?query=Amsterdam",
+          "costeEstimado": "5-20 €"
         },
         {
           "titulo": "Encuentro con especialista",
@@ -210,7 +226,8 @@
           "proveedor": "Cultura Amsterdam",
           "contacto": "info@culturaamsterdam.local",
           "horario": "Consultar calendario",
-          "web": "https://www.vangoghmuseum.nl"
+          "web": "https://www.vangoghmuseum.nl",
+          "costeEstimado": "20-65 €"
         },
         {
           "titulo": "Paseo fotografico interior",
@@ -218,7 +235,8 @@
           "proveedor": "Photo Walk Amsterdam",
           "contacto": "foto@amsterdamwalk.local",
           "horario": "Ultima hora de apertura",
-          "web": "https://www.withlocals.com/search/?q=Amsterdam"
+          "web": "https://www.withlocals.com/search/?q=Amsterdam",
+          "costeEstimado": "40-120 €"
         }
       ],
       "web": "https://www.vangoghmuseum.nl"
@@ -248,7 +266,8 @@
           "proveedor": "Green Amsterdam",
           "contacto": "green@amsterdam.local",
           "horario": "10:00 - 11:30",
-          "web": "https://www.iamsterdam.com/en/whats-on/calendar/nature-and-active/parks-and-beaches/vondelpark"
+          "web": "https://www.iamsterdam.com/en/whats-on/calendar/nature-and-active/parks-and-beaches/vondelpark",
+          "costeEstimado": "15-50 €"
         },
         {
           "titulo": "Picnic con producto local",
@@ -256,7 +275,8 @@
           "proveedor": "Picnic Amsterdam",
           "contacto": "picnic@amsterdam.local",
           "horario": "13:00 - 15:00",
-          "web": "https://www.iamsterdam.com/en/whats-on/calendar/nature-and-active/parks-and-beaches/vondelpark"
+          "web": "https://www.iamsterdam.com/en/whats-on/calendar/nature-and-active/parks-and-beaches/vondelpark",
+          "costeEstimado": "15-50 €"
         },
         {
           "titulo": "Ruta fotografica natural",
@@ -264,7 +284,8 @@
           "proveedor": "Photo Walk Amsterdam",
           "contacto": "foto@amsterdamwalk.local",
           "horario": "Atardecer",
-          "web": "https://www.withlocals.com/search/?q=Amsterdam"
+          "web": "https://www.withlocals.com/search/?q=Amsterdam",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Actividad familiar al aire libre",
@@ -272,7 +293,8 @@
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
           "horario": "11:00 - 12:30",
-          "web": "https://www.getyourguide.com/s/?q=Amsterdam"
+          "web": "https://www.getyourguide.com/s/?q=Amsterdam",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Bienestar y estiramientos",
@@ -280,7 +302,8 @@
           "proveedor": "Wellness Amsterdam",
           "contacto": "wellness@amsterdam.local",
           "horario": "08:30 - 09:30",
-          "web": "https://www.getyourguide.com/s/?q=Amsterdam"
+          "web": "https://www.getyourguide.com/s/?q=Amsterdam",
+          "costeEstimado": "15-50 €"
         },
         {
           "titulo": "Miradores y rincones tranquilos",
@@ -288,7 +311,8 @@
           "proveedor": "Slow Travel Amsterdam",
           "contacto": "slow@amsterdam.local",
           "horario": "16:30 - 18:00",
-          "web": "https://www.iamsterdam.com/en/whats-on/calendar/nature-and-active/parks-and-beaches/vondelpark"
+          "web": "https://www.iamsterdam.com/en/whats-on/calendar/nature-and-active/parks-and-beaches/vondelpark",
+          "costeEstimado": "15-50 €"
         }
       ],
       "web": "https://www.iamsterdam.com/en/whats-on/calendar/nature-and-active/parks-and-beaches/vondelpark"
@@ -318,7 +342,8 @@
           "proveedor": "Guias Locales Amsterdam",
           "contacto": "hola@amsterdamlocal.local",
           "horario": "10:00 - 12:00",
-          "web": "https://www.getyourguide.com/s/?q=Amsterdam"
+          "web": "https://www.getyourguide.com/s/?q=Amsterdam",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Paseo fotografico",
@@ -326,7 +351,8 @@
           "proveedor": "Photo Walk Amsterdam",
           "contacto": "foto@amsterdamwalk.local",
           "horario": "Atardecer",
-          "web": "https://www.withlocals.com/search/?q=Amsterdam"
+          "web": "https://www.withlocals.com/search/?q=Amsterdam",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Tour privado a medida",
@@ -334,7 +360,8 @@
           "proveedor": "Travel Designers Amsterdam",
           "contacto": "plan@amsterdamtravel.local",
           "horario": "Bajo reserva",
-          "web": "https://www.getyourguide.com/s/?q=Amsterdam"
+          "web": "https://www.getyourguide.com/s/?q=Amsterdam",
+          "costeEstimado": "90-180 €"
         },
         {
           "titulo": "Ruta familiar",
@@ -342,7 +369,8 @@
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
           "horario": "11:00 - 12:30",
-          "web": "https://www.getyourguide.com/s/?q=Amsterdam"
+          "web": "https://www.getyourguide.com/s/?q=Amsterdam",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Experiencia al atardecer",
@@ -350,7 +378,8 @@
           "proveedor": "Slow Travel Amsterdam",
           "contacto": "slow@amsterdam.local",
           "horario": "Atardecer",
-          "web": "https://www.getyourguide.com/s/?q=Amsterdam"
+          "web": "https://www.getyourguide.com/s/?q=Amsterdam",
+          "costeEstimado": "25-75 €"
         },
         {
           "titulo": "Audioguia express",
@@ -358,7 +387,8 @@
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
           "horario": "Durante apertura",
-          "web": "https://www.tiqets.com/en/search/?query=Amsterdam"
+          "web": "https://www.tiqets.com/en/search/?query=Amsterdam",
+          "costeEstimado": "5-20 €"
         }
       ],
       "web": "https://www.iamsterdam.com/en/see-and-do/things-to-do/canals"
@@ -388,7 +418,8 @@
           "proveedor": "Walks Amsterdam",
           "contacto": "walks@amsterdam.local",
           "horario": "10:30 - 12:30",
-          "web": "https://www.civitatis.com/es/amsterdam/"
+          "web": "https://www.civitatis.com/es/amsterdam/",
+          "costeEstimado": "15-45 €"
         },
         {
           "titulo": "Ruta gastronomica local",
@@ -396,7 +427,8 @@
           "proveedor": "Sabores de Amsterdam",
           "contacto": "sabores@amsterdam.local",
           "horario": "13:00 - 15:00",
-          "web": "https://www.eatingeurope.com/amsterdam/"
+          "web": "https://www.eatingeurope.com/amsterdam/",
+          "costeEstimado": "35-90 €"
         },
         {
           "titulo": "Fotografia urbana",
@@ -404,7 +436,8 @@
           "proveedor": "Photo Walk Amsterdam",
           "contacto": "foto@amsterdamwalk.local",
           "horario": "Atardecer",
-          "web": "https://www.withlocals.com/search/?q=Amsterdam"
+          "web": "https://www.withlocals.com/search/?q=Amsterdam",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Historias del vecindario",
@@ -412,7 +445,8 @@
           "proveedor": "Cronicas Amsterdam",
           "contacto": "cronicas@amsterdam.local",
           "horario": "17:00 - 18:30",
-          "web": "https://www.civitatis.com/es/amsterdam/"
+          "web": "https://www.civitatis.com/es/amsterdam/",
+          "costeEstimado": "15-45 €"
         },
         {
           "titulo": "Compras con guia local",
@@ -420,7 +454,8 @@
           "proveedor": "Local Shops Amsterdam",
           "contacto": "shops@amsterdam.local",
           "horario": "11:00 - 13:00",
-          "web": "https://www.getyourguide.com/s/?q=Amsterdam"
+          "web": "https://www.getyourguide.com/s/?q=Amsterdam",
+          "costeEstimado": "20-60 €"
         },
         {
           "titulo": "Noche de ambiente",
@@ -428,7 +463,8 @@
           "proveedor": "After Dark Amsterdam",
           "contacto": "noche@amsterdam.local",
           "horario": "20:00 - 22:00",
-          "web": "https://www.getyourguide.com/s/?q=Amsterdam"
+          "web": "https://www.getyourguide.com/s/?q=Amsterdam",
+          "costeEstimado": "25-75 €"
         }
       ],
       "web": "https://www.iamsterdam.com/en/explore/neighbourhoods/jordaan"
@@ -458,7 +494,8 @@
           "proveedor": "Guias Locales Amsterdam",
           "contacto": "hola@amsterdamlocal.local",
           "horario": "10:00 - 12:00",
-          "web": "https://www.getyourguide.com/s/?q=Amsterdam"
+          "web": "https://www.getyourguide.com/s/?q=Amsterdam",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Paseo fotografico",
@@ -466,7 +503,8 @@
           "proveedor": "Photo Walk Amsterdam",
           "contacto": "foto@amsterdamwalk.local",
           "horario": "Atardecer",
-          "web": "https://www.withlocals.com/search/?q=Amsterdam"
+          "web": "https://www.withlocals.com/search/?q=Amsterdam",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Tour privado a medida",
@@ -474,7 +512,8 @@
           "proveedor": "Travel Designers Amsterdam",
           "contacto": "plan@amsterdamtravel.local",
           "horario": "Bajo reserva",
-          "web": "https://www.getyourguide.com/s/?q=Amsterdam"
+          "web": "https://www.getyourguide.com/s/?q=Amsterdam",
+          "costeEstimado": "90-180 €"
         },
         {
           "titulo": "Ruta familiar",
@@ -482,7 +521,8 @@
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
           "horario": "11:00 - 12:30",
-          "web": "https://www.getyourguide.com/s/?q=Amsterdam"
+          "web": "https://www.getyourguide.com/s/?q=Amsterdam",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Experiencia al atardecer",
@@ -490,7 +530,8 @@
           "proveedor": "Slow Travel Amsterdam",
           "contacto": "slow@amsterdam.local",
           "horario": "Atardecer",
-          "web": "https://www.getyourguide.com/s/?q=Amsterdam"
+          "web": "https://www.getyourguide.com/s/?q=Amsterdam",
+          "costeEstimado": "25-75 €"
         },
         {
           "titulo": "Audioguia express",
@@ -498,7 +539,8 @@
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
           "horario": "Durante apertura",
-          "web": "https://www.tiqets.com/en/search/?query=Amsterdam"
+          "web": "https://www.tiqets.com/en/search/?query=Amsterdam",
+          "costeEstimado": "5-20 €"
         }
       ],
       "web": "https://albertcuyp-markt.amsterdam"
@@ -528,7 +570,8 @@
           "proveedor": "Guias Locales Amsterdam",
           "contacto": "hola@amsterdamlocal.local",
           "horario": "10:00 - 12:00",
-          "web": "https://www.getyourguide.com/s/?q=Amsterdam"
+          "web": "https://www.getyourguide.com/s/?q=Amsterdam",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Paseo fotografico",
@@ -536,7 +579,8 @@
           "proveedor": "Photo Walk Amsterdam",
           "contacto": "foto@amsterdamwalk.local",
           "horario": "Atardecer",
-          "web": "https://www.withlocals.com/search/?q=Amsterdam"
+          "web": "https://www.withlocals.com/search/?q=Amsterdam",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Tour privado a medida",
@@ -544,7 +588,8 @@
           "proveedor": "Travel Designers Amsterdam",
           "contacto": "plan@amsterdamtravel.local",
           "horario": "Bajo reserva",
-          "web": "https://www.getyourguide.com/s/?q=Amsterdam"
+          "web": "https://www.getyourguide.com/s/?q=Amsterdam",
+          "costeEstimado": "90-180 €"
         },
         {
           "titulo": "Ruta familiar",
@@ -552,7 +597,8 @@
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
           "horario": "11:00 - 12:30",
-          "web": "https://www.getyourguide.com/s/?q=Amsterdam"
+          "web": "https://www.getyourguide.com/s/?q=Amsterdam",
+          "costeEstimado": "25-70 €"
         },
         {
           "titulo": "Experiencia al atardecer",
@@ -560,7 +606,8 @@
           "proveedor": "Slow Travel Amsterdam",
           "contacto": "slow@amsterdam.local",
           "horario": "Atardecer",
-          "web": "https://www.getyourguide.com/s/?q=Amsterdam"
+          "web": "https://www.getyourguide.com/s/?q=Amsterdam",
+          "costeEstimado": "25-75 €"
         },
         {
           "titulo": "Audioguia express",
@@ -568,7 +615,8 @@
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
           "horario": "Durante apertura",
-          "web": "https://www.tiqets.com/en/search/?query=Amsterdam"
+          "web": "https://www.tiqets.com/en/search/?query=Amsterdam",
+          "costeEstimado": "5-20 €"
         }
       ],
       "web": "https://www.iamsterdam.com/en/see-and-do/shopping/markets/bloemenmarkt"
@@ -598,7 +646,8 @@
           "proveedor": "Walks Amsterdam",
           "contacto": "walks@amsterdam.local",
           "horario": "10:30 - 12:30",
-          "web": "https://www.civitatis.com/es/amsterdam/"
+          "web": "https://www.civitatis.com/es/amsterdam/",
+          "costeEstimado": "15-45 €"
         },
         {
           "titulo": "Ruta gastronomica local",
@@ -606,7 +655,8 @@
           "proveedor": "Sabores de Amsterdam",
           "contacto": "sabores@amsterdam.local",
           "horario": "13:00 - 15:00",
-          "web": "https://www.eatingeurope.com/amsterdam/"
+          "web": "https://www.eatingeurope.com/amsterdam/",
+          "costeEstimado": "35-90 €"
         },
         {
           "titulo": "Fotografia urbana",
@@ -614,7 +664,8 @@
           "proveedor": "Photo Walk Amsterdam",
           "contacto": "foto@amsterdamwalk.local",
           "horario": "Atardecer",
-          "web": "https://www.withlocals.com/search/?q=Amsterdam"
+          "web": "https://www.withlocals.com/search/?q=Amsterdam",
+          "costeEstimado": "40-120 €"
         },
         {
           "titulo": "Historias del vecindario",
@@ -622,7 +673,8 @@
           "proveedor": "Cronicas Amsterdam",
           "contacto": "cronicas@amsterdam.local",
           "horario": "17:00 - 18:30",
-          "web": "https://www.civitatis.com/es/amsterdam/"
+          "web": "https://www.civitatis.com/es/amsterdam/",
+          "costeEstimado": "15-45 €"
         },
         {
           "titulo": "Compras con guia local",
@@ -630,7 +682,8 @@
           "proveedor": "Local Shops Amsterdam",
           "contacto": "shops@amsterdam.local",
           "horario": "11:00 - 13:00",
-          "web": "https://www.getyourguide.com/s/?q=Amsterdam"
+          "web": "https://www.getyourguide.com/s/?q=Amsterdam",
+          "costeEstimado": "20-60 €"
         },
         {
           "titulo": "Noche de ambiente",
@@ -638,7 +691,8 @@
           "proveedor": "After Dark Amsterdam",
           "contacto": "noche@amsterdam.local",
           "horario": "20:00 - 22:00",
-          "web": "https://www.getyourguide.com/s/?q=Amsterdam"
+          "web": "https://www.getyourguide.com/s/?q=Amsterdam",
+          "costeEstimado": "25-75 €"
         }
       ],
       "web": "https://www.ndsm.nl"
