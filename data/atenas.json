@@ -37,42 +37,48 @@
           "descripcion": "Recorrido guiado por Acropolis para conectar arquitectura, personajes y momentos clave de Atenas.",
           "proveedor": "Historia Viva Atenas",
           "contacto": "reservas@historiaatenas.local",
-          "horario": "10:00 - 12:00"
+          "horario": "10:00 - 12:00",
+          "web": "https://www.getyourguide.com/s/?q=Athens"
         },
         {
           "titulo": "Acceso con contexto local",
           "descripcion": "Visita pausada con explicaciones practicas para comprender por que este lugar sigue siendo imprescindible.",
           "proveedor": "Guias Locales Atenas",
           "contacto": "hola@atenaslocal.local",
-          "horario": "12:00 - 14:00"
+          "horario": "12:00 - 14:00",
+          "web": "https://www.getyourguide.com/s/?q=Athens"
         },
         {
           "titulo": "Paseo fotografico",
           "descripcion": "Itinerario para capturar fachadas, perspectivas y detalles con la mejor luz disponible.",
           "proveedor": "Photo Walk Atenas",
           "contacto": "foto@atenaswalk.local",
-          "horario": "Atardecer"
+          "horario": "Atardecer",
+          "web": "https://www.withlocals.com/search/?q=Athens"
         },
         {
           "titulo": "Ruta de leyendas",
           "descripcion": "Historias, simbolos y anecdotas alrededor de Acropolis, con tono narrativo y facil de seguir.",
           "proveedor": "Relatos de Atenas",
           "contacto": "relatos@atenas.local",
-          "horario": "18:00 - 19:30"
+          "horario": "18:00 - 19:30",
+          "web": "https://www.civitatis.com/es/atenas/"
         },
         {
           "titulo": "Visita familiar",
           "descripcion": "Version didactica con paradas breves, preguntas y claves sencillas para ninos y adultos.",
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
-          "horario": "11:00 - 12:30"
+          "horario": "11:00 - 12:30",
+          "web": "https://www.getyourguide.com/s/?q=Athens"
         },
         {
           "titulo": "Audioguia express",
           "descripcion": "Recorrido autonomo para ver lo principal de Acropolis con contexto claro y sin prisas.",
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
-          "horario": "Durante apertura"
+          "horario": "Durante apertura",
+          "web": "https://www.tiqets.com/en/search/?query=Athens"
         }
       ],
       "web": "https://etickets.tap.gr/webengines/tap_b2c/english/tap.exe?PM=P1N"
@@ -101,42 +107,48 @@
           "descripcion": "Recorrido guiado por Partenon para conectar arquitectura, personajes y momentos clave de Atenas.",
           "proveedor": "Historia Viva Atenas",
           "contacto": "reservas@historiaatenas.local",
-          "horario": "10:00 - 12:00"
+          "horario": "10:00 - 12:00",
+          "web": "https://www.getyourguide.com/s/?q=Athens"
         },
         {
           "titulo": "Acceso con contexto local",
           "descripcion": "Visita pausada con explicaciones practicas para comprender por que este lugar sigue siendo imprescindible.",
           "proveedor": "Guias Locales Atenas",
           "contacto": "hola@atenaslocal.local",
-          "horario": "12:00 - 14:00"
+          "horario": "12:00 - 14:00",
+          "web": "https://www.getyourguide.com/s/?q=Athens"
         },
         {
           "titulo": "Paseo fotografico",
           "descripcion": "Itinerario para capturar fachadas, perspectivas y detalles con la mejor luz disponible.",
           "proveedor": "Photo Walk Atenas",
           "contacto": "foto@atenaswalk.local",
-          "horario": "Atardecer"
+          "horario": "Atardecer",
+          "web": "https://www.withlocals.com/search/?q=Athens"
         },
         {
           "titulo": "Ruta de leyendas",
           "descripcion": "Historias, simbolos y anecdotas alrededor de Partenon, con tono narrativo y facil de seguir.",
           "proveedor": "Relatos de Atenas",
           "contacto": "relatos@atenas.local",
-          "horario": "18:00 - 19:30"
+          "horario": "18:00 - 19:30",
+          "web": "https://www.civitatis.com/es/atenas/"
         },
         {
           "titulo": "Visita familiar",
           "descripcion": "Version didactica con paradas breves, preguntas y claves sencillas para ninos y adultos.",
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
-          "horario": "11:00 - 12:30"
+          "horario": "11:00 - 12:30",
+          "web": "https://www.getyourguide.com/s/?q=Athens"
         },
         {
           "titulo": "Audioguia express",
           "descripcion": "Recorrido autonomo para ver lo principal de Partenon con contexto claro y sin prisas.",
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
-          "horario": "Durante apertura"
+          "horario": "Durante apertura",
+          "web": "https://www.tiqets.com/en/search/?query=Athens"
         }
       ],
       "web": "https://odysseus.culture.gr/h/3/eh351.jsp?obj_id=2384"
@@ -165,42 +177,48 @@
           "descripcion": "Ruta a pie por calles, plazas y rincones cotidianos para entender el caracter de Plaka.",
           "proveedor": "Walks Atenas",
           "contacto": "walks@atenas.local",
-          "horario": "10:30 - 12:30"
+          "horario": "10:30 - 12:30",
+          "web": "https://www.civitatis.com/es/atenas/"
         },
         {
           "titulo": "Ruta gastronomica local",
           "descripcion": "Paradas escogidas para probar sabores representativos y conocer pequenos comercios de la zona.",
           "proveedor": "Sabores de Atenas",
           "contacto": "sabores@atenas.local",
-          "horario": "13:00 - 15:00"
+          "horario": "13:00 - 15:00",
+          "web": "https://www.athensfoodonfoot.com"
         },
         {
           "titulo": "Fotografia urbana",
           "descripcion": "Paseo para buscar fachadas, mercados, escenas de calle y detalles con personalidad.",
           "proveedor": "Photo Walk Atenas",
           "contacto": "foto@atenaswalk.local",
-          "horario": "Atardecer"
+          "horario": "Atardecer",
+          "web": "https://www.withlocals.com/search/?q=Athens"
         },
         {
           "titulo": "Historias del vecindario",
           "descripcion": "Relato guiado sobre cambios urbanos, vida local y memoria del barrio.",
           "proveedor": "Cronicas Atenas",
           "contacto": "cronicas@atenas.local",
-          "horario": "17:00 - 18:30"
+          "horario": "17:00 - 18:30",
+          "web": "https://www.civitatis.com/es/atenas/"
         },
         {
           "titulo": "Compras con guia local",
           "descripcion": "Seleccion de tiendas, talleres y productos con criterio local y sin prisas.",
           "proveedor": "Local Shops Atenas",
           "contacto": "shops@atenas.local",
-          "horario": "11:00 - 13:00"
+          "horario": "11:00 - 13:00",
+          "web": "https://www.getyourguide.com/s/?q=Athens"
         },
         {
           "titulo": "Noche de ambiente",
           "descripcion": "Recorrido suave por bares, plazas y locales recomendados para tomar el pulso nocturno.",
           "proveedor": "After Dark Atenas",
           "contacto": "noche@atenas.local",
-          "horario": "20:00 - 22:00"
+          "horario": "20:00 - 22:00",
+          "web": "https://www.getyourguide.com/s/?q=Athens"
         }
       ],
       "web": "https://www.thisisathens.org/neighbourhoods/plaka"
@@ -229,42 +247,48 @@
           "descripcion": "Recorrido para entender las piezas clave de Museo de la Acropolis y su papel en la identidad de Atenas.",
           "proveedor": "Museo de la Acropolis Educacion",
           "contacto": "educacion@museodelaacropolis.local",
-          "horario": "10:00 - 12:00"
+          "horario": "10:00 - 12:00",
+          "web": "https://www.theacropolismuseum.gr"
         },
         {
           "titulo": "Ruta de obras imprescindibles",
           "descripcion": "Seleccion comentada de salas, objetos y relatos para aprovechar la visita sin perderse lo esencial.",
           "proveedor": "Guias de Atenas",
           "contacto": "reservas@atenastours.local",
-          "horario": "12:30 - 14:00"
+          "horario": "12:30 - 14:00",
+          "web": "https://www.theacropolismuseum.gr"
         },
         {
           "titulo": "Taller creativo",
           "descripcion": "Actividad practica inspirada en las colecciones del museo, pensada para viajeros curiosos y familias.",
           "proveedor": "Atelier Atenas",
           "contacto": "talleres@atenasatelier.local",
-          "horario": "16:00 - 18:00"
+          "horario": "16:00 - 18:00",
+          "web": "https://www.theacropolismuseum.gr"
         },
         {
           "titulo": "Audioguia express",
           "descripcion": "Formato autonomo y breve para recorrer Museo de la Acropolis con contexto historico y buenas pausas.",
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
-          "horario": "Durante apertura"
+          "horario": "Durante apertura",
+          "web": "https://www.tiqets.com/en/search/?query=Athens"
         },
         {
           "titulo": "Encuentro con especialista",
           "descripcion": "Charla divulgativa sobre restauracion, archivo o seleccion de piezas destacadas.",
           "proveedor": "Cultura Atenas",
           "contacto": "info@culturaatenas.local",
-          "horario": "Consultar calendario"
+          "horario": "Consultar calendario",
+          "web": "https://www.theacropolismuseum.gr"
         },
         {
           "titulo": "Paseo fotografico interior",
           "descripcion": "Ruta de encuadres permitidos, arquitectura y detalles visuales sin interferir con la visita.",
           "proveedor": "Photo Walk Atenas",
           "contacto": "foto@atenaswalk.local",
-          "horario": "Ultima hora de apertura"
+          "horario": "Ultima hora de apertura",
+          "web": "https://www.withlocals.com/search/?q=Athens"
         }
       ],
       "web": "https://www.theacropolismuseum.gr"
@@ -293,42 +317,48 @@
           "descripcion": "Recorrido guiado por Agora Antigua para conectar arquitectura, personajes y momentos clave de Atenas.",
           "proveedor": "Historia Viva Atenas",
           "contacto": "reservas@historiaatenas.local",
-          "horario": "10:00 - 12:00"
+          "horario": "10:00 - 12:00",
+          "web": "https://www.getyourguide.com/s/?q=Athens"
         },
         {
           "titulo": "Acceso con contexto local",
           "descripcion": "Visita pausada con explicaciones practicas para comprender por que este lugar sigue siendo imprescindible.",
           "proveedor": "Guias Locales Atenas",
           "contacto": "hola@atenaslocal.local",
-          "horario": "12:00 - 14:00"
+          "horario": "12:00 - 14:00",
+          "web": "https://www.getyourguide.com/s/?q=Athens"
         },
         {
           "titulo": "Paseo fotografico",
           "descripcion": "Itinerario para capturar fachadas, perspectivas y detalles con la mejor luz disponible.",
           "proveedor": "Photo Walk Atenas",
           "contacto": "foto@atenaswalk.local",
-          "horario": "Atardecer"
+          "horario": "Atardecer",
+          "web": "https://www.withlocals.com/search/?q=Athens"
         },
         {
           "titulo": "Ruta de leyendas",
           "descripcion": "Historias, simbolos y anecdotas alrededor de Agora Antigua, con tono narrativo y facil de seguir.",
           "proveedor": "Relatos de Atenas",
           "contacto": "relatos@atenas.local",
-          "horario": "18:00 - 19:30"
+          "horario": "18:00 - 19:30",
+          "web": "https://www.civitatis.com/es/atenas/"
         },
         {
           "titulo": "Visita familiar",
           "descripcion": "Version didactica con paradas breves, preguntas y claves sencillas para ninos y adultos.",
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
-          "horario": "11:00 - 12:30"
+          "horario": "11:00 - 12:30",
+          "web": "https://www.getyourguide.com/s/?q=Athens"
         },
         {
           "titulo": "Audioguia express",
           "descripcion": "Recorrido autonomo para ver lo principal de Agora Antigua con contexto claro y sin prisas.",
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
-          "horario": "Durante apertura"
+          "horario": "Durante apertura",
+          "web": "https://www.tiqets.com/en/search/?query=Athens"
         }
       ],
       "web": "https://odysseus.culture.gr/h/3/eh351.jsp?obj_id=2485"
@@ -357,42 +387,48 @@
           "descripcion": "Recorrido interpretado por Monte Licabeto y su contexto dentro de Atenas.",
           "proveedor": "Guias Locales Atenas",
           "contacto": "hola@atenaslocal.local",
-          "horario": "10:00 - 12:00"
+          "horario": "10:00 - 12:00",
+          "web": "https://www.getyourguide.com/s/?q=Athens"
         },
         {
           "titulo": "Paseo fotografico",
           "descripcion": "Actividad para encontrar buenos encuadres, detalles y luz adecuada en Monte Licabeto.",
           "proveedor": "Photo Walk Atenas",
           "contacto": "foto@atenaswalk.local",
-          "horario": "Atardecer"
+          "horario": "Atardecer",
+          "web": "https://www.withlocals.com/search/?q=Athens"
         },
         {
           "titulo": "Tour privado a medida",
           "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
           "proveedor": "Travel Designers Atenas",
           "contacto": "plan@atenastravel.local",
-          "horario": "Bajo reserva"
+          "horario": "Bajo reserva",
+          "web": "https://www.getyourguide.com/s/?q=Athens"
         },
         {
           "titulo": "Ruta familiar",
           "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
-          "horario": "11:00 - 12:30"
+          "horario": "11:00 - 12:30",
+          "web": "https://www.getyourguide.com/s/?q=Athens"
         },
         {
           "titulo": "Experiencia al atardecer",
           "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
           "proveedor": "Slow Travel Atenas",
           "contacto": "slow@atenas.local",
-          "horario": "Atardecer"
+          "horario": "Atardecer",
+          "web": "https://www.getyourguide.com/s/?q=Athens"
         },
         {
           "titulo": "Audioguia express",
           "descripcion": "Formato breve para entender lo esencial de Monte Licabeto con autonomia.",
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
-          "horario": "Durante apertura"
+          "horario": "Durante apertura",
+          "web": "https://www.tiqets.com/en/search/?query=Athens"
         }
       ],
       "web": "https://www.thisisathens.org/explore/venues/lycabettus-hill"
@@ -421,42 +457,48 @@
           "descripcion": "Ruta a pie por calles, plazas y rincones cotidianos para entender el caracter de Monastiraki.",
           "proveedor": "Walks Atenas",
           "contacto": "walks@atenas.local",
-          "horario": "10:30 - 12:30"
+          "horario": "10:30 - 12:30",
+          "web": "https://www.civitatis.com/es/atenas/"
         },
         {
           "titulo": "Ruta gastronomica local",
           "descripcion": "Paradas escogidas para probar sabores representativos y conocer pequenos comercios de la zona.",
           "proveedor": "Sabores de Atenas",
           "contacto": "sabores@atenas.local",
-          "horario": "13:00 - 15:00"
+          "horario": "13:00 - 15:00",
+          "web": "https://www.athensfoodonfoot.com"
         },
         {
           "titulo": "Fotografia urbana",
           "descripcion": "Paseo para buscar fachadas, mercados, escenas de calle y detalles con personalidad.",
           "proveedor": "Photo Walk Atenas",
           "contacto": "foto@atenaswalk.local",
-          "horario": "Atardecer"
+          "horario": "Atardecer",
+          "web": "https://www.withlocals.com/search/?q=Athens"
         },
         {
           "titulo": "Historias del vecindario",
           "descripcion": "Relato guiado sobre cambios urbanos, vida local y memoria del barrio.",
           "proveedor": "Cronicas Atenas",
           "contacto": "cronicas@atenas.local",
-          "horario": "17:00 - 18:30"
+          "horario": "17:00 - 18:30",
+          "web": "https://www.civitatis.com/es/atenas/"
         },
         {
           "titulo": "Compras con guia local",
           "descripcion": "Seleccion de tiendas, talleres y productos con criterio local y sin prisas.",
           "proveedor": "Local Shops Atenas",
           "contacto": "shops@atenas.local",
-          "horario": "11:00 - 13:00"
+          "horario": "11:00 - 13:00",
+          "web": "https://www.getyourguide.com/s/?q=Athens"
         },
         {
           "titulo": "Noche de ambiente",
           "descripcion": "Recorrido suave por bares, plazas y locales recomendados para tomar el pulso nocturno.",
           "proveedor": "After Dark Atenas",
           "contacto": "noche@atenas.local",
-          "horario": "20:00 - 22:00"
+          "horario": "20:00 - 22:00",
+          "web": "https://www.getyourguide.com/s/?q=Athens"
         }
       ],
       "web": "https://www.thisisathens.org/neighbourhoods/monastiraki"
@@ -485,42 +527,48 @@
           "descripcion": "Recorrido guiado por Estadio Panatenaico para conectar arquitectura, personajes y momentos clave de Atenas.",
           "proveedor": "Historia Viva Atenas",
           "contacto": "reservas@historiaatenas.local",
-          "horario": "10:00 - 12:00"
+          "horario": "10:00 - 12:00",
+          "web": "https://www.getyourguide.com/s/?q=Athens"
         },
         {
           "titulo": "Acceso con contexto local",
           "descripcion": "Visita pausada con explicaciones practicas para comprender por que este lugar sigue siendo imprescindible.",
           "proveedor": "Guias Locales Atenas",
           "contacto": "hola@atenaslocal.local",
-          "horario": "12:00 - 14:00"
+          "horario": "12:00 - 14:00",
+          "web": "https://www.getyourguide.com/s/?q=Athens"
         },
         {
           "titulo": "Paseo fotografico",
           "descripcion": "Itinerario para capturar fachadas, perspectivas y detalles con la mejor luz disponible.",
           "proveedor": "Photo Walk Atenas",
           "contacto": "foto@atenaswalk.local",
-          "horario": "Atardecer"
+          "horario": "Atardecer",
+          "web": "https://www.withlocals.com/search/?q=Athens"
         },
         {
           "titulo": "Ruta de leyendas",
           "descripcion": "Historias, simbolos y anecdotas alrededor de Estadio Panatenaico, con tono narrativo y facil de seguir.",
           "proveedor": "Relatos de Atenas",
           "contacto": "relatos@atenas.local",
-          "horario": "18:00 - 19:30"
+          "horario": "18:00 - 19:30",
+          "web": "https://www.civitatis.com/es/atenas/"
         },
         {
           "titulo": "Visita familiar",
           "descripcion": "Version didactica con paradas breves, preguntas y claves sencillas para ninos y adultos.",
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
-          "horario": "11:00 - 12:30"
+          "horario": "11:00 - 12:30",
+          "web": "https://www.getyourguide.com/s/?q=Athens"
         },
         {
           "titulo": "Audioguia express",
           "descripcion": "Recorrido autonomo para ver lo principal de Estadio Panatenaico con contexto claro y sin prisas.",
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
-          "horario": "Durante apertura"
+          "horario": "Durante apertura",
+          "web": "https://www.tiqets.com/en/search/?query=Athens"
         }
       ],
       "web": "https://www.panathenaicstadium.gr"
@@ -549,42 +597,48 @@
           "descripcion": "Ruta a pie por calles, plazas y rincones cotidianos para entender el caracter de Anafiotika.",
           "proveedor": "Walks Atenas",
           "contacto": "walks@atenas.local",
-          "horario": "10:30 - 12:30"
+          "horario": "10:30 - 12:30",
+          "web": "https://www.civitatis.com/es/atenas/"
         },
         {
           "titulo": "Ruta gastronomica local",
           "descripcion": "Paradas escogidas para probar sabores representativos y conocer pequenos comercios de la zona.",
           "proveedor": "Sabores de Atenas",
           "contacto": "sabores@atenas.local",
-          "horario": "13:00 - 15:00"
+          "horario": "13:00 - 15:00",
+          "web": "https://www.athensfoodonfoot.com"
         },
         {
           "titulo": "Fotografia urbana",
           "descripcion": "Paseo para buscar fachadas, mercados, escenas de calle y detalles con personalidad.",
           "proveedor": "Photo Walk Atenas",
           "contacto": "foto@atenaswalk.local",
-          "horario": "Atardecer"
+          "horario": "Atardecer",
+          "web": "https://www.withlocals.com/search/?q=Athens"
         },
         {
           "titulo": "Historias del vecindario",
           "descripcion": "Relato guiado sobre cambios urbanos, vida local y memoria del barrio.",
           "proveedor": "Cronicas Atenas",
           "contacto": "cronicas@atenas.local",
-          "horario": "17:00 - 18:30"
+          "horario": "17:00 - 18:30",
+          "web": "https://www.civitatis.com/es/atenas/"
         },
         {
           "titulo": "Compras con guia local",
           "descripcion": "Seleccion de tiendas, talleres y productos con criterio local y sin prisas.",
           "proveedor": "Local Shops Atenas",
           "contacto": "shops@atenas.local",
-          "horario": "11:00 - 13:00"
+          "horario": "11:00 - 13:00",
+          "web": "https://www.getyourguide.com/s/?q=Athens"
         },
         {
           "titulo": "Noche de ambiente",
           "descripcion": "Recorrido suave por bares, plazas y locales recomendados para tomar el pulso nocturno.",
           "proveedor": "After Dark Atenas",
           "contacto": "noche@atenas.local",
-          "horario": "20:00 - 22:00"
+          "horario": "20:00 - 22:00",
+          "web": "https://www.getyourguide.com/s/?q=Athens"
         }
       ],
       "web": "https://www.thisisathens.org/neighbourhoods/anafiotika"

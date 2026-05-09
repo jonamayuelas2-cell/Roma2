@@ -38,7 +38,8 @@
           "proveedor": "Historia Viva Buenos Aires",
           "contacto": "reservas@historiabuenosaires.local",
           "horario": "10:00 - 12:00",
-          "imagen": "img/buenosaires_activities/teatrocolon_1_tourhistoricoesencial.png"
+          "imagen": "img/buenosaires_activities/teatrocolon_1_tourhistoricoesencial.png",
+          "web": "https://www.getyourguide.com/s/?q=Buenos%20Aires"
         },
         {
           "titulo": "Acceso con contexto local",
@@ -46,7 +47,8 @@
           "proveedor": "Guias Locales Buenos Aires",
           "contacto": "hola@buenosaireslocal.local",
           "horario": "12:00 - 14:00",
-          "imagen": "img/buenosaires_activities/teatrocolon_2_accesoconcontextolocal.png"
+          "imagen": "img/buenosaires_activities/teatrocolon_2_accesoconcontextolocal.png",
+          "web": "https://www.getyourguide.com/s/?q=Buenos%20Aires"
         },
         {
           "titulo": "Paseo fotografico",
@@ -54,7 +56,8 @@
           "proveedor": "Photo Walk Buenos Aires",
           "contacto": "foto@buenosaireswalk.local",
           "horario": "Atardecer",
-          "imagen": "img/buenosaires_activities/teatrocolon_3_paseofotografico.png"
+          "imagen": "img/buenosaires_activities/teatrocolon_3_paseofotografico.png",
+          "web": "https://www.withlocals.com/search/?q=Buenos%20Aires"
         },
         {
           "titulo": "Ruta de leyendas",
@@ -62,7 +65,8 @@
           "proveedor": "Relatos de Buenos Aires",
           "contacto": "relatos@buenosaires.local",
           "horario": "18:00 - 19:30",
-          "imagen": "img/buenosaires_activities/teatrocolon_4_rutadeleyendas.png"
+          "imagen": "img/buenosaires_activities/teatrocolon_4_rutadeleyendas.png",
+          "web": "https://www.civitatis.com/es/buenos-aires/"
         },
         {
           "titulo": "Visita familiar",
@@ -70,7 +74,8 @@
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
           "horario": "11:00 - 12:30",
-          "imagen": "img/buenosaires_activities/teatrocolon_5_visitafamiliar.png"
+          "imagen": "img/buenosaires_activities/teatrocolon_5_visitafamiliar.png",
+          "web": "https://www.getyourguide.com/s/?q=Buenos%20Aires"
         },
         {
           "titulo": "Audioguia express",
@@ -78,7 +83,8 @@
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
           "horario": "Durante apertura",
-          "imagen": "img/buenosaires_activities/teatrocolon_6_audioguiaexpress.png"
+          "imagen": "img/buenosaires_activities/teatrocolon_6_audioguiaexpress.png",
+          "web": "https://www.tiqets.com/en/search/?query=Buenos%20Aires"
         }
       ],
       "web": "https://teatrocolon.org.ar"
@@ -108,7 +114,8 @@
           "proveedor": "Walks Buenos Aires",
           "contacto": "walks@buenosaires.local",
           "horario": "10:30 - 12:30",
-          "imagen": "img/buenosaires_activities/caminito_1_paseodebarrio.png"
+          "imagen": "img/buenosaires_activities/caminito_1_paseodebarrio.png",
+          "web": "https://www.civitatis.com/es/buenos-aires/"
         },
         {
           "titulo": "Ruta gastronomica local",
@@ -116,7 +123,8 @@
           "proveedor": "Sabores de Buenos Aires",
           "contacto": "sabores@buenosaires.local",
           "horario": "13:00 - 15:00",
-          "imagen": "img/buenosaires_activities/caminito_2_rutagastronomicalocal.png"
+          "imagen": "img/buenosaires_activities/caminito_2_rutagastronomicalocal.png",
+          "web": "https://sherpafoodtours.com"
         },
         {
           "titulo": "Fotografia urbana",
@@ -124,7 +132,8 @@
           "proveedor": "Photo Walk Buenos Aires",
           "contacto": "foto@buenosaireswalk.local",
           "horario": "Atardecer",
-          "imagen": "img/buenosaires_activities/caminito_3_fotografiaurbana.png"
+          "imagen": "img/buenosaires_activities/caminito_3_fotografiaurbana.png",
+          "web": "https://www.withlocals.com/search/?q=Buenos%20Aires"
         },
         {
           "titulo": "Historias del vecindario",
@@ -132,7 +141,8 @@
           "proveedor": "Cronicas Buenos Aires",
           "contacto": "cronicas@buenosaires.local",
           "horario": "17:00 - 18:30",
-          "imagen": "img/buenosaires_activities/caminito_4_historiasdelvecindario.png"
+          "imagen": "img/buenosaires_activities/caminito_4_historiasdelvecindario.png",
+          "web": "https://www.civitatis.com/es/buenos-aires/"
         },
         {
           "titulo": "Compras con guia local",
@@ -140,7 +150,8 @@
           "proveedor": "Local Shops Buenos Aires",
           "contacto": "shops@buenosaires.local",
           "horario": "11:00 - 13:00",
-          "imagen": "img/buenosaires_activities/caminito_5_comprasconguialocal.png"
+          "imagen": "img/buenosaires_activities/caminito_5_comprasconguialocal.png",
+          "web": "https://www.getyourguide.com/s/?q=Buenos%20Aires"
         },
         {
           "titulo": "Noche de ambiente",
@@ -148,7 +159,8 @@
           "proveedor": "After Dark Buenos Aires",
           "contacto": "noche@buenosaires.local",
           "horario": "20:00 - 22:00",
-          "imagen": "img/buenosaires_activities/caminito_6_nochedeambiente.png"
+          "imagen": "img/buenosaires_activities/caminito_6_nochedeambiente.png",
+          "web": "https://www.getyourguide.com/s/?q=Buenos%20Aires"
         }
       ],
       "web": "https://turismo.buenosaires.gob.ar/en/atractivo/caminito"
@@ -178,7 +190,8 @@
           "proveedor": "Walks Buenos Aires",
           "contacto": "walks@buenosaires.local",
           "horario": "10:30 - 12:30",
-          "imagen": "img/buenosaires_activities/recoleta_1_paseodebarrio.png"
+          "imagen": "img/buenosaires_activities/recoleta_1_paseodebarrio.png",
+          "web": "https://www.civitatis.com/es/buenos-aires/"
         },
         {
           "titulo": "Ruta gastronomica local",
@@ -186,7 +199,8 @@
           "proveedor": "Sabores de Buenos Aires",
           "contacto": "sabores@buenosaires.local",
           "horario": "13:00 - 15:00",
-          "imagen": "img/buenosaires_activities/recoleta_2_rutagastronomicalocal.png"
+          "imagen": "img/buenosaires_activities/recoleta_2_rutagastronomicalocal.png",
+          "web": "https://sherpafoodtours.com"
         },
         {
           "titulo": "Fotografia urbana",
@@ -194,7 +208,8 @@
           "proveedor": "Photo Walk Buenos Aires",
           "contacto": "foto@buenosaireswalk.local",
           "horario": "Atardecer",
-          "imagen": "img/buenosaires_activities/recoleta_3_fotografiaurbana.png"
+          "imagen": "img/buenosaires_activities/recoleta_3_fotografiaurbana.png",
+          "web": "https://www.withlocals.com/search/?q=Buenos%20Aires"
         },
         {
           "titulo": "Historias del vecindario",
@@ -202,7 +217,8 @@
           "proveedor": "Cronicas Buenos Aires",
           "contacto": "cronicas@buenosaires.local",
           "horario": "17:00 - 18:30",
-          "imagen": "img/buenosaires_activities/recoleta_4_historiasdelvecindario.png"
+          "imagen": "img/buenosaires_activities/recoleta_4_historiasdelvecindario.png",
+          "web": "https://www.civitatis.com/es/buenos-aires/"
         },
         {
           "titulo": "Compras con guia local",
@@ -210,7 +226,8 @@
           "proveedor": "Local Shops Buenos Aires",
           "contacto": "shops@buenosaires.local",
           "horario": "11:00 - 13:00",
-          "imagen": "img/buenosaires_activities/recoleta_5_comprasconguialocal.png"
+          "imagen": "img/buenosaires_activities/recoleta_5_comprasconguialocal.png",
+          "web": "https://www.getyourguide.com/s/?q=Buenos%20Aires"
         },
         {
           "titulo": "Noche de ambiente",
@@ -218,7 +235,8 @@
           "proveedor": "After Dark Buenos Aires",
           "contacto": "noche@buenosaires.local",
           "horario": "20:00 - 22:00",
-          "imagen": "img/buenosaires_activities/recoleta_6_nochedeambiente.png"
+          "imagen": "img/buenosaires_activities/recoleta_6_nochedeambiente.png",
+          "web": "https://www.getyourguide.com/s/?q=Buenos%20Aires"
         }
       ],
       "web": "https://turismo.buenosaires.gob.ar/en/atractivo/recoleta"
@@ -248,7 +266,8 @@
           "proveedor": "Historia Viva Buenos Aires",
           "contacto": "reservas@historiabuenosaires.local",
           "horario": "10:00 - 12:00",
-          "imagen": "img/buenosaires_activities/avenida9dejulio_1_tourhistoricoesencial.png"
+          "imagen": "img/buenosaires_activities/avenida9dejulio_1_tourhistoricoesencial.png",
+          "web": "https://www.getyourguide.com/s/?q=Buenos%20Aires"
         },
         {
           "titulo": "Acceso con contexto local",
@@ -256,7 +275,8 @@
           "proveedor": "Guias Locales Buenos Aires",
           "contacto": "hola@buenosaireslocal.local",
           "horario": "12:00 - 14:00",
-          "imagen": "img/buenosaires_activities/avenida9dejulio_2_accesoconcontextolocal.png"
+          "imagen": "img/buenosaires_activities/avenida9dejulio_2_accesoconcontextolocal.png",
+          "web": "https://www.getyourguide.com/s/?q=Buenos%20Aires"
         },
         {
           "titulo": "Paseo fotografico",
@@ -264,7 +284,8 @@
           "proveedor": "Photo Walk Buenos Aires",
           "contacto": "foto@buenosaireswalk.local",
           "horario": "Atardecer",
-          "imagen": "img/buenosaires_activities/avenida9dejulio_3_paseofotografico.png"
+          "imagen": "img/buenosaires_activities/avenida9dejulio_3_paseofotografico.png",
+          "web": "https://www.withlocals.com/search/?q=Buenos%20Aires"
         },
         {
           "titulo": "Ruta de leyendas",
@@ -272,7 +293,8 @@
           "proveedor": "Relatos de Buenos Aires",
           "contacto": "relatos@buenosaires.local",
           "horario": "18:00 - 19:30",
-          "imagen": "img/buenosaires_activities/avenida9dejulio_4_rutadeleyendas.png"
+          "imagen": "img/buenosaires_activities/avenida9dejulio_4_rutadeleyendas.png",
+          "web": "https://www.civitatis.com/es/buenos-aires/"
         },
         {
           "titulo": "Visita familiar",
@@ -280,7 +302,8 @@
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
           "horario": "11:00 - 12:30",
-          "imagen": "img/buenosaires_activities/avenida9dejulio_5_visitafamiliar.png"
+          "imagen": "img/buenosaires_activities/avenida9dejulio_5_visitafamiliar.png",
+          "web": "https://www.getyourguide.com/s/?q=Buenos%20Aires"
         },
         {
           "titulo": "Audioguia express",
@@ -288,7 +311,8 @@
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
           "horario": "Durante apertura",
-          "imagen": "img/buenosaires_activities/avenida9dejulio_6_audioguiaexpress.png"
+          "imagen": "img/buenosaires_activities/avenida9dejulio_6_audioguiaexpress.png",
+          "web": "https://www.tiqets.com/en/search/?query=Buenos%20Aires"
         }
       ],
       "web": "https://turismo.buenosaires.gob.ar/en/atractivo/avenida-9-de-julio"
@@ -318,7 +342,8 @@
           "proveedor": "Walks Buenos Aires",
           "contacto": "walks@buenosaires.local",
           "horario": "10:30 - 12:30",
-          "imagen": "img/buenosaires_activities/puertomadero_1_paseodebarrio.png"
+          "imagen": "img/buenosaires_activities/puertomadero_1_paseodebarrio.png",
+          "web": "https://www.civitatis.com/es/buenos-aires/"
         },
         {
           "titulo": "Ruta gastronomica local",
@@ -326,7 +351,8 @@
           "proveedor": "Sabores de Buenos Aires",
           "contacto": "sabores@buenosaires.local",
           "horario": "13:00 - 15:00",
-          "imagen": "img/buenosaires_activities/puertomadero_2_rutagastronomicalocal.png"
+          "imagen": "img/buenosaires_activities/puertomadero_2_rutagastronomicalocal.png",
+          "web": "https://sherpafoodtours.com"
         },
         {
           "titulo": "Fotografia urbana",
@@ -334,7 +360,8 @@
           "proveedor": "Photo Walk Buenos Aires",
           "contacto": "foto@buenosaireswalk.local",
           "horario": "Atardecer",
-          "imagen": "img/buenosaires_activities/puertomadero_3_fotografiaurbana.png"
+          "imagen": "img/buenosaires_activities/puertomadero_3_fotografiaurbana.png",
+          "web": "https://www.withlocals.com/search/?q=Buenos%20Aires"
         },
         {
           "titulo": "Historias del vecindario",
@@ -342,7 +369,8 @@
           "proveedor": "Cronicas Buenos Aires",
           "contacto": "cronicas@buenosaires.local",
           "horario": "17:00 - 18:30",
-          "imagen": "img/buenosaires_activities/puertomadero_4_historiasdelvecindario.png"
+          "imagen": "img/buenosaires_activities/puertomadero_4_historiasdelvecindario.png",
+          "web": "https://www.civitatis.com/es/buenos-aires/"
         },
         {
           "titulo": "Compras con guia local",
@@ -350,7 +378,8 @@
           "proveedor": "Local Shops Buenos Aires",
           "contacto": "shops@buenosaires.local",
           "horario": "11:00 - 13:00",
-          "imagen": "img/buenosaires_activities/puertomadero_5_comprasconguialocal.png"
+          "imagen": "img/buenosaires_activities/puertomadero_5_comprasconguialocal.png",
+          "web": "https://www.getyourguide.com/s/?q=Buenos%20Aires"
         },
         {
           "titulo": "Noche de ambiente",
@@ -358,7 +387,8 @@
           "proveedor": "After Dark Buenos Aires",
           "contacto": "noche@buenosaires.local",
           "horario": "20:00 - 22:00",
-          "imagen": "img/buenosaires_activities/puertomadero_6_nochedeambiente.png"
+          "imagen": "img/buenosaires_activities/puertomadero_6_nochedeambiente.png",
+          "web": "https://www.getyourguide.com/s/?q=Buenos%20Aires"
         }
       ],
       "web": "https://turismo.buenosaires.gob.ar/en/atractivo/puerto-madero"
@@ -388,7 +418,8 @@
           "proveedor": "Historia Viva Buenos Aires",
           "contacto": "reservas@historiabuenosaires.local",
           "horario": "10:00 - 12:00",
-          "imagen": "img/buenosaires_activities/elateneograndsplendid_1_tourhistoricoesencial.png"
+          "imagen": "img/buenosaires_activities/elateneograndsplendid_1_tourhistoricoesencial.png",
+          "web": "https://www.getyourguide.com/s/?q=Buenos%20Aires"
         },
         {
           "titulo": "Acceso con contexto local",
@@ -396,7 +427,8 @@
           "proveedor": "Guias Locales Buenos Aires",
           "contacto": "hola@buenosaireslocal.local",
           "horario": "12:00 - 14:00",
-          "imagen": "img/buenosaires_activities/elateneograndsplendid_2_accesoconcontextolocal.png"
+          "imagen": "img/buenosaires_activities/elateneograndsplendid_2_accesoconcontextolocal.png",
+          "web": "https://www.getyourguide.com/s/?q=Buenos%20Aires"
         },
         {
           "titulo": "Paseo fotografico",
@@ -404,7 +436,8 @@
           "proveedor": "Photo Walk Buenos Aires",
           "contacto": "foto@buenosaireswalk.local",
           "horario": "Atardecer",
-          "imagen": "img/buenosaires_activities/elateneograndsplendid_3_paseofotografico.png"
+          "imagen": "img/buenosaires_activities/elateneograndsplendid_3_paseofotografico.png",
+          "web": "https://www.withlocals.com/search/?q=Buenos%20Aires"
         },
         {
           "titulo": "Ruta de leyendas",
@@ -412,7 +445,8 @@
           "proveedor": "Relatos de Buenos Aires",
           "contacto": "relatos@buenosaires.local",
           "horario": "18:00 - 19:30",
-          "imagen": "img/buenosaires_activities/elateneograndsplendid_4_rutadeleyendas.png"
+          "imagen": "img/buenosaires_activities/elateneograndsplendid_4_rutadeleyendas.png",
+          "web": "https://www.civitatis.com/es/buenos-aires/"
         },
         {
           "titulo": "Visita familiar",
@@ -420,7 +454,8 @@
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
           "horario": "11:00 - 12:30",
-          "imagen": "img/buenosaires_activities/elateneograndsplendid_5_visitafamiliar.png"
+          "imagen": "img/buenosaires_activities/elateneograndsplendid_5_visitafamiliar.png",
+          "web": "https://www.getyourguide.com/s/?q=Buenos%20Aires"
         },
         {
           "titulo": "Audioguia express",
@@ -428,7 +463,8 @@
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
           "horario": "Durante apertura",
-          "imagen": "img/buenosaires_activities/elateneograndsplendid_6_audioguiaexpress.png"
+          "imagen": "img/buenosaires_activities/elateneograndsplendid_6_audioguiaexpress.png",
+          "web": "https://www.tiqets.com/en/search/?query=Buenos%20Aires"
         }
       ],
       "web": "https://www.yenny-elateneo.com"
@@ -458,7 +494,8 @@
           "proveedor": "Walks Buenos Aires",
           "contacto": "walks@buenosaires.local",
           "horario": "10:30 - 12:30",
-          "imagen": "img/buenosaires_activities/santelmo_1_paseodebarrio.png"
+          "imagen": "img/buenosaires_activities/santelmo_1_paseodebarrio.png",
+          "web": "https://www.civitatis.com/es/buenos-aires/"
         },
         {
           "titulo": "Ruta gastronomica local",
@@ -466,7 +503,8 @@
           "proveedor": "Sabores de Buenos Aires",
           "contacto": "sabores@buenosaires.local",
           "horario": "13:00 - 15:00",
-          "imagen": "img/buenosaires_activities/santelmo_2_rutagastronomicalocal.png"
+          "imagen": "img/buenosaires_activities/santelmo_2_rutagastronomicalocal.png",
+          "web": "https://sherpafoodtours.com"
         },
         {
           "titulo": "Fotografia urbana",
@@ -474,7 +512,8 @@
           "proveedor": "Photo Walk Buenos Aires",
           "contacto": "foto@buenosaireswalk.local",
           "horario": "Atardecer",
-          "imagen": "img/buenosaires_activities/santelmo_3_fotografiaurbana.png"
+          "imagen": "img/buenosaires_activities/santelmo_3_fotografiaurbana.png",
+          "web": "https://www.withlocals.com/search/?q=Buenos%20Aires"
         },
         {
           "titulo": "Historias del vecindario",
@@ -482,7 +521,8 @@
           "proveedor": "Cronicas Buenos Aires",
           "contacto": "cronicas@buenosaires.local",
           "horario": "17:00 - 18:30",
-          "imagen": "img/buenosaires_activities/santelmo_4_historiasdelvecindario.png"
+          "imagen": "img/buenosaires_activities/santelmo_4_historiasdelvecindario.png",
+          "web": "https://www.civitatis.com/es/buenos-aires/"
         },
         {
           "titulo": "Compras con guia local",
@@ -490,7 +530,8 @@
           "proveedor": "Local Shops Buenos Aires",
           "contacto": "shops@buenosaires.local",
           "horario": "11:00 - 13:00",
-          "imagen": "img/buenosaires_activities/santelmo_5_comprasconguialocal.png"
+          "imagen": "img/buenosaires_activities/santelmo_5_comprasconguialocal.png",
+          "web": "https://www.getyourguide.com/s/?q=Buenos%20Aires"
         },
         {
           "titulo": "Noche de ambiente",
@@ -498,7 +539,8 @@
           "proveedor": "After Dark Buenos Aires",
           "contacto": "noche@buenosaires.local",
           "horario": "20:00 - 22:00",
-          "imagen": "img/buenosaires_activities/santelmo_6_nochedeambiente.png"
+          "imagen": "img/buenosaires_activities/santelmo_6_nochedeambiente.png",
+          "web": "https://www.getyourguide.com/s/?q=Buenos%20Aires"
         }
       ],
       "web": "https://turismo.buenosaires.gob.ar/en/atractivo/san-telmo"
@@ -528,7 +570,8 @@
           "proveedor": "Walks Buenos Aires",
           "contacto": "walks@buenosaires.local",
           "horario": "10:30 - 12:30",
-          "imagen": "img/buenosaires_activities/palermo_1_paseodebarrio.png"
+          "imagen": "img/buenosaires_activities/palermo_1_paseodebarrio.png",
+          "web": "https://www.civitatis.com/es/buenos-aires/"
         },
         {
           "titulo": "Ruta gastronomica local",
@@ -536,7 +579,8 @@
           "proveedor": "Sabores de Buenos Aires",
           "contacto": "sabores@buenosaires.local",
           "horario": "13:00 - 15:00",
-          "imagen": "img/buenosaires_activities/palermo_2_rutagastronomicalocal.png"
+          "imagen": "img/buenosaires_activities/palermo_2_rutagastronomicalocal.png",
+          "web": "https://sherpafoodtours.com"
         },
         {
           "titulo": "Fotografia urbana",
@@ -544,7 +588,8 @@
           "proveedor": "Photo Walk Buenos Aires",
           "contacto": "foto@buenosaireswalk.local",
           "horario": "Atardecer",
-          "imagen": "img/buenosaires_activities/palermo_3_fotografiaurbana.png"
+          "imagen": "img/buenosaires_activities/palermo_3_fotografiaurbana.png",
+          "web": "https://www.withlocals.com/search/?q=Buenos%20Aires"
         },
         {
           "titulo": "Historias del vecindario",
@@ -552,7 +597,8 @@
           "proveedor": "Cronicas Buenos Aires",
           "contacto": "cronicas@buenosaires.local",
           "horario": "17:00 - 18:30",
-          "imagen": "img/buenosaires_activities/palermo_4_historiasdelvecindario.png"
+          "imagen": "img/buenosaires_activities/palermo_4_historiasdelvecindario.png",
+          "web": "https://www.civitatis.com/es/buenos-aires/"
         },
         {
           "titulo": "Compras con guia local",
@@ -560,7 +606,8 @@
           "proveedor": "Local Shops Buenos Aires",
           "contacto": "shops@buenosaires.local",
           "horario": "11:00 - 13:00",
-          "imagen": "img/buenosaires_activities/palermo_5_comprasconguialocal.png"
+          "imagen": "img/buenosaires_activities/palermo_5_comprasconguialocal.png",
+          "web": "https://www.getyourguide.com/s/?q=Buenos%20Aires"
         },
         {
           "titulo": "Noche de ambiente",
@@ -568,7 +615,8 @@
           "proveedor": "After Dark Buenos Aires",
           "contacto": "noche@buenosaires.local",
           "horario": "20:00 - 22:00",
-          "imagen": "img/buenosaires_activities/palermo_6_nochedeambiente.png"
+          "imagen": "img/buenosaires_activities/palermo_6_nochedeambiente.png",
+          "web": "https://www.getyourguide.com/s/?q=Buenos%20Aires"
         }
       ],
       "web": "https://turismo.buenosaires.gob.ar/en/atractivo/palermo"
@@ -598,7 +646,8 @@
           "proveedor": "Historia Viva Buenos Aires",
           "contacto": "reservas@historiabuenosaires.local",
           "horario": "10:00 - 12:00",
-          "imagen": "img/buenosaires_activities/floralisgenerica_1_tourhistoricoesencial.png"
+          "imagen": "img/buenosaires_activities/floralisgenerica_1_tourhistoricoesencial.png",
+          "web": "https://www.getyourguide.com/s/?q=Buenos%20Aires"
         },
         {
           "titulo": "Acceso con contexto local",
@@ -606,7 +655,8 @@
           "proveedor": "Guias Locales Buenos Aires",
           "contacto": "hola@buenosaireslocal.local",
           "horario": "12:00 - 14:00",
-          "imagen": "img/buenosaires_activities/floralisgenerica_2_accesoconcontextolocal.png"
+          "imagen": "img/buenosaires_activities/floralisgenerica_2_accesoconcontextolocal.png",
+          "web": "https://www.getyourguide.com/s/?q=Buenos%20Aires"
         },
         {
           "titulo": "Paseo fotografico",
@@ -614,7 +664,8 @@
           "proveedor": "Photo Walk Buenos Aires",
           "contacto": "foto@buenosaireswalk.local",
           "horario": "Atardecer",
-          "imagen": "img/buenosaires_activities/floralisgenerica_3_paseofotografico.png"
+          "imagen": "img/buenosaires_activities/floralisgenerica_3_paseofotografico.png",
+          "web": "https://www.withlocals.com/search/?q=Buenos%20Aires"
         },
         {
           "titulo": "Ruta de leyendas",
@@ -622,7 +673,8 @@
           "proveedor": "Relatos de Buenos Aires",
           "contacto": "relatos@buenosaires.local",
           "horario": "18:00 - 19:30",
-          "imagen": "img/buenosaires_activities/floralisgenerica_4_rutadeleyendas.png"
+          "imagen": "img/buenosaires_activities/floralisgenerica_4_rutadeleyendas.png",
+          "web": "https://www.civitatis.com/es/buenos-aires/"
         },
         {
           "titulo": "Visita familiar",
@@ -630,7 +682,8 @@
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
           "horario": "11:00 - 12:30",
-          "imagen": "img/buenosaires_activities/floralisgenerica_5_visitafamiliar.png"
+          "imagen": "img/buenosaires_activities/floralisgenerica_5_visitafamiliar.png",
+          "web": "https://www.getyourguide.com/s/?q=Buenos%20Aires"
         },
         {
           "titulo": "Audioguia express",
@@ -638,7 +691,8 @@
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
           "horario": "Durante apertura",
-          "imagen": "img/buenosaires_activities/floralisgenerica_6_audioguiaexpress.png"
+          "imagen": "img/buenosaires_activities/floralisgenerica_6_audioguiaexpress.png",
+          "web": "https://www.tiqets.com/en/search/?query=Buenos%20Aires"
         }
       ],
       "web": "https://turismo.buenosaires.gob.ar/en/atractivo/floralis-generica"

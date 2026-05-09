@@ -37,42 +37,48 @@
           "descripcion": "Recorrido por senderos, jardines y miradores para reconocer especies y entender el paisaje de Table Mountain.",
           "proveedor": "Green Ciudad del Cabo",
           "contacto": "green@ciudaddelcabo.local",
-          "horario": "10:00 - 11:30"
+          "horario": "10:00 - 11:30",
+          "web": "https://www.tablemountain.net"
         },
         {
           "titulo": "Picnic con producto local",
           "descripcion": "Experiencia relajada con cesta preparada y recomendaciones de zonas tranquilas.",
           "proveedor": "Picnic Ciudad del Cabo",
           "contacto": "picnic@ciudaddelcabo.local",
-          "horario": "13:00 - 15:00"
+          "horario": "13:00 - 15:00",
+          "web": "https://www.tablemountain.net"
         },
         {
           "titulo": "Ruta fotografica natural",
           "descripcion": "Paseo para capturar luz, vegetacion, agua y vistas con ritmo tranquilo.",
           "proveedor": "Photo Walk Ciudad del Cabo",
           "contacto": "foto@ciudaddelcabowalk.local",
-          "horario": "Atardecer"
+          "horario": "Atardecer",
+          "web": "https://www.withlocals.com/search/?q=Cape%20Town"
         },
         {
           "titulo": "Actividad familiar al aire libre",
           "descripcion": "Juego de observacion y pequenas misiones para recorrer Table Mountain con ninos.",
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
-          "horario": "11:00 - 12:30"
+          "horario": "11:00 - 12:30",
+          "web": "https://www.getyourguide.com/s/?q=Cape%20Town"
         },
         {
           "titulo": "Bienestar y estiramientos",
           "descripcion": "Sesion suave para empezar el dia respirando mejor y disfrutando del entorno.",
           "proveedor": "Wellness Ciudad del Cabo",
           "contacto": "wellness@ciudaddelcabo.local",
-          "horario": "08:30 - 09:30"
+          "horario": "08:30 - 09:30",
+          "web": "https://www.getyourguide.com/s/?q=Cape%20Town"
         },
         {
           "titulo": "Miradores y rincones tranquilos",
           "descripcion": "Ruta breve por bancos, sombras y puntos de descanso para bajar el ritmo del viaje.",
           "proveedor": "Slow Travel Ciudad del Cabo",
           "contacto": "slow@ciudaddelcabo.local",
-          "horario": "16:30 - 18:00"
+          "horario": "16:30 - 18:00",
+          "web": "https://www.tablemountain.net"
         }
       ],
       "web": "https://www.tablemountain.net"
@@ -101,42 +107,48 @@
           "descripcion": "Ruta a pie por calles, plazas y rincones cotidianos para entender el caracter de V&A Waterfront.",
           "proveedor": "Walks Ciudad del Cabo",
           "contacto": "walks@ciudaddelcabo.local",
-          "horario": "10:30 - 12:30"
+          "horario": "10:30 - 12:30",
+          "web": "https://www.civitatis.com/es/ciudad-del-cabo/"
         },
         {
           "titulo": "Ruta gastronomica local",
           "descripcion": "Paradas escogidas para probar sabores representativos y conocer pequenos comercios de la zona.",
           "proveedor": "Sabores de Ciudad del Cabo",
           "contacto": "sabores@ciudaddelcabo.local",
-          "horario": "13:00 - 15:00"
+          "horario": "13:00 - 15:00",
+          "web": "https://www.eatingeurope.com/cape-town/"
         },
         {
           "titulo": "Fotografia urbana",
           "descripcion": "Paseo para buscar fachadas, mercados, escenas de calle y detalles con personalidad.",
           "proveedor": "Photo Walk Ciudad del Cabo",
           "contacto": "foto@ciudaddelcabowalk.local",
-          "horario": "Atardecer"
+          "horario": "Atardecer",
+          "web": "https://www.withlocals.com/search/?q=Cape%20Town"
         },
         {
           "titulo": "Historias del vecindario",
           "descripcion": "Relato guiado sobre cambios urbanos, vida local y memoria del barrio.",
           "proveedor": "Cronicas Ciudad del Cabo",
           "contacto": "cronicas@ciudaddelcabo.local",
-          "horario": "17:00 - 18:30"
+          "horario": "17:00 - 18:30",
+          "web": "https://www.civitatis.com/es/ciudad-del-cabo/"
         },
         {
           "titulo": "Compras con guia local",
           "descripcion": "Seleccion de tiendas, talleres y productos con criterio local y sin prisas.",
           "proveedor": "Local Shops Ciudad del Cabo",
           "contacto": "shops@ciudaddelcabo.local",
-          "horario": "11:00 - 13:00"
+          "horario": "11:00 - 13:00",
+          "web": "https://www.getyourguide.com/s/?q=Cape%20Town"
         },
         {
           "titulo": "Noche de ambiente",
           "descripcion": "Recorrido suave por bares, plazas y locales recomendados para tomar el pulso nocturno.",
           "proveedor": "After Dark Ciudad del Cabo",
           "contacto": "noche@ciudaddelcabo.local",
-          "horario": "20:00 - 22:00"
+          "horario": "20:00 - 22:00",
+          "web": "https://www.getyourguide.com/s/?q=Cape%20Town"
         }
       ],
       "web": "https://www.waterfront.co.za"
@@ -165,42 +177,48 @@
           "descripcion": "Recorrido para entender las piezas clave de Robben Island y su papel en la identidad de Ciudad del Cabo.",
           "proveedor": "Robben Island Educacion",
           "contacto": "educacion@robbenisland.local",
-          "horario": "10:00 - 12:00"
+          "horario": "10:00 - 12:00",
+          "web": "https://www.robben-island.org.za"
         },
         {
           "titulo": "Ruta de obras imprescindibles",
           "descripcion": "Seleccion comentada de salas, objetos y relatos para aprovechar la visita sin perderse lo esencial.",
           "proveedor": "Guias de Ciudad del Cabo",
           "contacto": "reservas@ciudaddelcabotours.local",
-          "horario": "12:30 - 14:00"
+          "horario": "12:30 - 14:00",
+          "web": "https://www.robben-island.org.za"
         },
         {
           "titulo": "Taller creativo",
           "descripcion": "Actividad practica inspirada en las colecciones del museo, pensada para viajeros curiosos y familias.",
           "proveedor": "Atelier Ciudad del Cabo",
           "contacto": "talleres@ciudaddelcaboatelier.local",
-          "horario": "16:00 - 18:00"
+          "horario": "16:00 - 18:00",
+          "web": "https://www.robben-island.org.za"
         },
         {
           "titulo": "Audioguia express",
           "descripcion": "Formato autonomo y breve para recorrer Robben Island con contexto historico y buenas pausas.",
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
-          "horario": "Durante apertura"
+          "horario": "Durante apertura",
+          "web": "https://www.tiqets.com/en/search/?query=Cape%20Town"
         },
         {
           "titulo": "Encuentro con especialista",
           "descripcion": "Charla divulgativa sobre restauracion, archivo o seleccion de piezas destacadas.",
           "proveedor": "Cultura Ciudad del Cabo",
           "contacto": "info@culturaciudaddelcabo.local",
-          "horario": "Consultar calendario"
+          "horario": "Consultar calendario",
+          "web": "https://www.robben-island.org.za"
         },
         {
           "titulo": "Paseo fotografico interior",
           "descripcion": "Ruta de encuadres permitidos, arquitectura y detalles visuales sin interferir con la visita.",
           "proveedor": "Photo Walk Ciudad del Cabo",
           "contacto": "foto@ciudaddelcabowalk.local",
-          "horario": "Ultima hora de apertura"
+          "horario": "Ultima hora de apertura",
+          "web": "https://www.withlocals.com/search/?q=Cape%20Town"
         }
       ],
       "web": "https://www.robben-island.org.za"
@@ -229,42 +247,48 @@
           "descripcion": "Ruta a pie por calles, plazas y rincones cotidianos para entender el caracter de Bo-Kaap.",
           "proveedor": "Walks Ciudad del Cabo",
           "contacto": "walks@ciudaddelcabo.local",
-          "horario": "10:30 - 12:30"
+          "horario": "10:30 - 12:30",
+          "web": "https://www.civitatis.com/es/ciudad-del-cabo/"
         },
         {
           "titulo": "Ruta gastronomica local",
           "descripcion": "Paradas escogidas para probar sabores representativos y conocer pequenos comercios de la zona.",
           "proveedor": "Sabores de Ciudad del Cabo",
           "contacto": "sabores@ciudaddelcabo.local",
-          "horario": "13:00 - 15:00"
+          "horario": "13:00 - 15:00",
+          "web": "https://www.eatingeurope.com/cape-town/"
         },
         {
           "titulo": "Fotografia urbana",
           "descripcion": "Paseo para buscar fachadas, mercados, escenas de calle y detalles con personalidad.",
           "proveedor": "Photo Walk Ciudad del Cabo",
           "contacto": "foto@ciudaddelcabowalk.local",
-          "horario": "Atardecer"
+          "horario": "Atardecer",
+          "web": "https://www.withlocals.com/search/?q=Cape%20Town"
         },
         {
           "titulo": "Historias del vecindario",
           "descripcion": "Relato guiado sobre cambios urbanos, vida local y memoria del barrio.",
           "proveedor": "Cronicas Ciudad del Cabo",
           "contacto": "cronicas@ciudaddelcabo.local",
-          "horario": "17:00 - 18:30"
+          "horario": "17:00 - 18:30",
+          "web": "https://www.civitatis.com/es/ciudad-del-cabo/"
         },
         {
           "titulo": "Compras con guia local",
           "descripcion": "Seleccion de tiendas, talleres y productos con criterio local y sin prisas.",
           "proveedor": "Local Shops Ciudad del Cabo",
           "contacto": "shops@ciudaddelcabo.local",
-          "horario": "11:00 - 13:00"
+          "horario": "11:00 - 13:00",
+          "web": "https://www.getyourguide.com/s/?q=Cape%20Town"
         },
         {
           "titulo": "Noche de ambiente",
           "descripcion": "Recorrido suave por bares, plazas y locales recomendados para tomar el pulso nocturno.",
           "proveedor": "After Dark Ciudad del Cabo",
           "contacto": "noche@ciudaddelcabo.local",
-          "horario": "20:00 - 22:00"
+          "horario": "20:00 - 22:00",
+          "web": "https://www.getyourguide.com/s/?q=Cape%20Town"
         }
       ],
       "web": "https://www.capetown.travel/bo-kaap"
@@ -293,42 +317,48 @@
           "descripcion": "Recorrido por senderos, jardines y miradores para reconocer especies y entender el paisaje de Kirstenbosch.",
           "proveedor": "Green Ciudad del Cabo",
           "contacto": "green@ciudaddelcabo.local",
-          "horario": "10:00 - 11:30"
+          "horario": "10:00 - 11:30",
+          "web": "https://www.sanbi.org/gardens/kirstenbosch"
         },
         {
           "titulo": "Picnic con producto local",
           "descripcion": "Experiencia relajada con cesta preparada y recomendaciones de zonas tranquilas.",
           "proveedor": "Picnic Ciudad del Cabo",
           "contacto": "picnic@ciudaddelcabo.local",
-          "horario": "13:00 - 15:00"
+          "horario": "13:00 - 15:00",
+          "web": "https://www.sanbi.org/gardens/kirstenbosch"
         },
         {
           "titulo": "Ruta fotografica natural",
           "descripcion": "Paseo para capturar luz, vegetacion, agua y vistas con ritmo tranquilo.",
           "proveedor": "Photo Walk Ciudad del Cabo",
           "contacto": "foto@ciudaddelcabowalk.local",
-          "horario": "Atardecer"
+          "horario": "Atardecer",
+          "web": "https://www.withlocals.com/search/?q=Cape%20Town"
         },
         {
           "titulo": "Actividad familiar al aire libre",
           "descripcion": "Juego de observacion y pequenas misiones para recorrer Kirstenbosch con ninos.",
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
-          "horario": "11:00 - 12:30"
+          "horario": "11:00 - 12:30",
+          "web": "https://www.getyourguide.com/s/?q=Cape%20Town"
         },
         {
           "titulo": "Bienestar y estiramientos",
           "descripcion": "Sesion suave para empezar el dia respirando mejor y disfrutando del entorno.",
           "proveedor": "Wellness Ciudad del Cabo",
           "contacto": "wellness@ciudaddelcabo.local",
-          "horario": "08:30 - 09:30"
+          "horario": "08:30 - 09:30",
+          "web": "https://www.getyourguide.com/s/?q=Cape%20Town"
         },
         {
           "titulo": "Miradores y rincones tranquilos",
           "descripcion": "Ruta breve por bancos, sombras y puntos de descanso para bajar el ritmo del viaje.",
           "proveedor": "Slow Travel Ciudad del Cabo",
           "contacto": "slow@ciudaddelcabo.local",
-          "horario": "16:30 - 18:00"
+          "horario": "16:30 - 18:00",
+          "web": "https://www.sanbi.org/gardens/kirstenbosch"
         }
       ],
       "web": "https://www.sanbi.org/gardens/kirstenbosch"
@@ -357,42 +387,48 @@
           "descripcion": "Recorrido por senderos, jardines y miradores para reconocer especies y entender el paisaje de Camps Bay.",
           "proveedor": "Green Ciudad del Cabo",
           "contacto": "green@ciudaddelcabo.local",
-          "horario": "10:00 - 11:30"
+          "horario": "10:00 - 11:30",
+          "web": "https://www.capetown.travel/camps-bay"
         },
         {
           "titulo": "Picnic con producto local",
           "descripcion": "Experiencia relajada con cesta preparada y recomendaciones de zonas tranquilas.",
           "proveedor": "Picnic Ciudad del Cabo",
           "contacto": "picnic@ciudaddelcabo.local",
-          "horario": "13:00 - 15:00"
+          "horario": "13:00 - 15:00",
+          "web": "https://www.capetown.travel/camps-bay"
         },
         {
           "titulo": "Ruta fotografica natural",
           "descripcion": "Paseo para capturar luz, vegetacion, agua y vistas con ritmo tranquilo.",
           "proveedor": "Photo Walk Ciudad del Cabo",
           "contacto": "foto@ciudaddelcabowalk.local",
-          "horario": "Atardecer"
+          "horario": "Atardecer",
+          "web": "https://www.withlocals.com/search/?q=Cape%20Town"
         },
         {
           "titulo": "Actividad familiar al aire libre",
           "descripcion": "Juego de observacion y pequenas misiones para recorrer Camps Bay con ninos.",
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
-          "horario": "11:00 - 12:30"
+          "horario": "11:00 - 12:30",
+          "web": "https://www.getyourguide.com/s/?q=Cape%20Town"
         },
         {
           "titulo": "Bienestar y estiramientos",
           "descripcion": "Sesion suave para empezar el dia respirando mejor y disfrutando del entorno.",
           "proveedor": "Wellness Ciudad del Cabo",
           "contacto": "wellness@ciudaddelcabo.local",
-          "horario": "08:30 - 09:30"
+          "horario": "08:30 - 09:30",
+          "web": "https://www.getyourguide.com/s/?q=Cape%20Town"
         },
         {
           "titulo": "Miradores y rincones tranquilos",
           "descripcion": "Ruta breve por bancos, sombras y puntos de descanso para bajar el ritmo del viaje.",
           "proveedor": "Slow Travel Ciudad del Cabo",
           "contacto": "slow@ciudaddelcabo.local",
-          "horario": "16:30 - 18:00"
+          "horario": "16:30 - 18:00",
+          "web": "https://www.capetown.travel/camps-bay"
         }
       ],
       "web": "https://www.capetown.travel/camps-bay"
@@ -421,42 +457,48 @@
           "descripcion": "Recorrido para entender las piezas clave de District Six Museum y su papel en la identidad de Ciudad del Cabo.",
           "proveedor": "District Six Museum Educacion",
           "contacto": "educacion@districtsixmuseum.local",
-          "horario": "10:00 - 12:00"
+          "horario": "10:00 - 12:00",
+          "web": "https://www.districtsix.co.za"
         },
         {
           "titulo": "Ruta de obras imprescindibles",
           "descripcion": "Seleccion comentada de salas, objetos y relatos para aprovechar la visita sin perderse lo esencial.",
           "proveedor": "Guias de Ciudad del Cabo",
           "contacto": "reservas@ciudaddelcabotours.local",
-          "horario": "12:30 - 14:00"
+          "horario": "12:30 - 14:00",
+          "web": "https://www.districtsix.co.za"
         },
         {
           "titulo": "Taller creativo",
           "descripcion": "Actividad practica inspirada en las colecciones del museo, pensada para viajeros curiosos y familias.",
           "proveedor": "Atelier Ciudad del Cabo",
           "contacto": "talleres@ciudaddelcaboatelier.local",
-          "horario": "16:00 - 18:00"
+          "horario": "16:00 - 18:00",
+          "web": "https://www.districtsix.co.za"
         },
         {
           "titulo": "Audioguia express",
           "descripcion": "Formato autonomo y breve para recorrer District Six Museum con contexto historico y buenas pausas.",
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
-          "horario": "Durante apertura"
+          "horario": "Durante apertura",
+          "web": "https://www.tiqets.com/en/search/?query=Cape%20Town"
         },
         {
           "titulo": "Encuentro con especialista",
           "descripcion": "Charla divulgativa sobre restauracion, archivo o seleccion de piezas destacadas.",
           "proveedor": "Cultura Ciudad del Cabo",
           "contacto": "info@culturaciudaddelcabo.local",
-          "horario": "Consultar calendario"
+          "horario": "Consultar calendario",
+          "web": "https://www.districtsix.co.za"
         },
         {
           "titulo": "Paseo fotografico interior",
           "descripcion": "Ruta de encuadres permitidos, arquitectura y detalles visuales sin interferir con la visita.",
           "proveedor": "Photo Walk Ciudad del Cabo",
           "contacto": "foto@ciudaddelcabowalk.local",
-          "horario": "Ultima hora de apertura"
+          "horario": "Ultima hora de apertura",
+          "web": "https://www.withlocals.com/search/?q=Cape%20Town"
         }
       ],
       "web": "https://www.districtsix.co.za"
@@ -485,42 +527,48 @@
           "descripcion": "Recorrido interpretado por Old Biscuit Mill y su contexto dentro de Ciudad del Cabo.",
           "proveedor": "Guias Locales Ciudad del Cabo",
           "contacto": "hola@ciudaddelcabolocal.local",
-          "horario": "10:00 - 12:00"
+          "horario": "10:00 - 12:00",
+          "web": "https://www.getyourguide.com/s/?q=Cape%20Town"
         },
         {
           "titulo": "Paseo fotografico",
           "descripcion": "Actividad para encontrar buenos encuadres, detalles y luz adecuada en Old Biscuit Mill.",
           "proveedor": "Photo Walk Ciudad del Cabo",
           "contacto": "foto@ciudaddelcabowalk.local",
-          "horario": "Atardecer"
+          "horario": "Atardecer",
+          "web": "https://www.withlocals.com/search/?q=Cape%20Town"
         },
         {
           "titulo": "Tour privado a medida",
           "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
           "proveedor": "Travel Designers Ciudad del Cabo",
           "contacto": "plan@ciudaddelcabotravel.local",
-          "horario": "Bajo reserva"
+          "horario": "Bajo reserva",
+          "web": "https://www.getyourguide.com/s/?q=Cape%20Town"
         },
         {
           "titulo": "Ruta familiar",
           "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
-          "horario": "11:00 - 12:30"
+          "horario": "11:00 - 12:30",
+          "web": "https://www.getyourguide.com/s/?q=Cape%20Town"
         },
         {
           "titulo": "Experiencia al atardecer",
           "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
           "proveedor": "Slow Travel Ciudad del Cabo",
           "contacto": "slow@ciudaddelcabo.local",
-          "horario": "Atardecer"
+          "horario": "Atardecer",
+          "web": "https://www.getyourguide.com/s/?q=Cape%20Town"
         },
         {
           "titulo": "Audioguia express",
           "descripcion": "Formato breve para entender lo esencial de Old Biscuit Mill con autonomia.",
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
-          "horario": "Durante apertura"
+          "horario": "Durante apertura",
+          "web": "https://www.tiqets.com/en/search/?query=Cape%20Town"
         }
       ],
       "web": "https://theoldbiscuitmill.co.za"
@@ -549,42 +597,48 @@
           "descripcion": "Recorrido por senderos, jardines y miradores para reconocer especies y entender el paisaje de Boulders Beach.",
           "proveedor": "Green Ciudad del Cabo",
           "contacto": "green@ciudaddelcabo.local",
-          "horario": "10:00 - 11:30"
+          "horario": "10:00 - 11:30",
+          "web": "https://www.sanparks.org/parks/table-mountain/what-to-do/attractions/boulders-penguin-colony"
         },
         {
           "titulo": "Picnic con producto local",
           "descripcion": "Experiencia relajada con cesta preparada y recomendaciones de zonas tranquilas.",
           "proveedor": "Picnic Ciudad del Cabo",
           "contacto": "picnic@ciudaddelcabo.local",
-          "horario": "13:00 - 15:00"
+          "horario": "13:00 - 15:00",
+          "web": "https://www.sanparks.org/parks/table-mountain/what-to-do/attractions/boulders-penguin-colony"
         },
         {
           "titulo": "Ruta fotografica natural",
           "descripcion": "Paseo para capturar luz, vegetacion, agua y vistas con ritmo tranquilo.",
           "proveedor": "Photo Walk Ciudad del Cabo",
           "contacto": "foto@ciudaddelcabowalk.local",
-          "horario": "Atardecer"
+          "horario": "Atardecer",
+          "web": "https://www.withlocals.com/search/?q=Cape%20Town"
         },
         {
           "titulo": "Actividad familiar al aire libre",
           "descripcion": "Juego de observacion y pequenas misiones para recorrer Boulders Beach con ninos.",
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
-          "horario": "11:00 - 12:30"
+          "horario": "11:00 - 12:30",
+          "web": "https://www.getyourguide.com/s/?q=Cape%20Town"
         },
         {
           "titulo": "Bienestar y estiramientos",
           "descripcion": "Sesion suave para empezar el dia respirando mejor y disfrutando del entorno.",
           "proveedor": "Wellness Ciudad del Cabo",
           "contacto": "wellness@ciudaddelcabo.local",
-          "horario": "08:30 - 09:30"
+          "horario": "08:30 - 09:30",
+          "web": "https://www.getyourguide.com/s/?q=Cape%20Town"
         },
         {
           "titulo": "Miradores y rincones tranquilos",
           "descripcion": "Ruta breve por bancos, sombras y puntos de descanso para bajar el ritmo del viaje.",
           "proveedor": "Slow Travel Ciudad del Cabo",
           "contacto": "slow@ciudaddelcabo.local",
-          "horario": "16:30 - 18:00"
+          "horario": "16:30 - 18:00",
+          "web": "https://www.sanparks.org/parks/table-mountain/what-to-do/attractions/boulders-penguin-colony"
         }
       ],
       "web": "https://www.sanparks.org/parks/table-mountain/what-to-do/attractions/boulders-penguin-colony"

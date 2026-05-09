@@ -337,7 +337,8 @@
         "proveedor": "Self-guided",
         "contacto": "n/a",
         "horario": "24h",
-        "imagen": "img/rio_activities/escaleraselaron_2_busquedadelazulejo.png"
+        "imagen": "img/rio_activities/escaleraselaron_2_busquedadelazulejo.png",
+        "web": "https://riotur.rio/en/que_fazer/selaron-steps"
       },
       {
         "titulo": "Paseo por Santa Teresa",
@@ -524,7 +525,8 @@
         "proveedor": "Self-guided",
         "contacto": "n/a",
         "horario": "17:30 - 18:30",
-        "imagen": "img/rio_activities/museudoamanha_6_atardecerenlabahia.png"
+        "imagen": "img/rio_activities/museudoamanha_6_atardecerenlabahia.png",
+        "web": "https://www.getyourguide.com/s/?q=Rio%20de%20Janeiro"
       }
     ],
     "web": "https://museudoamanha.org.br"

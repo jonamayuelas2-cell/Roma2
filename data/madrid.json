@@ -25,42 +25,48 @@
         "descripcion": "Recorrido para entender las piezas clave de Museo del Prado y su papel en la identidad de Madrid.",
         "proveedor": "Museo del Prado Educacion",
         "contacto": "educacion@museodelprado.local",
-        "horario": "10:00 - 12:00"
+        "horario": "10:00 - 12:00",
+        "web": "https://museodelprado.es"
       },
       {
         "titulo": "Ruta de obras imprescindibles",
         "descripcion": "Seleccion comentada de salas, objetos y relatos para aprovechar la visita sin perderse lo esencial.",
         "proveedor": "Guias de Madrid",
         "contacto": "reservas@madridtours.local",
-        "horario": "12:30 - 14:00"
+        "horario": "12:30 - 14:00",
+        "web": "https://museodelprado.es"
       },
       {
         "titulo": "Taller creativo",
         "descripcion": "Actividad practica inspirada en las colecciones del museo, pensada para viajeros curiosos y familias.",
         "proveedor": "Atelier Madrid",
         "contacto": "talleres@madridatelier.local",
-        "horario": "16:00 - 18:00"
+        "horario": "16:00 - 18:00",
+        "web": "https://museodelprado.es"
       },
       {
         "titulo": "Audioguia express",
         "descripcion": "Formato autonomo y breve para recorrer Museo del Prado con contexto historico y buenas pausas.",
         "proveedor": "Audio Travel",
         "contacto": "audio@travel.local",
-        "horario": "Durante apertura"
+        "horario": "Durante apertura",
+        "web": "https://www.tiqets.com/en/search/?query=Madrid"
       },
       {
         "titulo": "Encuentro con especialista",
         "descripcion": "Charla divulgativa sobre restauracion, archivo o seleccion de piezas destacadas.",
         "proveedor": "Cultura Madrid",
         "contacto": "info@culturamadrid.local",
-        "horario": "Consultar calendario"
+        "horario": "Consultar calendario",
+        "web": "https://museodelprado.es"
       },
       {
         "titulo": "Paseo fotografico interior",
         "descripcion": "Ruta de encuadres permitidos, arquitectura y detalles visuales sin interferir con la visita.",
         "proveedor": "Photo Walk Madrid",
         "contacto": "foto@madridwalk.local",
-        "horario": "Ultima hora de apertura"
+        "horario": "Ultima hora de apertura",
+        "web": "https://www.withlocals.com/search/?q=Madrid"
       }
     ]
   },
@@ -89,42 +95,48 @@
         "descripcion": "Recorrido por senderos, jardines y miradores para reconocer especies y entender el paisaje de Parque del Retiro.",
         "proveedor": "Green Madrid",
         "contacto": "green@madrid.local",
-        "horario": "10:00 - 11:30"
+        "horario": "10:00 - 11:30",
+        "web": "https://www.esmadrid.com/informacion-turistica/parque-del-retiro"
       },
       {
         "titulo": "Picnic con producto local",
         "descripcion": "Experiencia relajada con cesta preparada y recomendaciones de zonas tranquilas.",
         "proveedor": "Picnic Madrid",
         "contacto": "picnic@madrid.local",
-        "horario": "13:00 - 15:00"
+        "horario": "13:00 - 15:00",
+        "web": "https://www.esmadrid.com/informacion-turistica/parque-del-retiro"
       },
       {
         "titulo": "Ruta fotografica natural",
         "descripcion": "Paseo para capturar luz, vegetacion, agua y vistas con ritmo tranquilo.",
         "proveedor": "Photo Walk Madrid",
         "contacto": "foto@madridwalk.local",
-        "horario": "Atardecer"
+        "horario": "Atardecer",
+        "web": "https://www.withlocals.com/search/?q=Madrid"
       },
       {
         "titulo": "Actividad familiar al aire libre",
         "descripcion": "Juego de observacion y pequenas misiones para recorrer Parque del Retiro con ninos.",
         "proveedor": "Familias Viajeras",
         "contacto": "familias@viaje.local",
-        "horario": "11:00 - 12:30"
+        "horario": "11:00 - 12:30",
+        "web": "https://www.getyourguide.com/s/?q=Madrid"
       },
       {
         "titulo": "Bienestar y estiramientos",
         "descripcion": "Sesion suave para empezar el dia respirando mejor y disfrutando del entorno.",
         "proveedor": "Wellness Madrid",
         "contacto": "wellness@madrid.local",
-        "horario": "08:30 - 09:30"
+        "horario": "08:30 - 09:30",
+        "web": "https://www.getyourguide.com/s/?q=Madrid"
       },
       {
         "titulo": "Miradores y rincones tranquilos",
         "descripcion": "Ruta breve por bancos, sombras y puntos de descanso para bajar el ritmo del viaje.",
         "proveedor": "Slow Travel Madrid",
         "contacto": "slow@madrid.local",
-        "horario": "16:30 - 18:00"
+        "horario": "16:30 - 18:00",
+        "web": "https://www.esmadrid.com/informacion-turistica/parque-del-retiro"
       }
     ],
     "web": "https://www.esmadrid.com/informacion-turistica/parque-del-retiro"
@@ -154,42 +166,48 @@
         "descripcion": "Recorrido guiado por Palacio Real para conectar arquitectura, personajes y momentos clave de Madrid.",
         "proveedor": "Historia Viva Madrid",
         "contacto": "reservas@historiamadrid.local",
-        "horario": "10:00 - 12:00"
+        "horario": "10:00 - 12:00",
+        "web": "https://www.getyourguide.com/s/?q=Madrid"
       },
       {
         "titulo": "Acceso con contexto local",
         "descripcion": "Visita pausada con explicaciones practicas para comprender por que este lugar sigue siendo imprescindible.",
         "proveedor": "Guias Locales Madrid",
         "contacto": "hola@madridlocal.local",
-        "horario": "12:00 - 14:00"
+        "horario": "12:00 - 14:00",
+        "web": "https://www.getyourguide.com/s/?q=Madrid"
       },
       {
         "titulo": "Paseo fotografico",
         "descripcion": "Itinerario para capturar fachadas, perspectivas y detalles con la mejor luz disponible.",
         "proveedor": "Photo Walk Madrid",
         "contacto": "foto@madridwalk.local",
-        "horario": "Atardecer"
+        "horario": "Atardecer",
+        "web": "https://www.withlocals.com/search/?q=Madrid"
       },
       {
         "titulo": "Ruta de leyendas",
         "descripcion": "Historias, simbolos y anecdotas alrededor de Palacio Real, con tono narrativo y facil de seguir.",
         "proveedor": "Relatos de Madrid",
         "contacto": "relatos@madrid.local",
-        "horario": "18:00 - 19:30"
+        "horario": "18:00 - 19:30",
+        "web": "https://www.civitatis.com/es/madrid/"
       },
       {
         "titulo": "Visita familiar",
         "descripcion": "Version didactica con paradas breves, preguntas y claves sencillas para ninos y adultos.",
         "proveedor": "Familias Viajeras",
         "contacto": "familias@viaje.local",
-        "horario": "11:00 - 12:30"
+        "horario": "11:00 - 12:30",
+        "web": "https://www.getyourguide.com/s/?q=Madrid"
       },
       {
         "titulo": "Audioguia express",
         "descripcion": "Recorrido autonomo para ver lo principal de Palacio Real con contexto claro y sin prisas.",
         "proveedor": "Audio Travel",
         "contacto": "audio@travel.local",
-        "horario": "Durante apertura"
+        "horario": "Durante apertura",
+        "web": "https://www.tiqets.com/en/search/?query=Madrid"
       }
     ],
     "web": "https://www.patrimonionacional.es/visita/palacio-real-de-madrid"
@@ -220,42 +238,48 @@
         "descripcion": "Recorrido guiado por Templo de Debod para conectar arquitectura, personajes y momentos clave de Madrid.",
         "proveedor": "Historia Viva Madrid",
         "contacto": "reservas@historiamadrid.local",
-        "horario": "10:00 - 12:00"
+        "horario": "10:00 - 12:00",
+        "web": "https://www.getyourguide.com/s/?q=Madrid"
       },
       {
         "titulo": "Acceso con contexto local",
         "descripcion": "Visita pausada con explicaciones practicas para comprender por que este lugar sigue siendo imprescindible.",
         "proveedor": "Guias Locales Madrid",
         "contacto": "hola@madridlocal.local",
-        "horario": "12:00 - 14:00"
+        "horario": "12:00 - 14:00",
+        "web": "https://www.getyourguide.com/s/?q=Madrid"
       },
       {
         "titulo": "Paseo fotografico",
         "descripcion": "Itinerario para capturar fachadas, perspectivas y detalles con la mejor luz disponible.",
         "proveedor": "Photo Walk Madrid",
         "contacto": "foto@madridwalk.local",
-        "horario": "Atardecer"
+        "horario": "Atardecer",
+        "web": "https://www.withlocals.com/search/?q=Madrid"
       },
       {
         "titulo": "Ruta de leyendas",
         "descripcion": "Historias, simbolos y anecdotas alrededor de Templo de Debod, con tono narrativo y facil de seguir.",
         "proveedor": "Relatos de Madrid",
         "contacto": "relatos@madrid.local",
-        "horario": "18:00 - 19:30"
+        "horario": "18:00 - 19:30",
+        "web": "https://www.civitatis.com/es/madrid/"
       },
       {
         "titulo": "Visita familiar",
         "descripcion": "Version didactica con paradas breves, preguntas y claves sencillas para ninos y adultos.",
         "proveedor": "Familias Viajeras",
         "contacto": "familias@viaje.local",
-        "horario": "11:00 - 12:30"
+        "horario": "11:00 - 12:30",
+        "web": "https://www.getyourguide.com/s/?q=Madrid"
       },
       {
         "titulo": "Audioguia express",
         "descripcion": "Recorrido autonomo para ver lo principal de Templo de Debod con contexto claro y sin prisas.",
         "proveedor": "Audio Travel",
         "contacto": "audio@travel.local",
-        "horario": "Durante apertura"
+        "horario": "Durante apertura",
+        "web": "https://www.tiqets.com/en/search/?query=Madrid"
       }
     ]
   },
@@ -284,42 +308,48 @@
         "descripcion": "Ruta a pie por calles, plazas y rincones cotidianos para entender el caracter de Gran Via.",
         "proveedor": "Walks Madrid",
         "contacto": "walks@madrid.local",
-        "horario": "10:30 - 12:30"
+        "horario": "10:30 - 12:30",
+        "web": "https://www.civitatis.com/es/madrid/"
       },
       {
         "titulo": "Ruta gastronomica local",
         "descripcion": "Paradas escogidas para probar sabores representativos y conocer pequenos comercios de la zona.",
         "proveedor": "Sabores de Madrid",
         "contacto": "sabores@madrid.local",
-        "horario": "13:00 - 15:00"
+        "horario": "13:00 - 15:00",
+        "web": "https://madridfoodtour.com"
       },
       {
         "titulo": "Fotografia urbana",
         "descripcion": "Paseo para buscar fachadas, mercados, escenas de calle y detalles con personalidad.",
         "proveedor": "Photo Walk Madrid",
         "contacto": "foto@madridwalk.local",
-        "horario": "Atardecer"
+        "horario": "Atardecer",
+        "web": "https://www.withlocals.com/search/?q=Madrid"
       },
       {
         "titulo": "Historias del vecindario",
         "descripcion": "Relato guiado sobre cambios urbanos, vida local y memoria del barrio.",
         "proveedor": "Cronicas Madrid",
         "contacto": "cronicas@madrid.local",
-        "horario": "17:00 - 18:30"
+        "horario": "17:00 - 18:30",
+        "web": "https://www.civitatis.com/es/madrid/"
       },
       {
         "titulo": "Compras con guia local",
         "descripcion": "Seleccion de tiendas, talleres y productos con criterio local y sin prisas.",
         "proveedor": "Local Shops Madrid",
         "contacto": "shops@madrid.local",
-        "horario": "11:00 - 13:00"
+        "horario": "11:00 - 13:00",
+        "web": "https://www.getyourguide.com/s/?q=Madrid"
       },
       {
         "titulo": "Noche de ambiente",
         "descripcion": "Recorrido suave por bares, plazas y locales recomendados para tomar el pulso nocturno.",
         "proveedor": "After Dark Madrid",
         "contacto": "noche@madrid.local",
-        "horario": "20:00 - 22:00"
+        "horario": "20:00 - 22:00",
+        "web": "https://www.getyourguide.com/s/?q=Madrid"
       }
     ],
     "web": "https://www.esmadrid.com/informacion-turistica/gran-via"
@@ -349,42 +379,48 @@
         "descripcion": "Recorrido guiado por Plaza Mayor para conectar arquitectura, personajes y momentos clave de Madrid.",
         "proveedor": "Historia Viva Madrid",
         "contacto": "reservas@historiamadrid.local",
-        "horario": "10:00 - 12:00"
+        "horario": "10:00 - 12:00",
+        "web": "https://www.getyourguide.com/s/?q=Madrid"
       },
       {
         "titulo": "Acceso con contexto local",
         "descripcion": "Visita pausada con explicaciones practicas para comprender por que este lugar sigue siendo imprescindible.",
         "proveedor": "Guias Locales Madrid",
         "contacto": "hola@madridlocal.local",
-        "horario": "12:00 - 14:00"
+        "horario": "12:00 - 14:00",
+        "web": "https://www.getyourguide.com/s/?q=Madrid"
       },
       {
         "titulo": "Paseo fotografico",
         "descripcion": "Itinerario para capturar fachadas, perspectivas y detalles con la mejor luz disponible.",
         "proveedor": "Photo Walk Madrid",
         "contacto": "foto@madridwalk.local",
-        "horario": "Atardecer"
+        "horario": "Atardecer",
+        "web": "https://www.withlocals.com/search/?q=Madrid"
       },
       {
         "titulo": "Ruta de leyendas",
         "descripcion": "Historias, simbolos y anecdotas alrededor de Plaza Mayor, con tono narrativo y facil de seguir.",
         "proveedor": "Relatos de Madrid",
         "contacto": "relatos@madrid.local",
-        "horario": "18:00 - 19:30"
+        "horario": "18:00 - 19:30",
+        "web": "https://www.civitatis.com/es/madrid/"
       },
       {
         "titulo": "Visita familiar",
         "descripcion": "Version didactica con paradas breves, preguntas y claves sencillas para ninos y adultos.",
         "proveedor": "Familias Viajeras",
         "contacto": "familias@viaje.local",
-        "horario": "11:00 - 12:30"
+        "horario": "11:00 - 12:30",
+        "web": "https://www.getyourguide.com/s/?q=Madrid"
       },
       {
         "titulo": "Audioguia express",
         "descripcion": "Recorrido autonomo para ver lo principal de Plaza Mayor con contexto claro y sin prisas.",
         "proveedor": "Audio Travel",
         "contacto": "audio@travel.local",
-        "horario": "Durante apertura"
+        "horario": "Durante apertura",
+        "web": "https://www.tiqets.com/en/search/?query=Madrid"
       }
     ],
     "web": "https://www.munlima.gob.pe"
@@ -415,42 +451,48 @@
         "descripcion": "Reserva orientada para probar los platos mas representativos de Mercado de San Miguel sin complicarse.",
         "proveedor": "Mercado de San Miguel",
         "contacto": "reservas@mercadodesanmiguel.local",
-        "horario": "Comida y cena"
+        "horario": "Comida y cena",
+        "web": "https://madridfoodtour.com"
       },
       {
         "titulo": "Menu degustacion",
         "descripcion": "Seleccion de platos para entender la propuesta de cocina y los sabores de Madrid.",
         "proveedor": "Sabores de Madrid",
         "contacto": "sabores@madrid.local",
-        "horario": "Consultar servicio"
+        "horario": "Consultar servicio",
+        "web": "https://madridfoodtour.com"
       },
       {
         "titulo": "Charla con cocina",
         "descripcion": "Experiencia breve para conocer ingredientes, tecnica y pequenos detalles del equipo.",
         "proveedor": "Food Stories Madrid",
         "contacto": "food@madrid.local",
-        "horario": "Antes de comer"
+        "horario": "Antes de comer",
+        "web": "https://madridfoodtour.com"
       },
       {
         "titulo": "Maridaje local",
         "descripcion": "Propuesta de bebidas o productos locales para acompanar la comida con criterio.",
         "proveedor": "Catas Madrid",
         "contacto": "catas@madrid.local",
-        "horario": "Cena"
+        "horario": "Cena",
+        "web": "https://madridfoodtour.com"
       },
       {
         "titulo": "Ruta gastronomica cercana",
         "descripcion": "Paseo por la zona antes o despues de comer, enlazando mercado, barrio y mesa.",
         "proveedor": "Food Walk Madrid",
         "contacto": "foodwalk@madrid.local",
-        "horario": "12:00 - 14:00"
+        "horario": "12:00 - 14:00",
+        "web": "https://madridfoodtour.com"
       },
       {
         "titulo": "Clase de sabor local",
         "descripcion": "Taller sencillo inspirado en recetas, ingredientes o tecnicas vinculadas al restaurante.",
         "proveedor": "Talleres Madrid",
         "contacto": "talleres@madrid.local",
-        "horario": "Consultar calendario"
+        "horario": "Consultar calendario",
+        "web": "https://mercadodesanmiguel.es"
       }
     ]
   },
@@ -479,42 +521,48 @@
         "descripcion": "Recorrido guiado por Puerta del Sol para conectar arquitectura, personajes y momentos clave de Madrid.",
         "proveedor": "Historia Viva Madrid",
         "contacto": "reservas@historiamadrid.local",
-        "horario": "10:00 - 12:00"
+        "horario": "10:00 - 12:00",
+        "web": "https://www.getyourguide.com/s/?q=Madrid"
       },
       {
         "titulo": "Acceso con contexto local",
         "descripcion": "Visita pausada con explicaciones practicas para comprender por que este lugar sigue siendo imprescindible.",
         "proveedor": "Guias Locales Madrid",
         "contacto": "hola@madridlocal.local",
-        "horario": "12:00 - 14:00"
+        "horario": "12:00 - 14:00",
+        "web": "https://www.getyourguide.com/s/?q=Madrid"
       },
       {
         "titulo": "Paseo fotografico",
         "descripcion": "Itinerario para capturar fachadas, perspectivas y detalles con la mejor luz disponible.",
         "proveedor": "Photo Walk Madrid",
         "contacto": "foto@madridwalk.local",
-        "horario": "Atardecer"
+        "horario": "Atardecer",
+        "web": "https://www.withlocals.com/search/?q=Madrid"
       },
       {
         "titulo": "Ruta de leyendas",
         "descripcion": "Historias, simbolos y anecdotas alrededor de Puerta del Sol, con tono narrativo y facil de seguir.",
         "proveedor": "Relatos de Madrid",
         "contacto": "relatos@madrid.local",
-        "horario": "18:00 - 19:30"
+        "horario": "18:00 - 19:30",
+        "web": "https://www.civitatis.com/es/madrid/"
       },
       {
         "titulo": "Visita familiar",
         "descripcion": "Version didactica con paradas breves, preguntas y claves sencillas para ninos y adultos.",
         "proveedor": "Familias Viajeras",
         "contacto": "familias@viaje.local",
-        "horario": "11:00 - 12:30"
+        "horario": "11:00 - 12:30",
+        "web": "https://www.getyourguide.com/s/?q=Madrid"
       },
       {
         "titulo": "Audioguia express",
         "descripcion": "Recorrido autonomo para ver lo principal de Puerta del Sol con contexto claro y sin prisas.",
         "proveedor": "Audio Travel",
         "contacto": "audio@travel.local",
-        "horario": "Durante apertura"
+        "horario": "Durante apertura",
+        "web": "https://www.tiqets.com/en/search/?query=Madrid"
       }
     ],
     "web": "https://www.esmadrid.com/informacion-turistica/puerta-del-sol"
@@ -545,42 +593,48 @@
         "descripcion": "Reserva orientada para probar los platos mas representativos de Chocolateria San Gines sin complicarse.",
         "proveedor": "Chocolateria San Gines",
         "contacto": "reservas@chocolateriasangines.local",
-        "horario": "Comida y cena"
+        "horario": "Comida y cena",
+        "web": "https://madridfoodtour.com"
       },
       {
         "titulo": "Menu degustacion",
         "descripcion": "Seleccion de platos para entender la propuesta de cocina y los sabores de Madrid.",
         "proveedor": "Sabores de Madrid",
         "contacto": "sabores@madrid.local",
-        "horario": "Consultar servicio"
+        "horario": "Consultar servicio",
+        "web": "https://madridfoodtour.com"
       },
       {
         "titulo": "Charla con cocina",
         "descripcion": "Experiencia breve para conocer ingredientes, tecnica y pequenos detalles del equipo.",
         "proveedor": "Food Stories Madrid",
         "contacto": "food@madrid.local",
-        "horario": "Antes de comer"
+        "horario": "Antes de comer",
+        "web": "https://madridfoodtour.com"
       },
       {
         "titulo": "Maridaje local",
         "descripcion": "Propuesta de bebidas o productos locales para acompanar la comida con criterio.",
         "proveedor": "Catas Madrid",
         "contacto": "catas@madrid.local",
-        "horario": "Cena"
+        "horario": "Cena",
+        "web": "https://madridfoodtour.com"
       },
       {
         "titulo": "Ruta gastronomica cercana",
         "descripcion": "Paseo por la zona antes o despues de comer, enlazando mercado, barrio y mesa.",
         "proveedor": "Food Walk Madrid",
         "contacto": "foodwalk@madrid.local",
-        "horario": "12:00 - 14:00"
+        "horario": "12:00 - 14:00",
+        "web": "https://madridfoodtour.com"
       },
       {
         "titulo": "Clase de sabor local",
         "descripcion": "Taller sencillo inspirado en recetas, ingredientes o tecnicas vinculadas al restaurante.",
         "proveedor": "Talleres Madrid",
         "contacto": "talleres@madrid.local",
-        "horario": "Consultar calendario"
+        "horario": "Consultar calendario",
+        "web": "https://chocolateriasangines.com"
       }
     ]
   }

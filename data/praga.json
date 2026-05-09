@@ -37,42 +37,48 @@
           "descripcion": "Recorrido guiado por Puente Carlos para conectar arquitectura, personajes y momentos clave de Praga.",
           "proveedor": "Historia Viva Praga",
           "contacto": "reservas@historiapraga.local",
-          "horario": "10:00 - 12:00"
+          "horario": "10:00 - 12:00",
+          "web": "https://www.getyourguide.com/s/?q=Prague"
         },
         {
           "titulo": "Acceso con contexto local",
           "descripcion": "Visita pausada con explicaciones practicas para comprender por que este lugar sigue siendo imprescindible.",
           "proveedor": "Guias Locales Praga",
           "contacto": "hola@pragalocal.local",
-          "horario": "12:00 - 14:00"
+          "horario": "12:00 - 14:00",
+          "web": "https://www.getyourguide.com/s/?q=Prague"
         },
         {
           "titulo": "Paseo fotografico",
           "descripcion": "Itinerario para capturar fachadas, perspectivas y detalles con la mejor luz disponible.",
           "proveedor": "Photo Walk Praga",
           "contacto": "foto@pragawalk.local",
-          "horario": "Atardecer"
+          "horario": "Atardecer",
+          "web": "https://www.withlocals.com/search/?q=Prague"
         },
         {
           "titulo": "Ruta de leyendas",
           "descripcion": "Historias, simbolos y anecdotas alrededor de Puente Carlos, con tono narrativo y facil de seguir.",
           "proveedor": "Relatos de Praga",
           "contacto": "relatos@praga.local",
-          "horario": "18:00 - 19:30"
+          "horario": "18:00 - 19:30",
+          "web": "https://www.civitatis.com/es/praga/"
         },
         {
           "titulo": "Visita familiar",
           "descripcion": "Version didactica con paradas breves, preguntas y claves sencillas para ninos y adultos.",
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
-          "horario": "11:00 - 12:30"
+          "horario": "11:00 - 12:30",
+          "web": "https://www.getyourguide.com/s/?q=Prague"
         },
         {
           "titulo": "Audioguia express",
           "descripcion": "Recorrido autonomo para ver lo principal de Puente Carlos con contexto claro y sin prisas.",
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
-          "horario": "Durante apertura"
+          "horario": "Durante apertura",
+          "web": "https://www.tiqets.com/en/search/?query=Prague"
         }
       ],
       "web": "https://www.prague.eu/en/object/places/93/charles-bridge-karluv-most"
@@ -101,42 +107,48 @@
           "descripcion": "Recorrido guiado por Castillo de Praga para conectar arquitectura, personajes y momentos clave de Praga.",
           "proveedor": "Historia Viva Praga",
           "contacto": "reservas@historiapraga.local",
-          "horario": "10:00 - 12:00"
+          "horario": "10:00 - 12:00",
+          "web": "https://www.getyourguide.com/s/?q=Prague"
         },
         {
           "titulo": "Acceso con contexto local",
           "descripcion": "Visita pausada con explicaciones practicas para comprender por que este lugar sigue siendo imprescindible.",
           "proveedor": "Guias Locales Praga",
           "contacto": "hola@pragalocal.local",
-          "horario": "12:00 - 14:00"
+          "horario": "12:00 - 14:00",
+          "web": "https://www.getyourguide.com/s/?q=Prague"
         },
         {
           "titulo": "Paseo fotografico",
           "descripcion": "Itinerario para capturar fachadas, perspectivas y detalles con la mejor luz disponible.",
           "proveedor": "Photo Walk Praga",
           "contacto": "foto@pragawalk.local",
-          "horario": "Atardecer"
+          "horario": "Atardecer",
+          "web": "https://www.withlocals.com/search/?q=Prague"
         },
         {
           "titulo": "Ruta de leyendas",
           "descripcion": "Historias, simbolos y anecdotas alrededor de Castillo de Praga, con tono narrativo y facil de seguir.",
           "proveedor": "Relatos de Praga",
           "contacto": "relatos@praga.local",
-          "horario": "18:00 - 19:30"
+          "horario": "18:00 - 19:30",
+          "web": "https://www.civitatis.com/es/praga/"
         },
         {
           "titulo": "Visita familiar",
           "descripcion": "Version didactica con paradas breves, preguntas y claves sencillas para ninos y adultos.",
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
-          "horario": "11:00 - 12:30"
+          "horario": "11:00 - 12:30",
+          "web": "https://www.getyourguide.com/s/?q=Prague"
         },
         {
           "titulo": "Audioguia express",
           "descripcion": "Recorrido autonomo para ver lo principal de Castillo de Praga con contexto claro y sin prisas.",
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
-          "horario": "Durante apertura"
+          "horario": "Durante apertura",
+          "web": "https://www.tiqets.com/en/search/?query=Prague"
         }
       ],
       "web": "https://www.hrad.cz/en/prague-castle-for-visitors"
@@ -165,42 +177,48 @@
           "descripcion": "Recorrido interpretado por Plaza de la Ciudad Vieja para entender su contexto dentro de Praga.",
           "proveedor": "Guias Locales Praga",
           "contacto": "hola@praga.local",
-          "horario": "10:00 - 12:00"
+          "horario": "10:00 - 12:00",
+          "web": "https://www.getyourguide.com/s/?q=Prague"
         },
         {
           "titulo": "Paseo fotografico",
           "descripcion": "Itinerario para capturar perspectivas, detalles y luz adecuada en Plaza de la Ciudad Vieja.",
           "proveedor": "Photo Walk Praga",
           "contacto": "foto@pragawalk.local",
-          "horario": "Atardecer"
+          "horario": "Atardecer",
+          "web": "https://www.withlocals.com/search/?q=Prague"
         },
         {
           "titulo": "Tour privado a medida",
           "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
           "proveedor": "Travel Designers Praga",
           "contacto": "plan@pragatravel.local",
-          "horario": "Bajo reserva"
+          "horario": "Bajo reserva",
+          "web": "https://www.getyourguide.com/s/?q=Prague"
         },
         {
           "titulo": "Ruta familiar",
           "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
-          "horario": "11:00 - 12:30"
+          "horario": "11:00 - 12:30",
+          "web": "https://www.getyourguide.com/s/?q=Prague"
         },
         {
           "titulo": "Experiencia al atardecer",
           "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
           "proveedor": "Slow Travel Praga",
           "contacto": "slow@praga.local",
-          "horario": "Atardecer"
+          "horario": "Atardecer",
+          "web": "https://www.getyourguide.com/s/?q=Prague"
         },
         {
           "titulo": "Audioguia express",
           "descripcion": "Formato breve para entender lo esencial de Plaza de la Ciudad Vieja con autonomia.",
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
-          "horario": "Durante apertura"
+          "horario": "Durante apertura",
+          "web": "https://www.tiqets.com/en/search/?query=Prague"
         }
       ],
       "web": "https://www.prague.eu/en/object/places/183/old-town-square-staromestske-namesti"
@@ -229,42 +247,48 @@
           "descripcion": "Recorrido interpretado por Reloj Astronomico para entender su contexto dentro de Praga.",
           "proveedor": "Guias Locales Praga",
           "contacto": "hola@praga.local",
-          "horario": "10:00 - 12:00"
+          "horario": "10:00 - 12:00",
+          "web": "https://www.getyourguide.com/s/?q=Prague"
         },
         {
           "titulo": "Paseo fotografico",
           "descripcion": "Itinerario para capturar perspectivas, detalles y luz adecuada en Reloj Astronomico.",
           "proveedor": "Photo Walk Praga",
           "contacto": "foto@pragawalk.local",
-          "horario": "Atardecer"
+          "horario": "Atardecer",
+          "web": "https://www.withlocals.com/search/?q=Prague"
         },
         {
           "titulo": "Tour privado a medida",
           "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
           "proveedor": "Travel Designers Praga",
           "contacto": "plan@pragatravel.local",
-          "horario": "Bajo reserva"
+          "horario": "Bajo reserva",
+          "web": "https://www.getyourguide.com/s/?q=Prague"
         },
         {
           "titulo": "Ruta familiar",
           "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
-          "horario": "11:00 - 12:30"
+          "horario": "11:00 - 12:30",
+          "web": "https://www.getyourguide.com/s/?q=Prague"
         },
         {
           "titulo": "Experiencia al atardecer",
           "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
           "proveedor": "Slow Travel Praga",
           "contacto": "slow@praga.local",
-          "horario": "Atardecer"
+          "horario": "Atardecer",
+          "web": "https://www.getyourguide.com/s/?q=Prague"
         },
         {
           "titulo": "Audioguia express",
           "descripcion": "Formato breve para entender lo esencial de Reloj Astronomico con autonomia.",
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
-          "horario": "Durante apertura"
+          "horario": "Durante apertura",
+          "web": "https://www.tiqets.com/en/search/?query=Prague"
         }
       ],
       "web": "https://www.prague.eu/en/object/places/312/old-town-hall-with-astronomical-clock"
@@ -293,42 +317,48 @@
           "descripcion": "Recorrido interpretado por Catedral de San Vito para entender su contexto dentro de Praga.",
           "proveedor": "Guias Locales Praga",
           "contacto": "hola@praga.local",
-          "horario": "10:00 - 12:00"
+          "horario": "10:00 - 12:00",
+          "web": "https://www.getyourguide.com/s/?q=Prague"
         },
         {
           "titulo": "Paseo fotografico",
           "descripcion": "Itinerario para capturar perspectivas, detalles y luz adecuada en Catedral de San Vito.",
           "proveedor": "Photo Walk Praga",
           "contacto": "foto@pragawalk.local",
-          "horario": "Atardecer"
+          "horario": "Atardecer",
+          "web": "https://www.withlocals.com/search/?q=Prague"
         },
         {
           "titulo": "Tour privado a medida",
           "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
           "proveedor": "Travel Designers Praga",
           "contacto": "plan@pragatravel.local",
-          "horario": "Bajo reserva"
+          "horario": "Bajo reserva",
+          "web": "https://www.getyourguide.com/s/?q=Prague"
         },
         {
           "titulo": "Ruta familiar",
           "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
-          "horario": "11:00 - 12:30"
+          "horario": "11:00 - 12:30",
+          "web": "https://www.getyourguide.com/s/?q=Prague"
         },
         {
           "titulo": "Experiencia al atardecer",
           "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
           "proveedor": "Slow Travel Praga",
           "contacto": "slow@praga.local",
-          "horario": "Atardecer"
+          "horario": "Atardecer",
+          "web": "https://www.getyourguide.com/s/?q=Prague"
         },
         {
           "titulo": "Audioguia express",
           "descripcion": "Formato breve para entender lo esencial de Catedral de San Vito con autonomia.",
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
-          "horario": "Durante apertura"
+          "horario": "Durante apertura",
+          "web": "https://www.tiqets.com/en/search/?query=Prague"
         }
       ],
       "web": "https://www.katedralasvatehovita.cz/en"
@@ -357,42 +387,48 @@
           "descripcion": "Ruta a pie por rincones, miradores y escenas cotidianas de Mala Strana.",
           "proveedor": "Walks Praga",
           "contacto": "walks@praga.local",
-          "horario": "10:30 - 12:30"
+          "horario": "10:30 - 12:30",
+          "web": "https://www.civitatis.com/es/praga/"
         },
         {
           "titulo": "Paseo fotografico",
           "descripcion": "Itinerario para capturar perspectivas, detalles y luz adecuada en Mala Strana.",
           "proveedor": "Photo Walk Praga",
           "contacto": "foto@pragawalk.local",
-          "horario": "Atardecer"
+          "horario": "Atardecer",
+          "web": "https://www.withlocals.com/search/?q=Prague"
         },
         {
           "titulo": "Tour privado a medida",
           "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
           "proveedor": "Travel Designers Praga",
           "contacto": "plan@pragatravel.local",
-          "horario": "Bajo reserva"
+          "horario": "Bajo reserva",
+          "web": "https://www.getyourguide.com/s/?q=Prague"
         },
         {
           "titulo": "Ruta familiar",
           "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
-          "horario": "11:00 - 12:30"
+          "horario": "11:00 - 12:30",
+          "web": "https://www.getyourguide.com/s/?q=Prague"
         },
         {
           "titulo": "Experiencia al atardecer",
           "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
           "proveedor": "Slow Travel Praga",
           "contacto": "slow@praga.local",
-          "horario": "Atardecer"
+          "horario": "Atardecer",
+          "web": "https://www.getyourguide.com/s/?q=Prague"
         },
         {
           "titulo": "Audioguia express",
           "descripcion": "Formato breve para entender lo esencial de Mala Strana con autonomia.",
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
-          "horario": "Durante apertura"
+          "horario": "Durante apertura",
+          "web": "https://www.tiqets.com/en/search/?query=Prague"
         }
       ],
       "web": "https://www.prague.eu/en/object/places/498/lesser-town-mala-strana"
@@ -421,42 +457,48 @@
           "descripcion": "Recorrido interpretado por Barrio Judio Josefov para entender su contexto dentro de Praga.",
           "proveedor": "Guias Locales Praga",
           "contacto": "hola@praga.local",
-          "horario": "10:00 - 12:00"
+          "horario": "10:00 - 12:00",
+          "web": "https://www.getyourguide.com/s/?q=Prague"
         },
         {
           "titulo": "Paseo fotografico",
           "descripcion": "Itinerario para capturar perspectivas, detalles y luz adecuada en Barrio Judio Josefov.",
           "proveedor": "Photo Walk Praga",
           "contacto": "foto@pragawalk.local",
-          "horario": "Atardecer"
+          "horario": "Atardecer",
+          "web": "https://www.withlocals.com/search/?q=Prague"
         },
         {
           "titulo": "Tour privado a medida",
           "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
           "proveedor": "Travel Designers Praga",
           "contacto": "plan@pragatravel.local",
-          "horario": "Bajo reserva"
+          "horario": "Bajo reserva",
+          "web": "https://www.getyourguide.com/s/?q=Prague"
         },
         {
           "titulo": "Ruta familiar",
           "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
-          "horario": "11:00 - 12:30"
+          "horario": "11:00 - 12:30",
+          "web": "https://www.getyourguide.com/s/?q=Prague"
         },
         {
           "titulo": "Experiencia al atardecer",
           "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
           "proveedor": "Slow Travel Praga",
           "contacto": "slow@praga.local",
-          "horario": "Atardecer"
+          "horario": "Atardecer",
+          "web": "https://www.getyourguide.com/s/?q=Prague"
         },
         {
           "titulo": "Audioguia express",
           "descripcion": "Formato breve para entender lo esencial de Barrio Judio Josefov con autonomia.",
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
-          "horario": "Durante apertura"
+          "horario": "Durante apertura",
+          "web": "https://www.tiqets.com/en/search/?query=Prague"
         }
       ],
       "web": "https://www.jewishmuseum.cz/en"
@@ -485,42 +527,48 @@
           "descripcion": "Recorrido interpretado por Casa Danzante para entender su contexto dentro de Praga.",
           "proveedor": "Guias Locales Praga",
           "contacto": "hola@praga.local",
-          "horario": "10:00 - 12:00"
+          "horario": "10:00 - 12:00",
+          "web": "https://www.getyourguide.com/s/?q=Prague"
         },
         {
           "titulo": "Paseo fotografico",
           "descripcion": "Itinerario para capturar perspectivas, detalles y luz adecuada en Casa Danzante.",
           "proveedor": "Photo Walk Praga",
           "contacto": "foto@pragawalk.local",
-          "horario": "Atardecer"
+          "horario": "Atardecer",
+          "web": "https://www.withlocals.com/search/?q=Prague"
         },
         {
           "titulo": "Tour privado a medida",
           "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
           "proveedor": "Travel Designers Praga",
           "contacto": "plan@pragatravel.local",
-          "horario": "Bajo reserva"
+          "horario": "Bajo reserva",
+          "web": "https://www.getyourguide.com/s/?q=Prague"
         },
         {
           "titulo": "Ruta familiar",
           "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
-          "horario": "11:00 - 12:30"
+          "horario": "11:00 - 12:30",
+          "web": "https://www.getyourguide.com/s/?q=Prague"
         },
         {
           "titulo": "Experiencia al atardecer",
           "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
           "proveedor": "Slow Travel Praga",
           "contacto": "slow@praga.local",
-          "horario": "Atardecer"
+          "horario": "Atardecer",
+          "web": "https://www.getyourguide.com/s/?q=Prague"
         },
         {
           "titulo": "Audioguia express",
           "descripcion": "Formato breve para entender lo esencial de Casa Danzante con autonomia.",
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
-          "horario": "Durante apertura"
+          "horario": "Durante apertura",
+          "web": "https://www.tiqets.com/en/search/?query=Prague"
         }
       ],
       "web": "https://www.tancici-dum.cz/en"
@@ -549,42 +597,48 @@
           "descripcion": "Ruta a pie por rincones, miradores y escenas cotidianas de Parque Letna.",
           "proveedor": "Walks Praga",
           "contacto": "walks@praga.local",
-          "horario": "10:30 - 12:30"
+          "horario": "10:30 - 12:30",
+          "web": "https://www.prague.eu/en/object/places/407/letna-park"
         },
         {
           "titulo": "Paseo fotografico",
           "descripcion": "Itinerario para capturar perspectivas, detalles y luz adecuada en Parque Letna.",
           "proveedor": "Photo Walk Praga",
           "contacto": "foto@pragawalk.local",
-          "horario": "Atardecer"
+          "horario": "Atardecer",
+          "web": "https://www.withlocals.com/search/?q=Prague"
         },
         {
           "titulo": "Tour privado a medida",
           "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
           "proveedor": "Travel Designers Praga",
           "contacto": "plan@pragatravel.local",
-          "horario": "Bajo reserva"
+          "horario": "Bajo reserva",
+          "web": "https://www.getyourguide.com/s/?q=Prague"
         },
         {
           "titulo": "Ruta familiar",
           "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
-          "horario": "11:00 - 12:30"
+          "horario": "11:00 - 12:30",
+          "web": "https://www.getyourguide.com/s/?q=Prague"
         },
         {
           "titulo": "Experiencia al atardecer",
           "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
           "proveedor": "Slow Travel Praga",
           "contacto": "slow@praga.local",
-          "horario": "Atardecer"
+          "horario": "Atardecer",
+          "web": "https://www.getyourguide.com/s/?q=Prague"
         },
         {
           "titulo": "Audioguia express",
           "descripcion": "Formato breve para entender lo esencial de Parque Letna con autonomia.",
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
-          "horario": "Durante apertura"
+          "horario": "Durante apertura",
+          "web": "https://www.tiqets.com/en/search/?query=Prague"
         }
       ],
       "web": "https://www.prague.eu/en/object/places/407/letna-park"

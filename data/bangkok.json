@@ -37,42 +37,48 @@
           "descripcion": "Recorrido para entender las piezas clave de Gran Palacio y su papel en la identidad de Bangkok.",
           "proveedor": "Gran Palacio Educacion",
           "contacto": "educacion@granpalacio.local",
-          "horario": "10:00 - 12:00"
+          "horario": "10:00 - 12:00",
+          "web": "https://www.royalgrandpalace.th/en/home"
         },
         {
           "titulo": "Ruta de obras imprescindibles",
           "descripcion": "Seleccion comentada de salas, objetos y relatos para aprovechar la visita sin perderse lo esencial.",
           "proveedor": "Guias de Bangkok",
           "contacto": "reservas@bangkoktours.local",
-          "horario": "12:30 - 14:00"
+          "horario": "12:30 - 14:00",
+          "web": "https://www.royalgrandpalace.th/en/home"
         },
         {
           "titulo": "Taller creativo",
           "descripcion": "Actividad practica inspirada en las colecciones del museo, pensada para viajeros curiosos y familias.",
           "proveedor": "Atelier Bangkok",
           "contacto": "talleres@bangkokatelier.local",
-          "horario": "16:00 - 18:00"
+          "horario": "16:00 - 18:00",
+          "web": "https://www.royalgrandpalace.th/en/home"
         },
         {
           "titulo": "Audioguia express",
           "descripcion": "Formato autonomo y breve para recorrer Gran Palacio con contexto historico y buenas pausas.",
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
-          "horario": "Durante apertura"
+          "horario": "Durante apertura",
+          "web": "https://www.tiqets.com/en/search/?query=Bangkok"
         },
         {
           "titulo": "Encuentro con especialista",
           "descripcion": "Charla divulgativa sobre restauracion, archivo o seleccion de piezas destacadas.",
           "proveedor": "Cultura Bangkok",
           "contacto": "info@culturabangkok.local",
-          "horario": "Consultar calendario"
+          "horario": "Consultar calendario",
+          "web": "https://www.royalgrandpalace.th/en/home"
         },
         {
           "titulo": "Paseo fotografico interior",
           "descripcion": "Ruta de encuadres permitidos, arquitectura y detalles visuales sin interferir con la visita.",
           "proveedor": "Photo Walk Bangkok",
           "contacto": "foto@bangkokwalk.local",
-          "horario": "Ultima hora de apertura"
+          "horario": "Ultima hora de apertura",
+          "web": "https://www.withlocals.com/search/?q=Bangkok"
         }
       ],
       "web": "https://www.royalgrandpalace.th/en/home"
@@ -101,42 +107,48 @@
           "descripcion": "Recorrido para entender las piezas clave de Wat Pho y su papel en la identidad de Bangkok.",
           "proveedor": "Wat Pho Educacion",
           "contacto": "educacion@watpho.local",
-          "horario": "10:00 - 12:00"
+          "horario": "10:00 - 12:00",
+          "web": "https://www.watpho.com/en"
         },
         {
           "titulo": "Ruta de obras imprescindibles",
           "descripcion": "Seleccion comentada de salas, objetos y relatos para aprovechar la visita sin perderse lo esencial.",
           "proveedor": "Guias de Bangkok",
           "contacto": "reservas@bangkoktours.local",
-          "horario": "12:30 - 14:00"
+          "horario": "12:30 - 14:00",
+          "web": "https://www.watpho.com/en"
         },
         {
           "titulo": "Taller creativo",
           "descripcion": "Actividad practica inspirada en las colecciones del museo, pensada para viajeros curiosos y familias.",
           "proveedor": "Atelier Bangkok",
           "contacto": "talleres@bangkokatelier.local",
-          "horario": "16:00 - 18:00"
+          "horario": "16:00 - 18:00",
+          "web": "https://www.watpho.com/en"
         },
         {
           "titulo": "Audioguia express",
           "descripcion": "Formato autonomo y breve para recorrer Wat Pho con contexto historico y buenas pausas.",
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
-          "horario": "Durante apertura"
+          "horario": "Durante apertura",
+          "web": "https://www.tiqets.com/en/search/?query=Bangkok"
         },
         {
           "titulo": "Encuentro con especialista",
           "descripcion": "Charla divulgativa sobre restauracion, archivo o seleccion de piezas destacadas.",
           "proveedor": "Cultura Bangkok",
           "contacto": "info@culturabangkok.local",
-          "horario": "Consultar calendario"
+          "horario": "Consultar calendario",
+          "web": "https://www.watpho.com/en"
         },
         {
           "titulo": "Paseo fotografico interior",
           "descripcion": "Ruta de encuadres permitidos, arquitectura y detalles visuales sin interferir con la visita.",
           "proveedor": "Photo Walk Bangkok",
           "contacto": "foto@bangkokwalk.local",
-          "horario": "Ultima hora de apertura"
+          "horario": "Ultima hora de apertura",
+          "web": "https://www.withlocals.com/search/?q=Bangkok"
         }
       ],
       "web": "https://www.watpho.com/en"
@@ -165,42 +177,48 @@
           "descripcion": "Recorrido guiado por Wat Arun para conectar arquitectura, personajes y momentos clave de Bangkok.",
           "proveedor": "Historia Viva Bangkok",
           "contacto": "reservas@historiabangkok.local",
-          "horario": "10:00 - 12:00"
+          "horario": "10:00 - 12:00",
+          "web": "https://www.getyourguide.com/s/?q=Bangkok"
         },
         {
           "titulo": "Acceso con contexto local",
           "descripcion": "Visita pausada con explicaciones practicas para comprender por que este lugar sigue siendo imprescindible.",
           "proveedor": "Guias Locales Bangkok",
           "contacto": "hola@bangkoklocal.local",
-          "horario": "12:00 - 14:00"
+          "horario": "12:00 - 14:00",
+          "web": "https://www.getyourguide.com/s/?q=Bangkok"
         },
         {
           "titulo": "Paseo fotografico",
           "descripcion": "Itinerario para capturar fachadas, perspectivas y detalles con la mejor luz disponible.",
           "proveedor": "Photo Walk Bangkok",
           "contacto": "foto@bangkokwalk.local",
-          "horario": "Atardecer"
+          "horario": "Atardecer",
+          "web": "https://www.withlocals.com/search/?q=Bangkok"
         },
         {
           "titulo": "Ruta de leyendas",
           "descripcion": "Historias, simbolos y anecdotas alrededor de Wat Arun, con tono narrativo y facil de seguir.",
           "proveedor": "Relatos de Bangkok",
           "contacto": "relatos@bangkok.local",
-          "horario": "18:00 - 19:30"
+          "horario": "18:00 - 19:30",
+          "web": "https://www.civitatis.com/es/bangkok/"
         },
         {
           "titulo": "Visita familiar",
           "descripcion": "Version didactica con paradas breves, preguntas y claves sencillas para ninos y adultos.",
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
-          "horario": "11:00 - 12:30"
+          "horario": "11:00 - 12:30",
+          "web": "https://www.getyourguide.com/s/?q=Bangkok"
         },
         {
           "titulo": "Audioguia express",
           "descripcion": "Recorrido autonomo para ver lo principal de Wat Arun con contexto claro y sin prisas.",
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
-          "horario": "Durante apertura"
+          "horario": "Durante apertura",
+          "web": "https://www.tiqets.com/en/search/?query=Bangkok"
         }
       ],
       "web": "https://www.watarun1.com/en"
@@ -229,42 +247,48 @@
           "descripcion": "Recorrido interpretado por Chatuchak Market y su contexto dentro de Bangkok.",
           "proveedor": "Guias Locales Bangkok",
           "contacto": "hola@bangkoklocal.local",
-          "horario": "10:00 - 12:00"
+          "horario": "10:00 - 12:00",
+          "web": "https://www.getyourguide.com/s/?q=Bangkok"
         },
         {
           "titulo": "Paseo fotografico",
           "descripcion": "Actividad para encontrar buenos encuadres, detalles y luz adecuada en Chatuchak Market.",
           "proveedor": "Photo Walk Bangkok",
           "contacto": "foto@bangkokwalk.local",
-          "horario": "Atardecer"
+          "horario": "Atardecer",
+          "web": "https://www.withlocals.com/search/?q=Bangkok"
         },
         {
           "titulo": "Tour privado a medida",
           "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
           "proveedor": "Travel Designers Bangkok",
           "contacto": "plan@bangkoktravel.local",
-          "horario": "Bajo reserva"
+          "horario": "Bajo reserva",
+          "web": "https://www.getyourguide.com/s/?q=Bangkok"
         },
         {
           "titulo": "Ruta familiar",
           "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
-          "horario": "11:00 - 12:30"
+          "horario": "11:00 - 12:30",
+          "web": "https://www.getyourguide.com/s/?q=Bangkok"
         },
         {
           "titulo": "Experiencia al atardecer",
           "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
           "proveedor": "Slow Travel Bangkok",
           "contacto": "slow@bangkok.local",
-          "horario": "Atardecer"
+          "horario": "Atardecer",
+          "web": "https://www.getyourguide.com/s/?q=Bangkok"
         },
         {
           "titulo": "Audioguia express",
           "descripcion": "Formato breve para entender lo esencial de Chatuchak Market con autonomia.",
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
-          "horario": "Durante apertura"
+          "horario": "Durante apertura",
+          "web": "https://www.tiqets.com/en/search/?query=Bangkok"
         }
       ],
       "web": "https://www.chatuchakmarket.org"
@@ -293,42 +317,48 @@
           "descripcion": "Recorrido para entender las piezas clave de Jim Thompson House y su papel en la identidad de Bangkok.",
           "proveedor": "Jim Thompson House Educacion",
           "contacto": "educacion@jimthompsonhouse.local",
-          "horario": "10:00 - 12:00"
+          "horario": "10:00 - 12:00",
+          "web": "https://jimthompsonhouse.org"
         },
         {
           "titulo": "Ruta de obras imprescindibles",
           "descripcion": "Seleccion comentada de salas, objetos y relatos para aprovechar la visita sin perderse lo esencial.",
           "proveedor": "Guias de Bangkok",
           "contacto": "reservas@bangkoktours.local",
-          "horario": "12:30 - 14:00"
+          "horario": "12:30 - 14:00",
+          "web": "https://jimthompsonhouse.org"
         },
         {
           "titulo": "Taller creativo",
           "descripcion": "Actividad practica inspirada en las colecciones del museo, pensada para viajeros curiosos y familias.",
           "proveedor": "Atelier Bangkok",
           "contacto": "talleres@bangkokatelier.local",
-          "horario": "16:00 - 18:00"
+          "horario": "16:00 - 18:00",
+          "web": "https://jimthompsonhouse.org"
         },
         {
           "titulo": "Audioguia express",
           "descripcion": "Formato autonomo y breve para recorrer Jim Thompson House con contexto historico y buenas pausas.",
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
-          "horario": "Durante apertura"
+          "horario": "Durante apertura",
+          "web": "https://www.tiqets.com/en/search/?query=Bangkok"
         },
         {
           "titulo": "Encuentro con especialista",
           "descripcion": "Charla divulgativa sobre restauracion, archivo o seleccion de piezas destacadas.",
           "proveedor": "Cultura Bangkok",
           "contacto": "info@culturabangkok.local",
-          "horario": "Consultar calendario"
+          "horario": "Consultar calendario",
+          "web": "https://jimthompsonhouse.org"
         },
         {
           "titulo": "Paseo fotografico interior",
           "descripcion": "Ruta de encuadres permitidos, arquitectura y detalles visuales sin interferir con la visita.",
           "proveedor": "Photo Walk Bangkok",
           "contacto": "foto@bangkokwalk.local",
-          "horario": "Ultima hora de apertura"
+          "horario": "Ultima hora de apertura",
+          "web": "https://www.withlocals.com/search/?q=Bangkok"
         }
       ],
       "web": "https://jimthompsonhouse.org"
@@ -357,42 +387,48 @@
           "descripcion": "Ruta a pie por calles, plazas y rincones cotidianos para entender el caracter de Chinatown Yaowarat.",
           "proveedor": "Walks Bangkok",
           "contacto": "walks@bangkok.local",
-          "horario": "10:30 - 12:30"
+          "horario": "10:30 - 12:30",
+          "web": "https://www.civitatis.com/es/bangkok/"
         },
         {
           "titulo": "Ruta gastronomica local",
           "descripcion": "Paradas escogidas para probar sabores representativos y conocer pequenos comercios de la zona.",
           "proveedor": "Sabores de Bangkok",
           "contacto": "sabores@bangkok.local",
-          "horario": "13:00 - 15:00"
+          "horario": "13:00 - 15:00",
+          "web": "https://achefstour.com/tour/bangkok-food-tour"
         },
         {
           "titulo": "Fotografia urbana",
           "descripcion": "Paseo para buscar fachadas, mercados, escenas de calle y detalles con personalidad.",
           "proveedor": "Photo Walk Bangkok",
           "contacto": "foto@bangkokwalk.local",
-          "horario": "Atardecer"
+          "horario": "Atardecer",
+          "web": "https://www.withlocals.com/search/?q=Bangkok"
         },
         {
           "titulo": "Historias del vecindario",
           "descripcion": "Relato guiado sobre cambios urbanos, vida local y memoria del barrio.",
           "proveedor": "Cronicas Bangkok",
           "contacto": "cronicas@bangkok.local",
-          "horario": "17:00 - 18:30"
+          "horario": "17:00 - 18:30",
+          "web": "https://www.civitatis.com/es/bangkok/"
         },
         {
           "titulo": "Compras con guia local",
           "descripcion": "Seleccion de tiendas, talleres y productos con criterio local y sin prisas.",
           "proveedor": "Local Shops Bangkok",
           "contacto": "shops@bangkok.local",
-          "horario": "11:00 - 13:00"
+          "horario": "11:00 - 13:00",
+          "web": "https://www.getyourguide.com/s/?q=Bangkok"
         },
         {
           "titulo": "Noche de ambiente",
           "descripcion": "Recorrido suave por bares, plazas y locales recomendados para tomar el pulso nocturno.",
           "proveedor": "After Dark Bangkok",
           "contacto": "noche@bangkok.local",
-          "horario": "20:00 - 22:00"
+          "horario": "20:00 - 22:00",
+          "web": "https://www.getyourguide.com/s/?q=Bangkok"
         }
       ],
       "web": "https://www.tourismthailand.org/Attraction/yaowarat-road"
@@ -421,42 +457,48 @@
           "descripcion": "Recorrido por senderos, jardines y miradores para reconocer especies y entender el paisaje de Lumphini Park.",
           "proveedor": "Green Bangkok",
           "contacto": "green@bangkok.local",
-          "horario": "10:00 - 11:30"
+          "horario": "10:00 - 11:30",
+          "web": "https://www.bangkok.go.th/publicpark"
         },
         {
           "titulo": "Picnic con producto local",
           "descripcion": "Experiencia relajada con cesta preparada y recomendaciones de zonas tranquilas.",
           "proveedor": "Picnic Bangkok",
           "contacto": "picnic@bangkok.local",
-          "horario": "13:00 - 15:00"
+          "horario": "13:00 - 15:00",
+          "web": "https://www.bangkok.go.th/publicpark"
         },
         {
           "titulo": "Ruta fotografica natural",
           "descripcion": "Paseo para capturar luz, vegetacion, agua y vistas con ritmo tranquilo.",
           "proveedor": "Photo Walk Bangkok",
           "contacto": "foto@bangkokwalk.local",
-          "horario": "Atardecer"
+          "horario": "Atardecer",
+          "web": "https://www.withlocals.com/search/?q=Bangkok"
         },
         {
           "titulo": "Actividad familiar al aire libre",
           "descripcion": "Juego de observacion y pequenas misiones para recorrer Lumphini Park con ninos.",
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
-          "horario": "11:00 - 12:30"
+          "horario": "11:00 - 12:30",
+          "web": "https://www.getyourguide.com/s/?q=Bangkok"
         },
         {
           "titulo": "Bienestar y estiramientos",
           "descripcion": "Sesion suave para empezar el dia respirando mejor y disfrutando del entorno.",
           "proveedor": "Wellness Bangkok",
           "contacto": "wellness@bangkok.local",
-          "horario": "08:30 - 09:30"
+          "horario": "08:30 - 09:30",
+          "web": "https://www.getyourguide.com/s/?q=Bangkok"
         },
         {
           "titulo": "Miradores y rincones tranquilos",
           "descripcion": "Ruta breve por bancos, sombras y puntos de descanso para bajar el ritmo del viaje.",
           "proveedor": "Slow Travel Bangkok",
           "contacto": "slow@bangkok.local",
-          "horario": "16:30 - 18:00"
+          "horario": "16:30 - 18:00",
+          "web": "https://www.bangkok.go.th/publicpark"
         }
       ],
       "web": "https://www.bangkok.go.th/publicpark"
@@ -485,42 +527,48 @@
           "descripcion": "Recorrido interpretado por Khlong Lat Mayom y su contexto dentro de Bangkok.",
           "proveedor": "Guias Locales Bangkok",
           "contacto": "hola@bangkoklocal.local",
-          "horario": "10:00 - 12:00"
+          "horario": "10:00 - 12:00",
+          "web": "https://www.getyourguide.com/s/?q=Bangkok"
         },
         {
           "titulo": "Paseo fotografico",
           "descripcion": "Actividad para encontrar buenos encuadres, detalles y luz adecuada en Khlong Lat Mayom.",
           "proveedor": "Photo Walk Bangkok",
           "contacto": "foto@bangkokwalk.local",
-          "horario": "Atardecer"
+          "horario": "Atardecer",
+          "web": "https://www.withlocals.com/search/?q=Bangkok"
         },
         {
           "titulo": "Tour privado a medida",
           "descripcion": "Experiencia flexible con guia local segun intereses, ritmo y tiempo disponible.",
           "proveedor": "Travel Designers Bangkok",
           "contacto": "plan@bangkoktravel.local",
-          "horario": "Bajo reserva"
+          "horario": "Bajo reserva",
+          "web": "https://www.getyourguide.com/s/?q=Bangkok"
         },
         {
           "titulo": "Ruta familiar",
           "descripcion": "Version didactica y ligera para visitar sin saturar a los mas pequenos.",
           "proveedor": "Familias Viajeras",
           "contacto": "familias@viaje.local",
-          "horario": "11:00 - 12:30"
+          "horario": "11:00 - 12:30",
+          "web": "https://www.getyourguide.com/s/?q=Bangkok"
         },
         {
           "titulo": "Experiencia al atardecer",
           "descripcion": "Visita en la franja mas fotogenica del dia, con paradas para disfrutar el ambiente.",
           "proveedor": "Slow Travel Bangkok",
           "contacto": "slow@bangkok.local",
-          "horario": "Atardecer"
+          "horario": "Atardecer",
+          "web": "https://www.getyourguide.com/s/?q=Bangkok"
         },
         {
           "titulo": "Audioguia express",
           "descripcion": "Formato breve para entender lo esencial de Khlong Lat Mayom con autonomia.",
           "proveedor": "Audio Travel",
           "contacto": "audio@travel.local",
-          "horario": "Durante apertura"
+          "horario": "Durante apertura",
+          "web": "https://www.tiqets.com/en/search/?query=Bangkok"
         }
       ],
       "web": "https://www.tourismthailand.org/Attraction/khlong-lat-mayom-floating-market"
@@ -549,42 +597,48 @@
           "descripcion": "Reserva orientada para probar los platos mas representativos de Jay Fai sin complicarse.",
           "proveedor": "Jay Fai",
           "contacto": "reservas@jayfai.local",
-          "horario": "Comida y cena"
+          "horario": "Comida y cena",
+          "web": "https://achefstour.com/tour/bangkok-food-tour"
         },
         {
           "titulo": "Menu degustacion",
           "descripcion": "Seleccion de platos para entender la propuesta de cocina y los sabores de Bangkok.",
           "proveedor": "Sabores de Bangkok",
           "contacto": "sabores@bangkok.local",
-          "horario": "Consultar servicio"
+          "horario": "Consultar servicio",
+          "web": "https://achefstour.com/tour/bangkok-food-tour"
         },
         {
           "titulo": "Charla con cocina",
           "descripcion": "Experiencia breve para conocer ingredientes, tecnica y pequenos detalles del equipo.",
           "proveedor": "Food Stories Bangkok",
           "contacto": "food@bangkok.local",
-          "horario": "Antes de comer"
+          "horario": "Antes de comer",
+          "web": "https://achefstour.com/tour/bangkok-food-tour"
         },
         {
           "titulo": "Maridaje local",
           "descripcion": "Propuesta de bebidas o productos locales para acompanar la comida con criterio.",
           "proveedor": "Catas Bangkok",
           "contacto": "catas@bangkok.local",
-          "horario": "Cena"
+          "horario": "Cena",
+          "web": "https://achefstour.com/tour/bangkok-food-tour"
         },
         {
           "titulo": "Ruta gastronomica cercana",
           "descripcion": "Paseo por la zona antes o despues de comer, enlazando mercado, barrio y mesa.",
           "proveedor": "Food Walk Bangkok",
           "contacto": "foodwalk@bangkok.local",
-          "horario": "12:00 - 14:00"
+          "horario": "12:00 - 14:00",
+          "web": "https://achefstour.com/tour/bangkok-food-tour"
         },
         {
           "titulo": "Clase de sabor local",
           "descripcion": "Taller sencillo inspirado en recetas, ingredientes o tecnicas vinculadas al restaurante.",
           "proveedor": "Talleres Bangkok",
           "contacto": "talleres@bangkok.local",
-          "horario": "Consultar calendario"
+          "horario": "Consultar calendario",
+          "web": "https://guide.michelin.com/en/bangkok-region/bangkok/restaurant/jay-fai"
         }
       ],
       "web": "https://guide.michelin.com/en/bangkok-region/bangkok/restaurant/jay-fai"
