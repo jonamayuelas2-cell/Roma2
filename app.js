@@ -24,7 +24,8 @@ const state = {
     isTransitioning: false,
     currentCruise: null,
     currentPort: null,
-    portMap: null
+    portMap: null,
+    cityExplorerMap: null
 };
 
 const ASSET_VERSION = '2026-05-08-auckland-activity-photos-v1';
@@ -38,9 +39,8 @@ function assetUrl(src) {
     return `${baseSrc}?v=${ASSET_VERSION}`;
 }
 
-// FunciÃ³n para llamar a mÃ©todos de Globe.gl de forma segura
+// Función para llamar a métodos de Globe.gl de forma segura
 function callGlobe(method, ...args) {
-    if (!state.globe || typeof state.globe[method] !== 'function') return false;
     try {
         state.globe[method](...args);
         return true;
@@ -51,7 +51,7 @@ function callGlobe(method, ...args) {
 }
 
 
-// â•â• INICIALIZACIÃ“N â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+// â• â•  INICIALIZACIÃ“N â• â• â• â• â• â• â• â• â• â• â• â• â• â• â• â• â• â• â• â• â• â• â• â• â• â• â• â• â• â• â• â• â• â• â• â• â• â• â• â• â• â• 
 
 function normalizeContinentName(continent) {
     return String(continent || '')
@@ -689,6 +689,93 @@ function animateShips(activeCruises) {
         ships.forEach((s, i) => {
             if (shipElements[i]) {
                 shipElements[i].style.transform = `rotate(${s.rotation}deg)`;
+                <div class="cruise-info-row">
+                    <span class="cruise-info-icon">Esc.</span>
+                    <span>${stopsCount} ciudades visitadas</span>
+                </div>
+                <div class="cruise-rating-row">
+                    <div class="cruise-rating">
+                        <span class="stars">★ ${rating}</span>
+                        <span class="duration">${duration} dias</span>
+                    </div>
+                    <button class="cruise-detail-btn" onclick="event.stopPropagation(); window.selectCruise('${cruise.id}')">Ver Detalle</button>
+                </div>
+            </div>
+        `;
+
+        card.onclick = () => {
+            state.currentCruise = cruise;
+            document.querySelectorAll('.cruise-card').forEach(el => el.classList.remove('active'));
+            card.classList.add('active');
+            window.refreshGlobe();
+        };
+
+        container.appendChild(card);
+    });
+}
+
+// Exponer refreshGlobe para el contexto
+window.refreshGlobe = () => {
+    const refreshFunc = window.triggerRefresh;
+    if (refreshFunc) refreshFunc();
+};
+
+function animateShips(activeCruises) {
+    const ships = activeCruises.map(c => ({
+        lat: c.ruta[0].lat,
+        lng: c.ruta[0].lng,
+        cruise: c,
+        index: 0,
+        t: 0
+    }));
+
+    callGlobe('customLayerData', ships);
+    callGlobe('customLayerElement', d => {
+        const container = document.createElement('div');
+        container.className = 'ship-animation-container';
+        
+        const ship = document.createElement('div');
+        ship.className = 'ship-icon';
+        ship.innerHTML = '&bull;';
+        
+        const wake = document.createElement('div');
+        wake.className = 'ship-wake';
+        
+        container.appendChild(wake);
+        container.appendChild(ship);
+        return container;
+    });
+
+    if (window.shipInterval) clearInterval(window.shipInterval);
+    window.shipInterval = setInterval(() => {
+        ships.forEach(s => {
+            // Velocidad variable segÃºn el tramo (opcional, aquÃ­ constante)
+            s.t += 0.008; 
+            
+            if (s.t >= 1) {
+                s.t = 0;
+                s.index = (s.index + 1) % (s.cruise.ruta.length - 1);
+            }
+            
+            const start = s.cruise.ruta[s.index];
+            const end = s.cruise.ruta[s.index + 1];
+            
+            // InterpolaciÃ³n esfÃ©rica simplificada (Lerp en lat/lng es aceptable para distancias de crucero)
+            s.lat = start.lat + (end.lat - start.lat) * s.t;
+            s.lng = start.lng + (end.lng - start.lng) * s.t;
+            
+            // CÃ¡lculo de rotaciÃ³n (rumbo)
+            const angle = Math.atan2(end.lat - start.lat, end.lng - start.lng) * (180 / Math.PI);
+            s.rotation = 90 - angle; // Ajustar segÃºn el emoji
+        });
+        
+        callGlobe('customLayerData', ships);
+        
+        // Actualizar rotaciÃ³n en el DOM si es necesario (el customLayerElement se encarga de posicionar)
+        const shipElements = document.querySelectorAll('.ship-icon');
+        ships.forEach((s, i) => {
+            if (shipElements[i]) {
+                shipElements[i].style.transform = `rotate(${s.rotation}deg)`;
             }
         });
     }, 50);
@@ -705,7 +792,7 @@ function ensureGlobeLibrary() {
     });
 }
 
-// â•â• NAVEGACIÃ“N Y ESTADO â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+// â• â•  NAVEGACIÃ“N Y ESTADO â• â• â• â• â• â• â• â• â• â• â• â• â• â• â• â• â• â• â• â• â• â• â• â• â• â• â• â• â• â• â• â• â• â• â• â• â• â• 
 
 function renderGlobeFallback(container) {
     container.innerHTML = `
@@ -745,6 +832,7 @@ async function selectCity(city) {
         app.classList.add('fade-in');
 
         renderPlaces();
+        renderCityExplorerMap(city);
 
         setTimeout(() => {
             app.classList.remove('fade-in');
@@ -769,44 +857,16 @@ function applyTheme(city) {
 function updateUIForCity(city) {
     document.getElementById('app-title').innerHTML = `${escapeHtml(city.nombre)} <span class="logo-sub">Guía de Viaje · ${escapeHtml(city.pais)}</span>`;
     document.getElementById('app-logo-icon').textContent = safeDisplayIcon(city.emoji, '•');
+    const backButton = document.getElementById('back-to-cities');
+    if (backButton) {
+        const backIcon = backButton.querySelector('.back-btn-icon');
+        const backText = backButton.querySelector('.back-btn-text');
+        backButton.title = state.fromCruise ? 'Volver al crucero' : 'Volver al mapa mundi';
+        if (backIcon) backIcon.textContent = state.fromCruise ? 'CR' : '🌍';
+        if (backText) backText.textContent = state.fromCruise ? 'Crucero' : 'Mapa mundi';
+    }
 
     const heroTitle = document.getElementById('hero-title');
-    const heroSubtitle = document.getElementById('hero-subtitle');
-    const heroSection = document.getElementById('city-hero');
-
-    heroTitle.textContent = `Descubre ${city.nombre}`;
-    heroSubtitle.textContent = `Explora los secretos de la ciudad de ${city.nombre}`;
-    heroSection.style.backgroundImage = `url('${assetUrl(city.imagen)}')`;
-}
-
-function backToSelection() {
-    if (state.isTransitioning) return;
-    state.isTransitioning = true;
-
-    const selection = document.getElementById('city-selection');
-    const app = document.getElementById('main-app');
-
-    app.classList.add('fade-out');
-
-    setTimeout(() => {
-        app.style.display = 'none';
-        app.classList.remove('fade-out');
-
-        selection.style.display = 'flex';
-        selection.classList.add('fade-in');
-
-        state.currentCity = null;
-        cleanupMap();
-
-        // Si venimos de un crucero, volver al crucero en lugar de a la selecciÃ³n
-        if (state.fromCruise) {
-            state.fromCruise = false;
-            app.style.display = 'none';
-            document.getElementById('cruise-app').style.display = 'block';
-            state.isTransitioning = false;
-            return;
-        }
-
         setTimeout(() => {
             selection.classList.remove('fade-in');
             state.isTransitioning = false;
