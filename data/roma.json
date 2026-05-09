@@ -60,7 +60,8 @@
         "contacto": "audio@travel.local",
         "horario": "Durante apertura"
       }
-    ]
+    ],
+    "web": "https://colosseo.it"
   },
   {
     "id": 2,
@@ -123,7 +124,8 @@
         "contacto": "audio@travel.local",
         "horario": "Durante apertura"
       }
-    ]
+    ],
+    "web": "https://colosseo.it"
   },
   {
     "id": 3,
@@ -186,7 +188,8 @@
         "contacto": "audio@travel.local",
         "horario": "Durante apertura"
       }
-    ]
+    ],
+    "web": "https://www.turismoroma.it/en/places/trevi-fountain"
   },
   {
     "id": 4,
@@ -249,7 +252,8 @@
         "contacto": "audio@travel.local",
         "horario": "Durante apertura"
       }
-    ]
+    ],
+    "web": "https://www.pantheonroma.com"
   },
   {
     "id": 5,
@@ -312,7 +316,8 @@
         "contacto": "foto@romawalk.local",
         "horario": "Ultima hora de apertura"
       }
-    ]
+    ],
+    "web": "https://www.museivaticani.va"
   },
   {
     "id": 6,
@@ -375,7 +380,8 @@
         "contacto": "noche@roma.local",
         "horario": "20:00 - 22:00"
       }
-    ]
+    ],
+    "web": "https://www.turismoroma.it/en/places/trastevere"
   },
   {
     "id": 7,
@@ -438,7 +444,8 @@
         "contacto": "slow@roma.local",
         "horario": "16:30 - 18:00"
       }
-    ]
+    ],
+    "web": "https://www.sovrintendenzaroma.it/i_luoghi/ville_e_parchi_storici/ville_dei_nobili/villa_borghese"
   },
   {
     "id": 8,
@@ -501,7 +508,8 @@
         "contacto": "audio@travel.local",
         "horario": "Durante apertura"
       }
-    ]
+    ],
+    "web": "https://www.turismoroma.it/en/places/campo-de-fiori"
   },
   {
     "id": 9,
@@ -564,6 +572,7 @@
         "contacto": "talleres@roma.local",
         "horario": "Consultar calendario"
       }
-    ]
+    ],
+    "web": "https://www.salumeriaroscioli.com"
   }
 ]

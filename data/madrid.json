@@ -126,7 +126,8 @@
         "contacto": "slow@madrid.local",
         "horario": "16:30 - 18:00"
       }
-    ]
+    ],
+    "web": "https://www.esmadrid.com/informacion-turistica/parque-del-retiro"
   },
   {
     "id": 3,
@@ -190,7 +191,8 @@
         "contacto": "audio@travel.local",
         "horario": "Durante apertura"
       }
-    ]
+    ],
+    "web": "https://www.patrimonionacional.es/visita/palacio-real-de-madrid"
   },
   {
     "id": 4,
@@ -319,7 +321,8 @@
         "contacto": "noche@madrid.local",
         "horario": "20:00 - 22:00"
       }
-    ]
+    ],
+    "web": "https://www.esmadrid.com/informacion-turistica/gran-via"
   },
   {
     "id": 6,
@@ -383,7 +386,8 @@
         "contacto": "audio@travel.local",
         "horario": "Durante apertura"
       }
-    ]
+    ],
+    "web": "https://www.munlima.gob.pe"
   },
   {
     "id": 7,
@@ -512,7 +516,8 @@
         "contacto": "audio@travel.local",
         "horario": "Durante apertura"
       }
-    ]
+    ],
+    "web": "https://www.esmadrid.com/informacion-turistica/puerta-del-sol"
   },
   {
     "id": 9,

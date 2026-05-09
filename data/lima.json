@@ -60,7 +60,8 @@
         "contacto": "audio@travel.local",
         "horario": "Durante apertura"
       }
-    ]
+    ],
+    "web": "https://www.munlima.gob.pe"
   },
   {
     "id": 2,
@@ -123,7 +124,8 @@
         "contacto": "audio@travel.local",
         "horario": "Durante apertura"
       }
-    ]
+    ],
+    "web": "https://huacapucllanamiraflores.pe"
   },
   {
     "id": 3,
@@ -186,7 +188,8 @@
         "contacto": "foto@limawalk.local",
         "horario": "Ultima hora de apertura"
       }
-    ]
+    ],
+    "web": "https://www.museolarco.org"
   },
   {
     "id": 4,
@@ -249,7 +252,8 @@
         "contacto": "slow@lima.local",
         "horario": "16:30 - 18:00"
       }
-    ]
+    ],
+    "web": "https://www.miraflores.gob.pe"
   },
   {
     "id": 5,
@@ -312,7 +316,8 @@
         "contacto": "noche@lima.local",
         "horario": "20:00 - 22:00"
       }
-    ]
+    ],
+    "web": "https://munibarranco.gob.pe"
   },
   {
     "id": 6,
@@ -375,7 +380,8 @@
         "contacto": "audio@travel.local",
         "horario": "Durante apertura"
       }
-    ]
+    ],
+    "web": "https://www.miraflores.gob.pe"
   },
   {
     "id": 7,
@@ -438,7 +444,8 @@
         "contacto": "slow@lima.local",
         "horario": "16:30 - 18:00"
       }
-    ]
+    ],
+    "web": "https://www.circuitomagicodelagua.com.pe"
   },
   {
     "id": 8,
@@ -501,7 +508,8 @@
         "contacto": "foto@limawalk.local",
         "horario": "Ultima hora de apertura"
       }
-    ]
+    ],
+    "web": "https://mali.pe"
   },
   {
     "id": 9,
@@ -564,6 +572,7 @@
         "contacto": "talleres@lima.local",
         "horario": "Consultar calendario"
       }
-    ]
+    ],
+    "web": "https://centralrestaurante.com.pe"
   }
 ]

@@ -75,7 +75,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://colosseo.it"
       },
       {
         "id": 2,
@@ -138,7 +139,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://colosseo.it"
       },
       {
         "id": 3,
@@ -201,7 +203,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.turismoroma.it/en/places/trevi-fountain"
       },
       {
         "id": 4,
@@ -264,7 +267,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.pantheonroma.com"
       },
       {
         "id": 5,
@@ -327,7 +331,8 @@
             "contacto": "foto@romawalk.local",
             "horario": "Ultima hora de apertura"
           }
-        ]
+        ],
+        "web": "https://www.museivaticani.va"
       },
       {
         "id": 6,
@@ -390,7 +395,8 @@
             "contacto": "noche@roma.local",
             "horario": "20:00 - 22:00"
           }
-        ]
+        ],
+        "web": "https://www.turismoroma.it/en/places/trastevere"
       },
       {
         "id": 7,
@@ -453,7 +459,8 @@
             "contacto": "slow@roma.local",
             "horario": "16:30 - 18:00"
           }
-        ]
+        ],
+        "web": "https://www.sovrintendenzaroma.it/i_luoghi/ville_e_parchi_storici/ville_dei_nobili/villa_borghese"
       },
       {
         "id": 8,
@@ -516,7 +523,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.turismoroma.it/en/places/campo-de-fiori"
       },
       {
         "id": 9,
@@ -579,7 +587,8 @@
             "contacto": "talleres@roma.local",
             "horario": "Consultar calendario"
           }
-        ]
+        ],
+        "web": "https://www.salumeriaroscioli.com"
       }
     ]
   },
@@ -659,7 +668,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.toureiffel.paris"
       },
       {
         "id": 2,
@@ -722,7 +732,8 @@
             "contacto": "foto@pariswalk.local",
             "horario": "Ultima hora de apertura"
           }
-        ]
+        ],
+        "web": "https://www.louvre.fr"
       },
       {
         "id": 3,
@@ -785,7 +796,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.notredamedeparis.fr"
       },
       {
         "id": 4,
@@ -848,7 +860,8 @@
             "contacto": "noche@paris.local",
             "horario": "20:00 - 22:00"
           }
-        ]
+        ],
+        "web": "https://www.paris.fr/lieux/montmartre-1818"
       },
       {
         "id": 5,
@@ -911,7 +924,8 @@
             "contacto": "foto@pariswalk.local",
             "horario": "Ultima hora de apertura"
           }
-        ]
+        ],
+        "web": "https://www.musee-orsay.fr"
       },
       {
         "id": 6,
@@ -974,7 +988,8 @@
             "contacto": "slow@paris.local",
             "horario": "16:30 - 18:00"
           }
-        ]
+        ],
+        "web": "https://www.senat.fr/visite/jardin"
       },
       {
         "id": 7,
@@ -1037,7 +1052,8 @@
             "contacto": "noche@paris.local",
             "horario": "20:00 - 22:00"
           }
-        ]
+        ],
+        "web": "https://www.parisjetaime.com/eng/discovering-paris/the-marais-pc9"
       },
       {
         "id": 8,
@@ -1100,7 +1116,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.paris.fr/lieux/marche-des-enfants-rouges-5461"
       },
       {
         "id": 9,
@@ -1163,7 +1180,8 @@
             "contacto": "talleres@paris.local",
             "horario": "Consultar calendario"
           }
-        ]
+        ],
+        "web": "https://www.bistrotpaulbert.fr"
       }
     ]
   },
@@ -1243,7 +1261,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.parliament.uk/visiting/visiting-and-tours/big-ben-tour"
       },
       {
         "id": 2,
@@ -1306,7 +1325,8 @@
             "contacto": "foto@londreswalk.local",
             "horario": "Ultima hora de apertura"
           }
-        ]
+        ],
+        "web": "https://www.britishmuseum.org"
       },
       {
         "id": 3,
@@ -1369,7 +1389,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.londoneye.com"
       },
       {
         "id": 4,
@@ -1432,7 +1453,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.camdenmarket.com"
       },
       {
         "id": 5,
@@ -1495,7 +1517,8 @@
             "contacto": "slow@londres.local",
             "horario": "16:30 - 18:00"
           }
-        ]
+        ],
+        "web": "https://www.royalparks.org.uk/visit/parks/hyde-park"
       },
       {
         "id": 6,
@@ -1558,7 +1581,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.towerbridge.org.uk"
       },
       {
         "id": 7,
@@ -1621,7 +1645,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.rct.uk/visit/buckingham-palace"
       },
       {
         "id": 8,
@@ -1684,7 +1709,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.the-shard.com"
       },
       {
         "id": 9,
@@ -1747,7 +1773,8 @@
             "contacto": "noche@londres.local",
             "horario": "20:00 - 22:00"
           }
-        ]
+        ],
+        "web": "https://www.coventgarden.london"
       }
     ]
   },
@@ -1827,7 +1854,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://egymonuments.gov.eg/archaeological-sites/giza-plateau"
       },
       {
         "id": 2,
@@ -1890,7 +1918,8 @@
             "contacto": "foto@elcairowalk.local",
             "horario": "Ultima hora de apertura"
           }
-        ]
+        ],
+        "web": "https://grandegyptianmuseum.org"
       },
       {
         "id": 3,
@@ -1953,7 +1982,8 @@
             "contacto": "foto@elcairowalk.local",
             "horario": "Ultima hora de apertura"
           }
-        ]
+        ],
+        "web": "https://egyptianmuseumcairo.eg"
       },
       {
         "id": 4,
@@ -2016,7 +2046,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://egymonuments.gov.eg/archaeological-sites/salah-el-din-citadel"
       },
       {
         "id": 5,
@@ -2079,7 +2110,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://egymonuments.gov.eg/archaeological-sites/khan-el-khalili"
       },
       {
         "id": 6,
@@ -2142,7 +2174,8 @@
             "contacto": "noche@elcairo.local",
             "horario": "20:00 - 22:00"
           }
-        ]
+        ],
+        "web": "https://egymonuments.gov.eg/archaeological-sites/coptic-cairo"
       },
       {
         "id": 7,
@@ -2205,7 +2238,8 @@
             "contacto": "slow@elcairo.local",
             "horario": "16:30 - 18:00"
           }
-        ]
+        ],
+        "web": "https://www.azharpark.com"
       },
       {
         "id": 8,
@@ -2268,7 +2302,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://egymonuments.gov.eg/monuments/mosque-of-ibn-tulun"
       },
       {
         "id": 9,
@@ -2331,7 +2366,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.naguibmahfouzcafe.com"
       }
     ]
   },
@@ -2411,7 +2447,8 @@
             "contacto": "slow@ciudaddelcabo.local",
             "horario": "16:30 - 18:00"
           }
-        ]
+        ],
+        "web": "https://www.tablemountain.net"
       },
       {
         "id": 2,
@@ -2474,7 +2511,8 @@
             "contacto": "noche@ciudaddelcabo.local",
             "horario": "20:00 - 22:00"
           }
-        ]
+        ],
+        "web": "https://www.waterfront.co.za"
       },
       {
         "id": 3,
@@ -2537,7 +2575,8 @@
             "contacto": "foto@ciudaddelcabowalk.local",
             "horario": "Ultima hora de apertura"
           }
-        ]
+        ],
+        "web": "https://www.robben-island.org.za"
       },
       {
         "id": 4,
@@ -2600,7 +2639,8 @@
             "contacto": "noche@ciudaddelcabo.local",
             "horario": "20:00 - 22:00"
           }
-        ]
+        ],
+        "web": "https://www.capetown.travel/bo-kaap"
       },
       {
         "id": 5,
@@ -2663,7 +2703,8 @@
             "contacto": "slow@ciudaddelcabo.local",
             "horario": "16:30 - 18:00"
           }
-        ]
+        ],
+        "web": "https://www.sanbi.org/gardens/kirstenbosch"
       },
       {
         "id": 6,
@@ -2726,7 +2767,8 @@
             "contacto": "slow@ciudaddelcabo.local",
             "horario": "16:30 - 18:00"
           }
-        ]
+        ],
+        "web": "https://www.capetown.travel/camps-bay"
       },
       {
         "id": 7,
@@ -2789,7 +2831,8 @@
             "contacto": "foto@ciudaddelcabowalk.local",
             "horario": "Ultima hora de apertura"
           }
-        ]
+        ],
+        "web": "https://www.districtsix.co.za"
       },
       {
         "id": 10,
@@ -2852,7 +2895,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://theoldbiscuitmill.co.za"
       },
       {
         "id": 11,
@@ -2915,7 +2959,8 @@
             "contacto": "slow@ciudaddelcabo.local",
             "horario": "16:30 - 18:00"
           }
-        ]
+        ],
+        "web": "https://www.sanparks.org/parks/table-mountain/what-to-do/attractions/boulders-penguin-colony"
       }
     ]
   },
@@ -2995,7 +3040,8 @@
             "contacto": "noche@tokio.local",
             "horario": "20:00 - 22:00"
           }
-        ]
+        ],
+        "web": "https://www.gotokyo.org/en/spot/52/index.html"
       },
       {
         "id": 2,
@@ -3058,7 +3104,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.senso-ji.jp"
       },
       {
         "id": 3,
@@ -3121,7 +3168,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.meijijingu.or.jp/en"
       },
       {
         "id": 4,
@@ -3184,7 +3232,8 @@
             "contacto": "foto@tokiowalk.local",
             "horario": "Ultima hora de apertura"
           }
-        ]
+        ],
+        "web": "https://www.teamlab.art/e/planets"
       },
       {
         "id": 5,
@@ -3247,7 +3296,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.tsukiji.or.jp/english"
       },
       {
         "id": 6,
@@ -3310,7 +3360,8 @@
             "contacto": "noche@tokio.local",
             "horario": "20:00 - 22:00"
           }
-        ]
+        ],
+        "web": "https://www.gotokyo.org/en/destinations/central-tokyo/akihabara/index.html"
       },
       {
         "id": 7,
@@ -3373,7 +3424,8 @@
             "contacto": "slow@tokio.local",
             "horario": "16:30 - 18:00"
           }
-        ]
+        ],
+        "web": "https://www.kensetsu.metro.tokyo.lg.jp/jimusho/toubuk/ueno/en_index.html"
       },
       {
         "id": 8,
@@ -3436,7 +3488,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.tokyo-skytree.jp/en"
       },
       {
         "id": 9,
@@ -3499,7 +3552,8 @@
             "contacto": "noche@tokio.local",
             "horario": "20:00 - 22:00"
           }
-        ]
+        ],
+        "web": "https://www.gotokyo.org/en/spot/463/index.html"
       }
     ]
   },
@@ -3579,7 +3633,8 @@
             "contacto": "foto@bangkokwalk.local",
             "horario": "Ultima hora de apertura"
           }
-        ]
+        ],
+        "web": "https://www.royalgrandpalace.th/en/home"
       },
       {
         "id": 2,
@@ -3642,7 +3697,8 @@
             "contacto": "foto@bangkokwalk.local",
             "horario": "Ultima hora de apertura"
           }
-        ]
+        ],
+        "web": "https://www.watpho.com/en"
       },
       {
         "id": 3,
@@ -3705,7 +3761,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.watarun1.com/en"
       },
       {
         "id": 4,
@@ -3768,7 +3825,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.chatuchakmarket.org"
       },
       {
         "id": 5,
@@ -3831,7 +3889,8 @@
             "contacto": "foto@bangkokwalk.local",
             "horario": "Ultima hora de apertura"
           }
-        ]
+        ],
+        "web": "https://jimthompsonhouse.org"
       },
       {
         "id": 6,
@@ -3894,7 +3953,8 @@
             "contacto": "noche@bangkok.local",
             "horario": "20:00 - 22:00"
           }
-        ]
+        ],
+        "web": "https://www.tourismthailand.org/Attraction/yaowarat-road"
       },
       {
         "id": 7,
@@ -3957,7 +4017,8 @@
             "contacto": "slow@bangkok.local",
             "horario": "16:30 - 18:00"
           }
-        ]
+        ],
+        "web": "https://www.bangkok.go.th/publicpark"
       },
       {
         "id": 8,
@@ -4020,7 +4081,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.tourismthailand.org/Attraction/khlong-lat-mayom-floating-market"
       },
       {
         "id": 9,
@@ -4083,7 +4145,8 @@
             "contacto": "talleres@bangkok.local",
             "horario": "Consultar calendario"
           }
-        ]
+        ],
+        "web": "https://guide.michelin.com/en/bangkok-region/bangkok/restaurant/jay-fai"
       }
     ]
   },
@@ -4163,7 +4226,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.nps.gov/stli/index.htm"
       },
       {
         "id": 2,
@@ -4226,7 +4290,8 @@
             "contacto": "slow@nuevayork.local",
             "horario": "16:30 - 18:00"
           }
-        ]
+        ],
+        "web": "https://www.centralparknyc.org"
       },
       {
         "id": 3,
@@ -4289,7 +4354,8 @@
             "contacto": "foto@nuevayorkwalk.local",
             "horario": "Ultima hora de apertura"
           }
-        ]
+        ],
+        "web": "https://www.metmuseum.org"
       },
       {
         "id": 4,
@@ -4352,7 +4418,8 @@
             "contacto": "noche@nuevayork.local",
             "horario": "20:00 - 22:00"
           }
-        ]
+        ],
+        "web": "https://www.timessquarenyc.org"
       },
       {
         "id": 5,
@@ -4415,7 +4482,8 @@
             "contacto": "slow@nuevayork.local",
             "horario": "16:30 - 18:00"
           }
-        ]
+        ],
+        "web": "https://www.thehighline.org"
       },
       {
         "id": 6,
@@ -4478,7 +4546,8 @@
             "contacto": "slow@nuevayork.local",
             "horario": "16:30 - 18:00"
           }
-        ]
+        ],
+        "web": "https://www.nyc.gov/html/dot/html/infrastructure/brooklyn-bridge.shtml"
       },
       {
         "id": 7,
@@ -4541,7 +4610,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.chelseamarket.com"
       },
       {
         "id": 10,
@@ -4604,7 +4674,8 @@
             "contacto": "noche@nuevayork.local",
             "horario": "20:00 - 22:00"
           }
-        ]
+        ],
+        "web": "https://www.nycgo.com/boroughs-neighborhoods/manhattan/soho"
       },
       {
         "id": 11,
@@ -4667,7 +4738,8 @@
             "contacto": "talleres@nuevayork.local",
             "horario": "Consultar calendario"
           }
-        ]
+        ],
+        "web": "https://katzsdelicatessen.com"
       }
     ]
   },
@@ -4747,7 +4819,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://mexicocity.cdmx.gob.mx/venues/zocalo"
       },
       {
         "id": 2,
@@ -4810,7 +4883,8 @@
             "contacto": "foto@ciudaddemexicowalk.local",
             "horario": "Ultima hora de apertura"
           }
-        ]
+        ],
+        "web": "https://www.mna.inah.gob.mx"
       },
       {
         "id": 3,
@@ -4873,7 +4947,8 @@
             "contacto": "slow@ciudaddemexico.local",
             "horario": "16:30 - 18:00"
           }
-        ]
+        ],
+        "web": "https://chapultepec.org.mx"
       },
       {
         "id": 4,
@@ -4936,7 +5011,8 @@
             "contacto": "foto@ciudaddemexicowalk.local",
             "horario": "Ultima hora de apertura"
           }
-        ]
+        ],
+        "web": "https://www.museofridakahlo.org.mx"
       },
       {
         "id": 5,
@@ -4999,7 +5075,8 @@
             "contacto": "noche@ciudaddemexico.local",
             "horario": "20:00 - 22:00"
           }
-        ]
+        ],
+        "web": "https://mexicocity.cdmx.gob.mx/venues/xochimilco"
       },
       {
         "id": 6,
@@ -5062,7 +5139,8 @@
             "contacto": "foto@ciudaddemexicowalk.local",
             "horario": "Ultima hora de apertura"
           }
-        ]
+        ],
+        "web": "https://www.templomayor.inah.gob.mx"
       },
       {
         "id": 7,
@@ -5125,7 +5203,8 @@
             "contacto": "noche@ciudaddemexico.local",
             "horario": "20:00 - 22:00"
           }
-        ]
+        ],
+        "web": "https://mexicocity.cdmx.gob.mx/neighborhoods/roma-condesa"
       },
       {
         "id": 8,
@@ -5188,7 +5267,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://mexicocity.cdmx.gob.mx/venues/mercado-de-coyoacan"
       },
       {
         "id": 9,
@@ -5251,7 +5331,8 @@
             "contacto": "talleres@ciudaddemexico.local",
             "horario": "Consultar calendario"
           }
-        ]
+        ],
+        "web": "https://pujol.com.mx"
       }
     ]
   },
@@ -5295,7 +5376,8 @@
             "proveedor": "Rio Exclusive Tours",
             "contacto": "rioexclusive.com",
             "horario": "6:00 - 9:00",
-            "imagen": "img/rio_activities/cristoredentor_1_touralamanecer.png"
+            "imagen": "img/rio_activities/cristoredentor_1_touralamanecer.png",
+            "web": "rioexclusive.com"
           },
           {
             "titulo": "Tren del Corcovado",
@@ -5303,7 +5385,8 @@
             "proveedor": "Trem do Corcovado",
             "contacto": "tremdocorcovado.rio",
             "horario": "Cada 20 min",
-            "imagen": "img/rio_activities/cristoredentor_2_trendelcorcovado.png"
+            "imagen": "img/rio_activities/cristoredentor_2_trendelcorcovado.png",
+            "web": "tremdocorcovado.rio"
           },
           {
             "titulo": "Vuelo en helicóptero",
@@ -5311,7 +5394,8 @@
             "proveedor": "Helisight",
             "contacto": "helisight.com.br",
             "horario": "Diario",
-            "imagen": "img/rio_activities/cristoredentor_3_vueloenhelicoptero.png"
+            "imagen": "img/rio_activities/cristoredentor_3_vueloenhelicoptero.png",
+            "web": "helisight.com.br"
           },
           {
             "titulo": "Senderismo por Tijuca",
@@ -5319,7 +5403,8 @@
             "proveedor": "Jungle Me",
             "contacto": "jungleme.com.br",
             "horario": "Mañanas",
-            "imagen": "img/rio_activities/cristoredentor_4_senderismoportijuca.png"
+            "imagen": "img/rio_activities/cristoredentor_4_senderismoportijuca.png",
+            "web": "jungleme.com.br"
           },
           {
             "titulo": "Sesión fotográfica",
@@ -5327,7 +5412,8 @@
             "proveedor": "Rio Photo Tour",
             "contacto": "riophoto.com",
             "horario": "Bajo reserva",
-            "imagen": "img/rio_activities/cristoredentor_5_sesionfotografica.png"
+            "imagen": "img/rio_activities/cristoredentor_5_sesionfotografica.png",
+            "web": "riophoto.com"
           },
           {
             "titulo": "Cena en Santa Teresa",
@@ -5335,9 +5421,11 @@
             "proveedor": "Eat Rio",
             "contacto": "eatrio.net",
             "horario": "Tardes",
-            "imagen": "img/rio_activities/cristoredentor_6_cenaensantateresa.png"
+            "imagen": "img/rio_activities/cristoredentor_6_cenaensantateresa.png",
+            "web": "eatrio.net"
           }
-        ]
+        ],
+        "web": "https://santuariocristoredentor.com.br"
       },
       {
         "id": 2,
@@ -5364,7 +5452,8 @@
             "proveedor": "Bondinho Pão de Açúcar",
             "contacto": "bondinho.com.br",
             "horario": "17:00 - 19:30",
-            "imagen": "img/rio_activities/pandeazucar_1_bondinhoalatardecer.png"
+            "imagen": "img/rio_activities/pandeazucar_1_bondinhoalatardecer.png",
+            "web": "bondinho.com.br"
           },
           {
             "titulo": "Escalada en roca",
@@ -5372,7 +5461,8 @@
             "proveedor": "Climb in Rio",
             "contacto": "climbinrio.com",
             "horario": "Bajo reserva",
-            "imagen": "img/rio_activities/pandeazucar_2_escaladaenroca.png"
+            "imagen": "img/rio_activities/pandeazucar_2_escaladaenroca.png",
+            "web": "climbinrio.com"
           },
           {
             "titulo": "Picnic en Morro da Urca",
@@ -5380,7 +5470,8 @@
             "proveedor": "Urca Gourmet",
             "contacto": "urcagourmet.com",
             "horario": "12:00 - 16:00",
-            "imagen": "img/rio_activities/pandeazucar_3_picnicenmorrodaurca.png"
+            "imagen": "img/rio_activities/pandeazucar_3_picnicenmorrodaurca.png",
+            "web": "urcagourmet.com"
           },
           {
             "titulo": "Tour de Geología",
@@ -5388,7 +5479,8 @@
             "proveedor": "GeoRio Tours",
             "contacto": "georio.gov.br",
             "horario": "Sábados",
-            "imagen": "img/rio_activities/pandeazucar_4_tourdegeologia.png"
+            "imagen": "img/rio_activities/pandeazucar_4_tourdegeologia.png",
+            "web": "georio.gov.br"
           },
           {
             "titulo": "Avistamiento de fauna",
@@ -5396,7 +5488,8 @@
             "proveedor": "Wild Rio",
             "contacto": "wildrio.com.br",
             "horario": "Mañanas",
-            "imagen": "img/rio_activities/pandeazucar_5_avistamientodefauna.png"
+            "imagen": "img/rio_activities/pandeazucar_5_avistamientodefauna.png",
+            "web": "wildrio.com.br"
           },
           {
             "titulo": "Noche de música",
@@ -5404,9 +5497,11 @@
             "proveedor": "Morro da Urca Events",
             "contacto": "morrodaurca.com",
             "horario": "Fines de semana",
-            "imagen": "img/rio_activities/pandeazucar_6_nochedemusica.png"
+            "imagen": "img/rio_activities/pandeazucar_6_nochedemusica.png",
+            "web": "morrodaurca.com"
           }
-        ]
+        ],
+        "web": "https://bondinho.com.br"
       },
       {
         "id": 3,
@@ -5433,7 +5528,8 @@
             "proveedor": "Copacabana Beach Club",
             "contacto": "copabeach.com.br",
             "horario": "Mañanas",
-            "imagen": "img/rio_activities/copacabana_1_voleyplayaconlocales.png"
+            "imagen": "img/rio_activities/copacabana_1_voleyplayaconlocales.png",
+            "web": "copabeach.com.br"
           },
           {
             "titulo": "Clase de Samba nocturna",
@@ -5441,7 +5537,8 @@
             "proveedor": "Rio Samba School",
             "contacto": "riosamba.com",
             "horario": "20:00 - 22:00",
-            "imagen": "img/rio_activities/copacabana_2_clasedesambanocturna.png"
+            "imagen": "img/rio_activities/copacabana_2_clasedesambanocturna.png",
+            "web": "riosamba.com"
           },
           {
             "titulo": "Caminata por el Calçadão",
@@ -5449,7 +5546,8 @@
             "proveedor": "Cultural Rio",
             "contacto": "culturalrio.com",
             "horario": "Cualquier hora",
-            "imagen": "img/rio_activities/copacabana_3_caminataporelcalcadao.png"
+            "imagen": "img/rio_activities/copacabana_3_caminataporelcalcadao.png",
+            "web": "culturalrio.com"
           },
           {
             "titulo": "Desayuno en el Forte",
@@ -5457,7 +5555,8 @@
             "proveedor": "Confeitaria Colombo Forte",
             "contacto": "confeitariacolombo.com.br",
             "horario": "10:00 - 12:00",
-            "imagen": "img/rio_activities/copacabana_4_desayunoenelforte.png"
+            "imagen": "img/rio_activities/copacabana_4_desayunoenelforte.png",
+            "web": "confeitariacolombo.com.br"
           },
           {
             "titulo": "Tour de Arquitectura Art Déco",
@@ -5465,7 +5564,8 @@
             "proveedor": "Rio Art Deco",
             "contacto": "rioartdeco.com.br",
             "horario": "Bajo reserva",
-            "imagen": "img/rio_activities/copacabana_5_tourdearquitecturaartdeco.png"
+            "imagen": "img/rio_activities/copacabana_5_tourdearquitecturaartdeco.png",
+            "web": "rioartdeco.com.br"
           },
           {
             "titulo": "Paddle Surf al amanecer",
@@ -5473,9 +5573,11 @@
             "proveedor": "Surf Rio",
             "contacto": "surfrio.com",
             "horario": "6:00 - 8:00",
-            "imagen": "img/rio_activities/copacabana_6_paddlesurfalamanecer.png"
+            "imagen": "img/rio_activities/copacabana_6_paddlesurfalamanecer.png",
+            "web": "surfrio.com"
           }
-        ]
+        ],
+        "web": "https://riotur.rio/en/que_fazer/copacabana-beach"
       },
       {
         "id": 4,
@@ -5502,7 +5604,8 @@
             "proveedor": "Arpoador Community",
             "contacto": "arpoador.rio",
             "horario": "Al atardecer",
-            "imagen": "img/rio_activities/ipanema_1_aplausoalsolenarpoador.png"
+            "imagen": "img/rio_activities/ipanema_1_aplausoalsolenarpoador.png",
+            "web": "arpoador.rio"
           },
           {
             "titulo": "Feria Hippie de Ipanema",
@@ -5510,7 +5613,8 @@
             "proveedor": "Feira Hippie Ipanema",
             "contacto": "feirahippieipanema.com",
             "horario": "Domingos 8:00-18:00",
-            "imagen": "img/rio_activities/ipanema_2_feriahippiedeipanema.png"
+            "imagen": "img/rio_activities/ipanema_2_feriahippiedeipanema.png",
+            "web": "feirahippieipanema.com"
           },
           {
             "titulo": "Ruta de la Bossa Nova",
@@ -5518,7 +5622,8 @@
             "proveedor": "Bossa Rio Tours",
             "contacto": "bossario.net",
             "horario": "Tardes",
-            "imagen": "img/rio_activities/ipanema_3_rutadelabossanova.png"
+            "imagen": "img/rio_activities/ipanema_3_rutadelabossanova.png",
+            "web": "bossario.net"
           },
           {
             "titulo": "Compras en Rua Garcia d'Avila",
@@ -5526,7 +5631,8 @@
             "proveedor": "Rio Fashion Guide",
             "contacto": "riofashion.com.br",
             "horario": "10:00 - 19:00",
-            "imagen": "img/rio_activities/ipanema_4_comprasenruagarciadavila.png"
+            "imagen": "img/rio_activities/ipanema_4_comprasenruagarciadavila.png",
+            "web": "riofashion.com.br"
           },
           {
             "titulo": "Clase de Capoeira",
@@ -5534,7 +5640,8 @@
             "proveedor": "Capoeira Brasil",
             "contacto": "capoeirabrasil.com",
             "horario": "Bajo reserva",
-            "imagen": "img/rio_activities/ipanema_5_clasedecapoeira.png"
+            "imagen": "img/rio_activities/ipanema_5_clasedecapoeira.png",
+            "web": "capoeirabrasil.com"
           },
           {
             "titulo": "Tour de Gastronomía",
@@ -5542,9 +5649,11 @@
             "proveedor": "Polis Sucos",
             "contacto": "polissucos.com.br",
             "horario": "Mañanas",
-            "imagen": "img/rio_activities/ipanema_6_tourdegastronomia.png"
+            "imagen": "img/rio_activities/ipanema_6_tourdegastronomia.png",
+            "web": "polissucos.com.br"
           }
-        ]
+        ],
+        "web": "https://riotur.rio/en/que_fazer/ipanema-beach"
       },
       {
         "id": 5,
@@ -5571,7 +5680,8 @@
             "proveedor": "Rio Street Art",
             "contacto": "riostreetart.com",
             "horario": "Mañanas",
-            "imagen": "img/rio_activities/escaleraselaron_1_tourdearteurbano.png"
+            "imagen": "img/rio_activities/escaleraselaron_1_tourdearteurbano.png",
+            "web": "riostreetart.com"
           },
           {
             "titulo": "Búsqueda del azulejo",
@@ -5587,7 +5697,8 @@
             "proveedor": "Santa Teresa Guide",
             "contacto": "santateresa.rio",
             "horario": "Diario",
-            "imagen": "img/rio_activities/escaleraselaron_3_paseoporsantateresa.png"
+            "imagen": "img/rio_activities/escaleraselaron_3_paseoporsantateresa.png",
+            "web": "santateresa.rio"
           },
           {
             "titulo": "Taller de Mosaico",
@@ -5595,7 +5706,8 @@
             "proveedor": "Lapa Arts",
             "contacto": "lapaarts.br",
             "horario": "Bajo reserva",
-            "imagen": "img/rio_activities/escaleraselaron_4_tallerdemosaico.png"
+            "imagen": "img/rio_activities/escaleraselaron_4_tallerdemosaico.png",
+            "web": "lapaarts.br"
           },
           {
             "titulo": "Noche de Samba en Lapa",
@@ -5603,7 +5715,8 @@
             "proveedor": "Circo Voador",
             "contacto": "circovoador.com.br",
             "horario": "Noches",
-            "imagen": "img/rio_activities/escaleraselaron_5_nochedesambaenlapa.png"
+            "imagen": "img/rio_activities/escaleraselaron_5_nochedesambaenlapa.png",
+            "web": "circovoador.com.br"
           },
           {
             "titulo": "Fotografía creativa",
@@ -5611,9 +5724,11 @@
             "proveedor": "InstaRio",
             "contacto": "instario.photo",
             "horario": "Mañanas",
-            "imagen": "img/rio_activities/escaleraselaron_6_fotografiacreativa.png"
+            "imagen": "img/rio_activities/escaleraselaron_6_fotografiacreativa.png",
+            "web": "instario.photo"
           }
-        ]
+        ],
+        "web": "https://riotur.rio/en/que_fazer/selaron-steps"
       },
       {
         "id": 6,
@@ -5640,7 +5755,8 @@
             "proveedor": "JBRJ",
             "contacto": "jbrj.gov.br",
             "horario": "Diario",
-            "imagen": "img/rio_activities/jardinbotanico_1_avenidadelaspalmeras.png"
+            "imagen": "img/rio_activities/jardinbotanico_1_avenidadelaspalmeras.png",
+            "web": "jbrj.gov.br"
           },
           {
             "titulo": "Visita al Orquidario",
@@ -5648,7 +5764,8 @@
             "proveedor": "Amigos do Jardim",
             "contacto": "amigosdojardim.org.br",
             "horario": "Mañanas",
-            "imagen": "img/rio_activities/jardinbotanico_2_visitaalorquidario.png"
+            "imagen": "img/rio_activities/jardinbotanico_2_visitaalorquidario.png",
+            "web": "amigosdojardim.org.br"
           },
           {
             "titulo": "Observación de aves",
@@ -5656,7 +5773,8 @@
             "proveedor": "Birding Rio",
             "contacto": "birdingrio.info",
             "horario": "6:00 - 9:00",
-            "imagen": "img/rio_activities/jardinbotanico_3_observaciondeaves.png"
+            "imagen": "img/rio_activities/jardinbotanico_3_observaciondeaves.png",
+            "web": "birdingrio.info"
           },
           {
             "titulo": "Taller de acuarela",
@@ -5664,7 +5782,8 @@
             "proveedor": "Art Rio",
             "contacto": "artrio.com.br",
             "horario": "Sábados",
-            "imagen": "img/rio_activities/jardinbotanico_4_tallerdeacuarela.png"
+            "imagen": "img/rio_activities/jardinbotanico_4_tallerdeacuarela.png",
+            "web": "artrio.com.br"
           },
           {
             "titulo": "Museo del Medio Ambiente",
@@ -5672,7 +5791,8 @@
             "proveedor": "Museu do Meio Ambiente",
             "contacto": "jbrj.gov.br/museu",
             "horario": "10:00 - 16:00",
-            "imagen": "img/rio_activities/jardinbotanico_5_museodelmedioambiente.png"
+            "imagen": "img/rio_activities/jardinbotanico_5_museodelmedioambiente.png",
+            "web": "jbrj.gov.br/museu"
           },
           {
             "titulo": "Té en La Bicyclette",
@@ -5680,9 +5800,11 @@
             "proveedor": "La Bicyclette",
             "contacto": "labicyclette.com.br",
             "horario": "Diario",
-            "imagen": "img/rio_activities/jardinbotanico_6_teenlabicyclette.png"
+            "imagen": "img/rio_activities/jardinbotanico_6_teenlabicyclette.png",
+            "web": "labicyclette.com.br"
           }
-        ]
+        ],
+        "web": "https://jbrj.gov.br"
       },
       {
         "id": 7,
@@ -5709,7 +5831,8 @@
             "proveedor": "Museu do Amanhã",
             "contacto": "museudoamanha.org.br",
             "horario": "Cada 30 min",
-            "imagen": "img/rio_activities/museudoamanha_1_recorridoporlacosmos.png"
+            "imagen": "img/rio_activities/museudoamanha_1_recorridoporlacosmos.png",
+            "web": "museudoamanha.org.br"
           },
           {
             "titulo": "Tour de Arquitectura",
@@ -5717,7 +5840,8 @@
             "proveedor": "Porto Maravilha Tours",
             "contacto": "portomaravilha.rio",
             "horario": "Martes y Jueves",
-            "imagen": "img/rio_activities/museudoamanha_2_tourdearquitectura.png"
+            "imagen": "img/rio_activities/museudoamanha_2_tourdearquitectura.png",
+            "web": "portomaravilha.rio"
           },
           {
             "titulo": "Talleres de Sostenibilidad",
@@ -5725,7 +5849,8 @@
             "proveedor": "Educativo Amanhã",
             "contacto": "museudoamanha.org.br/educativo",
             "horario": "Fines de semana",
-            "imagen": "img/rio_activities/museudoamanha_3_talleresdesostenibilidad.png"
+            "imagen": "img/rio_activities/museudoamanha_3_talleresdesostenibilidad.png",
+            "web": "museudoamanha.org.br/educativo"
           },
           {
             "titulo": "Paseo por el Boulevard Olímpico",
@@ -5733,7 +5858,8 @@
             "proveedor": "Rio Free Walk",
             "contacto": "riofreewalk.com",
             "horario": "10:00 - 13:00",
-            "imagen": "img/rio_activities/museudoamanha_4_paseoporelboulevardolimpico.png"
+            "imagen": "img/rio_activities/museudoamanha_4_paseoporelboulevardolimpico.png",
+            "web": "riofreewalk.com"
           },
           {
             "titulo": "Realidad Aumentada",
@@ -5741,7 +5867,8 @@
             "proveedor": "Museu Digital",
             "contacto": "museudoamanha.org.br/app",
             "horario": "Cualquier momento",
-            "imagen": "img/rio_activities/museudoamanha_5_realidadaumentada.png"
+            "imagen": "img/rio_activities/museudoamanha_5_realidadaumentada.png",
+            "web": "museudoamanha.org.br/app"
           },
           {
             "titulo": "Atardecer en la Bahía",
@@ -5751,7 +5878,8 @@
             "horario": "17:30 - 18:30",
             "imagen": "img/rio_activities/museudoamanha_6_atardecerenlabahia.png"
           }
-        ]
+        ],
+        "web": "https://museudoamanha.org.br"
       },
       {
         "id": 8,
@@ -5778,7 +5906,8 @@
             "proveedor": "Palco Nordeste",
             "contacto": "feiradesaocristovao.org.br",
             "horario": "Noches de fin de semana",
-            "imagen": "img/rio_activities/feiradesaocristovao_1_danzaforro.png"
+            "imagen": "img/rio_activities/feiradesaocristovao_1_danzaforro.png",
+            "web": "feiradesaocristovao.org.br"
           },
           {
             "titulo": "Degustación de Carne de Sol",
@@ -5786,7 +5915,8 @@
             "proveedor": "Restaurante Maria e Cangaço",
             "contacto": "mariaecangaco.com.br",
             "horario": "12:00 - 22:00",
-            "imagen": "img/rio_activities/feiradesaocristovao_2_degustaciondecarnedesol.png"
+            "imagen": "img/rio_activities/feiradesaocristovao_2_degustaciondecarnedesol.png",
+            "web": "mariaecangaco.com.br"
           },
           {
             "titulo": "Taller de Literatura de Cordel",
@@ -5794,7 +5924,8 @@
             "proveedor": "Cordelistas do Rio",
             "contacto": "cordel.org.br",
             "horario": "Bajo reserva",
-            "imagen": "img/rio_activities/feiradesaocristovao_3_tallerdeliteraturadecordel.png"
+            "imagen": "img/rio_activities/feiradesaocristovao_3_tallerdeliteraturadecordel.png",
+            "web": "cordel.org.br"
           },
           {
             "titulo": "Compras de Artesanía",
@@ -5802,7 +5933,8 @@
             "proveedor": "Artesãos da Feira",
             "contacto": "feiradesaocristovao.org.br",
             "horario": "Diario",
-            "imagen": "img/rio_activities/feiradesaocristovao_4_comprasdeartesania.png"
+            "imagen": "img/rio_activities/feiradesaocristovao_4_comprasdeartesania.png",
+            "web": "feiradesaocristovao.org.br"
           },
           {
             "titulo": "Karaoke de Repente",
@@ -5810,7 +5942,8 @@
             "proveedor": "Repentistas Associados",
             "contacto": "repente.rio",
             "horario": "Tardes",
-            "imagen": "img/rio_activities/feiradesaocristovao_5_karaokederepente.png"
+            "imagen": "img/rio_activities/feiradesaocristovao_5_karaokederepente.png",
+            "web": "repente.rio"
           },
           {
             "titulo": "Cata de Cachaça",
@@ -5818,9 +5951,11 @@
             "proveedor": "Cachaçaria da Feira",
             "contacto": "cachaca.br",
             "horario": "14:00 - 20:00",
-            "imagen": "img/rio_activities/feiradesaocristovao_6_catadecachaca.png"
+            "imagen": "img/rio_activities/feiradesaocristovao_6_catadecachaca.png",
+            "web": "cachaca.br"
           }
-        ]
+        ],
+        "web": "https://www.feiradesaocristovao.org.br"
       },
       {
         "id": 9,
@@ -5847,7 +5982,8 @@
             "proveedor": "Confeitaria Colombo",
             "contacto": "confeitariacolombo.com.br",
             "horario": "15:00 - 18:00",
-            "imagen": "img/rio_activities/confeitariacolombo_1_tedelatarde.png"
+            "imagen": "img/rio_activities/confeitariacolombo_1_tedelatarde.png",
+            "web": "confeitariacolombo.com.br"
           },
           {
             "titulo": "Tour Histórico guiado",
@@ -5855,7 +5991,8 @@
             "proveedor": "Historiadores Rio",
             "contacto": "historiorio.com",
             "horario": "Bajo reserva",
-            "imagen": "img/rio_activities/confeitariacolombo_2_tourhistoricoguiado.png"
+            "imagen": "img/rio_activities/confeitariacolombo_2_tourhistoricoguiado.png",
+            "web": "historiorio.com"
           },
           {
             "titulo": "Cata de Dulces Portugueses",
@@ -5863,7 +6000,8 @@
             "proveedor": "Colombo Doces",
             "contacto": "confeitariacolombo.com.br",
             "horario": "Diario",
-            "imagen": "img/rio_activities/confeitariacolombo_3_catadedulcesportugueses.png"
+            "imagen": "img/rio_activities/confeitariacolombo_3_catadedulcesportugueses.png",
+            "web": "confeitariacolombo.com.br"
           },
           {
             "titulo": "Sesión de Fotos Vintage",
@@ -5871,7 +6009,8 @@
             "proveedor": "Vintage Rio Photo",
             "contacto": "vintagephoto.rio",
             "horario": "Mañanas",
-            "imagen": "img/rio_activities/confeitariacolombo_4_sesiondefotosvintage.png"
+            "imagen": "img/rio_activities/confeitariacolombo_4_sesiondefotosvintage.png",
+            "web": "vintagephoto.rio"
           },
           {
             "titulo": "Almuerzo en el Cristóvão",
@@ -5879,7 +6018,8 @@
             "proveedor": "Restaurante Cristóvão",
             "contacto": "confeitariacolombo.com.br",
             "horario": "12:00 - 15:00",
-            "imagen": "img/rio_activities/confeitariacolombo_5_almuerzoenelcristovao.png"
+            "imagen": "img/rio_activities/confeitariacolombo_5_almuerzoenelcristovao.png",
+            "web": "confeitariacolombo.com.br"
           },
           {
             "titulo": "Compra de regalos",
@@ -5887,9 +6027,11 @@
             "proveedor": "Loja Colombo",
             "contacto": "confeitariacolombo.com.br",
             "horario": "Diario",
-            "imagen": "img/rio_activities/confeitariacolombo_6_compraderegalos.png"
+            "imagen": "img/rio_activities/confeitariacolombo_6_compraderegalos.png",
+            "web": "confeitariacolombo.com.br"
           }
-        ]
+        ],
+        "web": "https://www.confeitariacolombo.com.br"
       }
     ]
   },
@@ -5969,7 +6111,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.munlima.gob.pe"
       },
       {
         "id": 2,
@@ -6032,7 +6175,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://huacapucllanamiraflores.pe"
       },
       {
         "id": 3,
@@ -6095,7 +6239,8 @@
             "contacto": "foto@limawalk.local",
             "horario": "Ultima hora de apertura"
           }
-        ]
+        ],
+        "web": "https://www.museolarco.org"
       },
       {
         "id": 4,
@@ -6158,7 +6303,8 @@
             "contacto": "slow@lima.local",
             "horario": "16:30 - 18:00"
           }
-        ]
+        ],
+        "web": "https://www.miraflores.gob.pe"
       },
       {
         "id": 5,
@@ -6221,7 +6367,8 @@
             "contacto": "noche@lima.local",
             "horario": "20:00 - 22:00"
           }
-        ]
+        ],
+        "web": "https://munibarranco.gob.pe"
       },
       {
         "id": 6,
@@ -6284,7 +6431,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.miraflores.gob.pe"
       },
       {
         "id": 7,
@@ -6347,7 +6495,8 @@
             "contacto": "slow@lima.local",
             "horario": "16:30 - 18:00"
           }
-        ]
+        ],
+        "web": "https://www.circuitomagicodelagua.com.pe"
       },
       {
         "id": 8,
@@ -6410,7 +6559,8 @@
             "contacto": "foto@limawalk.local",
             "horario": "Ultima hora de apertura"
           }
-        ]
+        ],
+        "web": "https://mali.pe"
       },
       {
         "id": 9,
@@ -6473,7 +6623,8 @@
             "contacto": "talleres@lima.local",
             "horario": "Consultar calendario"
           }
-        ]
+        ],
+        "web": "https://centralrestaurante.com.pe"
       }
     ]
   },
@@ -6553,7 +6704,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.sydneyoperahouse.com"
       },
       {
         "id": 2,
@@ -6616,7 +6768,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.bridgeclimb.com"
       },
       {
         "id": 3,
@@ -6679,7 +6832,8 @@
             "contacto": "slow@sidney.local",
             "horario": "16:30 - 18:00"
           }
-        ]
+        ],
+        "web": "https://www.sydney.com/destinations/sydney/sydney-east/bondi/attractions/bondi-beach"
       },
       {
         "id": 4,
@@ -6742,7 +6896,8 @@
             "contacto": "noche@sidney.local",
             "horario": "20:00 - 22:00"
           }
-        ]
+        ],
+        "web": "https://www.therocks.com"
       },
       {
         "id": 5,
@@ -6805,7 +6960,8 @@
             "contacto": "slow@sidney.local",
             "horario": "16:30 - 18:00"
           }
-        ]
+        ],
+        "web": "https://www.botanicgardens.org.au/royal-botanic-garden-sydney"
       },
       {
         "id": 6,
@@ -6868,7 +7024,8 @@
             "contacto": "foto@sidneywalk.local",
             "horario": "Ultima hora de apertura"
           }
-        ]
+        ],
+        "web": "https://www.artgallery.nsw.gov.au"
       },
       {
         "id": 7,
@@ -6931,7 +7088,8 @@
             "contacto": "noche@sidney.local",
             "horario": "20:00 - 22:00"
           }
-        ]
+        ],
+        "web": "https://www.darlingharbour.com"
       },
       {
         "id": 8,
@@ -6994,7 +7152,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.sydneyfishmarket.com.au"
       },
       {
         "id": 9,
@@ -7057,7 +7216,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://transportnsw.info/routes/details/sydney-ferries/f1/090F1"
       }
     ]
   },
@@ -7203,7 +7363,8 @@
             "contacto": "slow@madrid.local",
             "horario": "16:30 - 18:00"
           }
-        ]
+        ],
+        "web": "https://www.esmadrid.com/informacion-turistica/parque-del-retiro"
       },
       {
         "id": 3,
@@ -7267,7 +7428,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.patrimonionacional.es/visita/palacio-real-de-madrid"
       },
       {
         "id": 4,
@@ -7396,7 +7558,8 @@
             "contacto": "noche@madrid.local",
             "horario": "20:00 - 22:00"
           }
-        ]
+        ],
+        "web": "https://www.esmadrid.com/informacion-turistica/gran-via"
       },
       {
         "id": 6,
@@ -7460,7 +7623,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.munlima.gob.pe"
       },
       {
         "id": 7,
@@ -7589,7 +7753,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.esmadrid.com/informacion-turistica/puerta-del-sol"
       },
       {
         "id": 9,
@@ -7740,7 +7905,8 @@
             "horario": "Durante apertura",
             "imagen": "img/auckland_activities/skytower_6_audioguiaexpress.png"
           }
-        ]
+        ],
+        "web": "https://skycityauckland.co.nz/sky-tower"
       },
       {
         "id": 2,
@@ -7809,7 +7975,8 @@
             "horario": "Ultima hora de apertura",
             "imagen": "img/auckland_activities/aucklandwarmemorialmuseum_6_paseofotograficointerior.png"
           }
-        ]
+        ],
+        "web": "https://www.aucklandmuseum.com"
       },
       {
         "id": 3,
@@ -7878,7 +8045,8 @@
             "horario": "16:30 - 18:00",
             "imagen": "img/auckland_activities/waihekeisland_6_miradoresyrinconestranquilos.png"
           }
-        ]
+        ],
+        "web": "https://www.aucklandnz.com/visit/destinations/islands/waiheke-island"
       },
       {
         "id": 4,
@@ -7947,7 +8115,8 @@
             "horario": "16:30 - 18:00",
             "imagen": "img/auckland_activities/mounteden_6_miradoresyrinconestranquilos.png"
           }
-        ]
+        ],
+        "web": "https://www.aucklandcouncil.govt.nz/parks-recreation/Pages/park-details.aspx?Location=214"
       },
       {
         "id": 5,
@@ -8016,7 +8185,8 @@
             "horario": "20:00 - 22:00",
             "imagen": "img/auckland_activities/viaductharbour_6_nochedeambiente.png"
           }
-        ]
+        ],
+        "web": "https://www.viaduct.co.nz"
       },
       {
         "id": 6,
@@ -8085,7 +8255,8 @@
             "horario": "Ultima hora de apertura",
             "imagen": "img/auckland_activities/aucklandartgallery_6_paseofotograficointerior.png"
           }
-        ]
+        ],
+        "web": "https://www.aucklandartgallery.com"
       },
       {
         "id": 7,
@@ -8154,7 +8325,8 @@
             "horario": "20:00 - 22:00",
             "imagen": "img/auckland_activities/ponsonby_6_nochedeambiente.png"
           }
-        ]
+        ],
+        "web": "https://www.iloveponsonby.co.nz"
       },
       {
         "id": 8,
@@ -8223,7 +8395,8 @@
             "horario": "20:00 - 22:00",
             "imagen": "img/auckland_activities/britomart_6_nochedeambiente.png"
           }
-        ]
+        ],
+        "web": "https://britomart.org"
       },
       {
         "id": 9,
@@ -8292,7 +8465,8 @@
             "horario": "16:30 - 18:00",
             "imagen": "img/auckland_activities/onetreehill_6_miradoresyrinconestranquilos.png"
           }
-        ]
+        ],
+        "web": "https://www.aucklandcouncil.govt.nz/parks-recreation/Pages/park-details.aspx?Location=219"
       }
     ]
   },
@@ -8335,44 +8509,51 @@
             "descripcion": "Recorrido por el interior de la basilica explicando el simbolismo de las columnas y la luz.",
             "proveedor": "Basílica Sagrada Família",
             "contacto": "sagradafamilia.org",
-            "horario": "9:00 - 18:00"
+            "horario": "9:00 - 18:00",
+            "web": "sagradafamilia.org"
           },
           {
             "titulo": "Subida a las Torres",
             "descripcion": "Vistas panoramicas de Barcelona desde las alturas de la obra maestra de Gaudi.",
             "proveedor": "Basílica Sagrada Família",
             "contacto": "sagradafamilia.org",
-            "horario": "Mañanas"
+            "horario": "Mañanas",
+            "web": "sagradafamilia.org"
           },
           {
             "titulo": "Concierto de Organo",
             "descripcion": "Sesiones musicales que aprovechan la increible acustica del templo.",
             "proveedor": "Cultura BCN",
             "contacto": "barcelona.cat/cultura",
-            "horario": "Eventos especiales"
+            "horario": "Eventos especiales",
+            "web": "barcelona.cat/cultura"
           },
           {
             "titulo": "Taller de Mosaicos",
             "descripcion": "Aprende la tecnica del trencadis en un taller cercano inspirado en la obra viva.",
             "proveedor": "Gaudi Experience",
             "contacto": "gaudiexperience.com",
-            "horario": "11:00 - 13:00"
+            "horario": "11:00 - 13:00",
+            "web": "gaudiexperience.com"
           },
           {
             "titulo": "Fotografia Nocturna",
             "descripcion": "Tour especializado para capturar la fachada de la Pasion iluminada.",
             "proveedor": "BCN Photo Tour",
             "contacto": "bcnphototour.com",
-            "horario": "21:00"
+            "horario": "21:00",
+            "web": "bcnphototour.com"
           },
           {
             "titulo": "Misa Internacional",
             "descripcion": "Ceremonia religiosa en un entorno unico abierta a visitantes de todo el mundo.",
             "proveedor": "Arquebisbat de Barcelona",
             "contacto": "esglesiabarcelona.cat",
-            "horario": "Domingos 9:00"
+            "horario": "Domingos 9:00",
+            "web": "esglesiabarcelona.cat"
           }
-        ]
+        ],
+        "web": "https://sagradafamilia.org"
       },
       {
         "id": 2,
@@ -8398,28 +8579,32 @@
             "descripcion": "Visita guiada por la zona monumental, el banco de trencadis y la escalinata del dragon.",
             "proveedor": "Park Güell Oficial",
             "contacto": "parkguell.barcelona",
-            "horario": "10:00 - 19:00"
+            "horario": "10:00 - 19:00",
+            "web": "parkguell.barcelona"
           },
           {
             "titulo": "Picnic en los Jardines",
             "descripcion": "Espacios habilitados para disfrutar de la naturaleza y las vistas al Mediterraneo.",
             "proveedor": "Parcs i Jardins BCN",
             "contacto": "barcelona.cat/parcs",
-            "horario": "Todo el día"
+            "horario": "Todo el día",
+            "web": "barcelona.cat/parcs"
           },
           {
             "titulo": "Taller de Trencadis",
             "descripcion": "Actividad creativa para niños y familias basada en los mosaicos del parque.",
             "proveedor": "Mosaiccos BCN",
             "contacto": "mosaiccos.com",
-            "horario": "12:00"
+            "horario": "12:00",
+            "web": "mosaiccos.com"
           },
           {
             "titulo": "Ruta Botanica",
             "descripcion": "Descubre las especies mediterraneas que Gaudi integro en el diseño del parque.",
             "proveedor": "Barcelona Green",
             "contacto": "bcn-green.com",
-            "horario": "Bajo reserva"
+            "horario": "Bajo reserva",
+            "web": "bcn-green.com"
           },
           {
             "titulo": "Puesta de Sol",
@@ -8433,9 +8618,11 @@
             "descripcion": "Visita la que fue residencia del arquitecto durante 20 años.",
             "proveedor": "Fundació Sagrada Família",
             "contacto": "casamuseugaudi.org",
-            "horario": "10:00 - 18:00"
+            "horario": "10:00 - 18:00",
+            "web": "casamuseugaudi.org"
           }
-        ]
+        ],
+        "web": "https://parkguell.barcelona"
       },
       {
         "id": 3,
@@ -8461,44 +8648,51 @@
             "descripcion": "Paseo nocturno por los callejones medievales descubriendo historias ocultas.",
             "proveedor": "Icono Serveis",
             "contacto": "iconoserveis.com",
-            "horario": "20:00"
+            "horario": "20:00",
+            "web": "iconoserveis.com"
           },
           {
             "titulo": "Tapas Historicas",
             "descripcion": "Ruta gastronomica por tabernas centenarias del barrio mas antiguo.",
             "proveedor": "Devour Tours",
             "contacto": "devourtours.com",
-            "horario": "19:00"
+            "horario": "19:00",
+            "web": "devourtours.com"
           },
           {
             "titulo": "Guitarra Española",
             "descripcion": "Conciertos intimos en la Basilica de Santa Maria del Pi.",
             "proveedor": "Maestros de la Guitarra",
             "contacto": "maestrosdelaguitarra.com",
-            "horario": "21:00"
+            "horario": "21:00",
+            "web": "maestrosdelaguitarra.com"
           },
           {
             "titulo": "Barcelona Romana",
             "descripcion": "Descubre los restos de la antigua Barcino y las columnas del Templo de Augusto.",
             "proveedor": "MUHBA",
             "contacto": "barcelona.cat/museuhistoria",
-            "horario": "10:00 - 19:00"
+            "horario": "10:00 - 19:00",
+            "web": "barcelona.cat/museuhistoria"
           },
           {
             "titulo": "Caligrafia Medieval",
             "descripcion": "Taller de escritura antigua en un claustro gotico.",
             "proveedor": "Arts Medievals",
             "contacto": "artsmedievals.com",
-            "horario": "Sabados"
+            "horario": "Sabados",
+            "web": "artsmedievals.com"
           },
           {
             "titulo": "Patios Escondidos",
             "descripcion": "Visita guiada a palacios privados que abren sus patios solo para grupos reducidos.",
             "proveedor": "Cases Singulars",
             "contacto": "casessingulars.com",
-            "horario": "Bajo reserva"
+            "horario": "Bajo reserva",
+            "web": "casessingulars.com"
           }
-        ]
+        ],
+        "web": "https://www.barcelonaturisme.com/wv3/en/page/380/the-gothic-quarter.html"
       },
       {
         "id": 4,
@@ -8524,44 +8718,51 @@
             "descripcion": "El propio Gaudí (actor) te guia por los secretos de su casa mas imaginativa.",
             "proveedor": "Casa Batlló",
             "contacto": "casabatllo.es",
-            "horario": "18:00"
+            "horario": "18:00",
+            "web": "casabatllo.es"
           },
           {
             "titulo": "Noches Magicas",
             "descripcion": "Conciertos en vivo en la azotea del Dragon con una copa de cava.",
             "proveedor": "Casa Batlló",
             "contacto": "casabatllo.es",
-            "horario": "20:00"
+            "horario": "20:00",
+            "web": "casabatllo.es"
           },
           {
             "titulo": "Experiencia 10D",
             "descripcion": "Viaje inmersivo a la mente de Gaudi mediante tecnologia de vanguardia.",
             "proveedor": "Casa Batlló",
             "contacto": "casabatllo.es",
-            "horario": "9:00 - 20:00"
+            "horario": "9:00 - 20:00",
+            "web": "casabatllo.es"
           },
           {
             "titulo": "Desayuno en el Tejado",
             "descripcion": "Acceso exclusivo antes de la apertura general con desayuno gourmet.",
             "proveedor": "Casa Batlló",
             "contacto": "casabatllo.es",
-            "horario": "8:30"
+            "horario": "8:30",
+            "web": "casabatllo.es"
           },
           {
             "titulo": "Taller de Vidrieras",
             "descripcion": "Aprende sobre el manejo del color y la luz en el modernismo.",
             "proveedor": "Artesania BCN",
             "contacto": "artesaniabcn.cat",
-            "horario": "Mensual"
+            "horario": "Mensual",
+            "web": "artesaniabcn.cat"
           },
           {
             "titulo": "Sesion Fotografica",
             "descripcion": "Fotografo profesional para capturar tu visita en el Salon Noble.",
             "proveedor": "Photo Experience",
             "contacto": "photo-exp.com",
-            "horario": "Previa cita"
+            "horario": "Previa cita",
+            "web": "photo-exp.com"
           }
-        ]
+        ],
+        "web": "https://www.casabatllo.es"
       },
       {
         "id": 5,
@@ -8587,44 +8788,51 @@
             "descripcion": "Recorrido desde la famosa fuente hasta el monumento a Colon.",
             "proveedor": "Barcelona Turisme",
             "contacto": "barcelonaturisme.com",
-            "horario": "Cualquier hora"
+            "horario": "Cualquier hora",
+            "web": "barcelonaturisme.com"
           },
           {
             "titulo": "Flamenco en el Tablao",
             "descripcion": "Pasion y duende en el historico Tablao Cordobes.",
             "proveedor": "Tablao Cordobes",
             "contacto": "tablaocordobes.es",
-            "horario": "Varios pases"
+            "horario": "Varios pases",
+            "web": "tablaocordobes.es"
           },
           {
             "titulo": "Opera en el Liceu",
             "descripcion": "Visita al interior del gran teatro de la opera de Barcelona.",
             "proveedor": "Gran Teatre del Liceu",
             "contacto": "liceubarcelona.cat",
-            "horario": "10:00 - 18:00"
+            "horario": "10:00 - 18:00",
+            "web": "liceubarcelona.cat"
           },
           {
             "titulo": "Cocteleria Boadas",
             "descripcion": "Degustacion en la cocteleria mas antigua de la ciudad.",
             "proveedor": "Boadas Cocktails",
             "contacto": "boadascocktails.com",
-            "horario": "Tarde/Noche"
+            "horario": "Tarde/Noche",
+            "web": "boadascocktails.com"
           },
           {
             "titulo": "Ruta de Estatuas",
             "descripcion": "Conoce la historia de los artistas callejeros mas iconicos.",
             "proveedor": "Rambla Artistas",
             "contacto": "laramblabcn.com",
-            "horario": "Mañana"
+            "horario": "Mañana",
+            "web": "laramblabcn.com"
           },
           {
             "titulo": "Cena en Terraza",
             "descripcion": "Gastronomia tradicional en la Plaza Real junto a las farolas de Gaudi.",
             "proveedor": "Restaurante Glaciar",
             "contacto": "glaciarbcn.com",
-            "horario": "20:00"
+            "horario": "20:00",
+            "web": "glaciarbcn.com"
           }
-        ]
+        ],
+        "web": "https://www.barcelonaturisme.com/wv3/en/page/163/la-rambla.html"
       },
       {
         "id": 6,
@@ -8650,44 +8858,51 @@
             "descripcion": "Visita el mercado con un chef local para comprar ingredientes frescos.",
             "proveedor": "Boqueria Food Tours",
             "contacto": "boqueria.barcelona",
-            "horario": "10:00"
+            "horario": "10:00",
+            "web": "boqueria.barcelona"
           },
           {
             "titulo": "Taller de Cocina",
             "descripcion": "Aprende a cocinar paella y crema catalana tras la visita al mercado.",
             "proveedor": "Barcelona Cooking",
             "contacto": "barcelonacooking.net",
-            "horario": "11:00"
+            "horario": "11:00",
+            "web": "barcelonacooking.net"
           },
           {
             "titulo": "Ostras y Cava",
             "descripcion": "Degustacion de producto fresco en los puestos mas exclusivos.",
             "proveedor": "Peixateries Joana",
             "contacto": "laboqueria.es",
-            "horario": "Mañana"
+            "horario": "Mañana",
+            "web": "laboqueria.es"
           },
           {
             "titulo": "Puestos Historicos",
             "descripcion": "Ruta centrada en los comerciantes que llevan generaciones en el mercado.",
             "proveedor": "Amics de la Boqueria",
             "contacto": "boqueria.info",
-            "horario": "12:00"
+            "horario": "12:00",
+            "web": "boqueria.info"
           },
           {
             "titulo": "Desayuno de Tenedor",
             "descripcion": "La experiencia autentica de desayunar platos calientes en El Quim.",
             "proveedor": "El Quim de la Boqueria",
             "contacto": "elquimdelaboqueria.com",
-            "horario": "8:00 - 11:00"
+            "horario": "8:00 - 11:00",
+            "web": "elquimdelaboqueria.com"
           },
           {
             "titulo": "Corte de Jamon",
             "descripcion": "Masterclass sobre los diferentes tipos de jamon y tecnicas de corte.",
             "proveedor": "Reserva Iberica",
             "contacto": "reservaiberica.com",
-            "horario": "16:00"
+            "horario": "16:00",
+            "web": "reservaiberica.com"
           }
-        ]
+        ],
+        "web": "https://www.boqueria.barcelona"
       },
       {
         "id": 7,
@@ -8713,44 +8928,51 @@
             "descripcion": "Vuelo sobre la ciudad con las mejores vistas del puerto y el mar.",
             "proveedor": "TMB",
             "contacto": "telefericdemontjuic.cat",
-            "horario": "10:00 - 19:00"
+            "horario": "10:00 - 19:00",
+            "web": "telefericdemontjuic.cat"
           },
           {
             "titulo": "Font Magica",
             "descripcion": "Espectaculo de agua, luz y musica al pie del Palacio Nacional.",
             "proveedor": "Ayuntamiento BCN",
             "contacto": "barcelona.cat/fontmagica",
-            "horario": "Noche (Consultar dias)"
+            "horario": "Noche (Consultar dias)",
+            "web": "barcelona.cat/fontmagica"
           },
           {
             "titulo": "Castell de Montjuic",
             "descripcion": "Visita a la antigua fortaleza militar con vistas 360 grados.",
             "proveedor": "Castell Montjuic",
             "contacto": "barcelona.cat/castellmontjuic",
-            "horario": "10:00 - 20:00"
+            "horario": "10:00 - 20:00",
+            "web": "barcelona.cat/castellmontjuic"
           },
           {
             "titulo": "Jardines de Brossa",
             "descripcion": "Ruta por los jardines tematicos y las esculturas al aire libre.",
             "proveedor": "Parcs BCN",
             "contacto": "barcelona.cat/parcs",
-            "horario": "Todo el día"
+            "horario": "Todo el día",
+            "web": "barcelona.cat/parcs"
           },
           {
             "titulo": "MNAC Experience",
             "descripcion": "Visita a la mejor coleccion de pintura romanica del mundo.",
             "proveedor": "Museu Nacional",
             "contacto": "museunacional.cat",
-            "horario": "10:00 - 18:00"
+            "horario": "10:00 - 18:00",
+            "web": "museunacional.cat"
           },
           {
             "titulo": "Piscina Olimpica",
             "descripcion": "Bañate en la piscina de los saltos olimpicos con la ciudad de fondo.",
             "proveedor": "CEM Montjuic",
             "contacto": "picornell.cat",
-            "horario": "Verano"
+            "horario": "Verano",
+            "web": "picornell.cat"
           }
-        ]
+        ],
+        "web": "https://www.barcelonaturisme.com/wv3/en/page/397/montjuic.html"
       },
       {
         "id": 8,
@@ -8776,44 +8998,51 @@
             "descripcion": "Empieza el dia remando en el Mediterraneo frente a la costa.",
             "proveedor": "Manihi Surf",
             "contacto": "manihisurf.com",
-            "horario": "6:30"
+            "horario": "6:30",
+            "web": "manihisurf.com"
           },
           {
             "titulo": "Arroz Marinero",
             "descripcion": "Almuerzo tradicional en una de las arrocerias del paseo maritimo.",
             "proveedor": "Can Solé",
             "contacto": "restaurantcansole.com",
-            "horario": "14:00"
+            "horario": "14:00",
+            "web": "restaurantcansole.com"
           },
           {
             "titulo": "Pesca Tradicional",
             "descripcion": "Acompaña a los pescadores en su jornada y visita la lonja.",
             "proveedor": "Cap a Mar",
             "contacto": "capamar.cat",
-            "horario": "Mañanas"
+            "horario": "Mañanas",
+            "web": "capamar.cat"
           },
           {
             "titulo": "Bicicletas por el Mar",
             "descripcion": "Alquiler para recorrer toda la linea de costa hasta el Forum.",
             "proveedor": "BCN Bike Rent",
             "contacto": "barcelonabikerent.com",
-            "horario": "Diario"
+            "horario": "Diario",
+            "web": "barcelonabikerent.com"
           },
           {
             "titulo": "Museo de Historia",
             "descripcion": "Vistas desde la terraza del museo sobre el Port Vell.",
             "proveedor": "MHCat",
             "contacto": "mhcat.cat",
-            "horario": "10:00 - 19:00"
+            "horario": "10:00 - 19:00",
+            "web": "mhcat.cat"
           },
           {
             "titulo": "Cena con Brisa",
             "descripcion": "Experiencia gastronomica nocturna frente a los yates del puerto.",
             "proveedor": "Restaurante Barceloneta",
             "contacto": "restaurantbarceloneta.com",
-            "horario": "21:00"
+            "horario": "21:00",
+            "web": "restaurantbarceloneta.com"
           }
-        ]
+        ],
+        "web": "https://www.barcelonaturisme.com/wv3/en/page/161/la-barceloneta.html"
       },
       {
         "id": 9,
@@ -8839,44 +9068,51 @@
             "descripcion": "Descubre la explosion de color y luz en el templo de la musica.",
             "proveedor": "Palau de la Música",
             "contacto": "palaumusica.cat",
-            "horario": "10:00 - 15:30"
+            "horario": "10:00 - 15:30",
+            "web": "palaumusica.cat"
           },
           {
             "titulo": "Ensayo Abierto",
             "descripcion": "Escucha al Orfeó Català en sus sesiones de preparacion.",
             "proveedor": "Palau de la Música",
             "contacto": "palaumusica.cat",
-            "horario": "Segun calendario"
+            "horario": "Segun calendario",
+            "web": "palaumusica.cat"
           },
           {
             "titulo": "Opera y Flamenco",
             "descripcion": "Espectaculo de fusion artistica en el escenario principal.",
             "proveedor": "Barcelona Flamenco",
             "contacto": "operaflamenco.com",
-            "horario": "20:00"
+            "horario": "20:00",
+            "web": "operaflamenco.com"
           },
           {
             "titulo": "Escultura Modernista",
             "descripcion": "Recorrido enfocado en las musas y el simbolismo esculpido.",
             "proveedor": "Arts Modernistes",
             "contacto": "modernisme.cat",
-            "horario": "Bajo reserva"
+            "horario": "Bajo reserva",
+            "web": "modernisme.cat"
           },
           {
             "titulo": "Te en el Balcon",
             "descripcion": "Disfruta de un te entre las columnas de mosaico de la fachada.",
             "proveedor": "Café del Palau",
             "contacto": "palaumusica.cat",
-            "horario": "Tarde"
+            "horario": "Tarde",
+            "web": "palaumusica.cat"
           },
           {
             "titulo": "Recital de Piano",
             "descripcion": "Conciertos de piano a la luz de las velas en la sala pequeña.",
             "proveedor": "Candlelight BCN",
             "contacto": "feverup.com",
-            "horario": "21:30"
+            "horario": "21:30",
+            "web": "feverup.com"
           }
-        ]
+        ],
+        "web": "https://www.palaumusica.cat"
       }
     ]
   },
@@ -8962,7 +9198,8 @@
             "horario": "Durante apertura",
             "imagen": "img/buenosaires_activities/teatrocolon_6_audioguiaexpress.png"
           }
-        ]
+        ],
+        "web": "https://teatrocolon.org.ar"
       },
       {
         "id": 2,
@@ -9031,7 +9268,8 @@
             "horario": "20:00 - 22:00",
             "imagen": "img/buenosaires_activities/caminito_6_nochedeambiente.png"
           }
-        ]
+        ],
+        "web": "https://turismo.buenosaires.gob.ar/en/atractivo/caminito"
       },
       {
         "id": 3,
@@ -9100,7 +9338,8 @@
             "horario": "20:00 - 22:00",
             "imagen": "img/buenosaires_activities/recoleta_6_nochedeambiente.png"
           }
-        ]
+        ],
+        "web": "https://turismo.buenosaires.gob.ar/en/atractivo/recoleta"
       },
       {
         "id": 4,
@@ -9169,7 +9408,8 @@
             "horario": "Durante apertura",
             "imagen": "img/buenosaires_activities/avenida9dejulio_6_audioguiaexpress.png"
           }
-        ]
+        ],
+        "web": "https://turismo.buenosaires.gob.ar/en/atractivo/avenida-9-de-julio"
       },
       {
         "id": 5,
@@ -9238,7 +9478,8 @@
             "horario": "20:00 - 22:00",
             "imagen": "img/buenosaires_activities/puertomadero_6_nochedeambiente.png"
           }
-        ]
+        ],
+        "web": "https://turismo.buenosaires.gob.ar/en/atractivo/puerto-madero"
       },
       {
         "id": 6,
@@ -9307,7 +9548,8 @@
             "horario": "Durante apertura",
             "imagen": "img/buenosaires_activities/elateneograndsplendid_6_audioguiaexpress.png"
           }
-        ]
+        ],
+        "web": "https://www.yenny-elateneo.com"
       },
       {
         "id": 7,
@@ -9376,7 +9618,8 @@
             "horario": "20:00 - 22:00",
             "imagen": "img/buenosaires_activities/santelmo_6_nochedeambiente.png"
           }
-        ]
+        ],
+        "web": "https://turismo.buenosaires.gob.ar/en/atractivo/san-telmo"
       },
       {
         "id": 8,
@@ -9445,7 +9688,8 @@
             "horario": "20:00 - 22:00",
             "imagen": "img/buenosaires_activities/palermo_6_nochedeambiente.png"
           }
-        ]
+        ],
+        "web": "https://turismo.buenosaires.gob.ar/en/atractivo/palermo"
       },
       {
         "id": 9,
@@ -9514,7 +9758,8 @@
             "horario": "Durante apertura",
             "imagen": "img/buenosaires_activities/floralisgenerica_6_audioguiaexpress.png"
           }
-        ]
+        ],
+        "web": "https://turismo.buenosaires.gob.ar/en/atractivo/floralis-generica"
       }
     ]
   },
@@ -9557,44 +9802,51 @@
             "descripcion": "Recorrido centrado en los mosaicos, la cupula y la conversion en mezquita.",
             "proveedor": "Ayasofya-i Kebir Cami",
             "contacto": "muze.gen.tr",
-            "horario": "9:00 - 19:00"
+            "horario": "9:00 - 19:00",
+            "web": "muze.gen.tr"
           },
           {
             "titulo": "Acceso prioritario y guia",
             "descripcion": "Evita las colas principales con explicacion de un guia oficial.",
             "proveedor": "Istanbul Welcome Card",
             "contacto": "istanbulwelcomecard.com",
-            "horario": "Diario"
+            "horario": "Diario",
+            "web": "istanbulwelcomecard.com"
           },
           {
             "titulo": "Paseo por Sultanahmet",
             "descripcion": "Ruta a pie por la plaza que une Santa Sofia y la Mezquita Azul.",
             "proveedor": "GetYourGuide Istanbul",
             "contacto": "getyourguide.com/istanbul",
-            "horario": "Mañana y tarde"
+            "horario": "Mañana y tarde",
+            "web": "getyourguide.com/istanbul"
           },
           {
             "titulo": "Sesion de fotos exteriores",
             "descripcion": "Captura la luz del atardecer sobre los minaretes y la cupula.",
             "proveedor": "Civitatis Estambul",
             "contacto": "civitatis.com/estambul",
-            "horario": "Al atardecer"
+            "horario": "Al atardecer",
+            "web": "civitatis.com/estambul"
           },
           {
             "titulo": "Audioguia interactiva",
             "descripcion": "Explora a tu ritmo con contexto historico en tu dispositivo.",
             "proveedor": "Tiqets Istanbul",
             "contacto": "tiqets.com/istanbul",
-            "horario": "Cualquier momento"
+            "horario": "Cualquier momento",
+            "web": "tiqets.com/istanbul"
           },
           {
             "titulo": "Charla de arquitectura",
             "descripcion": "Actividad especializada en las tecnicas de construccion del siglo VI.",
             "proveedor": "Withlocals Istanbul",
             "contacto": "withlocals.com/istanbul",
-            "horario": "Bajo reserva"
+            "horario": "Bajo reserva",
+            "web": "withlocals.com/istanbul"
           }
-        ]
+        ],
+        "web": "https://muze.gen.tr/muze-detay/ayasofya"
       },
       {
         "id": 2,
@@ -9620,44 +9872,51 @@
             "descripcion": "Explicacion del culto, los azulejos de Iznik y la arquitectura sagrada.",
             "proveedor": "Sultanahmet Camii",
             "contacto": "sultanahmetcamii.org",
-            "horario": "Fuera de horas de rezo"
+            "horario": "Fuera de horas de rezo",
+            "web": "sultanahmetcamii.org"
           },
           {
             "titulo": "Ruta de mezquitas imperiales",
             "descripcion": "Recorrido por las principales mezquitas del centro historico.",
             "proveedor": "Istanbul Welcome Card",
             "contacto": "istanbulwelcomecard.com",
-            "horario": "Diario"
+            "horario": "Diario",
+            "web": "istanbulwelcomecard.com"
           },
           {
             "titulo": "Fotografia de minaretes",
             "descripcion": "Busqueda de los mejores angulos para captar los seis minaretes.",
             "proveedor": "GetYourGuide Istanbul",
             "contacto": "getyourguide.com/istanbul",
-            "horario": "Cualquier momento"
+            "horario": "Cualquier momento",
+            "web": "getyourguide.com/istanbul"
           },
           {
             "titulo": "Tour por el Hipodromo",
             "descripcion": "Contexto sobre el obelisco y la historia romana frente a la mezquita.",
             "proveedor": "Civitatis Estambul",
             "contacto": "civitatis.com/estambul",
-            "horario": "Diario"
+            "horario": "Diario",
+            "web": "civitatis.com/estambul"
           },
           {
             "titulo": "Visita nocturna iluminada",
             "descripcion": "Paseo por los patios cuando la iluminacion resalta su silueta.",
             "proveedor": "Tiqets Istanbul",
             "contacto": "tiqets.com/istanbul",
-            "horario": "Noche"
+            "horario": "Noche",
+            "web": "tiqets.com/istanbul"
           },
           {
             "titulo": "Charla sobre artesania turca",
             "descripcion": "Actividad centrada en los azulejos y la caligrafia del interior.",
             "proveedor": "Withlocals Istanbul",
             "contacto": "withlocals.com/istanbul",
-            "horario": "Privado"
+            "horario": "Privado",
+            "web": "withlocals.com/istanbul"
           }
-        ]
+        ],
+        "web": "https://www.sultanahmetcamii.org"
       },
       {
         "id": 3,
@@ -9683,44 +9942,51 @@
             "descripcion": "Visita detallada a las estancias privadas de las sultanas y el sultan.",
             "proveedor": "Topkapi Sarayi",
             "contacto": "millisaraylar.gov.tr",
-            "horario": "9:00 - 18:00"
+            "horario": "9:00 - 18:00",
+            "web": "millisaraylar.gov.tr"
           },
           {
             "titulo": "Tesoro y Vistas del Bosforo",
             "descripcion": "Recorrido por las joyas imperiales y los miradores al mar.",
             "proveedor": "Istanbul Welcome Card",
             "contacto": "istanbulwelcomecard.com",
-            "horario": "Diario"
+            "horario": "Diario",
+            "web": "istanbulwelcomecard.com"
           },
           {
             "titulo": "Jardines del Cuarto Patio",
             "descripcion": "Paseo relajado por los pabellones y fuentes sobre el Cuerno de Oro.",
             "proveedor": "GetYourGuide Istanbul",
             "contacto": "getyourguide.com/istanbul",
-            "horario": "Libre"
+            "horario": "Libre",
+            "web": "getyourguide.com/istanbul"
           },
           {
             "titulo": "Tour de Reliquias Sagradas",
             "descripcion": "Visita a la coleccion de objetos religiosos de gran valor historico.",
             "proveedor": "Civitatis Estambul",
             "contacto": "civitatis.com/estambul",
-            "horario": "Mañana"
+            "horario": "Mañana",
+            "web": "civitatis.com/estambul"
           },
           {
             "titulo": "Visita a las Cocinas Reales",
             "descripcion": "Explicacion de la logistica y la gastronomia del imperio.",
             "proveedor": "Tiqets Istanbul",
             "contacto": "tiqets.com/istanbul",
-            "horario": "Diario"
+            "horario": "Diario",
+            "web": "tiqets.com/istanbul"
           },
           {
             "titulo": "Historia del Imperio Otomano",
             "descripcion": "Ruta contextual sobre la administracion desde este centro de poder.",
             "proveedor": "Withlocals Istanbul",
             "contacto": "withlocals.com/istanbul",
-            "horario": "Privado"
+            "horario": "Privado",
+            "web": "withlocals.com/istanbul"
           }
-        ]
+        ],
+        "web": "https://www.millisaraylar.gov.tr/en/palaces/topkapi-palace"
       },
       {
         "id": 4,
@@ -9746,44 +10012,51 @@
             "descripcion": "Consejos de un local para navegar y comprar alfombras o joyas.",
             "proveedor": "Kapalicarsi Management",
             "contacto": "kapalicarsi.com.tr",
-            "horario": "9:00 - 19:00"
+            "horario": "9:00 - 19:00",
+            "web": "kapalicarsi.com.tr"
           },
           {
             "titulo": "Ruta de artesanos ocultos",
             "descripcion": "Visita a talleres tradicionales de orfebreria y ceramica.",
             "proveedor": "Istanbul Welcome Card",
             "contacto": "istanbulwelcomecard.com",
-            "horario": "Mañana"
+            "horario": "Mañana",
+            "web": "istanbulwelcomecard.com"
           },
           {
             "titulo": "Paseo por los Hanes",
             "descripcion": "Exploracion de los antiguos caravasares que rodean el bazar.",
             "proveedor": "GetYourGuide Istanbul",
             "contacto": "getyourguide.com/istanbul",
-            "horario": "Diario"
+            "horario": "Diario",
+            "web": "getyourguide.com/istanbul"
           },
           {
             "titulo": "Degustacion de Cafe Turco",
             "descripcion": "Parada en los cafes mas antiguos y con mas encanto del laberinto.",
             "proveedor": "Civitatis Estambul",
             "contacto": "civitatis.com/estambul",
-            "horario": "Tarde"
+            "horario": "Tarde",
+            "web": "civitatis.com/estambul"
           },
           {
             "titulo": "Fotografia de lamparas",
             "descripcion": "Sesion centrada en los colores y luces de los pasillos interiores.",
             "proveedor": "Tiqets Istanbul",
             "contacto": "tiqets.com/istanbul",
-            "horario": "Libre"
+            "horario": "Libre",
+            "web": "tiqets.com/istanbul"
           },
           {
             "titulo": "Historia de la Ruta de la Seda",
             "descripcion": "Contexto sobre el papel de Estambul en el comercio mundial.",
             "proveedor": "Withlocals Istanbul",
             "contacto": "withlocals.com/istanbul",
-            "horario": "Privado"
+            "horario": "Privado",
+            "web": "withlocals.com/istanbul"
           }
-        ]
+        ],
+        "web": "https://www.kapalicarsi.com.tr"
       },
       {
         "id": 5,
@@ -9809,44 +10082,51 @@
             "descripcion": "Cata guiada de especias, frutos secos y delicias turcas.",
             "proveedor": "Istanbul Welcome Card",
             "contacto": "istanbulwelcomecard.com",
-            "horario": "9:00 - 19:00"
+            "horario": "9:00 - 19:00",
+            "web": "istanbulwelcomecard.com"
           },
           {
             "titulo": "Taller de Lokum (Turkish Delight)",
             "descripcion": "Demostracion y degustacion de los dulces mas famosos.",
             "proveedor": "GetYourGuide Istanbul",
             "contacto": "getyourguide.com/istanbul",
-            "horario": "Tarde"
+            "horario": "Tarde",
+            "web": "getyourguide.com/istanbul"
           },
           {
             "titulo": "Compra de Te Guiada",
             "descripcion": "Seleccion de mezclas de flores y hierbas locales.",
             "proveedor": "Civitatis Estambul",
             "contacto": "civitatis.com/estambul",
-            "horario": "Mañana"
+            "horario": "Mañana",
+            "web": "civitatis.com/estambul"
           },
           {
             "titulo": "Mercado de Eminonu",
             "descripcion": "Paseo por los alrededores del bazar y el puerto.",
             "proveedor": "Tiqets Istanbul",
             "contacto": "tiqets.com/istanbul",
-            "horario": "Libre"
+            "horario": "Libre",
+            "web": "tiqets.com/istanbul"
           },
           {
             "titulo": "Fotografia de Montanas de Especias",
             "descripcion": "Captura el colorido visual de los puestos tradicionales.",
             "proveedor": "Withlocals Istanbul",
             "contacto": "withlocals.com/istanbul",
-            "horario": "Libre"
+            "horario": "Libre",
+            "web": "withlocals.com/istanbul"
           },
           {
             "titulo": "Degustacion de Quesos y Olivas",
             "descripcion": "Exploracion de los productos frescos del mercado exterior.",
             "proveedor": "Turkish Heritage",
             "contacto": "turkishheritagetravel.com",
-            "horario": "Mañana"
+            "horario": "Mañana",
+            "web": "turkishheritagetravel.com"
           }
-        ]
+        ],
+        "web": "https://www.misircarsisi.org"
       },
       {
         "id": 6,
@@ -9872,44 +10152,51 @@
             "descripcion": "Acceso al mirador para ver toda Estambul desde las alturas.",
             "proveedor": "Galata Kulesi Muze",
             "contacto": "muze.gen.tr",
-            "horario": "8:30 - 23:00"
+            "horario": "8:30 - 23:00",
+            "web": "muze.gen.tr"
           },
           {
             "titulo": "Barrio Genoves de Galata",
             "descripcion": "Paseo por las calles empinadas, tiendas de diseño y musica.",
             "proveedor": "Istanbul Welcome Card",
             "contacto": "istanbulwelcomecard.com",
-            "horario": "Tarde"
+            "horario": "Tarde",
+            "web": "istanbulwelcomecard.com"
           },
           {
             "titulo": "Ruta de Cafes en Beyoglu",
             "descripcion": "Exploracion de la vida social y bohemia de los alrededores.",
             "proveedor": "GetYourGuide Istanbul",
             "contacto": "getyourguide.com/istanbul",
-            "horario": "Tarde/Noche"
+            "horario": "Tarde/Noche",
+            "web": "getyourguide.com/istanbul"
           },
           {
             "titulo": "Atardecer sobre el Cuerno de Oro",
             "descripcion": "Experiencia fotografica con la mejor luz del dia.",
             "proveedor": "Civitatis Estambul",
             "contacto": "civitatis.com/estambul",
-            "horario": "Atardecer"
+            "horario": "Atardecer",
+            "web": "civitatis.com/estambul"
           },
           {
             "titulo": "Historia Medieval de la Torre",
             "descripcion": "Contexto sobre la defensa de la ciudad y los genoveses.",
             "proveedor": "Tiqets Istanbul",
             "contacto": "tiqets.com/istanbul",
-            "horario": "Mañana"
+            "horario": "Mañana",
+            "web": "tiqets.com/istanbul"
           },
           {
             "titulo": "Paseo hasta el Puente de Galata",
             "descripcion": "Ruta descendente conectando con los pescadores del puente.",
             "proveedor": "Withlocals Istanbul",
             "contacto": "withlocals.com/istanbul",
-            "horario": "Mañana"
+            "horario": "Mañana",
+            "web": "withlocals.com/istanbul"
           }
-        ]
+        ],
+        "web": "https://muze.gen.tr/muze-detay/galatakulesi"
       },
       {
         "id": 7,
@@ -9935,44 +10222,51 @@
             "descripcion": "Crucero publico o compartido para ver las siluetas de la ciudad.",
             "proveedor": "Istanbul Welcome Card",
             "contacto": "istanbulwelcomecard.com",
-            "horario": "Atardecer"
+            "horario": "Atardecer",
+            "web": "istanbulwelcomecard.com"
           },
           {
             "titulo": "Crucero Privado de Lujo",
             "descripcion": "Experiencia exclusiva para ver palacios y yalis de madera.",
             "proveedor": "Turkish Heritage",
             "contacto": "turkishheritagetravel.com",
-            "horario": "Bajo reserva"
+            "horario": "Bajo reserva",
+            "web": "turkishheritagetravel.com"
           },
           {
             "titulo": "Desayuno en el Barco",
             "descripcion": "Mañana relajada navegando entre Europa y Asia.",
             "proveedor": "GetYourGuide Istanbul",
             "contacto": "getyourguide.com/istanbul",
-            "horario": "Mañana"
+            "horario": "Mañana",
+            "web": "getyourguide.com/istanbul"
           },
           {
             "titulo": "Ruta de Palacios Costeros",
             "descripcion": "Explicacion de Dolmabahce y Beylerbeyi desde el agua.",
             "proveedor": "Civitatis Estambul",
             "contacto": "civitatis.com/estambul",
-            "horario": "Diario"
+            "horario": "Diario",
+            "web": "civitatis.com/estambul"
           },
           {
             "titulo": "Tour Nocturno con Cena",
             "descripcion": "Espectaculo de danzas tradicionales y vistas iluminadas.",
             "proveedor": "Tiqets Istanbul",
             "contacto": "tiqets.com/istanbul",
-            "horario": "Noche"
+            "horario": "Noche",
+            "web": "tiqets.com/istanbul"
           },
           {
             "titulo": "Paseo por la Costa Asiatica",
             "descripcion": "Parada en barrios como Kanlica o Kuzguncuk.",
             "proveedor": "Withlocals Istanbul",
             "contacto": "withlocals.com/istanbul",
-            "horario": "Diario"
+            "horario": "Diario",
+            "web": "withlocals.com/istanbul"
           }
-        ]
+        ],
+        "web": "https://www.sehirhatlari.istanbul/en"
       },
       {
         "id": 8,
@@ -9998,44 +10292,51 @@
             "descripcion": "Recorrido por las columnas romanas y las cabezas de Medusa.",
             "proveedor": "Yerebatan Sarnici",
             "contacto": "yerebatan.com",
-            "horario": "9:00 - 22:00"
+            "horario": "9:00 - 22:00",
+            "web": "yerebatan.com"
           },
           {
             "titulo": "Leyendas de Bizancio",
             "descripcion": "Historias y mitos asociados a este deposito de agua.",
             "proveedor": "Istanbul Welcome Card",
             "contacto": "istanbulwelcomecard.com",
-            "horario": "Diario"
+            "horario": "Diario",
+            "web": "istanbulwelcomecard.com"
           },
           {
             "titulo": "Experiencia Sonora y Eco",
             "descripcion": "Momento de silencio para apreciar la acustica del lugar.",
             "proveedor": "GetYourGuide Istanbul",
             "contacto": "getyourguide.com/istanbul",
-            "horario": "Libre"
+            "horario": "Libre",
+            "web": "getyourguide.com/istanbul"
           },
           {
             "titulo": "Fotografia de Reflejos",
             "descripcion": "Captura de la luz sobre el agua y las columnas milenarias.",
             "proveedor": "Civitatis Estambul",
             "contacto": "civitatis.com/estambul",
-            "horario": "Libre"
+            "horario": "Libre",
+            "web": "civitatis.com/estambul"
           },
           {
             "titulo": "Ingenieria Hidraulica Romana",
             "descripcion": "Charla tecnica sobre como se abastecia la ciudad.",
             "proveedor": "Tiqets Istanbul",
             "contacto": "tiqets.com/istanbul",
-            "horario": "Tarde"
+            "horario": "Tarde",
+            "web": "tiqets.com/istanbul"
           },
           {
             "titulo": "Visita Privada Nocturna",
             "descripcion": "Acceso exclusivo con iluminacion especial segun calendario.",
             "proveedor": "Withlocals Istanbul",
             "contacto": "withlocals.com/istanbul",
-            "horario": "Noche"
+            "horario": "Noche",
+            "web": "withlocals.com/istanbul"
           }
-        ]
+        ],
+        "web": "https://www.yerebatan.com"
       },
       {
         "id": 9,
@@ -10061,44 +10362,51 @@
             "descripcion": "Visita al salon de ceremonias y la gran escalera de baccarat.",
             "proveedor": "Istanbul Welcome Card",
             "contacto": "istanbulwelcomecard.com",
-            "horario": "9:00 - 17:30"
+            "horario": "9:00 - 17:30",
+            "web": "istanbulwelcomecard.com"
           },
           {
             "titulo": "Jardines Imperiales",
             "descripcion": "Paseo por los jardines frente al Bosforo y la Torre del Reloj.",
             "proveedor": "GetYourGuide Istanbul",
             "contacto": "getyourguide.com/istanbul",
-            "horario": "Libre"
+            "horario": "Libre",
+            "web": "getyourguide.com/istanbul"
           },
           {
             "titulo": "Estancias de Ataturk",
             "descripcion": "Visita a la parte del palacio vinculada a la historia moderna.",
             "proveedor": "Civitatis Estambul",
             "contacto": "civitatis.com/estambul",
-            "horario": "Diario"
+            "horario": "Diario",
+            "web": "civitatis.com/estambul"
           },
           {
             "titulo": "Ruta de Pintura y Arte",
             "descripcion": "Exploracion de las colecciones de arte europeo y otomano.",
             "proveedor": "Tiqets Istanbul",
             "contacto": "tiqets.com/istanbul",
-            "horario": "Diario"
+            "horario": "Diario",
+            "web": "tiqets.com/istanbul"
           },
           {
             "titulo": "Arquitectura del Siglo XIX",
             "descripcion": "Contexto sobre la transicion del estilo otomano al europeo.",
             "proveedor": "Withlocals Istanbul",
             "contacto": "withlocals.com/istanbul",
-            "horario": "Privado"
+            "horario": "Privado",
+            "web": "withlocals.com/istanbul"
           },
           {
             "titulo": "Fotografia de Puertas Imperiales",
             "descripcion": "Captura de la majestuosidad de las entradas al palacio.",
             "proveedor": "Turkish Heritage",
             "contacto": "turkishheritagetravel.com",
-            "horario": "Libre"
+            "horario": "Libre",
+            "web": "turkishheritagetravel.com"
           }
-        ]
+        ],
+        "web": "https://www.millisaraylar.gov.tr/en/palaces/dolmabahce-palace"
       }
     ]
   },
@@ -10178,7 +10486,8 @@
             "contacto": "foto@amsterdamwalk.local",
             "horario": "Ultima hora de apertura"
           }
-        ]
+        ],
+        "web": "https://www.annefrank.org"
       },
       {
         "id": 2,
@@ -10241,7 +10550,8 @@
             "contacto": "foto@amsterdamwalk.local",
             "horario": "Ultima hora de apertura"
           }
-        ]
+        ],
+        "web": "https://www.rijksmuseum.nl"
       },
       {
         "id": 3,
@@ -10304,7 +10614,8 @@
             "contacto": "foto@amsterdamwalk.local",
             "horario": "Ultima hora de apertura"
           }
-        ]
+        ],
+        "web": "https://www.vangoghmuseum.nl"
       },
       {
         "id": 4,
@@ -10367,7 +10678,8 @@
             "contacto": "slow@amsterdam.local",
             "horario": "16:30 - 18:00"
           }
-        ]
+        ],
+        "web": "https://www.iamsterdam.com/en/whats-on/calendar/nature-and-active/parks-and-beaches/vondelpark"
       },
       {
         "id": 5,
@@ -10430,7 +10742,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.iamsterdam.com/en/see-and-do/things-to-do/canals"
       },
       {
         "id": 6,
@@ -10493,7 +10806,8 @@
             "contacto": "noche@amsterdam.local",
             "horario": "20:00 - 22:00"
           }
-        ]
+        ],
+        "web": "https://www.iamsterdam.com/en/explore/neighbourhoods/jordaan"
       },
       {
         "id": 7,
@@ -10556,7 +10870,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://albertcuyp-markt.amsterdam"
       },
       {
         "id": 8,
@@ -10619,7 +10934,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.iamsterdam.com/en/see-and-do/shopping/markets/bloemenmarkt"
       },
       {
         "id": 9,
@@ -10682,7 +10998,8 @@
             "contacto": "noche@amsterdam.local",
             "horario": "20:00 - 22:00"
           }
-        ]
+        ],
+        "web": "https://www.ndsm.nl"
       }
     ]
   },
@@ -10762,7 +11079,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://etickets.tap.gr/webengines/tap_b2c/english/tap.exe?PM=P1N"
       },
       {
         "id": 2,
@@ -10825,7 +11143,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://odysseus.culture.gr/h/3/eh351.jsp?obj_id=2384"
       },
       {
         "id": 3,
@@ -10888,7 +11207,8 @@
             "contacto": "noche@atenas.local",
             "horario": "20:00 - 22:00"
           }
-        ]
+        ],
+        "web": "https://www.thisisathens.org/neighbourhoods/plaka"
       },
       {
         "id": 4,
@@ -10951,7 +11271,8 @@
             "contacto": "foto@atenaswalk.local",
             "horario": "Ultima hora de apertura"
           }
-        ]
+        ],
+        "web": "https://www.theacropolismuseum.gr"
       },
       {
         "id": 5,
@@ -11014,7 +11335,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://odysseus.culture.gr/h/3/eh351.jsp?obj_id=2485"
       },
       {
         "id": 6,
@@ -11077,7 +11399,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.thisisathens.org/explore/venues/lycabettus-hill"
       },
       {
         "id": 7,
@@ -11140,7 +11463,8 @@
             "contacto": "noche@atenas.local",
             "horario": "20:00 - 22:00"
           }
-        ]
+        ],
+        "web": "https://www.thisisathens.org/neighbourhoods/monastiraki"
       },
       {
         "id": 8,
@@ -11203,7 +11527,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.panathenaicstadium.gr"
       },
       {
         "id": 9,
@@ -11266,7 +11591,8 @@
             "contacto": "noche@atenas.local",
             "horario": "20:00 - 22:00"
           }
-        ]
+        ],
+        "web": "https://www.thisisathens.org/neighbourhoods/anafiotika"
       }
     ]
   },
@@ -11346,7 +11672,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.visitberlin.de/en/brandenburg-gate"
       },
       {
         "id": 2,
@@ -11409,7 +11736,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.visitberlin.de/en/east-side-gallery"
       },
       {
         "id": 3,
@@ -11472,7 +11800,8 @@
             "contacto": "foto@berlinwalk.local",
             "horario": "Ultima hora de apertura"
           }
-        ]
+        ],
+        "web": "https://www.museumsinsel-berlin.de/en"
       },
       {
         "id": 4,
@@ -11535,7 +11864,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.bundestag.de/en/visittheBundestag"
       },
       {
         "id": 5,
@@ -11598,7 +11928,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.visitberlin.de/en/checkpoint-charlie"
       },
       {
         "id": 6,
@@ -11661,7 +11992,8 @@
             "contacto": "slow@berlin.local",
             "horario": "16:30 - 18:00"
           }
-        ]
+        ],
+        "web": "https://www.visitberlin.de/en/tiergarten"
       },
       {
         "id": 7,
@@ -11724,7 +12056,8 @@
             "contacto": "noche@berlin.local",
             "horario": "20:00 - 22:00"
           }
-        ]
+        ],
+        "web": "https://www.visitberlin.de/en/alexanderplatz"
       },
       {
         "id": 8,
@@ -11787,7 +12120,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.stiftung-denkmal.de/en/memorials/memorial-to-the-murdered-jews-of-europe"
       },
       {
         "id": 9,
@@ -11850,7 +12184,8 @@
             "contacto": "noche@berlin.local",
             "horario": "20:00 - 22:00"
           }
-        ]
+        ],
+        "web": "https://www.visitberlin.de/en/kreuzberg"
       }
     ]
   },
@@ -11930,7 +12265,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.patrimoniocultural.gov.pt/pt/museus-e-monumentos/dgpc/m/torre-de-belem"
       },
       {
         "id": 2,
@@ -11993,7 +12329,8 @@
             "contacto": "noche@lisboa.local",
             "horario": "20:00 - 22:00"
           }
-        ]
+        ],
+        "web": "https://www.visitlisboa.com/en/places/alfama"
       },
       {
         "id": 3,
@@ -12056,7 +12393,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.patrimoniocultural.gov.pt/pt/museus-e-monumentos/dgpc/m/mosteiro-dos-jeronimos"
       },
       {
         "id": 4,
@@ -12119,7 +12457,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.visitlisboa.com/en/places/miradouro-de-santa-luzia"
       },
       {
         "id": 5,
@@ -12182,7 +12521,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.carris.pt/en/travel/elevators-and-funiculars/santa-justa-lift"
       },
       {
         "id": 6,
@@ -12245,7 +12585,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://lxfactory.com"
       },
       {
         "id": 7,
@@ -12308,7 +12649,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.timeoutmarket.com/lisboa"
       },
       {
         "id": 8,
@@ -12371,7 +12713,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.museudoazulejo.gov.pt"
       },
       {
         "id": 9,
@@ -12434,7 +12777,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.visitlisboa.com/en/places/parque-eduardo-vii"
       }
     ]
   },
@@ -12514,7 +12858,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.prague.eu/en/object/places/93/charles-bridge-karluv-most"
       },
       {
         "id": 2,
@@ -12577,7 +12922,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.hrad.cz/en/prague-castle-for-visitors"
       },
       {
         "id": 3,
@@ -12640,7 +12986,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.prague.eu/en/object/places/183/old-town-square-staromestske-namesti"
       },
       {
         "id": 4,
@@ -12703,7 +13050,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.prague.eu/en/object/places/312/old-town-hall-with-astronomical-clock"
       },
       {
         "id": 5,
@@ -12766,7 +13114,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.katedralasvatehovita.cz/en"
       },
       {
         "id": 6,
@@ -12829,7 +13178,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.prague.eu/en/object/places/498/lesser-town-mala-strana"
       },
       {
         "id": 7,
@@ -12892,7 +13242,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.jewishmuseum.cz/en"
       },
       {
         "id": 8,
@@ -12955,7 +13306,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.tancici-dum.cz/en"
       },
       {
         "id": 9,
@@ -13018,7 +13370,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.prague.eu/en/object/places/407/letna-park"
       }
     ]
   },
@@ -13098,7 +13451,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.veneziaunica.it/en/content/st-marks-square"
       },
       {
         "id": 2,
@@ -13161,7 +13515,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.veneziaunica.it/en/content/rialto-bridge"
       },
       {
         "id": 3,
@@ -13224,7 +13579,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.basilicasanmarco.it"
       },
       {
         "id": 4,
@@ -13287,7 +13643,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://palazzoducale.visitmuve.it"
       },
       {
         "id": 5,
@@ -13350,7 +13707,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.veneziaunica.it/en/content/grand-canal"
       },
       {
         "id": 6,
@@ -13413,7 +13771,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.gallerieaccademia.it"
       },
       {
         "id": 7,
@@ -13476,7 +13835,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.veneziaunica.it/en/content/dorsoduro"
       },
       {
         "id": 8,
@@ -13539,7 +13899,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.veneziaunica.it/en/content/rialto-market"
       },
       {
         "id": 9,
@@ -13602,7 +13963,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.veneziaunica.it/en/content/burano"
       }
     ]
   },
@@ -13682,7 +14044,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.schoenbrunn.at/en"
       },
       {
         "id": 2,
@@ -13745,7 +14108,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.stephanskirche.at"
       },
       {
         "id": 3,
@@ -13808,7 +14172,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.belvedere.at/en"
       },
       {
         "id": 4,
@@ -13871,7 +14236,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.wiener-staatsoper.at/en"
       },
       {
         "id": 5,
@@ -13934,7 +14300,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.hofburg-wien.at/en"
       },
       {
         "id": 6,
@@ -13997,7 +14364,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.mqw.at/en"
       },
       {
         "id": 7,
@@ -14060,7 +14428,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.wien.info/en/shopping-wining-dining/markets/naschmarkt-352672"
       },
       {
         "id": 8,
@@ -14123,7 +14492,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.praterwien.com/en"
       },
       {
         "id": 9,
@@ -14186,7 +14556,8 @@
             "contacto": "audio@travel.local",
             "horario": "Durante apertura"
           }
-        ]
+        ],
+        "web": "https://www.cafecentral.wien/en"
       }
     ]
   }

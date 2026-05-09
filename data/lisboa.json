@@ -74,7 +74,8 @@
           "contacto": "audio@travel.local",
           "horario": "Durante apertura"
         }
-      ]
+      ],
+      "web": "https://www.patrimoniocultural.gov.pt/pt/museus-e-monumentos/dgpc/m/torre-de-belem"
     },
     {
       "id": 2,
@@ -137,7 +138,8 @@
           "contacto": "noche@lisboa.local",
           "horario": "20:00 - 22:00"
         }
-      ]
+      ],
+      "web": "https://www.visitlisboa.com/en/places/alfama"
     },
     {
       "id": 3,
@@ -200,7 +202,8 @@
           "contacto": "audio@travel.local",
           "horario": "Durante apertura"
         }
-      ]
+      ],
+      "web": "https://www.patrimoniocultural.gov.pt/pt/museus-e-monumentos/dgpc/m/mosteiro-dos-jeronimos"
     },
     {
       "id": 4,
@@ -263,7 +266,8 @@
           "contacto": "audio@travel.local",
           "horario": "Durante apertura"
         }
-      ]
+      ],
+      "web": "https://www.visitlisboa.com/en/places/miradouro-de-santa-luzia"
     },
     {
       "id": 5,
@@ -326,7 +330,8 @@
           "contacto": "audio@travel.local",
           "horario": "Durante apertura"
         }
-      ]
+      ],
+      "web": "https://www.carris.pt/en/travel/elevators-and-funiculars/santa-justa-lift"
     },
     {
       "id": 6,
@@ -389,7 +394,8 @@
           "contacto": "audio@travel.local",
           "horario": "Durante apertura"
         }
-      ]
+      ],
+      "web": "https://lxfactory.com"
     },
     {
       "id": 7,
@@ -452,7 +458,8 @@
           "contacto": "audio@travel.local",
           "horario": "Durante apertura"
         }
-      ]
+      ],
+      "web": "https://www.timeoutmarket.com/lisboa"
     },
     {
       "id": 8,
@@ -515,7 +522,8 @@
           "contacto": "audio@travel.local",
           "horario": "Durante apertura"
         }
-      ]
+      ],
+      "web": "https://www.museudoazulejo.gov.pt"
     },
     {
       "id": 9,
@@ -578,7 +586,8 @@
           "contacto": "audio@travel.local",
           "horario": "Durante apertura"
         }
-      ]
+      ],
+      "web": "https://www.visitlisboa.com/en/places/parque-eduardo-vii"
     }
   ]
 }

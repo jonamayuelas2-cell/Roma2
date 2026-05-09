@@ -74,7 +74,8 @@
           "contacto": "audio@travel.local",
           "horario": "Durante apertura"
         }
-      ]
+      ],
+      "web": "https://www.prague.eu/en/object/places/93/charles-bridge-karluv-most"
     },
     {
       "id": 2,
@@ -137,7 +138,8 @@
           "contacto": "audio@travel.local",
           "horario": "Durante apertura"
         }
-      ]
+      ],
+      "web": "https://www.hrad.cz/en/prague-castle-for-visitors"
     },
     {
       "id": 3,
@@ -200,7 +202,8 @@
           "contacto": "audio@travel.local",
           "horario": "Durante apertura"
         }
-      ]
+      ],
+      "web": "https://www.prague.eu/en/object/places/183/old-town-square-staromestske-namesti"
     },
     {
       "id": 4,
@@ -263,7 +266,8 @@
           "contacto": "audio@travel.local",
           "horario": "Durante apertura"
         }
-      ]
+      ],
+      "web": "https://www.prague.eu/en/object/places/312/old-town-hall-with-astronomical-clock"
     },
     {
       "id": 5,
@@ -326,7 +330,8 @@
           "contacto": "audio@travel.local",
           "horario": "Durante apertura"
         }
-      ]
+      ],
+      "web": "https://www.katedralasvatehovita.cz/en"
     },
     {
       "id": 6,
@@ -389,7 +394,8 @@
           "contacto": "audio@travel.local",
           "horario": "Durante apertura"
         }
-      ]
+      ],
+      "web": "https://www.prague.eu/en/object/places/498/lesser-town-mala-strana"
     },
     {
       "id": 7,
@@ -452,7 +458,8 @@
           "contacto": "audio@travel.local",
           "horario": "Durante apertura"
         }
-      ]
+      ],
+      "web": "https://www.jewishmuseum.cz/en"
     },
     {
       "id": 8,
@@ -515,7 +522,8 @@
           "contacto": "audio@travel.local",
           "horario": "Durante apertura"
         }
-      ]
+      ],
+      "web": "https://www.tancici-dum.cz/en"
     },
     {
       "id": 9,
@@ -578,7 +586,8 @@
           "contacto": "audio@travel.local",
           "horario": "Durante apertura"
         }
-      ]
+      ],
+      "web": "https://www.prague.eu/en/object/places/407/letna-park"
     }
   ]
 }

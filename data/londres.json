@@ -74,7 +74,8 @@
           "contacto": "audio@travel.local",
           "horario": "Durante apertura"
         }
-      ]
+      ],
+      "web": "https://www.parliament.uk/visiting/visiting-and-tours/big-ben-tour"
     },
     {
       "id": 2,
@@ -137,7 +138,8 @@
           "contacto": "foto@londreswalk.local",
           "horario": "Ultima hora de apertura"
         }
-      ]
+      ],
+      "web": "https://www.britishmuseum.org"
     },
     {
       "id": 3,
@@ -200,7 +202,8 @@
           "contacto": "audio@travel.local",
           "horario": "Durante apertura"
         }
-      ]
+      ],
+      "web": "https://www.londoneye.com"
     },
     {
       "id": 4,
@@ -263,7 +266,8 @@
           "contacto": "audio@travel.local",
           "horario": "Durante apertura"
         }
-      ]
+      ],
+      "web": "https://www.camdenmarket.com"
     },
     {
       "id": 5,
@@ -326,7 +330,8 @@
           "contacto": "slow@londres.local",
           "horario": "16:30 - 18:00"
         }
-      ]
+      ],
+      "web": "https://www.royalparks.org.uk/visit/parks/hyde-park"
     },
     {
       "id": 6,
@@ -389,7 +394,8 @@
           "contacto": "audio@travel.local",
           "horario": "Durante apertura"
         }
-      ]
+      ],
+      "web": "https://www.towerbridge.org.uk"
     },
     {
       "id": 7,
@@ -452,7 +458,8 @@
           "contacto": "audio@travel.local",
           "horario": "Durante apertura"
         }
-      ]
+      ],
+      "web": "https://www.rct.uk/visit/buckingham-palace"
     },
     {
       "id": 8,
@@ -515,7 +522,8 @@
           "contacto": "audio@travel.local",
           "horario": "Durante apertura"
         }
-      ]
+      ],
+      "web": "https://www.the-shard.com"
     },
     {
       "id": 9,
@@ -578,7 +586,8 @@
           "contacto": "noche@londres.local",
           "horario": "20:00 - 22:00"
         }
-      ]
+      ],
+      "web": "https://www.coventgarden.london"
     }
   ]
 }

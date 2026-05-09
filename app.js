@@ -92,6 +92,14 @@ function renderContactValue(value) {
     return `<a class="external-contact-link" href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(text)}</a>`;
 }
 
+function renderWebValue(value) {
+    const text = String(value || '').trim();
+    const url = getWebsiteUrl(text);
+    if (!url) return '';
+
+    return `<a class="external-contact-link" href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(text)}</a>`;
+}
+
 document.addEventListener('DOMContentLoaded', () => {
     console.log('🚀 Iniciando TravelWorld PWA...');
     Promise.all([loadCities(), loadCruises()]).then(() => {
@@ -1481,6 +1489,7 @@ function getPlaceActivities(place) {
             image: act.imagen || act.image || place.imagenCard || place.imagen || getActivityImage(cityId, place, index),
             provider: act.proveedor || act.provider,
             contact: act.contacto || act.contact,
+            web: act.web || act.website || act.url || (getWebsiteUrl(act.contacto || act.contact) ? (act.contacto || act.contact) : ''),
             schedule: act.horario || act.schedule
         }));
     }
@@ -1493,6 +1502,7 @@ function getPlaceActivities(place) {
             image: getActivityImage(cityId, place, index),
             provider: providers[index].name,
             contact: providers[index].contact,
+            web: getWebsiteUrl(providers[index].contact) ? providers[index].contact : '',
             schedule: providers[index].schedule
         }));
     } else if (cityId === 'estambul') {
@@ -1503,6 +1513,7 @@ function getPlaceActivities(place) {
             image: getActivityImage(cityId, place, index),
             provider: providers[index].name,
             contact: providers[index].contact,
+            web: getWebsiteUrl(providers[index].contact) ? providers[index].contact : '',
             schedule: providers[index].schedule
         }));
     }
@@ -1541,7 +1552,8 @@ function renderPlaceActivities(place) {
                 <p>${activity.description}</p>
                 <dl>
                     <div><dt>Empresa</dt><dd>${activity.provider}</dd></div>
-                    <div><dt>Contacto</dt><dd>${renderContactValue(activity.contact)}</dd></div>
+                    ${!getWebsiteUrl(activity.contact) ? `<div><dt>Contacto</dt><dd>${renderContactValue(activity.contact)}</dd></div>` : ''}
+                    ${activity.web ? `<div><dt>Web</dt><dd>${renderWebValue(activity.web)}</dd></div>` : ''}
                     <div><dt>Horario</dt><dd>${activity.schedule}</dd></div>
                 </dl>
             </div>
@@ -1560,7 +1572,10 @@ function showPlaceDetails(place) {
     document.getElementById('modal-place-price').textContent = `Precio: ${place.precio || 'Consultar'}`;
     document.getElementById('modal-place-hours').textContent = `Horario: ${place.horario || 'Consultar'}`;
     document.getElementById('modal-place-rating').textContent = `Valoracion: ${place.rating || '4.7'} / 5`;
-    document.getElementById('modal-place-contact').innerHTML = `Web: ${renderContactValue(place.web)}`;
+    const placeWeb = renderWebValue(place.web);
+    const placeContact = document.getElementById('modal-place-contact');
+    placeContact.hidden = !placeWeb;
+    placeContact.innerHTML = placeWeb ? `Web: ${placeWeb}` : '';
     renderPlaceActivities(place);
     document.getElementById('modal-place-tags').innerHTML = (place.tags || [])
         .map(tag => `<span>${tag}</span>`)

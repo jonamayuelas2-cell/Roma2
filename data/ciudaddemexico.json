@@ -60,7 +60,8 @@
         "contacto": "audio@travel.local",
         "horario": "Durante apertura"
       }
-    ]
+    ],
+    "web": "https://mexicocity.cdmx.gob.mx/venues/zocalo"
   },
   {
     "id": 2,
@@ -123,7 +124,8 @@
         "contacto": "foto@ciudaddemexicowalk.local",
         "horario": "Ultima hora de apertura"
       }
-    ]
+    ],
+    "web": "https://www.mna.inah.gob.mx"
   },
   {
     "id": 3,
@@ -186,7 +188,8 @@
         "contacto": "slow@ciudaddemexico.local",
         "horario": "16:30 - 18:00"
       }
-    ]
+    ],
+    "web": "https://chapultepec.org.mx"
   },
   {
     "id": 4,
@@ -249,7 +252,8 @@
         "contacto": "foto@ciudaddemexicowalk.local",
         "horario": "Ultima hora de apertura"
       }
-    ]
+    ],
+    "web": "https://www.museofridakahlo.org.mx"
   },
   {
     "id": 5,
@@ -312,7 +316,8 @@
         "contacto": "noche@ciudaddemexico.local",
         "horario": "20:00 - 22:00"
       }
-    ]
+    ],
+    "web": "https://mexicocity.cdmx.gob.mx/venues/xochimilco"
   },
   {
     "id": 6,
@@ -375,7 +380,8 @@
         "contacto": "foto@ciudaddemexicowalk.local",
         "horario": "Ultima hora de apertura"
       }
-    ]
+    ],
+    "web": "https://www.templomayor.inah.gob.mx"
   },
   {
     "id": 7,
@@ -438,7 +444,8 @@
         "contacto": "noche@ciudaddemexico.local",
         "horario": "20:00 - 22:00"
       }
-    ]
+    ],
+    "web": "https://mexicocity.cdmx.gob.mx/neighborhoods/roma-condesa"
   },
   {
     "id": 8,
@@ -501,7 +508,8 @@
         "contacto": "audio@travel.local",
         "horario": "Durante apertura"
       }
-    ]
+    ],
+    "web": "https://mexicocity.cdmx.gob.mx/venues/mercado-de-coyoacan"
   },
   {
     "id": 9,
@@ -564,6 +572,7 @@
         "contacto": "talleres@ciudaddemexico.local",
         "horario": "Consultar calendario"
       }
-    ]
+    ],
+    "web": "https://pujol.com.mx"
   }
 ]

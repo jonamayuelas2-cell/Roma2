@@ -60,7 +60,8 @@
         "contacto": "audio@travel.local",
         "horario": "Durante apertura"
       }
-    ]
+    ],
+    "web": "https://egymonuments.gov.eg/archaeological-sites/giza-plateau"
   },
   {
     "id": 2,
@@ -123,7 +124,8 @@
         "contacto": "foto@elcairowalk.local",
         "horario": "Ultima hora de apertura"
       }
-    ]
+    ],
+    "web": "https://grandegyptianmuseum.org"
   },
   {
     "id": 3,
@@ -186,7 +188,8 @@
         "contacto": "foto@elcairowalk.local",
         "horario": "Ultima hora de apertura"
       }
-    ]
+    ],
+    "web": "https://egyptianmuseumcairo.eg"
   },
   {
     "id": 4,
@@ -249,7 +252,8 @@
         "contacto": "audio@travel.local",
         "horario": "Durante apertura"
       }
-    ]
+    ],
+    "web": "https://egymonuments.gov.eg/archaeological-sites/salah-el-din-citadel"
   },
   {
     "id": 5,
@@ -312,7 +316,8 @@
         "contacto": "audio@travel.local",
         "horario": "Durante apertura"
       }
-    ]
+    ],
+    "web": "https://egymonuments.gov.eg/archaeological-sites/khan-el-khalili"
   },
   {
     "id": 6,
@@ -375,7 +380,8 @@
         "contacto": "noche@elcairo.local",
         "horario": "20:00 - 22:00"
       }
-    ]
+    ],
+    "web": "https://egymonuments.gov.eg/archaeological-sites/coptic-cairo"
   },
   {
     "id": 7,
@@ -438,7 +444,8 @@
         "contacto": "slow@elcairo.local",
         "horario": "16:30 - 18:00"
       }
-    ]
+    ],
+    "web": "https://www.azharpark.com"
   },
   {
     "id": 8,
@@ -501,7 +508,8 @@
         "contacto": "audio@travel.local",
         "horario": "Durante apertura"
       }
-    ]
+    ],
+    "web": "https://egymonuments.gov.eg/monuments/mosque-of-ibn-tulun"
   },
   {
     "id": 9,
@@ -564,6 +572,7 @@
         "contacto": "audio@travel.local",
         "horario": "Durante apertura"
       }
-    ]
+    ],
+    "web": "https://www.naguibmahfouzcafe.com"
   }
 ]

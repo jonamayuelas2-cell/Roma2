@@ -74,7 +74,8 @@
           "contacto": "audio@travel.local",
           "horario": "Durante apertura"
         }
-      ]
+      ],
+      "web": "https://www.veneziaunica.it/en/content/st-marks-square"
     },
     {
       "id": 2,
@@ -137,7 +138,8 @@
           "contacto": "audio@travel.local",
           "horario": "Durante apertura"
         }
-      ]
+      ],
+      "web": "https://www.veneziaunica.it/en/content/rialto-bridge"
     },
     {
       "id": 3,
@@ -200,7 +202,8 @@
           "contacto": "audio@travel.local",
           "horario": "Durante apertura"
         }
-      ]
+      ],
+      "web": "https://www.basilicasanmarco.it"
     },
     {
       "id": 4,
@@ -263,7 +266,8 @@
           "contacto": "audio@travel.local",
           "horario": "Durante apertura"
         }
-      ]
+      ],
+      "web": "https://palazzoducale.visitmuve.it"
     },
     {
       "id": 5,
@@ -326,7 +330,8 @@
           "contacto": "audio@travel.local",
           "horario": "Durante apertura"
         }
-      ]
+      ],
+      "web": "https://www.veneziaunica.it/en/content/grand-canal"
     },
     {
       "id": 6,
@@ -389,7 +394,8 @@
           "contacto": "audio@travel.local",
           "horario": "Durante apertura"
         }
-      ]
+      ],
+      "web": "https://www.gallerieaccademia.it"
     },
     {
       "id": 7,
@@ -452,7 +458,8 @@
           "contacto": "audio@travel.local",
           "horario": "Durante apertura"
         }
-      ]
+      ],
+      "web": "https://www.veneziaunica.it/en/content/dorsoduro"
     },
     {
       "id": 8,
@@ -515,7 +522,8 @@
           "contacto": "audio@travel.local",
           "horario": "Durante apertura"
         }
-      ]
+      ],
+      "web": "https://www.veneziaunica.it/en/content/rialto-market"
     },
     {
       "id": 9,
@@ -578,7 +586,8 @@
           "contacto": "audio@travel.local",
           "horario": "Durante apertura"
         }
-      ]
+      ],
+      "web": "https://www.veneziaunica.it/en/content/burano"
     }
   ]
 }

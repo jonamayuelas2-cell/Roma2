@@ -60,7 +60,8 @@
         "contacto": "audio@travel.local",
         "horario": "Durante apertura"
       }
-    ]
+    ],
+    "web": "https://www.sydneyoperahouse.com"
   },
   {
     "id": 2,
@@ -123,7 +124,8 @@
         "contacto": "audio@travel.local",
         "horario": "Durante apertura"
       }
-    ]
+    ],
+    "web": "https://www.bridgeclimb.com"
   },
   {
     "id": 3,
@@ -186,7 +188,8 @@
         "contacto": "slow@sidney.local",
         "horario": "16:30 - 18:00"
       }
-    ]
+    ],
+    "web": "https://www.sydney.com/destinations/sydney/sydney-east/bondi/attractions/bondi-beach"
   },
   {
     "id": 4,
@@ -249,7 +252,8 @@
         "contacto": "noche@sidney.local",
         "horario": "20:00 - 22:00"
       }
-    ]
+    ],
+    "web": "https://www.therocks.com"
   },
   {
     "id": 5,
@@ -312,7 +316,8 @@
         "contacto": "slow@sidney.local",
         "horario": "16:30 - 18:00"
       }
-    ]
+    ],
+    "web": "https://www.botanicgardens.org.au/royal-botanic-garden-sydney"
   },
   {
     "id": 6,
@@ -375,7 +380,8 @@
         "contacto": "foto@sidneywalk.local",
         "horario": "Ultima hora de apertura"
       }
-    ]
+    ],
+    "web": "https://www.artgallery.nsw.gov.au"
   },
   {
     "id": 7,
@@ -438,7 +444,8 @@
         "contacto": "noche@sidney.local",
         "horario": "20:00 - 22:00"
       }
-    ]
+    ],
+    "web": "https://www.darlingharbour.com"
   },
   {
     "id": 8,
@@ -501,7 +508,8 @@
         "contacto": "audio@travel.local",
         "horario": "Durante apertura"
       }
-    ]
+    ],
+    "web": "https://www.sydneyfishmarket.com.au"
   },
   {
     "id": 9,
@@ -564,6 +572,7 @@
         "contacto": "audio@travel.local",
         "horario": "Durante apertura"
       }
-    ]
+    ],
+    "web": "https://transportnsw.info/routes/details/sydney-ferries/f1/090F1"
   }
 ]

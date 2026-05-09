@@ -74,7 +74,8 @@
           "contacto": "foto@bangkokwalk.local",
           "horario": "Ultima hora de apertura"
         }
-      ]
+      ],
+      "web": "https://www.royalgrandpalace.th/en/home"
     },
     {
       "id": 2,
@@ -137,7 +138,8 @@
           "contacto": "foto@bangkokwalk.local",
           "horario": "Ultima hora de apertura"
         }
-      ]
+      ],
+      "web": "https://www.watpho.com/en"
     },
     {
       "id": 3,
@@ -200,7 +202,8 @@
           "contacto": "audio@travel.local",
           "horario": "Durante apertura"
         }
-      ]
+      ],
+      "web": "https://www.watarun1.com/en"
     },
     {
       "id": 4,
@@ -263,7 +266,8 @@
           "contacto": "audio@travel.local",
           "horario": "Durante apertura"
         }
-      ]
+      ],
+      "web": "https://www.chatuchakmarket.org"
     },
     {
       "id": 5,
@@ -326,7 +330,8 @@
           "contacto": "foto@bangkokwalk.local",
           "horario": "Ultima hora de apertura"
         }
-      ]
+      ],
+      "web": "https://jimthompsonhouse.org"
     },
     {
       "id": 6,
@@ -389,7 +394,8 @@
           "contacto": "noche@bangkok.local",
           "horario": "20:00 - 22:00"
         }
-      ]
+      ],
+      "web": "https://www.tourismthailand.org/Attraction/yaowarat-road"
     },
     {
       "id": 7,
@@ -452,7 +458,8 @@
           "contacto": "slow@bangkok.local",
           "horario": "16:30 - 18:00"
         }
-      ]
+      ],
+      "web": "https://www.bangkok.go.th/publicpark"
     },
     {
       "id": 8,
@@ -515,7 +522,8 @@
           "contacto": "audio@travel.local",
           "horario": "Durante apertura"
         }
-      ]
+      ],
+      "web": "https://www.tourismthailand.org/Attraction/khlong-lat-mayom-floating-market"
     },
     {
       "id": 9,
@@ -578,7 +586,8 @@
           "contacto": "talleres@bangkok.local",
           "horario": "Consultar calendario"
         }
-      ]
+      ],
+      "web": "https://guide.michelin.com/en/bangkok-region/bangkok/restaurant/jay-fai"
     }
   ]
 }

@@ -74,7 +74,8 @@
           "contacto": "audio@travel.local",
           "horario": "Durante apertura"
         }
-      ]
+      ],
+      "web": "https://etickets.tap.gr/webengines/tap_b2c/english/tap.exe?PM=P1N"
     },
     {
       "id": 2,
@@ -137,7 +138,8 @@
           "contacto": "audio@travel.local",
           "horario": "Durante apertura"
         }
-      ]
+      ],
+      "web": "https://odysseus.culture.gr/h/3/eh351.jsp?obj_id=2384"
     },
     {
       "id": 3,
@@ -200,7 +202,8 @@
           "contacto": "noche@atenas.local",
           "horario": "20:00 - 22:00"
         }
-      ]
+      ],
+      "web": "https://www.thisisathens.org/neighbourhoods/plaka"
     },
     {
       "id": 4,
@@ -263,7 +266,8 @@
           "contacto": "foto@atenaswalk.local",
           "horario": "Ultima hora de apertura"
         }
-      ]
+      ],
+      "web": "https://www.theacropolismuseum.gr"
     },
     {
       "id": 5,
@@ -326,7 +330,8 @@
           "contacto": "audio@travel.local",
           "horario": "Durante apertura"
         }
-      ]
+      ],
+      "web": "https://odysseus.culture.gr/h/3/eh351.jsp?obj_id=2485"
     },
     {
       "id": 6,
@@ -389,7 +394,8 @@
           "contacto": "audio@travel.local",
           "horario": "Durante apertura"
         }
-      ]
+      ],
+      "web": "https://www.thisisathens.org/explore/venues/lycabettus-hill"
     },
     {
       "id": 7,
@@ -452,7 +458,8 @@
           "contacto": "noche@atenas.local",
           "horario": "20:00 - 22:00"
         }
-      ]
+      ],
+      "web": "https://www.thisisathens.org/neighbourhoods/monastiraki"
     },
     {
       "id": 8,
@@ -515,7 +522,8 @@
           "contacto": "audio@travel.local",
           "horario": "Durante apertura"
         }
-      ]
+      ],
+      "web": "https://www.panathenaicstadium.gr"
     },
     {
       "id": 9,
@@ -578,7 +586,8 @@
           "contacto": "noche@atenas.local",
           "horario": "20:00 - 22:00"
         }
-      ]
+      ],
+      "web": "https://www.thisisathens.org/neighbourhoods/anafiotika"
     }
   ]
 }

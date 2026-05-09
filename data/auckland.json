@@ -80,7 +80,8 @@
           "horario": "Durante apertura",
           "imagen": "img/auckland_activities/skytower_6_audioguiaexpress.png"
         }
-      ]
+      ],
+      "web": "https://skycityauckland.co.nz/sky-tower"
     },
     {
       "id": 2,
@@ -149,7 +150,8 @@
           "horario": "Ultima hora de apertura",
           "imagen": "img/auckland_activities/aucklandwarmemorialmuseum_6_paseofotograficointerior.png"
         }
-      ]
+      ],
+      "web": "https://www.aucklandmuseum.com"
     },
     {
       "id": 3,
@@ -218,7 +220,8 @@
           "horario": "16:30 - 18:00",
           "imagen": "img/auckland_activities/waihekeisland_6_miradoresyrinconestranquilos.png"
         }
-      ]
+      ],
+      "web": "https://www.aucklandnz.com/visit/destinations/islands/waiheke-island"
     },
     {
       "id": 4,
@@ -287,7 +290,8 @@
           "horario": "16:30 - 18:00",
           "imagen": "img/auckland_activities/mounteden_6_miradoresyrinconestranquilos.png"
         }
-      ]
+      ],
+      "web": "https://www.aucklandcouncil.govt.nz/parks-recreation/Pages/park-details.aspx?Location=214"
     },
     {
       "id": 5,
@@ -356,7 +360,8 @@
           "horario": "20:00 - 22:00",
           "imagen": "img/auckland_activities/viaductharbour_6_nochedeambiente.png"
         }
-      ]
+      ],
+      "web": "https://www.viaduct.co.nz"
     },
     {
       "id": 6,
@@ -425,7 +430,8 @@
           "horario": "Ultima hora de apertura",
           "imagen": "img/auckland_activities/aucklandartgallery_6_paseofotograficointerior.png"
         }
-      ]
+      ],
+      "web": "https://www.aucklandartgallery.com"
     },
     {
       "id": 7,
@@ -494,7 +500,8 @@
           "horario": "20:00 - 22:00",
           "imagen": "img/auckland_activities/ponsonby_6_nochedeambiente.png"
         }
-      ]
+      ],
+      "web": "https://www.iloveponsonby.co.nz"
     },
     {
       "id": 8,
@@ -563,7 +570,8 @@
           "horario": "20:00 - 22:00",
           "imagen": "img/auckland_activities/britomart_6_nochedeambiente.png"
         }
-      ]
+      ],
+      "web": "https://britomart.org"
     },
     {
       "id": 9,
@@ -632,7 +640,8 @@
           "horario": "16:30 - 18:00",
           "imagen": "img/auckland_activities/onetreehill_6_miradoresyrinconestranquilos.png"
         }
-      ]
+      ],
+      "web": "https://www.aucklandcouncil.govt.nz/parks-recreation/Pages/park-details.aspx?Location=219"
     }
   ]
 }

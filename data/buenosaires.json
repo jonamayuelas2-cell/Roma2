@@ -80,7 +80,8 @@
           "horario": "Durante apertura",
           "imagen": "img/buenosaires_activities/teatrocolon_6_audioguiaexpress.png"
         }
-      ]
+      ],
+      "web": "https://teatrocolon.org.ar"
     },
     {
       "id": 2,
@@ -149,7 +150,8 @@
           "horario": "20:00 - 22:00",
           "imagen": "img/buenosaires_activities/caminito_6_nochedeambiente.png"
         }
-      ]
+      ],
+      "web": "https://turismo.buenosaires.gob.ar/en/atractivo/caminito"
     },
     {
       "id": 3,
@@ -218,7 +220,8 @@
           "horario": "20:00 - 22:00",
           "imagen": "img/buenosaires_activities/recoleta_6_nochedeambiente.png"
         }
-      ]
+      ],
+      "web": "https://turismo.buenosaires.gob.ar/en/atractivo/recoleta"
     },
     {
       "id": 4,
@@ -287,7 +290,8 @@
           "horario": "Durante apertura",
           "imagen": "img/buenosaires_activities/avenida9dejulio_6_audioguiaexpress.png"
         }
-      ]
+      ],
+      "web": "https://turismo.buenosaires.gob.ar/en/atractivo/avenida-9-de-julio"
     },
     {
       "id": 5,
@@ -356,7 +360,8 @@
           "horario": "20:00 - 22:00",
           "imagen": "img/buenosaires_activities/puertomadero_6_nochedeambiente.png"
         }
-      ]
+      ],
+      "web": "https://turismo.buenosaires.gob.ar/en/atractivo/puerto-madero"
     },
     {
       "id": 6,
@@ -425,7 +430,8 @@
           "horario": "Durante apertura",
           "imagen": "img/buenosaires_activities/elateneograndsplendid_6_audioguiaexpress.png"
         }
-      ]
+      ],
+      "web": "https://www.yenny-elateneo.com"
     },
     {
       "id": 7,
@@ -494,7 +500,8 @@
           "horario": "20:00 - 22:00",
           "imagen": "img/buenosaires_activities/santelmo_6_nochedeambiente.png"
         }
-      ]
+      ],
+      "web": "https://turismo.buenosaires.gob.ar/en/atractivo/san-telmo"
     },
     {
       "id": 8,
@@ -563,7 +570,8 @@
           "horario": "20:00 - 22:00",
           "imagen": "img/buenosaires_activities/palermo_6_nochedeambiente.png"
         }
-      ]
+      ],
+      "web": "https://turismo.buenosaires.gob.ar/en/atractivo/palermo"
     },
     {
       "id": 9,
@@ -632,7 +640,8 @@
           "horario": "Durante apertura",
           "imagen": "img/buenosaires_activities/floralisgenerica_6_audioguiaexpress.png"
         }
-      ]
+      ],
+      "web": "https://turismo.buenosaires.gob.ar/en/atractivo/floralis-generica"
     }
   ]
 }

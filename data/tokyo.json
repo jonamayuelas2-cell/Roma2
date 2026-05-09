@@ -60,7 +60,8 @@
         "contacto": "noche@tokio.local",
         "horario": "20:00 - 22:00"
       }
-    ]
+    ],
+    "web": "https://www.gotokyo.org/en/spot/52/index.html"
   },
   {
     "id": 2,
@@ -123,7 +124,8 @@
         "contacto": "audio@travel.local",
         "horario": "Durante apertura"
       }
-    ]
+    ],
+    "web": "https://www.senso-ji.jp"
   },
   {
     "id": 3,
@@ -186,7 +188,8 @@
         "contacto": "audio@travel.local",
         "horario": "Durante apertura"
       }
-    ]
+    ],
+    "web": "https://www.meijijingu.or.jp/en"
   },
   {
     "id": 4,
@@ -249,7 +252,8 @@
         "contacto": "foto@tokiowalk.local",
         "horario": "Ultima hora de apertura"
       }
-    ]
+    ],
+    "web": "https://www.teamlab.art/e/planets"
   },
   {
     "id": 5,
@@ -312,7 +316,8 @@
         "contacto": "audio@travel.local",
         "horario": "Durante apertura"
       }
-    ]
+    ],
+    "web": "https://www.tsukiji.or.jp/english"
   },
   {
     "id": 6,
@@ -375,7 +380,8 @@
         "contacto": "noche@tokio.local",
         "horario": "20:00 - 22:00"
       }
-    ]
+    ],
+    "web": "https://www.gotokyo.org/en/destinations/central-tokyo/akihabara/index.html"
   },
   {
     "id": 7,
@@ -438,7 +444,8 @@
         "contacto": "slow@tokio.local",
         "horario": "16:30 - 18:00"
       }
-    ]
+    ],
+    "web": "https://www.kensetsu.metro.tokyo.lg.jp/jimusho/toubuk/ueno/en_index.html"
   },
   {
     "id": 8,
@@ -501,7 +508,8 @@
         "contacto": "audio@travel.local",
         "horario": "Durante apertura"
       }
-    ]
+    ],
+    "web": "https://www.tokyo-skytree.jp/en"
   },
   {
     "id": 9,
@@ -564,6 +572,7 @@
         "contacto": "noche@tokio.local",
         "horario": "20:00 - 22:00"
       }
-    ]
+    ],
+    "web": "https://www.gotokyo.org/en/spot/463/index.html"
   }
 ]
