@@ -1,25 +1,34 @@
-# Registro de Cambios - TravelWorld PWA 🌍🚢✨
+# TravelWorld PWA - Registro de Cambios 🛠️
 
-## [2026-05-09] - Integración de Miami y Optimización de Cruceros
+## [2026-05-09] Estabilización de Arquitectura e Integración de Mapas 🌍
 
-### Añadido 🆕
-- **Destino Miami**: Integración completa en `cities.json` con 9 lugares de interés y actividades premium.
-- **Activos 4K**: Generación y vinculación de imágenes de alta resolución para todos los puntos de Miami.
-- **Panel de Cruceros Premium**: Nuevo diseño lateral con glassmorphism, scroll vertical y tarjetas uniformes.
-- **Navegación de Escalas**: Detección inteligente de ciudades con guía disponible (círculo amarillo) en el itinerario de cruceros.
-- **Botón de Retorno**: Implementación de navegación fluida entre el detalle del puerto y el itinerario.
+Se ha realizado una intervención profunda en el núcleo de la aplicación para resolver problemas de corrupción de código y mejorar la experiencia de usuario.
 
-### Corregido 🛠️
-- **Visibilidad del Globo**: Ajuste de CSS para asegurar que el mapamundi ocupe el 100% del contenedor.
-- **Restauración de Países**: Reintegración de la capa de polígonos de fronteras y etiquetas de países en el globo. 🌍✨
-- **Filtros de Continente**: Corrección de la lógica de filtrado en `app.js` para usar la propiedad `continente` correctamente.
-- **Imágenes de Barcos**: Fallback visual para barcos sin foto en la lista de cruceros.
-- **Sintaxis JSON**: Limpieza de `cities.json` tras detectar corrupción en el bloque de Miami.
+### Cambios Principales:
+1.  **Refactorización de `app.js`** 🧹:
+    *   Eliminación de más de 800 líneas de código duplicado o fragmentado.
+    *   Consolidación de las funciones de inicialización y utilidades.
+    *   Corrección de cierres de llaves y errores de sintaxis que impedían la carga del globo.
 
-### Mejoras de UI/UX 🎨
-- **Efecto de Cristal**: Aplicado a todos los paneles laterales para una apariencia premium.
-- **Diseño Responsivo**: El panel de cruceros ahora se adapta a dispositivos móviles como un modal inferior.
-- **Micro-animaciones**: Transiciones suaves al seleccionar cruceros y escalas.
+2.  **Mapa Interactivo de Ciudad** 🗺️:
+    *   Integración de **Leaflet** en la sección `#city-explorer-map`.
+    *   Los 9 lugares recomendados ahora aparecen localizados en un plano oscuro premium (*Dark Matter*).
+    *   Marcadores personalizados con miniaturas circulares de los lugares.
+    *   Funcionalidad de clic en marcador para abrir el detalle del lugar directamente.
+
+3.  **Estabilización del Globo 3D** 🌐:
+    *   Restaurada la lógica de `Globe.gl`.
+    *   Corregida la visualización de fronteras de países mediante la carga correcta de GeoJSON.
+    *   Optimización del sistema de refresco de datos (`triggerRefresh`).
+
+4.  **Mejoras en Navegación** 🛫:
+    *   Gestión correcta del estado `fromCruise` para que el botón de volver funcione dinámicamente.
+    *   Limpieza automática de mapas (`cleanupCityExplorerMap`) para evitar sobrecarga de memoria.
+    *   Transiciones de opacidad suavizadas entre pantallas.
+
+### Próximos Pasos:
+*   Verificar la carga de imágenes premium en todas las ciudades.
+*   Ajustar el zoom inicial del mapa de ciudad según la dispersión de los puntos de interés.
 
 ---
-*Documentación generada automáticamente por Antigravity.*
+*Generado con ❤️ por Antigravity*
