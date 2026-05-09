@@ -530,6 +530,131 @@
         ]
       }
     ]
+  },
+  {
+    "id": "greek-islands",
+    "nombre": "Islas Griegas y Turquía",
+    "region": "Mediterraneo",
+    "imagen": "https://images.unsplash.com/photo-1516483642775-8129de216aae?auto=format&fit=crop&q=80&w=800",
+    "emoji": "🇬🇷",
+    "ruta": [
+      {"lat": 37.9838, "lng": 23.7275, "nombre": "Atenas (Pireo)"},
+      {"lat": 36.4166, "lng": 25.4333, "nombre": "Santorini"},
+      {"lat": 37.4467, "lng": 25.3289, "nombre": "Mykonos"},
+      {"lat": 37.9133, "lng": 27.3420, "nombre": "Kusadasi (Efeso)"},
+      {"lat": 36.4341, "lng": 28.2176, "nombre": "Rodas"},
+      {"lat": 35.3387, "lng": 25.1442, "nombre": "Heraklion"},
+      {"lat": 37.9838, "lng": 23.7275, "nombre": "Atenas (Pireo)"}
+    ],
+    "paradas": [
+      {"id": "stop-ath", "nombre": "Atenas", "pais": "Grecia", "lat": 37.9838, "lng": 23.7275, "imagen": "https://images.unsplash.com/photo-1503152394-c571994fd383?auto=format&fit=crop&q=80&w=800"}
+    ]
+  },
+  {
+    "id": "alaska-glaciers",
+    "nombre": "Glaciares de Alaska",
+    "region": "Alaska",
+    "imagen": "https://images.unsplash.com/photo-1533619043845-df9bc7c32ee5?auto=format&fit=crop&q=80&w=800",
+    "emoji": "❄️",
+    "ruta": [
+      {"lat": 47.6062, "lng": -122.3321, "nombre": "Seattle"},
+      {"lat": 49.2827, "lng": -123.1207, "nombre": "Vancouver"},
+      {"lat": 58.3019, "lng": -134.4197, "nombre": "Juneau"},
+      {"lat": 59.4583, "lng": -135.3139, "nombre": "Skagway"},
+      {"lat": 57.0531, "lng": -135.3300, "nombre": "Sitka"},
+      {"lat": 47.6062, "lng": -122.3321, "nombre": "Seattle"}
+    ],
+    "paradas": [
+      {"id": "stop-sea", "nombre": "Seattle", "pais": "USA", "lat": 47.6062, "lng": -122.3321, "imagen": "https://images.unsplash.com/photo-1502175353174-a7a70e73b362?auto=format&fit=crop&q=80&w=800"}
+    ]
+  },
+  {
+    "id": "south-pacific",
+    "nombre": "Paraíso Polinesio",
+    "region": "Pacifico",
+    "imagen": "https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&fit=crop&q=80&w=800",
+    "emoji": "🌺",
+    "ruta": [
+      {"lat": -17.5516, "lng": -149.5585, "nombre": "Papeete"},
+      {"lat": -16.5004, "lng": -151.7415, "nombre": "Bora Bora"},
+      {"lat": -16.7333, "lng": -151.0333, "nombre": "Huahine"},
+      {"lat": -17.5333, "lng": -149.8333, "nombre": "Moorea"},
+      {"lat": -17.5516, "lng": -149.5585, "nombre": "Papeete"}
+    ],
+    "paradas": [
+      {"id": "stop-pap", "nombre": "Papeete", "pais": "Polinesia Francesa", "lat": -17.5516, "lng": -149.5585, "imagen": "https://images.unsplash.com/photo-1545564344-90f711204a37?auto=format&fit=crop&q=80&w=800"}
+    ]
+  },
+  {
+    "id": "antartic-expedition",
+    "nombre": "Expedición Antártica",
+    "region": "Antartida",
+    "imagen": "https://images.unsplash.com/photo-1533619043845-df9bc7c32ee5?auto=format&fit=crop&q=80&w=800",
+    "emoji": "🐧",
+    "ruta": [
+      {"lat": -54.8019, "lng": -68.3030, "nombre": "Ushuaia"},
+      {"lat": -62.4833, "lng": -59.7500, "nombre": "Isla Decepción"},
+      {"lat": -64.8333, "lng": -63.0166, "nombre": "Puerto Paraíso"},
+      {"lat": -64.7333, "lng": -62.6000, "nombre": "Canal Lemaire"},
+      {"lat": -54.8019, "lng": -68.3030, "nombre": "Ushuaia"}
+    ],
+    "paradas": [
+      {"id": "stop-ush", "nombre": "Ushuaia", "pais": "Argentina", "lat": -54.8019, "lng": -68.3030, "imagen": "https://images.unsplash.com/photo-1533619043845-df9bc7c32ee5?auto=format&fit=crop&q=80&w=800"}
+    ]
+  },
+  {
+    "id": "southeast-asia",
+    "nombre": "Tesoros del Sudeste Asiático",
+    "region": "Asia",
+    "imagen": "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&q=80&w=800",
+    "emoji": "🏮",
+    "ruta": [
+      {"lat": 1.3521, "lng": 103.8198, "nombre": "Singapur"},
+      {"lat": 3.1390, "lng": 101.6869, "nombre": "Kuala Lumpur (Port Klang)"},
+      {"lat": 7.8804, "lng": 98.3923, "nombre": "Phuket"},
+      {"lat": 12.6392, "lng": 100.9416, "nombre": "Laem Chabang (Bangkok)"},
+      {"lat": 10.7626, "lng": 106.6602, "nombre": "Ho Chi Minh"},
+      {"lat": 1.3521, "lng": 103.8198, "nombre": "Singapur"}
+    ],
+    "paradas": [
+      {"id": "stop-sin", "nombre": "Singapur", "pais": "Singapur", "lat": 1.3521, "lng": 103.8198, "imagen": "https://images.unsplash.com/photo-1525596662741-e94ff9f26de1?auto=format&fit=crop&q=80&w=800"}
+    ]
+  },
+  {
+    "id": "south-america-magic",
+    "nombre": "Magia Sudamericana",
+    "region": "Sudamerica",
+    "imagen": "https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?auto=format&fit=crop&q=80&w=800",
+    "emoji": "💃",
+    "ruta": [
+      {"lat": -22.9068, "lng": -43.1729, "nombre": "Río de Janeiro"},
+      {"lat": -23.9608, "lng": -46.3339, "nombre": "Santos (São Paulo)"},
+      {"lat": -27.5954, "lng": -48.5480, "nombre": "Florianópolis"},
+      {"lat": -34.9011, "lng": -56.1645, "nombre": "Montevideo"},
+      {"lat": -34.6037, "lng": -58.3816, "nombre": "Buenos Aires"},
+      {"lat": -22.9068, "lng": -43.1729, "nombre": "Río de Janeiro"}
+    ],
+    "paradas": [
+      {"id": "stop-rio", "nombre": "Río de Janeiro", "pais": "Brasil", "lat": -22.9068, "lng": -43.1729, "imagen": "https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?auto=format&fit=crop&q=80&w=800"}
+    ]
+  },
+  {
+    "id": "dubai-emirates",
+    "nombre": "Lujo en los Emiratos",
+    "region": "Oriente Medio",
+    "imagen": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&q=80&w=800",
+    "emoji": "💎",
+    "ruta": [
+      {"lat": 25.2048, "lng": 55.2708, "nombre": "Dubai"},
+      {"lat": 24.4539, "lng": 54.3773, "nombre": "Abu Dhabi"},
+      {"lat": 25.1147, "lng": 56.3414, "nombre": "Fujairah"},
+      {"lat": 23.5859, "lng": 58.4059, "nombre": "Mascate"},
+      {"lat": 26.2285, "lng": 50.5860, "nombre": "Manama"},
+      {"lat": 25.2048, "lng": 55.2708, "nombre": "Dubai"}
+    ],
+    "paradas": [
+      {"id": "stop-dxb", "nombre": "Dubai", "pais": "EAU", "lat": 25.2048, "lng": 55.2708, "imagen": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&q=80&w=800"}
+    ]
   }
 ]
 

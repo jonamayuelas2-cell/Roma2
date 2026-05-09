@@ -56,3 +56,18 @@
 6.  **Ordenaci贸n y Metadata**: Cruceros ordenados por puntuaci贸n real. A帽adida lista de pa铆ses visitados en cada tarjeta.
 7.  **Rutas Amarillas**: Actualizado el estilo visual de las l铆neas de navegaci贸n a amarillo intenso para mayor contraste y fidelidad a la petici贸n del usuario.
 8.  **Navegaci贸n Unificada**: Implementado bot贸n "Ver Detalle" y l贸gica de salto entre el globo 3D y la vista de itinerario detallado.
+
+### Prompt 10: Optimizaci髇 de Propuestas (10 Obligatorias y Tama駉 Fijo)
+**Usuario:** "en la pantalla principal si he activado alguna zona de cruceros me tienen que aparecer un total de 10 propuestas de crucero, todas ellas con mismo tama駉 y que con scroll pueda subir y bajar para ir viendolas"
+
+**Objetivo:** Garantizar una oferta constante de 10 opciones de crucero con un dise駉 visualmente equilibrado y uniforme.
+
+### Acciones Realizadas (Sesi髇 09 de Mayo):
+1.  **Ampliaci髇 de Datos**: A馻didos 7 nuevos cruceros a `cruises.json` (Islas Griegas, Alaska, Pac韋ico, Ant醨tida, Asia, Sudam閞ica y Emiratos) para completar un cat醠ogo diverso.
+2.  **L骻ica de Relleno (Backfill)**: Modificada la funci髇 `updateCruiseList` en `app.js` para que siempre devuelva 10 elementos. Si la regi髇 seleccionada tiene menos, se completa con los mejores cruceros de otras regiones, marcando los de la regi髇 activa como prioritarios.
+3.  **Normalizaci髇 de Dise駉**: Actualizado `style.css` para asignar una altura fija de `440px` a todas las tarjetas de crucero, asegurando que todas tengan el "mismo tama駉" independientemente de su contenido.
+4.  **Alineaci髇 Flexbox**: Refinado el contenedor interno de las tarjetas para que los elementos (t韙ulo, info, bot髇) se distribuyan de forma equidistante y profesional.
+5.  **Scroll Persistente**: Verificada la funcionalidad de scroll vertical en el panel lateral para permitir la exploraci髇 c髆oda de las 10 propuestas.
+
+---
+*Documentado por Antigravity el 09 de Mayo de 2026*

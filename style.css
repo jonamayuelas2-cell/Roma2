@@ -307,6 +307,9 @@ body {
   overflow: hidden;
   cursor: pointer;
   transition: all 0.3s ease;
+  height: 440px; /* Altura fija para uniformidad */
+  display: flex;
+  flex-direction: column;
 }
 
 .cruise-card:hover {
@@ -329,6 +332,10 @@ body {
 
 .cruise-card-content {
   padding: 16px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .cruise-card-title {

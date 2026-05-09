@@ -358,10 +358,25 @@ function updateCruiseList() {
         return;
     }
 
-    const filteredCruises = state.cruises
-        .filter(c => state.activeFilters.cruiseRegions.includes(c.region))
-        .sort((a, b) => b.puntuacion - a.puntuacion) // Ordenar por puntuación descendente
-        .slice(0, 10);
+    // Filtrar cruceros por las regiones activas
+    let filteredCruises = state.cruises.filter(c => state.activeFilters.cruiseRegions.includes(c.region));
+    
+    // Si hay menos de 10, rellenamos con otros cruceros (pero priorizando los de la región)
+    if (filteredCruises.length < 10) {
+        const others = state.cruises.filter(c => !state.activeFilters.cruiseRegions.includes(c.region));
+        filteredCruises = [...filteredCruises, ...others].slice(0, 10);
+    } else {
+        filteredCruises = filteredCruises.slice(0, 10);
+    }
+
+    // Ordenar para que los de la región activa salgan primero
+    filteredCruises.sort((a, b) => {
+        const aActive = state.activeFilters.cruiseRegions.includes(a.region);
+        const bActive = state.activeFilters.cruiseRegions.includes(b.region);
+        if (aActive && !bActive) return -1;
+        if (!aActive && bActive) return 1;
+        return b.puntuacion - a.puntuacion;
+    });
 
     panel.style.display = filteredCruises.length > 0 ? 'flex' : 'none';
     container.innerHTML = '';

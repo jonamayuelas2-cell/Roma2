@@ -38,3 +38,17 @@ Se ha implementado una experiencia de navegación jerárquica para los cruceros 
 
 ---
 *Documentado por Antigravity el 08 de Mayo de 2026*
+
+## Actualización 09 de Mayo de 2026 - Propuestas de Crucero 🚀🛳️
+
+### 1. Sistema de 10 Propuestas Obligatorias 🔟
+- **Lógica de Relleno Inteligente**: El panel lateral ahora muestra siempre **10 propuestas** de crucero. Si la zona seleccionada tiene menos de 10, el sistema completa la lista con los mejores cruceros de otras regiones, priorizando siempre los de la zona activa.
+- **Base de Datos Ampliada**: Se han añadido 7 nuevos itinerarios globales (Islas Griegas, Alaska, Antártida, Sudeste Asiático, etc.) para ofrecer una variedad real sin repeticiones.
+
+### 2. Diseño y Estética Premium 🎨📐
+- **Uniformidad Visual**: Todas las tarjetas de crucero tienen ahora un **tamaño fijo (440px)**, eliminando saltos de diseño y permitiendo una comparación mucho más limpia.
+- **Alineación Perfecta**: El contenido de las tarjetas usa `flexbox` avanzado para asegurar que los títulos, descripciones y el botón de "Ver Detalle" estén perfectamente alineados en todas las propuestas.
+- **Scroll Infinito**: El contenedor lateral mantiene su funcionalidad de scroll vertical permitiendo navegar por las 10 opciones de forma fluida.
+
+---
+*Documentado por Antigravity el 09 de Mayo de 2026*
