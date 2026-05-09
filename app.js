@@ -53,6 +53,17 @@ function callGlobe(method, ...args) {
 
 // ══ INICIALIZACIÓN ══════════════════════════════════════════
 
+function normalizeContinentName(continent) {
+    const names = {
+        Africa: 'África',
+        America: 'América',
+        Oceania: 'Oceanía',
+        'Europa/Asia': 'Europa'
+    };
+
+    return names[continent] || continent;
+}
+
 document.addEventListener('DOMContentLoaded', () => {
     console.log('🚀 Iniciando TravelWorld PWA...');
     Promise.all([loadCities(), loadCruises()]).then(() => {
@@ -91,8 +102,7 @@ async function loadCities() {
             ...c,
             lat: Number(c.lat),
             lng: Number(c.lng),
-            // Remapear Eurasia a Europa para simplificar a 5 continentes
-            continente: c.continente === "Europa/Asia" ? "Europa" : c.continente
+            continente: normalizeContinentName(c.continente)
         }));
         console.log('📍 Datos de ciudades obtenidos y normalizados');
         updateSelectionStats();
