@@ -54,24 +54,62 @@ function callGlobe(method, ...args) {
 // â•â• INICIALIZACIÃ“N â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 
 function normalizeContinentName(continent) {
-    const names = {
-        Africa: '\u00c1frica',
-        America: 'Am\u00e9rica',
-        Oceania: 'Ocean\u00eda',
-        'Europa/Asia': 'Europa'
-    };
+    return String(continent || '')
+        .replace('Europa/Asia', 'Europa')
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .toLowerCase();
+}
 
-    return names[continent] || continent;
+function normalizeCruiseRegion(region) {
+    return String(region || '')
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .toLowerCase()
+        .replace(/\s+/g, ' ')
+        .trim();
 }
 
 function escapeHtml(value) {
-    return String(value ?? '').replace(/[&<>"']/g, char => ({
+    return cleanDisplayText(value).replace(/[&<>"']/g, char => ({
         '&': '&amp;',
         '<': '&lt;',
         '>': '&gt;',
         '"': '&quot;',
         "'": '&#39;'
     }[char]));
+}
+
+function cleanDisplayText(value) {
+    return String(value ?? '')
+        .replace(/â\W?a¬|â‚¬|Ã¢â€šÂ¬|¢â€šÂ¬/g, '€')
+        .replace(/Â°/g, '°')
+        .replace(/Â·/g, '·')
+        .replace(/Ã¡|ÃƒÂ¡/g, 'á')
+        .replace(/Ã©|ÃƒÂ©/g, 'é')
+        .replace(/Ã­|ÃƒÂ­/g, 'í')
+        .replace(/Ã³|ÃƒÂ³/g, 'ó')
+        .replace(/Ãº|ÃƒÂº/g, 'ú')
+        .replace(/Ã±|ÃƒÂ±/g, 'ñ')
+        .replace(/Ã¼|ÃƒÂ¼/g, 'ü')
+        .replace(/Ã£|ÃƒÂ£/g, 'ã')
+        .replace(/Ã|ÃƒÂ/g, 'Á')
+        .replace(/Ã‰|ÃƒÂ‰/g, 'É')
+        .replace(/Ã|ÃƒÂ/g, 'Í')
+        .replace(/Ã“|ÃƒÂ“/g, 'Ó')
+        .replace(/Ãš|ÃƒÂš/g, 'Ú')
+        .replace(/Ã‘|ÃƒÂ‘/g, 'Ñ')
+        .replace(/ҳ/g, 'ó')
+        .replace(/ҭ/g, 'í')
+        .replace(/�/g, '')
+        .replace(/\s+€/g, ' €')
+        .replace(/(\d)€/g, '$1 €')
+        .trim();
+}
+
+function safeDisplayIcon(value, fallback = '•') {
+    const text = String(value || '').trim();
+    return /[ÃÂâðï�]|Å|¢â/.test(text) ? fallback : text || fallback;
 }
 
 function getWebsiteUrl(value) {
@@ -215,7 +253,7 @@ function initGlobe() {
         
         // Filtrar ciudades por continente (solo si showCities está activo)
         const filteredCities = state.activeFilters.showCities 
-            ? state.cities.filter(c => state.activeFilters.continents.includes(c.continente))
+            ? state.cities.filter(c => state.activeFilters.continents.includes(normalizeContinentName(c.continente)))
             : [];
 
         // Obtener cruceros activos para el globo
@@ -263,7 +301,7 @@ function initGlobe() {
             el.innerHTML = `
                 <div class="globe-thumb-container">
                     <img src="${assetUrl(d.imagen)}" class="globe-thumb" onerror="this.style.display='none'">
-                    ${!isStop ? `<span class="globe-emoji">${d.emoji}</span>` : ''}
+                    ${!isStop ? `<span class="globe-emoji">${safeDisplayIcon(d.emoji)}</span>` : ''}
                 </div>
             `;
             el.onclick = (ev) => { 
@@ -337,15 +375,20 @@ function setupGlobeFilters() {
     const cruiseRegions = document.getElementById('cruise-regions');
     const continentChecks = continentsSub.querySelectorAll('input');
     const regionChecks = cruiseRegions.querySelectorAll('input');
+    const syncCruiseRegions = () => {
+        state.activeFilters.cruiseRegions = Array.from(regionChecks)
+            .filter(c => c.checked)
+            .map(c => c.value);
+    };
 
     const updateFilterVisuals = () => {
         // Ciudades
         continentsSub.classList.toggle('disabled-group', !citiesToggle.checked);
-        continentChecks.forEach(i => i.disabled = !citiesToggle.checked);
+        continentChecks.forEach(i => i.disabled = false);
         
         // Cruceros
         cruiseRegions.classList.toggle('disabled-group', !cruiseToggle.checked);
-        regionChecks.forEach(i => i.disabled = !cruiseToggle.checked);
+        regionChecks.forEach(i => i.disabled = false);
     };
 
     citiesToggle.addEventListener('change', () => {
@@ -354,6 +397,9 @@ function setupGlobeFilters() {
         if (citiesToggle.checked) {
             cruiseToggle.checked = false;
             state.activeFilters.showCruises = false;
+            state.activeFilters.continents = Array.from(continentChecks)
+                .filter(c => c.checked)
+                .map(c => normalizeContinentName(c.value));
         } else {
             continentChecks.forEach(check => {
                 check.checked = false;
@@ -378,7 +424,7 @@ function setupGlobeFilters() {
 
             state.activeFilters.continents = Array.from(continentChecks)
                 .filter(c => c.checked)
-                .map(c => c.value);
+                .map(c => normalizeContinentName(c.value));
             updateFilterVisuals();
             updateCruiseList();
             window.refreshGlobe();
@@ -392,6 +438,7 @@ function setupGlobeFilters() {
             citiesToggle.checked = false;
             state.activeFilters.showCities = false;
             state.currentCruise = null; // Reset al cambiar de modo
+            syncCruiseRegions();
         } else {
             regionChecks.forEach(check => {
                 check.checked = false;
@@ -414,9 +461,7 @@ function setupGlobeFilters() {
                 state.activeFilters.showCities = false;
             }
 
-            state.activeFilters.cruiseRegions = Array.from(regionChecks)
-                .filter(c => c.checked)
-                .map(c => c.value);
+            syncCruiseRegions();
             state.currentCruise = null; // Limpiar selecciÃ³n al cambiar filtros de zona
             updateFilterVisuals();
             updateCruiseList();
@@ -427,8 +472,8 @@ function setupGlobeFilters() {
     // Sincronizar estado inicial con el DOM
     state.activeFilters.showCities = citiesToggle.checked;
     state.activeFilters.showCruises = cruiseToggle.checked;
-    state.activeFilters.continents = Array.from(continentChecks).filter(c => c.checked).map(c => c.value);
-    state.activeFilters.cruiseRegions = Array.from(regionChecks).filter(c => c.checked).map(c => c.value);
+    state.activeFilters.continents = Array.from(continentChecks).filter(c => c.checked).map(c => normalizeContinentName(c.value));
+    syncCruiseRegions();
 
     // Estado inicial visual
     updateFilterVisuals();
@@ -438,13 +483,15 @@ function getFilteredCruiseList() {
     if (!state.activeFilters.showCruises) return [];
     if (state.activeFilters.cruiseRegions.length === 0) return [];
 
-    const hasOthers = state.activeFilters.cruiseRegions.includes('Otros');
-    const mainRegions = ['Caribe', 'Mediterraneo', 'Paises Nordicos'];
+    const selectedRegions = state.activeFilters.cruiseRegions.map(normalizeCruiseRegion);
+    const hasOthers = selectedRegions.includes(normalizeCruiseRegion('Otros'));
+    const mainRegions = ['Caribe', 'Mediterraneo', 'Paises Nordicos'].map(normalizeCruiseRegion);
 
     // 1. Obtener cruceros de las regiones seleccionadas
     const prioritizedCruises = state.cruises.filter(c => {
-        if (state.activeFilters.cruiseRegions.includes(c.region)) return true;
-        if (hasOthers && !mainRegions.includes(c.region)) return true;
+        const cruiseRegion = normalizeCruiseRegion(c.region);
+        if (selectedRegions.includes(cruiseRegion)) return true;
+        if (hasOthers && !mainRegions.includes(cruiseRegion)) return true;
         return false;
     }).sort((a, b) => b.puntuacion - a.puntuacion);
 
@@ -567,7 +614,7 @@ function animateShips(activeCruises) {
         
         const ship = document.createElement('div');
         ship.className = 'ship-icon';
-        ship.innerHTML = 'ðŸš¢';
+        ship.innerHTML = '&bull;';
         
         const wake = document.createElement('div');
         wake.className = 'ship-wake';
@@ -685,8 +732,8 @@ function applyTheme(city) {
 }
 
 function updateUIForCity(city) {
-    document.getElementById('app-title').innerHTML = `${city.nombre} <span class="logo-sub">GuÃ­a de Viaje Â· ${city.pais}</span>`;
-    document.getElementById('app-logo-icon').textContent = city.emoji;
+    document.getElementById('app-title').innerHTML = `${escapeHtml(city.nombre)} <span class="logo-sub">Guía de Viaje · ${escapeHtml(city.pais)}</span>`;
+    document.getElementById('app-logo-icon').textContent = safeDisplayIcon(city.emoji, '•');
 
     const heroTitle = document.getElementById('hero-title');
     const heroSubtitle = document.getElementById('hero-subtitle');
@@ -1098,7 +1145,7 @@ function renderPlaces() {
     }
 
     if (state.filteredPlaces.length === 0) {
-        container.innerHTML = '<div class="no-results">ðŸ” No hay resultados.</div>';
+        container.innerHTML = '<div class="no-results">No hay resultados.</div>';
         return;
     }
 
@@ -1115,12 +1162,12 @@ function createPlaceCard(place) {
     div.className = `place-card ${state.viewMode === 'list' ? 'list-view' : ''}`;
     div.innerHTML = `
         <div class="place-img-wrapper">
-            <img src="${assetUrl(place.imagenCard)}" alt="${place.nombre}" class="place-img" loading="lazy">
+            <img src="${assetUrl(place.imagenCard)}" alt="${escapeHtml(place.nombre)}" class="place-img" loading="lazy">
         </div>
         <div class="card-content">
-            <span class="card-tag">${getTypeLabel(place.tipo)}</span>
-            <h3 class="card-title">${place.nombre}</h3>
-            <p class="card-desc">${place.descripcionCorta}</p>
+            <span class="card-tag">${escapeHtml(getTypeLabel(place.tipo))}</span>
+            <h3 class="card-title">${escapeHtml(place.nombre)}</h3>
+            <p class="card-desc">${escapeHtml(place.descripcionCorta)}</p>
         </div>
     `;
     div.onclick = () => showPlaceDetails(place);
@@ -1325,21 +1372,29 @@ function filterPlaces(type, query) {
 }
 
 function getTypeLabel(type) {
-    const labels = { cultura: 'ðŸ›ï¸ Cultura', museos: 'ðŸ–¼ï¸ Museos', restaurantes: 'ðŸ Restaurantes', barrios: 'ðŸ˜ï¸ Barrios', parques: 'ðŸŒ¿ Parques', mercados: 'ðŸ›ï¸ Mercados', cafes: 'â˜• CafÃ©s' };
+    const labels = {
+        cultura: 'Cultura',
+        museos: 'Museos',
+        restaurantes: 'Restaurantes',
+        barrios: 'Barrios',
+        parques: 'Parques',
+        mercados: 'Mercados',
+        cafes: 'Cafés'
+    };
     return labels[type] || type;
 }
 
 function getWeatherIcon(code) {
-    if (code === 0) return 'â˜€ï¸'; // Despejado
-    if (code === 1 || code === 2) return 'ðŸŒ¤ï¸'; // Parcialmente
-    if (code === 3) return 'â˜ï¸'; // Nublado
-    if (code === 45 || code === 48) return 'ðŸŒ«ï¸'; // Niebla
-    if (code >= 51 && code <= 55) return 'ðŸŒ¦ï¸'; // Llovizna
-    if (code >= 61 && code <= 65) return 'ðŸŒ§ï¸'; // Lluvia
-    if (code >= 71 && code <= 77) return 'â„ï¸'; // Nieve
-    if (code >= 80 && code <= 82) return 'ðŸŒ§ï¸'; // Chubascos
-    if (code >= 95) return 'â›ˆï¸'; // Tormenta
-    return 'ðŸŒ¡ï¸';
+    if (code === 0) return '\u2600\uFE0F';
+    if (code === 1 || code === 2) return '\u26C5';
+    if (code === 3) return '\u2601\uFE0F';
+    if (code === 45 || code === 48) return '\uD83C\uDF2B\uFE0F';
+    if (code >= 51 && code <= 55) return '\uD83C\uDF26\uFE0F';
+    if (code >= 61 && code <= 65) return '\uD83C\uDF27\uFE0F';
+    if (code >= 71 && code <= 77) return '\u2744\uFE0F';
+    if (code >= 80 && code <= 82) return '\uD83C\uDF27\uFE0F';
+    if (code >= 95) return '\u26C8\uFE0F';
+    return '\uD83C\uDF21\uFE0F';
 }
 
 function getPlaceExtraInfo(place) {
@@ -1642,16 +1697,16 @@ function renderPlaceActivities(place) {
     section.hidden = false;
     container.innerHTML = activities.map(activity => `
         <article class="activity-card">
-            <img src="${assetUrl(activity.image)}" alt="${activity.title}">
+            <img src="${assetUrl(activity.image)}" alt="${escapeHtml(activity.title)}">
             <div class="activity-card-body">
-                <h4>${activity.title}</h4>
-                <p>${activity.description}</p>
+                <h4>${escapeHtml(activity.title)}</h4>
+                <p>${escapeHtml(activity.description)}</p>
                 <dl>
-                    <div><dt>Empresa</dt><dd>${activity.provider}</dd></div>
+                    <div><dt>Empresa</dt><dd>${escapeHtml(activity.provider || "Consultar")}</dd></div>
                     ${!getWebsiteUrl(activity.contact) ? `<div><dt>Contacto</dt><dd>${renderContactValue(activity.contact)}</dd></div>` : ""}
                     ${activity.web ? `<div><dt>Web</dt><dd>${renderWebValue(activity.web)}</dd></div>` : ""}
                     <div><dt>Coste</dt><dd>${escapeHtml(activity.cost || "Consultar")}</dd></div>
-                    <div><dt>Horario</dt><dd>${activity.schedule}</dd></div>
+                    <div><dt>Horario</dt><dd>${escapeHtml(activity.schedule || "Consultar")}</dd></div>
                 </dl>
             </div>
         </article>
@@ -1661,21 +1716,21 @@ function renderPlaceActivities(place) {
 function showPlaceDetails(place) {
     const modal = document.getElementById("place-modal");
     document.getElementById("modal-place-img").src = assetUrl(place.imagen || place.imagenCard);
-    document.getElementById("modal-place-img").alt = place.nombre;
+    document.getElementById("modal-place-img").alt = cleanDisplayText(place.nombre);
     document.getElementById("modal-place-tag").textContent = getTypeLabel(place.tipo);
-    document.getElementById("modal-place-title").textContent = place.nombre;
-    document.getElementById("modal-place-desc").textContent = place.descripcion || place.descripcionCorta;
-    document.getElementById("modal-place-extra").textContent = getPlaceExtraInfo(place);
-    document.getElementById("modal-place-price").textContent = `Precio: ${place.precio || "Consultar"}`;
-    document.getElementById("modal-place-hours").textContent = `Horario: ${place.horario || "Consultar"}`;
-    document.getElementById("modal-place-rating").textContent = `Valoracion: ${place.rating || "4.7"} / 5`;
+    document.getElementById("modal-place-title").textContent = cleanDisplayText(place.nombre);
+    document.getElementById("modal-place-desc").textContent = cleanDisplayText(place.descripcion || place.descripcionCorta);
+    document.getElementById("modal-place-extra").textContent = cleanDisplayText(getPlaceExtraInfo(place));
+    document.getElementById("modal-place-price").textContent = `Precio: ${cleanDisplayText(place.precio || "Consultar")}`;
+    document.getElementById("modal-place-hours").textContent = `Horario: ${cleanDisplayText(place.horario || "Consultar")}`;
+    document.getElementById("modal-place-rating").textContent = `Valoracion: ${cleanDisplayText(place.rating || "4.7")} / 5`;
     const placeWeb = renderWebValue(place.web);
     const placeContact = document.getElementById("modal-place-contact");
     placeContact.hidden = !placeWeb;
     placeContact.innerHTML = placeWeb ? `Web: ${placeWeb}` : "";
     renderPlaceActivities(place);
     document.getElementById("modal-place-tags").innerHTML = (place.tags || [])
-        .map(tag => `<span>${tag}</span>`)
+        .map(tag => `<span>${escapeHtml(tag)}</span>`)
         .join("");
     modal.hidden = false;
     document.body.style.overflow = "hidden";
@@ -1743,16 +1798,25 @@ function updateCruiseDetailUI(cruise) {
     }
 
     if (shipImg) {
-        // Prioridad: fotoBarco > imagenBuque > imagenItinerario
-        const photoUrl = cruise.buque?.fotoBarco || cruise.buque?.imagen || cruise.imagen;
-        shipImg.src = assetUrl(photoUrl);
+        const photoOptions = [
+            cruise.buque?.fotoBarco,
+            cruise.buque?.imagen,
+            cruise.imagen,
+            'https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&fit=crop&q=80&w=800'
+        ].filter(Boolean);
+        let photoIndex = 0;
+        shipImg.referrerPolicy = 'no-referrer';
+        shipImg.src = assetUrl(photoOptions[photoIndex]);
         shipImg.alt = shipInfo.shipName;
         
-        // Fallback premium si la imagen falla
         shipImg.onerror = () => {
-            console.warn(`Error cargando imagen del barco ${shipInfo.shipName}, usando fallback.`);
-            shipImg.src = 'https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&fit=crop&q=80&w=800';
-            shipImg.onerror = null;
+            photoIndex += 1;
+            const nextPhoto = photoOptions[photoIndex];
+            if (nextPhoto) {
+                shipImg.src = assetUrl(nextPhoto);
+            } else {
+                shipImg.onerror = null;
+            }
         };
 
         // Re-añadir efecto parallax

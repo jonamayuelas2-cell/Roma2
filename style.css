@@ -235,7 +235,6 @@ body {
 .disabled-group {
   opacity: 0.4;
   filter: grayscale(1);
-  pointer-events: none;
   transition: all 0.3s ease;
 }
 
@@ -555,7 +554,6 @@ input:checked + .slider:before { transform: translateX(20px); }
 
 .disabled-group {
   opacity: 0.4;
-  pointer-events: none;
   filter: grayscale(1);
 }
 
