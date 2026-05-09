@@ -2145,6 +2145,61 @@ header {
     box-shadow: 0 0 10px rgba(255, 223, 93, 0.5);
 }
 
+/* Nuevo marcador para ciudades destacadas en el itinerario */
+.marker-pin-featured {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: #facc15; /* Círculo amarillo */
+    padding: 3px;
+    box-shadow: 0 0 25px rgba(250, 204, 21, 0.7), 0 0 40px rgba(250, 204, 21, 0.3);
+    cursor: pointer;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    z-index: 100;
+}
+
+.marker-pin-featured:hover {
+    transform: scale(1.25) translateY(-5px);
+    box-shadow: 0 10px 35px rgba(250, 204, 21, 0.9), 0 0 50px rgba(250, 204, 21, 0.5);
+    z-index: 101;
+}
+
+.marker-pin-featured .img-container {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #fff;
+    background: #1a2a6c;
+}
+
+.marker-pin-featured img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.marker-pin-featured::after {
+    content: '🏙️';
+    position: absolute;
+    bottom: -5px;
+    right: -5px;
+    background: #fff;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+
 /* Marcadores de crucero en el globo 3D */
 .globe-city-marker.cruise-stop {
     border-color: #38bdf8;
@@ -2155,9 +2210,126 @@ header {
     border: 2px solid #38bdf8;
 }
 
+/* Itinerary Timeline */
+.itinerary-timeline {
+    margin-top: 40px;
+    display: flex;
+    overflow-x: auto;
+    padding: 20px 10px 40px;
+    gap: 0;
+    scrollbar-width: none; /* Firefox */
+    position: relative;
+}
+
+.itinerary-timeline::-webkit-scrollbar {
+    display: none; /* Chrome/Safari */
+}
+
+.timeline-item {
+    flex: 0 0 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    width: 100%;
+    height: 2px;
+    background: rgba(255, 255, 255, 0.1);
+    z-index: 1;
+}
+
+.timeline-item:last-child::before {
+    display: none;
+}
+
+.timeline-dot {
+    width: 14px;
+    height: 14px;
+    background: #38bdf8;
+    border: 3px solid #0f172a;
+    border-radius: 50%;
+    z-index: 2;
+    margin-bottom: 15px;
+    box-shadow: 0 0 10px rgba(56, 189, 248, 0.5);
+    transition: all 0.3s ease;
+}
+
+.timeline-item.is-featured .timeline-dot {
+    width: 50px;
+    height: 50px;
+    background: #facc15; /* El círculo amarillo */
+    border: 3px solid #fff;
+    padding: 3px;
+    margin-top: -18px; /* Ajuste para centrar verticalmente con la línea */
+    box-shadow: 0 0 20px rgba(250, 204, 21, 0.6);
+}
+
+.timeline-item.is-featured .timeline-dot img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.timeline-info {
+    text-align: center;
+    padding: 0 10px;
+}
+
+.timeline-city {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #fff;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.timeline-country {
+    font-size: 0.7rem;
+    color: #94a3b8;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.timeline-badge {
+    margin-top: 8px;
+    font-size: 0.65rem;
+    background: rgba(250, 204, 21, 0.1);
+    color: #facc15;
+    padding: 2px 8px;
+    border-radius: 4px;
+    border: 1px solid rgba(250, 204, 21, 0.3);
+    opacity: 0;
+    transform: translateY(5px);
+    transition: all 0.3s ease;
+}
+
+.timeline-item.is-featured .timeline-badge {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.timeline-item:hover .timeline-dot {
+    transform: scale(1.2);
+    box-shadow: 0 0 20px rgba(56, 189, 248, 0.8);
+}
+
+.timeline-item:hover .timeline-city {
+    color: #38bdf8;
+}
+
 @media (max-width: 768px) {
     .ship-info-container {
         grid-template-columns: 1fr;
+
         gap: 20px;
     }
     .ship-photo-wrapper {
@@ -2169,4 +2341,142 @@ header {
     .detailed-map {
         height: 350px;
     }
+}
+/* Botones y Enlaces de Retorno Premium */
+.back-btn, .back-link {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 12px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    margin-bottom: 15px;
+}
+
+.back-btn:hover, .back-link:hover {
+    background: rgba(56, 189, 248, 0.15);
+    border-color: #38bdf8;
+    color: #38bdf8;
+    transform: translateX(-5px);
+    box-shadow: 0 4px 15px rgba(56, 189, 248, 0.2);
+}
+
+.back-btn.small {
+    padding: 6px 12px;
+    font-size: 0.75rem;
+}
+
+/* Marcadores de Mapa de Cruceros Premium */
+.marker-pin-cruise {
+    width: 12px;
+    height: 12px;
+    background: #0ea5e9;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(14, 165, 233, 0.5);
+    transition: all 0.3s ease;
+}
+
+.marker-pin-featured {
+    width: 44px;
+    height: 44px;
+    background: #facc15;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    padding: 2px;
+    box-shadow: 0 0 20px rgba(250, 204, 21, 0.6);
+    cursor: pointer;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.marker-pin-featured .img-container {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.marker-pin-featured img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.marker-pin-featured:hover {
+    transform: scale(1.15) translateY(-5px);
+    box-shadow: 0 10px 25px rgba(250, 204, 21, 0.8);
+    z-index: 1000;
+}
+
+.marker-pin-city {
+    width: 10px;
+    height: 10px;
+    background: #ffdf5d;
+    border: 2px solid #000;
+    border-radius: 50%;
+}
+
+/* Tooltip personalizado para Leaflet */
+.custom-tooltip {
+    background: rgba(15, 23, 42, 0.9) !important;
+    border: 1px solid rgba(56, 189, 248, 0.3) !important;
+    border-radius: 8px !important;
+    color: #fff !important;
+    font-family: 'Outfit', sans-serif !important;
+    padding: 8px 12px !important;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3) !important;
+    backdrop-filter: blur(5px);
+}
+
+.custom-tooltip::before {
+    border-top-color: rgba(15, 23, 42, 0.9) !important;
+}
+
+/* Popup de Puerto Premium */
+.port-popup {
+    font-family: 'Inter', sans-serif;
+    min-width: 150px;
+}
+
+.port-popup strong {
+    font-size: 1.1rem;
+    color: #0f172a;
+}
+
+.port-popup p {
+    margin: 8px 0;
+    line-height: 1.4;
+}
+
+/* Optimización de la Lista de Cruceros */
+.cruise-card-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-height: 80vh;
+    overflow-y: auto;
+    padding-right: 10px;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(56, 189, 248, 0.3) transparent;
+}
+
+.cruise-card-list::-webkit-scrollbar {
+    width: 6px;
+}
+
+.cruise-card-list::-webkit-scrollbar-thumb {
+    background-color: rgba(56, 189, 248, 0.3);
+    border-radius: 10px;
+}
+
+.cruise-card-list::-webkit-scrollbar-track {
+    background: transparent;
 }

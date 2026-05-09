@@ -1024,7 +1024,7 @@
       "nombre": "Paul Gauguin",
       "imagen": "https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&fit=crop&q=80&w=1200",
       "datos": {
-        "fotoBarco": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&q=85&w=800",
+        "fotoBarco": "https://commons.wikimedia.org/wiki/Special:FilePath/MS_Paul_Gauguin_in_Moorea.jpg",
         "eslora": "156 m",
         "cubiertas": "7",
         "pasajeros": "330",
@@ -1032,7 +1032,7 @@
         "restaurantes": "3",
         "actividades": "Marina deportiva, snorkel, kayak, spa, conferencias polinesias y cenas de autor"
       },
-      "fotoBarco": "https://commons.wikimedia.org/wiki/Special:FilePath/Cruise_Ship_Paul_Gauguin_02.jpg",
+      "fotoBarco": "https://commons.wikimedia.org/wiki/Special:FilePath/MS_Paul_Gauguin_in_Moorea.jpg",
       "imo": "9111319",
       "mmsi": "578001600",
       "trackingUrl": "https://www.vesselfinder.com/vessels/details/9111319"
@@ -1522,7 +1522,8 @@
         "pasajeros": "3.099",
         "tripulacion": "1.506",
         "restaurantes": "12",
-        "actividades": "Piscinas, teatro, spa, restaurantes tematicos, musica en vivo, terrazas exteriores y experiencias de playa privada"
+        "actividades": "Piscinas, teatro, spa, restaurantes tematicos, musica en vivo, terrazas exteriores y experiencias de playa privada",
+        "fotoBarco": "https://commons.wikimedia.org/wiki/Special:FilePath/Norwegian_Prima_in_Amsterdam_2022.jpg"
       }
     },
     "ruta": [

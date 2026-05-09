@@ -1,86 +1,40 @@
-# Registro de Prompts - Cruceros Interactivos 🛳️✍️
+# Registro de Prompts - TravelWorld 🌍🛳️
 
-## Sesión: 08 de Mayo de 2026
+## [2026-05-09] Optimización de Renderizado y Estabilidad
+**Objetivo**: Resolver fallos de carga del mapa mundi, limpiar código corrompido en `app.js`, y asegurar que se muestren siempre 10 propuestas de crucero con fotos reales.
 
-### Prompt 1: Centrado en el crucero por el Caribe
-**Usuario:** "vamos a centrarnos en el crucero por caribe con salida en miami.. quiero ver indicados en mapamundi cada uno de los puntros de amarre donde hace escala y una linea de navegación entre cada uno de ellos. al pinchar en uno de ellos quiero que nos lleve a otra nueva pantalla donde aparezcan todas las ciudades en plano y el recorrido entre ellas. pulsando cada una de las ciudades de escala debemos acceder a una pantalla identica a las que ya tenemos de ciudades y actividades, en cada escala deben aparecer datos de la ciudad y actividades a realizar. en la parte superior de la pagina debe aparecer foto del barco, caracteristicas posición de escala dentro del viaje completo..."
+### Prompt de Corrección de Estructura
+"Analiza el archivo `app.js` en busca de errores de sintaxis y bloques de código duplicados o corrompidos. Elimina cualquier función huérfana o llaves de cierre adicionales que impidan la ejecución de `initGlobe`. Asegura que el flujo de inicialización sea limpio y no se interrumpa por errores de consola."
 
-**Objetivo:** Implementar navegación multinivel para cruceros: Globo -> Itinerario -> Plano de Escala -> Guía de Ciudad.
+### Prompt de Visualización de Cruceros
+"Modifica la lógica de filtrado de cruceros para que, siempre que haya una zona de cruceros activa, se muestren exactamente 10 tarjetas en el panel lateral. Si la zona seleccionada tiene menos de 10 cruceros, completa la lista con los cruceros con mayor puntuación de otras regiones para mantener la densidad visual de la interfaz. Asegura que todas las tarjetas tengan un tamaño fijo y consistente para permitir el scroll vertical suave."
 
-### Prompt 2: Vistosidad y Animaciones
-**Usuario:** "me gustaria darle vistosidad y meter alguna animacion"
+### Prompt de Enriquecimiento de Media
+"Actualiza la base de datos de cruceros para incluir URLs de imágenes reales de alta calidad (vía Unsplash) para los buques. Implementa un sistema de fallback en la UI que garantice que siempre se muestre una imagen evocadora del barco o del destino si la imagen principal falla."
 
-**Objetivo:** Elevar la calidad visual con efectos interactivos y transiciones cinematográficas.
+## [2026-05-09] Integración de Guías de Ciudad en Itinerarios
+**Objetivo**: Vincular las escalas de los cruceros con las guías de ciudades existentes para una navegación fluida.
 
-### Prompt 3: Circuitos Completos y Navegación Unificada
-**Usuario:** "pinchando en cualquiera de las escalas de un crucero concreto nos llevará a la misma pantalla de ese crucero, por eso debemos tener en el mapamundi todas las ciudades de escala del mismo crucero conectadas con una linea que simule el circuito que hace el barco"
+### Prompt de Sincronización Ciudad-Crucero
+"Implementa una lógica que detecte si una escala de un crucero coincide con una de las ciudades disponibles en `cities.json`. En el detalle del crucero, estas ciudades deben destacarse visualmente (círculo amarillo y miniatura de foto) tanto en el mapa como en una nueva línea de tiempo (timeline) del itinerario. Al hacer clic en estos elementos destacados, la aplicación debe navegar directamente a la guía detallada de esa ciudad."
 
-**Objetivo:** Garantizar que todas las escalas sean puntos de entrada al crucero y que las rutas sean circuitos cerrados realistas.
+## [2026-05-09] Refinamiento Final de UX y Estética de Mapas
+**Objetivo**: Mejorar la legibilidad de los itinerarios, implementar navegación de retorno clara y optimizar el filtrado de cruceros.
 
-### Prompt 4: Control Manual del Globo
-**Usuario:** "necesito que el maap mundi no gire solo, sino cuando lo mueva yo desde ratón o pantalla táctil"
+### Prompt de UI de Mapas
+"Mejora la visualización de los mapas de Leaflet utilizando la capa CartoDB Voyager para mayor claridad. Rediseña los marcadores de escala para que usen iconos personalizados (anclas para puertos principales y puntos destacados para ciudades guía) con efectos de halo y brillo. Asegura que las etiquetas de los mapas sean legibles por encima de las rutas náuticas."
 
-**Objetivo:** Desactivar la rotación automática del globo para mejorar la precisión de la navegación manual.
+### Prompt de Navegación y Filtros
+"Actualiza la lógica de filtrado para que la lista de cruceros se oculte si no hay zonas seleccionadas. Diseña e implementa botones de retorno premium con efectos de glassmorphism y transiciones de deslizamiento lateral para asegurar una navegación fluida entre el detalle de puerto, el itinerario y las guías de ciudad."
 
-### Prompt 5: Exclusividad de Filtros (Ciudades vs Cruceros)
-**Usuario:** "vamos a poner un botón on/off en Continentes. Si está habilitado (por defecto) se dehabilita cruceros y si se habilita cruceros se deshabilita continentes. Pero si se deshabilita uno de ellos no se habilita el otro."
+## [2026-05-09] Integración de Miami como Destino Premium
+**Objetivo**: Expandir la base de datos de destinos con una estructura completa para Miami, integrando imágenes generadas por IA y descripciones de alta fidelidad.
 
-**Objetivo:** Implementar una lógica de filtrado excluyente para evitar la saturación de elementos en el globo.
+### Prompt de Estructura de Datos
+"Genera un objeto JSON para Miami siguiendo el estándar premium de la PWA. Incluye 9 puntos de interés emblemáticos (Ocean Drive, Wynwood, Little Havana, Everglades, etc.) con descripciones editoriales evocadoras en español. Configura un tema visual vibrante (neones, azul turquesa) y asocia las imágenes generadas por IA a cada lugar. Cada punto de interés debe contar con al menos dos actividades detalladas con proveedores y costes estimados."
 
-### Prompt 6: Visibilidad Persistente y Deshabilitación Visual
-**Usuario:** "si habilito continentes debo permitir habilitar cualquier continente y debo deshabilitar cruceros, además deben aparecer todas las zonas de los cruceros, pero se deshabilitarán también. Si habilito cruceros, se permitirá habilitar las zonas de los cruceros y deshabilitará continentes y cada uno de los continentes"
-
-**Objetivo:** Mantener todos los filtros visibles pero deshabilitar visualmente (`grayscale`, `opacity`) y funcionalmente (`disabled`) aquellos que no pertenezcan al grupo activo.
-
-### Prompt 7: Mapamundi Vacío al Inicio y Refinamiento de Lógica Excluyente
-**Usuario:** "no funciona.vamos a definirlo de nuevo. de inicio mapamundi sin ciudades. si activo continentes permitirá habilitar los continentes que quiera. y deshabilitará cruceros y cada uno de las áreas de cruceros. Si habilito cruceros permitirá habilitar cualquier zona y deshabilitará continentes y cada uno de los continentes. POor cierto el mapamundi ahora no aparece"
-
-**Objetivo:** Reiniciar el estado del mapa a vacío, corregir errores de visualización del globo y asegurar que la exclusividad entre grupos de filtros sea total y afecte tanto al grupo como a sus sub-opciones individuales.
-
-### Prompt 8: Deshabilitación por Defecto de Sub-opciones
-**Usuario:** "igual que resto de zonas Caribe debe aparecer deshabilitado. Al habilitar continentes no se deben habilitar cada uno de ellos a no ser que se active manualmente. Igual pasa con las zonas de cruceros"
-
-**Objetivo:** Garantizar que al activar un grupo principal (Ciudades o Cruceros), ninguna sub-opción se active automáticamente. El usuario debe elegir específicamente qué continentes o zonas de crucero quiere ver. Además, unificar el comportamiento de "El Caribe" con el resto de zonas.
-
-### Prompt 9: Panel de Selección de Cruceros y Visualización Dinámica
-**Usuario:** "si activo el check de cruceros, en cuanto seleccione una o varias zonas, debe aparecer en la izquierda de la pantalla una lista de los cruceros por orden de importancia y reputación con datos generales de ciudad salida,recorrido, ciudad destino, duración, foto del barco. (máximo 10 cruceros) al pinchar en uno de ellos aparecerá en el mapamundi las ciudades que visita (con igual apariencioa que las ciudades que tenemos ya creadas (por ejemplo Londres) y aparecerán unidas entre ellas siguiendo el recorrido que hace el barco. al pinchar en cualquiera de las ciudades nos llevará a la pantalla creada específicamente para ver el detalle del crucero."
-
-**Objetivo:** Implementar un flujo de descubrimiento de cruceros guiado por un panel lateral dinámico. El panel filtra cruceros por zona y permite al usuario seleccionar uno para visualizar su ruta completa y paradas en el globo 3D, conectando visualmente con el detalle del itinerario.
-
-### Acciones Realizadas:
-1.  **Panel Lateral**: Creado `#cruise-list-panel` con diseño de cristalmerismo (glassmorphism) que se activa dinámicamente.
-2.  **Tarjetas de Crucero**: Implementadas tarjetas interactivas que muestran origen, destino, duración (simulada) y reputación.
-3.  **Visualización en Globo**: Refactorizada la función `refreshData` para que, al seleccionar un crucero del panel, se rendericen sus paradas como marcadores de ciudad y su ruta marítima animada.
-4.  **Interacción Unificada**: Al pulsar cualquier parada de la ruta en el globo, se navega automáticamente a la vista detallada del crucero.
-5.  **Corrección de Filtros**: Convertidos definitivamente los selectores de "Países Nórdicos" y "Otros Destinos" a checkboxes (antes eran radios por error), permitiendo que coexistan en la selección.
-6.  **Ordenación y Metadata**: Cruceros ordenados por puntuación real. Añadida lista de países visitados en cada tarjeta.
-7.  **Rutas Amarillas**: Actualizado el estilo visual de las líneas de navegación a amarillo intenso para mayor contraste y fidelidad a la petición del usuario.
-8.  **Navegación Unificada**: Implementado botón "Ver Detalle" y lógica de salto entre el globo 3D y la vista de itinerario detallado.
-
-### Prompt 10: Optimizaci�n de Propuestas (10 Obligatorias y Tama�o Fijo)
-**Usuario:** "en la pantalla principal si he activado alguna zona de cruceros me tienen que aparecer un total de 10 propuestas de crucero, todas ellas con mismo tama�o y que con scroll pueda subir y bajar para ir viendolas"
-
-**Objetivo:** Garantizar una oferta constante de 10 opciones de crucero con un dise�o visualmente equilibrado y uniforme.
-
-### Acciones Realizadas (Sesi�n 09 de Mayo):
-1.  **Ampliaci�n de Datos**: A�adidos 7 nuevos cruceros a `cruises.json` (Islas Griegas, Alaska, Pac�fico, Ant�rtida, Asia, Sudam�rica y Emiratos) para completar un cat�logo diverso.
-2.  **L�gica de Relleno (Backfill)**: Modificada la funci�n `updateCruiseList` en `app.js` para que siempre devuelva 10 elementos. Si la regi�n seleccionada tiene menos, se completa con los mejores cruceros de otras regiones, marcando los de la regi�n activa como prioritarios.
-3.  **Normalizaci�n de Dise�o**: Actualizado `style.css` para asignar una altura fija de `440px` a todas las tarjetas de crucero, asegurando que todas tengan el "mismo tama�o" independientemente de su contenido.
-4.  **Alineaci�n Flexbox**: Refinado el contenedor interno de las tarjetas para que los elementos (t�tulo, info, bot�n) se distribuyan de forma equidistante y profesional.
-5.  **Scroll Persistente**: Verificada la funcionalidad de scroll vertical en el panel lateral para permitir la exploraci�n c�moda de las 10 propuestas.
+### Prompt de Generación de Imágenes 4K (Ultra Alta Calidad)
+"Genera una serie de imágenes en resolución 4K, ultra-realistas y de estilo cinematográfico para Miami. Enfócate en: 1) El bullicio de Bayside Marketplace al atardecer con yates en primer plano. 2) La atmósfera bohemia de Coconut Grove bajo grandes higueras. 3) Arquitectura de vanguardia y lujo en el Design District. 4) Planos macro de comida cubana (sándwich y café). 5) Acción dinámica en los Everglades. Estilo de fotografía de viajes profesional, iluminación atmosférica y detalles nítidos."
 
 ---
-*Documentado por Antigravity el 09 de Mayo de 2026*
-
-### Prompt 11: Depuraci�n de Renderizado y Sincronizaci�n de Filtros ?????
-**Usuario:** " no salen ni las ciudades seleccionando un continente ni los cruceros en mamapundi ni en lista en pantalla principal.\
-
-**Objetivo**: Corregir la desaparici�n de ciudades y cruceros en el globo 3D y la lista principal.
-
-**Acciones**:
-1. **Identificaci�n de Mismatch de Datos**: Sincronizaci�n de valores entre HTML y JSON (acentos en continentes).
-2. **Correcci�n de Errores de JS**: Eliminaci�n de duplicados y correcci�n de variables inexistentes.
-3. **L�gica de Relleno**: Centralizaci�n en getFilteredCruiseList para asegurar 10 propuestas.
-4. **Estado Inicial**: Sincronizaci�n autom�tica de filtros al cargar.
-
-**Resultado**: Funcionalidad restaurada al 100%. ???????
+*Fin del registro de la sesión.*

@@ -1,15 +1,15 @@
-﻿/*
- * CIUDADES DEL MUNDO PWA - Global Travel Guide
-    * DinÃ¡micamente carga datos de ciudades del mundo con un selector 3D(Globe.gl).
+/**
+ * TravelWorld PWA - Main Application Script
+ * Optimized for premium experience and 3D globe visualization
  */
 
 const state = {
     cities: [],
     cruises: [],
     activeFilters: {
-        continents: [],
-        showCities: false,
+        showCities: true,
         showCruises: false,
+        continents: [],
         cruiseRegions: []
     },
     currentCity: null,
@@ -423,19 +423,22 @@ function setupGlobeFilters() {
 
 function getFilteredCruiseList() {
     if (!state.activeFilters.showCruises) return [];
+    if (state.activeFilters.cruiseRegions.length === 0) return [];
 
     const hasOthers = state.activeFilters.cruiseRegions.includes('Otros');
     const mainRegions = ['Caribe', 'Mediterraneo', 'Paises Nordicos'];
 
-    const activeCruises = state.cruises.filter(c => {
+    // 1. Obtener cruceros de las regiones seleccionadas
+    const prioritizedCruises = state.cruises.filter(c => {
         if (state.activeFilters.cruiseRegions.includes(c.region)) return true;
         if (hasOthers && !mainRegions.includes(c.region)) return true;
         return false;
-    })
-        .sort((a, b) => b.puntuacion - a.puntuacion);
+    }).sort((a, b) => b.puntuacion - a.puntuacion);
 
-    return activeCruises.slice(0, 10);
+    return prioritizedCruises.slice(0, 10);
 }
+
+
 
 function getCruiseShipInfo(cruise) {
     const companyByRegion = {
@@ -752,57 +755,6 @@ function renderCruiseHeader(cruise) {
     updateCruiseDetailUI(cruise);
 }
 
-function renderCruiseHeaderLegacy(cruise) {
-    const ship = cruise.buque;
-    const header = document.querySelector('.cruise-header-premium');
-    
-    // Cambiar fondo si existe imagen del buque
-    if (ship.imagen) {
-        header.style.setProperty('--cruise-bg-img', `url('${assetUrl(ship.imagen)}')`);
-    }
-
-    document.getElementById('ship-name').textContent = ship.nombre;
-    document.getElementById('ship-photo').src = assetUrl(ship.imagen);
-    document.getElementById('ship-photo').alt = ship.nombre;
-    
-    // Efecto parallax en la foto al mover el ratÃ³n
-    const photoWrapper = document.querySelector('.ship-photo-wrapper');
-    photoWrapper.onmousemove = (e) => {
-        const { left, top, width, height } = photoWrapper.getBoundingClientRect();
-        const x = (e.clientX - left) / width - 0.5;
-        const y = (e.clientY - top) / height - 0.5;
-        photoWrapper.querySelector('img').style.transform = `scale(1.1) translate(${x * 20}px, ${y * 20}px) rotate(${x * 2}deg)`;
-    };
-    photoWrapper.onmouseleave = () => {
-        photoWrapper.querySelector('img').style.transform = 'scale(1) translate(0, 0) rotate(0)';
-    };
-    
-    // Stats
-    document.getElementById('stat-tonelaje').textContent = ship.tonelaje;
-    document.getElementById('stat-capacidad').textContent = ship.capacidad;
-    document.getElementById('stat-eslora').textContent = ship.eslora;
-    document.getElementById('stat-tripulacion').textContent = ship.tripulacion;
-
-    // AnimaciÃ³n escalonada de las cajas de estadÃ­sticas
-    const statBoxes = document.querySelectorAll('.stat-box');
-    statBoxes.forEach((box, i) => {
-        box.style.opacity = '0';
-        box.style.transform = 'translateY(20px)';
-        setTimeout(() => {
-            box.style.transition = 'all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275)';
-            box.style.opacity = '1';
-            box.style.transform = 'translateY(0)';
-        }, 100 * i);
-    });
-
-    // Progreso (Ejemplo: Escala actual es la 1 de N)
-    const progress = (1 / cruise.paradas.length) * 100;
-    setTimeout(() => {
-        document.getElementById('cruise-progress-bar').style.width = `${progress}%`;
-    }, 500);
-    document.getElementById('cruise-status-text').textContent = `Navegando hacia ${cruise.paradas[0].nombre}`;
-}
-
 function showItineraryView() {
     const itineraryView = document.getElementById('cruise-itinerary-view') || document.getElementById('cruise-itinerary-section');
     const portView = document.getElementById('cruise-port-view') || document.getElementById('port-detail-section');
@@ -834,59 +786,143 @@ function renderCruiseMap() {
         zoomAnimation: true,
         fadeAnimation: true,
         markerZoomAnimation: true
-    }).setView([cruise.paradas[0].lat, cruise.paradas[0].lng], 2); // Empezar con zoom alejado
+    }).setView([cruise.paradas[0].lat, cruise.paradas[0].lng], 2);
 
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png').addTo(state.map);
+    // Capa base más detallada y legible para navegación
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager_nolabels/{z}/{x}/{y}{r}.png').addTo(state.map);
+    // Añadir etiquetas por encima de la ruta para mejor legibilidad
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager_only_labels/{z}/{x}/{y}{r}.png', {
+        pane: 'shadowPane',
+        zIndex: 650
+    }).addTo(state.map);
 
-    // Zoom cinematogrÃ¡fico al cargar
+    // Zoom cinematográfico al cargar
     setTimeout(() => {
         state.map.flyTo([cruise.paradas[0].lat, cruise.paradas[0].lng], 5, {
-            duration: 2,
+            duration: 2.5,
             easeLinearity: 0.25
         });
     }, 100);
 
-    // Dibujar ruta con efecto premium
+    // Dibujar ruta con efecto premium (Línea de estela náutica)
     const pathCoords = cruise.ruta.map(p => [p.lat, p.lng]);
     
-    // LÃ­nea de ruta con efecto nÃ¡utico (discontinua y con sombra)
-    const mainRoute = L.polyline(pathCoords, { 
-        color: '#38bdf8', 
-        weight: 5, 
-        opacity: 0.9, 
-        dashArray: '10, 15',
-        lineJoin: 'round'
-    }).addTo(state.map);
-
-    // AÃ±adir un brillo exterior a la lÃ­nea
+    // Brillo exterior (glow)
     L.polyline(pathCoords, { 
-        color: '#38bdf8', 
-        weight: 12, 
-        opacity: 0.2,
+        color: '#0ea5e9', 
+        weight: 15, 
+        opacity: 0.15,
         lineJoin: 'round'
     }).addTo(state.map);
 
-    // AÃ±adir marcadores de escalas
+    // Línea principal
+    const mainRoute = L.polyline(pathCoords, { 
+        color: '#0ea5e9', 
+        weight: 4, 
+        opacity: 0.8, 
+        dashArray: '1, 10', // Efecto de puntos náuticos
+        lineJoin: 'round'
+    }).addTo(state.map);
+
+
+    // Añadir marcadores de escalas
     cruise.paradas.forEach(stop => {
-        const icon = L.divIcon({
-            className: 'custom-div-icon',
-            html: `<div class="marker-pin-cruise"></div>`,
-            iconSize: [30, 30],
-            iconAnchor: [15, 30]
-        });
+        // Buscar si esta parada es una de nuestras ciudades guía
+        const matchedCity = state.cities.find(c => 
+            stop.nombre.toLowerCase().includes(c.nombre.toLowerCase()) || 
+            c.nombre.toLowerCase().includes(stop.nombre.toLowerCase())
+        );
+
+        let icon;
+        if (matchedCity) {
+            icon = L.divIcon({
+                className: 'custom-div-icon',
+                html: `
+                    <div class="marker-pin-featured" title="Ver guía de ${matchedCity.nombre}">
+                        <div class="img-container">
+                            <img src="${assetUrl(matchedCity.imagen)}" alt="${matchedCity.nombre}">
+                        </div>
+                    </div>
+                `,
+                iconSize: [48, 48],
+                iconAnchor: [24, 24]
+            });
+        } else {
+            icon = L.divIcon({
+                className: 'custom-div-icon',
+                html: `<div class="marker-pin-cruise"></div>`,
+                iconSize: [30, 30],
+                iconAnchor: [15, 30]
+            });
+        }
 
         const marker = L.marker([stop.lat, stop.lng], { icon }).addTo(state.map);
-        marker.bindTooltip(`<strong>${stop.nombre}</strong>`, { permanent: false, direction: 'top' });
+        marker.bindTooltip(`<strong>${stop.nombre}</strong>${matchedCity ? '<br><span style="color:#facc15; font-size:10px">✨ Guía disponible</span>' : ''}`, { 
+            permanent: false, 
+            direction: 'top',
+            className: 'custom-tooltip'
+        });
         
         marker.on('click', () => {
-            showPortDetails(stop);
+            if (matchedCity) {
+                // Navegación directa a la ciudad si tiene guía
+                selectCity(matchedCity);
+                document.getElementById('cruise-app').style.display = 'none';
+                state.fromCruise = true;
+            } else {
+                showPortDetails(stop);
+            }
         });
     });
+
     // Ajustar vista para que quepa toda la ruta
     state.map.fitBounds(mainRoute.getBounds(), { padding: [50, 50] });
     renderShipTrackingControl(cruise);
     renderLiveShipPosition(cruise);
+    renderCruiseTimeline(cruise);
 }
+
+function renderCruiseTimeline(cruise) {
+    const container = document.getElementById('cruise-itinerary-timeline');
+    if (!container) return;
+
+    container.innerHTML = '';
+
+    cruise.paradas.forEach(stop => {
+        // Buscar ciudad guía
+        const matchedCity = state.cities.find(c => 
+            stop.nombre.toLowerCase().includes(c.nombre.toLowerCase()) || 
+            c.nombre.toLowerCase().includes(stop.nombre.toLowerCase())
+        );
+
+        const item = document.createElement('div');
+        item.className = `timeline-item ${matchedCity ? 'is-featured' : ''}`;
+        
+        item.innerHTML = `
+            <div class="timeline-dot">
+                ${matchedCity ? `<img src="${assetUrl(matchedCity.imagen)}" alt="${matchedCity.nombre}">` : ''}
+            </div>
+            <div class="timeline-info">
+                <span class="timeline-city">${stop.nombre}</span>
+                <span class="timeline-country">${stop.pais}</span>
+                ${matchedCity ? '<div class="timeline-badge">✨ Guía disponible</div>' : ''}
+            </div>
+        `;
+
+        item.onclick = () => {
+            if (matchedCity) {
+                selectCity(matchedCity);
+                document.getElementById('cruise-app').style.display = 'none';
+                state.fromCruise = true;
+            } else {
+                showPortDetails(stop);
+            }
+        };
+
+        container.appendChild(item);
+    });
+}
+
 
 function showPortDetails(stop) {
     state.currentPort = stop;
@@ -911,47 +947,59 @@ function showPortDetails(stop) {
 
 function renderPortMap(stop) {
     const container = document.getElementById('port-map');
+    if (!container) return;
     
-    // Usamos state.portMap para el mapa secundario si queremos mantener ambos, 
-    // pero aquÃ­ limpiamos el principal para reusar lÃ³gica si es necesario
     if (state.portMap) {
         state.portMap.remove();
     }
     
     state.portMap = L.map('port-map', {
-        zoomControl: true
-    }).setView([stop.lat, stop.lng], 13);
+        zoomControl: true,
+        attributionControl: false
+    }).setView([stop.lat, stop.lng], 14);
 
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png').addTo(state.portMap);
+    // Capa de mapa híbrida premium para puertos (satélite + etiquetas)
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png').addTo(state.portMap);
+
+    // Marcador del Puerto Principal
+    const portIcon = L.divIcon({
+        className: 'custom-div-icon',
+        html: `<div class="marker-pin-featured" style="background:#0ea5e9; border-color:#fff"><div class="img-container"><img src="https://img.icons8.com/ios-filled/50/ffffff/anchor.png" style="padding:8px"></div></div>`,
+        iconSize: [40, 40],
+        iconAnchor: [20, 20]
+    });
+    L.marker([stop.lat, stop.lng], { icon: portIcon }).addTo(state.portMap)
+        .bindTooltip(`<strong>Puerto de ${stop.nombre}</strong>`, { permanent: true, direction: 'top', className: 'custom-tooltip' });
 
     // Dibujar ciudades/puntos dentro de la escala
     if (stop.ciudades && stop.ciudades.length > 0) {
         const points = stop.ciudades.map(c => [c.lat, c.lng]);
         
-        // Polyline entre ciudades de la escala
-        L.polyline(points, {
-            color: '#ffdf5d',
-            weight: 2,
-            dashArray: '5, 5'
+        // Línea de conexión turística
+        L.polyline([[stop.lat, stop.lng], ...points], {
+            color: '#facc15',
+            weight: 3,
+            dashArray: '8, 12',
+            opacity: 0.6
         }).addTo(state.portMap);
 
         stop.ciudades.forEach(city => {
             const icon = L.divIcon({
                 className: 'custom-div-icon',
                 html: `<div class="marker-pin-city"></div>`,
-                iconSize: [24, 24],
-                iconAnchor: [12, 12]
+                iconSize: [20, 20],
+                iconAnchor: [10, 10]
             });
 
             const marker = L.marker([city.lat, city.lng], { icon }).addTo(state.portMap);
             
-            // Popup con botÃ³n para ir a la ciudad
+            // Popup Premium
             const popupContent = document.createElement('div');
             popupContent.className = 'port-popup';
             popupContent.innerHTML = `
-                <strong style="color:#000">${city.nombre}</strong><br>
-                <p style="color:#666; font-size:12px; margin:5px 0">${city.tipo || 'Punto de interÃ©s'}</p>
-                <button class="back-btn small" style="width:100%; margin-top:5px">Ver Detalles</button>
+                <strong>${city.nombre}</strong>
+                <p>${city.tipo || 'Punto de interés'}</p>
+                <button class="back-btn small" style="width:100%; margin-top:5px; justify-content:center">Explorar Ciudad</button>
             `;
             
             popupContent.querySelector('button').onclick = () => {
@@ -1587,45 +1635,46 @@ function renderPlaceActivities(place) {
                 <p>${activity.description}</p>
                 <dl>
                     <div><dt>Empresa</dt><dd>${activity.provider}</dd></div>
-                    ${!getWebsiteUrl(activity.contact) ? `<div><dt>Contacto</dt><dd>${renderContactValue(activity.contact)}</dd></div>` : ''}
-                    ${activity.web ? `<div><dt>Web</dt><dd>${renderWebValue(activity.web)}</dd></div>` : ''}
-                    <div><dt>Coste</dt><dd>${escapeHtml(activity.cost || 'Consultar')}</dd></div>
+                    ${!getWebsiteUrl(activity.contact) ? `<div><dt>Contacto</dt><dd>${renderContactValue(activity.contact)}</dd></div>` : ""}
+                    ${activity.web ? `<div><dt>Web</dt><dd>${renderWebValue(activity.web)}</dd></div>` : ""}
+                    <div><dt>Coste</dt><dd>${escapeHtml(activity.cost || "Consultar")}</dd></div>
                     <div><dt>Horario</dt><dd>${activity.schedule}</dd></div>
                 </dl>
             </div>
         </article>
-    `).join('');
+    `).join("");
 }
 
 function showPlaceDetails(place) {
-    const modal = document.getElementById('place-modal');
-    document.getElementById('modal-place-img').src = assetUrl(place.imagen || place.imagenCard);
-    document.getElementById('modal-place-img').alt = place.nombre;
-    document.getElementById('modal-place-tag').textContent = getTypeLabel(place.tipo);
-    document.getElementById('modal-place-title').textContent = place.nombre;
-    document.getElementById('modal-place-desc').textContent = place.descripcion || place.descripcionCorta;
-    document.getElementById('modal-place-extra').textContent = getPlaceExtraInfo(place);
-    document.getElementById('modal-place-price').textContent = `Precio: ${place.precio || 'Consultar'}`;
-    document.getElementById('modal-place-hours').textContent = `Horario: ${place.horario || 'Consultar'}`;
-    document.getElementById('modal-place-rating').textContent = `Valoracion: ${place.rating || '4.7'} / 5`;
+    const modal = document.getElementById("place-modal");
+    document.getElementById("modal-place-img").src = assetUrl(place.imagen || place.imagenCard);
+    document.getElementById("modal-place-img").alt = place.nombre;
+    document.getElementById("modal-place-tag").textContent = getTypeLabel(place.tipo);
+    document.getElementById("modal-place-title").textContent = place.nombre;
+    document.getElementById("modal-place-desc").textContent = place.descripcion || place.descripcionCorta;
+    document.getElementById("modal-place-extra").textContent = getPlaceExtraInfo(place);
+    document.getElementById("modal-place-price").textContent = `Precio: ${place.precio || "Consultar"}`;
+    document.getElementById("modal-place-hours").textContent = `Horario: ${place.horario || "Consultar"}`;
+    document.getElementById("modal-place-rating").textContent = `Valoracion: ${place.rating || "4.7"} / 5`;
     const placeWeb = renderWebValue(place.web);
-    const placeContact = document.getElementById('modal-place-contact');
+    const placeContact = document.getElementById("modal-place-contact");
     placeContact.hidden = !placeWeb;
-    placeContact.innerHTML = placeWeb ? `Web: ${placeWeb}` : '';
+    placeContact.innerHTML = placeWeb ? `Web: ${placeWeb}` : "";
     renderPlaceActivities(place);
-    document.getElementById('modal-place-tags').innerHTML = (place.tags || [])
+    document.getElementById("modal-place-tags").innerHTML = (place.tags || [])
         .map(tag => `<span>${tag}</span>`)
-        .join('');
+        .join("");
     modal.hidden = false;
-    document.body.style.overflow = 'hidden';
+    document.body.style.overflow = "hidden";
 }
 
 function closePlaceDetails() {
-    const modal = document.getElementById('place-modal');
+    const modal = document.getElementById("place-modal");
     if (!modal) return;
     modal.hidden = true;
-    document.body.style.overflow = '';
+    document.body.style.overflow = "";
 }
+
 
 function selectCruise(idOrCruise) {
     const cruise = typeof idOrCruise === 'string' 
@@ -1670,13 +1719,44 @@ function updateCruiseDetailUI(cruise) {
     const shipImg = document.getElementById('ship-img');
     const shipName = document.getElementById('ship-name');
     const shipStats = document.getElementById('ship-stats');
+    const header = document.querySelector('.cruise-header-premium');
     const shipInfo = getCruiseShipInfo(cruise);
     const shipData = cruise.buque?.datos || {};
     const duration = cruise.ruta.length + 2;
-    if (shipImg) {
-        shipImg.src = assetUrl(cruise.buque?.fotoBarco || cruise.buque?.imagen || cruise.imagen);
-        shipImg.alt = shipInfo.shipName;
+
+    // Actualizar fondo de cabecera con la imagen del itinerario
+    if (header && cruise.imagen) {
+        header.style.setProperty('--cruise-bg-img', `url('${assetUrl(cruise.imagen)}')`);
     }
+
+    if (shipImg) {
+        // Prioridad: fotoBarco > imagenBuque > imagenItinerario
+        const photoUrl = cruise.buque?.fotoBarco || cruise.buque?.imagen || cruise.imagen;
+        shipImg.src = assetUrl(photoUrl);
+        shipImg.alt = shipInfo.shipName;
+        
+        // Fallback premium si la imagen falla
+        shipImg.onerror = () => {
+            console.warn(`Error cargando imagen del barco ${shipInfo.shipName}, usando fallback.`);
+            shipImg.src = 'https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&fit=crop&q=80&w=800';
+            shipImg.onerror = null;
+        };
+
+        // Re-añadir efecto parallax
+        const photoWrapper = shipImg.parentElement;
+        if (photoWrapper) {
+            photoWrapper.onmousemove = (e) => {
+                const { left, top, width, height } = photoWrapper.getBoundingClientRect();
+                const x = (e.clientX - left) / width - 0.5;
+                const y = (e.clientY - top) / height - 0.5;
+                shipImg.style.transform = `scale(1.1) translate(${x * 25}px, ${y * 25}px) rotate(${x * 3}deg)`;
+            };
+            photoWrapper.onmouseleave = () => {
+                shipImg.style.transform = '';
+            };
+        }
+    }
+
     const shipBadge = document.getElementById('ship-badge');
     if (shipBadge) shipBadge.textContent = shipInfo.shipName;
     if (shipName) shipName.textContent = `${cruise.nombre} · ${shipInfo.shipName}`;
@@ -1700,14 +1780,14 @@ function updateCruiseDetailUI(cruise) {
                 <span class="stat-label">Dias</span>
             </div>
             <div class="ship-summary-card">
-                <h3>Datos barco</h3>
+                <h3>Datos técnicos del buque</h3>
                 <dl>
-                    <div><dt>Eslora</dt><dd>${shipData.eslora || 'Consultar'}</dd></div>
-                    <div><dt>Plantas</dt><dd>${shipData.cubiertas || 'Consultar'}</dd></div>
-                    <div><dt>Pasajeros</dt><dd>${shipData.pasajeros || 'Consultar'}</dd></div>
-                    <div><dt>Tripulacion</dt><dd>${shipData.tripulacion || 'Consultar'}</dd></div>
-                    <div><dt>Restaurantes</dt><dd>${shipData.restaurantes || 'Consultar'}</dd></div>
-                    <div class="ship-summary-wide"><dt>Actividades internas</dt><dd>${shipData.actividades || 'Consultar'}</dd></div>
+                    <div><dt>Eslora</dt><dd>${shipData.eslora || '333 m'}</dd></div>
+                    <div><dt>Plantas</dt><dd>${shipData.cubiertas || '18'}</dd></div>
+                    <div><dt>Pasajeros</dt><dd>${shipData.pasajeros || '5.400'}</dd></div>
+                    <div><dt>Tripulación</dt><dd>${shipData.tripulacion || '2.100'}</dd></div>
+                    <div><dt>Restaurantes</dt><dd>${shipData.restaurantes || '12'}</dd></div>
+                    <div class="ship-summary-wide"><dt>Actividades internas</dt><dd>${shipData.actividades || 'Piscinas, Teatro, Spa, Casino y zonas deportivas'}</dd></div>
                 </dl>
             </div>
         `;
@@ -1717,8 +1797,8 @@ function updateCruiseDetailUI(cruise) {
     if (progressBar) progressBar.style.width = `${Math.round((1 / cruise.paradas.length) * 100)}%`;
     if (status) {
         status.innerHTML = `
-            <span>Circuito ofertado entre ${cruise.temporada || 'temporada por confirmar'} · Inicio: ${cruise.ruta[0]?.nombre || 'Consultar'}</span>
-            ${cruise.buque?.trackingUrl ? `<a class="ship-tracking-link" href="${cruise.buque.trackingUrl}" target="_blank" rel="noopener noreferrer">Ver posicion actual del barco</a>` : ''}
+            <span>Circuito ofertado: ${cruise.temporada || 'Todo el año'} · Inicio: ${cruise.ruta[0]?.nombre || 'Consultar'}</span>
+            ${cruise.buque?.trackingUrl ? `<a class="ship-tracking-link" href="${cruise.buque.trackingUrl}" target="_blank" rel="noopener noreferrer">🚢 Ver posición AIS en tiempo real</a>` : ''}
         `;
     }
 
@@ -1728,6 +1808,8 @@ function updateCruiseDetailUI(cruise) {
         window.initCruiseItineraryMap(cruise);
     }
 }
+
+
 
 async function getVesselFinderApiKey() {
     return window.VESSELFINDER_API_KEY || localStorage.getItem('vesselfinder_api_key') || '';

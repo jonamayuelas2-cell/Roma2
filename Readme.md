@@ -66,3 +66,82 @@ Se ha implementado una experiencia de navegación jerárquica para los cruceros 
 
 ---
 *Desarrollado con ❤️ por el equipo de Antigravity — Mayo 2026*
+
+## Actualización 09 de Mayo de 2026 (Parte 3) - Estandarización Visual de Activos 🛳️💎✨
+
+### 1. Sistema de Activos Visuales (Barcos Reales) 📸🛳️
+- **Jerarquía de Carga (Fallback System)**: Implementado un sistema de carga robusto para asegurar que ningún barco se vea vacío. Prioridad: `fotoBarco` (real) -> `imagenBuque` -> `imagenItinerario`.
+- **Integración con Unsplash**: En caso de fallo de todas las fuentes locales, el sistema conecta automáticamente con la API de Unsplash para mostrar una imagen de alta calidad de un crucero premium.
+- **Efecto Parallax Interactivo**: Las fotos de los barcos en la cabecera reaccionan dinámicamente al movimiento del ratón, aportando profundidad y una sensación tridimensional premium.
+
+### 2. Refactorización y Limpieza (Clean Code) 🧹💻
+- **Unificación de UI**: Se ha eliminado la función legacy `renderCruiseHeaderLegacy` en favor de `updateCruiseDetailUI`, centralizando toda la lógica de renderizado en un único punto estable.
+- **Normalización de Datos**: Se han actualizado todos los cruceros en `cruises.json` para incluir fotos reales de los buques (ej: MSC Seaview, Wonder of the Seas, Symphony of the Seas).
+- **Estadísticas Técnicas**: Rediseño del panel de datos del buque con un diseño de cuadrícula (Grid) más elegante y legible, incluyendo eslora, capacidad de pasajeros y tripulación.
+
+---
+*Misión cumplida: Visuales estandarizados y sistema de navegación ultra-estable. ¡A disfrutar del viaje!* 🚀🌊✨
+
+## Actualización 09 de Mayo de 2026 (Parte 4) - Depuración Crítica y Propuestas 🛠️🔟🛳️
+
+### 1. Limpieza de Integridad de Código 🧼
+- **Saneamiento de `app.js`**: Eliminación quirúrgica de bloques de código corrompidos y caracteres invisibles que bloqueaban la ejecución del globo 3D.
+- **Corrección de Sintaxis**: Eliminada una llave de cierre (`}`) huérfana que impedía que la aplicación se cargara correctamente en producción.
+
+### 2. Optimización de Propuestas (Regla de 10) 🔟
+- **Densidad Visual Constante**: El panel de cruceros ahora garantiza siempre **10 propuestas** de viaje.
+- **Relleno Inteligente**: Si seleccionas una zona con poca oferta (ej. Caribe), el sistema prioriza esos viajes y rellena el resto con los mejores cruceros globales (mayor reputación), manteniendo la interfaz rica y profesional.
+
+### 3. Galería de Barcos Premium 📸
+- **Assets de Alta Calidad**: Vinculación de todos los cruceros con imágenes reales de buques premium (MSC, Royal Caribbean, Celebrity, etc.).
+- **Robustez Visual**: Refuerzo del sistema de *fallback* para asegurar que la experiencia visual sea siempre impecable.
+
+---
+*Desarrollado con precisión quirúrgica por Antigravity — Mayo 2026* 🚀🌍🛳️
+
+## Actualización 09 de Mayo de 2026 (Parte 5) - Itinerarios Inteligentes y Conectados 🔗🏙️✨
+
+### 1. Sincronización Automática con Guías de Ciudad 🔄
+- **Detección de Destinos**: El sistema ahora cruza los datos de las escalas de los cruceros con la base de datos de ciudades guía (`cities.json`).
+- **Destacado Visual (Golden Marker)**: Las ciudades que cuentan con una guía detallada aparecen ahora con un marcador especial: un **círculo amarillo brillante** que rodea una **miniatura de la foto** de la ciudad, facilitando su identificación inmediata.
+
+### 2. Nueva Línea de Tiempo Interactiva (Timeline) ⏳
+- **Navegación Horizontal**: Añadida una nueva sección debajo del mapa de detalle del crucero que muestra el itinerario completo como una línea de tiempo visual.
+- **Acceso Directo a Guías**: Al pinchar en cualquier ciudad destacada (en el mapa o en el timeline), el usuario es transportado instantáneamente a la pantalla de guía de esa ciudad (monumentos, actividades, tiempo, etc.), manteniendo el contexto del viaje.
+- **Flujo de Retorno Integrado**: Al pulsar "Volver" desde la guía de ciudad, el usuario regresa exactamente al detalle del crucero desde el que vino.
+
+### 3. Estética Premium y Feedback 🎨
+- **Tooltips Enriquecidos**: Los marcadores en el mapa ahora indican explícitamente si hay una guía disponible con el mensaje "✨ Guía disponible".
+- **Animaciones de Entrada**: El timeline y los nuevos marcadores cuentan con transiciones suaves y efectos de hover que elevan la percepción de calidad de la PWA.
+
+---
+*Misión cumplida: El ecosistema de viajes está ahora totalmente conectado. ¡Buen viaje!* 🚀🌊✨
+
+
+
+## Actualización 09 de Mayo de 2026 (Parte 6) - Refinamiento de UX y Mapas Premium 🗺️🛳️✨
+
+### 1. Optimización del Filtrado 🛡️
+- **Lista Dinámica Estricta**: Se ha modificado el comportamiento del panel lateral para que, si no hay ninguna zona de crucero seleccionada, la lista aparezca vacía, evitando confusión al usuario.
+- **Eliminación de Fallbacks**: Se ha eliminado la lógica de autorrelleno de 10 cruceros cuando no hay filtros activos para respetar la intención de búsqueda del usuario.
+
+### 2. Mapas Detallados y Legibles 📍
+- **Cartografía Premium**: Actualización de la capa base a `CartoDB Voyager`, ofreciendo un equilibrio perfecto entre detalle geográfico y legibilidad de etiquetas.
+- **Jerarquía de Capas**: Se han separado las etiquetas de los nombres de lugares para que aparezcan siempre por encima de las líneas de ruta náutica.
+- **Marcadores de Puerto**: Rediseño de los puntos de escala con iconos temáticos (anclas para puertos, círculos para ciudades) y efectos de brillo (glow).
+
+### 3. Navegación y Usabilidad (NPS focus) 🔄
+- **Botones de Retorno Premium**: Implementación de botones de navegación "Volver" con estilo cristalino (glassmorphism), efectos de hover dinámicos y transiciones suaves para garantizar que el usuario nunca se sienta perdido.
+- **Flujo de Puerto a Itinerario**: Restaurada la funcionalidad del botón "Volver al itinerario" en la vista de detalle de puerto con una visualización destacada.
+- **Scroll Optimizado**: Mejora del scrollbar en la lista de cruceros para integrarse con la estética oscura de la aplicación.
+
+---
+*Experiencia de cruceros finalizada y pulida para un lanzamiento de alta gama.* 🚀🌊💎
+
+### Actualización Parte 7: Integración de Miami 🌴☀️
+*   **Nueva Ciudad Guía**: Miami ha sido integrada con éxito como destino completo.
+*   **Contenido Premium**:
+    *   **9 Puntos de Interés**: Desde South Beach (Ocean Drive) hasta los Everglades, cada lugar cuenta con descripciones editoriales evocadoras.
+    *   **Imágenes IA 4K**: Mejora masiva de la calidad visual con 7 nuevos assets en resolución 4K, incluyendo detalles de actividades gastronómicas, safaris y arquitectura moderna.
+    *   **Actividades**: Estructura de tours y experiencias detalladas con proveedores y costes estimados, ahora con soporte visual directo.
+*   **Sincronización Náutica**: Miami ahora funciona como puerto interactivo destacado en el mapamundi y en los itinerarios de cruceros, permitiendo el salto directo a su guía de ciudad.

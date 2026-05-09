@@ -16993,5 +16993,269 @@
         "web": "https://www.cafecentral.wien/en"
       }
     ]
+  },
+  {
+    "id": "miami",
+    "nombre": "Miami",
+    "pais": "Estados Unidos",
+    "continente": "América",
+    "emoji": "🇺🇸",
+    "lat": 25.7617,
+    "lng": -80.1918,
+    "imagen": "miami_main_hero_1778349495230.png",
+    "theme": {
+      "primary": "#00d4ff",
+      "secondary": "#ff00d4",
+      "font": "'Outfit', sans-serif"
+    },
+    "lugares": [
+      {
+        "id": 1,
+        "nombre": "Ocean Drive (South Beach)",
+        "tipo": "cultura",
+        "descripcion": "El corazón del distrito Art Déco, famoso por sus hoteles de colores pastel y su energía incesante frente al mar. Es el lugar perfecto para observar a la gente, admirar la arquitectura de los años 30 y disfrutar de la vida nocturna de Miami.",
+        "descripcionCorta": "El alma vibrante y neón de South Beach.",
+        "lat": 25.782,
+        "lng": -80.13,
+        "horario": "Abierto 24h",
+        "precio": "Gratis",
+        "rating": 4.8,
+        "imagen": "miami_ocean_drive_1778349577630.png",
+        "imagenCard": "miami_ocean_drive_1778349577630.png",
+        "tags": ["art deco", "playa", "neon"],
+        "actividades": [
+          {
+            "titulo": "Tour arquitectonico Art Deco",
+            "descripcion": "Descubre la historia detras de las fachadas geometricas y los colores pastel de Ocean Drive.",
+            "proveedor": "Miami Architecture Tours",
+            "contacto": "info@miamiarch.local",
+            "horario": "10:00 - 12:00",
+            "web": "https://www.miamidesigndistrict.net/",
+            "costeEstimado": "30 €",
+            "imagen": "miami_art_deco_tour_4k_1778349831863.png"
+          },
+          {
+            "titulo": "Paseo al atardecer por la playa",
+            "descripcion": "Un recorrido relajado por la arena y el paseo marítimo cuando se encienden los neones.",
+            "proveedor": "South Beach Walks",
+            "contacto": "hola@sobewalks.local",
+            "horario": "18:00 - 19:30",
+            "web": "https://www.visitsouthbeachonline.com/",
+            "costeEstimado": "Gratis"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "nombre": "Wynwood Walls",
+        "tipo": "museos",
+        "descripcion": "Un museo al aire libre que reúne el mejor arte callejero del mundo en un antiguo distrito industrial transformado. Los murales cambian periódicamente, convirtiéndolo en una galería viva de artistas internacionales.",
+        "descripcionCorta": "El epicentro del arte urbano mundial.",
+        "lat": 25.801,
+        "lng": -80.199,
+        "horario": "11:00 - 19:00",
+        "precio": "12 €",
+        "rating": 4.7,
+        "imagen": "miami_wynwood_walls_1778349523607.png",
+        "imagenCard": "miami_wynwood_walls_1778349523607.png",
+        "tags": ["graffiti", "arte", "hípster"],
+        "actividades": [
+          {
+            "titulo": "Tour de Street Art guiado",
+            "descripcion": "Analisis detallado de los murales y los artistas mas influyentes del distrito de Wynwood.",
+            "proveedor": "Wynwood Art Tours",
+            "contacto": "art@wynwood.local",
+            "horario": "11:00 - 12:30",
+            "web": "https://thewynwoodwalls.com/",
+            "costeEstimado": "20 €"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "nombre": "Little Havana (Calle Ocho)",
+        "tipo": "barrios",
+        "descripcion": "El epicentro de la comunidad cubana en Miami, donde el aroma a café, los puros y el dominó crean una atmósfera auténtica. Pasear por Calle Ocho es sumergirse en la cultura, la música y el sabor de Cuba.",
+        "descripcionCorta": "Un pedazo de Cuba en el corazon de Florida.",
+        "lat": 25.765,
+        "lng": -80.23,
+        "horario": "Abierto 24h",
+        "precio": "Gratis",
+        "rating": 4.6,
+        "imagen": "miami_little_havana_1778349542244.png",
+        "imagenCard": "miami_little_havana_1778349542244.png",
+        "tags": ["cuba", "cultura", "café"],
+        "actividades": [
+          {
+            "titulo": "Ruta Gastronomica Cubana",
+            "descripcion": "Prueba autenticos sandwiches cubanos, croquetas y el famoso café cortadito.",
+            "proveedor": "Little Havana Foodie",
+            "contacto": "sabor@calleocho.local",
+            "horario": "12:00 - 14:00",
+            "web": "https://www.miamiandbeaches.com/neighborhoods/little-havana",
+            "costeEstimado": "35 €",
+            "imagen": "miami_cuban_food_4k_1778349861702.png"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "nombre": "Everglades National Park",
+        "tipo": "parques",
+        "descripcion": "Un ecosistema salvaje único en el mundo, hogar de caimanes, manatíes y aves exóticas. Recorrer sus manglares en hidrodeslizador es una de las experiencias más emocionantes de Florida.",
+        "descripcionCorta": "Naturaleza salvaje y caimanes en libertad.",
+        "lat": 25.35,
+        "lng": -80.85,
+        "horario": "08:00 - 17:00",
+        "precio": "30 € (Entrada parque + Airboat)",
+        "rating": 4.9,
+        "imagen": "miami_everglades_1778349559790.png",
+        "imagenCard": "miami_everglades_1778349559790.png",
+        "tags": ["aventura", "naturaleza", "fauna"],
+        "actividades": [
+          {
+            "titulo": "Safari en Hidrodeslizador",
+            "descripcion": "Recorre los pantanos a alta velocidad avistando caimanes en su habitat natural.",
+            "proveedor": "Everglades Airboat Tours",
+            "contacto": "safari@everglades.local",
+            "horario": "Varios turnos",
+            "web": "https://www.nps.gov/ever/index.htm",
+            "costeEstimado": "45 €",
+            "imagen": "miami_everglades_safari_4k_1778349845932.png"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "nombre": "Vizcaya Museum & Gardens",
+        "tipo": "museos",
+        "descripcion": "Una villa de estilo renacentista italiano frente a la bahía de Biscayne, construida por James Deering. Sus jardines europeos y su colección de arte la convierten en un oasis de elegancia clásica.",
+        "descripcionCorta": "Elegancia renacentista frente a la bahía.",
+        "lat": 25.744,
+        "lng": -80.21,
+        "horario": "09:30 - 16:30",
+        "precio": "25 €",
+        "rating": 4.8,
+        "imagen": "miami_vizcaya_gardens_1778349593591.png",
+        "imagenCard": "miami_vizcaya_gardens_1778349593591.png",
+        "tags": ["historia", "arquitectura", "jardines"],
+        "actividades": [
+          {
+            "titulo": "Tour historico por la Villa",
+            "descripcion": "Visita guiada por las salas opulentas de la mansion principal de Vizcaya.",
+            "proveedor": "Vizcaya Historical Society",
+            "contacto": "tours@vizcaya.local",
+            "horario": "11:00 - 13:00",
+            "web": "https://vizcaya.org/",
+            "costeEstimado": "10 € (Adicional)",
+            "imagen": "miami_vizcaya_gardens_detail_4k_1778349874903.png"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "nombre": "Joe's Stone Crab",
+        "tipo": "restaurantes",
+        "descripcion": "Un icono culinario de Miami Beach fundado in 1913. Famoso mundialmente por sus pinzas de cangrejo moro y su tarta de lima (Key Lime Pie). Una visita obligada para los amantes del marisco.",
+        "descripcionCorta": "El templo del cangrejo moro en South Beach.",
+        "lat": 25.768,
+        "lng": -80.135,
+        "horario": "11:30 - 14:30, 17:00 - 22:00",
+        "precio": "60-100 € (Precio medio)",
+        "rating": 4.9,
+        "imagen": "miami_joes_stone_crab_1778349616347.png",
+        "imagenCard": "miami_joes_stone_crab_1778349616347.png",
+        "tags": ["gastronomía", "marisco", "clásico"],
+        "actividades": [
+          {
+            "titulo": "Cena clasica de marisco",
+            "descripcion": "Experiencia gastronomica tradicional centrada en el cangrejo moro de temporada.",
+            "proveedor": "Joe's Stone Crab",
+            "contacto": "reservations@joes.local",
+            "horario": "Noches",
+            "web": "https://www.joesstonecrab.com/",
+            "costeEstimado": "80 €"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "nombre": "Bayside Marketplace",
+        "tipo": "mercados",
+        "descripcion": "Un centro comercial y gastronómico a orillas del mar en el Downtown de Miami. Es el punto de partida de los populares tours en barco 'Millionaire's Row' para ver las mansiones de los famosos.",
+        "descripcionCorta": "Compras y ocio frente al puerto de Miami.",
+        "lat": 25.778,
+        "lng": -80.187,
+        "horario": "10:00 - 22:00",
+        "precio": "Gratis",
+        "rating": 4.4,
+        "imagen": "miami_bayside_marketplace_4k_1778349782938.png",
+        "imagenCard": "miami_bayside_marketplace_4k_1778349782938.png",
+        "tags": ["compras", "ocio", "puerto"],
+        "actividades": [
+          {
+            "titulo": "Crucero por la Bahia de Biscayne",
+            "descripcion": "Navega por las islas de los famosos y disfruta del skyline de Miami desde el mar.",
+            "proveedor": "Island Queen Cruises",
+            "contacto": "info@islandqueen.local",
+            "horario": "Cada hora",
+            "web": "https://www.baysidemarketplace.com/",
+            "costeEstimado": "28 €"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "nombre": "Coconut Grove",
+        "tipo": "barrios",
+        "descripcion": "El barrio más antiguo y con más encanto de Miami. Conocido por sus calles arboladas, su ambiente bohemio, sus cafés al aire libre y su elegante puerto deportivo.",
+        "descripcionCorta": "Encanto bohemio y vegetacion tropical.",
+        "lat": 25.728,
+        "lng": -80.24,
+        "horario": "Abierto 24h",
+        "precio": "Gratis",
+        "rating": 4.5,
+        "imagen": "miami_coconut_grove_4k_1778349798005.png",
+        "imagenCard": "miami_coconut_grove_4k_1778349798005.png",
+        "tags": ["historia", "tranquilidad", "bohemio"],
+        "actividades": [
+          {
+            "titulo": "Paseo por Peacock Park",
+            "descripcion": "Disfruta de un paseo relajado por el parque y el paseo maritimo de Coconut Grove.",
+            "proveedor": "Coconut Grove Walks",
+            "contacto": "walks@thegrove.local",
+            "horario": "Todo el dia",
+            "web": "https://www.coconutgrove.com/",
+            "costeEstimado": "Gratis"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "nombre": "Design District",
+        "tipo": "cultura",
+        "descripcion": "Un barrio dedicado a la moda de lujo, el diseño de interiores moderno y las galerías de arte de vanguardia. La arquitectura de sus calles es una obra de arte en sí misma.",
+        "descripcionCorta": "Arquitectura moderna y lujo extremo.",
+        "lat": 25.813,
+        "lng": -80.192,
+        "horario": "11:00 - 20:00",
+        "precio": "Gratis",
+        "rating": 4.6,
+        "imagen": "miami_design_district_4k_1778349811817.png",
+        "imagenCard": "miami_design_district_4k_1778349811817.png",
+        "tags": ["diseño", "lujo", "arquitectura"],
+        "actividades": [
+          {
+            "titulo": "Ruta de Arte y Arquitectura",
+            "descripcion": "Recorrido por las instalaciones de arte publico y los edificios mas iconicos del distrito.",
+            "proveedor": "Design District Art",
+            "contacto": "info@miamidesigndistrict.local",
+            "horario": "11:00 - 13:00",
+            "web": "https://www.miamidesigndistrict.net/",
+            "costeEstimado": "Gratis"
+          }
+        ]
+      }
+    ]
   }
 ]
