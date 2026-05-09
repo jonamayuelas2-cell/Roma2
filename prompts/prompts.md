@@ -11,4 +11,7 @@
 ### Prompt 3: Lógica de Navegación de Escalas
 "Implementa en JS que si una ciudad de escala en un crucero coincide con una ciudad configurada en el sistema, aparezca resaltada con un círculo amarillo y su foto, y que al hacer clic lleve directamente a la guía de esa ciudad."
 
+### Prompt 4: Restauración de Fronteras Mundiales
+"Los países han desaparecido del globo. Reintegra la capa de polígonos (polygonsData) usando el GeoJSON de fronteras mundiales, con un estilo de líneas blancas sutiles y etiquetas negras elegantes al pasar el ratón."
+
 ---

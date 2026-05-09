@@ -11,6 +11,7 @@
 
 ### Corregido 🛠️
 - **Visibilidad del Globo**: Ajuste de CSS para asegurar que el mapamundi ocupe el 100% del contenedor.
+- **Restauración de Países**: Reintegración de la capa de polígonos de fronteras y etiquetas de países en el globo. 🌍✨
 - **Filtros de Continente**: Corrección de la lógica de filtrado en `app.js` para usar la propiedad `continente` correctamente.
 - **Imágenes de Barcos**: Fallback visual para barcos sin foto en la lista de cruceros.
 - **Sintaxis JSON**: Limpieza de `cities.json` tras detectar corrupción en el bloque de Miami.

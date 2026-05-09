@@ -303,6 +303,19 @@ function initGlobe() {
         } else {
             callGlobe('customLayerData', []);
         }
+
+        // Renderizar polígonos de países si están cargados
+        if (state.countryPolygons.length > 0) {
+            callGlobe('polygonsData', state.countryPolygons);
+            callGlobe('polygonCapColor', () => 'rgba(255, 255, 255, 0.03)');
+            callGlobe('polygonSideColor', () => 'rgba(0, 0, 0, 0)');
+            callGlobe('polygonStrokeColor', () => 'rgba(255, 255, 255, 0.15)');
+            callGlobe('polygonLabel', ({ properties: d }) => `
+                <div class="globe-country-label" style="background: rgba(0,0,0,0.7); color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px;">
+                    <b>${d.name || d.NAME || d.ADMIN || 'País'}</b>
+                </div>
+            `);
+        }
     };
 
     window.triggerRefresh = refreshData;
