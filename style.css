@@ -2395,7 +2395,9 @@ header {
     left: auto;
     top: auto;
     border-radius: 999px;
-    background: linear-gradient(135deg, #38bdf8, #0ea5e9);
+    background: #000;
+    border: 2px solid #fff;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.45);
 }
 
 .marker-pin-cruise.numbered::after {
@@ -2404,9 +2406,9 @@ header {
 
 .marker-pin-cruise.numbered span {
     color: #fff;
-    font-size: 0.82rem;
+    font-size: 0.88rem;
     font-weight: 900;
-    text-shadow: 0 1px 3px rgba(15, 23, 42, 0.75);
+    text-shadow: none;
 }
 
 .cruise-stop-label {
@@ -2599,38 +2601,39 @@ header {
 .cruise-stop-iata {
     position: absolute;
     left: 50%;
-    top: 3px;
+    bottom: 3px;
     transform: translateX(-50%);
-    min-width: 24px;
-    height: 14px;
-    padding: 0 4px;
+    min-width: 28px;
+    height: 16px;
+    padding: 0 6px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     border-radius: 999px;
-    background: #facc15;
-    color: #0f172a;
-    border: 1px solid rgba(15, 23, 42, 0.16);
-    font-size: 0.5rem;
+    background: rgba(15, 23, 42, 0.92);
+    color: #facc15;
+    border: 1px solid rgba(250, 204, 21, 0.95);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+    font-size: 0.56rem;
     font-weight: 900;
     line-height: 1;
     text-transform: uppercase;
     white-space: nowrap;
-    z-index: 4;
+    z-index: 8;
     pointer-events: none;
 }
 
 .cruise-scale-iata {
-    top: 4px;
+    bottom: 4px;
 }
 
 .timeline-stop-iata {
-    top: 3px;
+    bottom: 3px;
 }
 
 .marker-pin-featured-iata {
-    top: 3px;
-    z-index: 6;
+    bottom: 3px;
+    z-index: 8;
 }
 
 .timeline-stop-thumb {

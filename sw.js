@@ -1,9 +1,9 @@
-const CACHE_NAME = 'ciudades-del-mundo-v1.3.2-cruise-iata-inside';
+const CACHE_NAME = 'ciudades-del-mundo-v1.3.4-scale-numbers';
 const STATIC_ASSETS = [
   '/',
   '/index.html',
-  '/app.js?v=20260511-09',
-  '/style.css?v=20260511-09',
+  '/app.js?v=20260511-11',
+  '/style.css?v=20260511-11',
   '/cities.json',
   '/manifest.json',
   '/icons/icon-192.png',

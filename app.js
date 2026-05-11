@@ -37,7 +37,13 @@ const COUNTRIES_GEOJSON_URL = 'https://raw.githubusercontent.com/holtzy/D3-graph
 
 function assetUrl(path) {
     if (!path) return 'https://images.unsplash.com/photo-1500835595353-b0ad2e58b8df?auto=format&fit=crop&q=80&w=800';
-    if (path.startsWith('http') || path.startsWith('data:')) return path;
+    if (path.startsWith('http') || path.startsWith('data:')) {
+        const wikimediaMatch = path.match(/^https:\/\/commons\.wikimedia\.org\/wiki\/Special:FilePath\/(.+)$/i);
+        if (wikimediaMatch) {
+            return `https://commons.wikimedia.org/wiki/Special:Redirect/file/${wikimediaMatch[1]}`;
+        }
+        return path;
+    }
     return path.startsWith('/') ? path.substring(1) : path;
 }
 
