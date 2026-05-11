@@ -1,9 +1,9 @@
-const CACHE_NAME = 'ciudades-del-mundo-v1.3.8-featured-stop-order-inside';
+const CACHE_NAME = 'ciudades-del-mundo-v1.4.0-featured-stop-order-corner';
 const STATIC_ASSETS = [
   '/',
   '/index.html',
-  '/app.js?v=20260511-15',
-  '/style.css?v=20260511-15',
+  '/app.js?v=20260511-17',
+  '/style.css?v=20260511-17',
   '/cities.json',
   '/manifest.json',
   '/icons/icon-192.png',
