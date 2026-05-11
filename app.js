@@ -895,6 +895,7 @@ function renderCruiseMap() {
                         <div class="img-container">
                             <img src="${assetUrl(matchedCity.imagen || stop.imagen)}" alt="${escapeHtml(matchedCity.nombre)}" onerror="this.closest('.marker-pin-featured').classList.add('is-fallback')">
                             <span class="marker-pin-featured-fallback">${escapeHtml(matchedCity.nombre.slice(0, 2).toUpperCase())}</span>
+                            <span class="featured-stop-order">${index + 1}</span>
                             <span class="cruise-stop-iata marker-pin-featured-iata">${escapeHtml(getCityIataCode(matchedCity))}</span>
                         </div>
                     </button>`

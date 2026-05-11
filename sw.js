@@ -1,9 +1,9 @@
-const CACHE_NAME = 'ciudades-del-mundo-v1.3.5-scale-numbers-size';
+const CACHE_NAME = 'ciudades-del-mundo-v1.3.8-featured-stop-order-inside';
 const STATIC_ASSETS = [
   '/',
   '/index.html',
-  '/app.js?v=20260511-12',
-  '/style.css?v=20260511-12',
+  '/app.js?v=20260511-15',
+  '/style.css?v=20260511-15',
   '/cities.json',
   '/manifest.json',
   '/icons/icon-192.png',
