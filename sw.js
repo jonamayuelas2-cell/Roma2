@@ -1,9 +1,9 @@
-const CACHE_NAME = 'ciudades-del-mundo-v1.2.6-madrid-complete';
+const CACHE_NAME = 'ciudades-del-mundo-v1.2.9-live-ship-pin';
 const STATIC_ASSETS = [
   '/',
   '/index.html',
-  '/app.js',
-  '/style.css',
+  '/app.js?v=20260511-06',
+  '/style.css?v=20260511-06',
   '/cities.json',
   '/manifest.json',
   '/icons/icon-192.png',

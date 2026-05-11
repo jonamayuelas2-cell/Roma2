@@ -144,11 +144,13 @@ function openCruiseCity(city, cruise) {
 function buildCruiseStopImage(stop, matchedCity) {
     const image = matchedCity?.imagen || stop?.imagen;
     if (!image) return '';
+    const iata = matchedCity ? getCityIataCode(matchedCity) : '';
 
     return `
         <div class="timeline-stop-thumb">
             <img src="${assetUrl(image)}" alt="${escapeHtml(stop.nombre)}" loading="lazy" onerror="this.closest('.timeline-stop-thumb').classList.add('is-fallback')">
             <span class="timeline-stop-fallback">${escapeHtml(stop.nombre.slice(0, 2).toUpperCase())}</span>
+            ${iata ? `<span class="cruise-stop-iata timeline-stop-iata">${escapeHtml(iata)}</span>` : ''}
         </div>
     `;
 }
@@ -684,6 +686,7 @@ function getCruiseFallbackPhoto(cruise) {
 function buildCruiseScaleCard(stop, cruise) {
     const matchedCity = findCityByStop(stop);
     const image = matchedCity?.imagen || stop.imagen || cruise.imagen;
+    const iata = matchedCity ? getCityIataCode(matchedCity) : '';
     const cityIdAttr = matchedCity ? `data-city-id="${escapeHtml(matchedCity.id)}"` : '';
     const cardClass = matchedCity ? 'cruise-scale-card is-linked' : 'cruise-scale-card';
     const badge = matchedCity ? '<span class="cruise-scale-badge">Ver ciudad</span>' : '<span class="cruise-scale-badge muted">Escala</span>';
@@ -693,6 +696,7 @@ function buildCruiseScaleCard(stop, cruise) {
             <div class="cruise-scale-thumb">
                 <img src="${assetUrl(image)}" alt="${escapeHtml(stop.nombre)}" loading="lazy" onerror="this.closest('.cruise-scale-thumb').classList.add('is-fallback')">
                 <span class="cruise-scale-fallback">${escapeHtml(stop.nombre.slice(0, 2).toUpperCase())}</span>
+                ${iata ? `<span class="cruise-stop-iata cruise-scale-iata">${escapeHtml(iata)}</span>` : ''}
             </div>
             <div class="cruise-scale-copy">
                 <strong>${escapeHtml(stop.nombre)}</strong>
@@ -864,6 +868,7 @@ function renderCruiseMap() {
                         <div class="img-container">
                             <img src="${assetUrl(matchedCity.imagen || stop.imagen)}" alt="${escapeHtml(matchedCity.nombre)}" onerror="this.closest('.marker-pin-featured').classList.add('is-fallback')">
                             <span class="marker-pin-featured-fallback">${escapeHtml(matchedCity.nombre.slice(0, 2).toUpperCase())}</span>
+                            <span class="cruise-stop-iata marker-pin-featured-iata">${escapeHtml(getCityIataCode(matchedCity))}</span>
                         </div>
                     </button>`
                 : `<div class="marker-pin-cruise numbered"><span>${index + 1}</span></div>`,
@@ -891,8 +896,8 @@ function renderCruiseMap() {
         const shipIcon = L.divIcon({
             className: 'custom-div-icon',
             html: `<div class="live-ship-marker"></div>`,
-            iconSize: [34, 34],
-            iconAnchor: [17, 17]
+            iconSize: [24, 24],
+            iconAnchor: [12, 24]
         });
         L.marker([position.lat, position.lng], { icon: shipIcon })
             .addTo(state.map)
