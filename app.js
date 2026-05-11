@@ -58,6 +58,16 @@ function normalizeCruiseRegion(region) {
         .trim();
 }
 
+function normalizeLocationName(value) {
+    return String(value || '')
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .toLowerCase()
+        .replace(/[^\w\s]/g, ' ')
+        .replace(/\s+/g, ' ')
+        .trim();
+}
+
 function escapeHtml(value) {
     return cleanDisplayText(value).replace(/[&<>"']/g, char => ({
         '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
@@ -83,6 +93,52 @@ function cleanDisplayText(value) {
 function safeDisplayIcon(value, fallback = '•') {
     const text = String(value || '').trim();
     return /[ÃÂâðï]|Å|¢â/.test(text) ? fallback : text || fallback;
+}
+
+function findCityByStop(stop) {
+    const stopName = normalizeLocationName(stop?.nombre);
+    if (!stopName) return null;
+
+    const exactMatch = state.cities.find(city => normalizeLocationName(city.nombre) === stopName);
+    if (exactMatch) return exactMatch;
+
+    const sameCountryCandidates = state.cities.filter(city => {
+        if (!stop?.pais) return false;
+        return normalizeLocationName(city.pais) === normalizeLocationName(stop.pais);
+    });
+
+    const exactCountryMatch = sameCountryCandidates.find(city => normalizeLocationName(city.nombre) === stopName);
+    if (exactCountryMatch) return exactCountryMatch;
+
+    const partialCountryMatch = sameCountryCandidates.find(city => {
+        const cityName = normalizeLocationName(city.nombre);
+        return cityName.includes(stopName) || stopName.includes(cityName);
+    });
+    if (partialCountryMatch) return partialCountryMatch;
+
+    return state.cities.find(city => {
+        const cityName = normalizeLocationName(city.nombre);
+        return cityName.includes(stopName) || stopName.includes(cityName);
+    }) || null;
+}
+
+function openCruiseCity(city, cruise) {
+    if (!city || !cruise || state.isTransitioning) return;
+    state.fromCruise = true;
+    document.getElementById('cruise-app').style.display = 'none';
+    selectCity(city);
+}
+
+function buildCruiseStopImage(stop, matchedCity) {
+    const image = matchedCity?.imagen || stop?.imagen;
+    if (!image) return '';
+
+    return `
+        <div class="timeline-stop-thumb">
+            <img src="${assetUrl(image)}" alt="${escapeHtml(stop.nombre)}" loading="lazy" onerror="this.closest('.timeline-stop-thumb').classList.add('is-fallback')">
+            <span class="timeline-stop-fallback">${escapeHtml(stop.nombre.slice(0, 2).toUpperCase())}</span>
+        </div>
+    `;
 }
 
 function getTypeLabel(type) {
@@ -275,6 +331,8 @@ function backToSelection() {
     
     if (state.fromCruise) {
         state.fromCruise = false;
+        state.currentCity = null;
+        cleanupCityExplorerMap();
         document.getElementById('main-app').style.display = 'none';
         document.getElementById('cruise-app').style.display = 'block';
         return;
@@ -548,6 +606,9 @@ function renderCruiseHeader(cruise) {
 
     if (header) header.style.setProperty('--cruise-bg-img', `url("${assetUrl(shipPhoto || fallbackPhoto)}")`);
     if (image) {
+        image.removeAttribute('srcset');
+        image.loading = 'eager';
+        image.decoding = 'async';
         image.onerror = () => {
             image.onerror = null;
             image.src = assetUrl(fallbackPhoto);
@@ -626,27 +687,32 @@ function renderCruiseMap() {
     const routeLine = L.polyline(pathCoords, { color: '#38bdf8', weight: 5, opacity: 0.95, dashArray: '10 12', lineCap: 'round', lineJoin: 'round' }).addTo(state.map);
 
     cruise.paradas.forEach((stop, index) => {
+        const matchedCity = findCityByStop(stop);
         const icon = L.divIcon({
-            className: 'custom-div-icon',
-            html: `<div class="marker-pin-cruise numbered"><span>${index + 1}</span></div>`,
-            iconSize: [36, 36],
-            iconAnchor: [18, 18]
+            className: matchedCity ? 'custom-div-icon featured-stop-icon' : 'custom-div-icon',
+            html: matchedCity
+                ? `<button class="marker-pin-featured marker-pin-featured-map" type="button" aria-label="Abrir ${escapeHtml(matchedCity.nombre)}">
+                        <div class="img-container">
+                            <img src="${assetUrl(matchedCity.imagen || stop.imagen)}" alt="${escapeHtml(matchedCity.nombre)}" onerror="this.closest('.marker-pin-featured').classList.add('is-fallback')">
+                            <span class="marker-pin-featured-fallback">${escapeHtml(matchedCity.nombre.slice(0, 2).toUpperCase())}</span>
+                        </div>
+                    </button>`
+                : `<div class="marker-pin-cruise numbered"><span>${index + 1}</span></div>`,
+            iconSize: matchedCity ? [52, 52] : [36, 36],
+            iconAnchor: matchedCity ? [26, 26] : [18, 18]
         });
 
         const marker = L.marker([stop.lat, stop.lng], { icon }).addTo(state.map);
         marker.bindTooltip(`<strong>${escapeHtml(stop.nombre)}</strong><br>${escapeHtml(stop.pais || '')}`, {
             permanent: true,
             direction: 'top',
-            offset: [0, -18],
+            offset: [0, matchedCity ? -28 : -18],
             className: 'cruise-stop-label'
         });
         
         marker.on('click', () => {
-            const matchedCity = state.cities.find(c => c.nombre.toLowerCase().includes(stop.nombre.toLowerCase()));
             if (matchedCity) {
-                state.fromCruise = true;
-                selectCity(matchedCity);
-                document.getElementById('cruise-app').style.display = 'none';
+                openCruiseCity(matchedCity, cruise);
             }
         });
     });
@@ -690,15 +756,26 @@ function renderCruiseItinerary(cruise) {
     const container = document.getElementById('cruise-itinerary-timeline');
     if (!container) return;
 
-    container.innerHTML = cruise.paradas.map(stop => `
-        <div class="timeline-item">
-            <div class="timeline-dot"></div>
+    container.innerHTML = cruise.paradas.map(stop => {
+        const matchedCity = findCityByStop(stop);
+        return `
+        <button class="timeline-item ${matchedCity ? 'is-featured' : ''}" type="button" ${matchedCity ? `data-city-id="${escapeHtml(matchedCity.id)}"` : ''}>
+            <div class="timeline-dot">${matchedCity ? buildCruiseStopImage(stop, matchedCity) : ''}</div>
             <div class="timeline-info">
                 <span class="timeline-city">${stop.nombre}</span>
                 <span class="timeline-country">${stop.pais}</span>
             </div>
-        </div>
-    `).join('');
+            ${matchedCity ? '<span class="timeline-badge">Ver ciudad</span>' : ''}
+        </button>
+    `;
+    }).join('');
+
+    container.querySelectorAll('.timeline-item[data-city-id]').forEach(item => {
+        item.onclick = () => {
+            const city = state.cities.find(entry => entry.id === item.dataset.cityId);
+            if (city) openCruiseCity(city, cruise);
+        };
+    });
 }
 
 function getFilteredCruiseList() {
@@ -795,6 +872,8 @@ document.addEventListener('DOMContentLoaded', () => {
 function setupEventListeners() {
     document.getElementById('back-to-cities').onclick = backToSelection;
     document.getElementById('back-from-cruise').onclick = () => {
+        state.fromCruise = false;
+        state.currentCruise = null;
         document.getElementById('cruise-app').style.display = 'none';
         document.getElementById('city-selection').style.display = 'flex';
     };
