@@ -1,9 +1,9 @@
-const CACHE_NAME = 'ciudades-del-mundo-v1.2.9-live-ship-pin';
+const CACHE_NAME = 'ciudades-del-mundo-v1.3.1-cruise-iata-visible';
 const STATIC_ASSETS = [
   '/',
   '/index.html',
-  '/app.js?v=20260511-06',
-  '/style.css?v=20260511-06',
+  '/app.js?v=20260511-08',
+  '/style.css?v=20260511-08',
   '/cities.json',
   '/manifest.json',
   '/icons/icon-192.png',

@@ -683,6 +683,17 @@ function getCruiseFallbackPhoto(cruise) {
     return cruise.buque?.imagen || cruise.imagen || cruise.buque?.fotoBarco || cruise.buque?.datos?.fotoBarco || cruise.fotoBarco || 'https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&fit=crop&q=80&w=800';
 }
 
+function getCruiseShipPhotoCandidates(cruise) {
+    return [
+        cruise.buque?.fotoBarco,
+        cruise.buque?.datos?.fotoBarco,
+        cruise.fotoBarco,
+        cruise.buque?.imagen,
+        cruise.imagen,
+        'https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&fit=crop&q=80&w=800'
+    ].filter((value, index, array) => value && array.indexOf(value) === index);
+}
+
 function buildCruiseScaleCard(stop, cruise) {
     const matchedCity = findCityByStop(stop);
     const image = matchedCity?.imagen || stop.imagen || cruise.imagen;
@@ -776,18 +787,28 @@ function renderCruiseHeader(cruise) {
     const stats = document.getElementById('ship-stats');
     const progressBar = document.getElementById('voyage-progress-bar');
     const status = document.getElementById('voyage-status');
+    const shipPhotos = getCruiseShipPhotoCandidates(cruise);
 
     if (header) header.style.setProperty('--cruise-bg-img', `url("${assetUrl(shipPhoto || fallbackPhoto)}")`);
     if (image) {
         image.removeAttribute('srcset');
         image.loading = 'eager';
         image.decoding = 'async';
+        image.referrerPolicy = 'no-referrer';
+        let photoIndex = 0;
         image.onerror = () => {
+            photoIndex += 1;
+            if (photoIndex < shipPhotos.length) {
+                const nextPhoto = shipPhotos[photoIndex];
+                image.src = assetUrl(nextPhoto);
+                if (header) header.style.setProperty('--cruise-bg-img', `url("${assetUrl(nextPhoto)}")`);
+                return;
+            }
             image.onerror = null;
             image.src = assetUrl(fallbackPhoto);
             if (header) header.style.setProperty('--cruise-bg-img', `url("${assetUrl(fallbackPhoto)}")`);
         };
-        image.src = assetUrl(shipPhoto || fallbackPhoto);
+        image.src = assetUrl(shipPhotos[photoIndex] || fallbackPhoto);
     }
     if (badge) badge.textContent = ship.compania || cruise.compania || 'Buque';
     if (title) title.textContent = shipName;
@@ -896,8 +917,8 @@ function renderCruiseMap() {
         const shipIcon = L.divIcon({
             className: 'custom-div-icon',
             html: `<div class="live-ship-marker"></div>`,
-            iconSize: [24, 24],
-            iconAnchor: [12, 24]
+            iconSize: [28, 28],
+            iconAnchor: [14, 28]
         });
         L.marker([position.lat, position.lng], { icon: shipIcon })
             .addTo(state.map)
