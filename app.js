@@ -472,6 +472,7 @@ async function selectCruise(cruise) {
         cruiseApp.style.display = 'block';
         cruiseApp.classList.add('fade-in');
         
+        renderCruiseHeader(cruise);
         renderCruiseMap();
         renderCruiseItinerary(cruise);
 
@@ -480,6 +481,124 @@ async function selectCruise(cruise) {
             state.isTransitioning = false;
         }, 500);
     }, 500);
+}
+
+function getCruiseShipPhoto(cruise) {
+    return cruise.buque?.fotoBarco || cruise.buque?.datos?.fotoBarco || cruise.fotoBarco || cruise.buque?.imagen || cruise.imagen;
+}
+
+function getCruiseFallbackPhoto(cruise) {
+    return cruise.buque?.imagen || cruise.imagen || 'https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&fit=crop&q=80&w=800';
+}
+
+function getCruiseRoute(cruise) {
+    return cruise.ruta?.length ? cruise.ruta : (cruise.paradas || []);
+}
+
+function getEstimatedShipPosition(cruise) {
+    const route = getCruiseRoute(cruise);
+    if (route.length < 2) return route[0] || null;
+
+    const progress = Math.max(0, Math.min(1, Number(cruise.progresoEstimado ?? 0.35)));
+    const totalLegs = route.length - 1;
+    const rawLeg = progress * totalLegs;
+    const legIndex = Math.min(totalLegs - 1, Math.floor(rawLeg));
+    const legProgress = rawLeg - legIndex;
+    const start = route[legIndex];
+    const end = route[legIndex + 1];
+
+    return {
+        lat: start.lat + (end.lat - start.lat) * legProgress,
+        lng: start.lng + (end.lng - start.lng) * legProgress,
+        from: start.nombre,
+        to: end.nombre,
+        progress: Math.round(progress * 100)
+    };
+}
+
+function getShipTrackingUrl(cruise) {
+    return cruise.buque?.trackingUrl || cruise.trackingUrl || '';
+}
+
+function activateCruisePreview(cruise) {
+    if (!cruise) return;
+    state.currentCruise = cruise;
+    document.querySelectorAll('.cruise-card').forEach(el => {
+        el.classList.toggle('active', el.dataset.cruiseId === cruise.id);
+    });
+    refreshGlobeData();
+}
+
+function renderCruiseHeader(cruise) {
+    const ship = cruise.buque || {};
+    const shipData = ship.datos || {};
+    const shipName = ship.nombre || cruise.barco || cruise.nombre;
+    const shipPhoto = getCruiseShipPhoto(cruise);
+    const fallbackPhoto = getCruiseFallbackPhoto(cruise);
+    const trackingUrl = getShipTrackingUrl(cruise);
+    const position = getEstimatedShipPosition(cruise);
+
+    const header = document.querySelector('.cruise-header-premium');
+    const image = document.getElementById('ship-img');
+    const badge = document.getElementById('ship-badge');
+    const title = document.getElementById('ship-name');
+    const stats = document.getElementById('ship-stats');
+    const progressBar = document.getElementById('voyage-progress-bar');
+    const status = document.getElementById('voyage-status');
+
+    if (header) header.style.setProperty('--cruise-bg-img', `url("${assetUrl(shipPhoto || fallbackPhoto)}")`);
+    if (image) {
+        image.onerror = () => {
+            image.onerror = null;
+            image.src = assetUrl(fallbackPhoto);
+            if (header) header.style.setProperty('--cruise-bg-img', `url("${assetUrl(fallbackPhoto)}")`);
+        };
+        image.src = assetUrl(shipPhoto || fallbackPhoto);
+    }
+    if (badge) badge.textContent = ship.compania || cruise.compania || 'Buque';
+    if (title) title.textContent = shipName;
+
+    if (stats) {
+        const characteristics = ship.caracteristicas || [];
+        const featureCards = characteristics.map(item => `
+            <div class="stat-box">
+                <span class="stat-label">${escapeHtml(item.label)}</span>
+                <span class="stat-value">${escapeHtml(item.valor)}</span>
+            </div>
+        `).join('');
+
+        const stops = (cruise.paradas || []).map(stop => stop.nombre).join(' -> ');
+        stats.innerHTML = `
+            ${featureCards}
+            <div class="ship-summary-card">
+                <h3>Caracteristicas del barco</h3>
+                <dl>
+                    <div><dt>Pasajeros</dt><dd>${escapeHtml(shipData.pasajeros || characteristics.find(i => i.label?.toLowerCase().includes('pasaj'))?.valor || 'Consultar')}</dd></div>
+                    <div><dt>Tripulacion</dt><dd>${escapeHtml(shipData.tripulacion || characteristics.find(i => i.label?.toLowerCase().includes('tripul'))?.valor || 'Consultar')}</dd></div>
+                    <div><dt>Cubiertas</dt><dd>${escapeHtml(shipData.cubiertas || 'Consultar')}</dd></div>
+                    <div><dt>Restaurantes</dt><dd>${escapeHtml(shipData.restaurantes || 'Consultar')}</dd></div>
+                    <div><dt>IMO / MMSI</dt><dd>${escapeHtml([ship.imo, ship.mmsi].filter(Boolean).join(' / ') || 'Consultar')}</dd></div>
+                </dl>
+            </div>
+            <div class="ship-summary-card ship-summary-wide">
+                <h3>Escalas</h3>
+                <p class="ship-summary-text">${escapeHtml(stops)}</p>
+            </div>
+            <div class="ship-summary-card ship-summary-wide">
+                <h3>Experiencia a bordo</h3>
+                <p class="ship-summary-text">${escapeHtml(shipData.actividades || 'Consultar actividades a bordo')}</p>
+            </div>
+        `;
+    }
+
+    if (progressBar && position) progressBar.style.width = `${position.progress}%`;
+    if (status && position) {
+        status.innerHTML = `
+            <span>Posicion estimada: ${escapeHtml(position.from)} -> ${escapeHtml(position.to)}</span>
+            <span>${position.progress}% del circuito calculado para demo</span>
+            ${trackingUrl ? `<a class="ship-tracking-link" href="${escapeHtml(trackingUrl)}" target="_blank" rel="noopener noreferrer">Abrir localizacion externa</a>` : ''}
+        `;
+    }
 }
 
 function renderCruiseMap() {
@@ -491,26 +610,36 @@ function renderCruiseMap() {
         state.map = null;
     }
     
+    const mapContainer = document.getElementById('cruise-map');
+    if (mapContainer) mapContainer.innerHTML = '';
+
     state.map = L.map('cruise-map', {
         zoomControl: false,
         attributionControl: false
     }).setView([cruise.paradas[0].lat, cruise.paradas[0].lng], 4);
 
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/voyager/{z}/{x}/{y}{r}.png').addTo(state.map);
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png').addTo(state.map);
     
-    const pathCoords = cruise.ruta ? cruise.ruta.map(p => [p.lat, p.lng]) : cruise.paradas.map(p => [p.lat, p.lng]);
-    const routeLine = L.polyline(pathCoords, { color: '#38bdf8', weight: 4, opacity: 0.8 }).addTo(state.map);
+    const route = getCruiseRoute(cruise);
+    const pathCoords = route.map(p => [p.lat, p.lng]);
+    L.polyline(pathCoords, { color: '#0f172a', weight: 10, opacity: 0.65, lineCap: 'round', lineJoin: 'round' }).addTo(state.map);
+    const routeLine = L.polyline(pathCoords, { color: '#38bdf8', weight: 5, opacity: 0.95, dashArray: '10 12', lineCap: 'round', lineJoin: 'round' }).addTo(state.map);
 
-    cruise.paradas.forEach(stop => {
+    cruise.paradas.forEach((stop, index) => {
         const icon = L.divIcon({
             className: 'custom-div-icon',
-            html: `<div class="marker-pin-cruise"></div>`,
-            iconSize: [30, 30],
-            iconAnchor: [15, 30]
+            html: `<div class="marker-pin-cruise numbered"><span>${index + 1}</span></div>`,
+            iconSize: [36, 36],
+            iconAnchor: [18, 18]
         });
 
         const marker = L.marker([stop.lat, stop.lng], { icon }).addTo(state.map);
-        marker.bindTooltip(`<strong>${stop.nombre}</strong>`, { direction: 'top' });
+        marker.bindTooltip(`<strong>${escapeHtml(stop.nombre)}</strong><br>${escapeHtml(stop.pais || '')}`, {
+            permanent: true,
+            direction: 'top',
+            offset: [0, -18],
+            className: 'cruise-stop-label'
+        });
         
         marker.on('click', () => {
             const matchedCity = state.cities.find(c => c.nombre.toLowerCase().includes(stop.nombre.toLowerCase()));
@@ -521,6 +650,38 @@ function renderCruiseMap() {
             }
         });
     });
+
+    const position = getEstimatedShipPosition(cruise);
+    if (position) {
+        const shipIcon = L.divIcon({
+            className: 'custom-div-icon',
+            html: `<div class="live-ship-marker"></div>`,
+            iconSize: [34, 34],
+            iconAnchor: [17, 17]
+        });
+        L.marker([position.lat, position.lng], { icon: shipIcon })
+            .addTo(state.map)
+            .bindTooltip(`
+                <span class="ais-tooltip-title">POSICION ESTIMADA</span>
+                <strong>${escapeHtml(cruise.buque?.nombre || cruise.nombre)}</strong><br>
+                ${escapeHtml(position.from)} -> ${escapeHtml(position.to)}
+            `, { className: 'live-ship-tooltip', direction: 'top' });
+    }
+
+    const trackingUrl = getShipTrackingUrl(cruise);
+    if (trackingUrl && mapContainer) {
+        const link = document.createElement('a');
+        link.className = 'ship-tracking-map-link';
+        link.href = trackingUrl;
+        link.target = '_blank';
+        link.rel = 'noopener noreferrer';
+        link.innerHTML = `
+            <span class="ship-tracking-map-kicker">AIS / API</span>
+            <strong>Localizacion del barco</strong>
+            <span>IMO ${escapeHtml(cruise.buque?.imo || 'consultar')}</span>
+        `;
+        mapContainer.appendChild(link);
+    }
 
     state.map.fitBounds(routeLine.getBounds(), { padding: [40, 40] });
 }
@@ -579,11 +740,12 @@ function updateCruiseList() {
         const origin = route[0]?.nombre || 'Origen';
         const destination = route[route.length - 1]?.nombre || 'Destino';
         const shipInfo = getCruiseShipInfo(cruise);
-        const image = cruise.buque?.imagen || cruise.buque?.fotoBarco || cruise.fotoBarco || cruise.imagen || 'https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&fit=crop&q=80&w=800';
+        const image = getCruiseFallbackPhoto(cruise);
         const cities = route.map(stop => stop.nombre).filter(Boolean).join(' -> ');
 
         const card = document.createElement('div');
         card.className = `cruise-card ${state.currentCruise?.id === cruise.id ? 'active' : ''}`;
+        card.dataset.cruiseId = cruise.id;
         card.innerHTML = `
             <span class="cruise-rank-badge">${index + 1}</span>
             <img src="${assetUrl(image)}" class="cruise-card-img" alt="${escapeHtml(cruise.nombre)}">
@@ -608,12 +770,9 @@ function updateCruiseList() {
             </div>
         `;
 
-        card.onclick = () => {
-            state.currentCruise = cruise;
-            document.querySelectorAll('.cruise-card').forEach(el => el.classList.remove('active'));
-            card.classList.add('active');
-            refreshGlobeData();
-        };
+        card.onclick = () => activateCruisePreview(cruise);
+        card.onmouseenter = () => activateCruisePreview(cruise);
+        card.onfocus = () => activateCruisePreview(cruise);
         card.querySelector('.cruise-detail-btn').onclick = (event) => {
             event.stopPropagation();
             selectCruise(cruise);

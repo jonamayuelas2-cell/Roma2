@@ -1936,6 +1936,13 @@ header {
     line-height: 1.35;
 }
 
+.ship-summary-text {
+    margin: 0;
+    color: #e0f2fe;
+    line-height: 1.55;
+    font-size: 0.92rem;
+}
+
 .ship-summary-wide {
     grid-column: 1 / -1;
 }
@@ -2158,6 +2165,7 @@ header {
 }
 
 .detailed-map {
+    position: relative;
     height: 500px;
     border-radius: 30px;
     overflow: hidden;
@@ -2237,6 +2245,40 @@ header {
     background: #fff;
     position: absolute;
     border-radius: 50%;
+}
+
+.marker-pin-cruise.numbered {
+    transform: none;
+    margin: 0;
+    left: auto;
+    top: auto;
+    border-radius: 999px;
+    background: linear-gradient(135deg, #38bdf8, #0ea5e9);
+}
+
+.marker-pin-cruise.numbered::after {
+    display: none;
+}
+
+.marker-pin-cruise.numbered span {
+    color: #fff;
+    font-size: 0.82rem;
+    font-weight: 900;
+    text-shadow: 0 1px 3px rgba(15, 23, 42, 0.75);
+}
+
+.cruise-stop-label {
+    border: 0;
+    border-radius: 10px;
+    background: rgba(15, 23, 42, 0.88);
+    color: #f8fafc;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.35);
+    padding: 6px 9px;
+    text-align: center;
+}
+
+.cruise-stop-label::before {
+    border-top-color: rgba(15, 23, 42, 0.88);
 }
 
 .marker-pin-city {
