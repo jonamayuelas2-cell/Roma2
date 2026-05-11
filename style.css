@@ -2599,7 +2599,7 @@ header {
 .cruise-stop-iata {
     position: absolute;
     left: 50%;
-    top: -6px;
+    top: 3px;
     transform: translateX(-50%);
     min-width: 24px;
     height: 14px;
@@ -2621,15 +2621,16 @@ header {
 }
 
 .cruise-scale-iata {
-    top: -4px;
+    top: 4px;
 }
 
 .timeline-stop-iata {
-    top: -5px;
+    top: 3px;
 }
 
 .marker-pin-featured-iata {
-    top: -4px;
+    top: 3px;
+    z-index: 6;
 }
 
 .timeline-stop-thumb {
