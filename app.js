@@ -32,6 +32,7 @@ const state = {
 const GLOBE_TEXTURE_URL = 'https://unpkg.com/three-globe/example/img/earth-blue-marble.jpg';
 const GLOBE_BUMP_URL = 'https://unpkg.com/three-globe/example/img/earth-topology.png';
 const COUNTRIES_GEOJSON_URL = 'https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson';
+const GENERIC_CRUISE_SHIP_PHOTO = 'https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&fit=crop&q=80&w=800';
 
 // ══ UTILIDADES ═══════════════════════════════════════════════════════
 
@@ -213,6 +214,34 @@ function getActivityContact(activity) {
     return activity.contacto || activity.contact || activity.email || activity.telefono || '';
 }
 
+function slugifyAssetKey(value) {
+    return String(value || '')
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, '-')
+        .replace(/^-+|-+$/g, '');
+}
+
+function getGeneratedActivityImage(place, activity) {
+    if (state.currentCity?.id !== 'venecia') return '';
+    const placeId = String(Number(place?.id) || '').padStart(2, '0');
+    const titleSlug = slugifyAssetKey(activity?.titulo || activity?.title || '');
+    if (!placeId || !titleSlug) return '';
+    return `img/venice_activities/venice-place-${placeId}-${titleSlug}.png`;
+}
+
+function resolveActivityImage(place, activity, index) {
+    const explicitImage = activity.imagen || activity.image;
+    if (explicitImage) return explicitImage;
+
+    const generatedImage = getGeneratedActivityImage(place, activity);
+    if (generatedImage) return generatedImage;
+
+    const placeImage = place.imagenCard || place.imagen || '';
+    return placeImage;
+}
+
 function renderPlaceActivities(place) {
     const actContainer = document.getElementById('modal-place-activities');
     const actSection = document.getElementById('modal-activities-section');
@@ -226,7 +255,7 @@ function renderPlaceActivities(place) {
     }
 
     actSection.hidden = false;
-    actContainer.innerHTML = activities.map(activity => {
+    actContainer.innerHTML = activities.map((activity, index) => {
         const provider = getActivityProvider(activity);
         const rawContact = getActivityContact(activity);
         const webUrl = getWebsiteUrl(getActivityWebsite(activity));
@@ -235,7 +264,7 @@ function renderPlaceActivities(place) {
         const schedule = getActivitySchedule(activity);
         const title = activity.titulo || activity.title || 'Actividad';
         const description = activity.descripcion || activity.description || '';
-        const image = activity.imagen || activity.image || place.imagenCard || place.imagen;
+        const image = resolveActivityImage(place, activity, index);
 
         return `
             <article class="activity-card">
@@ -282,7 +311,7 @@ async function loadCities() {
 
 async function loadCruises() {
     try {
-        const response = await fetch('cruises.json');
+        const response = await fetch(`cruises.json?v=${Date.now()}`);
         const data = await response.json();
         state.cruises = data.map(c => ({
             ...c,
@@ -686,7 +715,7 @@ function getCruiseShipPhoto(cruise) {
 }
 
 function getCruiseFallbackPhoto(cruise) {
-    return cruise.buque?.imagen || cruise.imagen || cruise.buque?.fotoBarco || cruise.buque?.datos?.fotoBarco || cruise.fotoBarco || 'https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&fit=crop&q=80&w=800';
+    return GENERIC_CRUISE_SHIP_PHOTO;
 }
 
 function getCruiseShipPhotoCandidates(cruise) {
@@ -696,7 +725,7 @@ function getCruiseShipPhotoCandidates(cruise) {
         cruise.fotoBarco,
         cruise.buque?.imagen,
         cruise.imagen,
-        'https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&fit=crop&q=80&w=800'
+        GENERIC_CRUISE_SHIP_PHOTO
     ].filter((value, index, array) => value && array.indexOf(value) === index);
 }
 

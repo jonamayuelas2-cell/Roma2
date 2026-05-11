@@ -2501,6 +2501,13 @@ header {
     border-radius: inherit;
 }
 
+.marker-pin-featured .featured-stop-order {
+    top: auto;
+    left: auto;
+    right: -6px;
+    bottom: -6px;
+}
+
 .marker-pin-featured-fallback {
     display: none;
     width: 100%;

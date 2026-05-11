@@ -1315,8 +1315,8 @@
     "buque": {
       "compania": "Royal Caribbean",
       "nombre": "Icon of the Seas",
-      "imagen": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=85&w=1200",
-      "fotoBarco": "https://commons.wikimedia.org/wiki/Special:FilePath/Icon_of_the_Seas_in_PortMiami%2C_2024.jpg",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Icon_of_the_Seas_%28kahunapulej%29.jpg",
+      "fotoBarco": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Icon_of_the_Seas_%28kahunapulej%29.jpg",
       "imo": "9829930",
       "mmsi": "311001178",
       "trackingUrl": "https://www.vesselfinder.com/vessels/details/9829930",
@@ -1610,8 +1610,8 @@
     "buque": {
       "compania": "Carnival Cruise Line",
       "nombre": "Carnival Celebration",
-      "imagen": "https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&fit=crop&q=85&w=1200",
-      "fotoBarco": "https://commons.wikimedia.org/wiki/Special:FilePath/Carnival_Celebration_(ship%2C_2022)_001.jpg",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Carnival_Celebration_%28ship%2C_2022%29_Departs_Miami_%28February_2026%29.jpg",
+      "fotoBarco": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Carnival_Celebration_%28ship%2C_2022%29_Departs_Miami_%28February_2026%29.jpg",
       "imo": "9837456",
       "mmsi": "311001096",
       "trackingUrl": "https://www.vesselfinder.com/vessels/details/9837456",
@@ -1790,8 +1790,8 @@
     "buque": {
       "compania": "MSC Cruceros",
       "nombre": "MSC Seascape",
-      "imagen": "https://images.unsplash.com/photo-1517760444937-f6397edcbbcd?auto=format&fit=crop&q=85&w=1200",
-      "fotoBarco": "https://commons.wikimedia.org/wiki/Special:FilePath/MSC_Seascape_in_Miami.jpg",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:Redirect/file/MSC_Seascape.jpg",
+      "fotoBarco": "https://commons.wikimedia.org/wiki/Special:Redirect/file/MSC_Seascape.jpg",
       "imo": "9843807",
       "mmsi": "256059000",
       "trackingUrl": "https://www.vesselfinder.com/vessels/details/9843807",

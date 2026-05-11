@@ -1,9 +1,9 @@
-const CACHE_NAME = 'ciudades-del-mundo-v1.4.0-featured-stop-order-corner';
+const CACHE_NAME = 'ciudades-del-mundo-v1.4.5-venecia-generated-assets';
 const STATIC_ASSETS = [
   '/',
   '/index.html',
-  '/app.js?v=20260511-17',
-  '/style.css?v=20260511-17',
+  '/app.js?v=20260511-22',
+  '/style.css?v=20260511-22',
   '/cities.json',
   '/manifest.json',
   '/icons/icon-192.png',
