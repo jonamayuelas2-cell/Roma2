@@ -98,8 +98,16 @@ function safeDisplayIcon(value, fallback = '•') {
 function findCityByStop(stop) {
     const stopName = normalizeLocationName(stop?.nombre);
     if (!stopName) return null;
+    const simplifiedStopName = stopName
+        .replace(/^puerto de\s+/i, '')
+        .replace(/^port of\s+/i, '')
+        .replace(/^porto de\s+/i, '')
+        .trim();
 
-    const exactMatch = state.cities.find(city => normalizeLocationName(city.nombre) === stopName);
+    const exactMatch = state.cities.find(city => {
+        const cityName = normalizeLocationName(city.nombre);
+        return cityName === stopName || cityName === simplifiedStopName;
+    });
     if (exactMatch) return exactMatch;
 
     const sameCountryCandidates = state.cities.filter(city => {
@@ -107,18 +115,21 @@ function findCityByStop(stop) {
         return normalizeLocationName(city.pais) === normalizeLocationName(stop.pais);
     });
 
-    const exactCountryMatch = sameCountryCandidates.find(city => normalizeLocationName(city.nombre) === stopName);
+    const exactCountryMatch = sameCountryCandidates.find(city => {
+        const cityName = normalizeLocationName(city.nombre);
+        return cityName === stopName || cityName === simplifiedStopName;
+    });
     if (exactCountryMatch) return exactCountryMatch;
 
     const partialCountryMatch = sameCountryCandidates.find(city => {
         const cityName = normalizeLocationName(city.nombre);
-        return cityName.includes(stopName) || stopName.includes(cityName);
+        return cityName.includes(stopName) || stopName.includes(cityName) || cityName.includes(simplifiedStopName) || simplifiedStopName.includes(cityName);
     });
     if (partialCountryMatch) return partialCountryMatch;
 
     return state.cities.find(city => {
         const cityName = normalizeLocationName(city.nombre);
-        return cityName.includes(stopName) || stopName.includes(cityName);
+        return cityName.includes(stopName) || stopName.includes(cityName) || cityName.includes(simplifiedStopName) || simplifiedStopName.includes(cityName);
     }) || null;
 }
 
@@ -542,11 +553,33 @@ async function selectCruise(cruise) {
 }
 
 function getCruiseShipPhoto(cruise) {
-    return cruise.buque?.fotoBarco || cruise.buque?.datos?.fotoBarco || cruise.fotoBarco || cruise.buque?.imagen || cruise.imagen;
+    return cruise.buque?.imagen || cruise.imagen || cruise.buque?.fotoBarco || cruise.buque?.datos?.fotoBarco || cruise.fotoBarco;
 }
 
 function getCruiseFallbackPhoto(cruise) {
-    return cruise.buque?.imagen || cruise.imagen || 'https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&fit=crop&q=80&w=800';
+    return cruise.imagen || cruise.buque?.imagen || cruise.buque?.fotoBarco || 'https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&fit=crop&q=80&w=800';
+}
+
+function buildCruiseScaleCard(stop, cruise) {
+    const matchedCity = findCityByStop(stop);
+    const image = matchedCity?.imagen || stop.imagen || cruise.imagen;
+    const cityIdAttr = matchedCity ? `data-city-id="${escapeHtml(matchedCity.id)}"` : '';
+    const cardClass = matchedCity ? 'cruise-scale-card is-linked' : 'cruise-scale-card';
+    const badge = matchedCity ? '<span class="cruise-scale-badge">Ver ciudad</span>' : '<span class="cruise-scale-badge muted">Escala</span>';
+
+    return `
+        <button class="${cardClass}" type="button" ${cityIdAttr}>
+            <div class="cruise-scale-thumb">
+                <img src="${assetUrl(image)}" alt="${escapeHtml(stop.nombre)}" loading="lazy" onerror="this.closest('.cruise-scale-thumb').classList.add('is-fallback')">
+                <span class="cruise-scale-fallback">${escapeHtml(stop.nombre.slice(0, 2).toUpperCase())}</span>
+            </div>
+            <div class="cruise-scale-copy">
+                <strong>${escapeHtml(stop.nombre)}</strong>
+                <span>${escapeHtml(stop.pais || '')}</span>
+                ${badge}
+            </div>
+        </button>
+    `;
 }
 
 function getCruiseRoute(cruise) {
@@ -629,6 +662,7 @@ function renderCruiseHeader(cruise) {
         `).join('');
 
         const stops = (cruise.paradas || []).map(stop => stop.nombre).join(' -> ');
+        const scaleCards = (cruise.paradas || []).map(stop => buildCruiseScaleCard(stop, cruise)).join('');
         stats.innerHTML = `
             ${featureCards}
             <div class="ship-summary-card">
@@ -644,12 +678,20 @@ function renderCruiseHeader(cruise) {
             <div class="ship-summary-card ship-summary-wide">
                 <h3>Escalas</h3>
                 <p class="ship-summary-text">${escapeHtml(stops)}</p>
+                <div class="cruise-scale-list">${scaleCards}</div>
             </div>
             <div class="ship-summary-card ship-summary-wide">
                 <h3>Experiencia a bordo</h3>
                 <p class="ship-summary-text">${escapeHtml(shipData.actividades || 'Consultar actividades a bordo')}</p>
             </div>
         `;
+
+        stats.querySelectorAll('.cruise-scale-card[data-city-id]').forEach(item => {
+            item.onclick = () => {
+                const city = state.cities.find(entry => entry.id === item.dataset.cityId);
+                if (city) openCruiseCity(city, cruise);
+            };
+        });
     }
 
     if (progressBar && position) progressBar.style.width = `${position.progress}%`;
