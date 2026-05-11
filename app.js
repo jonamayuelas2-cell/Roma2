@@ -542,6 +542,7 @@ async function selectCruise(cruise) {
         cruiseApp.classList.add('fade-in');
         
         renderCruiseHeader(cruise);
+        renderCruiseStopsGallery(cruise);
         renderCruiseMap();
         renderCruiseItinerary(cruise);
 
@@ -553,7 +554,7 @@ async function selectCruise(cruise) {
 }
 
 function getCruiseShipPhoto(cruise) {
-    return cruise.buque?.imagen || cruise.imagen || cruise.buque?.fotoBarco || cruise.buque?.datos?.fotoBarco || cruise.fotoBarco;
+    return cruise.imagen || cruise.buque?.imagen || cruise.buque?.fotoBarco || cruise.buque?.datos?.fotoBarco || cruise.fotoBarco;
 }
 
 function getCruiseFallbackPhoto(cruise) {
@@ -580,6 +581,21 @@ function buildCruiseScaleCard(stop, cruise) {
             </div>
         </button>
     `;
+}
+
+function renderCruiseStopsGallery(cruise) {
+    const container = document.getElementById('cruise-stops-gallery');
+    if (!container) return;
+
+    const scaleCards = (cruise.paradas || []).map(stop => buildCruiseScaleCard(stop, cruise)).join('');
+    container.innerHTML = scaleCards;
+
+    container.querySelectorAll('.cruise-scale-card[data-city-id]').forEach(item => {
+        item.onclick = () => {
+            const city = state.cities.find(entry => entry.id === item.dataset.cityId);
+            if (city) openCruiseCity(city, cruise);
+        };
+    });
 }
 
 function getCruiseRoute(cruise) {
@@ -662,7 +678,6 @@ function renderCruiseHeader(cruise) {
         `).join('');
 
         const stops = (cruise.paradas || []).map(stop => stop.nombre).join(' -> ');
-        const scaleCards = (cruise.paradas || []).map(stop => buildCruiseScaleCard(stop, cruise)).join('');
         stats.innerHTML = `
             ${featureCards}
             <div class="ship-summary-card">
@@ -678,20 +693,12 @@ function renderCruiseHeader(cruise) {
             <div class="ship-summary-card ship-summary-wide">
                 <h3>Escalas</h3>
                 <p class="ship-summary-text">${escapeHtml(stops)}</p>
-                <div class="cruise-scale-list">${scaleCards}</div>
             </div>
             <div class="ship-summary-card ship-summary-wide">
                 <h3>Experiencia a bordo</h3>
                 <p class="ship-summary-text">${escapeHtml(shipData.actividades || 'Consultar actividades a bordo')}</p>
             </div>
         `;
-
-        stats.querySelectorAll('.cruise-scale-card[data-city-id]').forEach(item => {
-            item.onclick = () => {
-                const city = state.cities.find(entry => entry.id === item.dataset.cityId);
-                if (city) openCruiseCity(city, cruise);
-            };
-        });
     }
 
     if (progressBar && position) progressBar.style.width = `${position.progress}%`;
