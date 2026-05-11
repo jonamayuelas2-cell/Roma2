@@ -712,24 +712,22 @@ input:checked + .slider:before { transform: translateX(20px); }
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: transform 0.2s ease;
 }
 
 .globe-city-marker:hover {
-  transform: scale(1.4);
+  transform: translate(-50%, -50%);
   z-index: 1000 !important;
 }
 
 .globe-thumb-container {
   position: relative;
-  width: 28px;
-  height: 28px;
+  width: 34px;
+  height: 34px;
   border-radius: 50%;
   border: 2px solid #ffdf5d;
   overflow: visible;
-  box-shadow: 
-    0 0 15px rgba(255, 223, 93, 0.4),
-    inset 0 0 5px rgba(255, 223, 93, 0.4);
+  box-shadow: none;
   background: #0f172a;
   display: flex;
   align-items: center;
@@ -762,15 +760,13 @@ input:checked + .slider:before { transform: translateX(20px); }
 
 .globe-city-marker.cruise-stop .globe-thumb-container {
   border-color: #38bdf8;
-  box-shadow: 
-    0 0 15px rgba(56, 189, 248, 0.6),
-    inset 0 0 5px rgba(56, 189, 248, 0.6);
-  width: 24px;
-  height: 24px;
+  box-shadow: none;
+  width: 28px;
+  height: 28px;
 }
 
 .globe-city-marker:hover .globe-thumb-container {
-  box-shadow: 0 0 25px rgba(255, 255, 255, 0.6);
+  box-shadow: none;
 }
 
 .fallback-globe {
@@ -854,26 +850,26 @@ input:checked + .slider:before { transform: translateX(20px); }
   z-index: 20;
   display: block !important;
   visibility: visible !important;
-  width: 64px;
-  height: 64px;
+  overflow: visible !important;
+  width: 34px;
+  height: 34px;
   cursor: pointer;
   transform: translate(-50%, -50%);
 }
 
 .globe-thumb-container {
-  width: 64px;
-  height: 64px;
+  width: 34px;
+  height: 34px;
   position: relative;
-  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  border-radius: 50%;
+  border: 2px solid #ffdf5d;
+  overflow: visible;
+  background: #0f172a;
+  transition: transform 0.2s ease;
 }
 
 .globe-thumb-container::before {
-  content: '';
-  position: absolute;
-  inset: -8px;
-  border-radius: 50%;
-  background: radial-gradient(circle, rgba(125, 228, 255, 0.36), transparent 62%);
-  animation: markerPulse 2.4s ease-in-out infinite;
+  content: none;
 }
 
 .globe-pin-core {
@@ -890,9 +886,9 @@ input:checked + .slider:before { transform: translateX(20px); }
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  border: 3px solid #ffdf5d;
+  border: 0;
   object-fit: cover;
-  box-shadow: 0 8px 28px rgba(0,0,0,0.62), 0 0 26px rgba(255,223,93,0.62);
+  box-shadow: none;
   position: relative;
   z-index: 1;
 }
@@ -915,17 +911,27 @@ input:checked + .slider:before { transform: translateX(20px); }
 
 /* Previsualización Grande en Hover */
 .globe-iata {
-  width: 28px;
+  position: absolute;
+  min-width: 28px;
   height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 999px;
-  right: -8px;
-  bottom: -4px;
+  left: 50%;
+  bottom: -8px;
+  transform: translateX(-50%);
+  background: #ffdf5d;
   color: #0f172a;
   font-size: 0.58rem;
   line-height: 1;
   font-weight: 900;
   letter-spacing: 0;
   border: 1px solid rgba(15, 23, 42, 0.12);
+  z-index: 3;
+  text-transform: uppercase;
+  white-space: nowrap;
+  padding: 0 5px;
 }
 
 .globe-thumb-container:hover .globe-preview-panel {
@@ -935,7 +941,12 @@ input:checked + .slider:before { transform: translateX(20px); }
 }
 
 .globe-thumb-container:hover {
-  transform: scale(1.18);
+  transform: scale(1.04);
+}
+
+.globe-city-marker:hover {
+  transform: translate(-50%, -50%);
+  z-index: 1000 !important;
 }
 
 .globe-preview-panel {

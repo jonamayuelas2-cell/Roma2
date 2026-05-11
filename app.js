@@ -136,6 +136,7 @@ function findCityByStop(stop) {
 function openCruiseCity(city, cruise) {
     if (!city || !cruise || state.isTransitioning) return;
     state.fromCruise = true;
+    state.currentCruise = cruise;
     document.getElementById('cruise-app').style.display = 'none';
     selectCity(city);
 }
@@ -159,6 +160,93 @@ function getTypeLabel(type) {
         monument: 'Monumento', park: 'Parque', museum: 'Museo'
     };
     return labels[type] || type;
+}
+
+function getPlaceExtraInfo(place) {
+    return cleanDisplayText(place.descripcionCorta || place.barrio || place.zona || '');
+}
+
+function getWebsiteUrl(value) {
+    const text = String(value || '').trim();
+    return /^https?:\/\//i.test(text) ? text : '';
+}
+
+function renderWebValue(value, label = 'Visitar web') {
+    const url = getWebsiteUrl(value);
+    if (!url) return '';
+    return `<a class="external-contact-link" href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(label)}</a>`;
+}
+
+function renderContactValue(value) {
+    return escapeHtml(cleanDisplayText(value || 'Consultar'));
+}
+
+function getActivityDuration(activity) {
+    return activity.duracion || activity.duration || activity.duracionEstimada || '';
+}
+
+function getActivityCost(activity) {
+    return activity.costeEstimado || activity.precioEstimado || activity.precio || activity.coste || activity.cost || '';
+}
+
+function getActivitySchedule(activity) {
+    return activity.horario || activity.schedule || activity.hora || '';
+}
+
+function getActivityProvider(activity) {
+    return activity.proveedor || activity.provider || activity.empresa || '';
+}
+
+function getActivityWebsite(activity) {
+    return activity.web || activity.url || activity.website || '';
+}
+
+function getActivityContact(activity) {
+    return activity.contacto || activity.contact || activity.email || activity.telefono || '';
+}
+
+function renderPlaceActivities(place) {
+    const actContainer = document.getElementById('modal-place-activities');
+    const actSection = document.getElementById('modal-activities-section');
+    if (!actContainer || !actSection) return;
+
+    const activities = place.actividades || [];
+    if (!activities.length) {
+        actSection.hidden = true;
+        actContainer.innerHTML = '';
+        return;
+    }
+
+    actSection.hidden = false;
+    actContainer.innerHTML = activities.map(activity => {
+        const provider = getActivityProvider(activity);
+        const rawContact = getActivityContact(activity);
+        const webUrl = getWebsiteUrl(getActivityWebsite(activity));
+        const duration = getActivityDuration(activity);
+        const cost = getActivityCost(activity);
+        const schedule = getActivitySchedule(activity);
+        const title = activity.titulo || activity.title || 'Actividad';
+        const description = activity.descripcion || activity.description || '';
+        const image = activity.imagen || activity.image || place.imagenCard || place.imagen;
+
+        return `
+            <article class="activity-card">
+                <img src="${assetUrl(image)}" alt="${escapeHtml(title)}" class="activity-img" loading="lazy">
+                <div class="activity-card-body">
+                    <h4>${escapeHtml(title)}</h4>
+                    <p>${escapeHtml(description)}</p>
+                    <dl>
+                        ${provider ? `<div><dt>Proveedor</dt><dd>${escapeHtml(provider)}</dd></div>` : ''}
+                        ${rawContact && !getWebsiteUrl(rawContact) ? `<div><dt>Contacto</dt><dd>${renderContactValue(rawContact)}</dd></div>` : ''}
+                        ${webUrl ? `<div><dt>Web</dt><dd>${renderWebValue(webUrl, 'Web oficial')}</dd></div>` : ''}
+                        ${cost ? `<div><dt>Precio estimado</dt><dd>${escapeHtml(cleanDisplayText(cost))}</dd></div>` : ''}
+                        ${schedule ? `<div><dt>Horario</dt><dd>${escapeHtml(cleanDisplayText(schedule))}</dd></div>` : ''}
+                        ${duration ? `<div><dt>DuraciÃ³n</dt><dd>${escapeHtml(cleanDisplayText(duration))}</dd></div>` : ''}
+                    </dl>
+                </div>
+            </article>
+        `;
+    }).join('');
 }
 
 function getCityIataCode(city) {
@@ -256,8 +344,8 @@ function refreshGlobeData() {
 
     state.globe.pointsData(displayPoints)
         .pointAltitude(0.03)
-        .pointRadius(d => d.isCruiseStop ? 1.5 : 1.2)
-        .pointColor(d => d.isCruiseStop ? '#38bdf8' : '#ffdf5d')
+        .pointRadius(() => 0)
+        .pointColor(() => 'rgba(0,0,0,0)')
         .pointLabel(d => d.nombre);
 
     state.globe.htmlElementsData(displayPoints)
@@ -316,6 +404,7 @@ async function selectCity(city) {
 
     applyTheme(city);
     updateUIForCity(city);
+    updateUIForCityDetails(city);
 
     const selection = document.getElementById('city-selection');
     const app = document.getElementById('main-app');
@@ -344,6 +433,7 @@ function backToSelection() {
         state.fromCruise = false;
         state.currentCity = null;
         cleanupCityExplorerMap();
+        updateBackButtonForContext();
         document.getElementById('main-app').style.display = 'none';
         document.getElementById('cruise-app').style.display = 'block';
         return;
@@ -363,6 +453,7 @@ function backToSelection() {
         selection.classList.add('fade-in');
         
         state.currentCity = null;
+        updateBackButtonForContext();
         setTimeout(() => {
             selection.classList.remove('fade-in');
             state.isTransitioning = false;
@@ -421,6 +512,25 @@ function cleanupCityExplorerMap() {
     }
 }
 
+function updateBackButtonForContext() {
+    const backButton = document.getElementById('back-to-cities');
+    if (!backButton) return;
+
+    const icon = backButton.querySelector('.back-btn-icon');
+    const text = backButton.querySelector('.back-btn-text');
+
+    if (state.fromCruise) {
+        backButton.title = 'Volver al crucero';
+        if (icon) icon.textContent = '🛳️';
+        if (text) text.textContent = 'Volver al crucero';
+        return;
+    }
+
+    backButton.title = 'Volver al mapa mundi';
+    if (icon) icon.textContent = '🌍';
+    if (text) text.textContent = 'Mapa mundi';
+}
+
 // ══ RENDERIZADO DE LUGARES ═══════════════════════════════════════════
 
 function renderPlaces() {
@@ -455,40 +565,38 @@ function showPlaceDetails(place) {
     if (!modal) return;
     
     document.getElementById('modal-place-title').textContent = place.nombre;
-    document.getElementById('modal-place-desc').textContent = place.descripcion;
-    document.getElementById('modal-place-img').src = assetUrl(place.imagen);
+    document.getElementById('modal-place-desc').textContent = place.descripcion || place.descripcionCorta || '';
+    document.getElementById('modal-place-img').src = assetUrl(place.imagen || place.imagenCard);
+    document.getElementById('modal-place-img').alt = place.nombre;
     document.getElementById('modal-place-tag').textContent = getTypeLabel(place.tipo);
+    document.getElementById('modal-place-extra').textContent = getPlaceExtraInfo(place);
     
     // Facts
+    const extraEl = document.getElementById('modal-place-extra');
     const priceEl = document.getElementById('modal-place-price');
     const hoursEl = document.getElementById('modal-place-hours');
     const ratingEl = document.getElementById('modal-place-rating');
+    const contactEl = document.getElementById('modal-place-contact');
+    const tagsEl = document.getElementById('modal-place-tags');
     
-    if (priceEl) priceEl.innerHTML = `💰 <strong>Precio:</strong> ${place.precio || 'Gratis / Variable'}`;
-    if (hoursEl) hoursEl.innerHTML = `⏰ <strong>Horario:</strong> ${place.horario || '9:00 - 18:00'}`;
-    if (ratingEl) ratingEl.innerHTML = `⭐ <strong>Puntuación:</strong> ${place.puntuacion || '4.8/5'}`;
+    if (extraEl) extraEl.hidden = !extraEl.textContent.trim();
+    if (priceEl) priceEl.innerHTML = `💰 <strong>Precio:</strong> ${escapeHtml(cleanDisplayText(place.precio || 'Gratis / Variable'))}`;
+    if (hoursEl) hoursEl.innerHTML = `⏰ <strong>Horario:</strong> ${escapeHtml(cleanDisplayText(place.horario || '9:00 - 18:00'))}`;
+    if (ratingEl) ratingEl.innerHTML = `⭐ <strong>Puntuación:</strong> ${escapeHtml(cleanDisplayText(place.puntuacion || place.rating || '4.8/5'))}`;
+    if (contactEl) {
+        const contactParts = [];
+        if (place.contacto) contactParts.push(`<strong>Contacto:</strong> ${renderContactValue(place.contacto)}`);
+        if (place.web) contactParts.push(renderWebValue(place.web, 'Web oficial'));
+        contactEl.innerHTML = contactParts.join(' · ');
+        contactEl.hidden = !contactParts.length;
+    }
 
-    // Actividades
-    const actContainer = document.getElementById('modal-place-activities');
-    const actSection = document.getElementById('modal-activities-section');
-    
-    if (actContainer && place.actividades && place.actividades.length > 0) {
-        actSection.hidden = false;
-        actContainer.innerHTML = place.actividades.map(act => `
-            <div class="activity-card">
-                <img src="${assetUrl(act.imagen)}" alt="${act.titulo}" class="activity-img" loading="lazy">
-                <div class="activity-info">
-                    <h4>${act.titulo}</h4>
-                    <p>${act.descripcion}</p>
-                    <div class="activity-meta">
-                        <span>⏱️ ${act.duracion || '2h'}</span>
-                        <span>💰 ${act.costeEstimado || 'Consultar'}</span>
-                    </div>
-                </div>
-            </div>
-        `).join('');
-    } else if (actSection) {
-        actSection.hidden = true;
+    renderPlaceActivities(place);
+    if (tagsEl) {
+        tagsEl.innerHTML = (place.tags || [])
+            .map(tag => `<span>${escapeHtml(cleanDisplayText(tag))}</span>`)
+            .join('');
+        tagsEl.hidden = !(place.tags || []).length;
     }
 
     modal.style.display = 'flex';
@@ -517,6 +625,18 @@ function applyTheme(city) {
 function updateUIForCity(city) {
     document.getElementById('app-title').innerHTML = `${city.nombre} <span class="logo-sub">Guía de Viaje · ${city.pais}</span>`;
     document.getElementById('app-logo-icon').textContent = city.emoji;
+}
+
+function updateUIForCityDetails(city) {
+    document.getElementById('hero-title').textContent = city.nombre;
+    document.getElementById('hero-subtitle').textContent = city.descripcionCorta || city.descripcion || `Explora ${city.nombre}, ${city.pais}`;
+
+    const hero = document.getElementById('city-hero');
+    if (hero) {
+        hero.style.backgroundImage = `url("${assetUrl(city.imagen)}")`;
+    }
+
+    updateBackButtonForContext();
 }
 
 function updateSelectionStats() {
@@ -554,11 +674,11 @@ async function selectCruise(cruise) {
 }
 
 function getCruiseShipPhoto(cruise) {
-    return cruise.imagen || cruise.buque?.imagen || cruise.buque?.fotoBarco || cruise.buque?.datos?.fotoBarco || cruise.fotoBarco;
+    return cruise.buque?.fotoBarco || cruise.buque?.datos?.fotoBarco || cruise.fotoBarco || cruise.buque?.imagen || cruise.imagen;
 }
 
 function getCruiseFallbackPhoto(cruise) {
-    return cruise.imagen || cruise.buque?.imagen || cruise.buque?.fotoBarco || 'https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&fit=crop&q=80&w=800';
+    return cruise.buque?.imagen || cruise.imagen || cruise.buque?.fotoBarco || cruise.buque?.datos?.fotoBarco || cruise.fotoBarco || 'https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&fit=crop&q=80&w=800';
 }
 
 function buildCruiseScaleCard(stop, cruise) {
@@ -829,7 +949,12 @@ function renderCruiseItinerary(cruise) {
 
 function getFilteredCruiseList() {
     if (!state.activeFilters.showCruises) return [];
-    if (!state.activeFilters.cruiseRegions.length) return [];
+    if (!state.activeFilters.cruiseRegions.length) {
+        return state.cruises
+            .slice()
+            .sort((a, b) => (b.puntuacion || 0) - (a.puntuacion || 0))
+            .slice(0, 10);
+    }
 
     const selectedRegions = state.activeFilters.cruiseRegions.map(normalizeCruiseRegion);
     const hasOthers = selectedRegions.includes(normalizeCruiseRegion('Otros'));
@@ -920,9 +1045,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function setupEventListeners() {
     document.getElementById('back-to-cities').onclick = backToSelection;
+    updateBackButtonForContext();
     document.getElementById('back-from-cruise').onclick = () => {
         state.fromCruise = false;
         state.currentCruise = null;
+        updateBackButtonForContext();
         document.getElementById('cruise-app').style.display = 'none';
         document.getElementById('city-selection').style.display = 'flex';
     };
@@ -947,6 +1074,9 @@ function setupEventListeners() {
             .filter(input => input.checked)
             .map(input => input.value);
     };
+
+    state.activeFilters.showCities = Boolean(citiesToggle?.checked);
+    state.activeFilters.showCruises = Boolean(cruiseToggle?.checked);
 
     const clearContinents = () => {
         if (citiesToggle) citiesToggle.checked = false;
@@ -1032,4 +1162,6 @@ function setupEventListeners() {
     syncContinents();
     syncCruiseRegions();
     updateFilterVisuals();
+    updateCruiseList();
+    refreshGlobeData();
 }
