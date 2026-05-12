@@ -2081,21 +2081,36 @@
     "imagen": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=85&w=1200",
     "emoji": "",
     "temporada": "Diciembre-Marzo",
+    "fotoBarco": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Valiant_Lady_%28ship%2C_2021%29_001.jpg",
     "buque": {
       "compania": "Virgin Voyages",
       "nombre": "Valiant Lady",
-      "imagen": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=85&w=1200",
-      "fotoBarco": "https://commons.wikimedia.org/wiki/Special:FilePath/Valiant_Lady_(ship%2C_2021)_001.jpg",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Valiant_Lady_%28ship%2C_2021%29_001.jpg",
+      "fotoBarco": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Valiant_Lady_%28ship%2C_2021%29_001.jpg",
       "imo": "9805336",
       "mmsi": "311000819",
       "trackingUrl": "https://www.vesselfinder.com/vessels/details/9805336",
+      "caracteristicas": [
+        {
+          "label": "Ambiente",
+          "valor": "Solo adultos"
+        },
+        {
+          "label": "Estilo",
+          "valor": "Lifestyle premium"
+        },
+        {
+          "label": "Ruta",
+          "valor": "Miami - Puerto Plata - Bimini"
+        }
+      ],
       "datos": {
         "eslora": "278 m",
         "cubiertas": "17",
         "pasajeros": "2.770",
         "tripulacion": "1.160",
         "restaurantes": "20+",
-        "actividades": "Piscinas, teatro, spa, restaurantes tematicos, musica en vivo, terrazas exteriores y experiencias de playa privada"
+        "actividades": "Beach club en Bimini, wellness, piscinas, teatro inmersivo, spa, restaurantes de autor, musica en vivo, fiestas tematicas y terrazas exteriores"
       }
     },
     "ruta": [
