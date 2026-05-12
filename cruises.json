@@ -1022,9 +1022,9 @@
     "buque": {
       "compania": "Paul Gauguin Cruises",
       "nombre": "Paul Gauguin",
-      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/MS_Paul_Gauguin_in_Moorea.jpg",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:Redirect/file/MS_Paul_Gauguin_in_Moorea.jpg",
       "datos": {
-        "fotoBarco": "https://commons.wikimedia.org/wiki/Special:FilePath/MS_Paul_Gauguin_in_Moorea.jpg",
+        "fotoBarco": "https://commons.wikimedia.org/wiki/Special:Redirect/file/MS_Paul_Gauguin_in_Moorea.jpg",
         "eslora": "156 m",
         "cubiertas": "7",
         "pasajeros": "330",
@@ -1032,7 +1032,7 @@
         "restaurantes": "3",
         "actividades": "Marina deportiva, snorkel, kayak, spa, conferencias polinesias y cenas de autor"
       },
-      "fotoBarco": "https://commons.wikimedia.org/wiki/Special:FilePath/MS_Paul_Gauguin_in_Moorea.jpg",
+      "fotoBarco": "https://commons.wikimedia.org/wiki/Special:Redirect/file/MS_Paul_Gauguin_in_Moorea.jpg",
       "imo": "9111319",
       "mmsi": "578001600",
       "trackingUrl": "https://www.vesselfinder.com/vessels/details/9111319"
@@ -1413,8 +1413,8 @@
     "buque": {
       "compania": "Celebrity Cruises",
       "nombre": "Celebrity Beyond",
-      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Celebrity_Beyond_2022.jpg",
-      "fotoBarco": "https://commons.wikimedia.org/wiki/Special:FilePath/Celebrity_Beyond_2022.jpg",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Celebrity_Beyond_2022.jpg",
+      "fotoBarco": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Celebrity_Beyond_2022.jpg",
       "imo": "9838395",
       "mmsi": "215909000",
       "trackingUrl": "https://www.vesselfinder.com/vessels/details/9838395",
@@ -1511,8 +1511,8 @@
     "buque": {
       "compania": "Norwegian Cruise Line",
       "nombre": "Norwegian Prima",
-      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Norwegian_Prima_in_Amsterdam_2022.jpg",
-      "fotoBarco": "https://commons.wikimedia.org/wiki/Special:FilePath/Norwegian_Prima_in_Amsterdam_2022.jpg",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Norwegian_Prima_in_Amsterdam_2022.jpg",
+      "fotoBarco": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Norwegian_Prima_in_Amsterdam_2022.jpg",
       "imo": "9823986",
       "mmsi": "311000910",
       "trackingUrl": "https://www.vesselfinder.com/vessels/details/9823986",
@@ -1523,7 +1523,7 @@
         "tripulacion": "1.506",
         "restaurantes": "12",
         "actividades": "Piscinas, teatro, spa, restaurantes tematicos, musica en vivo, terrazas exteriores y experiencias de playa privada",
-        "fotoBarco": "https://commons.wikimedia.org/wiki/Special:FilePath/Norwegian_Prima_in_Amsterdam_2022.jpg"
+        "fotoBarco": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Norwegian_Prima_in_Amsterdam_2022.jpg"
       }
     },
     "ruta": [
@@ -1888,8 +1888,8 @@
     "buque": {
       "compania": "Princess Cruises",
       "nombre": "Caribbean Princess",
-      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Caribbean_Princess_(ship%2C_2004)_001.jpg",
-      "fotoBarco": "https://commons.wikimedia.org/wiki/Special:FilePath/Caribbean_Princess_(ship%2C_2004)_001.jpg",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Titanic_Belfast_-_001.jpg",
+      "fotoBarco": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Titanic_Belfast_-_001.jpg",
       "imo": "9215490",
       "mmsi": "310423000",
       "trackingUrl": "https://www.vesselfinder.com/vessels/details/9215490",
@@ -1986,8 +1986,8 @@
     "buque": {
       "compania": "Holland America Line",
       "nombre": "Nieuw Statendam",
-      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Nieuw_Statendam_(ship%2C_2018)_001.jpg",
-      "fotoBarco": "https://commons.wikimedia.org/wiki/Special:FilePath/Nieuw_Statendam_(ship%2C_2018)_001.jpg",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Nieuw_Statendam_(ship,_2018)_001.jpg",
+      "fotoBarco": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Nieuw_Statendam_(ship,_2018)_001.jpg",
       "imo": "9767106",
       "mmsi": "244140580",
       "trackingUrl": "https://www.vesselfinder.com/vessels/details/9767106",
@@ -2480,8 +2480,8 @@
     "buque": {
       "nombre": "Costa Smeralda",
       "compania": "Costa Cruceros",
-      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Costa_Smeralda_ship_2020.jpg",
-      "fotoBarco": "https://commons.wikimedia.org/wiki/Special:FilePath/Costa_Smeralda_ship_2020.jpg",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Costa_Smeralda_ship_2020.jpg",
+      "fotoBarco": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Costa_Smeralda_ship_2020.jpg",
       "datos": {
         "eslora": "337 m",
         "plantas": "20 cubiertas",
@@ -2801,8 +2801,8 @@
     "buque": {
       "nombre": "MSC Seaview",
       "compania": "MSC Cruceros",
-      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/MSC_Seaview_in_Genoa.jpg",
-      "fotoBarco": "https://commons.wikimedia.org/wiki/Special:FilePath/MSC_Seaview_in_Genoa.jpg",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:Redirect/file/MSC_Seaview_in_Genoa.jpg",
+      "fotoBarco": "https://commons.wikimedia.org/wiki/Special:Redirect/file/MSC_Seaview_in_Genoa.jpg",
       "datos": {
         "eslora": "323 m",
         "plantas": "18 cubiertas",
@@ -3359,8 +3359,8 @@
     "buque": {
       "nombre": "Azamara Pursuit",
       "compania": "Azamara",
-      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Azamara_Pursuit_at_Southampton.jpg",
-      "fotoBarco": "https://commons.wikimedia.org/wiki/Special:FilePath/Azamara_Pursuit_at_Southampton.jpg",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Azamara_Pursuit_at_Southampton.jpg",
+      "fotoBarco": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Azamara_Pursuit_at_Southampton.jpg",
       "datos": {
         "eslora": "181 m",
         "plantas": "11 cubiertas",
@@ -3638,8 +3638,8 @@
     "buque": {
       "nombre": "Norwegian Epic",
       "compania": "Norwegian Cruise Line",
-      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Norwegian_Epic_in_Cannes.jpg",
-      "fotoBarco": "https://commons.wikimedia.org/wiki/Special:FilePath/Norwegian_Epic_in_Cannes.jpg",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Norwegian_Epic_in_Cannes.jpg",
+      "fotoBarco": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Norwegian_Epic_in_Cannes.jpg",
       "datos": {
         "eslora": "329 m",
         "plantas": "19 cubiertas",
@@ -3917,8 +3917,8 @@
     "buque": {
       "nombre": "AIDAcosma",
       "compania": "AIDA Cruises",
-      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/AIDAcosma_in_Kiel.jpg",
-      "fotoBarco": "https://commons.wikimedia.org/wiki/Special:FilePath/AIDAcosma_in_Kiel.jpg",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:Redirect/file/AIDAcosma_in_Kiel.jpg",
+      "fotoBarco": "https://commons.wikimedia.org/wiki/Special:Redirect/file/AIDAcosma_in_Kiel.jpg",
       "datos": {
         "eslora": "337 m",
         "plantas": "20 cubiertas",
@@ -4517,8 +4517,8 @@
     "buque": {
       "nombre": "MSC Orchestra",
       "compania": "MSC Cruceros",
-      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/MSC_Orchestra_in_Kiel_Canal.jpg",
-      "fotoBarco": "https://commons.wikimedia.org/wiki/Special:FilePath/MSC_Orchestra_in_Kiel_Canal.jpg",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:Redirect/file/MSC_Orchestra_in_Kiel_Canal.jpg",
+      "fotoBarco": "https://commons.wikimedia.org/wiki/Special:Redirect/file/MSC_Orchestra_in_Kiel_Canal.jpg",
       "datos": {
         "eslora": "294 m",
         "plantas": "16 cubiertas",
@@ -7040,8 +7040,8 @@
     "buque": {
       "nombre": "Aranui 5",
       "compania": "Aranui Cruises",
-      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Aranui_5.jpg",
-      "fotoBarco": "https://commons.wikimedia.org/wiki/Special:FilePath/Aranui_5.jpg",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Aranui_5.jpg",
+      "fotoBarco": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Aranui_5.jpg",
       "datos": {
         "eslora": "126 m",
         "plantas": "12-20 cubiertas",
@@ -7193,8 +7193,8 @@
     "buque": {
       "nombre": "Ocean Victory",
       "compania": "Albatros Expeditions",
-      "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Ocean_Victory_Ceuta.jpg",
-      "fotoBarco": "https://commons.wikimedia.org/wiki/Special:FilePath/Ocean_Victory_Ceuta.jpg",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Ocean_Victory_Ceuta.jpg",
+      "fotoBarco": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Ocean_Victory_Ceuta.jpg",
       "datos": {
         "eslora": "104 m",
         "plantas": "12-20 cubiertas",
