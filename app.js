@@ -438,6 +438,7 @@ async function selectCity(city) {
     state.currentCity = city;
     state.places = city.lugares || [];
     state.filteredPlaces = [...state.places];
+    state.activeTab = 'lugares';
 
     applyTheme(city);
     updateUIForCity(city);
@@ -453,6 +454,7 @@ async function selectCity(city) {
         app.style.display = 'block';
         app.classList.add('fade-in');
         
+        setActiveTab('lugares');
         renderPlaces();
         renderCityExplorerMap(city);
 
@@ -469,6 +471,7 @@ function backToSelection() {
     if (state.fromCruise) {
         state.fromCruise = false;
         state.currentCity = null;
+        state.activeTab = 'lugares';
         cleanupCityExplorerMap();
         updateBackButtonForContext();
         document.getElementById('main-app').style.display = 'none';
@@ -490,6 +493,7 @@ function backToSelection() {
         selection.classList.add('fade-in');
         
         state.currentCity = null;
+        state.activeTab = 'lugares';
         updateBackButtonForContext();
         setTimeout(() => {
             selection.classList.remove('fade-in');
@@ -507,6 +511,7 @@ function renderCityExplorerMap(city) {
     cleanupCityExplorerMap();
     const isMiami = city.id === 'miami';
     container.classList.toggle('city-explorer-map--miami', isMiami);
+    container.classList.toggle('city-explorer-map--wide', isMiami);
 
     state.cityExplorerMap = L.map('city-explorer-map', {
         zoomControl: true,
@@ -520,8 +525,11 @@ function renderCityExplorerMap(city) {
     L.tileLayer(tileUrl).addTo(state.cityExplorerMap);
 
     const places = city.lugares || [];
+    const mapPlaces = isMiami
+        ? places.filter((place) => place.nombre !== 'Everglades National Park')
+        : places;
     const latLngs = [];
-    places.forEach(place => {
+    mapPlaces.forEach(place => {
         if (!place.lat || !place.lng) return;
         latLngs.push([place.lat, place.lng]);
 
@@ -561,11 +569,20 @@ function renderCityExplorerMap(city) {
             fillColor: '#67e8f9',
             fillOpacity: 0.08
         }).addTo(state.cityExplorerMap);
+
+        state.cityExplorerMap.setView([25.7795, -80.191], 12);
     }
 
     if (latLngs.length > 0) {
         const bounds = L.latLngBounds(latLngs);
-        state.cityExplorerMap.fitBounds(bounds, { padding: [50, 50] });
+        state.cityExplorerMap.fitBounds(bounds, { padding: isMiami ? [70, 70] : [50, 50] });
+    }
+
+    if (isMiami) {
+        state.cityExplorerMap.setMaxBounds([
+            [25.69, -80.31],
+            [25.86, -80.08]
+        ]);
     }
 }
 
@@ -706,6 +723,133 @@ function updateUIForCityDetails(city) {
 function updateSelectionStats() {
     const citiesCount = document.getElementById('selection-cities-count');
     if (citiesCount) citiesCount.textContent = `${state.cities.length} ciudades`;
+}
+
+function setActiveTab(tab) {
+    state.activeTab = tab;
+
+    document.querySelectorAll('.tab-btn').forEach((button) => {
+        button.classList.toggle('active', button.dataset.tab === tab);
+    });
+
+    const lugaresSection = document.getElementById('lugares-section');
+    const weatherSection = document.getElementById('weather-section');
+    const filtersBar = document.getElementById('filters-bar');
+
+    if (lugaresSection) lugaresSection.style.display = tab === 'lugares' ? 'block' : 'none';
+    if (weatherSection) weatherSection.style.display = tab === 'meteo' ? 'block' : 'none';
+    if (filtersBar) filtersBar.style.display = tab === 'lugares' ? 'block' : 'none';
+
+    if (tab === 'meteo' && state.currentCity) {
+        renderWeatherSection(state.currentCity);
+    }
+
+    if (tab === 'lugares' && state.cityExplorerMap) {
+        setTimeout(() => state.cityExplorerMap.invalidateSize(), 60);
+    }
+}
+
+function getWeatherCodeLabel(code) {
+    const labels = {
+        0: 'Despejado',
+        1: 'Principalmente despejado',
+        2: 'Parcialmente nuboso',
+        3: 'Cubierto',
+        45: 'Niebla',
+        48: 'Niebla con escarcha',
+        51: 'Llovizna ligera',
+        53: 'Llovizna moderada',
+        55: 'Llovizna intensa',
+        61: 'Lluvia ligera',
+        63: 'Lluvia moderada',
+        65: 'Lluvia intensa',
+        71: 'Nieve ligera',
+        73: 'Nieve moderada',
+        75: 'Nieve intensa',
+        80: 'Chubascos ligeros',
+        81: 'Chubascos moderados',
+        82: 'Chubascos fuertes',
+        95: 'Tormenta'
+    };
+    return labels[code] || 'Tiempo variable';
+}
+
+function getWeatherCodeIcon(code) {
+    if (code === 0) return '☀️';
+    if ([1, 2].includes(code)) return '🌤️';
+    if (code === 3) return '☁️';
+    if ([45, 48].includes(code)) return '🌫️';
+    if ([51, 53, 55, 61, 63, 65, 80, 81, 82].includes(code)) return '🌧️';
+    if ([71, 73, 75].includes(code)) return '❄️';
+    if (code >= 95) return '⛈️';
+    return '🌤️';
+}
+
+function formatWeekday(dateString) {
+    return new Date(dateString).toLocaleDateString('es-ES', { weekday: 'short' });
+}
+
+async function renderWeatherSection(city) {
+    const container = document.getElementById('weather-container');
+    if (!container || !city?.lat || !city?.lng) return;
+
+    container.innerHTML = '<div class="loading"><div class="spinner"></div> Cargando meteorología...</div>';
+
+    try {
+        const params = new URLSearchParams({
+            latitude: String(city.lat),
+            longitude: String(city.lng),
+            current: 'temperature_2m,apparent_temperature,weather_code,wind_speed_10m',
+            daily: 'weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max',
+            forecast_days: '5',
+            timezone: 'auto'
+        });
+        const response = await fetch(`https://api.open-meteo.com/v1/forecast?${params.toString()}`);
+        if (!response.ok) throw new Error(`Weather request failed: ${response.status}`);
+
+        const data = await response.json();
+        const current = data.current || {};
+        const daily = data.daily || {};
+        const days = (daily.time || []).map((date, index) => ({
+            date,
+            code: daily.weather_code?.[index],
+            max: daily.temperature_2m_max?.[index],
+            min: daily.temperature_2m_min?.[index],
+            rain: daily.precipitation_probability_max?.[index]
+        }));
+
+        container.innerHTML = `
+            <article class="weather-card main-weather">
+                <div>
+                    <div class="weather-location">${escapeHtml(city.nombre)}, ${escapeHtml(city.pais || '')}</div>
+                    <div class="weather-condition-icon">${getWeatherCodeIcon(current.weather_code)}</div>
+                    <h3>${Math.round(current.temperature_2m ?? 0)}°C</h3>
+                    <p>${escapeHtml(getWeatherCodeLabel(current.weather_code))}</p>
+                </div>
+                <div class="weather-meta">
+                    <div><strong>Sensación</strong><span>${Math.round(current.apparent_temperature ?? current.temperature_2m ?? 0)}°C</span></div>
+                    <div><strong>Viento</strong><span>${Math.round(current.wind_speed_10m ?? 0)} km/h</span></div>
+                </div>
+            </article>
+            <article class="weather-card weather-forecast">
+                <h3>Próximos 5 días</h3>
+                <div class="forecast-list">
+                    ${days.map((day) => `
+                        <div class="forecast-item">
+                            <span class="forecast-day">${escapeHtml(formatWeekday(day.date))}</span>
+                            <span class="forecast-icon">${getWeatherCodeIcon(day.code)}</span>
+                            <span class="forecast-desc">${escapeHtml(getWeatherCodeLabel(day.code))}</span>
+                            <span class="forecast-temps">${Math.round(day.max ?? 0)}° / ${Math.round(day.min ?? 0)}°</span>
+                            <span class="forecast-rain">Lluvia: ${Math.round(day.rain ?? 0)}%</span>
+                        </div>
+                    `).join('')}
+                </div>
+            </article>
+        `;
+    } catch (error) {
+        console.error('Error cargando meteorología:', error);
+        container.innerHTML = `<div class="loading">No se pudo cargar la meteorología de ${escapeHtml(city.nombre)}.</div>`;
+    }
 }
 
 // ══ CRUCEROS (SIMPLIFICADO PARA ESTABILIDAD) ═════════════════════════
@@ -1135,6 +1279,9 @@ document.addEventListener('DOMContentLoaded', () => {
 function setupEventListeners() {
     document.getElementById('back-to-cities').onclick = backToSelection;
     updateBackButtonForContext();
+    document.querySelectorAll('.tab-btn').forEach((button) => {
+        button.addEventListener('click', () => setActiveTab(button.dataset.tab));
+    });
     document.getElementById('back-from-cruise').onclick = () => {
         state.fromCruise = false;
         state.currentCruise = null;
@@ -1253,4 +1400,5 @@ function setupEventListeners() {
     updateFilterVisuals();
     updateCruiseList();
     refreshGlobeData();
+    setActiveTab(state.activeTab || 'lugares');
 }

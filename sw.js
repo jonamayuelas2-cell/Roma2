@@ -1,9 +1,9 @@
-const CACHE_NAME = 'ciudades-del-mundo-v1.4.5-venecia-generated-assets';
+const CACHE_NAME = 'ciudades-del-mundo-v1.4.7-weather-fix';
 const STATIC_ASSETS = [
   '/',
   '/index.html',
-  '/app.js?v=20260511-22',
-  '/style.css?v=20260511-22',
+  '/app.js?v=20260512-02',
+  '/style.css?v=20260512-02',
   '/cities.json',
   '/manifest.json',
   '/icons/icon-192.png',
