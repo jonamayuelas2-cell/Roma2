@@ -1,9 +1,9 @@
-const CACHE_NAME = 'ciudades-del-mundo-v1.5.8-cruise-header-backgrounds';
+const CACHE_NAME = 'ciudades-del-mundo-v1.5.9-valiant-lady-images';
 const STATIC_ASSETS = [
   '/',
   '/index.html',
-  '/app.js?v=20260512-13',
-  '/style.css?v=20260512-13',
+  '/app.js?v=20260512-14',
+  '/style.css?v=20260512-14',
   '/cities.json',
   '/manifest.json',
   '/icons/icon-192.png',
