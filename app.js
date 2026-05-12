@@ -454,6 +454,7 @@ async function selectCity(city) {
         app.style.display = 'block';
         app.classList.add('fade-in');
         
+        bindMainTabEvents();
         setActiveTab('lugares');
         renderPlaces();
         renderCityExplorerMap(city);
@@ -718,6 +719,13 @@ function updateUIForCityDetails(city) {
     }
 
     updateBackButtonForContext();
+}
+
+function bindMainTabEvents() {
+    const lugaresTab = document.getElementById('tab-lugares');
+    const meteoTab = document.getElementById('tab-meteo');
+    if (lugaresTab) lugaresTab.onclick = () => setActiveTab('lugares');
+    if (meteoTab) meteoTab.onclick = () => setActiveTab('meteo');
 }
 
 function updateSelectionStats() {
@@ -1279,9 +1287,7 @@ document.addEventListener('DOMContentLoaded', () => {
 function setupEventListeners() {
     document.getElementById('back-to-cities').onclick = backToSelection;
     updateBackButtonForContext();
-    document.querySelectorAll('.tab-btn').forEach((button) => {
-        button.addEventListener('click', () => setActiveTab(button.dataset.tab));
-    });
+    bindMainTabEvents();
     document.getElementById('back-from-cruise').onclick = () => {
         state.fromCruise = false;
         state.currentCruise = null;

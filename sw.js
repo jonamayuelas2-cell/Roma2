@@ -1,9 +1,9 @@
-const CACHE_NAME = 'ciudades-del-mundo-v1.4.7-weather-fix';
+const CACHE_NAME = 'ciudades-del-mundo-v1.4.8-weather-tab-bind';
 const STATIC_ASSETS = [
   '/',
   '/index.html',
-  '/app.js?v=20260512-02',
-  '/style.css?v=20260512-02',
+  '/app.js?v=20260512-03',
+  '/style.css?v=20260512-03',
   '/cities.json',
   '/manifest.json',
   '/icons/icon-192.png',
