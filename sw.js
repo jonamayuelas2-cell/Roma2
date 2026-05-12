@@ -1,9 +1,9 @@
-const CACHE_NAME = 'ciudades-del-mundo-v1.5.1-miami-fitbounds';
+const CACHE_NAME = 'ciudades-del-mundo-v1.5.2-miami-zoomout';
 const STATIC_ASSETS = [
   '/',
   '/index.html',
-  '/app.js?v=20260512-06',
-  '/style.css?v=20260512-06',
+  '/app.js?v=20260512-07',
+  '/style.css?v=20260512-07',
   '/cities.json',
   '/manifest.json',
   '/icons/icon-192.png',

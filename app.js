@@ -563,10 +563,14 @@ function renderCityExplorerMap(city) {
 
     if (latLngs.length > 0) {
         const bounds = L.latLngBounds(latLngs);
+        state.cityExplorerMap.invalidateSize();
         state.cityExplorerMap.fitBounds(bounds, {
-            padding: isMiami ? [85, 85] : [50, 50],
-            maxZoom: isMiami ? 10 : undefined
+            padding: isMiami ? [110, 110] : [50, 50]
         });
+        if (isMiami) {
+            const currentZoom = state.cityExplorerMap.getZoom();
+            state.cityExplorerMap.setZoom(Math.max(0, currentZoom - 1));
+        }
     }
 }
 
