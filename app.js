@@ -1071,11 +1071,10 @@ function renderCruiseHeader(cruise) {
     const progressBar = document.getElementById('voyage-progress-bar');
     const status = document.getElementById('voyage-status');
     const shipPhotos = getCruiseShipPhotoCandidates(cruise);
-    const headerBackgrounds = getCruiseHeaderBackgroundCandidates(cruise);
-    let headerBackgroundIndex = 0;
+    const initialPhoto = assetUrl(shipPhotos[0] || shipPhoto || fallbackPhoto);
 
     if (header) {
-        header.style.setProperty('--cruise-bg-img', `url("${assetUrl(headerBackgrounds[0] || shipPhoto || fallbackPhoto)}")`);
+        header.style.setProperty('--cruise-bg-img', `url("${initialPhoto}")`);
     }
     if (image) {
         image.removeAttribute('srcset');
@@ -1095,21 +1094,7 @@ function renderCruiseHeader(cruise) {
             image.src = assetUrl(fallbackPhoto);
             if (header) header.style.setProperty('--cruise-bg-img', `url("${assetUrl(fallbackPhoto)}")`);
         };
-        image.src = assetUrl(shipPhotos[photoIndex] || fallbackPhoto);
-    }
-    if (header) {
-        header.onerror = null;
-        const bgProbe = new Image();
-        bgProbe.referrerPolicy = 'no-referrer';
-        bgProbe.onerror = () => {
-            headerBackgroundIndex += 1;
-            if (headerBackgroundIndex < headerBackgrounds.length) {
-                const nextBackground = headerBackgrounds[headerBackgroundIndex];
-                header.style.setProperty('--cruise-bg-img', `url("${assetUrl(nextBackground)}")`);
-                bgProbe.src = assetUrl(nextBackground);
-            }
-        };
-        bgProbe.src = assetUrl(headerBackgrounds[0] || shipPhoto || fallbackPhoto);
+        image.src = initialPhoto;
     }
     if (badge) badge.textContent = ship.compania || cruise.compania || 'Buque';
     if (title) title.textContent = shipName;

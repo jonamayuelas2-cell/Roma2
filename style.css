@@ -3294,3 +3294,13 @@ header {
 .custom-tooltip-premium::before {
     border-top-color: rgba(0, 0, 0, 0.85);
 }
+
+.marker-pin-featured {
+    background: radial-gradient(circle at 35% 30%, #2b2b2b 0%, #0a0a0a 62%, #000 100%);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.marker-pin-featured:hover {
+    box-shadow: 0 14px 34px rgba(0, 0, 0, 0.6);
+}
