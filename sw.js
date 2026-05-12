@@ -1,9 +1,9 @@
-const CACHE_NAME = 'ciudades-del-mundo-v1.4.9-weather-tab-inline';
+const CACHE_NAME = 'ciudades-del-mundo-v1.5.1-miami-fitbounds';
 const STATIC_ASSETS = [
   '/',
   '/index.html',
-  '/app.js?v=20260512-04',
-  '/style.css?v=20260512-04',
+  '/app.js?v=20260512-06',
+  '/style.css?v=20260512-06',
   '/cities.json',
   '/manifest.json',
   '/icons/icon-192.png',
