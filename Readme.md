@@ -32,3 +32,8 @@ Se ha realizado una intervenci√≥n profunda en el n√∫cleo de la aplicaci√≥n para 
 
 ---
 *Generado con ‚ù§Ô∏è por Antigravity*
+
+## ActualizaciÛn Venecia
+- AÒadidas las im·genes a las actividades de Venecia mapeando las im·genes existentes en la carpeta img/venice_activities/ en el archivo data/venecia.json.
+- *Nota: la cuota de generaciÛn de im·genes por IA est· agotada, por lo que se usaron las im·genes existentes y las faltantes se documentaron para el futuro.*
+

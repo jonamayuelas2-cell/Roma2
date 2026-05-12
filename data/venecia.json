@@ -39,7 +39,8 @@
           "contacto": "reservas@historiavenecia.local",
           "horario": "10:00 - 12:00",
           "web": "https://www.getyourguide.com/s/?q=Venice",
-          "costeEstimado": "25-70 €"
+          "costeEstimado": "25-70 €",
+          "imagen": "img/venice_activities/venice-place-01-tour-historico-esencial.png"
         },
         {
           "titulo": "Acceso con contexto local",
@@ -48,7 +49,8 @@
           "contacto": "hola@venecialocal.local",
           "horario": "12:00 - 14:00",
           "web": "https://www.getyourguide.com/s/?q=Venice",
-          "costeEstimado": "25-70 €"
+          "costeEstimado": "25-70 €",
+          "imagen": "img/venice_activities/venice-place-01-acceso-con-contexto-local.png"
         },
         {
           "titulo": "Paseo fotografico",
@@ -57,7 +59,8 @@
           "contacto": "foto@veneciawalk.local",
           "horario": "Atardecer",
           "web": "https://www.withlocals.com/search/?q=Venice",
-          "costeEstimado": "40-120 €"
+          "costeEstimado": "40-120 €",
+          "imagen": "img/venice_activities/venice-place-01-paseo-fotografico.png"
         },
         {
           "titulo": "Ruta de leyendas",
@@ -66,7 +69,8 @@
           "contacto": "relatos@venecia.local",
           "horario": "18:00 - 19:30",
           "web": "https://www.civitatis.com/es/venecia/",
-          "costeEstimado": "15-45 €"
+          "costeEstimado": "15-45 €",
+          "imagen": "img/venice_activities/venice-place-01-ruta-de-leyendas.png"
         },
         {
           "titulo": "Visita familiar",
@@ -75,7 +79,8 @@
           "contacto": "familias@viaje.local",
           "horario": "11:00 - 12:30",
           "web": "https://www.getyourguide.com/s/?q=Venice",
-          "costeEstimado": "25-70 €"
+          "costeEstimado": "25-70 €",
+          "imagen": "img/venice_activities/venice-place-01-visita-familiar.png"
         },
         {
           "titulo": "Audioguia express",
@@ -84,7 +89,8 @@
           "contacto": "audio@travel.local",
           "horario": "Durante apertura",
           "web": "https://www.tiqets.com/en/search/?query=Venice",
-          "costeEstimado": "5-20 €"
+          "costeEstimado": "5-20 €",
+          "imagen": "img/venice_activities/venice-place-01-audioguia-express.png"
         }
       ],
       "web": "https://www.veneziaunica.it/en/content/st-marks-square"
@@ -115,7 +121,8 @@
           "contacto": "reservas@historiavenecia.local",
           "horario": "10:00 - 12:00",
           "web": "https://www.getyourguide.com/s/?q=Venice",
-          "costeEstimado": "25-70 €"
+          "costeEstimado": "25-70 €",
+          "imagen": "img/venice_activities/venice-place-02-tour-historico-esencial.png"
         },
         {
           "titulo": "Acceso con contexto local",
@@ -124,7 +131,8 @@
           "contacto": "hola@venecialocal.local",
           "horario": "12:00 - 14:00",
           "web": "https://www.getyourguide.com/s/?q=Venice",
-          "costeEstimado": "25-70 €"
+          "costeEstimado": "25-70 €",
+          "imagen": "img/venice_activities/venice-place-02-acceso-con-contexto-local.png"
         },
         {
           "titulo": "Paseo fotografico",
@@ -133,7 +141,8 @@
           "contacto": "foto@veneciawalk.local",
           "horario": "Atardecer",
           "web": "https://www.withlocals.com/search/?q=Venice",
-          "costeEstimado": "40-120 €"
+          "costeEstimado": "40-120 €",
+          "imagen": "img/venice_activities/venice-place-02-paseo-fotografico.png"
         },
         {
           "titulo": "Ruta de leyendas",
@@ -142,7 +151,8 @@
           "contacto": "relatos@venecia.local",
           "horario": "18:00 - 19:30",
           "web": "https://www.civitatis.com/es/venecia/",
-          "costeEstimado": "15-45 €"
+          "costeEstimado": "15-45 €",
+          "imagen": "img/venice_activities/venice-place-02-ruta-de-leyendas.png"
         },
         {
           "titulo": "Visita familiar",
@@ -151,7 +161,8 @@
           "contacto": "familias@viaje.local",
           "horario": "11:00 - 12:30",
           "web": "https://www.getyourguide.com/s/?q=Venice",
-          "costeEstimado": "25-70 €"
+          "costeEstimado": "25-70 €",
+          "imagen": "img/venice_activities/venice-place-02-visita-familiar.png"
         },
         {
           "titulo": "Audioguia express",
@@ -160,7 +171,8 @@
           "contacto": "audio@travel.local",
           "horario": "Durante apertura",
           "web": "https://www.tiqets.com/en/search/?query=Venice",
-          "costeEstimado": "5-20 €"
+          "costeEstimado": "5-20 €",
+          "imagen": "img/venice_activities/venice-place-02-audioguia-express.png"
         }
       ],
       "web": "https://www.veneziaunica.it/en/content/rialto-bridge"
@@ -191,7 +203,8 @@
           "contacto": "hola@venecia.local",
           "horario": "10:00 - 12:00",
           "web": "https://www.getyourguide.com/s/?q=Venice",
-          "costeEstimado": "25-70 €"
+          "costeEstimado": "25-70 €",
+          "imagen": "img/venice_activities/venice-place-03-visita-guiada-esencial.png"
         },
         {
           "titulo": "Paseo fotografico",
@@ -200,7 +213,8 @@
           "contacto": "foto@veneciawalk.local",
           "horario": "Atardecer",
           "web": "https://www.withlocals.com/search/?q=Venice",
-          "costeEstimado": "40-120 €"
+          "costeEstimado": "40-120 €",
+          "imagen": "img/venice_activities/venice-place-03-paseo-fotografico.png"
         },
         {
           "titulo": "Tour privado a medida",
@@ -209,7 +223,8 @@
           "contacto": "plan@veneciatravel.local",
           "horario": "Bajo reserva",
           "web": "https://www.getyourguide.com/s/?q=Venice",
-          "costeEstimado": "90-180 €"
+          "costeEstimado": "90-180 €",
+          "imagen": "img/venice_activities/venice-place-03-tour-privado-a-medida.png"
         },
         {
           "titulo": "Ruta familiar",
@@ -218,7 +233,8 @@
           "contacto": "familias@viaje.local",
           "horario": "11:00 - 12:30",
           "web": "https://www.getyourguide.com/s/?q=Venice",
-          "costeEstimado": "25-70 €"
+          "costeEstimado": "25-70 €",
+          "imagen": "img/venice_activities/venice-place-03-ruta-familiar.png"
         },
         {
           "titulo": "Experiencia al atardecer",
@@ -227,7 +243,8 @@
           "contacto": "slow@venecia.local",
           "horario": "Atardecer",
           "web": "https://www.getyourguide.com/s/?q=Venice",
-          "costeEstimado": "25-75 €"
+          "costeEstimado": "25-75 €",
+          "imagen": "img/venice_activities/venice-place-03-experiencia-al-atardecer.png"
         },
         {
           "titulo": "Audioguia express",
@@ -236,7 +253,8 @@
           "contacto": "audio@travel.local",
           "horario": "Durante apertura",
           "web": "https://www.tiqets.com/en/search/?query=Venice",
-          "costeEstimado": "5-20 €"
+          "costeEstimado": "5-20 €",
+          "imagen": "img/venice_activities/venice-place-03-audioguia-express.png"
         }
       ],
       "web": "https://www.basilicasanmarco.it"
@@ -267,7 +285,8 @@
           "contacto": "hola@venecia.local",
           "horario": "10:00 - 12:00",
           "web": "https://www.getyourguide.com/s/?q=Venice",
-          "costeEstimado": "25-70 €"
+          "costeEstimado": "25-70 €",
+          "imagen": "img/venice_activities/venice-place-04-visita-guiada-esencial.png"
         },
         {
           "titulo": "Paseo fotografico",
@@ -276,7 +295,8 @@
           "contacto": "foto@veneciawalk.local",
           "horario": "Atardecer",
           "web": "https://www.withlocals.com/search/?q=Venice",
-          "costeEstimado": "40-120 €"
+          "costeEstimado": "40-120 €",
+          "imagen": "img/venice_activities/venice-place-04-paseo-fotografico.png"
         },
         {
           "titulo": "Tour privado a medida",
@@ -285,7 +305,8 @@
           "contacto": "plan@veneciatravel.local",
           "horario": "Bajo reserva",
           "web": "https://www.getyourguide.com/s/?q=Venice",
-          "costeEstimado": "90-180 €"
+          "costeEstimado": "90-180 €",
+          "imagen": "img/venice_activities/venice-place-04-tour-privado-a-medida.png"
         },
         {
           "titulo": "Ruta familiar",
@@ -294,7 +315,8 @@
           "contacto": "familias@viaje.local",
           "horario": "11:00 - 12:30",
           "web": "https://www.getyourguide.com/s/?q=Venice",
-          "costeEstimado": "25-70 €"
+          "costeEstimado": "25-70 €",
+          "imagen": "img/venice_activities/venice-place-04-ruta-familiar.png"
         },
         {
           "titulo": "Experiencia al atardecer",
@@ -303,7 +325,8 @@
           "contacto": "slow@venecia.local",
           "horario": "Atardecer",
           "web": "https://www.getyourguide.com/s/?q=Venice",
-          "costeEstimado": "25-75 €"
+          "costeEstimado": "25-75 €",
+          "imagen": "img/venice_activities/venice-place-04-experiencia-al-atardecer.png"
         },
         {
           "titulo": "Audioguia express",
@@ -312,7 +335,8 @@
           "contacto": "audio@travel.local",
           "horario": "Durante apertura",
           "web": "https://www.tiqets.com/en/search/?query=Venice",
-          "costeEstimado": "5-20 €"
+          "costeEstimado": "5-20 €",
+          "imagen": "img/venice_activities/venice-place-04-audioguia-express.png"
         }
       ],
       "web": "https://palazzoducale.visitmuve.it"
@@ -343,7 +367,8 @@
           "contacto": "hola@venecia.local",
           "horario": "10:00 - 12:00",
           "web": "https://www.getyourguide.com/s/?q=Venice",
-          "costeEstimado": "25-70 €"
+          "costeEstimado": "25-70 €",
+          "imagen": "img/venice_activities/venice-place-05-visita-guiada-esencial.png"
         },
         {
           "titulo": "Paseo fotografico",
@@ -352,7 +377,8 @@
           "contacto": "foto@veneciawalk.local",
           "horario": "Atardecer",
           "web": "https://www.withlocals.com/search/?q=Venice",
-          "costeEstimado": "40-120 €"
+          "costeEstimado": "40-120 €",
+          "imagen": "img/venice_activities/venice-place-05-paseo-fotografico.png"
         },
         {
           "titulo": "Tour privado a medida",
@@ -361,7 +387,8 @@
           "contacto": "plan@veneciatravel.local",
           "horario": "Bajo reserva",
           "web": "https://www.getyourguide.com/s/?q=Venice",
-          "costeEstimado": "90-180 €"
+          "costeEstimado": "90-180 €",
+          "imagen": "img/venice_activities/venice-place-05-tour-privado-a-medida.png"
         },
         {
           "titulo": "Ruta familiar",
@@ -370,7 +397,8 @@
           "contacto": "familias@viaje.local",
           "horario": "11:00 - 12:30",
           "web": "https://www.getyourguide.com/s/?q=Venice",
-          "costeEstimado": "25-70 €"
+          "costeEstimado": "25-70 €",
+          "imagen": "img/venice_activities/venice-place-05-ruta-familiar.png"
         },
         {
           "titulo": "Experiencia al atardecer",
@@ -379,7 +407,8 @@
           "contacto": "slow@venecia.local",
           "horario": "Atardecer",
           "web": "https://www.getyourguide.com/s/?q=Venice",
-          "costeEstimado": "25-75 €"
+          "costeEstimado": "25-75 €",
+          "imagen": "img/venice_activities/venice-place-05-experiencia-al-atardecer.png"
         },
         {
           "titulo": "Audioguia express",
@@ -388,7 +417,8 @@
           "contacto": "audio@travel.local",
           "horario": "Durante apertura",
           "web": "https://www.tiqets.com/en/search/?query=Venice",
-          "costeEstimado": "5-20 €"
+          "costeEstimado": "5-20 €",
+          "imagen": "img/venice_activities/venice-place-05-audioguia-express.png"
         }
       ],
       "web": "https://www.veneziaunica.it/en/content/grand-canal"
@@ -419,7 +449,8 @@
           "contacto": "educacion@venecia.local",
           "horario": "10:00 - 12:00",
           "web": "https://www.gallerieaccademia.it",
-          "costeEstimado": "20-65 €"
+          "costeEstimado": "20-65 €",
+          "imagen": "img/venice_activities/venice-place-06-visita-guiada-a-la-coleccion.png"
         },
         {
           "titulo": "Paseo fotografico",
@@ -428,7 +459,8 @@
           "contacto": "foto@veneciawalk.local",
           "horario": "Atardecer",
           "web": "https://www.withlocals.com/search/?q=Venice",
-          "costeEstimado": "40-120 €"
+          "costeEstimado": "40-120 €",
+          "imagen": "img/venice_activities/venice-place-06-paseo-fotografico.png"
         },
         {
           "titulo": "Tour privado a medida",
@@ -437,7 +469,8 @@
           "contacto": "plan@veneciatravel.local",
           "horario": "Bajo reserva",
           "web": "https://www.getyourguide.com/s/?q=Venice",
-          "costeEstimado": "90-180 €"
+          "costeEstimado": "90-180 €",
+          "imagen": "img/venice_activities/venice-place-06-tour-privado-a-medida.png"
         },
         {
           "titulo": "Ruta familiar",
@@ -446,7 +479,8 @@
           "contacto": "familias@viaje.local",
           "horario": "11:00 - 12:30",
           "web": "https://www.getyourguide.com/s/?q=Venice",
-          "costeEstimado": "25-70 €"
+          "costeEstimado": "25-70 €",
+          "imagen": "img/venice_activities/venice-place-06-ruta-familiar.png"
         },
         {
           "titulo": "Experiencia al atardecer",
@@ -455,7 +489,8 @@
           "contacto": "slow@venecia.local",
           "horario": "Atardecer",
           "web": "https://www.getyourguide.com/s/?q=Venice",
-          "costeEstimado": "25-75 €"
+          "costeEstimado": "25-75 €",
+          "imagen": "img/venice_activities/venice-place-06-experiencia-al-atardecer.png"
         },
         {
           "titulo": "Audioguia express",
@@ -464,7 +499,8 @@
           "contacto": "audio@travel.local",
           "horario": "Durante apertura",
           "web": "https://www.tiqets.com/en/search/?query=Venice",
-          "costeEstimado": "5-20 €"
+          "costeEstimado": "5-20 €",
+          "imagen": "img/venice_activities/venice-place-06-audioguia-express.png"
         }
       ],
       "web": "https://www.gallerieaccademia.it"
@@ -495,7 +531,8 @@
           "contacto": "walks@venecia.local",
           "horario": "10:30 - 12:30",
           "web": "https://www.civitatis.com/es/venecia/",
-          "costeEstimado": "15-45 €"
+          "costeEstimado": "15-45 €",
+          "imagen": "img/venice_activities/venice-place-07-paseo-de-barrio.png"
         },
         {
           "titulo": "Paseo fotografico",
@@ -504,7 +541,8 @@
           "contacto": "foto@veneciawalk.local",
           "horario": "Atardecer",
           "web": "https://www.withlocals.com/search/?q=Venice",
-          "costeEstimado": "40-120 €"
+          "costeEstimado": "40-120 €",
+          "imagen": "img/venice_activities/venice-place-07-paseo-fotografico.png"
         },
         {
           "titulo": "Tour privado a medida",
@@ -513,7 +551,8 @@
           "contacto": "plan@veneciatravel.local",
           "horario": "Bajo reserva",
           "web": "https://www.getyourguide.com/s/?q=Venice",
-          "costeEstimado": "90-180 €"
+          "costeEstimado": "90-180 €",
+          "imagen": "img/venice_activities/venice-place-07-tour-privado-a-medida.png"
         },
         {
           "titulo": "Ruta familiar",
@@ -522,7 +561,8 @@
           "contacto": "familias@viaje.local",
           "horario": "11:00 - 12:30",
           "web": "https://www.getyourguide.com/s/?q=Venice",
-          "costeEstimado": "25-70 €"
+          "costeEstimado": "25-70 €",
+          "imagen": "img/venice_activities/venice-place-07-ruta-familiar.png"
         },
         {
           "titulo": "Experiencia al atardecer",
@@ -531,7 +571,8 @@
           "contacto": "slow@venecia.local",
           "horario": "Atardecer",
           "web": "https://www.getyourguide.com/s/?q=Venice",
-          "costeEstimado": "25-75 €"
+          "costeEstimado": "25-75 €",
+          "imagen": "img/venice_activities/venice-place-07-experiencia-al-atardecer.png"
         },
         {
           "titulo": "Audioguia express",
@@ -540,7 +581,8 @@
           "contacto": "audio@travel.local",
           "horario": "Durante apertura",
           "web": "https://www.tiqets.com/en/search/?query=Venice",
-          "costeEstimado": "5-20 €"
+          "costeEstimado": "5-20 €",
+          "imagen": "img/venice_activities/venice-place-07-audioguia-express.png"
         }
       ],
       "web": "https://www.veneziaunica.it/en/content/dorsoduro"
@@ -571,7 +613,8 @@
           "contacto": "sabores@venecia.local",
           "horario": "12:00 - 14:00",
           "web": "https://www.venicebitesfoodtours.com",
-          "costeEstimado": "35-90 €"
+          "costeEstimado": "35-90 €",
+          "imagen": "img/venice_activities/venice-place-08-ruta-de-sabores.png"
         },
         {
           "titulo": "Paseo fotografico",
@@ -580,7 +623,8 @@
           "contacto": "foto@veneciawalk.local",
           "horario": "Atardecer",
           "web": "https://www.withlocals.com/search/?q=Venice",
-          "costeEstimado": "40-120 €"
+          "costeEstimado": "40-120 €",
+          "imagen": "img/venice_activities/venice-place-08-paseo-fotografico.png"
         },
         {
           "titulo": "Tour privado a medida",
@@ -589,7 +633,8 @@
           "contacto": "plan@veneciatravel.local",
           "horario": "Bajo reserva",
           "web": "https://www.getyourguide.com/s/?q=Venice",
-          "costeEstimado": "90-180 €"
+          "costeEstimado": "90-180 €",
+          "imagen": "img/venice_activities/venice-place-08-tour-privado-a-medida.png"
         },
         {
           "titulo": "Ruta familiar",
@@ -598,7 +643,8 @@
           "contacto": "familias@viaje.local",
           "horario": "11:00 - 12:30",
           "web": "https://www.getyourguide.com/s/?q=Venice",
-          "costeEstimado": "25-70 €"
+          "costeEstimado": "25-70 €",
+          "imagen": "img/venice_activities/venice-place-08-ruta-familiar.png"
         },
         {
           "titulo": "Experiencia al atardecer",
@@ -607,7 +653,8 @@
           "contacto": "slow@venecia.local",
           "horario": "Atardecer",
           "web": "https://www.getyourguide.com/s/?q=Venice",
-          "costeEstimado": "25-75 €"
+          "costeEstimado": "25-75 €",
+          "imagen": "img/venice_activities/venice-place-08-experiencia-al-atardecer.png"
         },
         {
           "titulo": "Audioguia express",
@@ -616,7 +663,8 @@
           "contacto": "audio@travel.local",
           "horario": "Durante apertura",
           "web": "https://www.tiqets.com/en/search/?query=Venice",
-          "costeEstimado": "5-20 €"
+          "costeEstimado": "5-20 €",
+          "imagen": "img/venice_activities/venice-place-08-audioguia-express.png"
         }
       ],
       "web": "https://www.veneziaunica.it/en/content/rialto-market"
@@ -647,7 +695,8 @@
           "contacto": "walks@venecia.local",
           "horario": "10:30 - 12:30",
           "web": "https://www.civitatis.com/es/venecia/",
-          "costeEstimado": "15-45 €"
+          "costeEstimado": "15-45 €",
+          "imagen": "img/venice_activities/venice-place-09-paseo-de-barrio.png"
         },
         {
           "titulo": "Paseo fotografico",
@@ -656,7 +705,8 @@
           "contacto": "foto@veneciawalk.local",
           "horario": "Atardecer",
           "web": "https://www.withlocals.com/search/?q=Venice",
-          "costeEstimado": "40-120 €"
+          "costeEstimado": "40-120 €",
+          "imagen": "img/venice_activities/venice-place-09-paseo-fotografico.png"
         },
         {
           "titulo": "Tour privado a medida",
@@ -665,7 +715,8 @@
           "contacto": "plan@veneciatravel.local",
           "horario": "Bajo reserva",
           "web": "https://www.getyourguide.com/s/?q=Venice",
-          "costeEstimado": "90-180 €"
+          "costeEstimado": "90-180 €",
+          "imagen": "img/venice_activities/venice-place-09-tour-privado-a-medida.png"
         },
         {
           "titulo": "Ruta familiar",
@@ -674,7 +725,8 @@
           "contacto": "familias@viaje.local",
           "horario": "11:00 - 12:30",
           "web": "https://www.getyourguide.com/s/?q=Venice",
-          "costeEstimado": "25-70 €"
+          "costeEstimado": "25-70 €",
+          "imagen": "img/venice_activities/venice-place-09-ruta-familiar.png"
         },
         {
           "titulo": "Experiencia al atardecer",
@@ -683,7 +735,8 @@
           "contacto": "slow@venecia.local",
           "horario": "Atardecer",
           "web": "https://www.getyourguide.com/s/?q=Venice",
-          "costeEstimado": "25-75 €"
+          "costeEstimado": "25-75 €",
+          "imagen": "img/venice_activities/venice-place-09-experiencia-al-atardecer.png"
         },
         {
           "titulo": "Audioguia express",
@@ -692,7 +745,8 @@
           "contacto": "audio@travel.local",
           "horario": "Durante apertura",
           "web": "https://www.tiqets.com/en/search/?query=Venice",
-          "costeEstimado": "5-20 €"
+          "costeEstimado": "5-20 €",
+          "imagen": "img/venice_activities/venice-place-09-audioguia-express.png"
         }
       ],
       "web": "https://www.veneziaunica.it/en/content/burano"
