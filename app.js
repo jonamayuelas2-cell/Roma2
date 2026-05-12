@@ -33,6 +33,13 @@ const GLOBE_TEXTURE_URL = 'https://unpkg.com/three-globe/example/img/earth-blue-
 const GLOBE_BUMP_URL = 'https://unpkg.com/three-globe/example/img/earth-topology.png';
 const COUNTRIES_GEOJSON_URL = 'https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson';
 const GENERIC_CRUISE_SHIP_PHOTO = 'https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&fit=crop&q=80&w=800';
+const MIAMI_CITY_MAP_CONFIG = Object.freeze({
+    tileUrl: 'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png',
+    boundsPad: 0.12,
+    fitPadding: [80, 80],
+    fitPassDelaysMs: [180, 420],
+    bayHaloRadius: 5200
+});
 
 // ══ UTILIDADES ═══════════════════════════════════════════════════════
 
@@ -521,7 +528,7 @@ function renderCityExplorerMap(city) {
     }).setView([city.lat, city.lng], 13);
 
     const tileUrl = isMiami
-        ? 'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png'
+        ? MIAMI_CITY_MAP_CONFIG.tileUrl
         : 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png';
     L.tileLayer(tileUrl).addTo(state.cityExplorerMap);
 
@@ -550,8 +557,9 @@ function renderCityExplorerMap(city) {
     });
 
     if (isMiami && markerGroup.getLayers().length > 1) {
+        // Baseline approved for Miami: keep all 9 POIs visible in the initial frame.
         L.circle([city.lat, city.lng], {
-            radius: 5200,
+            radius: MIAMI_CITY_MAP_CONFIG.bayHaloRadius,
             color: '#38bdf8',
             weight: 1,
             opacity: 0.45,
@@ -561,20 +569,21 @@ function renderCityExplorerMap(city) {
     }
 
     if (markerGroup.getLayers().length > 0) {
-        const bounds = markerGroup.getBounds().pad(isMiami ? 0.12 : 0.05);
+        const bounds = markerGroup.getBounds().pad(isMiami ? MIAMI_CITY_MAP_CONFIG.boundsPad : 0.05);
         const applyBounds = () => {
             if (!state.cityExplorerMap) return;
             state.cityExplorerMap.invalidateSize();
             state.cityExplorerMap.fitBounds(bounds, {
-                paddingTopLeft: isMiami ? [80, 80] : [50, 50],
-                paddingBottomRight: isMiami ? [80, 80] : [50, 50],
+                paddingTopLeft: isMiami ? MIAMI_CITY_MAP_CONFIG.fitPadding : [50, 50],
+                paddingBottomRight: isMiami ? MIAMI_CITY_MAP_CONFIG.fitPadding : [50, 50],
                 animate: false
             });
         };
 
         applyBounds();
-        setTimeout(applyBounds, 180);
-        setTimeout(applyBounds, 420);
+        if (isMiami) {
+            MIAMI_CITY_MAP_CONFIG.fitPassDelaysMs.forEach((delay) => setTimeout(applyBounds, delay));
+        }
     }
 }
 

@@ -1,9 +1,9 @@
-const CACHE_NAME = 'ciudades-del-mundo-v1.5.4-miami-feature-group-bounds';
+const CACHE_NAME = 'ciudades-del-mundo-v1.5.5-miami-config-locked';
 const STATIC_ASSETS = [
   '/',
   '/index.html',
-  '/app.js?v=20260512-09',
-  '/style.css?v=20260512-09',
+  '/app.js?v=20260512-10',
+  '/style.css?v=20260512-10',
   '/cities.json',
   '/manifest.json',
   '/icons/icon-192.png',
