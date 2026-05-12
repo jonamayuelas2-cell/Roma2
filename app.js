@@ -526,10 +526,9 @@ function renderCityExplorerMap(city) {
     L.tileLayer(tileUrl).addTo(state.cityExplorerMap);
 
     const places = city.lugares || [];
-    const latLngs = [];
+    const markerGroup = L.featureGroup().addTo(state.cityExplorerMap);
     places.forEach(place => {
         if (!place.lat || !place.lng) return;
-        latLngs.push([place.lat, place.lng]);
 
         const icon = L.divIcon({
             className: 'custom-div-icon',
@@ -545,12 +544,12 @@ function renderCityExplorerMap(city) {
             iconAnchor: [22, 22]
         });
 
-        const marker = L.marker([place.lat, place.lng], { icon }).addTo(state.cityExplorerMap);
+        const marker = L.marker([place.lat, place.lng], { icon }).addTo(markerGroup);
         marker.on('click', () => showPlaceDetails(place));
         marker.bindTooltip(`<strong>${place.nombre}</strong>`, { direction: 'top', offset: [0, -10] });
     });
 
-    if (isMiami && latLngs.length > 1) {
+    if (isMiami && markerGroup.getLayers().length > 1) {
         L.circle([city.lat, city.lng], {
             radius: 5200,
             color: '#38bdf8',
@@ -561,24 +560,21 @@ function renderCityExplorerMap(city) {
         }).addTo(state.cityExplorerMap);
     }
 
-    if (latLngs.length > 0) {
-        const bounds = L.latLngBounds(latLngs);
+    if (markerGroup.getLayers().length > 0) {
+        const bounds = markerGroup.getBounds().pad(isMiami ? 0.12 : 0.05);
         const applyBounds = () => {
             if (!state.cityExplorerMap) return;
             state.cityExplorerMap.invalidateSize();
             state.cityExplorerMap.fitBounds(bounds, {
-                paddingTopLeft: isMiami ? [140, 140] : [50, 50],
-                paddingBottomRight: isMiami ? [140, 140] : [50, 50],
+                paddingTopLeft: isMiami ? [80, 80] : [50, 50],
+                paddingBottomRight: isMiami ? [80, 80] : [50, 50],
                 animate: false
             });
-            if (isMiami) {
-                const currentZoom = state.cityExplorerMap.getZoom();
-                state.cityExplorerMap.setZoom(Math.max(0, currentZoom - 2));
-            }
         };
 
         applyBounds();
-        setTimeout(applyBounds, 120);
+        setTimeout(applyBounds, 180);
+        setTimeout(applyBounds, 420);
     }
 }
 
