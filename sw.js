@@ -1,9 +1,9 @@
-const CACHE_NAME = 'ciudades-del-mundo-v1.5.9-valiant-lady-images';
+const CACHE_NAME = 'ciudades-del-mundo-v1.6.0-miami-cruise-restore';
 const STATIC_ASSETS = [
   '/',
   '/index.html',
-  '/app.js?v=20260512-14',
-  '/style.css?v=20260512-14',
+  '/app.js?v=20260512-15',
+  '/style.css?v=20260512-15',
   '/cities.json',
   '/manifest.json',
   '/icons/icon-192.png',

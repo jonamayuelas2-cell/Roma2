@@ -956,12 +956,12 @@ function getCruiseFallbackPhoto(cruise) {
 
 function getCruiseHeaderBackgroundCandidates(cruise) {
     return [
-        cruise.imagen,
-        cruise.heroImagen,
-        cruise.buque?.imagen,
         cruise.buque?.fotoBarco,
         cruise.buque?.datos?.fotoBarco,
+        cruise.buque?.imagen,
         cruise.fotoBarco,
+        cruise.imagen,
+        cruise.heroImagen,
         GENERIC_CRUISE_SHIP_PHOTO
     ].filter((value, index, array) => value && array.indexOf(value) === index);
 }
@@ -1088,10 +1088,12 @@ function renderCruiseHeader(cruise) {
             if (photoIndex < shipPhotos.length) {
                 const nextPhoto = shipPhotos[photoIndex];
                 image.src = assetUrl(nextPhoto);
+                if (header) header.style.setProperty('--cruise-bg-img', `url("${assetUrl(nextPhoto)}")`);
                 return;
             }
             image.onerror = null;
             image.src = assetUrl(fallbackPhoto);
+            if (header) header.style.setProperty('--cruise-bg-img', `url("${assetUrl(fallbackPhoto)}")`);
         };
         image.src = assetUrl(shipPhotos[photoIndex] || fallbackPhoto);
     }
