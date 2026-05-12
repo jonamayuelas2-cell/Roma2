@@ -418,16 +418,30 @@ function slugifyAssetKey(value) {
 }
 
 function getGeneratedActivityImage(place, activity) {
-    if (state.currentCity?.id !== 'venecia') return '';
-    const placeId = String(Number(place?.id) || '').padStart(2, '0');
-    const titleSlug = slugifyAssetKey(activity?.titulo || activity?.title || '');
-    if (!placeId || !titleSlug) return '';
-    return `img/venice_activities/venice-place-${placeId}-${titleSlug}.png`;
+    if (state.currentCity?.id === 'venecia') {
+        const placeId = String(Number(place?.id) || '').padStart(2, '0');
+        const titleSlug = slugifyAssetKey(activity?.titulo || activity?.title || '');
+        if (!placeId || !titleSlug) return '';
+        return `img/venice_activities/venice-place-${placeId}-${titleSlug}.png`;
+    }
+
+    if (state.currentCity?.id === 'bangkok') {
+        const placeSlug = slugifyAssetKey(place?.nombre || '');
+        const activityIndex = Number(activity?._generatedActivityIndex);
+        if (!placeSlug || !Number.isFinite(activityIndex) || activityIndex < 1) return '';
+        return `img/bangkok_activities/${placeSlug}_${activityIndex}.png`;
+    }
+
+    return '';
 }
 
 function resolveActivityImage(place, activity, index) {
     const explicitImage = activity.imagen || activity.image;
     if (explicitImage) return explicitImage;
+
+    if (activity && !activity._generatedActivityIndex) {
+        activity._generatedActivityIndex = index + 1;
+    }
 
     const generatedImage = getGeneratedActivityImage(place, activity);
     if (generatedImage) return generatedImage;
@@ -708,7 +722,7 @@ function renderCityExplorerMap(city) {
     if (!container) return;
 
     cleanupCityExplorerMap();
-    const useMiamiMapStyle = city.id === 'miami' || city.id === 'tokyo';
+    const useMiamiMapStyle = ['miami', 'tokyo', 'bangkok', 'auckland', 'sydney'].includes(city.id);
     const isMiami = city.id === 'miami';
     container.classList.toggle('city-explorer-map--miami', useMiamiMapStyle);
     container.classList.toggle('city-explorer-map--wide', useMiamiMapStyle);
