@@ -505,6 +505,8 @@ function renderCityExplorerMap(city) {
     if (!container) return;
 
     cleanupCityExplorerMap();
+    const isMiami = city.id === 'miami';
+    container.classList.toggle('city-explorer-map--miami', isMiami);
 
     state.cityExplorerMap = L.map('city-explorer-map', {
         zoomControl: true,
@@ -512,19 +514,25 @@ function renderCityExplorerMap(city) {
         attributionControl: false
     }).setView([city.lat, city.lng], 13);
 
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png').addTo(state.cityExplorerMap);
+    const tileUrl = isMiami
+        ? 'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png'
+        : 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png';
+    L.tileLayer(tileUrl).addTo(state.cityExplorerMap);
 
     const places = city.lugares || [];
+    const latLngs = [];
     places.forEach(place => {
         if (!place.lat || !place.lng) return;
+        latLngs.push([place.lat, place.lng]);
 
         const icon = L.divIcon({
             className: 'custom-div-icon',
             html: `
-                <div class="marker-pin-place">
+                <div class="marker-pin-place ${isMiami ? 'marker-pin-place--miami' : ''}">
                     <div class="marker-img-wrapper">
                         <img src="${assetUrl(place.imagenCard || place.imagen)}" alt="${place.nombre}">
                     </div>
+                    ${isMiami ? '<span class="marker-pin-place__pulse"></span>' : ''}
                 </div>
             `,
             iconSize: [44, 44],
@@ -536,8 +544,27 @@ function renderCityExplorerMap(city) {
         marker.bindTooltip(`<strong>${place.nombre}</strong>`, { direction: 'top', offset: [0, -10] });
     });
 
-    if (places.length > 0) {
-        const bounds = L.latLngBounds(places.map(p => [p.lat, p.lng]));
+    if (isMiami && latLngs.length > 1) {
+        L.polyline(latLngs, {
+            color: '#0ea5e9',
+            weight: 4,
+            opacity: 0.75,
+            lineCap: 'round',
+            dashArray: '10 8'
+        }).addTo(state.cityExplorerMap);
+
+        L.circle([city.lat, city.lng], {
+            radius: 5200,
+            color: '#38bdf8',
+            weight: 1,
+            opacity: 0.45,
+            fillColor: '#67e8f9',
+            fillOpacity: 0.08
+        }).addTo(state.cityExplorerMap);
+    }
+
+    if (latLngs.length > 0) {
+        const bounds = L.latLngBounds(latLngs);
         state.cityExplorerMap.fitBounds(bounds, { padding: [50, 50] });
     }
 }
