@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ciudades del Mundo — Tu Guía de Viaje Global</title>
+  <meta name="description" content="Descubre los mejores lugares del mundo: monumentos, museos, restaurantes, barrios y parques. Con mapa interactivo y pronóstico del tiempo en tiempo real.">
+  <meta name="theme-color" content="#1a2a6c">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Ciudades del Mundo">
+  <link rel="manifest" href="manifest.json">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Ciudades del Mundo — Guía de Viaje">
+  <meta property="og:description" content="Tu guía definitiva para descubrir los tesoros de las ciudades más increíbles del mundo">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts para Temas Dinámicos -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Montserrat:wght@300;400;700&family=Outfit:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;600&family=Cardo:wght@400;700&family=Space+Grotesk:wght@400;700&family=Bebas+Neue&family=Zilla+Slab:wght@400;700&family=Fredoka:wght@400;700&family=Quicksand:wght@400;700&family=Plus+Jakarta+Sans:wght@400;700&family=Work+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Leaflet (mapa) -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <!-- Globe.gl (Selector 3D) -->
+  <script src="https://unpkg.com/globe.gl"></script>
+
+  <!-- Estilos propios -->
+  <link rel="stylesheet" href="style.css?v=20260512-15">
+</head>
+<body>
+
+  <!-- ══ CITY SELECTION (GLOBE 3D) ═══════════════════════════ -->
+  <section id="city-selection" class="city-selection">
+    <div class="globe-overlay">
+      <p class="selection-kicker">Guia interactiva global</p>
+      <h1 class="selection-title">Ciudades del Mundo</h1>
+      <p class="selection-subtitle">Explora destinos de todos los continentes desde una bola del mundo viva</p>
+      <div class="selection-stats" aria-label="Resumen de destinos">
+        <span>5 continentes</span>
+        <span>24 ciudades</span>
+        <span>216 lugares</span>
+        <span id="selection-activities-count">1296 actividades</span>
+      </div>
+    </div>
+    <div id="globeViz"></div>
+    
+    <!-- Panel Lateral de Cruceros -->
+    <div id="cruise-list-panel" class="cruise-list-panel" style="display: none;">
+      <div class="panel-header-sticky">
+        <h3>Cruceros Disponibles</h3>
+        <p class="panel-subtitle">Selecciona una ruta para ver su itinerario</p>
+      </div>
+      <div id="cruise-items-container" class="cruise-items-container">
+        <!-- Se llena dinámicamente -->
+      </div>
+    </div>
+    
+    <div id="city-info-card" class="city-info-card" style="display: none;">
+      <!-- Se llena al pasar el ratón o hacer click -->
+    </div>
+
+    <!-- Panel de Controles del Globo -->
+    <div class="globe-controls-panel">
+      <div class="panel-header">
+        <span class="panel-icon">⚙️</span>
+        <h2>Panel de Exploración</h2>
+      </div>
+
+      <div class="control-group">
+        <div class="group-header-wrapper">
+          <div class="group-header">
+            <span class="group-icon">🌍</span>
+            <h3>Continentes</h3>
+          </div>
+          <label class="toggle-switch main-toggle">
+            <input type="checkbox" id="cities-toggle">
+            <span class="slider round"></span>
+          </label>
+        </div>
+        <div id="continents-sub-options" class="filter-options">
+          <div class="toggle-item">
+            <span class="toggle-label">Europa</span>
+            <label class="toggle-switch">
+              <input type="checkbox" value="Europa">
+              <span class="slider round"></span>
+            </label>
+          </div>
+          <div class="toggle-item">
+            <span class="toggle-label">Asia</span>
+            <label class="toggle-switch">
+              <input type="checkbox" value="Asia">
+              <span class="slider round"></span>
+            </label>
+          </div>
+          <div class="toggle-item">
+            <span class="toggle-label">África</span>
+            <label class="toggle-switch">
+              <input type="checkbox" value="África">
+              <span class="slider round"></span>
+            </label>
+          </div>
+          <div class="toggle-item">
+            <span class="toggle-label">América</span>
+            <label class="toggle-switch">
+              <input type="checkbox" value="América">
+              <span class="slider round"></span>
+            </label>
+          </div>
+          <div class="toggle-item">
+            <span class="toggle-label">Oceanía</span>
+            <label class="toggle-switch">
+              <input type="checkbox" value="Oceanía">
+              <span class="slider round"></span>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div class="control-divider"></div>
+
+      <div class="control-group">
+        <div class="cruise-header">
+          <div class="group-header">
+            <span class="group-icon">🛳️</span>
+            <h3>Cruceros</h3>
+          </div>
+          <label class="toggle-switch main-toggle">
+            <input type="checkbox" id="cruise-toggle">
+            <span class="slider round"></span>
+          </label>
+        </div>
+
+        <div id="cruise-regions" class="sub-options">
+          <div class="toggle-item">
+            <span class="toggle-label">El Caribe</span>
+            <label class="toggle-switch secondary">
+              <input type="checkbox" value="Caribe">
+              <span class="slider round"></span>
+            </label>
+          </div>
+          <div class="toggle-item">
+            <span class="toggle-label">Mediterráneo</span>
+            <label class="toggle-switch secondary">
+              <input type="checkbox" value="Mediterraneo">
+              <span class="slider round"></span>
+            </label>
+          </div>
+          <div class="toggle-item">
+            <span class="toggle-label">Países Nórdicos</span>
+            <label class="toggle-switch secondary">
+              <input type="checkbox" value="Paises Nordicos">
+              <span class="slider round"></span>
+            </label>
+          </div>
+          <div class="toggle-item">
+            <span class="toggle-label">Otros Destinos</span>
+            <label class="toggle-switch secondary">
+              <input type="checkbox" value="Otros">
+              <span class="slider round"></span>
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- ══ CRUISE DETAIL APP (Hidden by default) ═══════════════ -->
+  <div id="cruise-app" style="display: none;">
+    <!-- Ship Header -->
+    <header class="cruise-header-premium">
+      <div class="ship-info-container">
+        <div class="ship-photo-wrapper">
+          <img id="ship-img" src="" alt="Buque">
+          <div id="ship-badge" class="ship-badge">Buque</div>
+        </div>
+        <div class="ship-details">
+          <button id="back-from-cruise" class="back-btn small">
+            <span>← Volver</span>
+          </button>
+          <h1 id="ship-name">Wonder of the Seas</h1>
+          <div class="ship-stats-grid" id="ship-stats">
+            <!-- Stats added via JS -->
+          </div>
+          <div class="voyage-progress">
+            <span class="progress-label">Progreso del Viaje</span>
+            <div class="progress-bar-container">
+              <div class="progress-bar" id="voyage-progress-bar" style="width: 30%;"></div>
+            </div>
+            <span id="voyage-status" class="voyage-status">En navegación: Miami → Nassau</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="cruise-main">
+      <!-- Global Itinerary Map -->
+      <section id="cruise-itinerary-section" class="cruise-view-section">
+        <div class="view-header">
+          <h2>Itinerario Completo</h2>
+          <p>Selecciona una escala para ver detalles del puerto</p>
+        </div>
+        <div id="cruise-stops-gallery" class="cruise-stops-gallery"></div>
+        <div id="cruise-map" class="detailed-map"></div>
+        <div id="cruise-itinerary-timeline" class="itinerary-timeline"></div>
+      </section>
+
+
+      <!-- Port Scale Detail (hidden initially) -->
+      <section id="port-detail-section" class="cruise-view-section" style="display: none;">
+        <div class="view-header">
+          <button id="back-to-itinerary" class="back-link">← Volver al itinerario</button>
+          <h2 id="port-name">Puerto de Nassau</h2>
+          <p>Ciudades y puntos de interés en esta escala</p>
+        </div>
+        <article id="port-info-panel" class="port-info-panel"></article>
+        <div id="port-map" class="detailed-map"></div>
+      </section>
+    </main>
+  </div>
+
+
+  <!-- ══ MAIN APP CONTENT (Hidden by default) ═══════════════ -->
+  <div id="main-app" style="display: none;">
+    <!-- ══ HEADER ══════════════════════════════════════════ -->
+    <header>
+      <div class="header-inner">
+        <button id="back-to-cities" class="back-btn" title="Volver al mapa mundi">
+          <span class="back-btn-icon">🌍</span>
+          <span class="back-btn-text">Mapa mundi</span>
+        </button>
+        <a class="logo" href="#">
+          <span class="logo-icon" id="app-logo-icon">🏛️</span>
+          <span class="logo-text" id="app-title">Ciudades del Mundo<span class="logo-sub" id="app-subtitle">Guía de Viaje Personalizada</span></span>
+        </a>
+        <nav class="main-tabs">
+          <button class="tab-btn active" data-tab="lugares" id="tab-lugares" onclick="window.__travelWorldSetTab && window.__travelWorldSetTab('lugares')">
+            <span class="tab-icon">🗺️</span> <span>Lugares</span>
+          </button>
+          <button class="tab-btn" data-tab="meteo" id="tab-meteo" onclick="window.__travelWorldSetTab && window.__travelWorldSetTab('meteo')">
+            <span class="tab-icon">🌤️</span> <span>Tiempo</span>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <!-- ══ HERO ════════════════════════════════════════════ -->
+    <section class="hero" id="city-hero">
+      <h1 id="hero-title">Descubre el Mundo</h1>
+      <p id="hero-subtitle">Explora los lugares imprescindibles de tu próximo destino</p>
+    </section>
+
+    <!-- ══ FILTROS ══════════════════════════════════════════ -->
+    <section class="filters-bar" id="filters-bar">
+      <div class="filters-inner">
+        <!-- Búsqueda -->
+        <div class="search-box">
+          <span class="search-icon">🔍</span>
+          <input type="search" id="search-input" placeholder="Buscar lugares, tipos, tags..." autocomplete="off">
+        </div>
+
+        <!-- Filtros por tipo -->
+        <div class="type-filters">
+          <button class="filter-chip active" data-type="todos">✨ Todos</button>
+          <button class="filter-chip" data-type="cultura">🏛️ Cultura</button>
+          <button class="filter-chip" data-type="museos">🖼️ Museos</button>
+          <button class="filter-chip" data-type="restaurantes">🍝 Restaurantes</button>
+          <button class="filter-chip" data-type="barrios">🏘️ Barrios</button>
+          <button class="filter-chip" data-type="parques">🌿 Parques</button>
+          <button class="filter-chip" data-type="mercados">🛍️ Mercados</button>
+          <button class="filter-chip" data-type="cafes">☕ Cafés</button>
+        </div>
+
+        <!-- Toggles de vista -->
+        <div class="view-toggles">
+          <button class="view-btn active" data-view="cards" title="Vista tarjetas" id="view-cards">⊞</button>
+          <button class="view-btn" data-view="list" title="Vista lista" id="view-list">≡</button>
+          <button class="view-btn" data-view="map" title="Vista mapa" id="view-map">🗺</button>
+        </div>
+      </div>
+      <div class="results-info" id="results-count"></div>
+    </section>
+
+    <!-- ══ SECCIÓN LUGARES ═══════════════════════════════════ -->
+    <section id="lugares-section">
+      <main>
+        <div id="places-container"></div>
+        
+        <!-- Plano interactivo de la ciudad -->
+        <div id="city-map-section" class="city-map-section">
+          <div class="view-header">
+            <h3>Explora el Plano de la Ciudad</h3>
+            <p>Localiza los lugares recomendados y navega por sus detalles</p>
+          </div>
+          <div id="city-explorer-map" class="city-explorer-map"></div>
+        </div>
+      </main>
+    </section>
+
+    <!-- ══ SECCIÓN TIEMPO ════════════════════════════════════ -->
+    <section id="weather-section" style="display:none">
+      <main>
+        <div id="weather-container">
+          <div class="loading"><div class="spinner"></div> Cargando meteorología...</div>
+        </div>
+      </main>
+    </section>
+  </div>
+
+  <div id="place-modal" class="place-modal" hidden>
+    <div class="place-modal-backdrop" data-close-modal></div>
+    <article class="place-modal-panel" role="dialog" aria-modal="true" aria-labelledby="modal-place-title">
+      <button class="modal-close" type="button" data-close-modal title="Cerrar">x</button>
+      <img id="modal-place-img" class="modal-place-img" alt="">
+      <div class="modal-place-content">
+        <span id="modal-place-tag" class="card-tag"></span>
+        <h2 id="modal-place-title"></h2>
+        <p id="modal-place-desc"></p>
+        <p id="modal-place-extra" class="modal-place-extra"></p>
+        <div class="modal-facts">
+          <span id="modal-place-price"></span>
+          <span id="modal-place-hours"></span>
+          <span id="modal-place-rating"></span>
+          <span id="modal-place-contact"></span>
+        </div>
+        <section id="modal-activities-section" class="modal-activities-section" hidden>
+          <h3>Actividades disponibles</h3>
+          <div id="modal-place-activities" class="activity-grid"></div>
+        </section>
+        <div id="modal-place-tags" class="modal-tags"></div>
+      </div>
+    </article>
+  </div>
+
+  <!-- ══ SCRIPT PRINCIPAL ══════════════════════════════════ -->
+  <script src="app.js?v=20260512-15"></script>
+</body>
+</html>
