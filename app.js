@@ -1306,7 +1306,7 @@ function updateCruiseList() {
         const origin = route[0]?.nombre || 'Origen';
         const destination = route[route.length - 1]?.nombre || 'Destino';
         const shipInfo = getCruiseShipInfo(cruise);
-        const image = getCruiseFallbackPhoto(cruise);
+        const image = getCruiseShipPhoto(cruise) || getCruiseFallbackPhoto(cruise);
         const cities = route.map(stop => stop.nombre).filter(Boolean).join(' -> ');
 
         const card = document.createElement('div');
