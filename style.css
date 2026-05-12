@@ -1144,6 +1144,9 @@ header {
   padding: 5px;
   border-radius: 12px;
   gap: 5px;
+  position: relative;
+  z-index: 3;
+  pointer-events: auto;
 }
 
 .tab-btn {
@@ -1158,6 +1161,9 @@ header {
   cursor: pointer;
   transition: var(--transition);
   font-weight: 600;
+  position: relative;
+  z-index: 4;
+  pointer-events: auto;
 }
 
 .tab-btn.active {

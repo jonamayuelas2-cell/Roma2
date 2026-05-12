@@ -29,7 +29,7 @@
   <script src="https://unpkg.com/globe.gl"></script>
 
   <!-- Estilos propios -->
-  <link rel="stylesheet" href="style.css?v=20260512-03">
+  <link rel="stylesheet" href="style.css?v=20260512-04">
 </head>
 <body>
 
@@ -237,10 +237,10 @@
           <span class="logo-text" id="app-title">Ciudades del Mundo<span class="logo-sub" id="app-subtitle">Guía de Viaje Personalizada</span></span>
         </a>
         <nav class="main-tabs">
-          <button class="tab-btn active" data-tab="lugares" id="tab-lugares">
+          <button class="tab-btn active" data-tab="lugares" id="tab-lugares" onclick="window.__travelWorldSetTab && window.__travelWorldSetTab('lugares')">
             <span class="tab-icon">🗺️</span> <span>Lugares</span>
           </button>
-          <button class="tab-btn" data-tab="meteo" id="tab-meteo">
+          <button class="tab-btn" data-tab="meteo" id="tab-meteo" onclick="window.__travelWorldSetTab && window.__travelWorldSetTab('meteo')">
             <span class="tab-icon">🌤️</span> <span>Tiempo</span>
           </button>
         </nav>
@@ -336,6 +336,6 @@
   </div>
 
   <!-- ══ SCRIPT PRINCIPAL ══════════════════════════════════ -->
-  <script src="app.js?v=20260512-03"></script>
+  <script src="app.js?v=20260512-04"></script>
 </body>
 </html>

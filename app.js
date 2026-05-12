@@ -526,11 +526,8 @@ function renderCityExplorerMap(city) {
     L.tileLayer(tileUrl).addTo(state.cityExplorerMap);
 
     const places = city.lugares || [];
-    const mapPlaces = isMiami
-        ? places.filter((place) => place.nombre !== 'Everglades National Park')
-        : places;
     const latLngs = [];
-    mapPlaces.forEach(place => {
+    places.forEach(place => {
         if (!place.lat || !place.lng) return;
         latLngs.push([place.lat, place.lng]);
 
@@ -554,14 +551,6 @@ function renderCityExplorerMap(city) {
     });
 
     if (isMiami && latLngs.length > 1) {
-        L.polyline(latLngs, {
-            color: '#0ea5e9',
-            weight: 4,
-            opacity: 0.75,
-            lineCap: 'round',
-            dashArray: '10 8'
-        }).addTo(state.cityExplorerMap);
-
         L.circle([city.lat, city.lng], {
             radius: 5200,
             color: '#38bdf8',
@@ -570,8 +559,6 @@ function renderCityExplorerMap(city) {
             fillColor: '#67e8f9',
             fillOpacity: 0.08
         }).addTo(state.cityExplorerMap);
-
-        state.cityExplorerMap.setView([25.7795, -80.191], 12);
     }
 
     if (latLngs.length > 0) {
@@ -756,6 +743,8 @@ function setActiveTab(tab) {
         setTimeout(() => state.cityExplorerMap.invalidateSize(), 60);
     }
 }
+
+window.__travelWorldSetTab = setActiveTab;
 
 function getWeatherCodeLabel(code) {
     const labels = {
