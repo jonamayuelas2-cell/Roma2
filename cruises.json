@@ -1022,9 +1022,9 @@
     "buque": {
       "compania": "Paul Gauguin Cruises",
       "nombre": "Paul Gauguin",
-      "imagen": "https://commons.wikimedia.org/wiki/Special:Redirect/file/MS_Paul_Gauguin_in_Moorea.jpg",
+      "imagen": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Cruise_Ship_Paul_Gauguin_02.jpg",
       "datos": {
-        "fotoBarco": "https://commons.wikimedia.org/wiki/Special:Redirect/file/MS_Paul_Gauguin_in_Moorea.jpg",
+        "fotoBarco": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Cruise_Ship_Paul_Gauguin_02.jpg",
         "eslora": "156 m",
         "cubiertas": "7",
         "pasajeros": "330",
@@ -1032,7 +1032,7 @@
         "restaurantes": "3",
         "actividades": "Marina deportiva, snorkel, kayak, spa, conferencias polinesias y cenas de autor"
       },
-      "fotoBarco": "https://commons.wikimedia.org/wiki/Special:Redirect/file/MS_Paul_Gauguin_in_Moorea.jpg",
+      "fotoBarco": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Cruise_Ship_Paul_Gauguin_02.jpg",
       "imo": "9111319",
       "mmsi": "578001600",
       "trackingUrl": "https://www.vesselfinder.com/vessels/details/9111319"

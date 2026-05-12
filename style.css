@@ -1344,6 +1344,15 @@ header {
   gap: 25px;
 }
 
+#places-container.places-list-mode {
+  grid-template-columns: 1fr;
+}
+
+#places-container.places-list-mode .place-card {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+}
+
 .place-card {
   background: var(--glass-bg);
   border: 1px solid var(--glass-border);

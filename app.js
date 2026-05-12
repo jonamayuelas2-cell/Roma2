@@ -26,7 +26,9 @@ const state = {
     portMap: null,
     countryPolygons: [],
     isTransitioning: false,
-    fromCruise: false
+    fromCruise: false,
+    currentPlaceFilter: 'todos',
+    placeSearchTerm: ''
 };
 
 const GLOBE_TEXTURE_URL = 'https://unpkg.com/three-globe/example/img/earth-blue-marble.jpg';
@@ -237,9 +239,127 @@ function getPlaceExtraInfo(place) {
     return cleanDisplayText(place.descripcionCorta || place.barrio || place.zona || '');
 }
 
+function normalizePlaceCategory(value) {
+    const text = String(value || '')
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .toLowerCase()
+        .trim();
+
+    const aliases = {
+        history: 'cultura',
+        culture: 'cultura',
+        monument: 'cultura',
+        museum: 'museos',
+        museums: 'museos',
+        food: 'restaurantes',
+        restaurants: 'restaurantes',
+        nightlife: 'barrios',
+        shopping: 'mercados',
+        park: 'parques',
+        parks: 'parques',
+        cafe: 'cafes',
+        cafes: 'cafes'
+    };
+
+    return aliases[text] || text;
+}
+
+function placeMatchesCategory(place, filter) {
+    if (filter === 'todos') return true;
+    const category = normalizePlaceCategory(place.tipo);
+    const haystack = [
+        category,
+        place.tipo,
+        ...(place.tags || [])
+    ].map(normalizePlaceCategory).join(' ');
+
+    return haystack.includes(filter);
+}
+
+function applyPlaceFilters() {
+    const searchTerm = normalizeLocationName(state.placeSearchTerm || '');
+    const category = state.currentPlaceFilter || 'todos';
+
+    state.filteredPlaces = (state.places || []).filter((place) => {
+        const matchesCategory = placeMatchesCategory(place, category);
+        if (!matchesCategory) return false;
+        if (!searchTerm) return true;
+
+        const searchable = [
+            place.nombre,
+            place.descripcion,
+            place.descripcionCorta,
+            place.tipo,
+            ...(place.tags || [])
+        ].map(value => normalizeLocationName(value)).join(' ');
+
+        return searchable.includes(searchTerm);
+    });
+
+    renderPlaces();
+}
+
+function setPlaceViewMode(view) {
+    state.viewMode = view === 'cards' ? 'grid' : view;
+
+    document.querySelectorAll('.view-btn').forEach((button) => {
+        button.classList.toggle('active', button.dataset.view === view);
+    });
+
+    const placesContainer = document.getElementById('places-container');
+    const mapSection = document.getElementById('city-map-section');
+    if (placesContainer) {
+        placesContainer.classList.toggle('places-list-mode', state.viewMode === 'list');
+        placesContainer.style.display = state.viewMode === 'map' ? 'none' : '';
+    }
+    if (mapSection) {
+        mapSection.style.display = state.viewMode === 'map' ? 'block' : '';
+    }
+
+    if (state.viewMode === 'map' && state.cityExplorerMap) {
+        setTimeout(() => state.cityExplorerMap.invalidateSize(), 60);
+    }
+}
+
+function setupPlaceControls() {
+    document.querySelectorAll('.filter-chip').forEach((chip) => {
+        chip.onclick = () => {
+            const filter = chip.dataset.type || 'todos';
+            state.currentPlaceFilter = filter;
+            document.querySelectorAll('.filter-chip').forEach((item) => {
+                item.classList.toggle('active', item.dataset.type === filter);
+            });
+            applyPlaceFilters();
+        };
+    });
+
+    document.querySelectorAll('.view-btn').forEach((button) => {
+        button.onclick = () => setPlaceViewMode(button.dataset.view || 'cards');
+    });
+
+    const searchInput = document.getElementById('search-input');
+    if (searchInput) {
+        searchInput.value = state.placeSearchTerm || '';
+        searchInput.oninput = () => {
+            state.placeSearchTerm = searchInput.value || '';
+            applyPlaceFilters();
+        };
+    }
+
+    document.querySelectorAll('.filter-chip').forEach((chip) => {
+        chip.classList.toggle('active', chip.dataset.type === state.currentPlaceFilter);
+    });
+    setPlaceViewMode(state.viewMode === 'grid' ? 'cards' : state.viewMode);
+}
+
 function getWebsiteUrl(value) {
     const text = String(value || '').trim();
-    return /^https?:\/\//i.test(text) ? text : '';
+    if (!text) return '';
+    if (/^https?:\/\//i.test(text)) return text;
+    if (/^www\./i.test(text)) return `https://${text}`;
+    if (/^[a-z0-9.-]+\.[a-z]{2,}(\/.*)?$/i.test(text)) return `https://${text}`;
+    return '';
 }
 
 function renderWebValue(value, label = 'Visitar web') {
@@ -501,6 +621,9 @@ async function selectCity(city) {
     state.places = city.lugares || [];
     state.filteredPlaces = [...state.places];
     state.activeTab = 'lugares';
+    state.currentPlaceFilter = 'todos';
+    state.placeSearchTerm = '';
+    state.viewMode = 'grid';
 
     applyTheme(city);
     updateUIForCity(city);
@@ -517,6 +640,7 @@ async function selectCity(city) {
         app.classList.add('fade-in');
         
         bindMainTabEvents();
+        setupPlaceControls();
         setActiveTab('lugares');
         renderPlaces();
         renderCityExplorerMap(city);
@@ -674,6 +798,7 @@ function renderPlaces() {
     const container = document.getElementById('places-container');
     if (!container) return;
     container.innerHTML = '';
+    container.classList.toggle('places-list-mode', state.viewMode === 'list');
 
     state.filteredPlaces.forEach(place => {
         const card = document.createElement('div');
