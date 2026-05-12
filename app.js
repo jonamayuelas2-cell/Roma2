@@ -563,14 +563,22 @@ function renderCityExplorerMap(city) {
 
     if (latLngs.length > 0) {
         const bounds = L.latLngBounds(latLngs);
-        state.cityExplorerMap.invalidateSize();
-        state.cityExplorerMap.fitBounds(bounds, {
-            padding: isMiami ? [110, 110] : [50, 50]
-        });
-        if (isMiami) {
-            const currentZoom = state.cityExplorerMap.getZoom();
-            state.cityExplorerMap.setZoom(Math.max(0, currentZoom - 1));
-        }
+        const applyBounds = () => {
+            if (!state.cityExplorerMap) return;
+            state.cityExplorerMap.invalidateSize();
+            state.cityExplorerMap.fitBounds(bounds, {
+                paddingTopLeft: isMiami ? [140, 140] : [50, 50],
+                paddingBottomRight: isMiami ? [140, 140] : [50, 50],
+                animate: false
+            });
+            if (isMiami) {
+                const currentZoom = state.cityExplorerMap.getZoom();
+                state.cityExplorerMap.setZoom(Math.max(0, currentZoom - 2));
+            }
+        };
+
+        applyBounds();
+        setTimeout(applyBounds, 120);
     }
 }
 
