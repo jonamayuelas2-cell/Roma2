@@ -28,7 +28,8 @@ const state = {
     isTransitioning: false,
     fromCruise: false,
     currentPlaceFilter: 'todos',
-    placeSearchTerm: ''
+    placeSearchTerm: '',
+    placeControlsBound: false
 };
 
 const GLOBE_TEXTURE_URL = 'https://unpkg.com/three-globe/example/img/earth-blue-marble.jpg';
@@ -323,34 +324,45 @@ function setPlaceViewMode(view) {
 }
 
 function setupPlaceControls() {
-    document.querySelectorAll('.filter-chip').forEach((chip) => {
-        chip.onclick = () => {
-            const filter = chip.dataset.type || 'todos';
-            state.currentPlaceFilter = filter;
-            document.querySelectorAll('.filter-chip').forEach((item) => {
-                item.classList.toggle('active', item.dataset.type === filter);
-            });
-            applyPlaceFilters();
-        };
-    });
-
-    document.querySelectorAll('.view-btn').forEach((button) => {
-        button.onclick = () => setPlaceViewMode(button.dataset.view || 'cards');
-    });
-
     const searchInput = document.getElementById('search-input');
     if (searchInput) {
         searchInput.value = state.placeSearchTerm || '';
-        searchInput.oninput = () => {
-            state.placeSearchTerm = searchInput.value || '';
-            applyPlaceFilters();
-        };
     }
 
     document.querySelectorAll('.filter-chip').forEach((chip) => {
         chip.classList.toggle('active', chip.dataset.type === state.currentPlaceFilter);
     });
     setPlaceViewMode(state.viewMode === 'grid' ? 'cards' : state.viewMode);
+}
+
+function bindPlaceControlDelegates() {
+    if (state.placeControlsBound) return;
+    state.placeControlsBound = true;
+
+    document.addEventListener('click', (event) => {
+        const filterChip = event.target.closest('.filter-chip');
+        if (filterChip) {
+            const filter = filterChip.dataset.type || 'todos';
+            state.currentPlaceFilter = filter;
+            document.querySelectorAll('.filter-chip').forEach((item) => {
+                item.classList.toggle('active', item.dataset.type === filter);
+            });
+            applyPlaceFilters();
+            return;
+        }
+
+        const viewButton = event.target.closest('.view-btn');
+        if (viewButton) {
+            setPlaceViewMode(viewButton.dataset.view || 'cards');
+        }
+    });
+
+    document.addEventListener('input', (event) => {
+        if (event.target.id === 'search-input') {
+            state.placeSearchTerm = event.target.value || '';
+            applyPlaceFilters();
+        }
+    });
 }
 
 function getWebsiteUrl(value) {
@@ -696,9 +708,10 @@ function renderCityExplorerMap(city) {
     if (!container) return;
 
     cleanupCityExplorerMap();
+    const useMiamiMapStyle = city.id === 'miami' || city.id === 'tokyo';
     const isMiami = city.id === 'miami';
-    container.classList.toggle('city-explorer-map--miami', isMiami);
-    container.classList.toggle('city-explorer-map--wide', isMiami);
+    container.classList.toggle('city-explorer-map--miami', useMiamiMapStyle);
+    container.classList.toggle('city-explorer-map--wide', useMiamiMapStyle);
 
     state.cityExplorerMap = L.map('city-explorer-map', {
         zoomControl: true,
@@ -706,7 +719,7 @@ function renderCityExplorerMap(city) {
         attributionControl: false
     }).setView([city.lat, city.lng], 13);
 
-    const tileUrl = isMiami
+    const tileUrl = useMiamiMapStyle
         ? MIAMI_CITY_MAP_CONFIG.tileUrl
         : 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png';
     L.tileLayer(tileUrl).addTo(state.cityExplorerMap);
@@ -719,11 +732,11 @@ function renderCityExplorerMap(city) {
         const icon = L.divIcon({
             className: 'custom-div-icon',
             html: `
-                <div class="marker-pin-place ${isMiami ? 'marker-pin-place--miami' : ''}">
+                <div class="marker-pin-place ${useMiamiMapStyle ? 'marker-pin-place--miami' : ''}">
                     <div class="marker-img-wrapper">
                         <img src="${assetUrl(place.imagenCard || place.imagen)}" alt="${place.nombre}">
                     </div>
-                    ${isMiami ? '<span class="marker-pin-place__pulse"></span>' : ''}
+                    ${useMiamiMapStyle ? '<span class="marker-pin-place__pulse"></span>' : ''}
                 </div>
             `,
             iconSize: [44, 44],
@@ -735,7 +748,7 @@ function renderCityExplorerMap(city) {
         marker.bindTooltip(`<strong>${place.nombre}</strong>`, { direction: 'top', offset: [0, -10] });
     });
 
-    if (isMiami && markerGroup.getLayers().length > 1) {
+    if (useMiamiMapStyle && markerGroup.getLayers().length > 1) {
         // Baseline approved for Miami: keep all 9 POIs visible in the initial frame.
         L.circle([city.lat, city.lng], {
             radius: MIAMI_CITY_MAP_CONFIG.bayHaloRadius,
@@ -748,19 +761,19 @@ function renderCityExplorerMap(city) {
     }
 
     if (markerGroup.getLayers().length > 0) {
-        const bounds = markerGroup.getBounds().pad(isMiami ? MIAMI_CITY_MAP_CONFIG.boundsPad : 0.05);
+        const bounds = markerGroup.getBounds().pad(useMiamiMapStyle ? MIAMI_CITY_MAP_CONFIG.boundsPad : 0.05);
         const applyBounds = () => {
             if (!state.cityExplorerMap) return;
             state.cityExplorerMap.invalidateSize();
             state.cityExplorerMap.fitBounds(bounds, {
-                paddingTopLeft: isMiami ? MIAMI_CITY_MAP_CONFIG.fitPadding : [50, 50],
-                paddingBottomRight: isMiami ? MIAMI_CITY_MAP_CONFIG.fitPadding : [50, 50],
+                paddingTopLeft: useMiamiMapStyle ? MIAMI_CITY_MAP_CONFIG.fitPadding : [50, 50],
+                paddingBottomRight: useMiamiMapStyle ? MIAMI_CITY_MAP_CONFIG.fitPadding : [50, 50],
                 animate: false
             });
         };
 
         applyBounds();
-        if (isMiami) {
+        if (useMiamiMapStyle) {
             MIAMI_CITY_MAP_CONFIG.fitPassDelaysMs.forEach((delay) => setTimeout(applyBounds, delay));
         }
     }
@@ -1389,12 +1402,7 @@ function renderCruiseItinerary(cruise) {
 
 function getFilteredCruiseList() {
     if (!state.activeFilters.showCruises) return [];
-    if (!state.activeFilters.cruiseRegions.length) {
-        return state.cruises
-            .slice()
-            .sort((a, b) => (b.puntuacion || 0) - (a.puntuacion || 0))
-            .slice(0, 10);
-    }
+    if (!state.activeFilters.cruiseRegions.length) return [];
 
     const selectedRegions = state.activeFilters.cruiseRegions.map(normalizeCruiseRegion);
     const hasOthers = selectedRegions.includes(normalizeCruiseRegion('Otros'));
@@ -1425,6 +1433,7 @@ function updateCruiseList() {
     const filteredCruises = getFilteredCruiseList();
     panel.style.display = filteredCruises.length ? 'flex' : 'none';
     container.innerHTML = '';
+    container.scrollTop = 0;
 
     filteredCruises.forEach((cruise, index) => {
         const route = cruise.ruta || cruise.paradas || [];
@@ -1479,6 +1488,7 @@ document.addEventListener('DOMContentLoaded', () => {
     console.log('🚀 TravelWorld Iniciando...');
     Promise.all([loadCities(), loadCruises(), loadCountryPolygons()]).then(() => {
         initGlobe();
+        bindPlaceControlDelegates();
         setupEventListeners();
     });
 });
@@ -1557,6 +1567,7 @@ function setupEventListeners() {
 
     continentChecks.forEach(input => {
         input.addEventListener('change', () => {
+            if (!state.activeFilters.showCities && !input.checked) return;
             if (input.checked && citiesToggle && !citiesToggle.checked) {
                 citiesToggle.checked = true;
                 state.activeFilters.showCities = true;
@@ -1587,6 +1598,7 @@ function setupEventListeners() {
 
     regionChecks.forEach(input => {
         input.addEventListener('change', () => {
+            if (!state.activeFilters.showCruises && !input.checked) return;
             if (input.checked && cruiseToggle && !cruiseToggle.checked) {
                 cruiseToggle.checked = true;
                 state.activeFilters.showCruises = true;

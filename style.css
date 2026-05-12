@@ -327,6 +327,7 @@ body {
   opacity: 0.4;
   filter: grayscale(1);
   transition: all 0.3s ease;
+  pointer-events: none;
 }
 
 /* Panel Lateral de Cruceros */
@@ -646,6 +647,7 @@ input:checked + .slider:before { transform: translateX(20px); }
 .disabled-group {
   opacity: 0.4;
   filter: grayscale(1);
+  pointer-events: none;
 }
 
 .sub-options.hidden {
