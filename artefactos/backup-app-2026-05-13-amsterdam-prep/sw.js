@@ -1,9 +1,9 @@
-const CACHE_NAME = 'ciudades-del-mundo-v1.6.2-amsterdam-photos';
+const CACHE_NAME = 'ciudades-del-mundo-v1.6.1-city-map-light';
 const STATIC_ASSETS = [
   '/',
   '/index.html',
-  '/app.js?v=20260513-02',
-  '/style.css?v=20260513-02',
+  '/app.js?v=20260513-01',
+  '/style.css?v=20260513-01',
   '/cities.json',
   '/manifest.json',
   '/icons/icon-192.png',

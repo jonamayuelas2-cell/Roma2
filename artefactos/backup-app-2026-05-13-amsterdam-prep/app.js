@@ -432,13 +432,6 @@ function getGeneratedActivityImage(place, activity) {
         return `img/bangkok_activities/${placeSlug}_${activityIndex}.png`;
     }
 
-    if (state.currentCity?.id === 'amsterdam') {
-        const placeSlug = slugifyAssetKey(place?.nombre || '');
-        const activityIndex = Number(activity?._generatedActivityIndex);
-        if (!placeSlug || !Number.isFinite(activityIndex) || activityIndex < 1) return '';
-        return `img/amsterdam_activities/${placeSlug}_${activityIndex}.png`;
-    }
-
     return '';
 }
 

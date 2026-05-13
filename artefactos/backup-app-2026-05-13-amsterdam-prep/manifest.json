@@ -1,0 +1,39 @@
+{
+  "name": "Ciudades del Mundo - Guía de Viaje",
+  "short_name": "Ciudades Mundo",
+  "description": "Tu guía global para descubrir ciudades, monumentos, museos, barrios, parques y restaurantes alrededor del mundo.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0b10",
+  "theme_color": "#1a2a6c",
+  "orientation": "portrait-primary",
+  "lang": "es",
+  "categories": ["travel", "lifestyle", "navigation"],
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Ver Mapa",
+      "url": "/?view=mapa",
+      "description": "Ver mapa de puntos de interés"
+    },
+    {
+      "name": "Meteorología",
+      "url": "/?tab=meteo",
+      "description": "Ver el tiempo de la ciudad seleccionada"
+    }
+  ]
+}
