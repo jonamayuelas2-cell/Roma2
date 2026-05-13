@@ -722,7 +722,7 @@ function renderCityExplorerMap(city) {
     if (!container) return;
 
     cleanupCityExplorerMap();
-    const useMiamiMapStyle = ['miami', 'tokyo', 'bangkok', 'auckland', 'sydney', 'nyc'].includes(city.id);
+    const useMiamiMapStyle = true;
     const isMiami = city.id === 'miami';
     container.classList.toggle('city-explorer-map--miami', useMiamiMapStyle);
     container.classList.toggle('city-explorer-map--wide', useMiamiMapStyle);
