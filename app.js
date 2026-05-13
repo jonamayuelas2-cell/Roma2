@@ -461,6 +461,24 @@ function getGeneratedActivityImage(place, activity) {
         return `img/lisbon_activities/${placeSlug}_${activityIndex}.png`;
     }
 
+    if (state.currentCity?.id === 'madrid') {
+        const madridPlaceSlugs = {
+            'museo-del-prado': 'museo-del-prado',
+            'parque-del-retiro': 'parque-del-retiro',
+            'palacio-real': 'palacio-real',
+            'templo-de-debod': 'templo-de-debod',
+            'gran-via': 'gran-via',
+            'plaza-mayor': 'plaza-mayor',
+            'mercado-de-san-miguel': 'mercado-de-san-miguel',
+            'puerta-del-sol': 'puerta-del-sol',
+            'chocolateria-san-gines': 'chocolateria-san-gines'
+        };
+        const placeSlug = madridPlaceSlugs[slugifyAssetKey(place?.nombre || '')] || slugifyAssetKey(place?.nombre || '');
+        const activityIndex = Number(activity?._generatedActivityIndex);
+        if (!placeSlug || !Number.isFinite(activityIndex) || activityIndex < 1) return '';
+        return `img/madrid_activities/${placeSlug}_${activityIndex}.png`;
+    }
+
     return '';
 }
 
