@@ -36,7 +36,7 @@ const GLOBE_TEXTURE_URL = 'https://unpkg.com/three-globe/example/img/earth-blue-
 const GLOBE_BUMP_URL = 'https://unpkg.com/three-globe/example/img/earth-topology.png';
 const COUNTRIES_GEOJSON_URL = 'https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson';
 const GENERIC_CRUISE_SHIP_PHOTO = 'https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&fit=crop&q=80&w=800';
-const LOCAL_ASSET_REV = '20260513-04';
+const LOCAL_ASSET_REV = '20260513-05';
 const MIAMI_CITY_MAP_CONFIG = Object.freeze({
     tileUrl: 'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png',
     boundsPad: 0.12,
@@ -443,7 +443,19 @@ function getGeneratedActivityImage(place, activity) {
     }
 
     if (state.currentCity?.id === 'lisboa') {
-        const placeSlug = slugifyAssetKey(place?.nombre || '');
+        const lisbonPlaceSlugs = {
+            'torre-de-belo-m': 'torre-de-belem',
+            'torre-de-belem': 'torre-de-belem',
+            'barrio-de-alfama': 'barrio-de-alfama',
+            'monasterio-de-los-jeronimos': 'monasterio-de-los-jeronimos',
+            'mirador-de-santa-luzia': 'mirador-de-santa-luzia',
+            'elevador-de-santa-justa': 'elevador-de-santa-justa',
+            'lx-factory': 'lx-factory',
+            'mercado-da-ribeira': 'mercado-da-ribeira',
+            'museo-nacional-del-azulejo': 'museo-nacional-del-azulejo',
+            'parque-eduardo-vii': 'parque-eduardo-vii'
+        };
+        const placeSlug = lisbonPlaceSlugs[slugifyAssetKey(place?.nombre || '')] || slugifyAssetKey(place?.nombre || '');
         const activityIndex = Number(activity?._generatedActivityIndex);
         if (!placeSlug || !Number.isFinite(activityIndex) || activityIndex < 1) return '';
         return `img/lisbon_activities/${placeSlug}_${activityIndex}.png`;
