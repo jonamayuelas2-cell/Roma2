@@ -36,6 +36,7 @@ const GLOBE_TEXTURE_URL = 'https://unpkg.com/three-globe/example/img/earth-blue-
 const GLOBE_BUMP_URL = 'https://unpkg.com/three-globe/example/img/earth-topology.png';
 const COUNTRIES_GEOJSON_URL = 'https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson';
 const GENERIC_CRUISE_SHIP_PHOTO = 'https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&fit=crop&q=80&w=800';
+const LOCAL_ASSET_REV = '20260513-04';
 const MIAMI_CITY_MAP_CONFIG = Object.freeze({
     tileUrl: 'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png',
     boundsPad: 0.12,
@@ -55,7 +56,9 @@ function assetUrl(path) {
         }
         return path;
     }
-    return path.startsWith('/') ? path.substring(1) : path;
+    const normalizedPath = path.startsWith('/') ? path.substring(1) : path;
+    const separator = normalizedPath.includes('?') ? '&' : '?';
+    return `${normalizedPath}${separator}v=${LOCAL_ASSET_REV}`;
 }
 
 function normalizeContinentName(continent) {
@@ -437,6 +440,13 @@ function getGeneratedActivityImage(place, activity) {
         const activityIndex = Number(activity?._generatedActivityIndex);
         if (!placeSlug || !Number.isFinite(activityIndex) || activityIndex < 1) return '';
         return `img/amsterdam_activities/${placeSlug}_${activityIndex}.png`;
+    }
+
+    if (state.currentCity?.id === 'lisboa') {
+        const placeSlug = slugifyAssetKey(place?.nombre || '');
+        const activityIndex = Number(activity?._generatedActivityIndex);
+        if (!placeSlug || !Number.isFinite(activityIndex) || activityIndex < 1) return '';
+        return `img/lisbon_activities/${placeSlug}_${activityIndex}.png`;
     }
 
     return '';
