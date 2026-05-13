@@ -36,7 +36,7 @@ const GLOBE_TEXTURE_URL = 'https://unpkg.com/three-globe/example/img/earth-blue-
 const GLOBE_BUMP_URL = 'https://unpkg.com/three-globe/example/img/earth-topology.png';
 const COUNTRIES_GEOJSON_URL = 'https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson';
 const GENERIC_CRUISE_SHIP_PHOTO = 'https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&fit=crop&q=80&w=800';
-const LOCAL_ASSET_REV = '20260513-05';
+const LOCAL_ASSET_REV = '20260513-06';
 const MIAMI_CITY_MAP_CONFIG = Object.freeze({
     tileUrl: 'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png',
     boundsPad: 0.12,
