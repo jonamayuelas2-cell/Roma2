@@ -1,9 +1,9 @@
-const CACHE_NAME = 'ciudades-del-mundo-v1.6.5-lisbon-belem-fix';
+const CACHE_NAME = 'ciudades-del-mundo-v1.6.6-filters-fix';
 const STATIC_ASSETS = [
   '/',
   '/index.html',
-  '/app.js?v=20260513-05',
-  '/style.css?v=20260513-05',
+  '/app.js?v=20260514-02',
+  '/style.css?v=20260514-02',
   '/cities.json',
   '/manifest.json',
   '/icons/icon-192.png',

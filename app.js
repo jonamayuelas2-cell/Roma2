@@ -1492,6 +1492,14 @@ function updateCruiseList() {
     if (!panel || !container) return;
 
     const filteredCruises = getFilteredCruiseList();
+    if (filteredCruises.length) {
+        const currentStillVisible = filteredCruises.some((cruise) => cruise.id === state.currentCruise?.id);
+        if (!currentStillVisible) {
+            state.currentCruise = filteredCruises[0];
+        }
+    } else {
+        state.currentCruise = null;
+    }
     panel.style.display = filteredCruises.length ? 'flex' : 'none';
     container.innerHTML = '';
     container.scrollTop = 0;
