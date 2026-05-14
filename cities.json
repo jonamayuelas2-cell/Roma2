@@ -10025,7 +10025,8 @@
             "contacto": "sagradafamilia.org",
             "horario": "9:00 - 18:00",
             "web": "sagradafamilia.org",
-            "costeEstimado": "25-70 €"
+            "costeEstimado": "25-70 €",
+            "imagen": "img/barcelona_activities/sagradafamilia_1.png"
           },
           {
             "titulo": "Subida a las Torres",
@@ -10034,7 +10035,8 @@
             "contacto": "sagradafamilia.org",
             "horario": "Maұanas",
             "web": "sagradafamilia.org",
-            "costeEstimado": "20-60 €"
+            "costeEstimado": "20-60 €",
+            "imagen": "img/barcelona_activities/sagradafamilia_2.png"
           },
           {
             "titulo": "Concierto de Organo",
@@ -10043,7 +10045,8 @@
             "contacto": "barcelona.cat/cultura",
             "horario": "Eventos especiales",
             "web": "barcelona.cat/cultura",
-            "costeEstimado": "20-60 €"
+            "costeEstimado": "20-60 €",
+            "imagen": "img/barcelona_activities/sagradafamilia_3.png"
           },
           {
             "titulo": "Taller de Mosaicos",
@@ -10052,7 +10055,8 @@
             "contacto": "gaudiexperience.com",
             "horario": "11:00 - 13:00",
             "web": "gaudiexperience.com",
-            "costeEstimado": "45-95 €"
+            "costeEstimado": "45-95 €",
+            "imagen": "img/barcelona_activities/sagradafamilia_4.png"
           },
           {
             "titulo": "Fotografia Nocturna",
@@ -10061,7 +10065,8 @@
             "contacto": "bcnphototour.com",
             "horario": "21:00",
             "web": "bcnphototour.com",
-            "costeEstimado": "40-120 €"
+            "costeEstimado": "40-120 €",
+            "imagen": "img/barcelona_activities/sagradafamilia_5.png"
           },
           {
             "titulo": "Misa Internacional",
@@ -10070,7 +10075,8 @@
             "contacto": "esglesiabarcelona.cat",
             "horario": "Domingos 9:00",
             "web": "esglesiabarcelona.cat",
-            "costeEstimado": "20-60 €"
+            "costeEstimado": "20-60 €",
+            "imagen": "img/barcelona_activities/sagradafamilia_6.png"
           }
         ],
         "web": "https://sagradafamilia.org"
@@ -10101,7 +10107,8 @@
             "contacto": "parkguell.barcelona",
             "horario": "10:00 - 19:00",
             "web": "parkguell.barcelona",
-            "costeEstimado": "20-60 €"
+            "costeEstimado": "20-60 €",
+            "imagen": "img/barcelona_activities/parkguell_1.png"
           },
           {
             "titulo": "Picnic en los Jardines",
@@ -10110,7 +10117,8 @@
             "contacto": "barcelona.cat/parcs",
             "horario": "Todo el día",
             "web": "barcelona.cat/parcs",
-            "costeEstimado": "15-50 €"
+            "costeEstimado": "15-50 €",
+            "imagen": "img/barcelona_activities/parkguell_2.png"
           },
           {
             "titulo": "Taller de Trencadis",
@@ -10119,7 +10127,8 @@
             "contacto": "mosaiccos.com",
             "horario": "12:00",
             "web": "mosaiccos.com",
-            "costeEstimado": "45-95 €"
+            "costeEstimado": "45-95 €",
+            "imagen": "img/barcelona_activities/parkguell_3.png"
           },
           {
             "titulo": "Ruta Botanica",
@@ -10128,7 +10137,8 @@
             "contacto": "bcn-green.com",
             "horario": "Bajo reserva",
             "web": "bcn-green.com",
-            "costeEstimado": "25-70 €"
+            "costeEstimado": "25-70 €",
+            "imagen": "img/barcelona_activities/parkguell_4.png"
           },
           {
             "titulo": "Puesta de Sol",
@@ -10137,7 +10147,8 @@
             "contacto": "N/A",
             "horario": "Atardecer",
             "web": "https://parkguell.barcelona",
-            "costeEstimado": "20-60 €"
+            "costeEstimado": "20-60 €",
+            "imagen": "img/barcelona_activities/parkguell_5.png"
           },
           {
             "titulo": "Casa-Museu Gaudi",
@@ -10146,7 +10157,8 @@
             "contacto": "casamuseugaudi.org",
             "horario": "10:00 - 18:00",
             "web": "casamuseugaudi.org",
-            "costeEstimado": "20-60 €"
+            "costeEstimado": "20-60 €",
+            "imagen": "img/barcelona_activities/parkguell_6.png"
           }
         ],
         "web": "https://parkguell.barcelona"
@@ -10177,7 +10189,8 @@
             "contacto": "iconoserveis.com",
             "horario": "20:00",
             "web": "iconoserveis.com",
-            "costeEstimado": "15-45 €"
+            "costeEstimado": "15-45 €",
+            "imagen": "img/barcelona_activities/barriogotico_1.png"
           },
           {
             "titulo": "Tapas Historicas",
@@ -10186,7 +10199,8 @@
             "contacto": "devourtours.com",
             "horario": "19:00",
             "web": "devourtours.com",
-            "costeEstimado": "20-60 €"
+            "costeEstimado": "20-60 €",
+            "imagen": "img/barcelona_activities/barriogotico_2.png"
           },
           {
             "titulo": "Guitarra Espaұola",
@@ -10195,7 +10209,8 @@
             "contacto": "maestrosdelaguitarra.com",
             "horario": "21:00",
             "web": "maestrosdelaguitarra.com",
-            "costeEstimado": "20-60 €"
+            "costeEstimado": "20-60 €",
+            "imagen": "img/barcelona_activities/barriogotico_3.png"
           },
           {
             "titulo": "Barcelona Romana",
@@ -10204,7 +10219,8 @@
             "contacto": "barcelona.cat/museuhistoria",
             "horario": "10:00 - 19:00",
             "web": "barcelona.cat/museuhistoria",
-            "costeEstimado": "20-60 €"
+            "costeEstimado": "20-60 €",
+            "imagen": "img/barcelona_activities/barriogotico_4.png"
           },
           {
             "titulo": "Caligrafia Medieval",
@@ -10213,7 +10229,8 @@
             "contacto": "artsmedievals.com",
             "horario": "Sabados",
             "web": "artsmedievals.com",
-            "costeEstimado": "20-60 €"
+            "costeEstimado": "20-60 €",
+            "imagen": "img/barcelona_activities/barriogotico_5.png"
           },
           {
             "titulo": "Patios Escondidos",
@@ -10222,7 +10239,8 @@
             "contacto": "casessingulars.com",
             "horario": "Bajo reserva",
             "web": "casessingulars.com",
-            "costeEstimado": "20-60 €"
+            "costeEstimado": "20-60 €",
+            "imagen": "img/barcelona_activities/barriogotico_6.png"
           }
         ],
         "web": "https://www.barcelonaturisme.com/wv3/en/page/380/the-gothic-quarter.html"
@@ -10253,7 +10271,8 @@
             "contacto": "casabatllo.es",
             "horario": "18:00",
             "web": "casabatllo.es",
-            "costeEstimado": "25-70 €"
+            "costeEstimado": "25-70 €",
+            "imagen": "img/barcelona_activities/casabatllo_1.png"
           },
           {
             "titulo": "Noches Magicas",
@@ -10262,7 +10281,8 @@
             "contacto": "casabatllo.es",
             "horario": "20:00",
             "web": "casabatllo.es",
-            "costeEstimado": "25-75 €"
+            "costeEstimado": "25-75 €",
+            "imagen": "img/barcelona_activities/casabatllo_2.png"
           },
           {
             "titulo": "Experiencia 10D",
@@ -10271,7 +10291,8 @@
             "contacto": "casabatllo.es",
             "horario": "9:00 - 20:00",
             "web": "casabatllo.es",
-            "costeEstimado": "20-60 €"
+            "costeEstimado": "20-60 €",
+            "imagen": "img/barcelona_activities/casabatllo_3.png"
           },
           {
             "titulo": "Desayuno en el Tejado",
@@ -10280,7 +10301,8 @@
             "contacto": "casabatllo.es",
             "horario": "8:30",
             "web": "casabatllo.es",
-            "costeEstimado": "20-60 €"
+            "costeEstimado": "20-60 €",
+            "imagen": "img/barcelona_activities/casabatllo_4.png"
           },
           {
             "titulo": "Taller de Vidrieras",
@@ -10289,7 +10311,8 @@
             "contacto": "artesaniabcn.cat",
             "horario": "Mensual",
             "web": "artesaniabcn.cat",
-            "costeEstimado": "45-95 €"
+            "costeEstimado": "45-95 €",
+            "imagen": "img/barcelona_activities/casabatllo_5.png"
           },
           {
             "titulo": "Sesion Fotografica",
@@ -10298,7 +10321,8 @@
             "contacto": "photo-exp.com",
             "horario": "Previa cita",
             "web": "photo-exp.com",
-            "costeEstimado": "40-120 €"
+            "costeEstimado": "40-120 €",
+            "imagen": "img/barcelona_activities/casabatllo_6.png"
           }
         ],
         "web": "https://www.casabatllo.es"
@@ -10329,7 +10353,8 @@
             "contacto": "barcelonaturisme.com",
             "horario": "Cualquier hora",
             "web": "barcelonaturisme.com",
-            "costeEstimado": "15-45 €"
+            "costeEstimado": "15-45 €",
+            "imagen": "img/barcelona_activities/larambla_1.png"
           },
           {
             "titulo": "Flamenco en el Tablao",
@@ -10338,7 +10363,8 @@
             "contacto": "tablaocordobes.es",
             "horario": "Varios pases",
             "web": "tablaocordobes.es",
-            "costeEstimado": "20-60 €"
+            "costeEstimado": "20-60 €",
+            "imagen": "img/barcelona_activities/larambla_2.png"
           },
           {
             "titulo": "Opera en el Liceu",
@@ -10347,7 +10373,8 @@
             "contacto": "liceubarcelona.cat",
             "horario": "10:00 - 18:00",
             "web": "liceubarcelona.cat",
-            "costeEstimado": "20-60 €"
+            "costeEstimado": "20-60 €",
+            "imagen": "img/barcelona_activities/larambla_3.png"
           },
           {
             "titulo": "Cocteleria Boadas",
@@ -10356,7 +10383,8 @@
             "contacto": "boadascocktails.com",
             "horario": "Tarde/Noche",
             "web": "boadascocktails.com",
-            "costeEstimado": "20-60 €"
+            "costeEstimado": "20-60 €",
+            "imagen": "img/barcelona_activities/larambla_4.png"
           },
           {
             "titulo": "Ruta de Estatuas",
@@ -10365,7 +10393,8 @@
             "contacto": "laramblabcn.com",
             "horario": "Maұana",
             "web": "laramblabcn.com",
-            "costeEstimado": "25-70 €"
+            "costeEstimado": "25-70 €",
+            "imagen": "img/barcelona_activities/larambla_5.png"
           },
           {
             "titulo": "Cena en Terraza",
@@ -10374,7 +10403,8 @@
             "contacto": "glaciarbcn.com",
             "horario": "20:00",
             "web": "glaciarbcn.com",
-            "costeEstimado": "45-120 €"
+            "costeEstimado": "45-120 €",
+            "imagen": "img/barcelona_activities/larambla_6.png"
           }
         ],
         "web": "https://www.barcelonaturisme.com/wv3/en/page/163/la-rambla.html"
@@ -10405,7 +10435,8 @@
             "contacto": "boqueria.barcelona",
             "horario": "10:00",
             "web": "boqueria.barcelona",
-            "costeEstimado": "25-70 €"
+            "costeEstimado": "25-70 €",
+            "imagen": "img/barcelona_activities/mercadodelaboqueria_1.png"
           },
           {
             "titulo": "Taller de Cocina",
@@ -10414,7 +10445,8 @@
             "contacto": "barcelonacooking.net",
             "horario": "11:00",
             "web": "barcelonacooking.net",
-            "costeEstimado": "45-95 €"
+            "costeEstimado": "45-95 €",
+            "imagen": "img/barcelona_activities/mercadodelaboqueria_2.png"
           },
           {
             "titulo": "Ostras y Cava",
@@ -10423,7 +10455,8 @@
             "contacto": "laboqueria.es",
             "horario": "Maұana",
             "web": "laboqueria.es",
-            "costeEstimado": "20-60 €"
+            "costeEstimado": "20-60 €",
+            "imagen": "img/barcelona_activities/mercadodelaboqueria_3.png"
           },
           {
             "titulo": "Puestos Historicos",
@@ -10432,7 +10465,8 @@
             "contacto": "boqueria.info",
             "horario": "12:00",
             "web": "boqueria.info",
-            "costeEstimado": "20-60 €"
+            "costeEstimado": "20-60 €",
+            "imagen": "img/barcelona_activities/mercadodelaboqueria_4.png"
           },
           {
             "titulo": "Desayuno de Tenedor",
@@ -10441,7 +10475,8 @@
             "contacto": "elquimdelaboqueria.com",
             "horario": "8:00 - 11:00",
             "web": "elquimdelaboqueria.com",
-            "costeEstimado": "20-60 €"
+            "costeEstimado": "20-60 €",
+            "imagen": "img/barcelona_activities/mercadodelaboqueria_5.png"
           },
           {
             "titulo": "Corte de Jamon",
@@ -10450,7 +10485,8 @@
             "contacto": "reservaiberica.com",
             "horario": "16:00",
             "web": "reservaiberica.com",
-            "costeEstimado": "20-60 €"
+            "costeEstimado": "20-60 €",
+            "imagen": "img/barcelona_activities/mercadodelaboqueria_6.png"
           }
         ],
         "web": "https://www.boqueria.barcelona"
@@ -10481,7 +10517,8 @@
             "contacto": "telefericdemontjuic.cat",
             "horario": "10:00 - 19:00",
             "web": "telefericdemontjuic.cat",
-            "costeEstimado": "20-60 €"
+            "costeEstimado": "20-60 €",
+            "imagen": "img/barcelona_activities/montjuic_1.png"
           },
           {
             "titulo": "Font Magica",
@@ -10490,7 +10527,8 @@
             "contacto": "barcelona.cat/fontmagica",
             "horario": "Noche (Consultar dias)",
             "web": "barcelona.cat/fontmagica",
-            "costeEstimado": "20-60 €"
+            "costeEstimado": "20-60 €",
+            "imagen": "img/barcelona_activities/montjuic_2.png"
           },
           {
             "titulo": "Castell de Montjuic",
@@ -10499,7 +10537,8 @@
             "contacto": "barcelona.cat/castellmontjuic",
             "horario": "10:00 - 20:00",
             "web": "barcelona.cat/castellmontjuic",
-            "costeEstimado": "20-60 €"
+            "costeEstimado": "20-60 €",
+            "imagen": "img/barcelona_activities/montjuic_3.png"
           },
           {
             "titulo": "Jardines de Brossa",
@@ -10508,7 +10547,8 @@
             "contacto": "barcelona.cat/parcs",
             "horario": "Todo el día",
             "web": "barcelona.cat/parcs",
-            "costeEstimado": "20-60 €"
+            "costeEstimado": "20-60 €",
+            "imagen": "img/barcelona_activities/montjuic_4.png"
           },
           {
             "titulo": "MNAC Experience",
@@ -10517,7 +10557,8 @@
             "contacto": "museunacional.cat",
             "horario": "10:00 - 18:00",
             "web": "museunacional.cat",
-            "costeEstimado": "20-60 €"
+            "costeEstimado": "20-60 €",
+            "imagen": "img/barcelona_activities/montjuic_5.png"
           },
           {
             "titulo": "Piscina Olimpica",
@@ -10526,7 +10567,8 @@
             "contacto": "picornell.cat",
             "horario": "Verano",
             "web": "picornell.cat",
-            "costeEstimado": "20-60 €"
+            "costeEstimado": "20-60 €",
+            "imagen": "img/barcelona_activities/montjuic_6.png"
           }
         ],
         "web": "https://www.barcelonaturisme.com/wv3/en/page/397/montjuic.html"
@@ -10557,7 +10599,8 @@
             "contacto": "manihisurf.com",
             "horario": "6:30",
             "web": "manihisurf.com",
-            "costeEstimado": "25-80 €"
+            "costeEstimado": "25-80 €",
+            "imagen": "img/barcelona_activities/barceloneta_1.png"
           },
           {
             "titulo": "Arroz Marinero",
@@ -10566,7 +10609,8 @@
             "contacto": "restaurantcansole.com",
             "horario": "14:00",
             "web": "restaurantcansole.com",
-            "costeEstimado": "20-60 €"
+            "costeEstimado": "20-60 €",
+            "imagen": "img/barcelona_activities/barceloneta_2.png"
           },
           {
             "titulo": "Pesca Tradicional",
@@ -10575,7 +10619,8 @@
             "contacto": "capamar.cat",
             "horario": "Maұanas",
             "web": "capamar.cat",
-            "costeEstimado": "20-60 €"
+            "costeEstimado": "20-60 €",
+            "imagen": "img/barcelona_activities/barceloneta_3.png"
           },
           {
             "titulo": "Bicicletas por el Mar",
@@ -10584,7 +10629,8 @@
             "contacto": "barcelonabikerent.com",
             "horario": "Diario",
             "web": "barcelonabikerent.com",
-            "costeEstimado": "20-60 €"
+            "costeEstimado": "20-60 €",
+            "imagen": "img/barcelona_activities/barceloneta_4.png"
           },
           {
             "titulo": "Museo de Historia",
@@ -10593,7 +10639,8 @@
             "contacto": "mhcat.cat",
             "horario": "10:00 - 19:00",
             "web": "mhcat.cat",
-            "costeEstimado": "20-65 €"
+            "costeEstimado": "20-65 €",
+            "imagen": "img/barcelona_activities/barceloneta_5.png"
           },
           {
             "titulo": "Cena con Brisa",
@@ -10602,7 +10649,8 @@
             "contacto": "restaurantbarceloneta.com",
             "horario": "21:00",
             "web": "restaurantbarceloneta.com",
-            "costeEstimado": "45-120 €"
+            "costeEstimado": "45-120 €",
+            "imagen": "img/barcelona_activities/barceloneta_6.png"
           }
         ],
         "web": "https://www.barcelonaturisme.com/wv3/en/page/161/la-barceloneta.html"
@@ -10633,7 +10681,8 @@
             "contacto": "palaumusica.cat",
             "horario": "10:00 - 15:30",
             "web": "palaumusica.cat",
-            "costeEstimado": "25-70 €"
+            "costeEstimado": "25-70 €",
+            "imagen": "img/barcelona_activities/palaudelamusicacatalana_1.png"
           },
           {
             "titulo": "Ensayo Abierto",
@@ -10642,7 +10691,8 @@
             "contacto": "palaumusica.cat",
             "horario": "Segun calendario",
             "web": "palaumusica.cat",
-            "costeEstimado": "20-60 €"
+            "costeEstimado": "20-60 €",
+            "imagen": "img/barcelona_activities/palaudelamusicacatalana_2.png"
           },
           {
             "titulo": "Opera y Flamenco",
@@ -10651,7 +10701,8 @@
             "contacto": "operaflamenco.com",
             "horario": "20:00",
             "web": "operaflamenco.com",
-            "costeEstimado": "20-60 €"
+            "costeEstimado": "20-60 €",
+            "imagen": "img/barcelona_activities/palaudelamusicacatalana_3.png"
           },
           {
             "titulo": "Escultura Modernista",
@@ -10660,7 +10711,8 @@
             "contacto": "modernisme.cat",
             "horario": "Bajo reserva",
             "web": "modernisme.cat",
-            "costeEstimado": "20-60 €"
+            "costeEstimado": "20-60 €",
+            "imagen": "img/barcelona_activities/palaudelamusicacatalana_4.png"
           },
           {
             "titulo": "Te en el Balcon",
@@ -10669,7 +10721,8 @@
             "contacto": "palaumusica.cat",
             "horario": "Tarde",
             "web": "palaumusica.cat",
-            "costeEstimado": "20-60 €"
+            "costeEstimado": "20-60 €",
+            "imagen": "img/barcelona_activities/palaudelamusicacatalana_5.png"
           },
           {
             "titulo": "Recital de Piano",
@@ -10678,7 +10731,8 @@
             "contacto": "feverup.com",
             "horario": "21:30",
             "web": "feverup.com",
-            "costeEstimado": "20-60 €"
+            "costeEstimado": "20-60 €",
+            "imagen": "img/barcelona_activities/palaudelamusicacatalana_6.png"
           }
         ],
         "web": "https://www.palaumusica.cat"
