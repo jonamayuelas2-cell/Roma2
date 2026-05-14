@@ -24,8 +24,8 @@
       "horario": "10:00 - 17:30",
       "precio": "6€",
       "rating": 4.8,
-      "imagen": "img/lisbon_belem.png",
-      "imagenCard": "img/lisbon_belem.png",
+      "imagen": "img/lisbon_belem.png?v=20260514-01",
+      "imagenCard": "img/lisbon_belem.png?v=20260514-01",
       "tags": [
         "historia",
         "arquitectura",
@@ -40,7 +40,7 @@
           "horario": "10:00 - 12:00",
           "web": "https://www.getyourguide.com/s/?q=Lisbon",
           "costeEstimado": "25-70 €",
-          "imagen": "img/lisbon_belem.png"
+          "imagen": "img/lisbon_belem.png?v=20260514-01"
         },
         {
           "titulo": "Acceso con contexto local",
@@ -50,7 +50,7 @@
           "horario": "12:00 - 14:00",
           "web": "https://www.getyourguide.com/s/?q=Lisbon",
           "costeEstimado": "25-70 €",
-          "imagen": "img/lisbon_belem.png"
+          "imagen": "img/lisbon_belem.png?v=20260514-01"
         },
         {
           "titulo": "Paseo fotografico",
@@ -60,7 +60,7 @@
           "horario": "Atardecer",
           "web": "https://www.withlocals.com/search/?q=Lisbon",
           "costeEstimado": "40-120 €",
-          "imagen": "img/lisbon_belem.png"
+          "imagen": "img/lisbon_belem.png?v=20260514-01"
         },
         {
           "titulo": "Ruta de leyendas",
@@ -70,7 +70,7 @@
           "horario": "18:00 - 19:30",
           "web": "https://www.civitatis.com/es/lisboa/",
           "costeEstimado": "15-45 €",
-          "imagen": "img/lisbon_belem.png"
+          "imagen": "img/lisbon_belem.png?v=20260514-01"
         },
         {
           "titulo": "Visita familiar",
@@ -80,7 +80,7 @@
           "horario": "11:00 - 12:30",
           "web": "https://www.getyourguide.com/s/?q=Lisbon",
           "costeEstimado": "25-70 €",
-          "imagen": "img/lisbon_belem.png"
+          "imagen": "img/lisbon_belem.png?v=20260514-01"
         },
         {
           "titulo": "Audioguia express",
@@ -90,7 +90,7 @@
           "horario": "Durante apertura",
           "web": "https://www.tiqets.com/en/search/?query=Lisbon",
           "costeEstimado": "5-20 €",
-          "imagen": "img/lisbon_belem.png"
+          "imagen": "img/lisbon_belem.png?v=20260514-01"
         }
       ],
       "web": "https://www.patrimoniocultural.gov.pt/pt/museus-e-monumentos/dgpc/m/torre-de-belem"
