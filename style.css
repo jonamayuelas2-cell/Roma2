@@ -822,6 +822,116 @@ input:checked + .slider:before { transform: translateX(20px); }
   animation: fallbackGlobeSpin 12s linear infinite;
 }
 
+.selection-fallback-shell {
+  position: absolute;
+  inset: 0;
+  z-index: 4;
+}
+
+.selection-fallback-content {
+  position: absolute;
+  left: 50%;
+  bottom: 34px;
+  transform: translateX(-50%);
+  width: min(980px, calc(100% - 48px));
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.selection-fallback-status {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 16px 18px;
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 18px;
+  background: rgba(6, 12, 24, 0.72);
+  backdrop-filter: blur(14px);
+  color: #f8fafc;
+}
+
+.selection-fallback-status span {
+  color: rgba(226, 232, 240, 0.88);
+  font-size: 0.95rem;
+}
+
+.selection-fallback-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.selection-fallback-group h3 {
+  margin: 0;
+  font-size: 0.95rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #dbeafe;
+}
+
+.selection-fallback-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 14px;
+}
+
+.selection-fallback-card {
+  appearance: none;
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 18px;
+  padding: 10px;
+  background: rgba(9, 18, 35, 0.78);
+  backdrop-filter: blur(12px);
+  color: #f8fafc;
+  text-align: left;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
+}
+
+.selection-fallback-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(125, 211, 252, 0.6);
+  box-shadow: 0 14px 30px rgba(2, 8, 23, 0.28);
+}
+
+.selection-fallback-card img {
+  width: 100%;
+  aspect-ratio: 1.2;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.selection-fallback-card strong,
+.selection-fallback-card span,
+.selection-fallback-card small {
+  display: block;
+}
+
+.selection-fallback-card strong {
+  font-size: 0.98rem;
+}
+
+.selection-fallback-card span,
+.selection-fallback-card small {
+  color: rgba(226, 232, 240, 0.82);
+}
+
+.selection-fallback-pill {
+  width: fit-content;
+  max-width: 100%;
+  padding: 4px 9px;
+  border-radius: 999px;
+  background: rgba(56, 189, 248, 0.18);
+  color: #bae6fd !important;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
 @keyframes fallbackGlobeSpin {
   from { transform: translateX(-9%) scale(1.08); }
   to { transform: translateX(9%) scale(1.08); }
@@ -3122,6 +3232,23 @@ header {
     @keyframes slideInUp {
         from { transform: translateY(100%); }
         to { transform: translateY(0); }
+    }
+
+    .selection-fallback-content {
+        width: calc(100% - 24px);
+        bottom: 20px;
+    }
+
+    .selection-fallback-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .selection-fallback-card {
+        padding: 8px;
+    }
+
+    .selection-fallback-card img {
+        aspect-ratio: 1;
     }
 }
 

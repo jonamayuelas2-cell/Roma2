@@ -21,6 +21,7 @@ const state = {
         cruiseRegions: []
     },
     globe: null,
+    globeFallbackMode: false,
     map: null, // Mapa general/cruceros
     cityExplorerMap: null, // Mapa específico de la ciudad
     portMap: null,
@@ -591,7 +592,15 @@ async function loadCountryPolygons() {
 
 function initGlobe() {
     const globeContainer = document.getElementById('globeViz');
-    if (!globeContainer || !window.Globe) return;
+    if (!globeContainer) return;
+    if (!window.Globe) {
+        state.globeFallbackMode = true;
+        renderSelectionFallback();
+        return;
+    }
+
+    state.globeFallbackMode = false;
+    globeContainer.innerHTML = '';
 
     state.globe = Globe()(globeContainer)
         .globeImageUrl(GLOBE_TEXTURE_URL)
@@ -612,22 +621,98 @@ function initGlobe() {
     state.globe.pointOfView({ lat: 20, lng: 0, altitude: 2.5 }, 2000);
 }
 
-function refreshGlobeData() {
-    if (!state.globe) return;
+function getFilteredCitiesForSelection() {
+    if (!state.activeFilters.showCities) return [];
+    if (!state.activeFilters.continents.length) return state.cities;
+    return state.cities.filter(city => state.activeFilters.continents.includes(normalizeContinentName(city.continente)));
+}
 
-    const filteredCities = state.activeFilters.showCities && state.activeFilters.continents.length > 0
-        ? state.cities.filter(c => state.activeFilters.continents.includes(normalizeContinentName(c.continente)))
-        : [];
-
+function getActiveCruisePoints() {
     const activeCruises = state.activeFilters.showCruises && state.currentCruise ? [state.currentCruise] : [];
     const cruiseStops = activeCruises.length > 0
-        ? activeCruises.flatMap(cruise => (cruise.paradas || []).map(stop => ({
+        ? activeCruises.flatMap(cruise => (cruise.paradas || cruise.ruta || []).map(stop => ({
             ...stop,
             cruiseId: cruise.id,
             isCruiseStop: true,
             imagen: stop.imagen || cruise.imagen || cruise.buque?.imagen
         })))
         : [];
+
+    return { activeCruises, cruiseStops };
+}
+
+function renderSelectionFallback() {
+    const globeContainer = document.getElementById('globeViz');
+    if (!globeContainer) return;
+
+    const filteredCities = getFilteredCitiesForSelection();
+    const filteredCruises = getFilteredCruiseList();
+    const featuredCities = filteredCities.slice(0, 12);
+    const featuredCruises = filteredCruises.slice(0, 6);
+    const hasResults = featuredCities.length > 0 || featuredCruises.length > 0;
+
+    const cityCards = featuredCities.map(city => `
+        <button type="button" class="selection-fallback-card selection-fallback-card--city" data-city-id="${escapeHtml(city.id)}">
+            <img src="${assetUrl(city.imagen)}" alt="${escapeHtml(city.nombre)}">
+            <span class="selection-fallback-pill">${escapeHtml(cleanDisplayText(city.continente || 'Destino'))}</span>
+            <strong>${escapeHtml(city.nombre)}</strong>
+            <span>${escapeHtml(city.pais || 'Ciudad')}</span>
+        </button>
+    `).join('');
+
+    const cruiseCards = featuredCruises.map(cruise => {
+        const shipInfo = getCruiseShipInfo(cruise);
+        const route = getCruiseDisplayStops(cruise).map(stop => stop.nombre).filter(Boolean);
+        return `
+            <button type="button" class="selection-fallback-card selection-fallback-card--cruise" data-cruise-id="${escapeHtml(cruise.id)}">
+                <img src="${assetUrl(getCruiseShipPhoto(cruise) || getCruiseFallbackPhoto(cruise))}" alt="${escapeHtml(cruise.nombre)}">
+                <span class="selection-fallback-pill">Crucero</span>
+                <strong>${escapeHtml(cruise.nombre)}</strong>
+                <span>${escapeHtml(shipInfo.shipName)}</span>
+                <small>${escapeHtml(route.slice(0, 3).join(' - ') || 'Itinerario disponible')}</small>
+            </button>
+        `;
+    }).join('');
+
+    globeContainer.innerHTML = `
+        <div class="selection-fallback-shell">
+            <div class="fallback-globe" aria-hidden="true">
+                <div class="fallback-globe-map"></div>
+            </div>
+            <div class="selection-fallback-content">
+                <div class="selection-fallback-status">
+                    <strong>${hasResults ? 'Exploracion local activa' : 'Activa un filtro para empezar'}</strong>
+                    <span>${hasResults ? 'La portada sigue funcionando aunque el globo 3D no se haya cargado en local.' : 'No mostramos ciudades por defecto. En cuanto actives Continentes o Cruceros apareceran aqui.'}</span>
+                </div>
+                ${featuredCities.length ? `<div class="selection-fallback-group"><h3>Ciudades</h3><div class="selection-fallback-grid">${cityCards}</div></div>` : ''}
+                ${featuredCruises.length ? `<div class="selection-fallback-group"><h3>Cruceros</h3><div class="selection-fallback-grid">${cruiseCards}</div></div>` : ''}
+            </div>
+        </div>
+    `;
+
+    globeContainer.querySelectorAll('[data-city-id]').forEach(button => {
+        button.addEventListener('click', () => {
+            const city = state.cities.find(item => item.id === button.dataset.cityId);
+            if (city) selectCity(city);
+        });
+    });
+
+    globeContainer.querySelectorAll('[data-cruise-id]').forEach(button => {
+        button.addEventListener('click', () => {
+            const cruise = state.cruises.find(item => item.id === button.dataset.cruiseId);
+            if (cruise) selectCruise(cruise);
+        });
+    });
+}
+
+function refreshGlobeData() {
+    if (!state.globe) {
+        if (state.globeFallbackMode) renderSelectionFallback();
+        return;
+    }
+
+    const filteredCities = getFilteredCitiesForSelection();
+    const { activeCruises, cruiseStops } = getActiveCruisePoints();
     const stopCoords = new Set(cruiseStops.map(stop => `${Number(stop.lat).toFixed(4)},${Number(stop.lng).toFixed(4)}`));
     const displayPoints = [
         ...filteredCities.filter(city => !stopCoords.has(`${Number(city.lat).toFixed(4)},${Number(city.lng).toFixed(4)}`)),
@@ -1463,7 +1548,12 @@ function renderCruiseItinerary(cruise) {
 
 function getFilteredCruiseList() {
     if (!state.activeFilters.showCruises) return [];
-    if (!state.activeFilters.cruiseRegions.length) return [];
+    if (!state.activeFilters.cruiseRegions.length) {
+        return state.cruises
+            .slice()
+            .sort((a, b) => (b.puntuacion || 0) - (a.puntuacion || 0))
+            .slice(0, 10);
+    }
 
     const selectedRegions = state.activeFilters.cruiseRegions.map(normalizeCruiseRegion);
     const hasOthers = selectedRegions.includes(normalizeCruiseRegion('Otros'));
