@@ -3515,6 +3515,7 @@
     "lat": 35.6762,
     "lng": 139.6503,
     "imagen": "img/tokyo_hero.png",
+    "videoYoutubeId": "DyFGhHgsihA",
     "theme": {
       "primary": "#ef4444",
       "secondary": "#111827",
@@ -4270,6 +4271,7 @@
     "lat": 13.7563,
     "lng": 100.5018,
     "imagen": "img/bangkok_hero.png",
+    "videoYoutubeId": "VQZNT0FSHZo",
     "theme": {
       "primary": "#ff8c00",
       "secondary": "#ffd700",
