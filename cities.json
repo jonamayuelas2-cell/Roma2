@@ -2111,6 +2111,7 @@
     "lat": 30.0444,
     "lng": 31.2357,
     "imagen": "img/cairo_hero.png",
+    "videoYoutubeId": "b6WJbStyUg4",
     "theme": {
       "primary": "#c19a4a",
       "secondary": "#1f2933",
@@ -2812,6 +2813,7 @@
     "lat": -33.9249,
     "lng": 18.4241,
     "imagen": "img/capetown_hero.png",
+    "videoYoutubeId": "V8kus9BemwU",
     "theme": {
       "primary": "#20b2aa",
       "secondary": "#ffa500",
