@@ -7827,6 +7827,7 @@
     "lat": -33.8688,
     "lng": 151.2093,
     "imagen": "img/sydney_hero.png",
+    "videoYoutubeId": "hL2t9XlJguU",
     "theme": {
       "primary": "#0284c7",
       "secondary": "#f59e0b",
@@ -9238,6 +9239,7 @@
     "lat": -36.8485,
     "lng": 174.7633,
     "imagen": "img/auckland_hero.png",
+    "videoYoutubeId": "bsuX9Y58wZ4",
     "theme": {
       "primary": "#000000",
       "secondary": "#ffffff",
