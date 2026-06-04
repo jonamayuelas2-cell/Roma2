@@ -3442,3 +3442,268 @@ header {
 .marker-pin-featured:hover {
     box-shadow: 0 14px 34px rgba(0, 0, 0, 0.6);
 }
+
+/* ══════════════════════════════════════════════════════════════
+   PANEL TOGGLE — solo visible en móvil
+══════════════════════════════════════════════════════════════ */
+.panel-toggle-btn {
+    display: none;
+}
+
+/* ══════════════════════════════════════════════════════════════
+   RESPONSIVE — MÓVIL (≤ 768px)
+══════════════════════════════════════════════════════════════ */
+@media (max-width: 768px) {
+
+    /* ─ Panel de exploración: bottom sheet ─ */
+    .globe-controls-panel {
+        position: fixed;
+        top: auto !important;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        border-radius: 20px 20px 0 0;
+        max-height: 55vh;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+        animation: panelSlideUp 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+        padding-bottom: env(safe-area-inset-bottom, 8px);
+        z-index: 1200;
+    }
+
+    @keyframes panelSlideUp {
+        from { transform: translateY(100%); opacity: 0; }
+        to   { transform: translateY(0);    opacity: 1; }
+    }
+
+    /* Panel colapsado: solo muestra el header */
+    .globe-controls-panel.panel-collapsed .control-group,
+    .globe-controls-panel.panel-collapsed .control-divider {
+        display: none;
+    }
+
+    /* Drag handle y padding extra en el header */
+    .panel-header {
+        position: relative;
+        padding-top: 22px;
+        cursor: pointer;
+    }
+
+    .panel-header::before {
+        content: '';
+        position: absolute;
+        top: 8px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 36px;
+        height: 4px;
+        border-radius: 2px;
+        background: rgba(255, 255, 255, 0.3);
+    }
+
+    /* Botón toggle visible */
+    .panel-toggle-btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+        width: 26px;
+        height: 26px;
+        background: rgba(255, 255, 255, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 50%;
+        color: #fff;
+        font-size: 0.85rem;
+        cursor: pointer;
+        flex-shrink: 0;
+        transition: transform 0.3s ease;
+    }
+
+    .globe-controls-panel.panel-collapsed .panel-toggle-btn {
+        transform: rotate(180deg);
+    }
+
+    /* Cuando el panel de cruceros está activo, subir panel de exploración */
+    .city-selection.has-cruise-panel .globe-controls-panel {
+        bottom: 42vh;
+    }
+
+    /* ─ Globe overlay: más compacto ─ */
+    .globe-overlay {
+        top: 14px;
+        padding: 0 12px;
+    }
+
+    .selection-subtitle {
+        display: none;
+    }
+
+    .selection-stats {
+        gap: 5px;
+        margin-top: 8px;
+    }
+
+    .selection-stats span {
+        font-size: 0.68rem;
+        padding: 5px 8px;
+    }
+
+    /* ─ Header ─ */
+    .header-inner {
+        padding: 10px 12px;
+        gap: 6px;
+    }
+
+    .logo-sub {
+        display: none;
+    }
+
+    .tab-btn span:last-child {
+        display: none;
+    }
+
+    .tab-btn {
+        padding: 8px 10px;
+        min-width: 38px;
+    }
+
+    /* ─ Filtros ─ */
+    .filters-bar {
+        top: 58px;
+        padding: 10px 12px;
+    }
+
+    .filters-inner {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .search-box {
+        min-width: 0;
+        width: 100%;
+    }
+
+    .type-filters {
+        width: 100%;
+    }
+
+    .view-toggles {
+        align-self: flex-end;
+    }
+
+    /* ─ Hero ─ */
+    .hero {
+        min-height: 220px;
+        padding: 50px 16px;
+    }
+
+    /* ─ Places grid ─ */
+    #places-container {
+        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+        padding: 15px 12px;
+        gap: 14px;
+    }
+
+    .place-img-wrapper { height: 160px; }
+
+    .card-title { font-size: 1.1rem; }
+
+    #places-container.places-list-mode .place-card {
+        grid-template-columns: 100px 1fr;
+    }
+
+    #places-container.places-list-mode .place-img-wrapper {
+        height: 100%;
+        min-height: 100px;
+    }
+
+    /* ─ Modal: sheet from bottom ─ */
+    .place-modal {
+        padding: 0;
+        align-items: flex-end;
+    }
+
+    .place-modal-panel {
+        width: 100%;
+        border-radius: 20px 20px 0 0;
+        max-height: 90vh;
+    }
+
+    .modal-place-img { height: 200px; }
+
+    .modal-place-content { padding: 16px; }
+
+    .modal-place-content h2 { font-size: 1.5rem; }
+
+    /* ─ Mapa de ciudad ─ */
+    .city-map-section {
+        padding: 16px;
+        border-radius: 16px;
+        margin-top: 24px;
+    }
+
+    .city-explorer-map { height: 340px; }
+
+    /* ─ Meteorología ─ */
+    #weather-section { padding: 20px 12px; }
+
+    /* ─ Cruise detail ─ */
+    .cruise-header-premium { padding: 24px 12px; }
+
+    .cruise-stops-gallery {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 10px;
+    }
+
+    .cruise-main { padding: 0 12px; margin: 20px auto; }
+
+    .ship-summary-card dl {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* ══════════════════════════════════════════════════════════════
+   RESPONSIVE — MUY PEQUEÑO (≤ 480px)
+══════════════════════════════════════════════════════════════ */
+@media (max-width: 480px) {
+
+    /* Ocultar logo text: demasiado estrecho */
+    .logo-text { display: none; }
+
+    /* Stats de selección: sin espacio */
+    .selection-stats { display: none; }
+
+    /* Places: 2 columnas forzadas */
+    #places-container {
+        grid-template-columns: 1fr 1fr;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .place-img-wrapper { height: 130px; }
+
+    .card-content { padding: 10px; }
+
+    .card-title { font-size: 0.95rem; margin: 6px 0; }
+
+    .card-desc { display: none; }
+
+    /* Lista: 1 columna con imagen pequeña */
+    #places-container.places-list-mode {
+        grid-template-columns: 1fr;
+    }
+
+    #places-container.places-list-mode .place-card {
+        grid-template-columns: 80px 1fr;
+    }
+
+    #places-container.places-list-mode .place-img-wrapper {
+        height: 80px;
+        min-height: 80px;
+    }
+
+    .modal-place-img { height: 160px; }
+
+    .city-explorer-map { height: 280px; }
+}

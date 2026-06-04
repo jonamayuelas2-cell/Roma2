@@ -1590,6 +1590,7 @@ function updateCruiseList() {
         state.currentCruise = null;
     }
     panel.style.display = filteredCruises.length ? 'flex' : 'none';
+    document.getElementById('city-selection')?.classList.toggle('has-cruise-panel', filteredCruises.length > 0);
     container.innerHTML = '';
     container.scrollTop = 0;
 
@@ -1772,4 +1773,19 @@ function setupEventListeners() {
     updateCruiseList();
     refreshGlobeData();
     setActiveTab(state.activeTab || 'lugares');
+
+    const explorePanelToggle = document.getElementById('explore-panel-toggle');
+    const explorePanel = document.querySelector('.globe-controls-panel');
+    if (explorePanelToggle && explorePanel) {
+        if (window.matchMedia('(max-width: 768px)').matches) {
+            explorePanel.classList.add('panel-collapsed');
+        }
+        explorePanelToggle.addEventListener('click', (e) => {
+            e.stopPropagation();
+            explorePanel.classList.toggle('panel-collapsed');
+        });
+        document.getElementById('explore-panel-header')?.addEventListener('click', () => {
+            explorePanel.classList.toggle('panel-collapsed');
+        });
+    }
 }
