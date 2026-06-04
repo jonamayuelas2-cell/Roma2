@@ -10,3 +10,7 @@ Sigue sin verse foto  en detalle de crucero. Aparte, cuando una delas ciudades d
 **Tarea**: Generar grid de fotos para actividades de Venecia
 **Prompt Intentado (Cuota agotada)**: A beautiful photo grid collage of Venice, Italy, showing gondolas, canals, St Marks Square, and colorful Burano houses, high quality, travel magazine style, 4k resolution
 
+---
+**Fecha**: 2026-05-27
+**Tarea**: Compilar todos los prompts del proyecto
+**Prompt**: creame un prompt_completo.md con un detelle de todos los prompts ejecutados desde principio de proyecto 🚀

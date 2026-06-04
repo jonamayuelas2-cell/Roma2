@@ -38,3 +38,7 @@ Se ha realizado una intervención profunda en el núcleo de la aplicación para 
 - *Nota: la cuota de generaci�n de im�genes por IA est� agotada, por lo que se usaron las im�genes existentes y las faltantes se documentaron para el futuro.*
 
 Hay que revisar el filtro de lugares y el modo de visualizacion
+
+## [2026-05-27] Compilación Histórica de Prompts 📜
+- Creado el archivo de recopilación completo en `artefactos/prompt_completo.md` conteniendo el detalle completo e histórico de todos los prompts del proyecto desde el inicio. 🏛️✨
+- Registrado de manera individual el nuevo prompt `prompt08.md` y añadido en la bitácora `prompts/prompts.md`. 📝🚀

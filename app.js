@@ -209,6 +209,12 @@ function getCruiseDisplayStops(cruise) {
     return displayStops;
 }
 
+function getCruiseStopsForUI(cruise) {
+    const displayStops = getCruiseDisplayStops(cruise);
+    if (displayStops.length) return displayStops;
+    return getCruiseRoute(cruise);
+}
+
 function openCruiseCity(city, cruise) {
     if (!city || !cruise || state.isTransitioning) return;
     state.fromCruise = true;
@@ -622,15 +628,14 @@ function initGlobe() {
 }
 
 function getFilteredCitiesForSelection() {
-    if (!state.activeFilters.showCities) return [];
-    if (!state.activeFilters.continents.length) return state.cities;
+    if (!state.activeFilters.showCities || !state.activeFilters.continents.length) return [];
     return state.cities.filter(city => state.activeFilters.continents.includes(normalizeContinentName(city.continente)));
 }
 
 function getActiveCruisePoints() {
     const activeCruises = state.activeFilters.showCruises && state.currentCruise ? [state.currentCruise] : [];
     const cruiseStops = activeCruises.length > 0
-        ? activeCruises.flatMap(cruise => (cruise.paradas || cruise.ruta || []).map(stop => ({
+        ? activeCruises.flatMap(cruise => getCruiseStopsForUI(cruise).map(stop => ({
             ...stop,
             cruiseId: cruise.id,
             isCruiseStop: true,
@@ -750,7 +755,7 @@ function refreshGlobeData() {
 
     const cruisePaths = activeCruises.length > 0
         ? activeCruises.map(cruise => ({
-            path: (cruise.ruta || cruise.paradas || []).map(p => [p.lat, p.lng]),
+            path: getCruiseRoute(cruise).map(p => [p.lat, p.lng]),
             name: cruise.nombre
         })).filter(route => route.path.length > 1)
         : [];
@@ -1547,13 +1552,7 @@ function renderCruiseItinerary(cruise) {
 }
 
 function getFilteredCruiseList() {
-    if (!state.activeFilters.showCruises) return [];
-    if (!state.activeFilters.cruiseRegions.length) {
-        return state.cruises
-            .slice()
-            .sort((a, b) => (b.puntuacion || 0) - (a.puntuacion || 0))
-            .slice(0, 10);
-    }
+    if (!state.activeFilters.showCruises || !state.activeFilters.cruiseRegions.length) return [];
 
     const selectedRegions = state.activeFilters.cruiseRegions.map(normalizeCruiseRegion);
     const hasOthers = selectedRegions.includes(normalizeCruiseRegion('Otros'));
@@ -1595,7 +1594,7 @@ function updateCruiseList() {
     container.scrollTop = 0;
 
     filteredCruises.forEach((cruise, index) => {
-        const route = cruise.ruta || cruise.paradas || [];
+        const route = getCruiseStopsForUI(cruise);
         const origin = route[0]?.nombre || 'Origen';
         const destination = route[route.length - 1]?.nombre || 'Destino';
         const shipInfo = getCruiseShipInfo(cruise);
@@ -1726,12 +1725,10 @@ function setupEventListeners() {
 
     continentChecks.forEach(input => {
         input.addEventListener('change', () => {
-            if (!state.activeFilters.showCities && !input.checked) return;
-            if (input.checked && citiesToggle && !citiesToggle.checked) {
-                citiesToggle.checked = true;
-                state.activeFilters.showCities = true;
+            if (!state.activeFilters.showCities) {
+                input.checked = false;
+                return;
             }
-            if (input.checked) clearCruises();
             syncContinents();
             updateFilterVisuals();
             refreshGlobeData();
@@ -1757,12 +1754,10 @@ function setupEventListeners() {
 
     regionChecks.forEach(input => {
         input.addEventListener('change', () => {
-            if (!state.activeFilters.showCruises && !input.checked) return;
-            if (input.checked && cruiseToggle && !cruiseToggle.checked) {
-                cruiseToggle.checked = true;
-                state.activeFilters.showCruises = true;
+            if (!state.activeFilters.showCruises) {
+                input.checked = false;
+                return;
             }
-            if (input.checked) clearContinents();
             state.currentCruise = null;
             syncCruiseRegions();
             updateFilterVisuals();
