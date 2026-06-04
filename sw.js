@@ -1,9 +1,9 @@
-const CACHE_NAME = 'ciudades-del-mundo-v1.6.8-local-selection-fallback';
+const CACHE_NAME = 'ciudades-del-mundo-v1.7.0';
 const STATIC_ASSETS = [
   '/',
   '/index.html',
-  '/app.js?v=20260514-04',
-  '/style.css?v=20260514-04',
+  '/app.js?v=20260604-01',
+  '/style.css?v=20260604-01',
   '/cities.json',
   '/manifest.json',
   '/icons/icon-192.png',
