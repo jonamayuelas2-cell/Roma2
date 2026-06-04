@@ -1062,7 +1062,64 @@ function updateUIForCityDetails(city) {
         hero.style.backgroundImage = `url("${assetUrl(city.imagen)}")`;
     }
 
+    updateHeroVideo(city);
     updateBackButtonForContext();
+}
+
+function updateHeroVideo(city) {
+    const hero = document.getElementById('city-hero');
+    if (!hero) return;
+
+    hero.querySelector('.hero-video-widget')?.remove();
+    if (!city.videoYoutubeId) return;
+
+    const vid = city.videoYoutubeId;
+    const embedSrc = `https://www.youtube-nocookie.com/embed/${encodeURIComponent(vid)}?autoplay=1&rel=0`;
+
+    const widget = document.createElement('div');
+    widget.className = 'hero-video-widget';
+    widget.innerHTML = `
+        <div class="hero-video-thumb">
+            <img src="https://img.youtube.com/vi/${escapeHtml(vid)}/maxresdefault.jpg"
+                 alt="Vídeo de ${escapeHtml(city.nombre)}" loading="lazy">
+            <div class="hero-video-play-btn">
+                <div class="hero-video-play-circle">
+                    <svg viewBox="0 0 24 24" fill="white" width="28" height="28"><path d="M8 5v14l11-7z"/></svg>
+                </div>
+            </div>
+            <div class="hero-video-badge">🎬 Vídeo de la ciudad</div>
+        </div>
+        <div class="hero-video-frame" style="display:none">
+            <iframe frameborder="0" allow="autoplay; encrypted-media; fullscreen" allowfullscreen></iframe>
+            <button class="hero-video-close-btn" type="button">✕</button>
+        </div>
+    `;
+
+    const img = widget.querySelector('img');
+    img.onerror = () => {
+        img.src = `https://img.youtube.com/vi/${encodeURIComponent(vid)}/hqdefault.jpg`;
+        img.onerror = null;
+    };
+
+    const thumb = widget.querySelector('.hero-video-thumb');
+    const frame = widget.querySelector('.hero-video-frame');
+    const iframe = widget.querySelector('iframe');
+    const closeBtn = widget.querySelector('.hero-video-close-btn');
+
+    thumb.addEventListener('click', () => {
+        iframe.src = embedSrc;
+        thumb.style.display = 'none';
+        frame.style.display = 'block';
+    });
+
+    closeBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        iframe.src = '';
+        frame.style.display = 'none';
+        thumb.style.display = '';
+    });
+
+    hero.appendChild(widget);
 }
 
 function bindMainTabEvents() {
