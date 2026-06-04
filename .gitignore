@@ -14,3 +14,4 @@ build/
 
 # Antigravity specific (optional, but good to keep workspace clean)
 .gemini/
+node_modules/
