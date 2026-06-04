@@ -1,9 +1,9 @@
-const CACHE_NAME = 'ciudades-del-mundo-v1.7.0';
+const CACHE_NAME = 'ciudades-del-mundo-v1.7.1';
 const STATIC_ASSETS = [
   '/',
   '/index.html',
-  '/app.js?v=20260604-01',
-  '/style.css?v=20260604-01',
+  '/app.js?v=20260604-02',
+  '/style.css?v=20260604-02',
   '/cities.json',
   '/manifest.json',
   '/icons/icon-192.png',

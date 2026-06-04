@@ -625,6 +625,15 @@ function initGlobe() {
     window.triggerRefresh = refreshGlobeData;
     setTimeout(refreshGlobeData, 500);
     state.globe.pointOfView({ lat: 20, lng: 0, altitude: 2.5 }, 2000);
+
+    const onResize = () => {
+        if (state.globe && globeContainer.isConnected) {
+            state.globe
+                .width(globeContainer.clientWidth)
+                .height(globeContainer.clientHeight);
+        }
+    };
+    window.addEventListener('resize', onResize);
 }
 
 function getFilteredCitiesForSelection() {
