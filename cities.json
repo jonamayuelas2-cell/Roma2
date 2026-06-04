@@ -4969,6 +4969,7 @@
     "lat": 40.7128,
     "lng": -74.006,
     "imagen": "img/nyc_hero.png",
+    "videoYoutubeId": "4rVHjey2o1Y",
     "theme": {
       "primary": "#333333",
       "secondary": "#ffcc00",
@@ -5670,6 +5671,7 @@
     "lat": 19.4326,
     "lng": -99.1332,
     "imagen": "img/mexicocity_hero.png",
+    "videoYoutubeId": "f0HrdzrmrFk",
     "theme": {
       "primary": "#15803d",
       "secondary": "#dc2626",
@@ -6371,6 +6373,7 @@
     "lat": -22.9068,
     "lng": -43.1729,
     "imagen": "img/rio_hero.png",
+    "videoYoutubeId": "ObVPBkTyB5M",
     "theme": {
       "primary": "#16a34a",
       "secondary": "#facc15",
@@ -7126,6 +7129,7 @@
     "lat": -12.0464,
     "lng": -77.0428,
     "imagen": "img/lima_hero.png",
+    "videoYoutubeId": "WkYp-680_vI",
     "theme": {
       "primary": "#b45309",
       "secondary": "#0f766e",
@@ -10750,6 +10754,7 @@
     "lat": -34.6037,
     "lng": -58.3816,
     "imagen": "img/buenosaires_hero.png",
+    "videoYoutubeId": "3UUC3p0k4SE",
     "theme": {
       "primary": "#38bdf8",
       "secondary": "#facc15",
